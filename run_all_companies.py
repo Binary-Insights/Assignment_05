@@ -1,0 +1,196 @@
+#!/usr/bin/env python3
+"""
+Batch runner for experimental_framework.py
+
+Runs the RAG experimental framework for all 50 Forbes AI companies.
+
+Usage:
+    python run_all_companies.py
+    python run_all_companies.py --keyword-method yake
+    python run_all_companies.py --output data/custom_output --verbose
+"""
+
+import json
+import sys
+import subprocess
+from pathlib import Path
+from typing import List
+
+def load_company_slugs(seed_file: str = "data/forbes_ai50_seed.json") -> List[str]:
+    """Load all company names/slugs from the seed file."""
+    seed_path = Path(seed_file)
+    
+    if not seed_path.exists():
+        print(f"❌ Error: Seed file not found: {seed_path}")
+        sys.exit(1)
+    
+    with open(seed_path) as f:
+        companies = json.load(f)
+    
+    # Convert company names to slugs (lowercase, replace spaces with underscores)
+    slugs = [
+        c["company_name"].lower().replace(" ", "_").replace("-", "_")
+        for c in companies
+    ]
+    
+    return slugs
+
+
+def run_for_company(company_slug: str, extra_args: List[str] = None) -> bool:
+    """
+    Run experimental_framework.py for a single company.
+    
+    Args:
+        company_slug: Company slug (e.g., "world_labs")
+        extra_args: Additional command-line arguments to pass through
+    
+    Returns:
+        True if successful, False otherwise
+    """
+    cmd = [sys.executable, "src/rag/experimental_framework.py", company_slug]
+    
+    if extra_args:
+        cmd.extend(extra_args)
+    
+    print(f"\n{'='*80}")
+    print(f"🔄 Processing: {company_slug}")
+    print(f"{'='*80}")
+    print(f"Command: {' '.join(cmd)}\n")
+    
+    try:
+        result = subprocess.run(cmd, check=False)
+        if result.returncode == 0:
+            print(f"✅ {company_slug}: SUCCESS")
+            return True
+        else:
+            print(f"❌ {company_slug}: FAILED (exit code {result.returncode})")
+            return False
+    except Exception as e:
+        print(f"❌ {company_slug}: ERROR - {e}")
+        return False
+
+
+def main():
+    """Main batch processing loop."""
+    import argparse
+    
+    parser = argparse.ArgumentParser(
+        description="Batch run experimental_framework.py for all 50 companies",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python run_all_companies.py
+  python run_all_companies.py --verbose
+  python run_all_companies.py --keyword-method yake
+  python run_all_companies.py --output data/my_experiments --verbose
+  python run_all_companies.py --start-index 5  # Start from 6th company
+  python run_all_companies.py --limit 10       # Process only first 10
+        """
+    )
+    
+    parser.add_argument(
+        "-v", "--verbose",
+        action="store_true",
+        help="Enable verbose output"
+    )
+    
+    parser.add_argument(
+        "-o", "--output",
+        type=str,
+        default="data/rag_experiments",
+        help="Output directory for results (default: data/rag_experiments)"
+    )
+    
+    parser.add_argument(
+        "--keyword-method",
+        type=str,
+        choices=["tfidf", "yake", "keybert"],
+        default="tfidf",
+        help="Keyword extraction method (default: tfidf)"
+    )
+    
+    parser.add_argument(
+        "--num-keywords",
+        type=int,
+        default=5,
+        help="Number of keywords to extract per chunk (default: 5)"
+    )
+    
+    parser.add_argument(
+        "--start-index",
+        type=int,
+        default=0,
+        help="Start from this company index (0-based, default: 0)"
+    )
+    
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Limit to this many companies (default: all)"
+    )
+    
+    args = parser.parse_args()
+    
+    # Load company slugs
+    print("📋 Loading company list...")
+    slugs = load_company_slugs()
+    print(f"✅ Loaded {len(slugs)} companies\n")
+    
+    # Apply start-index and limit
+    if args.start_index > 0:
+        print(f"⏭️  Starting from index {args.start_index}")
+        slugs = slugs[args.start_index:]
+    
+    if args.limit:
+        print(f"⏱️  Limiting to {args.limit} companies")
+        slugs = slugs[:args.limit]
+    
+    print(f"🎯 Will process {len(slugs)} companies\n")
+    
+    # Build extra arguments
+    extra_args = [
+        "-o", args.output,
+        "--keyword-method", args.keyword_method,
+        "--num-keywords", str(args.num_keywords),
+    ]
+    
+    if args.verbose:
+        extra_args.append("--verbose")
+    
+    # Run for each company
+    results = {}
+    successful = 0
+    failed = 0
+    
+    for i, company_slug in enumerate(slugs, 1):
+        success = run_for_company(company_slug, extra_args)
+        results[company_slug] = success
+        
+        if success:
+            successful += 1
+        else:
+            failed += 1
+        
+        print(f"\n📊 Progress: {i}/{len(slugs)} ({successful} successful, {failed} failed)")
+    
+    # Print summary
+    print("\n" + "="*80)
+    print("BATCH PROCESSING SUMMARY")
+    print("="*80)
+    print(f"✅ Successful: {successful}/{len(slugs)}")
+    print(f"❌ Failed: {failed}/{len(slugs)}")
+    
+    if failed > 0:
+        print("\n❌ Failed companies:")
+        for company, success in results.items():
+            if not success:
+                print(f"  - {company}")
+    
+    print(f"\n✅ Results saved to: {args.output}")
+    
+    sys.exit(0 if failed == 0 else 1)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,86 @@
+# ==========================================
+#  Docker Ignore File for Assignment 04
+#  Keeps image light & builds fast
+# ==========================================
+
+# --- System / environment ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
+*.tmp
+*.bak
+*.DS_Store
+
+# --- Local virtual environments ---
+.venv/
+.venv_*/
+venv/
+env/
+ENV/
+*.venv
+lib64/
+
+# --- Airflow data & logs (mounted at runtime) ---
+data/airflow/
+logs/
+dags/__pycache__/
+
+# --- Raw and parsed data (handled via volume mounts or S3) ---
+data/raw/
+data/parsed/
+data/artifacts/
+data/output/
+data/tmp/
+
+# --- Cache directories ---
+home/airflow/.cache/
+artifacts/
+outputs/
+.parsed_cache/
+
+# --- DVC cache & state files ---
+.dvc/
+.dvcignore
+.dvc/cache/
+.dvc/tmp/
+.dvc/plots/
+
+# --- Git / version control ---
+.git/
+.gitignore
+.gitattributes
+.github/
+.gitmodules
+
+# --- Local editor / IDE files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Cloud / secrets / credentials ---
+*.env
+.env.*
+credentials.json
+aws_credentials/
+config/aws/
+secrets/
+*.pem
+*.key
+
+# --- Build artifacts ---
+dist/
+build/
+__build__/
+site/
+node_modules/
+package-lock.json
+yarn.lock
+
+# --- Test data & notebooks (optional) ---
+notebooks/
+tests/
+test_data/

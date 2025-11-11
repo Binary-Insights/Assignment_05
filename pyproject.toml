@@ -1,0 +1,33 @@
+[project]
+name = "pe-dashboard-ai50"
+version = "0.1.0"
+description = "Forbes AI 50 dashboard project"
+requires-python = ">=3.11"
+authors = [
+    { name = "Your Name", email = "your@email.com" }
+]
+dependencies = [
+    "fastapi==0.115.0",
+    "uvicorn==0.30.6",
+    "streamlit==1.38.0",
+    "pydantic==2.9.2",
+    "requests==2.32.3",
+    "beautifulsoup4==4.12.2",
+    "html2text==2024.2.26",
+    "lxml==5.3.0",
+    "selenium>=4.38.0",
+    "instructor>=1.12.0",
+    "langchain>=1.0.3",
+    "langchain-openai>=1.0.2",
+    "langchain-anthropic>=1.0.1",
+    "langchain-text-splitters>=1.0.0",
+    "tiktoken>=0.12.0",
+    "tqdm>=4.67.1",
+    # "qdrant-client>=1.15.1",
+    # "sentence-transformers>=2.2.2",
+    "numpy>=1.26.4",
+    "python-dotenv>=1.2.1",
+    "pinecone>=7.3.0",
+    "plotly>=6.4.0",
+    "linkedin-api>=2.2.0",
+]

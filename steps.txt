@@ -1,0 +1,556 @@
+# ========================================================
+# DEPENDENCY MANAGEMENT
+# ========================================================
+# Project uses three dependency files:
+#
+# 1. pyproject.toml (SOURCE OF TRUTH)
+#    - Declares all direct dependencies with version ranges
+#    - Example: langchain>=1.0.3, qdrant-client>=1.15.1
+#    - Update this when adding/removing packages
+#
+# 2. requirements.txt (LOCKED VERSIONS - for local deployment)
+#    - Auto-generated from pyproject.toml
+#    - Contains all transitive dependencies with exact versions
+#    - Use for reproducible local development
+#    - REGENERATE after updating pyproject.toml:
+#      uv pip compile pyproject.toml -o requirements.txt
+#
+# 3. docker/Dockerfile (CONTAINER RUNTIME)
+#    - Installs packages inside Docker container
+#    - Uses version ranges from pyproject.toml
+#    - Ensure Dockerfile packages match pyproject.toml versions
+#    - Updated: 2025-11-06 to sync with pyproject.toml
+#
+# WORKFLOW:
+#   Edit pyproject.toml
+#        ↓
+#   Run: uv pip compile pyproject.toml -o requirements.txt
+#        ↓
+#   Verify Dockerfile matches pyproject.toml
+#        ↓
+#   Rebuild Docker: docker-compose build
+#
+# ========================================================
+
+Lab 0:
+python src/discover/fetch_ai50.py
+output: data/forbes_ai50_seed.json
+
+Lab 1:
+python src/discover/discover_links.py
+python src/discover/discover_links.py -n 1
+python src/discover/discover_links.py --limit 5
+
+output: data/company_pages.json 
+data/company_pages_discovered.json 
+
+python src/discover/process_discovered_pages.py
+output: data/raw/<company_id>/...
+
+# To discover pages using llm rather than using traditional techniques
+
+python src/discover/llm_page_finder.py
+python src/discover/llm_page_finder.py --website "https://worldlabs.ai/" --page-type "careers"
+output: 
+{
+  "request": {
+    "website_url": "https://worldlabs.ai/",
+    "page_type": "careers",
+    "page_content_snippet": "World Labs"
+  },
+  "result": {
+    "page_type": "careers",
+    "discovered_url": "https://jobs.ashbyhq.com/worldlabs",
+    "confidence": 1.0,
+    "reasoning": "Original URL replaced with validated alternative. The URL follows the common pattern for careers pages, which is typically structured as '/careers'. Given the company name and the absence of static links, this is a logical assumption.",
+    "alternative_urls": [
+      "https://worldlabs.ai/careers",
+      "https://worldlabs.ai/hiring",
+      "https://jobs.ashbyhq.com/worldlabs",
+      "https://jobs.lever.co/worldlabs"
+    ]
+  }
+}
+
+
+
+
+# Basic run with verbose output:
+python src/rag/experimental_framework.py world_labs --verbose
+
+#  Custom output directory:
+python src/rag/experimental_framework.py world_labs --output data/my_results
+
+# Custom metadata and raw data paths:
+python src/rag/experimental_framework.py world_labs `
+  --metadata-base data/metadata `
+  --raw-base data/raw `
+  --output data/rag_experiments
+
+# All options combined: 
+python src/rag/experimental_framework.py world_labs `
+  --verbose `
+  --output data/rag_experiments `
+  --metadata-base data/metadata `
+  --raw-base data/raw
+
+
+# to ingest into qdrant vector database
+python src/rag/ingest_to_qdrant.py --input-dir data/rag_experiments --chunk-file chunks_recursive.json --collection rag_chunks
+
+# This is a api call to check if there is chunks in the 
+curl -s http://localhost:6333/collections/world_labs_chunks | python -m json.tool
+
+
+
+
+# Lab 4
+
+# 1. Start the API
+python src/backend/rag_search_api.py
+uvicorn src.backend.rag_search_api:app --reload
+
+# 2. In another terminal, run tests
+python src/backend/test_rag_search.py
+
+# 3. Access interactive docs
+# Open: http://localhost:8000/docs
+
+# Query "funding"
+curl -X POST http://localhost:8000/rag/search \
+  -H "Content-Type: application/json" \
+  -d '{"query": "funding", "top_k": 5}'
+
+# Query "spatial intelligence"
+curl -X POST http://localhost:8000/rag/search \
+  -H "Content-Type: application/json" \
+  -d '{"query": "spatial intelligence", "top_k": 5}'
+
+🎯 Key Features
+✅ Semantic similarity search using embeddings
+✅ Multiple embedding providers (OpenAI, HuggingFace)
+✅ Qdrant vector database integration
+✅ Type-safe Pydantic models
+✅ Comprehensive error handling
+✅ Rich metadata in results (keywords, source_file, page_type, etc.)
+✅ Interactive API documentation (docs)
+✅ Health check endpoints
+✅ Docker support
+✅ Extensive logging and debugging
+
+
+Enhanced Logging
+Added 7 emoji indicators for clarity:
+
+🔍 Qdrant search initiated
+🎯 Results ranked by similarity
+✅ Successful operation
+❌ Error/failure
+📊 Using Qdrant context
+⚠️ Fallback scenario
+⚙️ Strategy-driven action
+
+
+
+# Structured 
+# creates a json based on the pydantic model and stores in data/structured/{company_slug}.json
+python src/rag/structured_extraction.py --company-slug world_labs
+
+🔄 Workflow
+# Run ingestion first:
+python src/rag/ingest_to_pinecone.py --all
+
+New implementation with deduplication 
+
+# Standard run with deduplication
+python src/rag/ingest_to_pinecone.py --company-slug world_labs
+
+# Force fresh ingestion
+python src/rag/ingest_to_pinecone.py --company-slug world_labs --clear
+
+# Batch with optional clear
+python src/rag/ingest_to_pinecone.py --all --clear
+
+
+# Then run extraction:
+python src/rag/structured_extraction_search.py --all
+
+-----------------------------------------------------------
+# Extract specific company
+python src/rag/structured_extraction_search.py --company-slug world_labs
+
+# Extract all companies
+python src/rag/structured_extraction_search.py --all --verbose
+
+# With fallback strategy
+python src/rag/structured_extraction_search.py --all --fallback-strategy raw_only
+
+
+# Frontend
+streamlit run src/frontend/streamlit_app.py
+
+ENVIRONMENT=local streamlit run src/frontend/streamlit_app.py
+
+-------
+Debug 
+
+Step 1: 
+python src/discover/debug_links.py 2>&1 | grep -v "InsecureRequestWarning"
+
+  warnings.warn(
+  warnings.warn(
+Fetching: https://worldlabs.ai/
+Status: 200
+Content length: 12996
+
+Total <a> tags found: 0
+
+First 20 links:
+
+--- FILTERING FOR CAREER/JOB LINKS ---
+
+
+Step 2: 
+python src/discover/debug_html.py 2>&1 | grep -v "InsecureRequestWarning" | head -80
+
+
+docker-compose exec fastapi python src/backend/rag_search_api.py
+
+
+
+# Get into FastAPI container
+docker exec -it pe-dashboard-api /bin/bash
+
+# Get into Streamlit container
+docker exec -it pe-dashboard-ui /bin/bash
+
+# Or use sh if bash is not available
+docker exec -it pe-dashboard-api /bin/sh
+docker exec -it pe-dashboard-ui /bin/sh
+
+
+python src/evals/eval_runner.py --company world-labs --pipeline rag
+
+1. Check the running container:
+docker-compose exec airflow-webserver airflow version
+
+2. Check the logs:
+docker-compose logs airflow-init | grep "Airflow version"
+
+
+# To run evals 
+python src/evals/eval_runner.py --company abridge --pipeline structured --force 
+python src/evals/eval_runner.py --batch
+
+
+
+
+(base) PS C:\Users\enigm\OneDrive\Documents\NortheasternAssignments\09_BigDataIntelAnlytics\Assignments\Assignment_04\docker> docker-compose logs airflow-webserver 2>&1 | grep -i "password for user"
+
+docker-compose logs airflow-webserver 2>&1 | grep -i "password for user"
+
+assignment04-airflow-webserver  | Simple auth manager | Password for user 'admin': 4hNFwKSbTFqxnV5v
+
+docker-compose exec airflow-webserver python /app/src/dags/eval_runner_dag.py
+
+docker-compose logs airflow-scheduler 2>&1 | tail -50
+
+docker-compose exec airflow-webserver airflow dags list
+------------------
+
+uv commands 
+
+# After editing pyproject.toml, regenerate requirements.txt:
+uv pip compile pyproject.toml -o requirements.txt
+
+docker system prune -f
+
+---------
+dvc initialization:
+
+uv pip install dvc
+dvc init          
+aws configure      
+aws configure list   
+aws s3 ls         
+uv pip install "dvc[s3]"
+vc remote add -d dvc-assignment-04 s3://dvc-assignment-04/assignment_04
+dvc remote list   
+dvc pull
+
+for push:
+
+dvc add <folder/file_name>  (eg:data)
+#Commit the changes to Git not to track the files inside dvc
+git add data.dvc .gitignore
+git commit -m "Track data file with DVC"
+git push
+
+Push the actual data to your DVC remote storage (e.g., S3):
+dvc push
+
+in order to track the files in both dvc and .gitignore 
+/data/*
+!/data/*.dvc
+!/data/**/.dvc
+!/data/.dvc
+
+
+# World Labs example from the code:
+
+Structured Pipeline:
+  - Factual Accuracy:      3
+  - Schema Compliance:     2
+  - Provenance Quality:    2
+  - Hallucination Detect:  2
+  - Readability:           1
+  - MRR Score:             0.95
+
+RAG Pipeline:
+  - Factual Accuracy:      2     ❌ loses to 3
+  - Schema Compliance:     2     🟡 tie with 2
+  - Provenance Quality:    1     ❌ loses to 2
+  - Hallucination Detect:  1     ❌ loses to 2
+  - Readability:           1     🟡 tie with 1
+  - MRR Score:             0.75  ❌ loses to 0.95
+
+Result:
+  Winners: {
+    "factual_accuracy": "structured",
+    "schema_compliance": "tie",
+    "provenance_quality": "structured",
+    "hallucination_detection": "structured",
+    "readability": "tie",
+    "mrr_score": "structured"
+  }
+
+Overall Score:
+  - Structured Total: (3+2+2+2+1+0.95*2) = 13.9/14
+  - RAG Total: (2+2+1+1+1+0.75*2) = 8.5/14
+
+
+
+
+
+
+# RAG pipeline approach 
+
+  Attempt 1: Fetch top_k * 2 results
+  ↓ Filter by company_slug
+  ↓ Got < top_k? 
+    ├─ Yes + fetched fewer items than requested → STOP (company has limited data)
+    └─ Yes + fetched full batch → Try next attempt
+
+Attempt 2: Fetch top_k * 3 results
+  ↓ Same filtering & checks
+  
+... up to 5 attempts maximum
+
+
+# llm based evaluation 
+
+python src/evals/result_evaluator.py --company world-labs
+output
+results_llm_eval.json
+
+python src/evals/result_evaluator.py --batch
+output
+results_llm_eval.json
+
+
+
+# Show statistics without deleting
+python src/rag/delete_pinecone_records.py --stats
+
+# List all namespaces
+python src/rag/delete_pinecone_records.py --list-namespaces
+
+# Delete all records in default namespace (with confirmation prompt)
+python src/rag/delete_pinecone_records.py --namespace default
+
+# Delete all records from ALL namespaces
+python src/rag/delete_pinecone_records.py --all-namespaces
+
+# Skip confirmation prompt (use with caution!)
+python src/rag/delete_pinecone_records.py --namespace default --skip-confirmation
+
+
+
+--------------------------------------------------------------------------------------------------
+Great question! This is a common problem in vector database ingestion. Let me explain the issue and the solutions:
+
+The Problem
+When you run ingest_to_pinecone.py --company-slug world_labs multiple times:
+
+First run: 100 chunks created → Inserted into Pinecone with IDs like world_labs_blog_1_abc123, world_labs_blog_2_def456, etc.
+Second run: The same 100 chunks are created again → Duplicate vectors inserted with potentially different IDs or the same IDs overwriting the previous ones
+This leads to:
+
+Data duplication (same content indexed twice)
+Vector database bloat (wasted storage and compute)
+Skewed search results (same chunks appearing multiple times in results)
+Inconsistent metadata (if anything changed between runs)
+Solutions
+Solution 1: Delete-Before-Reingest (Simple)
+How it works:
+
+Before ingesting a company, delete all existing vectors for that company from Pinecone
+Then insert the new chunks fresh
+Pros:
+
+Simple to implement
+Guarantees no duplicates
+Good for small datasets
+Cons:
+
+Temporary downtime (brief period with no vectors for that company)
+Loses any manual edits or metadata updates
+Less efficient for large datasets
+Implementation approach:
+
+Solution 2: Idempotent Ingestion (Better)
+How it works:
+
+Use deterministic vector IDs based on content hash
+Check if vector already exists before upserting
+Only insert new or modified chunks
+Pros:
+
+No duplicates even on multiple runs
+Safe to run multiple times
+Supports incremental updates
+No downtime
+Cons:
+
+More complex implementation
+Requires tracking of what's already indexed
+Implementation approach:
+
+Solution 3: Namespace + Versioning (Best for Production)
+How it works:
+
+Use Pinecone namespaces to separate versions
+Keep namespace_v1, namespace_v2, etc.
+Switch to new namespace when ingestion completes successfully
+Delete old namespace after verification
+Pros:
+
+Zero downtime during ingestion
+Easy rollback if something goes wrong
+Can verify before switching
+No duplicates
+Cons:
+
+More complex orchestration
+Requires more storage temporarily
+Implementation approach:
+
+Solution 4: Deduplication During Ingestion (Smart)
+How it works:
+
+Before inserting, check if vector already exists in Pinecone
+Query by metadata (company_slug + page_type + chunk_index)
+Only upsert vectors that don't already exist
+Pros:
+
+Handles partial reruns well
+Good for incremental updates
+No data loss
+Cons:
+
+Slower (requires queries for each chunk)
+More API calls to Pinecone
+Implementation approach:
+
+
+
+My Recommendation for Your Use Case
+Use Solution 2 + Solution 1 combined:
+
+Primary approach (Idempotent): Use content-hash-based deterministic IDs
+
+If you run ingestion again, same chunks get same IDs
+Pinecone's upsert operation will replace the old vector with the same ID
+No duplicates! You get deterministic behavior
+Safety net (Delete-Before): Add optional --clear flag
+
+python [ingest_to_pinecone.py](http://_vscodecontentref_/0) --company-slug world_labs --clear
+Explicitly deletes all vectors for that company first
+Use this when you want a fresh start
+
+
+
+Current Issue:
+Every run generates a random UUID in the vector ID: world_labs_blog_1_abc123
+This means even identical chunks get different IDs on re-runs
+Pinecone treats them as new vectors → duplicates
+Proposed Solution with Content Hash:
+Yes, the implementation would work like this:
+
+Run 1:
+  Chunk: "World Labs is an AI company..."
+  Hash: sha256(chunk) = "f7a2b1c9..."
+  Vector ID: "world_labs_blog_f7a2b1c9"  ← Deterministic (always same for same content)
+  → Inserted to Pinecone
+
+Run 2 (same file):
+  Chunk: "World Labs is an AI company..."  (identical)
+  Hash: sha256(chunk) = "f7a2b1c9..."  ← Same hash!
+  Vector ID: "world_labs_blog_f7a2b1c9"  ← Same ID!
+  → Pinecone's upsert replaces the old one (no duplicate)
+
+Run 3 (file updated):
+  Chunk: "World Labs is an AI company focused on spatial intelligence..."  (changed)
+  Hash: sha256(chunk) = "a3d5e8f2..."  ← Different hash!
+  Vector ID: "world_labs_blog_a3d5e8f2"  ← Different ID!
+  → Inserted as new vector (change tracked)
+
+
+
+
+
+
+
+--------------------------
+Summary of Changes to process_pages_dag.py
+I've successfully rewritten process_pages_dag.py to follow the same orchestration pattern as eval_runner_dag.py. Here are the key improvements:
+
+Architecture Changes
+
+1. Three-Task Pattern (matching eval_runner_dag.py)
+Task 1: load_companies - Loads companies from discovered pages file
+Task 2: Dynamic company processing tasks - One task per company
+Task 3: verify_processing_complete - Post-processing validation
+
+2. Dynamic Task Generation
+Previously: Single monolithic task processing all companies
+Now: Individual task per company from company_pages_discovered.json
+Each company gets its own task ID: process_{company_slug}
+
+3. Configuration Structure
+Added DISCOVERED_PAGES_FILE configuration
+Added PROCESS_SCRIPT configuration
+Clean separation of concerns with path management
+
+4. New Functions
+load_companies_from_discovered_pages() - Dynamically loads company list
+process_company_pages(company_slug) - Processes a single company with:
+Per-company command execution with --company flag
+10-minute timeout per company
+Proper error handling and logging
+verify_processing_complete() - Post-processing verification task
+
+5. Improved Error Handling
+Graceful handling of missing files
+Per-task retry logic (2 retries with 5-minute delay)
+Per-task execution timeout (20 minutes)
+trigger_rule="all_done" allows verification even if tasks fail
+6. Task Dependencies
+Benefits
+✅ Scalability: Automatically scales to number of companies in discovered pages
+✅ Parallelization: Companies process in parallel (Airflow's default behavior)
+✅ Consistency: Matches eval_runner_dag.py pattern for maintainability
+✅ Resilience: Per-task retries and error handling
+✅ Observability: Detailed logging at each stage
+✅ Flexibility: Easy to modify company selection or processing logic
+The DAG now follows Airflow best practices with dynamic task generation and proper orchestration!
