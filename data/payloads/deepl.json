@@ -1,0 +1,403 @@
+{
+  "company_record": {
+    "company_id": "deepl",
+    "legal_name": "DeepL",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "DeepL works with leading organizations around the world to transform the way they communicate, grow, and get things done."
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "DeepL is built on bold, forward-thinking innovation."
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "At DeepL, we’re on a mission to build intelligent, trusted AI that helps organizations achieve their most important goals."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "deepl",
+      "occurred_on": "2025-11-06",
+      "event_type": "product_release",
+      "title": "DeepL Dialogues 2025 Highlights",
+      "description": "Discover the highlights from DeepL Dialogues 2025, where visionary speakers explored 'Future Fluency'.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.deepl.com/blog",
+          "crawled_at": "2025-11-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "deepl",
+      "occurred_on": "2025-10-03",
+      "event_type": "regulatory",
+      "title": "DeepL’s C5 Type 2 Attestation",
+      "description": "DeepL's C5 Type 2 attestation enhances data security for organizations in regulated industries.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.deepl.com/blog",
+          "crawled_at": "2025-10-03",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "deepl",
+      "as_of": "2023-10-25",
+      "headcount_total": 1000,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "DeepL Translator",
+        "DeepL Write",
+        "DeepL for iPhone",
+        "DeepL for Windows",
+        "DeepL Chrome extension",
+        "DeepL for Microsoft Outlook",
+        "DeepL for Microsoft Word",
+        "DeepL for Microsoft Powerpoint",
+        "DeepL for Google Workspace",
+        "DeepL for Mac",
+        "DeepL Firefox extension",
+        "DeepL Edge extension",
+        "DeepL for iPad"
+      ],
+      "geo_presence": [
+        "multiple countries",
+        "multiple continents"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.deepl.com",
+          "crawled_at": "2023-10-25",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "deepl_translator",
+      "company_id": "deepl",
+      "name": "DeepL Translator",
+      "description": "Get human-like, natural-sounding translations in over 30 languages. Translate securely, efficiently, and accurately.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "deepl_write",
+      "company_id": "deepl",
+      "name": "DeepL Write",
+      "description": "Enhance your content with our multilingual AI-powered writing assistant. Enhance your writing and adapt to your audience.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "deepl_agent",
+      "company_id": "deepl",
+      "name": "DeepL Agent",
+      "description": "Automate routine tasks and work smarter with a secure AI assistant.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "deepl_voice",
+      "company_id": "deepl",
+      "name": "DeepL Voice",
+      "description": "Converse across languages.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "deepl_api",
+      "company_id": "deepl",
+      "name": "DeepL API",
+      "description": "Secure and scalable AI translation for enterprises.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "jaroslaw-kutylowski",
+      "company_id": "deepl",
+      "name": "Jaroslaw Kutylowski",
+      "role": "Chief Executive Officer",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": "https://www.linkedin.com/",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2025-10-22",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "sally-sourbron",
+      "company_id": "deepl",
+      "name": "Sally Sourbron",
+      "role": "Chief People Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": "https://www.linkedin.com/",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2025-10-22",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "david-parry-jones",
+      "company_id": "deepl",
+      "name": "David Parry-Jones",
+      "role": "Chief Revenue Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": "https://www.linkedin.com/",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2025-10-22",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "sebastian-enderlein",
+      "company_id": "deepl",
+      "name": "Sebastian Enderlein",
+      "role": "Chief Technical Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2025-10-22",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "goncalo-gaiolas",
+      "company_id": "deepl",
+      "name": "Gonçalo Gaiolas",
+      "role": "Chief Product Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog]",
+          "crawled_at": "2025-10-22",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "stefan-mesken",
+      "company_id": "deepl",
+      "name": "Stefan Mesken",
+      "role": "Chief Scientist",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": "https://www.linkedin.com/",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2025-10-22",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "martino-cadoni",
+      "company_id": "deepl",
+      "name": "Martino Cadoni",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": "https://www.linkedin.com/",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2025-10-22",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "deepl",
+      "as_of": "2023-10-10",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.deepl.com/press",
+          "crawled_at": "2023-10-10",
+          "snippet": "Further information about DeepL and our history can be found on our press page."
+        },
+        {
+          "source_url": "https://www.deepl.com/about",
+          "crawled_at": "2023-10-10",
+          "snippet": "DeepL is built on bold, forward-thinking innovation. From becoming the first company in Europe to deploy NVIDIA’s DGX SuperPOD with DGX GB200 systems."
+        },
+        {
+          "source_url": "https://www.deepl.com/about",
+          "crawled_at": "2023-10-10",
+          "snippet": "Trusted by more than 200,000 business customers worldwide, our AI solutions combine precision, security, and speed."
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:22:39.743198",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

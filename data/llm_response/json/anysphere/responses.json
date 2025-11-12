@@ -1,0 +1,73 @@
+{
+  "company_slug": "anysphere",
+  "structured": {
+    "company_name": "Anysphere",
+    "company_slug": "anysphere",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T22:59:48.121425Z",
+    "markdown_file": "markdown/anysphere/structured.md",
+    "content": "## Company Overview\nAnysphere, Inc. is a private AI startup known for its product, Cursor, which is designed to enhance software development processes. The company claims that Cursor is a powerful and customizable tool that helps standardize engineering teams on the same tools and best practices, aiming to catch real bugs and security issues before they reach production. The company is reportedly used by major enterprises such as Salesforce, NVIDIA, and PwC to accelerate product velocity and build durable software.\n\n## Business Model and GTM\nThe company states that its product, Cursor, is the best way to build software, suggesting a focus on enterprise clients who require robust and customizable software development tools. The go-to-market strategy appears to target large enterprises, as evidenced by its reported use by companies like Salesforce, NVIDIA, and PwC.\n\n## Funding & Investor Profile\nNot disclosed.\n\n## Growth Momentum\nAnysphere's product, Cursor, is reportedly used by tens of thousands of enterprises, indicating significant adoption and growth momentum within the enterprise software development market.\n\n## Visibility & Market Sentiment\nThe company has limited visibility and market presence data available. There is one mention, but details are not disclosed.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nThe company appears to be positioned well within the enterprise software development market, with its product being adopted by major enterprises. However, specific future plans or strategic directions are not disclosed.\n\n## Disclosure Gaps\n- Specific funding and investor information is not disclosed.\n- Detailed information on leadership roles and responsibilities is not provided.\n- Exact dates for product releases are unknown.\n- Risks and challenges faced by the company are not disclosed.\n- Market sentiment and broader visibility details are limited."
+  },
+  "rag": {
+    "company_name": "Anysphere",
+    "company_slug": "anysphere",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:02:51.801413Z",
+    "markdown_file": "markdown/anysphere/rag.md",
+    "content": "## Company Overview\n\nAnysphere, Inc. is a private company that operates in the AI sector. The company is SOC 2 Certified, indicating a commitment to maintaining high standards of data security and privacy. Anysphere provides its services in multiple languages, including English, Simplified Chinese, Japanese, and Traditional Chinese.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nAnysphere maintains a presence on platforms such as LinkedIn and YouTube, which suggests an effort to engage with a professional audience and share content related to its operations and offerings.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\nThe provided context lacks specific details on Anysphere's business model, go-to-market strategy, funding history, investor profile, growth metrics, specific risks and challenges, and future outlook.",
+    "context_results": [
+      {
+        "id": "anysphere_careers_7648a062",
+        "similarity_score": 0.345436096,
+        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "anysphere",
+          "content_hash": "7648a062",
+          "indexed_at": "2025-11-11T20:35:41.458162",
+          "page_type": "careers",
+          "source_file": "data/raw/anysphere/careers/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_blog_7648a062",
+        "similarity_score": 0.345253,
+        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "anysphere",
+          "content_hash": "7648a062",
+          "indexed_at": "2025-11-11T04:48:58.501615",
+          "page_type": "blog",
+          "source_file": "data/raw/anysphere/blog/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_about_7648a062",
+        "similarity_score": 0.345123291,
+        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "anysphere",
+          "content_hash": "7648a062",
+          "indexed_at": "2025-11-11T04:48:58.500684",
+          "page_type": "about",
+          "source_file": "data/raw/anysphere/about/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_product_7648a062",
+        "similarity_score": 0.345081329,
+        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "anysphere",
+          "content_hash": "7648a062",
+          "indexed_at": "2025-11-11T04:48:58.503625",
+          "page_type": "product",
+          "source_file": "data/raw/anysphere/product/text.txt"
+        }
+      }
+    ]
+  }
+}

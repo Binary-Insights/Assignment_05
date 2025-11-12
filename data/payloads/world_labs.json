@@ -1,0 +1,295 @@
+{
+  "company_record": {
+    "company_id": "world-labs",
+    "legal_name": "WORLD LABS TECHNOLOGIES",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": null,
+    "categories": [
+      "Artificial Intelligence"
+    ],
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "© 2024 WORLD LABS TECHNOLOGIES San Francisco, CA"
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-06",
+        "snippet": "© 2024 WORLD LABS TECHNOLOGIES San Francisco, CA"
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-06",
+        "snippet": "World Labs HQ • San Francisco Office (HQ) • Full time"
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-06",
+        "snippet": "At World Labs, our mission is to revolutionize artificial intelligence by developing Large World Models"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "world_labs",
+      "occurred_on": "2024-12-02",
+      "event_type": "product_release",
+      "title": "Generating Worlds",
+      "description": "Sharing our first step towards spatial intelligence: an AI system that generates 3D worlds from a single image.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://worldlabs.com/blog/dec-2-2024-generating-worlds",
+          "crawled_at": "2024-12-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "world_labs",
+      "occurred_on": "2025-10-16",
+      "event_type": "product_release",
+      "title": "RTFM: A Real-Time Frame Model",
+      "description": "A research preview of RTFM, a new generative world model that generates video in real-time as you interact with it.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://worldlabs.com/blog/oct-16-2025-rtfm",
+          "crawled_at": "2025-10-16",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "world_labs",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "World Labs Funding",
+      "description": "World Labs raised more than $230M in total funding led by Martin Casado and Sarah Wang of Andreessen Horowitz.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 230000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://worldlabs.com/about",
+          "crawled_at": "2024-01-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "world_labs",
+      "as_of": "2023-10-07",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 7,
+      "engineering_openings": 7,
+      "sales_openings": 0,
+      "hiring_focus": [
+        "3D Reconstruction and Rendering",
+        "Machine Learning & Systems",
+        "Generative Modeling",
+        "3D"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Large World Models"
+      ],
+      "geo_presence": [
+        "San Francisco, CA"
+      ],
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] World Labs Jobs",
+          "crawled_at": "2023-10-07",
+          "snippet": "At World Labs, our mission is to revolutionize artificial intelligence by developing Large World Models, taking AI beyond language and 2D visuals into the realm of complex 3D environments, both virtual and real."
+        },
+        {
+          "source_url": "[careers] World Labs HQ • San Francisco Office (HQ) • Full time",
+          "crawled_at": "2023-10-07",
+          "snippet": "Research Scientist – 3D\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Scientist – Generative Modeling\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nSenior Product Engineer"
+        },
+        {
+          "source_url": "[about] World Labs was founded by visionary AI pioneer",
+          "crawled_at": "2023-10-07",
+          "snippet": "We are a spatial intelligence company building Large World Models to perceive, generate, and interact with the 3D world."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "world_labs",
+      "name": "Large World Models",
+      "description": "Spatial intelligence AI models to perceive, generate, and interact with the 3D world.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://worldlabs.com/about",
+          "crawled_at": "2024-12-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "world_labs",
+      "name": "RTFM: A Real-Time Frame Model",
+      "description": "A new generative world model that generates video in real-time as you interact.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://worldlabs.com/blog",
+          "crawled_at": "2025-10-16",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "fei-fei-li",
+      "company_id": "world_labs",
+      "name": "Fei-Fei Li",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/about",
+          "crawled_at": "2024-01-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "justin-johnson",
+      "company_id": "world_labs",
+      "name": "Justin Johnson",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/about",
+          "crawled_at": "2024-01-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "christoph-lassner",
+      "company_id": "world_labs",
+      "name": "Christoph Lassner",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/about",
+          "crawled_at": "2024-01-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "ben-mildenhall",
+      "company_id": "world_labs",
+      "name": "Ben Mildenhall",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://example.com/about",
+          "crawled_at": "2024-01-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "world_labs",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:46:55.098819",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

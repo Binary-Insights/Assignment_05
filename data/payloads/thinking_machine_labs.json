@@ -1,0 +1,210 @@
+{
+  "company_record": {
+    "company_id": "thinking_machine_labs",
+    "legal_name": "Thinking Machines Lab",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": null,
+    "hq_country": "USA",
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-27",
+        "snippet": "Thinking Machines Lab is an artificial intelligence research and product company."
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-27",
+        "snippet": "San Francisco"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "thinking_machine_labs",
+      "occurred_on": "2025-11-07",
+      "event_type": "product_release",
+      "title": "Tinker: Call for Community Projects",
+      "description": "Thinking Machines Lab announced a call for community projects for their Tinker platform.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Connectionism - Thinking Machines Lab",
+          "crawled_at": "2025-11-07",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "thinking_machine_labs",
+      "occurred_on": "2025-10-29",
+      "event_type": "product_release",
+      "title": "Announcing Tinker",
+      "description": "Thinking Machines Lab announced the launch of Tinker, a training API for researchers and developers.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Connectionism - Thinking Machines Lab",
+          "crawled_at": "2025-10-29",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "thinking_machine_labs",
+      "as_of": "2023-11-20",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 3,
+      "engineering_openings": 2,
+      "sales_openings": 0,
+      "hiring_focus": [
+        "Software Engineer, Product",
+        "Software Engineer, Infrastructure Generalist",
+        "Technical Recruiter"
+      ],
+      "pricing_tiers": [
+        "Tinker uses a pricing plan that reflects compute usage"
+      ],
+      "active_products": [
+        "Tinker",
+        "TinkerToy Computer"
+      ],
+      "geo_presence": [
+        "San Francisco"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-11-20",
+          "snippet": "Follow us on X at @thinkymachines for updates or apply directly below. Software Engineer, Product San Francisco Software Engineer, Infrastructure Generalist San Francisco Technical Recruiter San Francisco"
+        },
+        {
+          "source_url": "[product]",
+          "crawled_at": "2023-11-20",
+          "snippet": "Tinker uses a pricing plan that reflects compute usage."
+        },
+        {
+          "source_url": "[product]",
+          "crawled_at": "2023-11-20",
+          "snippet": "Tinker - Thinking Machines Lab THINKING MACHINES Tinker Blog Join us Home Tinker Blog Join us TinkerToy Computer invented by Daniel Hillis and Brian Silverman Tinker is a training API for researchers Control every aspect of model training and fine-tu"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "tinker",
+      "company_id": "thinking_machine_labs",
+      "name": "Tinker",
+      "description": "Tinker is a flexible API for efficiently fine-tuning open source models with LoRA. It's designed for researchers and developers who want flexibility and full control of their data and algorithms. Tinker lets researchers focus on datasets, algorithms, and environments without the complexities of compute and infrastructure.",
+      "pricing_model": "usage",
+      "pricing_tiers_public": [
+        "Llama-3.2-1B: $0.03 Prefill, $0.09 Sample, $0.09 Train",
+        "Llama-3.2-3B: $0.06 Prefill, $0.18 Sample, $0.18 Train",
+        "Llama-3.1-8B: $0.13 Prefill, $0.40 Sample, $0.40 Train",
+        "Llama-3.1-70B: $1.05 Prefill, $3.16 Sample, $3.16 Train",
+        "DeepSeek-V3.1: $1.13 Prefill, $2.81 Sample, $3.38 Train",
+        "GPT-OSS-120B: $0.18 Prefill, $0.44 Sample, $0.52 Train",
+        "GPT-OSS-20B: $0.12 Prefill, $0.30 Sample, $0.36 Train"
+      ],
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-27",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "john-schulman",
+      "company_id": "thinking_machine_labs",
+      "name": "John Schulman",
+      "role": "Collaboration",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] ·\nOct 27\nOct 1\nAnnouncing Tinker\nThinking Machines Lab\n·\nOct 1\nSep 29\nLoRA Without Regret\nJohn Schulman in collaboration with others at Thinking Machines\n·\nSep 29\nSep 26\nModular Manifolds\nJeremy Bernstein\n·\nSep 26\nSep 10\nDefeating Nondeterminism in L",
+          "crawled_at": "2023-11-27",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "jeremy-bernstein",
+      "company_id": "thinking_machine_labs",
+      "name": "Jeremy Bernstein",
+      "role": "Contributor",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] ·\nOct 27\nOct 1\nAnnouncing Tinker\nThinking Machines Lab\n·\nOct 1\nSep 29\nLoRA Without Regret\nJohn Schulman in collaboration with others at Thinking Machines\n·\nSep 29\nSep 26\nModular Manifolds\nJeremy Bernstein\n·\nSep 26\nSep 10\nDefeating Nondeterminism in L",
+          "crawled_at": "2023-11-27",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "thinking_machine_labs",
+      "as_of": "2023-11-29",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:43:42.172713",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

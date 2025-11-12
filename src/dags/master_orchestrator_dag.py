@@ -57,7 +57,7 @@ default_args = {
 with DAG(
     dag_id="master_orchestrator_dag",
     description="Master orchestrator for AI50 company data processing pipeline",
-    schedule_interval=None,  # Manual trigger only
+    schedule_interval="0 0 * * *",  # Daily run at midnight UTC
     start_date=datetime(2025, 11, 1),
     catchup=False,
     tags=["ai50", "orchestration", "master"],

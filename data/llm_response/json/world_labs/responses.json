@@ -1,0 +1,138 @@
+{
+  "company_slug": "world_labs",
+  "structured": {
+    "company_name": "World Labs",
+    "company_slug": "world-labs",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T23:01:54.392353Z",
+    "markdown_file": "markdown/world_labs/structured.md",
+    "content": "## Company Overview\n\nWORLD LABS TECHNOLOGIES, headquartered in San Francisco, CA, operates in the Artificial Intelligence sector. The company is focused on revolutionizing AI by developing Large World Models, which are designed to enhance spatial intelligence and interaction with 3D environments.\n\n## Business Model and GTM\n\nThe company states its mission is to revolutionize artificial intelligence through the development of Large World Models. These models are designed to perceive, generate, and interact with the 3D world. Their product lineup includes:\n- **Large World Models**: AI models for spatial intelligence.\n- **RTFM: A Real-Time Frame Model**: A generative world model for real-time video interaction.\n\nThe go-to-market strategy and specific business model details are not disclosed.\n\n## Funding & Investor Profile\n\nWorld Labs has raised more than $230 million in total funding. The funding round was led by Martin Casado and Sarah Wang of Andreessen Horowitz. Further details about other investors or funding rounds are not disclosed.\n\n## Growth Momentum\n\nWorld Labs has released two significant products:\n- An AI system that generates 3D worlds from a single image.\n- A research preview of RTFM, a generative world model for real-time video interaction.\n\nSpecific growth metrics or user adoption rates are not disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility and market presence data available. There is one mention, but details are not provided.\n\n## Risks and Challenges\n\nSpecific risks and challenges facing World Labs are not disclosed. However, typical challenges in the AI sector include technological advancements, competition, and regulatory considerations.\n\n## Outlook\n\nThe company is positioned in the rapidly growing AI sector with innovative products focused on spatial intelligence and real-time interaction. The involvement of prominent investors like Andreessen Horowitz suggests confidence in the company's potential. However, detailed future plans or projections are not disclosed.\n\n## Disclosure Gaps\n\n- Specific dates for product releases and funding events are not disclosed.\n- Detailed business model and go-to-market strategy are not provided.\n- Growth metrics, user adoption rates, and market sentiment specifics are not available.\n- Risks and challenges specific to World Labs are not disclosed.\n- Future outlook details and strategic plans are not provided."
+  },
+  "rag": {
+    "company_name": "World Labs",
+    "company_slug": "world-labs",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:04:49.090065Z",
+    "markdown_file": "markdown/world_labs/rag.md",
+    "content": "## Company Overview\n\nWorld Labs is a private AI startup headquartered in San Francisco, CA. The company is focused on leveraging rapid scientific progress to bridge the gap between research and practical applications. World Labs is actively building a team of overachievers and visionaries to drive innovation and achieve ambitious goals.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nWorld Labs has raised more than $230 million in total funding. The funding rounds have been led by prominent investors such as Martin Casado and Sarah Wang of Andreessen Horowitz, Scott Sandell of NEA, and Jordan Jacobs of Radical Ventures. Other notable investors include Marc Benioff, Jim Breyer, Ron Conway, Jeff Dean, Geoffrey Hinton, Reid Hoffman, Andrej Karpathy, Ashton Kutcher, Eric Schmidt, Ram Shriram, Anne Wojcicki, and the late Susan Wojcicki. Institutional investors include Adobe Ventures, AMD Ventures, Databricks Ventures, NVentures (the venture capital arm of NVIDIA), Salesforce Ventures, and Shinrai Investments LLC.\n\n## Growth Momentum\n\nThe company states that it is in a growth phase, actively hiring for various positions at its San Francisco headquarters. World Labs is focused on building a strong team to support its ambitious goals.\n\n## Visibility & Market Sentiment\n\nThe company invites stakeholders to follow its journey on platforms like LinkedIn and X, indicating an effort to maintain visibility and engage with the market. However, specific market sentiment data is not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nWorld Labs is poised to capitalize on the current moment where scientific progress is rapidly advancing. The company is focused on translating research into practical applications, suggesting a forward-looking strategy aimed at innovation and market impact.\n\n## Disclosure Gaps\n\n- Specific details about the business model and go-to-market strategy are not disclosed.\n- Information on current product offerings and technology specifics is not provided.\n- Market sentiment and specific risks and challenges facing the company are not detailed.",
+    "context_results": [
+      {
+        "id": "world_labs_about_eaafd71d",
+        "similarity_score": 0.412035,
+        "text": "We've already made promising strides, but we have a long way to go. We thank our investors for their early support on our journey. To date we have raised more than $230M in total funding led by Martin Casado and Sarah Wang of Andreessen Horowitz, Scott Sandell of NEA, and Jordan Jacobs of Radical Ventures. Other investors include individuals Marc Benioff, Jim Breyer, Ron Conway, Jeff Dean, Geoffrey Hinton, Reid Hoffman, Andrej Karpathy, Sound Ventures co-founder Ashton Kutcher, Eric Schmidt,",
+        "metadata": {
+          "chunk_index": 14.0,
+          "company_slug": "world_labs",
+          "content_hash": "eaafd71d",
+          "indexed_at": "2025-11-11T20:48:38.883810",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_product_5ac541cd",
+        "similarity_score": 0.409942627,
+        "text": "See full team\nInvestors\nWorld Labs is supported by\nMarc Benioff, Jim Breyer, Ron Conway, Jeff Dean, Geoffrey Hinton, Reid Hoffman, Andrej Karpathy, Sound Ventures co-founder Ashton Kutcher, Eric Schmidt, Ram Shriram, Anne Wojcicki, and the late Susan Wojcicki; as well as Adobe Ventures, AMD Ventures, Databricks Ventures, NVentures, the venture capital arm of NVIDIA, Salesforce Ventures, and Shinrai Investments LLC\nContact\nGeneral Info\nCareers\nPress Inquiries\n© 2024 WORLD LABS TECHNOLOGIES",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "world_labs",
+          "content_hash": "5ac541cd",
+          "indexed_at": "2025-11-11T20:48:38.885707",
+          "page_type": "product",
+          "source_file": "data/raw/world_labs/product/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_product_ae09d9be",
+        "similarity_score": 0.389621764,
+        "text": "Contact\nGeneral Info\nCareers\nPress Inquiries\n© 2024 WORLD LABS TECHNOLOGIES\nSan Francisco, CA",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "world_labs",
+          "content_hash": "ae09d9be",
+          "indexed_at": "2025-11-11T20:48:38.885763",
+          "page_type": "product",
+          "source_file": "data/raw/world_labs/product/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_5efa721a",
+        "similarity_score": 0.380302429,
+        "text": "We are growing - read about\nour team\nand\nour open roles\nto learn more.\nWhere We're Going",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "world_labs",
+          "content_hash": "5efa721a",
+          "indexed_at": "2025-11-11T20:48:38.883766",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_97c4f0ae",
+        "similarity_score": 0.37502864,
+        "text": "Hinton, Reid Hoffman, Andrej Karpathy, Sound Ventures co-founder Ashton Kutcher, Eric Schmidt, Ram Shriram, Anne Wojcicki, and the late Susan Wojcicki; as well as Adobe Ventures, AMD Ventures, Databricks Ventures, NVentures, the venture capital arm of NVIDIA, Salesforce Ventures, and Shinrai Investments LLC. We are grateful for their partnership.",
+        "metadata": {
+          "chunk_index": 15.0,
+          "company_slug": "world_labs",
+          "content_hash": "97c4f0ae",
+          "indexed_at": "2025-11-11T20:48:38.883816",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_careers_10ee287f",
+        "similarity_score": 0.37179184,
+        "text": "We're looking for the overachievers, the visionaries, and the relentless innovators who aren't satisfied with the status quo. You know that person who's always dreaming up the next big breakthrough? That's us. And we want you to be part of it.\nOpen Positions\n(6)\nFilters:\nReset filters\nDepartment\nAll Departments\nWorld Labs HQ\nLocation\nAll Locations\nSan Francisco Office (HQ)\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nWorld Labs HQ",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "world_labs",
+          "content_hash": "10ee287f",
+          "indexed_at": "2025-11-11T20:48:38.884858",
+          "page_type": "careers",
+          "source_file": "data/raw/world_labs/careers/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_56b5f13e",
+        "similarity_score": 0.369873047,
+        "text": "We will share more about our technology and products in the coming months, and we invite you to follow along on our journey. To keep up with the latest from World Labs, find us on\nLinkedIn\nand\nX\n.\nContact\nGeneral Info\nCareers\nPress Inquiries\n© 2024 WORLD LABS TECHNOLOGIES\nSan Francisco, CA",
+        "metadata": {
+          "chunk_index": 16.0,
+          "company_slug": "world_labs",
+          "content_hash": "56b5f13e",
+          "indexed_at": "2025-11-11T20:48:38.883823",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_521ab125",
+        "similarity_score": 0.356273681,
+        "text": "Who We're Building With\nThese are ambitious goals, so we are building an ambitious company to tackle them. Our team has a strong research background, but we are not motivated by exploration for its own sake. Instead, we believe that now is a unique moment where rapid scientific progress has thinned the barrier between research and applications. We aim to seize this opportunity, focusing on the entire throughline from research to engineering to product to people.",
+        "metadata": {
+          "chunk_index": 13.0,
+          "company_slug": "world_labs",
+          "content_hash": "521ab125",
+          "indexed_at": "2025-11-11T20:48:38.883804",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_careers_9f576a05",
+        "similarity_score": 0.347179413,
+        "text": "We're looking for the overachievers, the visionaries, and the relentless innovators who aren't satisfied with the status quo. You know that person who's always dreaming up the next big breakthrough? That's us. And we want you to be part of it.\nOpen Positions\n(7)\nFilters:\nReset filters\nDepartment\nAll Departments\nWorld Labs HQ\nLocation\nAll Locations\nSan Francisco Office (HQ)\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nWorld Labs HQ\nInfrastructure / Backend Engineer",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "world_labs",
+          "content_hash": "9f576a05",
+          "indexed_at": "2025-11-12T04:23:43.406597",
+          "page_type": "careers",
+          "source_file": "data/raw/world_labs/careers/text.txt"
+        }
+      }
+    ]
+  }
+}

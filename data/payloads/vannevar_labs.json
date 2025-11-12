@@ -1,0 +1,305 @@
+{
+  "company_record": {
+    "company_id": "vannevar-labs",
+    "legal_name": "Vannevar Labs",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-10",
+        "snippet": "Vannevar Labs brings together a multi-disciplinary group of people with a wide range of experiences, over 40 years of military service, engineers from some of the"
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-10",
+        "snippet": "We’re a world-class team of engineers and operators building with urgency and purpose for national security missions."
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-10",
+        "snippet": "Building the defense prime for competition with China _digital intelligence"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "vannevar_labs",
+      "occurred_on": "2025-09-12",
+      "event_type": "product_release",
+      "title": "Deploying Agentic AI at Talisman Sabre 25",
+      "description": "Vannevar Labs deployed its Agentic AI technology at the Talisman Sabre 25 event.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "vannevar_labs",
+      "occurred_on": "2025-09-25",
+      "event_type": "other",
+      "title": "In the Arena Podcast Episode 06",
+      "description": "Discussion on Dropping Out, Raising Capital, and Starting a $1.5B Defense Tech Company.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "vannevar_labs",
+      "occurred_on": "2025-11-11",
+      "event_type": "other",
+      "title": "Honoring Veterans at Vannevar Labs",
+      "description": "Vannevar Labs honors the experience of veterans through the decades.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "vannevar_labs",
+      "as_of": "2023-11-03",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "engineering",
+        "operators"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "hardware",
+        "software",
+        "digital intelligence"
+      ],
+      "geo_presence": [
+        "U.S."
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevarlabs.com",
+          "crawled_at": "2023-11-03",
+          "snippet": "We’re a world-class team of engineers and operators building with urgency and purpose for national security missions."
+        },
+        {
+          "source_url": "https://vannevarlabs.com",
+          "crawled_at": "2023-11-03",
+          "snippet": "We develop hardware and software across these technology areas: Sense"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "vannevar_labs",
+      "name": "cutting-edge mission solutions",
+      "description": "A world-class team of engineers and operators building with urgency and purpose for national security missions.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[product] cutting-edge mission solutions.",
+          "crawled_at": "2025-09-12",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "vannevar_labs",
+      "name": "digital intelligence",
+      "description": "Develop hardware and software across technology areas for building the defense prime for competition with China.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[product] Vannevar Labs | Home",
+          "crawled_at": "2025-09-12",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "brett-granberg",
+      "company_id": "vannevar_labs",
+      "name": "Brett Granberg",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevarlabs.com/about",
+          "crawled_at": "2025-09-12",
+          "snippet": "Brett is the CEO of Vannevar and leads the company’s product initiatives."
+        }
+      ]
+    },
+    {
+      "person_id": "nini-hamrick",
+      "company_id": "vannevar_labs",
+      "name": "Nini Hamrick",
+      "role": "President",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevarlabs.com/about",
+          "crawled_at": "2025-09-12",
+          "snippet": "Nini is the President of Vannevar and leads the mission teams that deploy our technology."
+        }
+      ]
+    },
+    {
+      "person_id": "tushar-narayan",
+      "company_id": "vannevar_labs",
+      "name": "Tushar Narayan",
+      "role": "Executive Vice President of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevarlabs.com/about",
+          "crawled_at": "2025-09-12",
+          "snippet": "Tushar is Vannevar's Executive Vice President of Engineering and leads Vannevar’s engineering teams."
+        }
+      ]
+    },
+    {
+      "person_id": "erin-biggers",
+      "company_id": "vannevar_labs",
+      "name": "Erin Biggers",
+      "role": "Executive Vice President of Mission",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevarlabs.com/about",
+          "crawled_at": "2025-09-12",
+          "snippet": "Erin leads many of the company's mission teams."
+        }
+      ]
+    },
+    {
+      "person_id": "jason-schmid",
+      "company_id": "vannevar_labs",
+      "name": "Jason Schmid",
+      "role": "Vice President of Public Policy and Strategy",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevarlabs.com/about",
+          "crawled_at": "2025-09-12",
+          "snippet": "Jason drives Vannevar’s public affairs strategy and leads engagement with Congress."
+        }
+      ]
+    },
+    {
+      "person_id": "elliot-branson",
+      "company_id": "vannevar_labs",
+      "name": "Elliot Branson",
+      "role": "Vice President of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://vannevarlabs.com/about",
+          "crawled_at": "2025-09-12",
+          "snippet": "Elliot leads our Product Engineering team."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "vannevar_labs",
+      "as_of": "2023-10-10",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:44:55.822777",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

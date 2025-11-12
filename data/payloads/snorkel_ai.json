@@ -1,0 +1,185 @@
+{
+  "company_record": {
+    "company_id": "snorkel_ai",
+    "legal_name": "Snorkel AI, Inc.",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": 100000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-17",
+        "snippet": "Copyright © 2025 Snorkel AI, Inc. All rights reserved."
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-17",
+        "snippet": "Redwood City, CA (Hybrid); San Francisco, CA (Hybrid); United States (Remote)"
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-17",
+        "snippet": "Snorkel AI Raises $100 Million To"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "snorkel_ai",
+      "occurred_on": "2023-10-01",
+      "event_type": "product_release",
+      "title": "Snorkel helps build Terminal-Bench 2.0",
+      "description": "Snorkel AI announced the release of Terminal-Bench 2.0, showcasing their capabilities in expert data services and AI solutions.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://snorkel.ai/blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "snorkel_ai",
+      "as_of": "2023-10-06",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Data-as-a-Service"
+      ],
+      "geo_presence": [
+        "United States"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://snorkel.ai/careers",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "snorkel_ai",
+      "name": "Expert data services",
+      "description": "Custom AI solutions. The technology powering Snorkel solutions. Our AI data development platform bridges the gap between data and production AI. It connects enterprise data streams and ML platforms to the systems that run AI in production.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "snorkel_ai",
+      "name": "AI data development services",
+      "description": "Accelerate the development of frontier AI models with expert-curated, enterprise-grade data. Learn how Snorkel’s Data-as-a-Service helps teams label, refine, and evaluate high-quality, domain-specific datasets for your projects.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "alex-ratner",
+      "company_id": "snorkel_ai",
+      "name": "Alex Ratner",
+      "role": "Co-founder and CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.snorkel.ai/blog",
+          "crawled_at": "2023-10-07",
+          "snippet": "Our co-founder and CEO Alex Ratner for expert advice, the latest research, and exclusive events."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "snorkel_ai",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://snorkel.ai/about",
+          "crawled_at": "2023-10-06",
+          "snippet": "Trusted by the Fortune 500 and beyond World-leading enterprises use Snorkel Flow to remove AI roadblocks and unlock new possibilities and better performance."
+        },
+        {
+          "source_url": "https://snorkel.ai/blog",
+          "crawled_at": "2023-10-06",
+          "snippet": "Snorkel helps build Terminal-Bench 2.0."
+        },
+        {
+          "source_url": "https://snorkel.ai/careers",
+          "crawled_at": "2023-10-06",
+          "snippet": "Help us redefine how AI is built. Our mission: Empower everyone to solve their most impactful problems with data-centric AI."
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:39:44.371926",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

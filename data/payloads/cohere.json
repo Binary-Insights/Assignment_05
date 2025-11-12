@@ -1,0 +1,434 @@
+{
+  "company_record": {
+    "company_id": "cohere",
+    "legal_name": "Cohere",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "Toronto",
+    "hq_state": null,
+    "hq_country": "Canada",
+    "founded_year": 2019,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": 1000000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-09",
+        "snippet": "Cohere was founded in 2019 in Toronto with a bold vision: to do whatever it takes to scale intelligence to serve humanity."
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-09",
+        "snippet": "Born in Canada 🇨🇦"
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-09",
+        "snippet": "Between 2021 and 2024, we secured four major funding rounds (Series A through D), raising nearly $1 billion."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "cohere",
+      "occurred_on": "2025-08-14",
+      "event_type": "funding",
+      "title": "Cohere raises $500M at $6.8B valuation",
+      "description": "Cohere raises $500M at $6.8B valuation to accelerate enterprise efficiency with agentic AI",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 500000000.0,
+      "valuation_usd": 6800000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "cohere",
+      "occurred_on": "2025-08-15",
+      "event_type": "partnership",
+      "title": "Cohere deepens partnership with Government of Canada",
+      "description": "Cohere deepens partnership with Government of Canada to build AI agents that reshape financial services",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "cohere",
+      "occurred_on": "2025-09-15",
+      "event_type": "office_open",
+      "title": "Cohere opens Paris office as EMEA hub",
+      "description": "Cohere opens Paris office as EMEA hub",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "cohere",
+      "as_of": "2023-10-06",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Workplace Systems",
+        "North",
+        "Compass",
+        "Generative Models",
+        "Command"
+      ],
+      "geo_presence": [
+        "London",
+        "Paris",
+        "New York",
+        "San Francisco",
+        "Toronto",
+        "Montreal",
+        "Seoul"
+      ],
+      "confidence": 0.8,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about] About Our Company | Cohere",
+          "crawled_at": "2023-10-06",
+          "snippet": "Products\nProducts\nWorkplace Systems\nNorth\nNEW\nAn enterprise-ready AI platform that powers modern workplace productivity\nCompass\nAn intelligent search and discovery system to surface business insights\nGenerative Models\nCommand"
+        },
+        {
+          "source_url": "[about] Kosta Starostin",
+          "crawled_at": "2023-10-06",
+          "snippet": "Toronto\nNew York\nLondon\nSan Francisco\nMontreal\nParis\nSeoul"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "cohere",
+      "name": "Workplace Systems",
+      "description": "An enterprise-ready AI platform that powers modern workplace productivity",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] Careers | Cohere",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "cohere",
+      "name": "North",
+      "description": "An enterprise-ready AI platform that powers modern workplace productivity",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] Careers | Cohere",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "cohere",
+      "name": "Compass",
+      "description": "An intelligent search and discovery system to surface business insights",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] Careers | Cohere",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "cohere",
+      "name": "Generative Models",
+      "description": "Command A Reasoning: Enterprise-grade control for AI agents",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Newsroom",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "5",
+      "company_id": "cohere",
+      "name": "Command",
+      "description": "A family of generative models",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] Careers | Cohere",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "6",
+      "company_id": "cohere",
+      "name": "Command A Vision",
+      "description": "Multimodal AI built for business",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Company",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "nick-frosst",
+      "company_id": "cohere",
+      "name": "Nick Frosst",
+      "role": "Co-founder and CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "ivan-zhang",
+      "company_id": "cohere",
+      "name": "Ivan Zhang",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "joelle-pineau",
+      "company_id": "cohere",
+      "name": "Joelle Pineau",
+      "role": "Chief AI Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "francois-chadwick",
+      "company_id": "cohere",
+      "name": "François Chadwick",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "phil-blunsom",
+      "company_id": "cohere",
+      "name": "Phil Blunsom",
+      "role": "Chief Technology Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "laura-moss",
+      "company_id": "cohere",
+      "name": "Laura Moss",
+      "role": "SVP, Finance",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "nora-beatty",
+      "company_id": "cohere",
+      "name": "Nora Beatty",
+      "role": "SVP, People Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "kosta-starostin",
+      "company_id": "cohere",
+      "name": "Kosta Starostin",
+      "role": "VP, Legal",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "cohere",
+      "as_of": "2023-10-09",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:19:41.044416",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

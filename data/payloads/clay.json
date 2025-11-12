@@ -1,0 +1,358 @@
+{
+  "company_record": {
+    "company_id": "clay",
+    "legal_name": "Clay",
+    "brand_name": null,
+    "website": "https://clay.com/",
+    "hq_city": "Brooklyn",
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": 62000000.0,
+    "last_disclosed_valuation_usd": 500000000.0,
+    "last_round_name": "Series B",
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-19",
+        "snippet": "© Clay 2025 – Born in Brooklyn."
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-19",
+        "snippet": "Clay raises $62M at a $500M valuation to turn any growth idea into reality"
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-19",
+        "snippet": "Clay has raised a $46M Series B from Meritech Capital with participation from Sequoia, First Round, Box Group, Boldstart, and some of the world’s top sales and marketing leaders"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "clay",
+      "occurred_on": "2023-10-01",
+      "event_type": "funding",
+      "title": "Clay raises $62M at a $500M valuation",
+      "description": "Clay has raised a $46M Series B from Meritech Capital with participation from Sequoia, First Round, Box Group, Boldstart, and some of the world’s top sales and marketing leaders.",
+      "round_name": "Series B",
+      "investors": [
+        "Meritech Capital",
+        "Sequoia",
+        "First Round",
+        "Box Group",
+        "Boldstart"
+      ],
+      "amount_usd": 46000000.0,
+      "valuation_usd": 500000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Clay raises $62M at a $500M valuation to turn any growth idea into reality",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "clay",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Clay raises $40M at a $1.25B valuation",
+      "description": "Clay has raised $40M in Series B expansion funding at a $1.25B valuation, following 6x growth in 2024.",
+      "round_name": "Series B expansion",
+      "investors": null,
+      "amount_usd": 40000000.0,
+      "valuation_usd": 1250000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Clay raises $40M at a $1.25B valuation with GTM development environment that turns growth ideas into reality",
+          "crawled_at": "2024-01-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "clay",
+      "occurred_on": "2024-06-01",
+      "event_type": "mna",
+      "title": "Clay acquires Avenue",
+      "description": "Clay acquires Avenue to help growth teams act on intelligence.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Clay raises $40M at a $1.25B valuation with GTM development environment that turns growth ideas into reality",
+          "crawled_at": "2024-06-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "4",
+      "company_id": "clay",
+      "occurred_on": "2024-06-01",
+      "event_type": "mna",
+      "title": "Clay acquires Avenue",
+      "description": "Clay acquires Avenue to help growth teams act on intelligence.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Feb 19, 2025\nFeb 18, 2025\nRead post\nRead more\nThought Leadership\nWhy we're pivoting our Clay agency from outbound to CRM enrichment\nJan 29, 2025\nJan 30, 2025\nRead post\nRead more\nClay Announcements\nClay acquires Avenue to help growth teams act on inte",
+          "crawled_at": "2024-06-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "5",
+      "company_id": "clay",
+      "occurred_on": "2025-06-05",
+      "event_type": "product_release",
+      "title": "Claygent surpasses 1 billion runs",
+      "description": "Claygent surpasses 1 billion runs.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Claygent surpasses 1 billion runs\nJun 5, 2025\nJun 5, 2025\nRead post\nRead more\nClay Announcements\nAnnouncing Sculpt: Clay’s first annual user conference\nMay 29, 2025\nMay 28, 2025\nRead post\nRead more\nClay Announcements\nAnnouncing custom signals at Clay",
+          "crawled_at": "2025-06-05",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "6",
+      "company_id": "clay",
+      "occurred_on": "2025-08-07",
+      "event_type": "product_release",
+      "title": "Introducing GPT-5 in Claygent",
+      "description": "GPT-5 is now a model option across Clay, bringing the best research and conversational writing we've ever shipped to your GTM workflows.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Introducing GPT-5 in Claygent: sharper research, stronger formulas, better outbound\nGPT-5 is now a model option across Clay, bringing the best research and conversational writing we've ever shipped to your GTM workflows.\nAug 7, 2025\nAug 7,",
+          "crawled_at": "2025-08-07",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "7",
+      "company_id": "clay",
+      "occurred_on": "2025-02-19",
+      "event_type": "product_release",
+      "title": "Announcing custom signals at Clay",
+      "description": "Clay's new custom signals platform helps sales teams track unique data changes that indicate buying opportunities.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Announcing custom signals at Clay\nClay's new custom signals platform helps sales teams track unique data changes that indicate buying opportunities. Turn any data point into a sales signal, enrich with context, and automate personalized outreach to f",
+          "crawled_at": "2025-02-19",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "8",
+      "company_id": "clay",
+      "occurred_on": "2024-01-01",
+      "event_type": "other",
+      "title": "Employee tender offer led by Sequoia",
+      "description": "Clay allows employees to sell vested shares for immediate liquidity through a $20M tender offer at a $1.5B valuation.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Clay announces employee tender offer led by Sequoia at $1.5B valuation\nClay allows employees to sell vested shares for immediate liquidity through a $20M tender offer at a $1.5B valuation. With 10x revenue growth in 2022-2023 and serving 8,000+ custo",
+          "crawled_at": "2024-01-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "clay",
+      "as_of": "2023-10-07",
+      "headcount_total": 206,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "GTM",
+        "Engineering",
+        "Sales"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Claygent",
+        "Sculptor"
+      ],
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://clay.com/about",
+          "crawled_at": "2023-10-07",
+          "snippet": null
+        },
+        {
+          "source_url": "https://clay.com/careers",
+          "crawled_at": "2023-10-07",
+          "snippet": null
+        },
+        {
+          "source_url": "https://clay.com/blog",
+          "crawled_at": "2023-10-07",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "claygent",
+      "company_id": "clay",
+      "name": "Claygent",
+      "description": "Research target companies and people with AI",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://clay.com",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "sculptor",
+      "company_id": "clay",
+      "name": "Sculptor",
+      "description": "Build GTM workflows with natural language",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://clay.com",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "kunal",
+      "company_id": "clay",
+      "name": "Kunal",
+      "role": "Software Engineer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://clay.com/about",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "clay",
+      "as_of": "2023-11-02",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.enterprise-tech-30.com",
+          "crawled_at": "2023-11-02",
+          "snippet": "Clay named #1 mid-stage company on ENT30 list"
+        },
+        {
+          "source_url": "https://www.forbes.com",
+          "crawled_at": "2023-11-02",
+          "snippet": "Clay Named the Only GTM Company on Forbes Next Billion Dollar Startups 2024"
+        },
+        {
+          "source_url": "https://www.sequoiacap.com",
+          "crawled_at": "2023-11-02",
+          "snippet": "Sequoia leads $1.5B tender offer for sales automation startup Clay"
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:18:32.798839",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

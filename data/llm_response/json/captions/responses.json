@@ -1,0 +1,190 @@
+{
+  "company_slug": "captions",
+  "structured": {
+    "company_name": "Captions",
+    "company_slug": "captions",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T23:00:06.029246Z",
+    "markdown_file": "markdown/captions/structured.md",
+    "content": "## Company Overview\n\nMirage, operating under the brand name Captions, is headquartered in New York. The company specializes in AI-driven video generation and editing, offering a product known as Captions. This tool allows users to create fully-edited videos by either uploading existing footage or generating new content using AI technology.\n\n## Business Model and GTM\n\nThe company states that Captions is an all-in-one video generator and AI editor, suggesting a focus on providing comprehensive video editing solutions. The business model likely revolves around offering these AI-powered tools to content creators, businesses, and possibly other sectors needing video production capabilities. Specific details on pricing, distribution channels, or target markets are not disclosed.\n\n## Funding & Investor Profile\n\nMirage has raised a total of $125 million, with the most recent funding being a Series C round on July 9, 2024. The company announced that it plans to invest $100 million from this round into AI video research in New York. Previous funding rounds include a $25 million Series B, but further details on investors or specific funding dates are not disclosed.\n\n## Growth Momentum\n\nThe company has shown growth momentum by securing significant funding, particularly the recent Series C round. However, specific metrics or data on user growth, revenue, or market expansion are not disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility with only one mention in the provided data. There is no detailed information on market sentiment or broader media coverage.\n\n## Risks and Challenges\n\nPotential risks and challenges include the competitive landscape of AI video editing tools, the need for continuous innovation in AI technology, and the effective allocation of the recent $100 million investment into research. Specific challenges faced by the company are not disclosed.\n\n## Outlook\n\nThe outlook for Mirage appears positive, given the substantial investment in AI research and development. The company's focus on enhancing its AI capabilities could position it well in the growing market for video content creation tools. However, the lack of detailed market data and user metrics makes it difficult to fully assess future prospects.\n\n## Disclosure Gaps\n\n- Specific details on the business model, including pricing and target markets.\n- Information on distribution channels and go-to-market strategies.\n- Detailed investor profiles and specific funding dates for previous rounds.\n- Metrics on user growth, revenue, and market expansion.\n- Comprehensive visibility and market sentiment data.\n- Specific risks and challenges faced by the company."
+  },
+  "rag": {
+    "company_name": "Captions",
+    "company_slug": "captions",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:03:18.989833Z",
+    "markdown_file": "markdown/captions/rag.md",
+    "content": "## Company Overview\nCaptions, now rebranded as Mirage, is a private AI startup focused on redefining video creation through AI-powered tools. The company is based in New York City and aims to bridge the gap between ideas and audiences, empowering creators and businesses to reach their full potential. The founders are Gaurav Misra (Co-Founder and CEO) and Dwight Churchill (Co-Founder and COO).\n\n## Business Model and GTM\nMirage offers solutions tailored for enterprises, agencies, and small businesses. Their product lineup includes Captions and Mirage Studio, which are designed to enhance video creation and editing through AI. The company states that their technology allows for faster and better video production, targeting a wide range of users from individual creators to large enterprises.\n\n## Funding & Investor Profile\nMirage has raised significant funding, including a $25 million Series B round announced in June 2023. The company is backed by prominent investors such as Index Ventures, Kleiner Perkins, Sequoia Capital, Andreessen Horowitz, and notable individuals like Kevin Systrom, Mike Krieger, and Jared Leto.\n\n## Growth Momentum\nThe company has been recognized as one of the most innovative video companies in 2025 by Fast Company. They have also announced a Series C round to invest $100 million in AI video research in New York, indicating strong growth and expansion plans.\n\n## Visibility & Market Sentiment\nMirage has received extensive press coverage from outlets like TechCrunch, Forbes, and Fast Company. The company was featured in the Forbes AI 50 list in April 2025, highlighting its prominence in the AI industry. The rebranding from Captions to Mirage in 2025 reflects its expanded mission and market presence.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nThe company is positioned for continued growth with its focus on AI video research and development. The rebranding to Mirage and the significant investment in AI research suggest a strategic shift towards broader applications of their technology, potentially opening new market opportunities.\n\n## Disclosure Gaps\n- Specific revenue figures and financial performance metrics are not disclosed.\n- Detailed information on customer acquisition strategies and market penetration is not available.\n- Risks and challenges faced by the company are not disclosed.",
+    "context_results": [
+      {
+        "id": "captions_careers_3d36bd70",
+        "similarity_score": 0.463611603,
+        "text": "Press Coverage\nTechCrunch\nLenny’s Podcast\nForbes AI 50\nFast Company\nOur Investors\nWe’re very fortunate to have some the best investors and entrepreneurs backing us, including\nIndex Ventures, Kleiner Perkins, Sequoia Capital, Andreessen Horowitz\n, Uncommon Projects, Kevin Systrom, Mike Krieger, Lenny Rachitsky, Antoine Martin, Julie Zhuo, Ben Rubin, Jaren Glover, SVAngel, 20VC, Ludlow Ventures, Chapter One, and more.\nOpen Positions\n(12)\nFilters:\nReset filters\nDepartment\nAll Departments",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "captions",
+          "content_hash": "3d36bd70",
+          "indexed_at": "2025-11-11T20:36:35.647145",
+          "page_type": "careers",
+          "source_file": "data/raw/captions/careers/text.txt"
+        }
+      },
+      {
+        "id": "captions_about_352a5b24",
+        "similarity_score": 0.440261841,
+        "text": "Our vision\nA world where the distance between idea and audience is zero, giving creators and businesses the power to reach their full creative and commercial potential.\nOur founders\nGaurav Misra\nCo-Founder and CEO\nDwight Churchill\nCo-Founder and COO\nAs seen in:\nSee recent press\nOur research",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "captions",
+          "content_hash": "352a5b24",
+          "indexed_at": "2025-11-11T20:36:35.646447",
+          "page_type": "about",
+          "source_file": "data/raw/captions/about/text.txt"
+        }
+      },
+      {
+        "id": "captions_about_1ffcd743",
+        "similarity_score": 0.438297272,
+        "text": "Lenny Rachitsky\nJulie Zhuo\nBen Rubin\nNico Wittenborn\nAntoine Martin\nJaren Glover\nJared Leto\nAmong other esteemed investors and advisors\nSee the latest\nNovember 7, 2025\nHow to improve your video SEO strategy.\nOctober 28, 2025\nHow HubSpot built better campaigns with Mirage Studio.\nOctober 15, 2025\nYour guide to AI credits.\nScene\nCaptions\nOverview\nPricing\nMirage Studio\nOverview\nPricing\nSolutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "captions",
+          "content_hash": "1ffcd743",
+          "indexed_at": "2025-11-11T20:36:35.646482",
+          "page_type": "about",
+          "source_file": "data/raw/captions/about/text.txt"
+        }
+      },
+      {
+        "id": "captions_careers_cf1f8e7e",
+        "similarity_score": 0.391273528,
+        "text": "We are a rapidly growing team of ambitious, experienced, and devoted engineers, researchers, designers, marketers, and operators based in NYC. As an early member of our team, you’ll have an opportunity to have an outsized impact on our products and our company's culture.\nOur Products\nCaptions\nMirage Studio\nOur Technology\nAI Research @ Mirage\nMirage Model Announcement\nSeeing Voices (white-paper)\nPress Coverage\nTechCrunch\nLenny’s Podcast\nForbes AI 50\nFast Company\nOur Investors",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "captions",
+          "content_hash": "cf1f8e7e",
+          "indexed_at": "2025-11-11T20:36:35.647137",
+          "page_type": "careers",
+          "source_file": "data/raw/captions/careers/text.txt"
+        }
+      },
+      {
+        "id": "captions_about_2be5e832",
+        "similarity_score": 0.389221191,
+        "text": "Solutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit\n© 2025 Mirage. All rights reserved.\nPrivacy Policy\nSafety & Security\nMirage Studio Terms\nMirage Studio User Terms\nCaptions Terms",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "captions",
+          "content_hash": "2be5e832",
+          "indexed_at": "2025-11-11T20:36:35.646490",
+          "page_type": "about",
+          "source_file": "data/raw/captions/about/text.txt"
+        }
+      },
+      {
+        "id": "captions_product_2be5e832",
+        "similarity_score": 0.389026642,
+        "text": "Solutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit\n© 2025 Mirage. All rights reserved.\nPrivacy Policy\nSafety & Security\nMirage Studio Terms\nMirage Studio User Terms\nCaptions Terms",
+        "metadata": {
+          "chunk_index": 18.0,
+          "company_slug": "captions",
+          "content_hash": "2be5e832",
+          "indexed_at": "2025-11-11T20:36:35.648082",
+          "page_type": "product",
+          "source_file": "data/raw/captions/product/text.txt"
+        }
+      },
+      {
+        "id": "captions_blog_8734730e",
+        "similarity_score": 0.386333466,
+        "text": "Tech Crunch\nVideo editing startup Captions launches a dubbing app\nOctober 2023\nVenture Beat\nAI video creation app Captions bags $25M from top VCs\nJune 2023\nForbes\nVideo Editing App Captions Just Raised $25 Million To Bring AI To Creators\nJune 2023\nScene\nCaptions\nOverview\nPricing\nMirage Studio\nOverview\nPricing\nSolutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "captions",
+          "content_hash": "8734730e",
+          "indexed_at": "2025-11-11T04:49:45.469377",
+          "page_type": "blog",
+          "source_file": "data/raw/captions/blog/text.txt"
+        }
+      },
+      {
+        "id": "captions_about_4918681c",
+        "similarity_score": 0.381034851,
+        "text": "Learn more\nDesigned and built in New York City\nJoin the Mirage team\nYes, we’re hiring! If you want to help shape the future of AI alongside a team that feels like home, we’d love to talk. You'll be joining an early team where you'll have an outsized impact on both the product and the company's culture.\nSee current openings\nOur investors\nJacob Andreou\nKevin Systrom\nMike Krieger\nLenny Rachitsky\nJulie Zhuo\nBen Rubin\nNico Wittenborn\nAntoine Martin\nJaren Glover\nJared Leto",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "captions",
+          "content_hash": "4918681c",
+          "indexed_at": "2025-11-11T20:36:35.646473",
+          "page_type": "about",
+          "source_file": "data/raw/captions/about/text.txt"
+        }
+      },
+      {
+        "id": "captions_blog_549047f0",
+        "similarity_score": 0.370182067,
+        "text": "Agencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit\n© 2025 Mirage. All rights reserved.\nPrivacy Policy\nSafety & Security\nMirage Studio Terms\nMirage Studio User Terms\nCaptions Terms",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "captions",
+          "content_hash": "549047f0",
+          "indexed_at": "2025-11-11T20:36:35.646824",
+          "page_type": "blog",
+          "source_file": "data/raw/captions/blog/text.txt"
+        }
+      },
+      {
+        "id": "captions_blog_3ba128c4",
+        "similarity_score": 0.368724853,
+        "text": "Most innovative video companies 2025\nMarch 2025\nAdditional coverage\nMarketing Against the Grain\nThis New AI Tool Makes Videos Better & Faster Than You\nJune 2025\nNYSE\nGaurav Misra, Co Founder + CEO at Captions Joins NYSE TV Live\nJune 2025\nThe Verge\nFrom ChatGPT to Gemini: how AI is rewriting the internet\nJune 2025\nEO\nThe Journey from India to Building a $500M AI Video Product\nMay 2025\nLenny's Podcast\nHow to win in the AI era\nMarch 2025\nDigiday\nHow generative AI is changing creator contracts",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "captions",
+          "content_hash": "3ba128c4",
+          "indexed_at": "2025-11-11T04:49:45.469354",
+          "page_type": "blog",
+          "source_file": "data/raw/captions/blog/text.txt"
+        }
+      },
+      {
+        "id": "captions_blog_ee0ba725",
+        "similarity_score": 0.368160278,
+        "text": "June 2, 2025\nSeeing voices: Foundation model research report.\nMarch 12, 2025\nMirage: world's first foundation model for UGC video.\nJuly 9, 2024\nCaptions announces Series C to invest $100M in AI video research in New York.\nJune 22, 2023\nCaptions announces a $25 million Series B for our AI-powered creative studio\nCaptions\nOverview\nPricing\nMirage Studio\nOverview\nPricing\nSolutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "captions",
+          "content_hash": "ee0ba725",
+          "indexed_at": "2025-11-11T20:36:35.646818",
+          "page_type": "blog",
+          "source_file": "data/raw/captions/blog/text.txt"
+        }
+      },
+      {
+        "id": "captions_blog_7198b08a",
+        "similarity_score": 0.362522125,
+        "text": "Mirage In The News | Company Press and Appearances\nProducts\nSolutions\nResearch\nResources\nGet started\nOpen Mirage Studio\nMirage in the news\nExplore recent press about Mirage's AI research, company milestones and more.\nFeatured\nForbes\nAI 50\nApril 2025\nTech Crunch\nCaptions rebrands as Mirage, expands beyond creator tools to AI video research\nSeptember 2025\nFast Company\nMost innovative video companies 2025\nMarch 2025\nAdditional coverage\nMarketing Against the Grain",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "captions",
+          "content_hash": "7198b08a",
+          "indexed_at": "2025-11-11T04:49:45.469339",
+          "page_type": "blog",
+          "source_file": "data/raw/captions/blog/text.txt"
+        }
+      },
+      {
+        "id": "captions_about_fb4c77bf",
+        "similarity_score": 0.343681335,
+        "text": "About Mirage | Redefining the Future of Video\nProducts\nSolutions\nResearch\nResources\nGet started\nOpen Mirage Studio\nAbout Mirage\nYou can't grow your brand without short-form video. At Mirage, we're building foundation models and products to redefine how videos get made. Formerly known as Captions, we rebranded in 2025 to reflect our expanded mission.\nOur vision",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "captions",
+          "content_hash": "fb4c77bf",
+          "indexed_at": "2025-11-11T20:36:35.646432",
+          "page_type": "about",
+          "source_file": "data/raw/captions/about/text.txt"
+        }
+      }
+    ]
+  }
+}

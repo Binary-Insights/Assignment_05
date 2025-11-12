@@ -23,13 +23,13 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 
 # Configuration
-DISCOVERED_PAGES_FILE = PROJECT_ROOT / "data" / "company_pages_discovered.json"
+DISCOVERED_PAGES_FILE = PROJECT_ROOT / "data" / "company_pages.json"
 PROCESS_SCRIPT = PROJECT_ROOT / "src" / "discover" / "process_discovered_pages.py"
 
 
 def load_companies_from_discovered_pages():
     """
-    Load company slugs from company_pages_discovered.json.
+    Load company slugs from company_pages.json.
     Returns list of company slugs for downstream tasks.
     
     The discovered pages file is a list of companies, where each company
@@ -84,13 +84,31 @@ def process_company_pages(company_slug: str):
         
         # Build command to process this specific company
         # Note: The script expects --companies (plural) with company name(s)
-        # We need to convert slug back to name format for the script
-        company_name = company_slug.replace("-", " ").title()
+        # Look up the actual company name from the JSON file
+        with open(DISCOVERED_PAGES_FILE, "r") as f:
+            discovered_data = json.load(f)
+        
+        # Find the actual company name from JSON using slug matching
+        company_name = None
+        if isinstance(discovered_data, list):
+            for company in discovered_data:
+                # Convert company_name to slug and compare
+                company_slug_from_json = company.get("company_name", "").lower().replace(" ", "-")
+                if company_slug_from_json == company_slug:
+                    company_name = company.get("company_name")
+                    break
+        
+        if not company_name:
+            # Fallback to title case if not found in JSON
+            company_name = company_slug.replace("-", " ").title()
+            logger.warning(f"Company not found in JSON, using fallback name: {company_name}")
+        
+        logger.info(f"Using company name: {company_name}")
         cmd = [
             sys.executable,
             str(PROCESS_SCRIPT),
             "--companies", company_name,
-            "-i", str(PROJECT_ROOT / "data" / "company_pages_discovered.json")
+            "-i", str(PROJECT_ROOT / "data" / "company_pages.json")
         ]
         
         logger.info(f"Running: {' '.join(cmd)}")
@@ -223,7 +241,7 @@ with DAG(
                 # If it's a dict, use keys directly
                 companies = list(discovered_data.keys())
             
-            logger.info(f"Loaded {len(companies)} companies from company_pages_discovered.json for DAG creation")
+            logger.info(f"Loaded {len(companies)} companies from company_pages.json for DAG creation")
     except Exception as e:
         logger.error(f"Failed to load discovered pages for DAG creation: {e}")
         # Use empty list if file can't be loaded
@@ -273,4 +291,3 @@ with DAG(
     else:
         # If no tasks, go directly to verify
         load_companies >> verify_completion
-

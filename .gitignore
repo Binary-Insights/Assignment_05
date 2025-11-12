@@ -4,7 +4,10 @@
 !/data/**/.dvc
 !/data/.dvc
 
-!data/manual_fallback.json
+!data/company_pages.json
+!data/payloads
+!data/eval
+!data/llm_response
 # qdrant storage folder
 qdrant_storage/
 

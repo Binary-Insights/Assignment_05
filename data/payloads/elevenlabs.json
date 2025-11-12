@@ -1,0 +1,834 @@
+{
+  "company_record": {
+    "company_id": "elevenlabs",
+    "legal_name": "ElevenLabs",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "London",
+    "hq_state": null,
+    "hq_country": "United Kingdom",
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-10",
+        "snippet": "ElevenLabs opens European HQ in London"
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-10",
+        "snippet": "ElevenLabs scales UK and US presence"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-27",
+      "event_type": "partnership",
+      "title": "Ukrainian Public Services Will Speak Through AI: Announcing a Partnership with ElevenLabs",
+      "description": "We’re partnering with the Ministry of Digital Transformation to add voice to core services.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-23",
+      "event_type": "product_release",
+      "title": "Voice AI for India Scale",
+      "description": "Marking a year of rapid development from India’s top enterprises, startups, and creators scaling customer engagement and storytelling.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-09-08",
+      "event_type": "partnership",
+      "title": "Expanding into Brazil - ElevenLabs Launches Iconic Partnership with Fábio Porchat",
+      "description": "Launching our first campaign in Brazil with iconic AI voice.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-08-05",
+      "event_type": "product_release",
+      "title": "Introducing Eleven v3 (alpha)",
+      "description": "The most expressive Text to Speech model.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-10-06",
+      "event_type": "product_release",
+      "title": "Introducing ElevenLabs Agents",
+      "description": "We’re renaming Conversational AI to ElevenLabs Agents, a better reflection of our complete platform for launching conversational agents that talk, type and take action.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-01-29",
+      "event_type": "product_release",
+      "title": "Expanding access: patients and clinicians can now apply directly on the ElevenLabs website",
+      "description": "One year ago, the ElevenLabs Impact Program set out to provide one million voices to people with permanent speech loss.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "7",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-04-14",
+      "event_type": "partnership",
+      "title": "Announcing Partnership with Sir Michael Caine to Newly Launched Iconic Marketplace",
+      "description": "At today’s Summit, ElevenLabs announced a partnership with British cultural icon Sir Michael Caine.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "8",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-04-14",
+      "event_type": "partnership",
+      "title": "ElevenLabs Welcomes Matthew McConaughey as New Investor",
+      "description": "At ElevenLabs’ inaugural investor meeting, Matthew McConaughey was announced as a new investor.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "9",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-04-14",
+      "event_type": "partnership",
+      "title": "Audacy and ElevenLabs strike partnership",
+      "description": "ElevenLabs’ Synthetic Voice Capabilities to Augment Audacy Programming and Production Workflows.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "10",
+      "company_id": "elevenlabs",
+      "occurred_on": "2025-04-14",
+      "event_type": "office_open",
+      "title": "ElevenLabs opens European HQ in London",
+      "description": "We're doubling down on UK’s capital as center for worldwide operations.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "elevenlabs",
+      "as_of": "2023-10-11",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "AI technologies",
+        "audio AI",
+        "technical excellence",
+        "ethical awareness"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Creative Platform",
+        "Agents Platform",
+        "Text to Speech (TTS)",
+        "Speech to Text",
+        "Realtime Speech to Text",
+        "Voice Changer",
+        "Text to Sound Effects",
+        "Voice Cloning",
+        "Voice Isolation"
+      ],
+      "geo_presence": [
+        "30+ countries",
+        "New York",
+        "London",
+        "Warsaw"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": "Our diverse team spans 30+ countries with hubs in New York, London, and Warsaw."
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-11",
+          "snippet": "ElevenLabs opens European HQ in London."
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": "We're looking for exceptional individuals who combine technical excellence with ethical awareness."
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": "We are leaders in developing world-changing AI technologies and safeguards."
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-11",
+          "snippet": "Create with the highest quality AI Audio."
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "elevenlabs",
+      "name": "Text to Speech (TTS)",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "elevenlabs",
+      "name": "Speech to Text",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "elevenlabs",
+      "name": "Realtime Speech to Text",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "elevenlabs",
+      "name": "Voice Changer",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "5",
+      "company_id": "elevenlabs",
+      "name": "Text to Sound Effects",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "6",
+      "company_id": "elevenlabs",
+      "name": "Voice Cloning",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "7",
+      "company_id": "elevenlabs",
+      "name": "Voice Isolator",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "8",
+      "company_id": "elevenlabs",
+      "name": "AI Music Generator",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "9",
+      "company_id": "elevenlabs",
+      "name": "Studio",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "10",
+      "company_id": "elevenlabs",
+      "name": "Agents Platform",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "11",
+      "company_id": "elevenlabs",
+      "name": "Dubbing Studio",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "12",
+      "company_id": "elevenlabs",
+      "name": "Voice Library",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "13",
+      "company_id": "elevenlabs",
+      "name": "Audio Native",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "14",
+      "company_id": "elevenlabs",
+      "name": "ElevenStudios",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "15",
+      "company_id": "elevenlabs",
+      "name": "API",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "16",
+      "company_id": "elevenlabs",
+      "name": "Voiceover Studio",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "17",
+      "company_id": "elevenlabs",
+      "name": "ElevenReader",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "18",
+      "company_id": "elevenlabs",
+      "name": "Mobile App",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "provided_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "sam-sklar",
+      "company_id": "elevenlabs",
+      "name": "Sam Sklar",
+      "role": "Growth",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Sep 16, 2025",
+          "crawled_at": "2025-09-16",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "ruta-bhatt",
+      "company_id": "elevenlabs",
+      "name": "Ruta Bhatt",
+      "role": "G",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Sep 23, 2025",
+          "crawled_at": "2025-09-23",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "mati-staniszewski",
+      "company_id": "elevenlabs",
+      "name": "Mati Staniszewski",
+      "role": "Developer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Aug 5, 2025",
+          "crawled_at": "2025-08-05",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "piotr-dabkowski",
+      "company_id": "elevenlabs",
+      "name": "Piotr Dabkowski",
+      "role": "Developer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Aug 5, 2025",
+          "crawled_at": "2025-08-05",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "jim-tamura",
+      "company_id": "elevenlabs",
+      "name": "Jim Tamura",
+      "role": "Company",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Apr 14, 2025",
+          "crawled_at": "2025-04-14",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "carles-reina",
+      "company_id": "elevenlabs",
+      "name": "Carles Reina",
+      "role": "Company",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Apr 14, 2025",
+          "crawled_at": "2025-04-14",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "dustin-blank",
+      "company_id": "elevenlabs",
+      "name": "Dustin Blank",
+      "role": "Company",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Apr 14, 2025",
+          "crawled_at": "2025-04-14",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "lorena-oli",
+      "company_id": "elevenlabs",
+      "name": "Lorena Oli",
+      "role": "Company",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Apr 14, 2025",
+          "crawled_at": "2025-04-14",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "lauren-rothwell",
+      "company_id": "elevenlabs",
+      "name": "Lauren Rothwell",
+      "role": "Growth",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Oct 6, 2025",
+          "crawled_at": "2025-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "elevenlabs",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:23:32.244145",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,523 @@
+{
+  "company_record": {
+    "company_id": "writer",
+    "legal_name": "WRITER",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "USA",
+    "founded_year": 2020,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-04",
+        "snippet": "In 2020, May and Waseem launched WRITER to bring the power of generative AI to the enterprise."
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-04",
+        "snippet": "San Francisco (HQ) 111 Maiden Ln, 4th Floor San Francisco, CA 94108"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "writer",
+      "occurred_on": "2020-01-01",
+      "event_type": "product_release",
+      "title": "Launch of WRITER",
+      "description": "May and Waseem launched WRITER to bring the power of generative AI to the enterprise.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [
+        "May Habib",
+        "Waseem AlShikh"
+      ],
+      "tags": [
+        "AI",
+        "enterprise"
+      ],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[product]",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "writer",
+      "as_of": "2023-10-12",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Action Agent",
+        "AI Studio",
+        "Palmyra LLMs",
+        "Knowledge Graph"
+      ],
+      "geo_presence": [
+        "SF",
+        "NY",
+        "London"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-10-12",
+          "snippet": "SF/NY/London office space\nThree beautiful sunny offices in three incredibly exciting cities."
+        },
+        {
+          "source_url": "[product]",
+          "crawled_at": "2023-10-12",
+          "snippet": "PLATFORM\nAction Agent\nAI Studio\nPalmyra LLMs\nKnowledge Graph"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "writer",
+      "name": "Action Agent",
+      "description": "Create agents with shared tools for IT and business.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "writer",
+      "name": "AI Studio",
+      "description": "Platform for building AI solutions.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "writer",
+      "name": "Palmyra LLMs",
+      "description": "Large Language Models for enterprise solutions.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "writer",
+      "name": "Knowledge Graph",
+      "description": "Tool for organizing and utilizing enterprise data.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "5",
+      "company_id": "writer",
+      "name": "AI Agent Library",
+      "description": "Library of AI agents for enterprise use.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "may-habib",
+      "company_id": "writer",
+      "name": "May Habib",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": "2020-01-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "waseem-alshikh",
+      "company_id": "writer",
+      "name": "Waseem AlShikh",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": "2020-01-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "brian-oreilly",
+      "company_id": "writer",
+      "name": "Brian O’Reilly",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "dan-bikel",
+      "company_id": "writer",
+      "name": "Dan Bikel",
+      "role": "GM of International",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "melisa-russak",
+      "company_id": "writer",
+      "name": "Melisa Russak",
+      "role": "Head of AI",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "muayad-ali",
+      "company_id": "writer",
+      "name": "Muayad Ali",
+      "role": "Head of Machine Learning",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "james-lee",
+      "company_id": "writer",
+      "name": "James Lee",
+      "role": "Director of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "matan-paul-shetrit",
+      "company_id": "writer",
+      "name": "Matan-Paul Shetrit",
+      "role": "Head of GTM Operations & Strategy",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "andy-shorkey",
+      "company_id": "writer",
+      "name": "Andy Shorkey",
+      "role": "Chief Revenue Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "diego-lomanto",
+      "company_id": "writer",
+      "name": "Diego Lomanto",
+      "role": "Chief Marketing Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "roger-kopfmann",
+      "company_id": "writer",
+      "name": "Roger Kopfmann",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "kevin-chung",
+      "company_id": "writer",
+      "name": "Kevin Chung",
+      "role": "Chief Strategy Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "jevan-lenox",
+      "company_id": "writer",
+      "name": "Jevan Lenox",
+      "role": "Chief People Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "maureen-little",
+      "company_id": "writer",
+      "name": "Maureen Little",
+      "role": "SVP, Partners & Ecosystem",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "maiko-cook",
+      "company_id": "writer",
+      "name": "Maiko Cook",
+      "role": "VP, Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-02",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "writer",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:47:28.227526",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

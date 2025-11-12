@@ -1,0 +1,319 @@
+{
+  "company_record": {
+    "company_id": "scale",
+    "legal_name": "Scale AI, Inc.",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2016,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": 29000000000.0,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "headquarters\nSan Francisco"
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "2016\nFounded"
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "$29B\nValuation"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "scale_ai",
+      "occurred_on": "2025-10-28",
+      "event_type": "partnership",
+      "title": "Scale AI Partners with Korea’s AI Safety Institute",
+      "description": "Scale AI partners with Korea’s AI Safety Institute to advance global AI evaluation and governance.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog]",
+          "crawled_at": "2025-10-28",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "scale_ai",
+      "occurred_on": "2025-11-05",
+      "event_type": "office_open",
+      "title": "Expanding Our Presence with New Offices Around the World",
+      "description": "Scale AI is expanding offices in New York, London, Washington D.C., and St. Louis to support growth, innovation, and reliable AI development worldwide.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog]",
+          "crawled_at": "2025-11-05",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "scale_ai",
+      "as_of": "2023-10-17",
+      "headcount_total": 1000,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Data Science and Analytics",
+        "Engineering",
+        "Finance",
+        "Growth",
+        "Legal",
+        "Marketing and Communications",
+        "Operations",
+        "People",
+        "Product and Design",
+        "Public Sector",
+        "Research",
+        "Robotics",
+        "Sales",
+        "Specialist",
+        "University"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Scale GenerativeAI Platform"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York",
+        "London",
+        "Washington D.C.",
+        "St. Louis"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://scale.com/about",
+          "crawled_at": "2023-10-17",
+          "snippet": null
+        },
+        {
+          "source_url": "https://scale.com/careers",
+          "crawled_at": "2023-10-17",
+          "snippet": null
+        },
+        {
+          "source_url": "https://scale.com/blog",
+          "crawled_at": "2023-10-17",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "scale_data_engine",
+      "company_id": "scale_ai",
+      "name": "Data Engine",
+      "description": "Collect, curate, and annotate data. Train models and evaluate.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://scale.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "scale_3d_sensor_fusion",
+      "company_id": "scale_ai",
+      "name": "Scale 3D Sensor Fusion",
+      "description": "LiDAR",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://scale.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "scale_genai_platform",
+      "company_id": "scale_ai",
+      "name": "Scale GenAI Platform",
+      "description": "Powering the next generation of Generative AI. Scale Generative AI Data Engine powers many of the most advanced LLMs and generative models in the world.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://scale.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "scale_donovan",
+      "company_id": "scale_ai",
+      "name": "Scale Donovan",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://scale.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "arun-murthy",
+      "company_id": "scale_ai",
+      "name": "Arun Murthy",
+      "role": "Chief Product & Technology Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] OUR TEAM",
+          "crawled_at": "2025-10-28",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "john-brennan",
+      "company_id": "scale_ai",
+      "name": "John Brennan",
+      "role": "General Manager",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] OUR TEAM",
+          "crawled_at": "2025-10-28",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "scale_ai",
+      "as_of": "2023-10-12",
+      "news_mentions_30d": 10,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://fedscoop.com/scale-ai-unveils-defense-llama-large-language-model/",
+          "crawled_at": "2023-10-12",
+          "snippet": null
+        },
+        {
+          "source_url": "https://fedscoop.com/scale-ai-pushes-congress-ai-data-safety/",
+          "crawled_at": "2023-10-12",
+          "snippet": null
+        },
+        {
+          "source_url": "https://fastcompany.com/time-scale-revolutionize-media-publishing/",
+          "crawled_at": "2023-10-12",
+          "snippet": null
+        },
+        {
+          "source_url": "https://financialtimes.com/scale-valuation-doubles/",
+          "crawled_at": "2023-10-12",
+          "snippet": null
+        },
+        {
+          "source_url": "https://bloomberg.com/scale-ai-alexandr-wang-predictions/",
+          "crawled_at": "2023-10-12",
+          "snippet": null
+        },
+        {
+          "source_url": "https://cnn.com/most-companies-not-seeing-return-ai-investments/",
+          "crawled_at": "2023-10-12",
+          "snippet": null
+        },
+        {
+          "source_url": "https://axios.com/scale-ai-jason-droege-growing/",
+          "crawled_at": "2023-10-12",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:38:03.951251",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}
