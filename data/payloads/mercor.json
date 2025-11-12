@@ -1,0 +1,286 @@
+{
+  "company_record": {
+    "company_id": "mercor",
+    "legal_name": "Mercor",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": null,
+    "hq_country": "CA",
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": 10000000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2025-10-27",
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-07",
+        "snippet": "San Francisco, CA"
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-07",
+        "snippet": "Announcing Mercor's $350 million Series C at a $10 billion valuation."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "mercor",
+      "occurred_on": "2024-01-10",
+      "event_type": "funding",
+      "title": "Introducing Mercor: Redefining Hiring With AI",
+      "description": "Today, we're excited to announce $3.6M in funding and the launch of our fully-automated platform, which uses AI to assess and match talent with companies.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 3600000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "mercor",
+      "occurred_on": "2025-02-20",
+      "event_type": "funding",
+      "title": "Announcing Mercor's Series B",
+      "description": "Mercor is the global allocator for extraordinary human talent in the AI economy, and one of the fastest growing companies in Silicon Valley history. We’ve just raised a $100M Series B.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 100000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "mercor",
+      "occurred_on": "2025-10-27",
+      "event_type": "funding",
+      "title": "Unlocking Human Potential in the AI Economy",
+      "description": "Announcing Mercor's $350 million Series C at a $10 billion valuation.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 350000000.0,
+      "valuation_usd": 10000000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "mercor",
+      "as_of": "2023-10-11",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": null,
+      "geo_presence": null,
+      "confidence": 0.8,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mercor.com",
+          "crawled_at": "2023-10-11",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "mercor",
+      "name": "Apply",
+      "description": "Compliance Officers",
+      "pricing_model": "Contract",
+      "pricing_tiers_public": [
+        "$160 - $185 / hour",
+        "$80 - $140 / hour"
+      ],
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[product] Apply\n$160 - $185 / hour\nContract\nPosted a month ago\n23 hired this month\n$300\nCompliance Officers\nApply\n$80 - $140 / hour\nContract\nPosted 3 days ago\n19 hired this month\n$350\n‹\n1\n2\n3\n4\n5\n›\nMercor | Explore",
+          "crawled_at": "2025-10-27",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "mercor",
+      "name": "Explore",
+      "description": "Explore opportunities",
+      "pricing_model": "Contract",
+      "pricing_tiers_public": [
+        "$35 - $40 / hour",
+        "$20 / hour"
+      ],
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[product] Mercor | Explore\nNotifications\nOpen user menu\nExplore\nHome\nReferrals\nEarnings\nProfile\nExplore\nHome\nReferrals\nEarnings\nProfile\nOpen user menu\nExplore opportunities\nTrending\nNewest\nMost pay\nRefer & earn\nGeneralist Evaluator Expert\nApply\n$35 - $40 / hou",
+          "crawled_at": "2025-10-27",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "mercor",
+      "name": "Mathematics Labeling Expert - India",
+      "description": "Mathematics Labeling Expert",
+      "pricing_model": "Contract",
+      "pricing_tiers_public": [
+        "$20 - $30 / hour"
+      ],
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[product] $250\nMathematics Labeling Expert - India\nApply\n$20 - $30 / hour\nContract\nPosted 24 days ago\n88 hired this month\n$250\nMultilingual Expert\nApply\n$54 / hour\nContract\nPosted 2 months ago\n86 hired this month\n$250\nDigital Annotation Expert\nApply\n$16 / hour",
+          "crawled_at": "2025-10-27",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "srini-rajagopal",
+      "company_id": "mercor",
+      "name": "Srini Rajagopal",
+      "role": "VP Engineering",
+      "is_founder": false,
+      "start_date": "2025-03-03",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "extracted",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "brendan-foody",
+      "company_id": "mercor",
+      "name": "Brendan Foody",
+      "role": "Co-founder / CEO",
+      "is_founder": true,
+      "start_date": "2024-01-10",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "extracted",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "adarsh-hiremath",
+      "company_id": "mercor",
+      "name": "Adarsh Hiremath",
+      "role": "Co-founder / CTO",
+      "is_founder": true,
+      "start_date": "2025-06-30",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "extracted",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "nancy-fairbank",
+      "company_id": "mercor",
+      "name": "Nancy Fairbank",
+      "role": "Strategic Projects Lead",
+      "is_founder": false,
+      "start_date": "2025-07-15",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "extracted",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "mercor",
+      "as_of": "2023-10-21",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mercor.com/blog",
+          "crawled_at": "2023-10-21",
+          "snippet": "Announcing Mercor's $350 million Series C at a $10 billion valuation."
+        },
+        {
+          "source_url": "https://mercor.com/blog",
+          "crawled_at": "2023-10-21",
+          "snippet": "Mercor is the global allocator for extraordinary human talent in the AI economy, and one of the fastest growing companies in Silicon Valley history."
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:29:33.727605",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

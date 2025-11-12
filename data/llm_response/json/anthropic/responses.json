@@ -1,0 +1,151 @@
+{
+  "company_slug": "anthropic",
+  "structured": {
+    "company_name": "Anthropic",
+    "company_slug": "anthropic",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T22:59:11.156560Z",
+    "markdown_file": "markdown/anthropic/structured.md",
+    "content": "## Company Overview\n\nAnthropic PBC is a private AI startup with a focus on developing advanced AI models. The company's website is [console.anthropic.com](https://console.anthropic.com/). Anthropic has developed several AI products, including Claude, which is available in Europe. The leadership team includes notable figures such as Dario Amodei, Daniela Amodei, Yasmin Razavi, Jay Kreps, Reed Hastings, Mike Krieger, and Krishna Rao.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nAnthropic has raised a total of $13 billion USD, with the most recent funding round being a Series F. The last disclosed valuation of the company was $183 billion USD. Specific details about investors or the investor profile are not disclosed.\n\n## Growth Momentum\n\nThe company has been involved in multiple events, including product releases and partnerships, although specific dates and details are not disclosed. The significant Series F funding round indicates strong financial backing and potential for growth.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility and market presence mentions, with only one unspecified mention. There is no detailed information on market sentiment available.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is focused on advancing AI technology, as evidenced by its significant funding and high valuation. However, specific strategic goals or future plans are not disclosed.\n\n## Disclosure Gaps\n\n- Detailed business model and go-to-market strategy\n- Specific information on partnerships and product releases\n- Investor profile and specific investor details\n- Comprehensive visibility and market sentiment analysis\n- Risks and challenges facing the company\n- Strategic outlook and future plans"
+  },
+  "rag": {
+    "company_name": "Anthropic",
+    "company_slug": "anthropic",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:03:27.058104Z",
+    "markdown_file": "markdown/anthropic/rag.md",
+    "content": "## Company Overview\n\nAnthropic is a private AI startup focused on developing advanced AI models and solutions. The company emphasizes responsible scaling policies, security, and compliance, and is committed to transparency in its operations. Anthropic offers a range of AI models, including Opus, Sonnet, and Haiku, and provides solutions across various sectors such as financial services, government, and life sciences.\n\n## Business Model and GTM\n\nAnthropic's business model revolves around providing AI solutions and models like Opus, Sonnet, and Haiku. The company offers these models through platforms such as the Claude Developer Platform, which integrates with Amazon Bedrock and Google Cloud’s Vertex AI. Anthropic's go-to-market strategy includes partnerships with service providers and a startups program to expand its reach and adoption.\n\n## Funding & Investor Profile\n\nThe company recently raised a $13 billion Series F funding round, achieving a post-money valuation of $183 billion. Specific investor details are not disclosed, but the company has notable figures such as Dario Amodei and Daniela Amodei involved in its operations.\n\n## Growth Momentum\n\nAnthropic has demonstrated significant growth momentum, as evidenced by its substantial Series F funding round and high valuation. The company continues to expand its product offerings and market presence through strategic partnerships and the development of new AI models.\n\n## Visibility & Market Sentiment\n\nThe company states that it is committed to transparency and responsible AI development, which may positively influence market sentiment. Anthropic's presence on platforms like LinkedIn and its active newsroom suggest a focus on maintaining visibility and engaging with the broader AI community.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company appears well-positioned for continued growth, given its recent funding success and strategic partnerships. Anthropic's focus on responsible AI development and transparency may further enhance its reputation and market position.\n\n## Disclosure Gaps\n\n- Specific details about the company's revenue, profitability, and customer base are not disclosed.\n- Information on specific risks and challenges faced by the company is not available.\n- Detailed investor profiles and the composition of the funding round are not provided.",
+    "context_results": [
+      {
+        "id": "anthropic_about_d469e3a9",
+        "similarity_score": 0.411148101,
+        "text": "Company\nAnthropic\nCareers\nEconomic Futures\nResearch\nNews\nResponsible Scaling Policy\nSecurity and compliance\nTransparency\nHelp and security\nAvailability\nStatus\nSupport center\nTerms and policies\nPrivacy choices",
+        "metadata": {
+          "chunk_index": 21.0,
+          "company_slug": "anthropic",
+          "content_hash": "d469e3a9",
+          "indexed_at": "2025-11-11T20:35:05.819924",
+          "page_type": "about",
+          "source_file": "data/raw/anthropic/about/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_blog_aea05f8e",
+        "similarity_score": 0.391609192,
+        "text": "Service partners\nStartups program\nCompany\nAnthropic\nCareers\nEconomic Futures\nResearch\nNews\nResponsible Scaling Policy\nSecurity and compliance\nTransparency\nHelp and security\nAvailability\nStatus\nSupport center\nTerms and policies\nPrivacy choices\nPrivacy policy\nResponsible disclosure policy\nTerms of service: Commercial\nTerms of service: Consumer\nUsage policy\n© 2025 Anthropic PBC",
+        "metadata": {
+          "chunk_index": 35.0,
+          "company_slug": "anthropic",
+          "content_hash": "aea05f8e",
+          "indexed_at": "2025-11-11T20:35:05.821291",
+          "page_type": "blog",
+          "source_file": "data/raw/anthropic/blog/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_about_8f07c6f6",
+        "similarity_score": 0.364296,
+        "text": "Models\nOpus\nSonnet\nHaiku\nSolutions\nAI agents\nCode modernization\nCoding\nCustomer support\nEducation\nFinancial services\nGovernment\nLife sciences\nClaude Developer Platform\nOverview\nDeveloper docs\nPricing\nAmazon Bedrock\nGoogle Cloud’s Vertex AI\nConsole login\nLearn\nBlog\nCourses\nUse cases\nConnectors\nCustomer stories\nEngineering at Anthropic\nEvents\nPowered by Claude\nService partners\nStartups program\nCompany\nAnthropic\nCareers\nEconomic Futures\nResearch\nNews\nResponsible Scaling Policy",
+        "metadata": {
+          "chunk_index": 20.0,
+          "company_slug": "anthropic",
+          "content_hash": "8f07c6f6",
+          "indexed_at": "2025-11-11T20:35:05.819919",
+          "page_type": "about",
+          "source_file": "data/raw/anthropic/about/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_blog_d0548852",
+        "similarity_score": 0.361103058,
+        "text": "Newsroom \\ Anthropic\nSkip to main content\nSkip to footer\nResearch\nEconomic Futures\nCommitments\nLearn\nNews\nTry Claude\nNewsroom\nAnnouncements\nIntroducing Claude Sonnet 4.5\nSep 29, 2025\nPolicy\nThoughts on America’s AI Action Plan\nJul 23, 2025\nAnnouncements\nAnthropic raises $13B Series F at $183B post-money valuation\nSep 02, 2025\nEconomic Research\nAnthropic Economic Index report: Uneven geographic and enterprise AI adoption\nSep 15, 2025\nFollow Anthropic\nAnthropic on X\nLinkedIn\nPress inquiries",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "anthropic",
+          "content_hash": "d0548852",
+          "indexed_at": "2025-11-11T20:35:05.820864",
+          "page_type": "blog",
+          "source_file": "data/raw/anthropic/blog/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_about_656d75c2",
+        "similarity_score": 0.360931396,
+        "text": "Pricing\nContact sales\nModels\nOpus\nSonnet\nHaiku\nLog in\nClaude.ai\nClaude Console\nEN\nThis is some text inside of a div block.\nLog in to Claude\nLog in to Claude\nLog in to Claude\nDownload app\nDownload app\nDownload app\nResearch\nEconomic Futures\nCommitments\nInitiatives\nTransparency\nResponsible Scaling Policy\nTrust center\nSecurity and compliance\nLearn\nLearn\nAnthropic Academy\nUse cases\nEngineering at Anthropic\nDeveloper docs\nCompany\nAbout\nCareers\nEvents\nNews\nTry Claude\nTry Claude\nTry Claude",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "anthropic",
+          "content_hash": "656d75c2",
+          "indexed_at": "2025-11-11T20:35:05.819755",
+          "page_type": "about",
+          "source_file": "data/raw/anthropic/about/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_careers_656d75c2",
+        "similarity_score": 0.360797882,
+        "text": "Pricing\nContact sales\nModels\nOpus\nSonnet\nHaiku\nLog in\nClaude.ai\nClaude Console\nEN\nThis is some text inside of a div block.\nLog in to Claude\nLog in to Claude\nLog in to Claude\nDownload app\nDownload app\nDownload app\nResearch\nEconomic Futures\nCommitments\nInitiatives\nTransparency\nResponsible Scaling Policy\nTrust center\nSecurity and compliance\nLearn\nLearn\nAnthropic Academy\nUse cases\nEngineering at Anthropic\nDeveloper docs\nCompany\nAbout\nCareers\nEvents\nNews\nTry Claude\nTry Claude\nTry Claude",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "anthropic",
+          "content_hash": "656d75c2",
+          "indexed_at": "2025-11-11T20:35:05.822301",
+          "page_type": "careers",
+          "source_file": "data/raw/anthropic/careers/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_careers_fe6dc0ee",
+        "similarity_score": 0.354049683,
+        "text": "Transparency\nHelp and security\nAvailability\nStatus\nSupport center\nTerms and policies\nPrivacy choices",
+        "metadata": {
+          "chunk_index": 30.0,
+          "company_slug": "anthropic",
+          "content_hash": "fe6dc0ee",
+          "indexed_at": "2025-11-11T20:35:05.822520",
+          "page_type": "careers",
+          "source_file": "data/raw/anthropic/careers/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_about_3d957ba2",
+        "similarity_score": 0.348278046,
+        "text": "Dario Amodei, Daniela Amodei, Yasmin Razavi, Jay Kreps, and Reed Hastings.\nLTBT Trustees\nNeil Buddy Shah, Kanika Bahl, Zach Robinson, and Richard Fontaine.\nWant to help us build the future of safe AI?\nJoin us\nJoin us\nJoin us\nFooter\n©\n2025\nAnthropic PBC\nProducts\nClaude\nClaude Code\nClaude and Slack\nClaude in Excel\nMax plan\nTeam plan\nEnterprise plan\nDownload apps\nPricing\nLog in to Claude\nModels\nOpus\nSonnet\nHaiku\nSolutions\nAI agents\nCode modernization\nCoding\nCustomer support\nEducation",
+        "metadata": {
+          "chunk_index": 19.0,
+          "company_slug": "anthropic",
+          "content_hash": "3d957ba2",
+          "indexed_at": "2025-11-11T20:35:05.819912",
+          "page_type": "about",
+          "source_file": "data/raw/anthropic/about/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_about_a9641b32",
+        "similarity_score": 0.345275879,
+        "text": "Operations\nOur people, finance, legal, and recruiting teams are the human engines that make Anthropic go. We’ve had previous careers at NASA, startups, and the armed forces and our diverse experiences help make Anthropic a great place to work (and we love plants!).\nWhat we value and how we act",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "anthropic",
+          "content_hash": "a9641b32",
+          "indexed_at": "2025-11-11T20:35:05.819843",
+          "page_type": "about",
+          "source_file": "data/raw/anthropic/about/text.txt"
+        }
+      },
+      {
+        "id": "anthropic_careers_5d7fc340",
+        "similarity_score": 0.342323303,
+        "text": "Financial services\nGovernment\nLife sciences\nClaude Developer Platform\nOverview\nDeveloper docs\nPricing\nAmazon Bedrock\nGoogle Cloud’s Vertex AI\nConsole login\nLearn\nBlog\nCourses\nUse cases\nConnectors\nCustomer stories\nEngineering at Anthropic\nEvents\nPowered by Claude\nService partners\nStartups program\nCompany\nAnthropic\nCareers\nEconomic Futures\nResearch\nNews\nResponsible Scaling Policy\nSecurity and compliance\nTransparency\nHelp and security\nAvailability\nStatus\nSupport center\nTerms and policies",
+        "metadata": {
+          "chunk_index": 29.0,
+          "company_slug": "anthropic",
+          "content_hash": "5d7fc340",
+          "indexed_at": "2025-11-11T20:35:05.822515",
+          "page_type": "careers",
+          "source_file": "data/raw/anthropic/careers/text.txt"
+        }
+      }
+    ]
+  }
+}

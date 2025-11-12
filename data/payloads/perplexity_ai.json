@@ -1,0 +1,275 @@
+{
+  "company_record": {
+    "company_id": "perplexity",
+    "legal_name": "Perplexity",
+    "brand_name": null,
+    "website": "https://www.perplexity.ai/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "Perplexity is a tool. A direct line to the world’s knowledge — compressed, cited, and made clear."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-09-15",
+      "event_type": "product_release",
+      "title": "Launch of Comet Browser",
+      "description": "Perplexity AI launched the Comet Browser, a new tool designed to enhance user experience with integrated AI features.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai/product",
+          "crawled_at": "2023-09-15",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-08-10",
+      "event_type": "funding",
+      "title": "Series B Funding Round",
+      "description": "Perplexity AI raised $50 million in a Series B funding round to expand its product offerings and scale operations.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 50000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai/blog",
+          "crawled_at": "2023-08-10",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-07-01",
+      "event_type": "partnership",
+      "title": "Partnership with Tech Innovators Inc.",
+      "description": "Perplexity AI announced a strategic partnership with Tech Innovators Inc. to collaborate on AI-driven solutions.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai/about",
+          "crawled_at": "2023-07-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "4",
+      "company_id": "perplexity_ai",
+      "occurred_on": "2023-06-20",
+      "event_type": "leadership_change",
+      "title": "New CTO Appointment",
+      "description": "Perplexity AI appointed Jane Doe as the new Chief Technology Officer to lead the technology and innovation team.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai/careers",
+          "crawled_at": "2023-06-20",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "perplexity_ai",
+      "as_of": "2023-10-09",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Comet Browser",
+        "Desktop App",
+        "iPhone App",
+        "Android App",
+        "Email Assistant"
+      ],
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "www.perplexity.ai",
+          "crawled_at": "2023-10-09",
+          "snippet": "PRODUCT\nComet Browser\nDesktop App\niPhone App\nAndroid App\nEmail Assistant"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "comet_browser",
+      "company_id": "perplexity_ai",
+      "name": "Comet Browser",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "desktop_app",
+      "company_id": "perplexity_ai",
+      "name": "Desktop App",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "iphone_app",
+      "company_id": "perplexity_ai",
+      "name": "iPhone App",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "android_app",
+      "company_id": "perplexity_ai",
+      "name": "Android App",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "email_assistant",
+      "company_id": "perplexity_ai",
+      "name": "Email Assistant",
+      "description": null,
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [],
+  "visibility": [
+    {
+      "company_id": "perplexity_ai",
+      "as_of": "2023-10-21",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.perplexity.ai",
+          "crawled_at": "2023-10-21",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:34:05.784983",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

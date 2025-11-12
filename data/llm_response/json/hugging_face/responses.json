@@ -1,0 +1,34 @@
+{
+  "company_slug": "hugging_face",
+  "structured": {
+    "company_name": "Hugging Face",
+    "company_slug": "hugging-face",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T22:59:30.849932Z",
+    "markdown_file": "markdown/hugging_face/structured.md",
+    "content": "## Company Overview\n\nHugging Face is a company operating in the AI & ML sector, known for its contributions to machine learning models and datasets. The company is officially registered under the legal name Hugging Face and maintains an online presence through its website at [huggingface.co](https://huggingface.co/).\n\n## Business Model and GTM\n\nHugging Face offers a range of products including machine learning models, datasets, and a platform called Spaces for hosting and sharing machine learning applications. The company’s business model likely revolves around providing these AI tools and platforms to developers and organizations, although specific details about their go-to-market strategy are not disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nThe company has released products such as Models, Datasets, and Spaces, which indicate active development and expansion in their offerings. However, specific metrics or data regarding growth momentum are not disclosed.\n\n## Visibility & Market Sentiment\n\nHugging Face has a presence in the AI & ML community, as indicated by its mention in the provided data. However, detailed insights into market sentiment or broader visibility metrics are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is focused on AI & ML interests, suggesting a continued commitment to innovation and development in these areas. However, specific future plans or strategic outlooks are not disclosed.\n\n## Disclosure Gaps\n\n- Specific details about the company's funding and investor profile are not disclosed.\n- Information regarding the company's growth metrics and market sentiment is limited.\n- Risks and challenges faced by the company are not disclosed.\n- Detailed strategic outlook and future plans are not provided."
+  },
+  "rag": {
+    "company_name": "Hugging Face",
+    "company_slug": "hugging-face",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:05:13.154082Z",
+    "markdown_file": "markdown/hugging_face/rag.md",
+    "content": "## Company Overview\nHugging Face is a company focused on artificial intelligence and machine learning. The company is involved in decentralized progress within the AI and ML sectors. Specific details about the company's founding, leadership, or headquarters are not disclosed.\n\n## Business Model and GTM\nNot disclosed.\n\n## Funding & Investor Profile\nNot disclosed.\n\n## Growth Momentum\nNot disclosed.\n\n## Visibility & Market Sentiment\nNot disclosed.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nNot disclosed.\n\n## Disclosure Gaps\nThe provided context lacks detailed information on Hugging Face's business model, funding history, growth metrics, market sentiment, risks, challenges, and future outlook.",
+    "context_results": [
+      {
+        "id": "hugging_face_careers_7d5203b3",
+        "similarity_score": 0.342037231,
+        "text": "JOIN-US (SHARE YOUR WORK)\nHugging Face\nModels\nDatasets\nSpaces\nCommunity\nDocs\nEnterprise\nPricing\nLog In\nSign Up\nSHARE YOUR WORK\ncompany\nActivity Feed\nRequest to join this org\nFollow\n1\nAI & ML interests\nDecentralized progress\nTeam members\n1\nmodels\n0\nNone public yet\ndatasets\n0\nNone public yet\nSystem theme\nCompany\nTOS\nPrivacy\nAbout\nJobs\nWebsite\nModels\nDatasets\nSpaces\nPricing\nDocs",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "hugging_face",
+          "content_hash": "7d5203b3",
+          "indexed_at": "2025-11-11T20:42:42.943727",
+          "page_type": "careers",
+          "source_file": "data/raw/hugging_face/careers/text.txt"
+        }
+      }
+    ]
+  }
+}

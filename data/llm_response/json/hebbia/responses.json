@@ -1,0 +1,164 @@
+{
+  "company_slug": "hebbia",
+  "structured": {
+    "company_name": "Hebbia",
+    "company_slug": "hebbia",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T23:01:46.325453Z",
+    "markdown_file": "markdown/hebbia/structured.md",
+    "content": "## Company Overview\n\nHebbia, Inc. was founded in 2020 and is recognized for pioneering some of the most used AI architectures globally. The company has achieved significant milestones, including processing over 1 billion pages, a substantial increase from 47 million pages the previous year.\n\n## Business Model and GTM\n\nHebbia offers AI-driven solutions tailored for research-intensive industries such as investing, banking, and law. Their product lineup includes \"Deeper Research,\" which enhances the research process, and \"Matrix,\" a product designed to push speed limits. The company has also introduced features for generating Excel, PowerPoint, and Word documents to aid in financial modeling and presentations.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nHebbia has demonstrated strong growth momentum, as evidenced by their benchmark achievement of processing over 1 billion pages. This represents a significant increase from the previous year's 47 million pages. The company has also expanded its product offerings with new features and solutions tailored for financial services and research-intensive industries.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it has pioneered widely used AI architectures, suggesting a strong position in the AI industry. With its focus on research-intensive industries and continuous product development, Hebbia appears poised for further growth and expansion.\n\n## Disclosure Gaps\n\n- Specific funding and investor details are not disclosed.\n- Detailed visibility and market sentiment information are not provided.\n- Risks and challenges faced by the company are not disclosed.\n- Dates for key events and product releases are not specified."
+  },
+  "rag": {
+    "company_name": "Hebbia",
+    "company_slug": "hebbia",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:04:41.676785Z",
+    "markdown_file": "markdown/hebbia/rag.md",
+    "content": "## Company Overview\n\nHebbia is an AI startup focused on developing software products for the finance sector. The company is committed to building what it describes as \"the most important software product of the next 100 years.\" Hebbia's team comprises top talent with experience from premier startups, financial services, and legal firms. The company is based in New York City and offers a range of employee benefits, including start-up equity, competitive salaries, and comprehensive insurance.\n\n## Business Model and GTM\n\nHebbia's business model revolves around providing AI solutions tailored for finance, law, and corporate sectors. The company offers products that enhance workflows in investment banking, private equity, credit, and public equities. Hebbia's go-to-market strategy includes direct engagement with financial institutions, as evidenced by partnerships with firms managing a total of $14 trillion in assets under management (AUM). The company also emphasizes security and privacy, ensuring that user data is not used for training its AI models.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nHebbia has demonstrated significant growth, having processed over 1 billion pages, a substantial increase from 47 million pages the previous year. The company has also conducted over 5,000 one-on-one AI onboardings and has more than 1,000 use cases in production. Hebbia's platform improvements continue to enhance user experience by automating tasks and integrating new features.\n\n## Visibility & Market Sentiment\n\nThe company states that it is leading the way in building AI for finance, with its products being used by leading financial, legal, consulting, and Fortune 100 firms. Hebbia's visibility is further enhanced by its regular product updates and platform improvements, which are communicated through its blog and company news.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nHebbia is positioned for continued growth, with its focus on expanding AI capabilities and enhancing user experience. The company's commitment to security and privacy, along with its strategic partnerships, suggests a positive outlook in the competitive AI landscape.\n\n## Disclosure Gaps\n\n- Specific details on funding rounds and investor profiles are not disclosed.\n- Risks and challenges facing the company are not detailed.\n- Information on revenue, profitability, and specific financial metrics is not provided.",
+    "context_results": [
+      {
+        "id": "hebbia_about_9e94faa8",
+        "similarity_score": 0.411884367,
+        "text": "Company\n07.29.25\nSonal Gupta\nThe Bottom Line: Banks Enter a New Earnings Regime\nWelcome to The Bottom Line, our new series on select quarterly sector earnings. Each edition cuts through the numbers, using Hebbia to explain their implications for markets and highlight what to watch next.\nCompany\n07.10.25\nSonal Gupta\n5 Ways Equity Research Teams Use Hebbia to Drive Speed and Insight\nTransforming how analysts ramp coverage, benchmark peers, and prepare materials\nCome build the future with us.",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "hebbia",
+          "content_hash": "9e94faa8",
+          "indexed_at": "2025-11-11T20:42:23.372685",
+          "page_type": "about",
+          "source_file": "data/raw/hebbia/about/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_careers_ad1ab1ef",
+        "similarity_score": 0.386318237,
+        "text": "Careers\nSecurity\nPricing\nCareers\nSign In\nBook a demo\nWorld-class people. World-changing work.\nWe are building the most important software product of the next 100 years. We are not settling for anything less.\nView Open Positions\nOur Founding Story\nOur A-team\nWe’re building a company of only the best.\nWe’re proud to count top talent - with decades of experience from premier startups, financial services, and legal firms - as Hebbians.",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "hebbia",
+          "content_hash": "ad1ab1ef",
+          "indexed_at": "2025-11-11T20:42:23.377083",
+          "page_type": "careers",
+          "source_file": "data/raw/hebbia/careers/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_blog_f5fdd4fa",
+        "similarity_score": 0.379892379,
+        "text": "Product\n09.12.25\nDavis Li, Jake Skinner\nIntroducing Hebbia's Financial AI Benchmark\nHebbia’s Financial Services Benchmark tests leading LLMs on 600+ workflows spanning investment banking, private equity, credit, and public equities.\nProduct\n09.03.25\nHebbia Team\nThe Disclosure: August 2025\nThis month’s platform improvements cut friction, speed up analysis, and unlock new ways to move deals forward.\nProduct\n08.14.25\nSonal Gupta\nThe Bottom Line: Healthcare Earnings Reflect a Sector in Transition",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "hebbia",
+          "content_hash": "f5fdd4fa",
+          "indexed_at": "2025-11-11T20:42:23.376336",
+          "page_type": "blog",
+          "source_file": "data/raw/hebbia/blog/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_careers_3ab399c1",
+        "similarity_score": 0.371414214,
+        "text": "Several members of our team first met Hebbia as customers and found the product so exhilarating that they dropped everything to join us.\nJP Morgan\nKKR\nSixth Street\nEvercore\nLazard\nPaul Hastings\nYC\n“I saw firsthand the value of Hebbia in my day to day. I needed to be a part of building it.”\nCharlie Pickell\nBusiness Operations at Hebbia, Ex-Sixth Street\nCharlie Pickell\nBusiness Operations at Hebbia, Ex-Sixth Street\nOur values\nCogency\nCompassion\nRunning hard\nReadiness\nMeet Our Team\n←\n→",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "hebbia",
+          "content_hash": "3ab399c1",
+          "indexed_at": "2025-11-11T20:42:23.377090",
+          "page_type": "careers",
+          "source_file": "data/raw/hebbia/careers/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_blog_8311a140",
+        "similarity_score": 0.364296,
+        "text": "Careers\nSign In\nBook a demo\nBlog\nHow Hebbia is leading the way in building\nAI for finance\nProduct\n11.04.25\nHebbia Team\nThe Disclosure: October 2025\nThis month, we automated more essential tasks for Excel and PowerPoint, added European filings, and made our platform even more intuitive to use.\nRead More\nLatest\nAll Articles\nProduct\nCompany News\nCompany\n10.21.25\nAabhas Sharma\nWhy I Joined Hebbia as CTO\nProduct\n10.09.25\nHebbia Team\nThe Disclosure: September 2025",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "hebbia",
+          "content_hash": "8311a140",
+          "indexed_at": "2025-11-11T20:42:23.376312",
+          "page_type": "blog",
+          "source_file": "data/raw/hebbia/blog/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_careers_5b72c3b2",
+        "similarity_score": 0.363998443,
+        "text": "Erin Winchester\nBusiness Operations at Hebbia\nLearn More\nWe value our people.\nYour Benefits\nStart-up equity\nCompetitive Salary\nOffice in Downtown NY\nCommuter benefits\nFlexible PTO\nComprehensive medical, dental, and vision insurance\nDaily Catered Lunches\nFertility HRA\nParental Leave\nBuild the future with us.\nGTM\nAccount Executive\nNew York City\nApply\nRegional Sales Leader\nNew York City\nApply\nAI Strategy\nAI Strategist, Advisory\nNew York City\nApply\nAI Strategist, Credit\nNew York City\nApply",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "hebbia",
+          "content_hash": "5b72c3b2",
+          "indexed_at": "2025-11-11T20:42:23.377122",
+          "page_type": "careers",
+          "source_file": "data/raw/hebbia/careers/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_blog_45171e78",
+        "similarity_score": 0.359258682,
+        "text": "Blog\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nClose this dialog\nThis website utilizes technologies such as \nClose \nHebbia\nBook a demo\nProduct\nSecurity\nPricing\nCompany\nAbout\nBlog\nNewsroom\nCareers\nHebbia\nHebbia\nHebbia\nHebbia\nProduct\nSolutions\nBy Industry\nFor Finance\nFor Law\nFor Corporate\nCompany\nCompany\nAbout\nBlog\nNewsroom\nCareers\nSecurity\nPricing\nCareers\nSign In\nBook a demo\nBlog\nHow Hebbia is leading the way in building\nAI for finance\nProduct",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "hebbia",
+          "content_hash": "45171e78",
+          "indexed_at": "2025-11-11T20:42:23.376293",
+          "page_type": "blog",
+          "source_file": "data/raw/hebbia/blog/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_careers_9c4a0c18",
+        "similarity_score": 0.351093322,
+        "text": "Careers\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nClose this dialog\nThis website utilizes technologies such as \nClose \nHebbia\nBook a demo\nProduct\nSecurity\nPricing\nCompany\nAbout\nBlog\nNewsroom\nCareers\nHebbia\nHebbia\nHebbia\nHebbia\nProduct\nSolutions\nBy Industry\nFor Finance\nFor Law\nFor Corporate\nCompany\nCompany\nAbout\nBlog\nNewsroom\nCareers\nSecurity\nPricing\nCareers\nSign In\nBook a demo\nWorld-class people. World-changing work.",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "hebbia",
+          "content_hash": "9c4a0c18",
+          "indexed_at": "2025-11-11T20:42:23.377069",
+          "page_type": "careers",
+          "source_file": "data/raw/hebbia/careers/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_product_957877ff",
+        "similarity_score": 0.350313216,
+        "text": "$14T\nAUM of firms using Hebbia\n5000+\n1:1 AI onboardings\n4 years\ndeploying enterprise LLMs\n1000+\nuse cases in production\nThe security of privacy\nYour data is always yours. Rest easy working with one of the only AI companies that never trains on your data.\nSOC2 I\nSOC2 II\nGDPR\nEncrypted in transit and at rest\nNo training on user data\nCCPA\n(Coming soon)\nData encrypted at rest with AES 256 and in transit with TLS 1.3\nDon’t be left behind.",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "hebbia",
+          "content_hash": "957877ff",
+          "indexed_at": "2025-11-11T20:42:23.377862",
+          "page_type": "product",
+          "source_file": "data/raw/hebbia/product/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_blog_5bc3e41b",
+        "similarity_score": 0.34947589,
+        "text": "Why I Joined Hebbia as CTO\nProduct\n10.09.25\nHebbia Team\nThe Disclosure: September 2025\nWe’ve released new Excel, PowerPoint, and Word generation features to help you build expert financial models and accelerate the process of presenting your ideas.\nCompany\n09.25.25\nHebbia\nHebbia Crosses 1 Billion Pages Processed\nToday Hebbia crossed 1,000,000,000 pages processed—up from a mere 47 million pages just one year ago.\nProduct\n09.22.25\nCharlie Pickell\nHow Private Credit Teams Use Hebbia",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "hebbia",
+          "content_hash": "5bc3e41b",
+          "indexed_at": "2025-11-11T20:42:23.376321",
+          "page_type": "blog",
+          "source_file": "data/raw/hebbia/blog/text.txt"
+        }
+      },
+      {
+        "id": "hebbia_about_c9f39d93",
+        "similarity_score": 0.343748122,
+        "text": "Since then we’ve raised 4 rounds of financing and hired exceptional humans from around the world.\nToday, we’ve evolved far beyond chat-based interfaces and RAG. Matrix tackles even the most complex tasks using our proprietary ISD architecture.\nThe world’s leading financial, legal, consulting, and Fortune 100 firms are already using Matrix to teach AI agents their unique process, and do entirely new kinds of work.",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "hebbia",
+          "content_hash": "c9f39d93",
+          "indexed_at": "2025-11-11T20:42:23.372637",
+          "page_type": "about",
+          "source_file": "data/raw/hebbia/about/text.txt"
+        }
+      }
+    ]
+  }
+}

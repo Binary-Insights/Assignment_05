@@ -1,0 +1,330 @@
+{
+  "company_record": {
+    "company_id": "coactive",
+    "legal_name": "Coactive Systems Inc.",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2021,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": 44000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-06",
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "2021 Year founded"
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "$44M Funding raised"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "coactive_ai",
+      "occurred_on": "2025-09-30",
+      "event_type": "product_release",
+      "title": "The Future of Video and Image Intelligence",
+      "description": "Coactive AI discusses advancements in video and image intelligence.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://coactive.ai/blog/future-of-video-and-image-intelligence",
+          "crawled_at": "2025-09-30",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "coactive_ai",
+      "as_of": "2023-10-27",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Multimodal AI platform for video understanding"
+      ],
+      "geo_presence": [
+        "United States",
+        "Canada"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://coactive.ai",
+          "crawled_at": "2023-10-27",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "coactive_ai",
+      "name": "Multimodal AI Platform for Video Understanding",
+      "description": "Coactive's Multimodal AI platform for video understanding.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "coactive_ai",
+      "name": "Context-aware Analysis",
+      "description": "Go beyond shot detection for better contextual awareness. Unlike other platforms that stop at just marking shot boundaries, Coactive enables context-aware analysis across segments.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "coactive_ai",
+      "name": "Content Discovery",
+      "description": "Learn more about content discovery with Coactive. Get robust metadata in minutes. Turn visual and audio content into structured metadata—automatically and at scale. Flexible tagging with Dynamic Tags.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "coactive_ai",
+      "name": "Future-proof Multimodal AI Platform",
+      "description": "Future-proof. You’re not locked in to any one foundation model. Choose the right model for your needs, and chain models for deeper understanding. Coactive provides a single place to manage and activate content catalogs.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "5",
+      "company_id": "coactive_ai",
+      "name": "Coactive Multimodal AI Platform",
+      "description": "The Coactive Multimodal AI Platform is a powerful, flexible way for developers to create game-changing apps, fast. Working with video and images is hard.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "6",
+      "company_id": "coactive_ai",
+      "name": "Best-of-breed Foundation Models",
+      "description": "Use Coactive’s open model catalog, or plug in models via Bedrock, Azure AI, or Databricks. Chain models for deeper insights. Fine tuning custom fit to your domain needs with fine-tuning that’s decoupled, evaluable.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "7",
+      "company_id": "coactive_ai",
+      "name": "High-throughput Media Processing",
+      "description": "Ingest petabytes of video and images across cloud or on-prem storage. Coactive is architected to handle large-scale, concurrent processing with minimal bottlenecks. Smart chunking for long-form content.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "will-gaviria-rojas",
+      "company_id": "coactive_ai",
+      "name": "Will Gaviria Rojas",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Data Scientist at eBay",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "cody-coleman",
+      "company_id": "coactive_ai",
+      "name": "Cody Coleman",
+      "role": "Co-Founder and CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "tia",
+      "company_id": "coactive_ai",
+      "name": "Tia",
+      "role": "Chief People Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "josh",
+      "company_id": "coactive_ai",
+      "name": "Josh",
+      "role": "Chief Revenue Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Amperity",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "source",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "coactive_ai",
+      "as_of": "2023-10-11",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:19:04.403779",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

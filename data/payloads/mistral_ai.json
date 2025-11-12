@@ -1,0 +1,470 @@
+{
+  "company_record": {
+    "company_id": "mistral_ai",
+    "legal_name": "Mistral AI",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": "France",
+    "founded_year": 2023,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": "2025-09-09",
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-06",
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "We are Mistral AI, a pioneering French artificial intelligence startup founded in April 2023 by three visionary researchers: Arthur Mensch, Guillaume Lample, and Timothée Lacroix."
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-06",
+        "snippet": "Mistral AI raises 1.7B€ to accelerate technological progress with AI September 9, 2025"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "mistral_ai",
+      "occurred_on": "2025-09-09",
+      "event_type": "funding",
+      "title": "Mistral AI raises 1.7B€ to accelerate technological progress with AI",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Company",
+          "crawled_at": "2025-09-09",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "mistral_ai",
+      "occurred_on": "2025-09-02",
+      "event_type": "product_release",
+      "title": "Make Memory work for you. Designing transparency and control into AI recall.",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Company",
+          "crawled_at": "2025-09-02",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "mistral_ai",
+      "occurred_on": "2025-10-24",
+      "event_type": "product_release",
+      "title": "Introducing Mistral AI Studio. The Production AI Platform.",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] Latest news | Mistral AI",
+          "crawled_at": "2025-10-24",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "4",
+      "company_id": "mistral_ai",
+      "occurred_on": "2025-01-30",
+      "event_type": "product_release",
+      "title": "Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about] Mistral Small 3: Apache 2.0, 81% MMLU, 150 tokens/s",
+          "crawled_at": "2025-01-30",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "5",
+      "company_id": "mistral_ai",
+      "occurred_on": "2025-01-13",
+      "event_type": "product_release",
+      "title": "Codestral 25.01",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about] Codestral 25.01",
+          "crawled_at": "2025-01-13",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "6",
+      "company_id": "mistral_ai",
+      "occurred_on": "2025-08-01",
+      "event_type": "product_release",
+      "title": "Unlocking the potential of vision language models on satellite imagery through fine-tuning",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] September 2, 2025",
+          "crawled_at": "2025-08-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "7",
+      "company_id": "mistral_ai",
+      "occurred_on": "2025-07-17",
+      "event_type": "product_release",
+      "title": "Voxtral: Introducing frontier open source speech understanding models.",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[blog] July 17, 2025",
+          "crawled_at": "2025-07-17",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "8",
+      "company_id": "mistral_ai",
+      "occurred_on": "2024-11-18",
+      "event_type": "partnership",
+      "title": "Le Chat and AFP team up to deliver AI powered by news",
+      "description": "Providing Le Chat users with richer, more reliable and more accurate responses.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about] Read full story",
+          "crawled_at": "2024-11-18",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "mistral_ai",
+      "as_of": "2023-10-09",
+      "headcount_total": 200,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "AI explorers with an entrepreneurial spirit"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "AI Studio",
+        "Le Chat",
+        "Mistral Code",
+        "Mistral Compute",
+        "Codestral 25.01",
+        "Mistral Small 3",
+        "Mistral Large",
+        "Mistral Medium",
+        "Mistral Moderation"
+      ],
+      "geo_presence": [
+        "France",
+        "United States",
+        "United Kingdom",
+        "Singapore"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/about",
+          "crawled_at": "2023-10-09",
+          "snippet": null
+        },
+        {
+          "source_url": "https://mistral.ai/careers",
+          "crawled_at": "2023-10-09",
+          "snippet": null
+        },
+        {
+          "source_url": "https://mistral.ai/blog",
+          "crawled_at": "2023-10-09",
+          "snippet": null
+        },
+        {
+          "source_url": "https://mistral.ai/product",
+          "crawled_at": "2023-10-09",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "mistral_moderation",
+      "company_id": "mistral_ai",
+      "name": "Mistral Moderation",
+      "description": "Intelligent content safety at scale. A fine-tuned model offering customizable content moderation across nine safety categories in multiple languages. Designed for both raw text and conversational content with high accuracy.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/products",
+          "crawled_at": "2025-10-24",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "mistral_large",
+      "company_id": "mistral_ai",
+      "name": "Mistral Large",
+      "description": "Our flagship model delivers state-of-the-art performance across reasoning, code, and analysis tasks. Designed for the most sophisticated enterprise needs with extensive context understanding.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/products",
+          "crawled_at": "2025-10-24",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "magistral",
+      "company_id": "mistral_ai",
+      "name": "Magistral",
+      "description": "Specialized, transparent, and multilingual reasoning. Complex thinking, backed by deep understanding, with transparent reasoning you can follow and verify. The model excels in maintaining high-fidelity reasoning across numerous languages.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/products",
+          "crawled_at": "2025-10-24",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "mistral_small",
+      "company_id": "mistral_ai",
+      "name": "Mistral Small",
+      "description": "Enterprise-ready, compact powerhouse. The most powerful model in its size class, combining efficiency with remarkable capabilities. Ideal for production deployments requiring balance between performance and resource usage.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/products",
+          "crawled_at": "2025-10-24",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "codestral",
+      "company_id": "mistral_ai",
+      "name": "Codestral",
+      "description": "Elevating code generation. Purpose-built for code generation and understanding, optimized for developer workflows.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/products",
+          "crawled_at": "2025-10-24",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "voxtral",
+      "company_id": "mistral_ai",
+      "name": "Voxtral",
+      "description": "A family of audio models with state-of-the-art speech to text capabilities. It delivers frontier open source speech understanding models.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/products",
+          "crawled_at": "2025-10-24",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "arthur-mensch",
+      "company_id": "mistral_ai",
+      "name": "Arthur Mensch",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": "2023-04-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": "École Polytechnique",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/about",
+          "crawled_at": "2023-10-05",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "guillaume-lample",
+      "company_id": "mistral_ai",
+      "name": "Guillaume Lample",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": "2023-04-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": "École Polytechnique",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/about",
+          "crawled_at": "2023-10-05",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "timothee-lacroix",
+      "company_id": "mistral_ai",
+      "name": "Timothée Lacroix",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": "2023-04-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": "École Polytechnique",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://mistral.ai/about",
+          "crawled_at": "2023-10-05",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "mistral_ai",
+      "as_of": "2023-10-24",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:31:19.183132",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

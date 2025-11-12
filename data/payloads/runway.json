@@ -1,0 +1,434 @@
+{
+  "company_record": {
+    "company_id": "runway",
+    "legal_name": "Runway",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": 141000000.0,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series A",
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-06",
+        "snippet": "Runway raises $141 million to continue building the future of creativity"
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-06",
+        "snippet": "Runway raises $8.5M Series A"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "runway",
+      "occurred_on": "2023-06-29",
+      "event_type": "funding",
+      "title": "Runway raises $141 million",
+      "description": "Runway raises $141 million to continue building the future of creativity",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 141000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "runway",
+      "occurred_on": "2020-12-16",
+      "event_type": "funding",
+      "title": "Runway raises $8.5M Series A",
+      "description": "Runway raises $8.5M Series A",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 8500000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "runway",
+      "occurred_on": "2024-09-18",
+      "event_type": "partnership",
+      "title": "Runway Partners with Lionsgate",
+      "description": "Runway Partners with Lionsgate",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "runway",
+      "occurred_on": "2024-09-16",
+      "event_type": "product_release",
+      "title": "Introducing the Runway API for Gen-3 Alpha Turbo",
+      "description": "Introducing the Runway API for Gen-3 Alpha Turbo",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "runway",
+      "occurred_on": "2025-04-03",
+      "event_type": "other",
+      "title": "Gaspar Noé Joins Runway’s 2025 AI Film Festival Jurors",
+      "description": "Gaspar Noé Joins Runway’s 2025 AI Film Festival Jurors",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "6",
+      "company_id": "runway",
+      "occurred_on": "2025-03-17",
+      "event_type": "other",
+      "title": "Runway Launches Global Talent Network",
+      "description": "Runway Launches Global Talent Network",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "7",
+      "company_id": "runway",
+      "occurred_on": "2024-12-18",
+      "event_type": "partnership",
+      "title": "NYU Tisch Graduate Program brings Runway tools to the Martin Scorsese Virtual Production Center",
+      "description": "NYU Tisch Graduate Program brings Runway tools to the Martin Scorsese Virtual Production Center",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "8",
+      "company_id": "runway",
+      "occurred_on": "2025-06-04",
+      "event_type": "product_release",
+      "title": "Introducing the Gen-4 Image API",
+      "description": "Introducing the Gen-4 Image API",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "9",
+      "company_id": "runway",
+      "occurred_on": "2025-05-16",
+      "event_type": "partnership",
+      "title": "Runway and Fabula Unveil Production Partnership",
+      "description": "Runway and Fabula Unveil Production Partnership",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "10",
+      "company_id": "runway",
+      "occurred_on": "2025-04-14",
+      "event_type": "partnership",
+      "title": "Runway Inks First-Look Development Deal with Harmony Korine’s EDGLRD",
+      "description": "Runway Inks First-Look Development Deal with Harmony Korine’s EDGLRD",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "11",
+      "company_id": "runway",
+      "occurred_on": "2025-07-25",
+      "event_type": "product_release",
+      "title": "Introducing Runway Aleph",
+      "description": "Introducing Runway Aleph",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "12",
+      "company_id": "runway",
+      "occurred_on": "2024-03-21",
+      "event_type": "partnership",
+      "title": "Partnering with Media.Monks to expand creative horizons",
+      "description": "Partnering with Media.Monks to expand creative horizons",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "13",
+      "company_id": "runway",
+      "occurred_on": "2024-03-20",
+      "event_type": "partnership",
+      "title": "Runway partners with Getty Images to build enterprise ready AI tools",
+      "description": "Runway partners with Getty Images to build enterprise ready AI tools",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "14",
+      "company_id": "runway",
+      "occurred_on": "2023-12-04",
+      "event_type": "other",
+      "title": "Introducing the Runway Acceleration Program",
+      "description": "Introducing the Runway Acceleration Program",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "runway",
+      "as_of": "2023-10-06",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 5,
+      "engineering_openings": 1,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Research",
+        "Support",
+        "Studios"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Runway Aleph",
+        "Gen-4",
+        "Game Worlds",
+        "Act-Two"
+      ],
+      "geo_presence": null,
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-10-06",
+          "snippet": "Research Manager, Foundation Models\nCreative Support Specialist (contract)\nAnimator\nVFX Artist"
+        },
+        {
+          "source_url": "[product]",
+          "crawled_at": "2023-10-06",
+          "snippet": "Our Tools\nAPI\nAleph\nGen-4\nGame Worlds\nAct-Two"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "runway_aleph",
+      "company_id": "runway",
+      "name": "Runway Aleph",
+      "description": "Edit and transform video just by asking.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "runway_act_two",
+      "company_id": "runway",
+      "name": "Runway Act-Two",
+      "description": "Create highly expressive character performances.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "gen_4_references",
+      "company_id": "runway",
+      "name": "Gen-4 References",
+      "description": "Generate consistent characters, locations and objects.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "relight_scene",
+      "company_id": "runway",
+      "name": "Relight Scene",
+      "description": "Change the lighting in any video instantly.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "cristóbal-valenzuela",
+      "company_id": "runway",
+      "name": "Cristóbal Valenzuela",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://blog.runwayml.com/runway-raises-8-5m-series-a/",
+          "crawled_at": "2024-09-26",
+          "snippet": "Runway raises $8.5M Series A by Cristóbal Valenzuela"
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "runway",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.bloomberg.com",
+          "crawled_at": "2025-10-01",
+          "snippet": "24 AI Startups to Watch in 2026"
+        },
+        {
+          "source_url": "https://www.fastcompany.com",
+          "crawled_at": "2025-10-01",
+          "snippet": "The 8 next big things in foundational AI for 2025"
+        },
+        {
+          "source_url": "https://www.theinformation.com",
+          "crawled_at": "2025-10-01",
+          "snippet": "AI Creates Art. So We Need to Rethink How Copyright Protects Artists"
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:36:02.446697",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

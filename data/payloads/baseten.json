@@ -1,0 +1,387 @@
+{
+  "company_record": {
+    "company_id": "baseten",
+    "legal_name": "Baseten",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-18",
+        "snippet": "© 2025 Baseten"
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-18",
+        "snippet": "© 2025 Baseten"
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-18",
+        "snippet": "© 2025 Baseten"
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-18",
+        "snippet": "© 2025 Baseten"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "baseten",
+      "occurred_on": "2023-10-01",
+      "event_type": "product_release",
+      "title": "Baseten Training Is GA",
+      "description": "Baseten has made its training product generally available (GA) after months of working with early users and receiving positive feedback.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.baseten.com/blog/train-ai-models-when-you-want-deploy-on-ultra-performant-infrastructure-baseten-training-is-ga",
+          "crawled_at": "2023-10-01",
+          "snippet": "Train AI Models When You Want. Deploy on Ultra Performant Infrastructure. Baseten Training Is GA. After months of working with early users, we have received very positive feedback and are ready to make our training product GA for all Baseten customers."
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "baseten",
+      "as_of": "2023-10-19",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Baseten Cloud",
+        "Self-hosted",
+        "Hybrid",
+        "Enterprise",
+        "Transcription",
+        "Image generation",
+        "Text-to-speech",
+        "Large language models",
+        "Compound AI",
+        "Embeddings"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "New York"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-19",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "baseten",
+      "name": "Baseten Cloud",
+      "description": "Deployment option for hosting applications on Baseten's cloud infrastructure.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "baseten",
+      "name": "Self-hosted",
+      "description": "Deployment option for hosting applications on your own infrastructure.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "3",
+      "company_id": "baseten",
+      "name": "Hybrid",
+      "description": "Deployment option combining cloud and on-premises hosting.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "4",
+      "company_id": "baseten",
+      "name": "Baseten Training",
+      "description": "Product for training AI models with ultra performant infrastructure.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "5",
+      "company_id": "baseten",
+      "name": "Inference Stack",
+      "description": "Infrastructure for deploying and managing AI model inference.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "6",
+      "company_id": "baseten",
+      "name": "Model APIs",
+      "description": "APIs for accessing and managing AI models.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "7",
+      "company_id": "baseten",
+      "name": "Dedicated deployments",
+      "description": "Custom deployment solutions for specific needs.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "8",
+      "company_id": "baseten",
+      "name": "Multi-cloud Capacity Management",
+      "description": "Manage capacity across multiple cloud providers.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "9",
+      "company_id": "baseten",
+      "name": "Chains",
+      "description": "Tool for managing complex AI workflows and autoscaling.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "nathan-sobo",
+      "company_id": "baseten",
+      "name": "Nathan Sobo",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "mahendan-karunakaran",
+      "company_id": "baseten",
+      "name": "Mahendan Karunakaran",
+      "role": "Head of Mobile Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "isaiah-granet",
+      "company_id": "baseten",
+      "name": "Isaiah Granet",
+      "role": "CEO and Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "baseten",
+      "as_of": "2023-10-09",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://baseten.com/blog",
+          "crawled_at": "2023-10-09",
+          "snippet": "Train AI Models When You Want. Deploy on Ultra Performant Infrastructure. Baseten Training Is GA. After months of working with early users, we have received very positive feedback and are ready to make our training product GA for all Baseten customers."
+        },
+        {
+          "source_url": "https://baseten.com/about",
+          "crawled_at": "2023-10-09",
+          "snippet": "I want the best possible experience for our users, but also for our company. Baseten has hands down provided both. We really appreciate the level of commitment and support from your entire team."
+        },
+        {
+          "source_url": "https://baseten.com/blog",
+          "crawled_at": "2023-10-09",
+          "snippet": "Kimi K2 Thinking at 140+ TPS on NVIDIA Blackwell. Our model performance team built the fastest API (300 ms TTFT, 140+ TPS) for Kimi K2 Thinking, a 1T param open model that matches GPT-5 and Sonnet 4.5."
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:17:26.836189",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

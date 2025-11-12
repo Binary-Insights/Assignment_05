@@ -1,0 +1,985 @@
+{
+  "world-labs": {
+    "company_name": "World Labs",
+    "company_slug": "world-labs",
+    "reference_material": {
+      "official_sources": [
+        "https://www.worldlabs.ai/",
+        "https://www.worldlabs.ai/about",
+        "https://jobs.ashbyhq.com/worldlabs",
+        "https://www.worldlabs.ai/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "World Labs: a spatial intelligence AI company building Large World Models (LWMs) to perceive, generate, and interact with the 3D world.",
+          "source_urls": [
+            "https://www.worldlabs.ai/about"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Today we’re sharing RTFM, a new real-time generative World Model. RTFM (Real-Time Frame Model) generates video in real-time as you interact with it.",
+          "source_urls": [
+            "https://www.worldlabs.ai/blog"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "World Models, taking AI beyond language and 2D visuals into the realm of complex 3D environments, both virtual and real.",
+          "source_urls": [
+            "https://jobs.ashbyhq.com/worldlabs"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "To date we have raised more than $230M in total funding led by Martin Casado and Sarah Wang of Andreessen Horowitz, Scott Sandell of NEA, and Jordan Jacobs of Radical Ventures.",
+          "source_urls": [
+            "https://www.worldlabs.ai/about"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "World Labs was founded by visionary AI pioneer Fei-Fei Li along with Justin Johnson, Christoph Lassner, and Ben Mildenhall; each a world-renowned technologist in computer vision and graphics.",
+          "source_urls": [
+            "https://www.worldlabs.ai/about"
+          ]
+        }
+      ]
+    }
+  },
+  "abridge": {
+    "company_name": "Abridge",
+    "company_slug": "abridge",
+    "reference_material": {
+      "official_sources": [
+        "https://www.abridge.com/",
+        "https://www.abridge.com/about",
+        "https://www.abridge.com/product",
+        "https://jobs.ashbyhq.com/Abridge",
+        "https://www.abridge.com/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Generative AI Platform for Clinical Conversations Clinically useful and billable AI notes at the point of care, integrated directly into EHR workflows. Powered by the Abridge Contextual Reasoning Engine.",
+          "source_urls": [
+            "https://www.abridge.com/product"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Recognizes, understands, and takes accurate notes across a wide range of languages.",
+          "source_urls": [
+            "https://www.abridge.com/product"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Real Time Prior Authorization at the Point of Conversation",
+          "source_urls": [
+            "https://www.abridge.com/blog"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Abridge on Stage at NVIDIA GTC With Perpelxity, Cognition, and Crowdstrike",
+          "source_urls": [
+            "https://www.abridge.com/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "We Transform Conversations Into Insights With Ai\nOur mission is to power deeper understanding in healthcare through purpose-built AI.",
+          "source_urls": [
+            "https://www.abridge.com/about"
+          ]
+        }
+      ]
+    }
+  },
+  "anthropic": {
+    "company_name": "Anthropic",
+    "company_slug": "anthropic",
+    "reference_material": {
+      "official_sources": [
+        "https://www.anthropic.com/",
+        "https://www.anthropic.com/company",
+        "https://www.anthropic.com/products",
+        "https://www.anthropic.com/news"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "AI research and products that put safety at the frontier\nAI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks.",
+          "source_urls": [
+            "https://www.anthropic.com/"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "We aim to build frontier AI systems that are reliable, interpretable, and steerable. We conduct frontier research, develop and apply a variety of safety techniques, and deploy the resulting systems via a set of partnerships and products.",
+          "source_urls": [
+            "https://www.anthropic.com/company"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Anthropic is a Public Benefit Corporation, whose purpose is the responsible development and maintenance of advanced AI for the long-term benefit of humanity.",
+          "source_urls": [
+            "https://www.anthropic.com/company"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Anthropic raises $13B Series F at $183B post-money valuation",
+          "source_urls": [
+            "https://www.anthropic.com/news"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Anthropic Economic Index report: Uneven geographic and enterprise AI adoption",
+          "source_urls": [
+            "https://www.anthropic.com/news"
+          ]
+        }
+      ]
+    }
+  },
+  "anysphere": {
+    "company_name": "Anysphere",
+    "company_slug": "anysphere",
+    "reference_material": {
+      "official_sources": [
+        "https://anysphere.inc/",
+        "https://cursor.com/features",
+        "https://cursor.com/enterprise",
+        "https://cursor.com/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Agent Delegate coding tasks so you can focus on higher-level direction.",
+          "source_urls": [
+            "https://cursor.com/features"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Ship better software, faster\nCursor helps your entire team deliver ambitious products.",
+          "source_urls": [
+            "https://cursor.com/enterprise"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Codebase understanding\nCursor’s codebase embedding model gives Agent deep understanding and recall.",
+          "source_urls": [
+            "https://cursor.com/enterprise"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Semantic search significantly improves coding agent performance with 12.5% higher accuracy, improves code retention and decreases dissatisfied user requests.",
+          "source_urls": [
+            "https://cursor.com/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Cursor is used by tens of thousands of enterprises, including Salesforce, NVIDIA, and PwC, to accelerate product velocity and build durable software.",
+          "source_urls": [
+            "https://cursor.com/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "baseten": {
+    "company_name": "Baseten",
+    "company_slug": "baseten",
+    "reference_material": {
+      "official_sources": [
+        "https://www.baseten.com/",
+        "https://www.baseten.com/products/chains/",
+        "https://www.baseten.com/careers/",
+        "https://www.baseten.com/blog/"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Baseten delivers the infrastructure, tooling, and expertise needed to bring great AI products to market - fast.",
+          "source_urls": [
+            "https://www.baseten.com/"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Use Chains to orchestrate inference workflows across multiple models, with a framework designed for performance.",
+          "source_urls": [
+            "https://www.baseten.com/products/chains/"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Simplify orchestration of multiple ML models, business logic services, and their underlying resources in pure Python using Chains",
+          "source_urls": [
+            "https://www.baseten.com/products/chains/"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "We build delightful products for engineering and machine learning teams to deliver their best work.",
+          "source_urls": [
+            "https://www.baseten.com/careers/"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "High-performance agents for financial services with NVIDIA Nemotron on Baseten",
+          "source_urls": [
+            "https://www.baseten.com/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "captions": {
+    "company_name": "Captions",
+    "company_slug": "captions",
+    "reference_material": {
+      "official_sources": [
+        "https://www.captions.ai/",
+        "https://mirage.app/about-us",
+        "https://mirage.app/captions",
+        "https://mirage.app/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "At Mirage, we're building foundation models and products that change the future of video.",
+          "source_urls": [
+            "https://mirage.app/"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Captions is the AI video editor you've been waiting for. Turn text to video, all with simple commands and intuitive AI editing tools.",
+          "source_urls": [
+            "https://mirage.app/captions"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "A world where the distance between idea and audience is zero, giving creators and businesses the power to reach their full creative and commercial potential.",
+          "source_urls": [
+            "https://mirage.app/about-us"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Captions announces Series C to invest $100M in AI video research in New York.",
+          "source_urls": [
+            "https://mirage.app/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "How a startup improved their creative with Mirage Studio.",
+          "source_urls": [
+            "https://mirage.app/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "clay": {
+    "company_name": "Clay",
+    "company_slug": "clay",
+    "reference_material": {
+      "official_sources": [
+        "https://www.clay.com/",
+        "https://www.clay.com/about",
+        "https://www.clay.com/partners/solutions",
+        "https://www.clay.com/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Bring AI agents, enrichment, and intent data together and turn insights into relevant, timely action.",
+          "source_urls": [
+            "https://www.clay.com/"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Clay Solutions Partners deliver top-tier AI-powered GTM work, signaling to clients your technical expertise, leadership, and service quality.",
+          "source_urls": [
+            "https://www.clay.com/partners/solutions"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "We help teams get the best data foundation possible to reach their best-fit customers.",
+          "source_urls": [
+            "https://www.clay.com/about"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Clay Series C announcement. The GTM engineering era begins now",
+          "source_urls": [
+            "https://www.clay.com/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "CHow we built Clay’s GTM engineering function.",
+          "source_urls": [
+            "https://www.clay.com/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "coactive-ai": {
+    "company_name": "Coactive AI",
+    "company_slug": "coactive-ai",
+    "reference_material": {
+      "official_sources": [
+        "https://www.coactive.ai/",
+        "https://www.coactive.ai/company",
+        "https://www.coactive.ai/product/platform",
+        "https://www.coactive.ai/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "We are a diverse team of experts that have led the charge in the world of machine learning systems and AI.",
+          "source_urls": [
+            "https://www.coactive.ai/company"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "The Coactive Multimodal AI Platform is a powerful, flexible way for developers to create game-changing apps, fast.",
+          "source_urls": [
+            "https://www.coactive.ai/product/platform"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Our optimized platform handles massive scale at speed. Reusable embeddings minimize long-term compute and storage costs.",
+          "source_urls": [
+            "https://www.coactive.ai/product/platform"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Coactive AI Series B Funding Round\nNavigating Oceans of Unstructured Visual Content - No Metadata Required.",
+          "source_urls": [
+            "https://www.coactive.ai/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Coactive is Now on Azure: Visual AI Search, Metadata Tagging, and Analytics, Built for Scale",
+          "source_urls": [
+            "https://www.coactive.ai/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "cohere": {
+    "company_name": "Cohere",
+    "company_slug": "cohere",
+    "reference_material": {
+      "official_sources": [
+        "https://cohere.com/",
+        "https://cohere.com/about",
+        "https://cohere.com/products",
+        "https://cohere.com/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Cohere is where powerful AI meets practical business solutions — so you can work smarter.",
+          "source_urls": [
+            "https://cohere.com/"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Cohere adds $100M in second close to latest round as it scales security-first enterprise AI",
+          "source_urls": [
+            "https://cohere.com/blog"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Cohere builds foundational models and AI solutions that help teams turn everyday effort into extraordinary impact.",
+          "source_urls": [
+            "https://cohere.com/about",
+            "https://cohere.com/"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "From frontier models to out-of-the-box tools, discover everything you need to build and deploy secure, scalable AI that accelerates growth and results.",
+          "source_urls": [
+            "https://cohere.com/products"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Securing AI supply chains: Cohere’s commitment to model signing",
+          "source_urls": [
+            "https://cohere.com/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "crusoe": {
+    "company_name": "Crusoe",
+    "company_slug": "crusoe",
+    "reference_material": {
+      "official_sources": [
+        "https://www.crusoe.ai/",
+        "https://www.crusoe.ai/about/company",
+        "https://www.crusoe.ai/cloud",
+        "https://www.crusoe.ai/resources/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Train and deploy up to 20x faster, with 81% less cost. Crusoe’s AI-optimized infrastructure cuts waste and unlocks performance, so you get more done with less.",
+          "source_urls": [
+            "https://www.crusoe.ai/cloud"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "We design, build, and operate the infrastructure powering the next generation of artificial intelligence.",
+          "source_urls": [
+            "https://www.crusoe.ai/"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Crusoe Cloud clears the path for AI builders. With cutting-edge GPUs and a platform that scales as fast as your ideas, you can spend less time wrestling with infrastructure — and more time innovating.",
+          "source_urls": [
+            "https://www.crusoe.ai/cloud"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "PyTorch image classification on Crusoe Cloud: A guide to distributed training and inference",
+          "source_urls": [
+            "https://www.crusoe.ai/resources/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Unlocking the power of NVIDIA GB200 NVL72: How Crusoe makes next-gen AI a reality",
+          "source_urls": [
+            "https://www.crusoe.ai/resources/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "databricks": {
+    "company_name": "Databricks",
+    "company_slug": "databricks",
+    "reference_material": {
+      "official_sources": [
+        "https://www.databricks.com/",
+        "https://www.databricks.com/company/about-us",
+        "https://www.databricks.com/product/data-intelligence-platform",
+        "https://www.databricks.com/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "The Databricks Data Intelligence Platform allows your entire organization to use data and AI. It’s built on a lakehouse to provide an open, unified foundation for all data and governance, and is powered by a Data Intelligence Engine that understands the uniqueness of your data.",
+          "source_urls": [
+            "https://www.databricks.com/product/data-intelligence-platform"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Building Trusted AI Agents: New Capabilities to Choose, Govern, and Scale with Confidence.",
+          "source_urls": [
+            "https://www.databricks.com/blog"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Beyond the Partnership: How 100+ Customers Are Already Transforming Business with Databricks and Palantir",
+          "source_urls": [
+            "https://www.databricks.com/blog"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Headquartered in San Francisco, with offices around the world, Databricks is on a mission to simplify and democratize data and AI, helping data and AI teams solve the world’s toughest problems.",
+          "source_urls": [
+            "https://www.databricks.com/company/about-us"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Develop generative AI applications on your data without sacrificing data privacy or control.",
+          "source_urls": [
+            "https://www.databricks.com/"
+          ]
+        }
+      ]
+    }
+  },
+  "decagon": {
+    "company_name": "Decagon",
+    "company_slug": "decagon",
+    "reference_material": {
+      "official_sources": [
+        "https://decagon.ai/",
+        "https://decagon.ai/about",
+        "https://decagon.ai/product",
+        "https://decagon.ai/resources"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Decagon was founded by serial entrepreneurs who saw how limited, rigid, and inefficient legacy customer experience systems had become. Their vision: empower every brand to deliver truly satisfying customer experiences, instantly and at scale.",
+          "source_urls": [
+            "https://decagon.ai/about"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Decagon powers the most comprehensive AI agent platform with its AI agent engine— a self-improving data flywheel built to deliver intelligent, context-rich, and effortlessly satisfying customer experiences.",
+          "source_urls": [
+            "https://decagon.ai/product"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Decagon raises $65m Series B led by Bain Capital Ventures to bring total funding to $100m.",
+          "source_urls": [
+            "https://decagon.ai/resources"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "The conversational AI platform to build, optimize, and scale AI agents. Deliver the always-on concierge experience your customers deserve.",
+          "source_urls": [
+            "https://decagon.ai/"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Connecting the world: Deutsche Telekom chooses Decagon to power concierge customer experiences.",
+          "source_urls": [
+            "https://decagon.ai/resources"
+          ]
+        }
+      ]
+    }
+  },
+  "deepl": {
+    "company_name": "DeepL",
+    "company_slug": "deepl",
+    "reference_material": {
+      "official_sources": [
+        "https://www.deepl.com/en/translator/",
+        "https://www.deepl.com/en/about-us",
+        "https://www.deepl.com/en/products/translator",
+        "https://www.deepl.com/en/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Expand operations without the high costs of in-house teams or agencies, making global reach affordable.",
+          "source_urls": [
+            "https://www.deepl.com/en/products/translator"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "At DeepL, we’re on a mission to build intelligent, trusted AI that helps organizations achieve their most important goals – in language and beyond - unlocking human potential and making work simpler, smarter and more connected.",
+          "source_urls": [
+            "https://www.deepl.com/en/about-us"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Discover the highlights from DeepL Dialogues 2025, where visionary speakers explored \"Future Fluency\" and how AI can maximize human potential. Uncover key insights on transforming work and localization, empowering employees, and bridging communication gaps",
+          "source_urls": [
+            "https://www.deepl.com/en/blog"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "DeepL works with leading organizations around the world to transform the way they communicate, grow, and get things done. Trusted by more than 200,000 business customers worldwide, our AI solutions combine precision, security, and scalability to help enterprises thrive in a connected world.",
+          "source_urls": [
+            "https://www.deepl.com/en/about-us"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Certified security and compliance: DeepL meets ISO 27001, SOC 2 Type II, GDPR, and HIPAA standards — keeping your business secure and compliant.",
+          "source_urls": [
+            "https://www.deepl.com/en/products/translator"
+          ]
+        }
+      ]
+    }
+  },
+  "elevenlabs": {
+    "company_name": "ElevenLabs",
+    "company_slug": "elevenlabs",
+    "reference_material": {
+      "official_sources": [
+        "https://elevenlabs.io/",
+        "https://elevenlabs.io/about",
+        "https://elevenlabs.io/studio",
+        "https://elevenlabs.io/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Built for video creators, podcasters and audiobook authors — bring your stories to life with expressive AI voiceovers, music and sound effects, and real-world recordings.",
+          "source_urls": [
+            "https://elevenlabs.io/studio"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "We’re renaming Conversational AI to ElevenLabs Agents, a better reflection of our complete platform for launching conversational agents that talk, type and take action across phone, web and apps.",
+          "source_urls": [
+            "https://elevenlabs.io/blog"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "AI voice models and products powering millions of developers, creators, and enterprises. From low‑latency conversational agents to the leading AI voice generator for voiceovers and audiobooks.",
+          "source_urls": [
+            "https://elevenlabs.io/"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Our aim is to make interacting with computers as natural as talking to a person - bringing the world’s knowledge, stories, and agents to life.",
+          "source_urls": [
+            "https://elevenlabs.io/about"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Announcing an Employee Tender Offer at $6.6B valuation\nRewarding the team as we cross $200M in ARR and see exponential growth in enterprise adoption",
+          "source_urls": [
+            "https://elevenlabs.io/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "figure-ai": {
+    "company_name": "Figure AI",
+    "company_slug": "figure-ai",
+    "reference_material": {
+      "official_sources": [
+        "https://www.figure.ai/",
+        "https://www.figure.ai/company",
+        "https://www.figure.ai/figure",
+        "https://www.figure.ai/news"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Figure takes care of household tasks like laundry, cleaning, and doing dishes, all autonomously.",
+          "source_urls": [
+            "https://www.figure.ai/figure"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Figure has attracted the world's leading robotics team with over 100 years of combined AI & humanoid experience.",
+          "source_urls": [
+            "https://www.figure.ai/figure"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life.",
+          "source_urls": [
+            "https://www.figure.ai/company"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Figure is using Helix, AI that enables it to navigate unpredictable, ever-changing home environments.",
+          "source_urls": [
+            "https://www.figure.ai/"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
+          "source_urls": [
+            "https://www.figure.ai/news"
+          ]
+        }
+      ]
+    }
+  },
+  "fireworks-ai": {
+    "company_name": "Fireworks AI",
+    "company_slug": "fireworks-ai",
+    "reference_material": {
+      "official_sources": [
+        "https://fireworks.ai/",
+        "https://fireworks.ai/ai-native",
+        "https://fireworks.ai/careers",
+        "https://fireworks.ai/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Stay ahead with day-0 model access, the fastest inference at the lowest cost, and a complete developer workflow from prototype to production. Flexible deployment lets you scale how you want.",
+          "source_urls": [
+            "https://fireworks.ai/ai-native"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Cursor’s Fast Apply feature lets developers instantly accept high-quality code suggestions with a single click. Powered by Fireworks’ speculative decoding, it delivers faster, more accurate edits—outperforming GPT-4 in both speed and usability",
+          "source_urls": [
+            "https://fireworks.ai/ai-native"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Open-source AI models at blazing speed, optimized for your use case, scaled globally with the Fireworks Inference Cloud",
+          "source_urls": [
+            "https://fireworks.ai/"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Fireworks RFT: Build AI agents with fine-tuned open models that outperform frontier closed models",
+          "source_urls": [
+            "https://fireworks.ai/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "We raised $250M To Help Enterprises Own Their AI",
+          "source_urls": [
+            "https://fireworks.ai/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "glean": {
+    "company_name": "Glean",
+    "company_slug": "glean",
+    "reference_material": {
+      "official_sources": [
+        "https://www.glean.ai/",
+        "https://www.glean.ai/about-us",
+        "https://www.glean.ai/product",
+        "https://www.glean.ai/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "An accounts payable platform to help you understand what's driving your vendor spend with analysis and insights powered by machine learning.",
+          "source_urls": [
+            "https://www.glean.ai/product"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Automatically sync bills, bill payments, and prepaid amortizations to your GL, saving time on reconciliations and eliminating costly errors.",
+          "source_urls": [
+            "https://www.glean.ai/product"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Transforming AP for Efficiency\nAI-powered software for faster, easier, & smarter accounts payable.",
+          "source_urls": [
+            "https://www.glean.ai/"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Glean.ai joins Pipe to Advance Spend Management for Small Businesses",
+          "source_urls": [
+            "https://www.glean.ai/blog"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Glean.ai Achieves SOC 2 Type II Recertification in 2024",
+          "source_urls": [
+            "https://www.glean.ai/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "harvey": {
+    "company_name": "Harvey",
+    "company_slug": "harvey",
+    "reference_material": {
+      "official_sources": [
+        "https://www.harvey.ai",
+        "https://www.harvey.ai/about-the-company",
+        "https://www.harvey.ai/platform",
+        "https://www.harvey.ai/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "Harvey for Word\nSupercharge Microsoft Word with our add-in, transforming your familiar workspace into a drafting powerhouse.",
+          "source_urls": [
+            "https://www.harvey.ai/platform"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "From Pilot to Proof: How Legal Teams are Driving Real Results With AI",
+          "source_urls": [
+            "https://www.harvey.ai/blog"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Harvey emphasizes data privacy and secure deployment for law firms and in-house legal teams.Blending deep industry knowledge with cutting-edge innovation, Harvey is built to help professionals develop expertise, faster.",
+          "source_urls": [
+            "https://www.harvey.ai/company"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Assistant\nTailored to Your Expertise\nDelegate complex tasks in natural language to your domain-specific personal assistant.",
+          "source_urls": [
+            "https://www.harvey.ai/"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Harvey’s Principles for AI Adoption and Rollout in Law Schools",
+          "source_urls": [
+            "https://www.harvey.ai/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "hebbia": {
+    "company_name": "Hebbia",
+    "company_slug": "hebbia",
+    "reference_material": {
+      "official_sources": [
+        "https://www.hebbia.com/",
+        "https://www.hebbia.com/about",
+        "https://www.hebbia.com/product",
+        "https://www.hebbia.com/blog"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "It's time for AI that can do any task\nStop relying on AI models and interfaces that limit the world of possibilities. AI should work the way that you work.\n",
+          "source_urls": [
+            "https://www.hebbia.com/product"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Natively multi-modal.\nMatrix cycles between all-text LLMs and vision models choosing the best for any task, including those with charts and graph",
+          "source_urls": [
+            "https://www.hebbia.com/product"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "The AI platform for finance\nAdd the power of generative AI to your firm.",
+          "source_urls": [
+            "https://www.hebbia.com/"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "Hebbia has pioneered the most used AI architectures in the world. We continue to set the pace of innovation in useful AI.",
+          "source_urls": [
+            "https://www.hebbia.com/about"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Hebbia raises $130M Series B led by a16z\nOur next chapter defining the future of useful AI.",
+          "source_urls": [
+            "https://www.hebbia.com/blog"
+          ]
+        }
+      ]
+    }
+  },
+  "hugging-face": {
+    "company_name": "Hugging Face",
+    "company_slug": "hugging-face",
+    "reference_material": {
+      "official_sources": [
+        "https://huggingface.co/",
+        "https://huggingface.co/huggingface",
+        "https://huggingface.co/Products",
+        "https://huggingface.co/Press"
+      ],
+      "key_facts": [
+        {
+          "id": "fact_001",
+          "claim": "The platform where the machine learning community collaborates on models, datasets, and applications.",
+          "source_urls": [
+            "https://huggingface.co/"
+          ]
+        },
+        {
+          "id": "fact_002",
+          "claim": "Accelerate your ML\nWe provide paid Compute and Enterprise solutions.",
+          "source_urls": [
+            "https://huggingface.co/"
+          ]
+        },
+        {
+          "id": "fact_003",
+          "claim": "Transformers acts as the model-definition framework for state-of-the-art machine learning models in text, computer vision, audio, video, and multimodal model, for both inference and training.",
+          "source_urls": [
+            "https://huggingface.co/Products",
+            "https://huggingface.co/docs/transformers/en/index"
+          ]
+        },
+        {
+          "id": "fact_004",
+          "claim": "We are on a mission to democratize good machine learning, one commit at a time.",
+          "source_urls": [
+            "https://huggingface.co/huggingface"
+          ]
+        },
+        {
+          "id": "fact_005",
+          "claim": "Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac",
+          "source_urls": [
+            "https://huggingface.co/blog"
+          ]
+        }
+      ]
+    }
+  }
+}

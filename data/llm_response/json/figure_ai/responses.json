@@ -1,0 +1,34 @@
+{
+  "company_slug": "figure_ai",
+  "structured": {
+    "company_name": "Figure AI",
+    "company_slug": "figure-ai",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T23:00:18.291078Z",
+    "markdown_file": "markdown/figure_ai/structured.md",
+    "content": "## Company Overview\n\nFigure is an AI robotics company that claims to be the first of its kind, focusing on bringing a general-purpose humanoid to life. The company operates within the AI robotics category.\n\n## Business Model and GTM\n\nThe company offers a product named Figure 03, which autonomously handles household tasks such as laundry, cleaning, and doing dishes. It is designed to navigate real home environments, including stairs and tight corners. The company has not disclosed specific details about its go-to-market strategy or business model.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nThere is no available data on partnerships, funding events, or specific product release dates. The company has released at least one product, Figure 03, but further details on growth metrics or momentum are not disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has been mentioned once in the context of visibility and market presence, but specific details or sentiment analysis are not provided.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Specific dates and details of partnerships, funding, and product releases are not available.\n- Information on the company's business model and go-to-market strategy is not provided.\n- No data on growth metrics, market sentiment, or future outlook is disclosed.\n- Risks and challenges facing the company are not identified."
+  },
+  "rag": {
+    "company_name": "Figure AI",
+    "company_slug": "figure-ai",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:03:40.583067Z",
+    "markdown_file": "markdown/figure_ai/rag.md",
+    "content": "## Company Overview\n\nFigure AI is a private company focused on AI and robotics. The company emphasizes a strong team culture, describing itself as a \"winning team\" that collaborates closely to achieve high performance. Figure AI boasts a team with over 100 years of combined experience in AI and humanoid robotics.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nThe company states that it has attracted the world’s leading robotics team, suggesting a positive internal sentiment and confidence in its capabilities. However, specific market sentiment and visibility metrics are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Business model and go-to-market strategy details are not provided.\n- Funding history and investor profiles are not disclosed.\n- Specific growth metrics and momentum indicators are missing.\n- Detailed visibility and market sentiment data are not available.\n- Risks and challenges facing the company are not outlined.\n- Future outlook and strategic plans are not disclosed.",
+    "context_results": [
+      {
+        "id": "figure_ai_about_23c1b1ea",
+        "similarity_score": 0.346412659,
+        "text": "Championship Mindset\nTo address the extraordinary demands of our work, we believe in operating as a winning team. We are in the trenches together, collaborating in person, remaining hyper-focused, and pushing each other to the highest levels of performance.\nDIVE DEEPER INTO OUR CULTURE\nThe team bringing impossible ideas to life\nFigure has attracted the world’s leading robotics team with over 100 years of combined AI & humanoid experience.\nCareers\nKeep up with us",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "figure_ai",
+          "content_hash": "23c1b1ea",
+          "indexed_at": "2025-11-11T23:05:51.786216",
+          "page_type": "about",
+          "source_file": "data/raw/figure_ai/about/text.txt"
+        }
+      }
+    ]
+  }
+}

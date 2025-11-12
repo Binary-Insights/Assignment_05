@@ -1,0 +1,1412 @@
+{
+  "company_slug": "clay",
+  "structured": {
+    "company_name": "Clay",
+    "company_slug": "clay",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T22:59:39.254540Z",
+    "markdown_file": "markdown/clay/structured.md",
+    "content": "## Company Overview\n\nClay is a private AI startup headquartered in Brooklyn. The company operates a website at [clay.com](https://clay.com/). Clay is focused on leveraging AI to enhance growth strategies and sales processes.\n\n## Business Model and GTM\n\nClay offers two main products:\n- **Claygent**: An AI tool designed to research target companies and individuals.\n- **Sculptor**: A platform that allows users to build go-to-market (GTM) workflows using natural language.\n\nThe company states that its new custom signals platform helps sales teams track unique data changes that indicate buying opportunities. Additionally, Clay has integrated GPT-5 as a model option across its platform to enhance GTM workflows.\n\n## Funding & Investor Profile\n\nClay has raised a total of $62 million in funding. The last disclosed valuation was $500 million. The company completed a Series B round, raising $46 million from investors including Meritech Capital, Sequoia, First Round, Box Group, and Boldstart. Additionally, Clay raised $40 million in a Series B expansion at a $1.25 billion valuation.\n\n## Growth Momentum\n\nClay has demonstrated significant growth, achieving a 6x increase in 2024. The company has also made strategic acquisitions, such as acquiring Avenue to enhance its capabilities in helping growth teams act on intelligence. Claygent, one of its products, has surpassed 1 billion runs, indicating strong user engagement and adoption.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is well-positioned to capitalize on its growth momentum and product advancements. With substantial funding and strategic acquisitions, Clay aims to continue expanding its market presence and enhancing its product offerings.\n\n## Disclosure Gaps\n\n- Specific dates for funding rounds, product releases, and acquisitions are not disclosed.\n- Detailed information on market sentiment and visibility is not available.\n- Risks and challenges faced by the company are not disclosed.\n- Leadership details are incomplete, with only a partial mention of \"Kunal.\"\n- Additional context on the company's strategic direction and competitive landscape is not provided."
+  },
+  "rag": {
+    "company_name": "Clay",
+    "company_slug": "clay",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:02:45.658704Z",
+    "markdown_file": "markdown/clay/rag.md",
+    "content": "## Company Overview\n\nClay is a private AI startup focused on building creative tools for growth teams. The company offers a suite of products designed to automate and enhance go-to-market (GTM) strategies, including tools for sales prospecting, CRM enrichment, and data-driven marketing campaigns. Clay's platform integrates with over 150 providers, allowing users to connect with their favorite tools and streamline workflows.\n\n## Business Model and GTM\n\nClay's business model revolves around providing AI-powered solutions for sales and marketing teams. The company offers products such as Claygent for AI-driven research, Sculptor for building GTM workflows, and Sequencer for automating personalized email outreach. Clay targets both enterprise and startup clients, helping them build robust data foundations and launch growth campaigns efficiently. The company also supports a partner program to enhance its GTM efforts through collaborations with solution partners.\n\n## Funding & Investor Profile\n\nClay has successfully raised a Series C expansion fundraise at a $3.1 billion valuation in 2025. The company is backed by prominent investors, including Sequoia, Meritech Capital, First Round, and other top venture capital and angel investors. Notable individuals involved include Elena Verna, Head of Growth at Dropbox, and Scott Belsky, CPO at Adobe.\n\n## Growth Momentum\n\nClay has demonstrated significant growth, with a reported 10x revenue increase from 2022 to 2023. The company serves over 8,000 customers, including high-profile clients like OpenAI and Hubspot. Clay's growth is further supported by strategic acquisitions, such as the acquisition of Avenue to enhance its capabilities in acting on intent signals.\n\n## Visibility & Market Sentiment\n\nClay has garnered positive attention in the market, being named the only GTM company on Forbes' 2025 AI 50 List and recognized as a \"secret weapon\" for companies like Anthropic and OpenAI. The company has also been featured in various reputable publications, including Forbes, TechCrunch, and the NY Times.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is on a mission to grow and continues to innovate in the GTM space. With its strong investor backing and a robust product lineup, Clay is well-positioned to capitalize on the increasing demand for AI-driven sales and marketing solutions.\n\n## Disclosure Gaps\n\n- Specific financial metrics such as revenue figures and profitability are not disclosed.\n- Detailed information on competitive landscape and market positioning is not provided.\n- Risks and challenges faced by the company are not disclosed.",
+    "context_results": [
+      {
+        "id": "clay_about_f0a53ad8",
+        "similarity_score": 0.448429108,
+        "text": "Backed by world-class investors\nWe raised our\nSeries C expansion fundraise at a $3.1B valuation\nin 2025. We're grateful to have the best venture capital and angel investors in the world on our team. Below are just a few of the incredible investors who are part of our journey.\nElena Verna\nHead of Growth, Dropbox\nScott Belsky\nCPO, Adobe\nStevie Case\nCRO, Vanta\nMaggie Hott\nGTM Leader, OpenAI\nOliver Jay\nHead of OpenAI International, Prev. CRO of Asana\nIdan Koren\nCMO, Verkada\nMatt MacInnis",
+        "metadata": {
+          "chunk_index": 38.0,
+          "company_slug": "clay",
+          "content_hash": "f0a53ad8",
+          "indexed_at": "2025-11-11T20:36:54.421562",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_f842303f",
+        "similarity_score": 0.447731018,
+        "text": "Live events\nIntegrations partners\nFAQ\ntools\nHeadcount finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nPartner Program\nSolutions at the Cutting Edge",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "clay",
+          "content_hash": "f842303f",
+          "indexed_at": "2025-11-11T04:49:52.461548",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_d82fee89",
+        "similarity_score": 0.443397552,
+        "text": "Pricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog\nWhy we built the first GTM engineering team\nAI for sales prospecting\nWhy good CRM data matters\nGoogle maps lead generation in 5 easy steps",
+        "metadata": {
+          "chunk_index": 135.0,
+          "company_slug": "clay",
+          "content_hash": "d82fee89",
+          "indexed_at": "2025-11-11T20:36:54.425087",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_d82fee89",
+        "similarity_score": 0.443191528,
+        "text": "Pricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog\nWhy we built the first GTM engineering team\nAI for sales prospecting\nWhy good CRM data matters\nGoogle maps lead generation in 5 easy steps",
+        "metadata": {
+          "chunk_index": 57.0,
+          "company_slug": "clay",
+          "content_hash": "d82fee89",
+          "indexed_at": "2025-11-11T20:36:54.426922",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_5dee5a19",
+        "similarity_score": 0.433895111,
+        "text": "Join Slack\nSubscribe on Youtube\nFollow on LinkedIn\nTurn your growth ideas into reality today\nStart your 14-day Pro trial today. No credit card required.\nStart building for free\nGet a demo\nGo to market with unique data—and the ability to act on it\nStart building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences\nSignals\nIntegrations\nMulti-provider data enrichment\nAI formula generator\nAI Research agent\nPricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling",
+        "metadata": {
+          "chunk_index": 134.0,
+          "company_slug": "clay",
+          "content_hash": "5dee5a19",
+          "indexed_at": "2025-11-11T20:36:54.425079",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_b76e0ca8",
+        "similarity_score": 0.423671722,
+        "text": "Oliver Jay\nHead of OpenAI International, Prev. CRO of Asana\nIdan Koren\nCMO, Verkada\nMatt MacInnis\nCOO, Rippling\nJeff Sinclair\nHead of GTM Data, Stripe\nPress\nIn the wild\nThe word is spreading — read about us in the news below.\n“A secret weapon for Anthropic and OpenAI.”\nForbes\nRead article\nPrevious\nNext\nArticle — NY Times\nClay raises $100M Series C at a $3.1B valuation\nRead article\nRead article\nArticle — TechCrunch\nSequoia leads $1.5B tender offer for sales automation startup Clay\nRead article",
+        "metadata": {
+          "chunk_index": 39.0,
+          "company_slug": "clay",
+          "content_hash": "b76e0ca8",
+          "indexed_at": "2025-11-11T20:36:54.421569",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_665e193f",
+        "similarity_score": 0.409599304,
+        "text": "Explore open jobs\nWe make creative tools to help people\ngrow\ntheir\nbusinesses\n.\nWe help teams get the best data foundation possible to reach their best-fit customers.\nWe care about helping people grow businesses: whether taking a solo dream to a small team or scaling a mature enterprise company.\nGrowing a business means finding and reaching customers who need your product. That requires deep research which, historically, demanded huge investments in tooling, money, and manual labor.",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "clay",
+          "content_hash": "665e193f",
+          "indexed_at": "2025-11-11T20:36:54.421373",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_51f449a8",
+        "similarity_score": 0.408943176,
+        "text": "Social media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favourite tools",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "clay",
+          "content_hash": "51f449a8",
+          "indexed_at": "2025-11-11T20:36:54.427728",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_51f449a8",
+        "similarity_score": 0.408870697,
+        "text": "Social media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favourite tools",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "clay",
+          "content_hash": "51f449a8",
+          "indexed_at": "2025-11-11T20:36:54.424025",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_51f449a8",
+        "similarity_score": 0.408657104,
+        "text": "Social media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favourite tools",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "clay",
+          "content_hash": "51f449a8",
+          "indexed_at": "2025-11-11T20:36:54.426595",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_b454d549",
+        "similarity_score": 0.407440186,
+        "text": "additional help\nGetting started\nCreators\nLive events\nSolutions partners\nIntegrations partners\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nGet a demo\nLogin\nSign up",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "b454d549",
+          "indexed_at": "2025-11-11T04:49:52.461528",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_b454d549",
+        "similarity_score": 0.407371521,
+        "text": "additional help\nGetting started\nCreators\nLive events\nSolutions partners\nIntegrations partners\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nGet a demo\nLogin\nSign up",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "b454d549",
+          "indexed_at": "2025-11-11T04:49:52.458114",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_b454d549",
+        "similarity_score": 0.406581908,
+        "text": "additional help\nGetting started\nCreators\nLive events\nSolutions partners\nIntegrations partners\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nGet a demo\nLogin\nSign up",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "b454d549",
+          "indexed_at": "2025-11-11T04:49:52.460272",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_e983d471",
+        "similarity_score": 0.406402588,
+        "text": "Start building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences\nSignals\nIntegrations\nMulti-provider data enrichment\nAI formula generator\nAI Research agent\nPricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog",
+        "metadata": {
+          "chunk_index": 40.0,
+          "company_slug": "clay",
+          "content_hash": "e983d471",
+          "indexed_at": "2025-11-11T20:36:54.427952",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_e983d471",
+        "similarity_score": 0.405841827,
+        "text": "Start building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences\nSignals\nIntegrations\nMulti-provider data enrichment\nAI formula generator\nAI Research agent\nPricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog",
+        "metadata": {
+          "chunk_index": 44.0,
+          "company_slug": "clay",
+          "content_hash": "e983d471",
+          "indexed_at": "2025-11-11T20:36:54.421610",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_e5893ae9",
+        "similarity_score": 0.402862549,
+        "text": "Live events\nIntegrations partners\nFAQ\ntools\nHeadcount finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nCareers\nJ\no\ni\nn\nt\nh\ne\nC\nl\na\ny\nc\nr\ne\nw",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "clay",
+          "content_hash": "e5893ae9",
+          "indexed_at": "2025-11-11T04:49:52.460291",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_6a3c90d0",
+        "similarity_score": 0.401958466,
+        "text": "GTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nPartner Program\nSolutions at the Cutting Edge\nClay Solutions Partners deliver top-tier AI-powered GTM work, signaling to clients your technical expertise, leadership, and service quality.\nStart Your Application",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "clay",
+          "content_hash": "6a3c90d0",
+          "indexed_at": "2025-11-11T20:36:54.427755",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_3f7c3c47",
+        "similarity_score": 0.400802612,
+        "text": "Social media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "clay",
+          "content_hash": "3f7c3c47",
+          "indexed_at": "2025-11-11T04:49:52.460276",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_3f7c3c47",
+        "similarity_score": 0.40058136,
+        "text": "Social media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "clay",
+          "content_hash": "3f7c3c47",
+          "indexed_at": "2025-11-11T04:49:52.458118",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_3f7c3c47",
+        "similarity_score": 0.400486,
+        "text": "Social media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "clay",
+          "content_hash": "3f7c3c47",
+          "indexed_at": "2025-11-11T04:49:52.461532",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_35ff81d7",
+        "similarity_score": 0.399604827,
+        "text": "Live events\nIntegrations partners\nFAQ\ntools\nHeadcount finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nGTM with Clay\nCategory\nData Test\nThought Leadership\nClay Announcements\nCase Studies\nOutbound Plays\nSearch...\nSearch\nClose",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "clay",
+          "content_hash": "35ff81d7",
+          "indexed_at": "2025-11-11T04:49:52.458227",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_1b0c83b0",
+        "similarity_score": 0.398939133,
+        "text": "Read article\nRead article\nArticle — Sequoia\nPartnering with Clay: On a Mission to Grow\nRead article\nRead article\nArticle — Nasdaq\nCelebrating the 2024 Wing Enterprise Tech 30\nRead article\nRead article\nArticle — Forbes\nNext Billion Dollar Startups 2024\nRead article\nRead article\nPodcast — Pavilion\nHow Clay Built a $500M Series B Company\nRead article\nRead article\nArticle — EnterpriseTech\nClay named to 2024 Enterprise Tech 30 list\nRead article\nRead article\nPodcast — First Round Capital",
+        "metadata": {
+          "chunk_index": 42.0,
+          "company_slug": "clay",
+          "content_hash": "1b0c83b0",
+          "indexed_at": "2025-11-11T20:36:54.421591",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_9831d5f0",
+        "similarity_score": 0.397333145,
+        "text": "Read article\nRead article\nPodcast — First Round Review\nInside Clay's unconventional path to $1.25B\nRead article\nRead article\nArticle — Next play\nSpotlight: Learn about what it's like to work at Clay\nRead article\nRead article\nArticle — First Round Review\nClay’s Path to Product-Market Fit\nRead article\nRead article\nArticle — Bloomberg\nSequoia, Meritech Invest in AI Sales and Marketing Startup Clay\nRead article\nRead article\nArticle — Sequoia\nPartnering with Clay: On a Mission to Grow\nRead article",
+        "metadata": {
+          "chunk_index": 41.0,
+          "company_slug": "clay",
+          "content_hash": "9831d5f0",
+          "indexed_at": "2025-11-11T20:36:54.421584",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_cfb766a9",
+        "similarity_score": 0.397169143,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "cfb766a9",
+          "indexed_at": "2025-11-11T20:36:54.424005",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_cfb766a9",
+        "similarity_score": 0.397039413,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "cfb766a9",
+          "indexed_at": "2025-11-11T20:36:54.426575",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_cfb766a9",
+        "similarity_score": 0.396925,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "cfb766a9",
+          "indexed_at": "2025-11-11T20:36:54.427708",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_e02eff7e",
+        "similarity_score": 0.396896362,
+        "text": "Enterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role",
+        "metadata": {
+          "chunk_index": 31.0,
+          "company_slug": "clay",
+          "content_hash": "e02eff7e",
+          "indexed_at": "2025-11-11T04:49:52.460368",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_21bbc7b4",
+        "similarity_score": 0.396430969,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "21bbc7b4",
+          "indexed_at": "2025-11-11T04:49:52.458106",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_34ac7a45",
+        "similarity_score": 0.395608932,
+        "text": "Partner directory\nWhether you run a RevOps powerhouse or a solo advisory business, capture your unique service offering with a profile on our partner directory — it’s one of Clay’s most visited surfaces!\nBrowse partner directory\nCo-marketing fund\nClay Solutions Partners are already shaping the future of GTM — teaching, building, hosting, and sharing their expertise with the world. The Partner Growth Fund exists to back that momentum.",
+        "metadata": {
+          "chunk_index": 12.0,
+          "company_slug": "clay",
+          "content_hash": "34ac7a45",
+          "indexed_at": "2025-11-11T04:49:52.461559",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_89efe2d0",
+        "similarity_score": 0.393295288,
+        "text": "Integrations partners\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "89efe2d0",
+          "indexed_at": "2025-11-11T04:49:52.455873",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_21bbc7b4",
+        "similarity_score": 0.39291,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "21bbc7b4",
+          "indexed_at": "2025-11-11T04:49:52.460263",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_21bbc7b4",
+        "similarity_score": 0.392725,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "21bbc7b4",
+          "indexed_at": "2025-11-11T04:49:52.461520",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_92590c6f",
+        "similarity_score": 0.391288757,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "clay",
+          "content_hash": "92590c6f",
+          "indexed_at": "2025-11-11T20:36:54.421348",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_92590c6f",
+        "similarity_score": 0.391145706,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "clay",
+          "content_hash": "92590c6f",
+          "indexed_at": "2025-11-11T20:36:54.427741",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_92590c6f",
+        "similarity_score": 0.391132355,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "clay",
+          "content_hash": "92590c6f",
+          "indexed_at": "2025-11-11T20:36:54.424204",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_5e797a6c",
+        "similarity_score": 0.390666962,
+        "text": "additional help\nGetting started\nCreators\nSolutions partners\nIntegrations partners\nClaybooks\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "5e797a6c",
+          "indexed_at": "2025-11-11T20:36:54.426588",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_5e797a6c",
+        "similarity_score": 0.390659332,
+        "text": "additional help\nGetting started\nCreators\nSolutions partners\nIntegrations partners\nClaybooks\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "5e797a6c",
+          "indexed_at": "2025-11-11T20:36:54.424019",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_5e797a6c",
+        "similarity_score": 0.390586853,
+        "text": "additional help\nGetting started\nCreators\nSolutions partners\nIntegrations partners\nClaybooks\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "5e797a6c",
+          "indexed_at": "2025-11-11T20:36:54.427722",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_92590c6f",
+        "similarity_score": 0.390270233,
+        "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "clay",
+          "content_hash": "92590c6f",
+          "indexed_at": "2025-11-11T20:36:54.426607",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_bd636bfe",
+        "similarity_score": 0.387432098,
+        "text": "Sequencer\nAutomate and launch personalized email outreach\nRecurring workflows\nCRM enrichment & hygiene\nTAM sourcing\nWaterfall enrichment\nAccount & lead scoring\nAutomated inbound\nAutomated outbound\nadditional\nAI formula generator\nSalesforce package\nChangelog\nSecurity\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "clay",
+          "content_hash": "bd636bfe",
+          "indexed_at": "2025-11-11T20:36:54.421292",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_9a6473f6",
+        "similarity_score": 0.386390686,
+        "text": "About | Clay.com\nSkip to main\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nfeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favorite tools\nSequencer\nAutomate and launch personalized email outreach",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "clay",
+          "content_hash": "9a6473f6",
+          "indexed_at": "2025-11-11T20:36:54.421275",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_a961b661",
+        "similarity_score": 0.384954453,
+        "text": "Sequoia leads $1.5B tender offer for sales automation startup Clay\nRead article\nRead article\nArticle — Enterprise Tech 30\nClay named #1 mid-stage company on ENT30 list\nRead article\nRead article\nArticle — Forbes\nClay Named the Only GTM Company on Forbes’ 2025 AI 50 List\nRead article\nRead article\nArticle — Forbes\nClay, A Secret Weapon For Anthropic And OpenAI, Boosts Valuation To $1.3 Billion\nRead article\nRead article\nPodcast — First Round Review\nInside Clay's unconventional path to $1.25B",
+        "metadata": {
+          "chunk_index": 40.0,
+          "company_slug": "clay",
+          "content_hash": "a961b661",
+          "indexed_at": "2025-11-11T20:36:54.421575",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_e3347812",
+        "similarity_score": 0.381679535,
+        "text": "GTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nAbout\nWelcome to Clay\nWe build creative tools for growth teams.\nExplore open jobs\nWe make creative tools to help people\ngrow\ntheir\nbusinesses\n.",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "clay",
+          "content_hash": "e3347812",
+          "indexed_at": "2025-11-11T20:36:54.421366",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_6d38f59c",
+        "similarity_score": 0.381206512,
+        "text": "Explore open jobs\nwe’re looking for help in these areas\nJob title\nDeparment\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "clay",
+          "content_hash": "6d38f59c",
+          "indexed_at": "2025-11-11T20:36:54.426627",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_bb90203a",
+        "similarity_score": 0.380760193,
+        "text": "Growth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts\nLive training - the fastest way to master Clay\nGTME blog",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "bb90203a",
+          "indexed_at": "2025-11-11T20:36:54.421300",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_64cc6d71",
+        "similarity_score": 0.380142212,
+        "text": "Integrations partners\nClaybooks\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "clay",
+          "content_hash": "64cc6d71",
+          "indexed_at": "2025-11-11T20:36:54.421326",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_47c667c5",
+        "similarity_score": 0.379142761,
+        "text": "CPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog\nWhy we built the first GTM engineering team\nAI for sales prospecting\nWhy good CRM data matters\nGoogle maps lead generation in 5 easy steps\nOutbound sales automation\nScraping data from Websites\nResources\nGet started lesson\nUniversity\nClaybooks\nTemplates\nPartner programs\nJoin Slack\nCommunity\nFAQ\nCompany\nWall of love\nAbout\nCareers\nJobs\nIntegrate with Clay\nStatus\nLegal\nPrivacy policy\nTerms of service",
+        "metadata": {
+          "chunk_index": 45.0,
+          "company_slug": "clay",
+          "content_hash": "47c667c5",
+          "indexed_at": "2025-11-11T20:36:54.421616",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_47c667c5",
+        "similarity_score": 0.379138947,
+        "text": "CPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog\nWhy we built the first GTM engineering team\nAI for sales prospecting\nWhy good CRM data matters\nGoogle maps lead generation in 5 easy steps\nOutbound sales automation\nScraping data from Websites\nResources\nGet started lesson\nUniversity\nClaybooks\nTemplates\nPartner programs\nJoin Slack\nCommunity\nFAQ\nCompany\nWall of love\nAbout\nCareers\nJobs\nIntegrate with Clay\nStatus\nLegal\nPrivacy policy\nTerms of service",
+        "metadata": {
+          "chunk_index": 41.0,
+          "company_slug": "clay",
+          "content_hash": "47c667c5",
+          "indexed_at": "2025-11-11T20:36:54.427959",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_0bfd55ea",
+        "similarity_score": 0.378303528,
+        "text": "Start Your Application\nFor Partners\nWhy partner\nwith Clay\nUnlock exclusive tools, funding, and community support designed to grow your GTM business faster.\nPartner directory\nWhether you run a RevOps powerhouse or a solo advisory business, capture your unique service offering with a profile on our partner directory — it’s one of Clay’s most visited surfaces!\nBrowse partner directory\nCo-marketing fund",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "clay",
+          "content_hash": "0bfd55ea",
+          "indexed_at": "2025-11-11T20:36:54.427761",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_db071968",
+        "similarity_score": 0.37817,
+        "text": "CX\nApply to this role\nProduct Manager\nProduct & Design\nApply to this role\nSoftware Engineer, Frontend\nEngineering\nApply to this role\nEnterprise Growth Strategist\nCX\nApply to this role\nPlatform Engineer\nEngineering\nApply to this role\nGTM Engineer (GTM Ops)\nGTM - Ops\nApply to this role\nRevenue Accountant\nFinance\nApply to this role\nAccounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role",
+        "metadata": {
+          "chunk_index": 38.0,
+          "company_slug": "clay",
+          "content_hash": "db071968",
+          "indexed_at": "2025-11-11T04:49:52.460393",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_f1277e46",
+        "similarity_score": 0.37771225,
+        "text": "Enterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nCareers\nJ\no\ni\nn\nt\nh\ne\nC\nl\na\ny\nc\nr\ne\nw\nWe’re building creative tools to help grow businesses. We’re a team of designers, engineers, and GTM experts. We're also aspiring DJs, writers, social workers & more.\nExplore open jobs\nwe’re looking for help in these areas\nJob title\nDeparment\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "clay",
+          "content_hash": "f1277e46",
+          "indexed_at": "2025-11-11T04:49:52.460295",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_0a70c3ac",
+        "similarity_score": 0.376436263,
+        "text": "Clay raises $62M at a $500M valuation to turn any growth idea into reality\nClay has raised a $46M Series B from Meritech Capital with participation from Sequoia, First Round, Box Group, Boldstart, and some of the world’s top sales and marketing leaders to power growth for tech’s biggest names like Anthropic, Intercom, Notion and 2500+ others. This is in addition to our previously unannounced $13.5M Series A, led by Sequoia, and $2.5M seed led by First Round.",
+        "metadata": {
+          "chunk_index": 34.0,
+          "company_slug": "clay",
+          "content_hash": "0a70c3ac",
+          "indexed_at": "2025-11-11T20:36:54.424378",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_954b025d",
+        "similarity_score": 0.376338959,
+        "text": "See jobs openings\nJoin our Clay crew\nWe're a kind, creative, and close-knit team. We have quiet egos, growth mindsets, and love tackling interesting problems together.\nSee open jobs\nGo to market with unique data—and the ability to act on it\nStart building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences\nSignals\nIntegrations\nMulti-provider data enrichment\nAI formula generator\nAI Research agent\nPricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling",
+        "metadata": {
+          "chunk_index": 56.0,
+          "company_slug": "clay",
+          "content_hash": "954b025d",
+          "indexed_at": "2025-11-11T20:36:54.426917",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_f6809420",
+        "similarity_score": 0.37544632,
+        "text": "Browse partner directory\nCo-marketing fund\nClay Solutions Partners are already shaping the future of GTM — teaching, building, hosting, and sharing their expertise with the world. The Partner Growth Fund exists to back that momentum.\nWhether you're running a workshop, launching a course, creating a tool, or trying something new to grow your business — you can apply for $500–$15,000 grants or non-monetary support to bring your ideas to life and grow your business.\nLearn more and apply",
+        "metadata": {
+          "chunk_index": 12.0,
+          "company_slug": "clay",
+          "content_hash": "f6809420",
+          "indexed_at": "2025-11-11T20:36:54.427769",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_89681217",
+        "similarity_score": 0.374603271,
+        "text": "Growth\nApply to this role\nSocial\nMarketing\nApply to this role\nGrowth Strategy Enablement\nGTM - Ops\nApply to this role\nSolutions Engineering Manager\nGTM - Sales\nApply to this role\nClayDR (Sales Development Representative)\nGTM - Sales\nApply to this role\nSales Manager (GTME)\nGTM - Sales\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role",
+        "metadata": {
+          "chunk_index": 35.0,
+          "company_slug": "clay",
+          "content_hash": "89681217",
+          "indexed_at": "2025-11-11T04:49:52.460382",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_505f42f5",
+        "similarity_score": 0.37417987,
+        "text": "Clay raises $40M at a $1.25B valuation with GTM development environment that turns growth ideas into reality\nClay has raised $40M in Series B expansion funding at a $1.25B valuation, following 6x growth in 2024.\nClay acquires Avenue to help growth teams act on intent signals\nPowering the right message to the right person at The Right Time\nClay integrates with HG Insights, unlocking enterprise-grade technology intelligence for anyone",
+        "metadata": {
+          "chunk_index": 29.0,
+          "company_slug": "clay",
+          "content_hash": "505f42f5",
+          "indexed_at": "2025-11-11T20:36:54.424340",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_be165248",
+        "similarity_score": 0.373886138,
+        "text": "GTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nCareers\nJ\no\ni\nn\nt\nh\ne\nC\nl\na\ny\nc\nr\ne\nw\nWe’re building creative tools to help grow businesses. We’re a team of designers, engineers, and GTM experts. We're also aspiring DJs, writers, social workers & more.",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "clay",
+          "content_hash": "be165248",
+          "indexed_at": "2025-11-11T20:36:54.426620",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_122c991d",
+        "similarity_score": 0.373397827,
+        "text": "Growth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "clay",
+          "content_hash": "122c991d",
+          "indexed_at": "2025-11-11T04:49:52.455857",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_2370aae2",
+        "similarity_score": 0.372608185,
+        "text": "Clay announces employee tender offer led by Sequoia at $1.5B valuation\nClay allows employees to sell vested shares for immediate liquidity through a $20M tender offer at a $1.5B valuation. With 10x revenue growth in 2022-2023 and serving 8,000+ customers including OpenAI and Hubspot, Clay continues to change how businesses approach go-to-market strategies with their AI agent Claygent.\nCreate personalized presentations at scale with Clay and Google Slides",
+        "metadata": {
+          "chunk_index": 24.0,
+          "company_slug": "clay",
+          "content_hash": "2370aae2",
+          "indexed_at": "2025-11-11T20:36:54.424308",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_6dd15c8e",
+        "similarity_score": 0.372402191,
+        "text": "Finance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role\nEngineering Manager\nEngineering\nApply to this role\nProduct Support Specialist\nCX",
+        "metadata": {
+          "chunk_index": 36.0,
+          "company_slug": "clay",
+          "content_hash": "6dd15c8e",
+          "indexed_at": "2025-11-11T04:49:52.460385",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_2e9e599e",
+        "similarity_score": 0.372184753,
+        "text": "Engineering\nApply to this role\nGrowth, Lifecycle\nGrowth\nApply to this role\nGrowth, Acquisition\nGrowth\nApply to this role\nSocial\nMarketing\nApply to this role\nGrowth Strategy Enablement\nGTM - Ops\nApply to this role\nSolutions Engineering Manager\nGTM - Sales\nApply to this role\nClayDR (Sales Development Representative)\nGTM - Sales\nApply to this role\nSales Manager (GTME)\nGTM - Sales\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance",
+        "metadata": {
+          "chunk_index": 30.0,
+          "company_slug": "clay",
+          "content_hash": "2e9e599e",
+          "indexed_at": "2025-11-11T04:49:52.460364",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_2fe80c9b",
+        "similarity_score": 0.369194031,
+        "text": "Accounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role\nExecutive Assistant\nPeople\nApply to this role\nGTM Onboarding & Enablement Program Manager\nGTM - Ops\nApply to this role\nSoftware Engineer, Integrations\nEngineering\nApply to this role\nGrowth, Lifecycle\nGrowth\nApply to this role\nGrowth, Acquisition\nGrowth\nApply to this role\nSocial\nMarketing\nApply to this role\nGrowth Strategy Enablement\nGTM - Ops",
+        "metadata": {
+          "chunk_index": 34.0,
+          "company_slug": "clay",
+          "content_hash": "2fe80c9b",
+          "indexed_at": "2025-11-11T04:49:52.460378",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_2e13c3b8",
+        "similarity_score": 0.367084503,
+        "text": "Solutions Partner Program | Clay.com\nSkip to main\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nfeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favorite tools\nSequencer",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "clay",
+          "content_hash": "2e13c3b8",
+          "indexed_at": "2025-11-11T20:36:54.427690",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_7318d854",
+        "similarity_score": 0.366386414,
+        "text": "Clay named to 2024 Enterprise Tech 30 list\nRead article\nRead article\nPodcast — First Round Capital\nFirst Round Capital interview: Clay's path to product-market fit ft. Kareem Amin\nRead article\nRead article\nJoin our Clay crew!\nWe're a kind, creative, and close-knit team. We have quiet egos, growth mindsets, and love tackling interesting problems together\nSee job openings\nGo to market with unique data—and the ability to act on it\nStart building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences",
+        "metadata": {
+          "chunk_index": 43.0,
+          "company_slug": "clay",
+          "content_hash": "7318d854",
+          "indexed_at": "2025-11-11T20:36:54.421604",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_ba2b8ef8",
+        "similarity_score": 0.366178513,
+        "text": "Finance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role\nEngineering Manager\nEngineering\nApply to this role\nProduct Support Specialist\nCX\nApply to this role\nGTM Engineer (Sales Assist)\nGTM - Sales\nApply to this role\nGTM Engineer (Sales Led)\nGTM - Sales\nApply to this role\nGTM Engineer (London)\nGTM - Sales\nApply to this role\nSolutions Engineer\nGTM - Sales\nApply to this role\nGTM Partnerships Manager",
+        "metadata": {
+          "chunk_index": 27.0,
+          "company_slug": "clay",
+          "content_hash": "ba2b8ef8",
+          "indexed_at": "2025-11-11T04:49:52.460353",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_b48bba6c",
+        "similarity_score": 0.365875244,
+        "text": "Growth\nApply to this role\nGrowth, Acquisition\nGrowth\nApply to this role\nSocial\nMarketing\nApply to this role\nGrowth Strategy Enablement\nGTM - Ops\nApply to this role\nSolutions Engineering Manager\nGTM - Sales\nApply to this role\nClayDR (Sales Development Representative)\nGTM - Sales\nApply to this role\nSales Manager (GTME)\nGTM - Sales\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role",
+        "metadata": {
+          "chunk_index": 29.0,
+          "company_slug": "clay",
+          "content_hash": "b48bba6c",
+          "indexed_at": "2025-11-11T20:36:54.426748",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_7f316438",
+        "similarity_score": 0.365760803,
+        "text": "Product Support Specialist\nRelaxed Capricorn\nKarishma ☀️\nLifecycle Marketing Lead\nDoggo Lover\nMichael ⛵\nPartner Success Manager\nDog Dad\nNikhil 🏂\nSoftware Engineer\nAspiring Home Cook\nBillie ✨\nEcosystem Lead\nPizza Connoisseur\nAlex 😮‍💨\nRecruiter\nLeeroy\nCallie 🧚‍♀️\nRecruiting Coordinator\nWildcard\nRahul 🙌🏽\nGTM Engineer\nSpreadsheet Connoisseur\nLucas 😎\nGTM Engineer\nLaidback Luke\nJoey 🎉\nGTM Engineer\nCold Brew Enthusiast 🧊☕\nMaple 🍁\nRecruiter\nDeal finder\nNext\nLoad more\nOur space",
+        "metadata": {
+          "chunk_index": 23.0,
+          "company_slug": "clay",
+          "content_hash": "7f316438",
+          "indexed_at": "2025-11-11T20:36:54.421470",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_a8b6ea51",
+        "similarity_score": 0.36510849,
+        "text": "Get a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favourite tools\nSequencer\nNew",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "clay",
+          "content_hash": "a8b6ea51",
+          "indexed_at": "2025-11-11T20:36:54.421334",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_ea999338",
+        "similarity_score": 0.364711761,
+        "text": "Enterprise Growth Strategist\nCX\nApply to this role\nPlatform Engineer\nEngineering\nApply to this role\nGTM Engineer (GTM Ops)\nGTM - Ops\nApply to this role\nRevenue Accountant\nFinance\nApply to this role\nAccounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role\nExecutive Assistant\nPeople\nApply to this role\nGTM Onboarding & Enablement Program Manager\nGTM - Ops\nApply to this role\nSoftware Engineer, Integrations",
+        "metadata": {
+          "chunk_index": 37.0,
+          "company_slug": "clay",
+          "content_hash": "ea999338",
+          "indexed_at": "2025-11-11T20:36:54.426795",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_1eea1ae1",
+        "similarity_score": 0.364616394,
+        "text": "Security\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "clay",
+          "content_hash": "1eea1ae1",
+          "indexed_at": "2025-11-11T04:49:52.458218",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_eb767821",
+        "similarity_score": 0.36451149,
+        "text": "Read post\nRead more\nThought Leadership\nThe best personal email finders of 2024\nAug 16, 2024\nAug 15, 2024\nRead post\nRead more\nClay Announcements\nClay raises $62M at a $500M valuation to turn any growth idea into reality\nJun 27, 2024\nJun 26, 2024\nRead post\nRead more\nThought Leadership\nHow to validate cold outbound offers by finding message-market fit\nJun 7, 2024\nJun 7, 2024\nRead post\nRead more\nOutbound Plays\nTurn web visitors into leads with a warm outbound marketing play for B2B sales",
+        "metadata": {
+          "chunk_index": 99.0,
+          "company_slug": "clay",
+          "content_hash": "eb767821",
+          "indexed_at": "2025-11-11T20:36:54.424837",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_03611486",
+        "similarity_score": 0.364501953,
+        "text": "Product Support Specialist\nCX\nApply to this role\nSoftware Engineer, Frontend\nEngineering\nApply to this role\nEnterprise Growth Strategist\nCX\nApply to this role\nPlatform Engineer\nEngineering\nApply to this role\nGTM Engineer (GTM Ops)\nGTM - Ops\nApply to this role\nRevenue Accountant\nFinance\nApply to this role\nAccounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role\nExecutive Assistant\nPeople",
+        "metadata": {
+          "chunk_index": 32.0,
+          "company_slug": "clay",
+          "content_hash": "03611486",
+          "indexed_at": "2025-11-11T20:36:54.426765",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_1eea1ae1",
+        "similarity_score": 0.364379883,
+        "text": "Security\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "clay",
+          "content_hash": "1eea1ae1",
+          "indexed_at": "2025-11-11T04:49:52.460283",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_1eea1ae1",
+        "similarity_score": 0.364213943,
+        "text": "Security\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "clay",
+          "content_hash": "1eea1ae1",
+          "indexed_at": "2025-11-11T04:49:52.461540",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_3da90aee",
+        "similarity_score": 0.363685608,
+        "text": "Join the Clay crew | Clay.com\nSkip to main\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nfeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favorite tools\nSequencer",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "clay",
+          "content_hash": "3da90aee",
+          "indexed_at": "2025-11-11T20:36:54.426554",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_a609dcf3",
+        "similarity_score": 0.363607407,
+        "text": "Data Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role\nEngineering Manager\nEngineering\nApply to this role\nProduct Support Specialist\nCX\nApply to this role\nGTM Engineer (Sales Assist)\nGTM - Sales\nApply to this role\nGTM Engineer (Sales Led)\nGTM - Sales\nApply to this role\nGTM Engineer (London)\nGTM - Sales\nApply to this role\nSolutions Engineer\nGTM - Sales\nApply to this role",
+        "metadata": {
+          "chunk_index": 26.0,
+          "company_slug": "clay",
+          "content_hash": "a609dcf3",
+          "indexed_at": "2025-11-11T20:36:54.426730",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_d0b2daaa",
+        "similarity_score": 0.362888336,
+        "text": "GTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nGTM with Clay\nCategory\nData Test\nThought Leadership\nClay Announcements\nCase Studies\nOutbound Plays\nSearch...\nSearch\nClose\nThank you! Your submission has been received!",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "clay",
+          "content_hash": "d0b2daaa",
+          "indexed_at": "2025-11-11T20:36:54.424219",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_4c6db00a",
+        "similarity_score": 0.362804413,
+        "text": "Software Engineer, Frontend\nEngineering\nApply to this role\nEnterprise Growth Strategist\nCX\nApply to this role\nPlatform Engineer\nEngineering\nApply to this role\nGTM Engineer (GTM Ops)\nGTM - Ops\nApply to this role\nRevenue Accountant\nFinance\nApply to this role\nAccounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role\nExecutive Assistant\nPeople\nApply to this role\nGTM Onboarding & Enablement Program Manager",
+        "metadata": {
+          "chunk_index": 19.0,
+          "company_slug": "clay",
+          "content_hash": "4c6db00a",
+          "indexed_at": "2025-11-11T04:49:52.460324",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_5bb75930",
+        "similarity_score": 0.362236023,
+        "text": "Pricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nPartner Program\nSolutions at the Cutting Edge\nClay Solutions Partners deliver top-tier AI-powered GTM work, signaling to clients your technical expertise, leadership, and service quality.\nStart Your Application\nFor Partners\nWhy partner\nwith Clay\nUnlock exclusive tools, funding, and community support designed to grow your GTM business faster.\nPartner directory",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "clay",
+          "content_hash": "5bb75930",
+          "indexed_at": "2025-11-11T04:49:52.461551",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_88ac23da",
+        "similarity_score": 0.361713409,
+        "text": "Engineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role\nEngineering Manager\nEngineering\nApply to this role\nProduct Support Specialist\nCX\nApply to this role\nGTM Engineer (Sales Assist)\nGTM - Sales\nApply to this role\nGTM Engineer (Sales Led)\nGTM - Sales",
+        "metadata": {
+          "chunk_index": 35.0,
+          "company_slug": "clay",
+          "content_hash": "88ac23da",
+          "indexed_at": "2025-11-11T20:36:54.426783",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_fa5ecddd",
+        "similarity_score": 0.360107422,
+        "text": "Platform Engineer\nEngineering\nApply to this role\nGTM Engineer (GTM Ops)\nGTM - Ops\nApply to this role\nRevenue Accountant\nFinance\nApply to this role\nAccounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role\nExecutive Assistant\nPeople\nApply to this role\nGTM Onboarding & Enablement Program Manager\nGTM - Ops\nApply to this role\nSoftware Engineer, Integrations\nEngineering\nApply to this role\nGrowth, Lifecycle",
+        "metadata": {
+          "chunk_index": 24.0,
+          "company_slug": "clay",
+          "content_hash": "fa5ecddd",
+          "indexed_at": "2025-11-11T04:49:52.460342",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_e7eaff2c",
+        "similarity_score": 0.359260559,
+        "text": "Revenue Accountant\nFinance\nApply to this role\nAccounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role\nExecutive Assistant\nPeople\nApply to this role\nGTM Onboarding & Enablement Program Manager\nGTM - Ops\nApply to this role\nSoftware Engineer, Integrations\nEngineering\nApply to this role\nGrowth, Lifecycle\nGrowth\nApply to this role\nGrowth, Acquisition\nGrowth\nApply to this role\nSocial\nMarketing",
+        "metadata": {
+          "chunk_index": 28.0,
+          "company_slug": "clay",
+          "content_hash": "e7eaff2c",
+          "indexed_at": "2025-11-11T20:36:54.426742",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_a79d7791",
+        "similarity_score": 0.359226227,
+        "text": "Integrations\nConnect to 150+ providers and your favorite tools\nSequencer\nAutomate and launch personalized email outreach\nRecurring workflows\nCRM enrichment & hygiene\nTAM sourcing\nWaterfall enrichment\nAccount & lead scoring\nAutomated inbound\nAutomated outbound\nadditional\nAI formula generator\nSalesforce package\nChangelog\nSecurity\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "clay",
+          "content_hash": "a79d7791",
+          "indexed_at": "2025-11-11T20:36:54.427702",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_dfdb910c",
+        "similarity_score": 0.359218627,
+        "text": "Patrick Spychalski\nCo-Founder at TheKiln\n\"I just want to say Clay is working exactly like I always wanted something to, and this will save me hours a week ... thank you SO much\"\nAndrea Popova\nCEO CPDG\n\"Clay solves the biggest outbound problem in the last 10 years: the quality of your list relative to the time and cost required to build it.\"\nJacob Tuwiner\nFounder at Sculpted\nPartners\nBacked by world-class investors\nWe raised our\nSeries C expansion fundraise at a $3.1B valuation",
+        "metadata": {
+          "chunk_index": 37.0,
+          "company_slug": "clay",
+          "content_hash": "dfdb910c",
+          "indexed_at": "2025-11-11T20:36:54.421557",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_a79d7791",
+        "similarity_score": 0.359161377,
+        "text": "Integrations\nConnect to 150+ providers and your favorite tools\nSequencer\nAutomate and launch personalized email outreach\nRecurring workflows\nCRM enrichment & hygiene\nTAM sourcing\nWaterfall enrichment\nAccount & lead scoring\nAutomated inbound\nAutomated outbound\nadditional\nAI formula generator\nSalesforce package\nChangelog\nSecurity\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "clay",
+          "content_hash": "a79d7791",
+          "indexed_at": "2025-11-11T20:36:54.426568",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_a79d7791",
+        "similarity_score": 0.359127045,
+        "text": "Integrations\nConnect to 150+ providers and your favorite tools\nSequencer\nAutomate and launch personalized email outreach\nRecurring workflows\nCRM enrichment & hygiene\nTAM sourcing\nWaterfall enrichment\nAccount & lead scoring\nAutomated inbound\nAutomated outbound\nadditional\nAI formula generator\nSalesforce package\nChangelog\nSecurity\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "clay",
+          "content_hash": "a79d7791",
+          "indexed_at": "2025-11-11T20:36:54.423999",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_5bf53e24",
+        "similarity_score": 0.358325958,
+        "text": "Sticker collector\nZoe 🤠\nBhargava\nExcited Extrovert\nQuentin 🌻\nWheelie\nFrenchie\nNick 🥷🏽\nGTM Engineer\nGrowth Funnel Ninja\nMohak 🦅\nGrowth Strategist\nCFO (Chief Fun Officer)\nLauren 🐶\nEnterprise Growth Strategist\nNala’s Plus One\natharva 🐙\nSoftware Engineer\naquarium aficionado\nAylin 🌕\nGrowth Strategist\nAmbiance Curator\nRachel ☕️\nData Scientist\nPi Enthusiast\nSam 🕺🏻\nSoftware Engineer\nCheese Lover\nBrie 🥝\nGTM Engineer\nWorld Explorer\nAndrew 🏎️\nGtm Engineer\nLambo\nBecca 🎉\nRevenue Leader\nBecca\nHaoran 🧋",
+        "metadata": {
+          "chunk_index": 15.0,
+          "company_slug": "clay",
+          "content_hash": "5bf53e24",
+          "indexed_at": "2025-11-11T20:36:54.421404",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_d61bf60e",
+        "similarity_score": 0.35666275,
+        "text": "CX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role\nEngineering Manager\nEngineering\nApply to this role",
+        "metadata": {
+          "chunk_index": 30.0,
+          "company_slug": "clay",
+          "content_hash": "d61bf60e",
+          "indexed_at": "2025-11-11T20:36:54.426754",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_71221655",
+        "similarity_score": 0.35635376,
+        "text": "Read post\nIntroducing GPT-5 in Claygent: sharper research, stronger formulas, better outbound\nGPT-5 is now a model option across Clay, bringing the best research and conversational writing we've ever shipped to your GTM workflows.\nAug 7, 2025\nAug 7, 2025\nRead post\nRead post\nClay Series C announcement. The GTM engineering era begins now\nWe raised a $100M Series C at a $3.1B valuation to power GTM engineering!\nAug 5, 2025\nNov 4, 2025\nRead post\nRead post\nInside Clay’s GTM engineering lab",
+        "metadata": {
+          "chunk_index": 118.0,
+          "company_slug": "clay",
+          "content_hash": "71221655",
+          "indexed_at": "2025-11-11T20:36:54.424958",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_df3989aa",
+        "similarity_score": 0.356300354,
+        "text": "Apply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role\nEngineering Manager\nEngineering\nApply to this role\nProduct Support Specialist\nCX\nApply to this role\nGTM Engineer (Sales Assist)\nGTM - Sales\nApply to this role",
+        "metadata": {
+          "chunk_index": 17.0,
+          "company_slug": "clay",
+          "content_hash": "df3989aa",
+          "indexed_at": "2025-11-11T04:49:52.460317",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_e59029a5",
+        "similarity_score": 0.35503009,
+        "text": "We couldn't find anything for that query...\nGo-to-market with Clay\nOur best content on growing your GTM motion, from outbound sales automation to AI lead generation.\nBest of the KILN\nPrevious\nNext\nRead more\nThought Leadership\nHow we built Clay’s GTM engineering function\nNov 6, 2025\nNov 6, 2025\nRead post\nRead more\nClay Announcements\nClay Series C announcement. The GTM engineering era begins now\nAug 5, 2025\nNov 4, 2025\nRead post\nRead more\nClay Announcements",
+        "metadata": {
+          "chunk_index": 75.0,
+          "company_slug": "clay",
+          "content_hash": "e59029a5",
+          "indexed_at": "2025-11-11T20:36:54.424642",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_c8af050e",
+        "similarity_score": 0.354560852,
+        "text": "Apply to this role\nClayDR (Sales Development Representative)\nGTM - Sales\nApply to this role\nSales Manager (GTME)\nGTM - Sales\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance",
+        "metadata": {
+          "chunk_index": 21.0,
+          "company_slug": "clay",
+          "content_hash": "c8af050e",
+          "indexed_at": "2025-11-11T04:49:52.460332",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_9131c369",
+        "similarity_score": 0.354150772,
+        "text": "Growth Strategy Enablement\nGTM - Ops\nApply to this role\nSolutions Engineering Manager\nGTM - Sales\nApply to this role\nClayDR (Sales Development Representative)\nGTM - Sales\nApply to this role\nSales Manager (GTME)\nGTM - Sales\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance",
+        "metadata": {
+          "chunk_index": 16.0,
+          "company_slug": "clay",
+          "content_hash": "9131c369",
+          "indexed_at": "2025-11-11T04:49:52.460313",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_9d5c1961",
+        "similarity_score": 0.353973389,
+        "text": "Growth Strategy Enablement\nGTM - Ops\nApply to this role\nSolutions Engineering Manager\nGTM - Sales\nApply to this role\nClayDR (Sales Development Representative)\nGTM - Sales\nApply to this role\nSales Manager (GTME)\nGTM - Sales\nApply to this role\nOur values\nWhat we’re all about\nKindness and creativity run deep at Clay. We care about bringing out the brightest parts of one another and building world class products.\nDownload all operating principles\nFYI Culture",
+        "metadata": {
+          "chunk_index": 40.0,
+          "company_slug": "clay",
+          "content_hash": "9d5c1961",
+          "indexed_at": "2025-11-11T04:49:52.460400",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_a07f998c",
+        "similarity_score": 0.35373497,
+        "text": "Apply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack\nEngineering\nApply to this role\nGrowth Strategist (Customer Success)\nCX\nApply to this role\nEngineering Manager\nEngineering\nApply to this role\nProduct Support Specialist\nCX\nApply to this role\nGTM Engineer (Sales Assist)\nGTM - Sales\nApply to this role\nGTM Engineer (Sales Led)\nGTM - Sales\nApply to this role\nGTM Engineer (London)\nGTM - Sales\nApply to this role\nSolutions Engineer\nGTM - Sales\nApply to this role",
+        "metadata": {
+          "chunk_index": 12.0,
+          "company_slug": "clay",
+          "content_hash": "a07f998c",
+          "indexed_at": "2025-11-11T20:36:54.426633",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_2766510a",
+        "similarity_score": 0.352104187,
+        "text": "Experts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog\nRead our best guides for outbound, from email setup to AI copywriting\nCohorts\nLive training - the fastest way to master Clay\nSlack\nJoin our Slack for live support and a community of 20K+ growth experts!\nadditional help\nGetting started\nCreators\nSolution partners\nLive events\nIntegrations partners\nFAQ\ntools\nHeadcount finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "clay",
+          "content_hash": "2766510a",
+          "indexed_at": "2025-11-11T20:36:54.421360",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_79c3d140",
+        "similarity_score": 0.35081479,
+        "text": "Apply to this role\nSolutions Engineer\nGTM - Sales\nApply to this role\nGTM Partnerships Manager\nGTM - Sales\nApply to this role\nProduct Support Specialist\nCX\nApply to this role\nProduct Manager\nProduct & Design\nApply to this role\nSoftware Engineer, Frontend\nEngineering\nApply to this role\nEnterprise Growth Strategist\nCX\nApply to this role\nPlatform Engineer\nEngineering\nApply to this role\nGTM Engineer (GTM Ops)\nGTM - Ops\nApply to this role\nRevenue Accountant\nFinance\nApply to this role",
+        "metadata": {
+          "chunk_index": 28.0,
+          "company_slug": "clay",
+          "content_hash": "79c3d140",
+          "indexed_at": "2025-11-11T04:49:52.460357",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_caad3bdf",
+        "similarity_score": 0.350166321,
+        "text": "Apply to this role\nSoftware Engineer, Integrations\nEngineering\nApply to this role\nGrowth, Lifecycle\nGrowth\nApply to this role\nGrowth, Acquisition\nGrowth\nApply to this role\nSocial\nMarketing\nApply to this role\nGrowth Strategy Enablement\nGTM - Ops\nApply to this role\nSolutions Engineering Manager\nGTM - Sales\nApply to this role\nClayDR (Sales Development Representative)\nGTM - Sales\nApply to this role\nSales Manager (GTME)\nGTM - Sales\nApply to this role\nEnterprise Growth Strategist (Customer Success)",
+        "metadata": {
+          "chunk_index": 25.0,
+          "company_slug": "clay",
+          "content_hash": "caad3bdf",
+          "indexed_at": "2025-11-11T04:49:52.460346",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_fddff7b1",
+        "similarity_score": 0.349937439,
+        "text": "Flexible in-person culture\nWe love the energy of in-person collaboration while also offering the flexibility to work from home when needed.\nParental and family benefits\nWe support current and future parents with IVF fertility benefits, egg freezing, and 4 months of paid parental leave.\nOur team\nMeet our teams\nBased in NYC, we're a team that hails from Egypt, India, France, the UK, Kenya, Lebanon, Canada and beyond.\nExplore open jobs\nEngineering",
+        "metadata": {
+          "chunk_index": 44.0,
+          "company_slug": "clay",
+          "content_hash": "fddff7b1",
+          "indexed_at": "2025-11-11T20:36:54.426839",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_2766510a",
+        "similarity_score": 0.349685669,
+        "text": "Experts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog\nRead our best guides for outbound, from email setup to AI copywriting\nCohorts\nLive training - the fastest way to master Clay\nSlack\nJoin our Slack for live support and a community of 20K+ growth experts!\nadditional help\nGetting started\nCreators\nSolution partners\nLive events\nIntegrations partners\nFAQ\ntools\nHeadcount finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "clay",
+          "content_hash": "2766510a",
+          "indexed_at": "2025-11-11T20:36:54.427747",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_2766510a",
+        "similarity_score": 0.349636078,
+        "text": "Experts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog\nRead our best guides for outbound, from email setup to AI copywriting\nCohorts\nLive training - the fastest way to master Clay\nSlack\nJoin our Slack for live support and a community of 20K+ growth experts!\nadditional help\nGetting started\nCreators\nSolution partners\nLive events\nIntegrations partners\nFAQ\ntools\nHeadcount finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "clay",
+          "content_hash": "2766510a",
+          "indexed_at": "2025-11-11T20:36:54.426613",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_2766510a",
+        "similarity_score": 0.349235535,
+        "text": "Experts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog\nRead our best guides for outbound, from email setup to AI copywriting\nCohorts\nLive training - the fastest way to master Clay\nSlack\nJoin our Slack for live support and a community of 20K+ growth experts!\nadditional help\nGetting started\nCreators\nSolution partners\nLive events\nIntegrations partners\nFAQ\ntools\nHeadcount finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "clay",
+          "content_hash": "2766510a",
+          "indexed_at": "2025-11-11T20:36:54.424212",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_84ef8831",
+        "similarity_score": 0.348911315,
+        "text": "Build a sustainable growth engine with Scheduling\nAutomate your GTM workflows with Scheduling. Keep your CRM data fresh, run always-on outbound campaigns, and power ABM strategies—without manual updates.\nClay announces community equity offering for supporters to become co-owners\nCommunity equity offering\nWhy we're pivoting our Clay agency from outbound to CRM enrichment\nWe believe the opportunity for CRM enrichment and Clay is a ripe market opportunity going into 2025.",
+        "metadata": {
+          "chunk_index": 28.0,
+          "company_slug": "clay",
+          "content_hash": "84ef8831",
+          "indexed_at": "2025-11-11T20:36:54.424334",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_blog_a80cbc22",
+        "similarity_score": 0.348690033,
+        "text": "10 best B2B data providers for mobile phone numbers in 2024\nExplore the best B2B contact databases for mobile phone data. We tested and ranked providers like Forager, ContactOut, Nimbler, and Leadmagic for accuracy, value, and coverage to help you boost your outreach and connect with qualified leads.\nWhy we built the first GTM engineering team—and believe that it’s the future of sales\nRevamping traditional sales roles like SDRs, AEs, and sales engineers into a single, high-leverage function.",
+        "metadata": {
+          "chunk_index": 32.0,
+          "company_slug": "clay",
+          "content_hash": "a80cbc22",
+          "indexed_at": "2025-11-11T20:36:54.424360",
+          "page_type": "blog",
+          "source_file": "data/raw/clay/blog/text.txt"
+        }
+      },
+      {
+        "id": "clay_about_4cb5ea4d",
+        "similarity_score": 0.34859848,
+        "text": "Joey 🎉\nGTM Engineer\nCold Brew Enthusiast 🧊☕\nMaple 🍁\nRecruiter\nDeal finder\nNext\nLoad more\nOur space\nStep into our vibrant office\nOur colorful office sits right in the middle of Chelsea, surrounded by the best of New York's culture, cuisine, and landmarks. We designed it for collaboration and creativity.\nCommunity\nVibrant, growing community of customers\nDon't just take our word for it. Explore what our customers & community say!\nExplore our wall of love",
+        "metadata": {
+          "chunk_index": 24.0,
+          "company_slug": "clay",
+          "content_hash": "4cb5ea4d",
+          "indexed_at": "2025-11-11T20:36:54.421478",
+          "page_type": "about",
+          "source_file": "data/raw/clay/about/text.txt"
+        }
+      },
+      {
+        "id": "clay_careers_d6d7cc55",
+        "similarity_score": 0.348251343,
+        "text": "GTM Engineer (GTM Ops)\nGTM - Ops\nApply to this role\nRevenue Accountant\nFinance\nApply to this role\nAccounting Manager\nFinance\nApply to this role\nEnterprise Growth Engineer\nEngineering\nApply to this role\nEvents Marketing\nMarketing\nApply to this role\nExecutive Assistant\nPeople\nApply to this role\nGTM Onboarding & Enablement Program Manager\nGTM - Ops\nApply to this role\nSoftware Engineer, Integrations\nEngineering\nApply to this role\nGrowth, Lifecycle\nGrowth\nApply to this role\nGrowth, Acquisition",
+        "metadata": {
+          "chunk_index": 29.0,
+          "company_slug": "clay",
+          "content_hash": "d6d7cc55",
+          "indexed_at": "2025-11-11T04:49:52.460360",
+          "page_type": "careers",
+          "source_file": "data/raw/clay/careers/text.txt"
+        }
+      },
+      {
+        "id": "clay_product_366b4877",
+        "similarity_score": 0.348178893,
+        "text": "SMB and mid-market deals.\nElite Studio\nYou are solving the toughest go-to-market problems for the largest enterprises around the world.\nKey benefit: account planning, targeted co-selling, bespoke co-marketing.\nApplication process\nThe Solutions Partner application has four steps to show us your business, work, and client results. Applications are reviewed monthly on a rolling basis.\n01\nSubmit Your Application",
+        "metadata": {
+          "chunk_index": 16.0,
+          "company_slug": "clay",
+          "content_hash": "366b4877",
+          "indexed_at": "2025-11-11T20:36:54.427794",
+          "page_type": "product",
+          "source_file": "data/raw/clay/product/text.txt"
+        }
+      }
+    ]
+  }
+}

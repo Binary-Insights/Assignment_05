@@ -1,0 +1,216 @@
+{
+  "company_slug": "abridge",
+  "structured": {
+    "company_name": "Abridge",
+    "company_slug": "abridge",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T23:01:22.980497Z",
+    "markdown_file": "markdown/abridge/structured.md",
+    "content": "## Company Overview\n\nAbridge AI, Inc. is a private company specializing in healthcare AI solutions. The company offers a suite of products designed to enhance clinical documentation and streamline healthcare operations. Their offerings include clinically accurate summaries, real-time prior authorization, enterprise security and compliance tools, a contextual reasoning engine, and analytics and reporting capabilities. Abridge aims to integrate seamlessly into existing healthcare systems, providing tools for security, compliance, and deployment management.\n\n**Website:** [abridge.com](https://abridge.com/)\n\n## Business Model and GTM\n\nAbridge's business model focuses on providing AI-driven solutions to healthcare systems. Their products are designed to improve clinical documentation accuracy and efficiency, offering tools that integrate with existing healthcare infrastructure. The company states that their solutions are HIPAA-compliant and include features like Single-Sign On (SSO) for user access control. The go-to-market strategy likely involves targeting healthcare providers and systems that require enhanced documentation and compliance tools.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility with only one mention in the provided data. Further details on market sentiment are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that its products are designed to adapt seamlessly to existing healthcare implementations, suggesting a focus on integration and compliance. The outlook for Abridge may depend on its ability to expand its market presence and demonstrate the efficacy and reliability of its AI solutions in clinical settings.\n\n## Disclosure Gaps\n\n- Specific dates for product releases, partnerships, and other events are not disclosed.\n- Funding details and investor profiles are not available.\n- Growth metrics and market sentiment data are limited.\n- Risks and challenges facing the company are not detailed."
+  },
+  "rag": {
+    "company_name": "Abridge",
+    "company_slug": "abridge",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:04:12.297666Z",
+    "markdown_file": "markdown/abridge/rag.md",
+    "content": "## Company Overview\n\nAbridge is a private AI startup focused on leveraging artificial intelligence to enhance various operational and commercial functions. The company offers a range of roles across different departments, including operations, marketing, data science, and finance, with positions available in hybrid and remote settings across major U.S. cities such as San Francisco, New York City, and Chicago.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nThe company states that it provides resources such as an Impact Calculator and a Best in KLAS Report, which may indicate a focus on demonstrating value and impact in its market. However, specific details on market sentiment or visibility metrics are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Specific details about Abridge's business model and go-to-market strategy are not disclosed.\n- Information regarding funding rounds, investor profiles, and financial backing is not available.\n- Growth metrics and momentum indicators are not provided.\n- Detailed visibility and market sentiment data are lacking.\n- Risks and challenges faced by the company are not outlined.\n- Future outlook and strategic direction are not disclosed.",
+    "context_results": [
+      {
+        "id": "abridge_about_140f49f4",
+        "similarity_score": 0.379329711,
+        "text": "Contact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "abridge",
+          "content_hash": "140f49f4",
+          "indexed_at": "2025-11-11T22:54:14.644039",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_blog_140f49f4",
+        "similarity_score": 0.379329711,
+        "text": "Contact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "abridge",
+          "content_hash": "140f49f4",
+          "indexed_at": "2025-11-11T20:34:21.074305",
+          "page_type": "blog",
+          "source_file": "data/raw/abridge/blog/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_70ddfbb0",
+        "similarity_score": 0.376155883,
+        "text": "$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel\nLegal - Product • United States-Remote • Full time • Remote\n$220K – $250K • Offers Equity\nOperations\nMarketing\nSenior Brand Designer\nMarketing • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Growth & CRM Marketer\nMarketing • New York City-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management",
+        "metadata": {
+          "chunk_index": 21.0,
+          "company_slug": "abridge",
+          "content_hash": "70ddfbb0",
+          "indexed_at": "2025-11-12T04:16:31.064887",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_284518ed",
+        "similarity_score": 0.370923966,
+        "text": "Executive\nExecutive Operations Partner to the Office of the CEO (NYC)\nExecutive • New York City-Hybrid • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist",
+        "metadata": {
+          "chunk_index": 20.0,
+          "company_slug": "abridge",
+          "content_hash": "284518ed",
+          "indexed_at": "2025-11-11T20:34:21.075057",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_b3241ead",
+        "similarity_score": 0.365657806,
+        "text": "$123.2K – $144.9K • Offers Equity\nExecutive\nExecutive Operations Partner to the Office of the CEO (NYC)\nExecutive • New York City-Hybrid • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science",
+        "metadata": {
+          "chunk_index": 19.0,
+          "company_slug": "abridge",
+          "content_hash": "b3241ead",
+          "indexed_at": "2025-11-12T04:16:31.064871",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_cd2b82e3",
+        "similarity_score": 0.357887268,
+        "text": "Partner Success - Strategic • San Francisco-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • Pittsburgh-Hybrid; Chicago-Hybrid; San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nExecutive\nExecutive Operations Partner to the Office of the CEO (NYC)",
+        "metadata": {
+          "chunk_index": 19.0,
+          "company_slug": "abridge",
+          "content_hash": "cd2b82e3",
+          "indexed_at": "2025-11-11T20:34:21.075048",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_4e75ac6a",
+        "similarity_score": 0.356891632,
+        "text": "$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management\nMarketing • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Web Designer\nMarketing • New York City-Hybrid; San Francisco-Hybrid • Full time • Remote\n$150K – $170K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist\nPeople Ops • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nPeople\nTalent\nSenior Technical Sourcer",
+        "metadata": {
+          "chunk_index": 22.0,
+          "company_slug": "abridge",
+          "content_hash": "4e75ac6a",
+          "indexed_at": "2025-11-12T04:16:31.064893",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_e035aa15",
+        "similarity_score": 0.354465485,
+        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • Pittsburgh-Hybrid; Chicago-Hybrid; San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid",
+        "metadata": {
+          "chunk_index": 18.0,
+          "company_slug": "abridge",
+          "content_hash": "e035aa15",
+          "indexed_at": "2025-11-12T04:16:31.064864",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_4dc1c6f0",
+        "similarity_score": 0.353752136,
+        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPartner Success - Strategic\nPartner Success Director - Strategic Accounts\nPartner Success - Strategic • San Francisco-Hybrid • Full time • Hybrid",
+        "metadata": {
+          "chunk_index": 18.0,
+          "company_slug": "abridge",
+          "content_hash": "4dc1c6f0",
+          "indexed_at": "2025-11-11T20:34:21.075041",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_23f0059b",
+        "similarity_score": 0.352825165,
+        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
+        "metadata": {
+          "chunk_index": 17.0,
+          "company_slug": "abridge",
+          "content_hash": "23f0059b",
+          "indexed_at": "2025-11-12T04:16:31.064857",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_9099476e",
+        "similarity_score": 0.352722168,
+        "text": "$180K – $250K • Offers Equity\nCommercial\nSales Director - Commercial (MT/PST)\nCommercial • United States-Remote • Full time • Remote\n$100K – $120K • Offers Equity • Offers Commission\nCommercial\nPartner Experience\nImplementation\nImplementation Manager - Strategic Accounts\nImplementation • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nCommercial\nPartner Experience\nImplementation - Nursing\nImplementation Director - Nursing",
+        "metadata": {
+          "chunk_index": 12.0,
+          "company_slug": "abridge",
+          "content_hash": "9099476e",
+          "indexed_at": "2025-11-12T04:16:31.064821",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_18c16b30",
+        "similarity_score": 0.350223541,
+        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Pittsburgh-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
+        "metadata": {
+          "chunk_index": 17.0,
+          "company_slug": "abridge",
+          "content_hash": "18c16b30",
+          "indexed_at": "2025-11-11T04:47:53.432959",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_product_cc20cf4d",
+        "similarity_score": 0.348831177,
+        "text": "Platform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
+        "metadata": {
+          "chunk_index": 14.0,
+          "company_slug": "abridge",
+          "content_hash": "cc20cf4d",
+          "indexed_at": "2025-11-11T20:34:21.075815",
+          "page_type": "product",
+          "source_file": "data/raw/abridge/product/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_22d269df",
+        "similarity_score": 0.34765625,
+        "text": "$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist\nData Science • San Francisco-Onsite; San Francisco-Hybrid • Full time\n$165K – $215K • Offers Equity\nOperations\nFinance\nFinance Operations\nFinancial Operations Lead\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $141.6K • Offers Equity\nPayroll Manager\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product",
+        "metadata": {
+          "chunk_index": 20.0,
+          "company_slug": "abridge",
+          "content_hash": "22d269df",
+          "indexed_at": "2025-11-12T04:16:31.064880",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_397f3341",
+        "similarity_score": 0.343399078,
+        "text": "Commercial\nPartner Experience\nPartner Success - Enterprise and Commercial\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus",
+        "metadata": {
+          "chunk_index": 16.0,
+          "company_slug": "abridge",
+          "content_hash": "397f3341",
+          "indexed_at": "2025-11-11T20:34:21.075026",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      }
+    ]
+  }
+}

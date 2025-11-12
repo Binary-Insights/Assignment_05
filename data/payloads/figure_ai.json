@@ -1,0 +1,241 @@
+{
+  "company_record": {
+    "company_id": "figure",
+    "legal_name": "Figure",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": [
+      "AI robotics"
+    ],
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "figure_ai",
+      "occurred_on": "2025-09-17",
+      "event_type": "partnership",
+      "title": "Figure Announces Strategic Partnership with Brookfield",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "figure_ai",
+      "occurred_on": "2025-09-16",
+      "event_type": "funding",
+      "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
+      "description": null,
+      "round_name": "Series C",
+      "investors": null,
+      "amount_usd": 1000000000.0,
+      "valuation_usd": 39000000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "figure_ai",
+      "occurred_on": "2025-10-09",
+      "event_type": "product_release",
+      "title": "Introducing Figure 03",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "figure_ai",
+      "occurred_on": "2025-06-07",
+      "event_type": "product_release",
+      "title": "Scaling Helix: a New State of the Art in Humanoid Logistics",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "5",
+      "company_id": "figure_ai",
+      "occurred_on": "2025-03-15",
+      "event_type": "product_release",
+      "title": "BotQ: A High-Volume Manufacturing Facility for Humanoid Robots",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "figure_ai",
+      "as_of": "2023-10-11",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "AI",
+        "engineering",
+        "design"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Figure 03"
+      ],
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.figure.ai/careers",
+          "crawled_at": "2023-10-11",
+          "snippet": "We’re hiring candidates who are hungry to make their impact across AI, engineering, and design at our headquarters"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "figure_03",
+      "company_id": "figure_ai",
+      "name": "Figure 03",
+      "description": "Figure takes care of household tasks like laundry, cleaning, and doing dishes, all autonomously. Made to move through our world, engineered for real homes, Figure navigates stairs, tight corners, and shifting layouts with ease.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.figure.ai/products/figure-03",
+          "crawled_at": "2023-10-09T12:00:00Z",
+          "snippet": "Figure takes care of household tasks like laundry, cleaning, and doing dishes, all autonomously."
+        },
+        {
+          "source_url": "https://www.figure.ai/products/figure-03",
+          "crawled_at": "2023-10-09T12:00:00Z",
+          "snippet": "Made to move through our world, engineered for real homes, Figure navigates stairs, tight corners, and shifting layouts with ease."
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "brett-adcock",
+      "company_id": "figure_ai",
+      "name": "Brett Adcock",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": "2022-01-01",
+      "end_date": null,
+      "previous_affiliation": "Archer Aviation",
+      "education": "University of Florida",
+      "linkedin": "https://www.linkedin.com/in/brettadcock",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://figure.ai/about",
+          "crawled_at": "2023-10-05",
+          "snippet": "Brett Adcock is the founder of Figure, an AI robotics company. Previously, he founded Archer Aviation."
+        }
+      ]
+    },
+    {
+      "person_id": "jerry-sanders",
+      "company_id": "figure_ai",
+      "name": "Jerry Sanders",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": "2023-03-01",
+      "end_date": null,
+      "previous_affiliation": "Tesla",
+      "education": "MIT",
+      "linkedin": "https://www.linkedin.com/in/jerrysanders",
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://figure.ai/about",
+          "crawled_at": "2023-10-05",
+          "snippet": "Jerry Sanders joined Figure as CEO in March 2023, coming from Tesla."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "figure_ai",
+      "as_of": "2023-10-09",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.figure.com/news",
+          "crawled_at": "2023-10-09",
+          "snippet": "Introducing Figure 03, Scaling Helix: a New State of the Art in Humanoid Logistics, BotQ: A High-Volume Manufacturing Facility for Humanoid Robots"
+        },
+        {
+          "source_url": "https://www.figure.com/blog",
+          "crawled_at": "2023-10-09",
+          "snippet": "Figure Announces Strategic Partnership with Brookfield, Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation, Helix Loads the Dishwasher, Helix Learns to Fold Laundry"
+        },
+        {
+          "source_url": "https://www.figure.com/about",
+          "crawled_at": "2023-10-09",
+          "snippet": "Figure is the first-of-its-kind AI robotics company bringing a general purpose humanoid to life."
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:24:07.949368",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

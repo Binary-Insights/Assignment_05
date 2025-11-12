@@ -84,16 +84,24 @@ def load_llm_response(company_slug: str, pipeline_type: str, response_dir: str =
         LLM response data or None if not found
     """
     try:
-        # Construct path: data/llm_response/json/{company_slug}/responses.json
-        response_path = os.path.join(response_dir, company_slug, "responses.json")
+        # Try both hyphen and underscore versions of company_slug
+        # (e.g., "world-labs" and "world_labs")
+        slugs_to_try = [
+            company_slug,
+            company_slug.replace('-', '_'),
+            company_slug.replace('_', '-')
+        ]
         
-        if not os.path.exists(response_path):
-            return None
+        for slug in slugs_to_try:
+            response_path = os.path.join(response_dir, slug, "responses.json")
             
-        with open(response_path, 'r') as f:
-            data = json.load(f)
-            # Extract the pipeline response from nested structure
-            return data.get(pipeline_type)
+            if os.path.exists(response_path):
+                with open(response_path, 'r') as f:
+                    data = json.load(f)
+                    # Extract the pipeline response from nested structure
+                    return data.get(pipeline_type)
+        
+        return None
     except (FileNotFoundError, json.JSONDecodeError, KeyError):
         return None
 

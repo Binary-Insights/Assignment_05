@@ -1,0 +1,359 @@
+{
+  "company_record": {
+    "company_id": "synthesia",
+    "legal_name": "Synthesia",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2017,
+    "categories": [
+      "AI Video Communications Platform"
+    ],
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": 1000000000.0,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "Synthesia was founded in 2017 by a team of AI researchers and entrepreneurs from UCL, Stanford, TUM and Cambridge."
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-06",
+        "snippet": "Synthesia is the #1 AI Video Communications Platform."
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-06",
+        "snippet": "Nvidia-backed platform that turns text into A.I.-generated avatars boosts valuation to $1 billion"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "synthesia",
+      "occurred_on": "2023-10-01",
+      "event_type": "funding",
+      "title": "Mark Cuban Investment",
+      "description": "Mark Cuban invested $1 million in Synthesia after extensive discussions.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 1000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "synthesia",
+      "occurred_on": "2023-10-15",
+      "event_type": "product_release",
+      "title": "Launch of AI Dubbing",
+      "description": "Synthesia released AI Dubbing, a new product to transform video localization.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "3",
+      "company_id": "synthesia",
+      "occurred_on": "2023-10-20",
+      "event_type": "partnership",
+      "title": "Collaboration with AWS",
+      "description": "Synthesia expanded collaboration with AWS to accelerate AI video adoption, making the platform available through AWS Marketplace.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "4",
+      "company_id": "synthesia",
+      "occurred_on": "2023-10-25",
+      "event_type": "benchmark",
+      "title": "ISO 27001 Certification",
+      "description": "Synthesia achieved ISO/IEC 27001:2022 certification, emphasizing security as a core pillar.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "synthesia",
+      "as_of": "2023-10-10",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "AI Avatars",
+        "Personal Avatars",
+        "AI Screen Recorder",
+        "AI Video Generator",
+        "AI Dubbing",
+        "Video Translator",
+        "Multilingual Player",
+        "Captions",
+        "Brand Kit",
+        "Live Collaboration",
+        "AI Avatar Generator",
+        "AI Video Editor",
+        "AI Voice Generator"
+      ],
+      "geo_presence": [
+        "Europe",
+        "New York",
+        "London",
+        "Austin, TX"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-10",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "ai_video_generator",
+      "company_id": "synthesia",
+      "name": "AI Video Generator",
+      "description": "Enables everyone to create professional videos without mics, cameras, or actors.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": [
+        "Amazon Web Services (AWS)"
+      ],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [
+        "Fortune 100"
+      ],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-05",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "ai_dubbing",
+      "company_id": "synthesia",
+      "name": "AI Dubbing",
+      "description": "Speeds up and reduces the costs of localizing video, while offering enterprise-grade solutions.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-05",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "generative_assets",
+      "company_id": "synthesia",
+      "name": "Generative Assets",
+      "description": "Allows enterprise users to effortlessly create AI-generated videos with Veo 3 directly within Synthesia.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-05",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "victor-riparbelli",
+      "company_id": "synthesia",
+      "name": "Victor Riparbelli",
+      "role": "CEO & Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "dan-vlad-cobasneanu",
+      "company_id": "synthesia",
+      "name": "Dan-Vlad Cobasneanu",
+      "role": "Product Marketing Manager",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "laura-gonzalez",
+      "company_id": "synthesia",
+      "name": "Laura Gonzalez",
+      "role": "Chief of Staff",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "ken-lawshe",
+      "company_id": "synthesia",
+      "name": "Ken Lawshe",
+      "role": "Chief Revenue Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "gabe-stern",
+      "company_id": "synthesia",
+      "name": "Gabe Stern",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers]",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "synthesia",
+      "as_of": "2023-10-10",
+      "news_mentions_30d": 3,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://synthesia.io/blog",
+          "crawled_at": "2023-10-10",
+          "snippet": "Synthesia is now ISO 27001 certified, here’s why that matters"
+        },
+        {
+          "source_url": "https://synthesia.io/blog",
+          "crawled_at": "2023-10-10",
+          "snippet": "AI Dubbing set to transform how businesses localize video at scale"
+        },
+        {
+          "source_url": "https://synthesia.io/blog",
+          "crawled_at": "2023-10-10",
+          "snippet": "Introducing Veo 3-powered Generative Assets in Synthesia"
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:43:03.649815",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

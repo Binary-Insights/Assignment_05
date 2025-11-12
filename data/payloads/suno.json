@@ -1,0 +1,204 @@
+{
+  "company_record": {
+    "company_id": "suno",
+    "legal_name": "Suno, Inc.",
+    "brand_name": "Suno",
+    "website": "https://suno.ai/",
+    "hq_city": "Cambridge",
+    "hq_state": "MA",
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-01",
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-01",
+        "snippet": "We are a team of musicians and artificial intelligence experts based in Cambridge, MA."
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-01",
+        "snippet": "© 2025 Suno, Inc."
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-01",
+        "snippet": "Suno | AI Music"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "suno",
+      "occurred_on": "2025-09-25",
+      "event_type": "product_release",
+      "title": "Introducing Suno Studio",
+      "description": "Introducing Suno Studio. Unlock creative possibilities with the first-ever generative audio workstation.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "suno",
+      "occurred_on": "2025-07-22",
+      "event_type": "partnership",
+      "title": "Songs of Love Foundation Teams Up with Suno",
+      "description": "New partnership empowers volunteers and artists with accessible tools to create custom songs that uplift children and teens facing illness or hardship.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "suno",
+      "as_of": "2023-11-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 44,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Engineering",
+        "Growth",
+        "Machine Learning",
+        "Music",
+        "Operations"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Suno Studio",
+        "AI Music"
+      ],
+      "geo_presence": [
+        "Boston",
+        "Los Angeles",
+        "NYC",
+        "Remote"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[careers] Suno Jobs",
+          "crawled_at": "2023-11-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "1",
+      "company_id": "suno",
+      "name": "Suno | AI Music",
+      "description": "Join the #1 AI music generator. Create songs, remix tracks, make beats, and share your music with millions — free forever.",
+      "pricing_model": "subscription",
+      "pricing_tiers_public": [
+        "Premier Plan: $24/month, saves $72 by billing yearly"
+      ],
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "2",
+      "company_id": "suno",
+      "name": "Suno Studio",
+      "description": "Unlock creative possibilities with the first-ever generative audio workstation.",
+      "pricing_model": "subscription",
+      "pricing_tiers_public": [
+        "Access to Suno Studio, Access to latest and most advanced v5 model, 10,000 credits (up to 2,000 songs), refreshes monthly, Commercial use rights for new songs made, Standard + Pro features (personas and advanced editing), Split songs into up to 12 vocal and instrument stems"
+      ],
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "web_content",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "founding-team",
+      "company_id": "suno",
+      "name": "Founding Team",
+      "role": "Founders",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Meta, TikTok, Kensho",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://suno.ai/about",
+          "crawled_at": "2025-09-25",
+          "snippet": "We are proud alumni of pioneering tech companies like Meta, TikTok and Kensho, where our founding team worked together before starting Suno."
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "suno",
+      "as_of": "2023-11-04",
+      "news_mentions_30d": 2,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.rollingstone.com",
+          "crawled_at": "2024-03-17",
+          "snippet": "A ChatGPT for Music Is Here: Inside Suno, the Startup Changing Everything"
+        },
+        {
+          "source_url": "https://www.suno.com",
+          "crawled_at": "2025-09-25",
+          "snippet": "Introducing Suno Studio. Unlock creative possibilities with the first-ever generative audio workstation."
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:42:15.638987",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

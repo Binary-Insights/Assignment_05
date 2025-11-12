@@ -1,0 +1,125 @@
+{
+  "company_slug": "deepl",
+  "structured": {
+    "company_name": "DeepL",
+    "company_slug": "deepl",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-12T23:00:59.087816Z",
+    "markdown_file": "markdown/deepl/structured.md",
+    "content": "## Company Overview\n\nDeepL is a private AI startup focused on transforming communication and productivity for organizations worldwide. The company emphasizes bold, forward-thinking innovation and aims to build intelligent, trusted AI solutions to help organizations achieve their most important goals.\n\n## Business Model and GTM\n\nDeepL offers a suite of AI-powered products designed to enhance communication and productivity:\n\n- **DeepL Translator**: Provides human-like translations in over 30 languages, focusing on security, efficiency, and accuracy.\n- **DeepL Write**: A multilingual AI-powered writing assistant that enhances content and adapts to different audiences.\n- **DeepL Agent**: An AI assistant that automates routine tasks, promoting smarter work practices.\n- **DeepL Voice**: Facilitates cross-language conversations.\n- **DeepL API**: Offers secure and scalable AI translation services for enterprises.\n\nThe company states that it works with leading organizations globally, suggesting a B2B go-to-market strategy.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nDeepL has released several products, indicating ongoing innovation and expansion of its product offerings. The company has also achieved a C5 Type 2 attestation, enhancing its data security credentials for organizations in regulated industries.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is on a mission to build intelligent, trusted AI solutions, suggesting a positive outlook focused on innovation and expanding its impact on organizational communication and productivity.\n\n## Disclosure Gaps\n\n- Specific funding details and investor profiles are not disclosed.\n- Detailed growth metrics and market sentiment data are not available.\n- Risks and challenges faced by the company are not disclosed.\n- Visibility and market presence information is incomplete."
+  },
+  "rag": {
+    "company_name": "DeepL",
+    "company_slug": "deepl",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-12T23:04:34.123678Z",
+    "markdown_file": "markdown/deepl/rag.md",
+    "content": "## Company Overview\n\nDeepL is a private AI startup known for its high-quality translation technology. The company has a global presence with over 1,000 employees across multiple countries and time zones. DeepL's technology is utilized by millions of individuals worldwide and serves over 200,000 business customers. The company is recognized for its innovative contributions to AI, having received numerous accolades such as the Time 100, Forbes AI 50, Forbes Cloud 100, BIG Innovation Award, and Fast Company's Most Innovative Companies.\n\n## Business Model and GTM\n\nDeepL operates a B2B and B2C model, offering translation solutions across various industries including legal, retail, manufacturing, government, financial services, pharma, healthcare, and technology. The company provides use cases for document translation, customer support, internal communication, marketing, and global expansion. DeepL emphasizes enterprise security and customization, offering a \"Customization Hub\" for tailored solutions. The company states it delivers market-leading quality in its services.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nDeepL has demonstrated significant growth with over 1 million paid licenses and a customer base of more than 200,000 businesses. The company is expanding its workforce, currently employing over 1,000 individuals globally. This growth is supported by a strong emphasis on creating an inclusive and empowering work environment.\n\n## Visibility & Market Sentiment\n\nDeepL enjoys a positive market sentiment, bolstered by its inclusion in prestigious lists such as the Time 100 and Forbes AI 50. The company is recognized for its cutting-edge technology and its ability to facilitate global communication with ease and accuracy.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company is poised for continued growth, driven by its innovative technology and expanding global presence. DeepL's focus on high-quality translation services and enterprise customization positions it well to capture further market share across diverse industries.\n\n## Disclosure Gaps\n\n- Funding & Investor Profile: Not disclosed.\n- Risks and Challenges: Not disclosed.",
+    "context_results": [
+      {
+        "id": "deepl_about_0df963b9",
+        "similarity_score": 0.403913528,
+        "text": "Awards\nTime 100\nFrom TIME 2025 TIME USA LLC. All rights reserved. Used under license.\nLearn more\nForbes AI 50\nLearn more\nForbes Cloud 100\nLearn more\nBIG Innovation Award\nLearn more\nG2\nLearn more\nFast Company's Most Innovative Companies\nLearn more\nShow more\nDriven by groundbreaking research",
+        "metadata": {
+          "chunk_index": 12.0,
+          "company_slug": "deepl",
+          "content_hash": "0df963b9",
+          "indexed_at": "2025-11-11T23:02:00.825182",
+          "page_type": "about",
+          "source_file": "data/raw/deepl/about/text.txt"
+        }
+      },
+      {
+        "id": "deepl_about_f5f1bc22",
+        "similarity_score": 0.376914978,
+        "text": "Overview\nSolutions\nTeams\nLocalization\nLegal\nMarketing & Communications\nCustomer Service\nSales\nBusiness Operations\nIndustry\nLegal & professional services\nRetail & e-commerce\nManufacturing\nGovernment\nFinancial services\nPharma & life sciences\nHealthcare\nISV & technology\nUse cases\nDocument translation\nCustomer support\nInternal communication\nMarketing\nGlobal expansion\nEnterprise\nOverview\nEnterprise security & trust\nMarket-leading Quality\nCustomization Hub\nNew\nContact Sales\nPricing\nApps\nApps",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "deepl",
+          "content_hash": "f5f1bc22",
+          "indexed_at": "2025-11-11T23:02:00.825078",
+          "page_type": "about",
+          "source_file": "data/raw/deepl/about/text.txt"
+        }
+      },
+      {
+        "id": "deepl_blog_f5f1bc22",
+        "similarity_score": 0.376895905,
+        "text": "Overview\nSolutions\nTeams\nLocalization\nLegal\nMarketing & Communications\nCustomer Service\nSales\nBusiness Operations\nIndustry\nLegal & professional services\nRetail & e-commerce\nManufacturing\nGovernment\nFinancial services\nPharma & life sciences\nHealthcare\nISV & technology\nUse cases\nDocument translation\nCustomer support\nInternal communication\nMarketing\nGlobal expansion\nEnterprise\nOverview\nEnterprise security & trust\nMarket-leading Quality\nCustomization Hub\nNew\nContact Sales\nPricing\nApps\nApps",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "deepl",
+          "content_hash": "f5f1bc22",
+          "indexed_at": "2025-11-11T23:02:00.826178",
+          "page_type": "blog",
+          "source_file": "data/raw/deepl/blog/text.txt"
+        }
+      },
+      {
+        "id": "deepl_careers_f5f1bc22",
+        "similarity_score": 0.376834869,
+        "text": "Overview\nSolutions\nTeams\nLocalization\nLegal\nMarketing & Communications\nCustomer Service\nSales\nBusiness Operations\nIndustry\nLegal & professional services\nRetail & e-commerce\nManufacturing\nGovernment\nFinancial services\nPharma & life sciences\nHealthcare\nISV & technology\nUse cases\nDocument translation\nCustomer support\nInternal communication\nMarketing\nGlobal expansion\nEnterprise\nOverview\nEnterprise security & trust\nMarket-leading Quality\nCustomization Hub\nNew\nContact Sales\nPricing\nApps\nApps",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "deepl",
+          "content_hash": "f5f1bc22",
+          "indexed_at": "2025-11-11T23:02:00.827831",
+          "page_type": "careers",
+          "source_file": "data/raw/deepl/careers/text.txt"
+        }
+      },
+      {
+        "id": "deepl_product_f5f1bc22",
+        "similarity_score": 0.376804352,
+        "text": "Overview\nSolutions\nTeams\nLocalization\nLegal\nMarketing & Communications\nCustomer Service\nSales\nBusiness Operations\nIndustry\nLegal & professional services\nRetail & e-commerce\nManufacturing\nGovernment\nFinancial services\nPharma & life sciences\nHealthcare\nISV & technology\nUse cases\nDocument translation\nCustomer support\nInternal communication\nMarketing\nGlobal expansion\nEnterprise\nOverview\nEnterprise security & trust\nMarket-leading Quality\nCustomization Hub\nNew\nContact Sales\nPricing\nApps\nApps",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "deepl",
+          "content_hash": "f5f1bc22",
+          "indexed_at": "2025-11-11T23:02:00.829005",
+          "page_type": "product",
+          "source_file": "data/raw/deepl/product/text.txt"
+        }
+      },
+      {
+        "id": "deepl_careers_70ffb4ff",
+        "similarity_score": 0.359783173,
+        "text": "200,000+ business customers\n1 million paid licenses\nUsed by millions of individuals worldwide\nAt DeepL, we create world-class technology in an\ninclusive\nand\nempowering\nenvironment\nthat enables our team members to\nthrive\n.\nReady to apply?\nCheck out all our open positions and find the perfect role for you.\nRead more\nHow do we hire?\nFind out more about our recruitment process.\nRead more\nCurious about our culture?\nDiscover life inside DeepL.\nRead more\nGet to know our leaders\nJaroslaw Kutylowski",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "deepl",
+          "content_hash": "70ffb4ff",
+          "indexed_at": "2025-11-11T23:02:00.827893",
+          "page_type": "careers",
+          "source_file": "data/raw/deepl/careers/text.txt"
+        }
+      },
+      {
+        "id": "deepl_careers_83846b95",
+        "similarity_score": 0.353759795,
+        "text": "worldwide, who rely on its cutting-edge technology to communicate on a global scale.\nWe are a 1000-strong team spanning multiple countries and continents—and we are dedicated to putting the\nhighest-quality tech\ninto the hands of companies and people all over the world, ensuring that they can communicate accurately and with ease, no matter where they are.\n1000+ employees\n200,000+ business customers\n1 million paid licenses\nUsed by millions of individuals worldwide",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "deepl",
+          "content_hash": "83846b95",
+          "indexed_at": "2025-11-11T23:02:00.827882",
+          "page_type": "careers",
+          "source_file": "data/raw/deepl/careers/text.txt"
+        }
+      },
+      {
+        "id": "deepl_careers_00a8be00",
+        "similarity_score": 0.3446064,
+        "text": "Chief Product Officer\nLinkedIn\nStefan Mesken\nChief Scientist\nLinkedIn\nMartino Cadoni\nChief Financial Officer\nLinkedIn\nOur offices\nAs we grow, our dynamic team spans\nmultiple time zones\nand\ncountries\n.\nDiscover life #InsideDeepL\nDiscover more\nSee roles\nDiscover more\nSee roles\n!\nTwitter\nLinkedIn\nInstagram\nEnglish\nDeutsch\nEnglish\nEspañol\n日本語\nFrançais\nItaliano\nBahasa Indonesia\n한국어\nNederlands\nČeština\nSvenska\nPolski\nPortuguês (Brasil)\nPortuguês\nTürkçe\nРусский\n简体中文\nУкраїнська\nالعربية\nProducts",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "deepl",
+          "content_hash": "00a8be00",
+          "indexed_at": "2025-11-11T23:02:00.827916",
+          "page_type": "careers",
+          "source_file": "data/raw/deepl/careers/text.txt"
+        }
+      }
+    ]
+  }
+}

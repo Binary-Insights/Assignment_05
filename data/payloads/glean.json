@@ -1,0 +1,260 @@
+{
+  "company_record": {
+    "company_id": "glean-ai",
+    "legal_name": "Glean.ai",
+    "brand_name": null,
+    "website": "https://glean.ai/",
+    "hq_city": "New York",
+    "hq_state": "NY",
+    "hq_country": "USA",
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-09",
+        "snippet": "hello@glean.ai 43 West 23rd street, 4th floor New York, NY 10010"
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-09",
+        "snippet": "Glean is the only AP solution combining smart automation with spend intelligence to drive material savings and empower finance teams to make smarter spending decisions."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "glean",
+      "occurred_on": "2022-09-28",
+      "event_type": "partnership",
+      "title": "Glean.ai joins Pipe to Advance Spend Management for Small Businesses",
+      "description": "Glean.ai has partnered with Pipe to enhance spend management solutions for small businesses.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [
+        "Pipe"
+      ],
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.glean.ai/blog/glean-ai-joins-pipe-to-advance-spend-management",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "glean",
+      "occurred_on": "2023-03-09",
+      "event_type": "security_incident",
+      "title": "New Sophisticated Phishing Technique Making the Rounds",
+      "description": "Glean.ai alerts AP teams about a new sophisticated phishing technique.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.glean.ai/blog/new-sophisticated-phishing-technique",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "glean",
+      "as_of": "2023-11-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Intelligent AP Solution",
+        "Smart Automation",
+        "Mobile app"
+      ],
+      "geo_presence": null,
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://glean.ai",
+          "crawled_at": "2023-11-01",
+          "snippet": "Glean is the only AP solution combining smart automation with spend intelligence to drive material savings and empower finance teams to make smarter spending decisions."
+        },
+        {
+          "source_url": "https://glean.ai",
+          "crawled_at": "2023-11-01",
+          "snippet": "The Glean.ai Product Solutions Security Compare to Bill.com Integrations Quickbooks Xero Sage Intacct NetSuite Dynamics"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "glean_ai_product",
+      "company_id": "glean",
+      "name": "Glean.ai Product",
+      "description": "The only AP solution combining smart automation with spend intelligence to drive material savings and empower finance teams to make smarter spending decisions.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": [
+        "Quickbooks",
+        "Xero",
+        "Sage Intacct",
+        "NetSuite",
+        "Dynamics"
+      ],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://glean.ai",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "product_id": "mobile_app",
+      "company_id": "glean",
+      "name": "Mobile app",
+      "description": "Holistic view of all vendor spend, Centralized vendor management, Automated line item extraction, Flexible workflows and collaboration, Detailed & automated variance analysis, Upcoming renewal notifications, Anomalous spend alerts, Trend analysis",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://glean.ai",
+          "crawled_at": "2023-10-06",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "ankur-patel",
+      "company_id": "glean",
+      "name": "Ankur Patel",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "glean.ai/about",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "alexander-jia",
+      "company_id": "glean",
+      "name": "Alexander Jia",
+      "role": "Head of Data",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "glean.ai/about",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    },
+    {
+      "person_id": "howard-katzenberg",
+      "company_id": "glean",
+      "name": "Howard Katzenberg",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "glean.ai/blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "glean",
+      "as_of": "2023-10-17",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://glean.ai/blog",
+          "crawled_at": "2023-10-17",
+          "snippet": "Top Bill.com Alternative: Why Glean.ai Leads in Financial Operations Efficiency"
+        },
+        {
+          "source_url": "https://glean.ai/blog",
+          "crawled_at": "2023-10-17",
+          "snippet": "Glean.ai Secures SOC 2 Type II Certification"
+        },
+        {
+          "source_url": "https://glean.ai/blog",
+          "crawled_at": "2023-10-17",
+          "snippet": "Glean.ai Achieves SOC 2 Type II Recertification in 2024"
+        },
+        {
+          "source_url": "https://glean.ai/blog",
+          "crawled_at": "2023-10-17",
+          "snippet": "Glean.ai joins Pipe to Advance Spend Management for Small Businesses"
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-12T22:25:23.202407",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}
