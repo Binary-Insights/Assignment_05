@@ -199,7 +199,7 @@ def generate_dashboard_with_retrieval(
     pinecone_index: Any,
     llm_client: Any = None,
     llm_model: str = "gpt-4o",
-    top_k: int = 10,
+    top_k: int = 100,
     temperature: float = 0.1
 ) -> tuple[str, List[Dict[str, Any]]]:
     """

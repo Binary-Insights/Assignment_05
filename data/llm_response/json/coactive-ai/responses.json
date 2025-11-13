@@ -1,0 +1,281 @@
+{
+  "company_slug": "coactive-ai",
+  "structured": {
+    "company_name": "Coactive AI",
+    "company_slug": "coactive-ai",
+    "pipeline_type": "structured",
+    "timestamp": "2025-11-11T00:39:12.230811Z",
+    "markdown_file": "markdown/coactive-ai/structured.md",
+    "content": "## Company Overview\n\nCoactive Systems Inc., branded as Coactive AI, was founded in 2021. The company is a private AI startup that focuses on machine learning systems and AI. Coactive AI operates with a team of over 30 members and has established three global hub offices. The company specializes in developing AI platforms for video understanding and content discovery.\n\n## Business Model and GTM\n\nCoactive AI offers two main products: a Multimodal AI platform for video understanding and a Content Discovery tool. The Multimodal AI platform provides context-aware analysis across video segments, going beyond simple shot detection. It includes features like built-in lineage tracing for asset and transformation tracking. The Content Discovery tool enables robust metadata generation from visual and audio content, using natural language prompts for flexible tagging. The company states that these products are built for scale, suggesting a focus on enterprise-level clients.\n\n## Funding & Investor Profile\n\nCoactive AI has raised a total of $44 million USD since its inception. Details regarding specific investors or funding rounds are not disclosed.\n\n## Growth Momentum\n\nThe company has released several products, including Visual AI Search, Metadata Tagging, and Analytics, as well as an optimized AI platform for enhancing video understanding. These product releases indicate ongoing development and expansion of their technology offerings.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is led by a diverse team of experts in machine learning systems and AI. With a focus on scalable AI solutions for video understanding and content discovery, Coactive AI appears to be positioning itself to capture a significant share of the enterprise AI market.\n\n## Disclosure Gaps\n\n- Specific dates for product releases are not disclosed.\n- Details about the leadership team, including roles and backgrounds, are not provided.\n- Information on market presence and sentiment is not available.\n- Risks and challenges facing the company are not disclosed.\n- No specific investor details or funding round information is provided."
+  },
+  "rag": {
+    "company_name": "Coactive AI",
+    "company_slug": "coactive-ai",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-11T00:29:49.519996Z",
+    "markdown_file": "markdown/coactive-ai/rag.md",
+    "content": "## Company Overview\n\nCoactive AI is a private company founded in 2021, specializing in building multimodal AI systems that facilitate collaboration between humans and machines. The company is composed of a diverse team of over 30 experts with extensive experience in machine learning systems and data-centric AI. Coactive AI operates from three global hub offices.\n\n## Business Model and GTM\n\nCoactive AI focuses on providing AI solutions that enhance content workflows, particularly in the media and entertainment industry. Their platform offers capabilities such as visual AI search, metadata tagging, and analytics. The company emphasizes a future-proof approach with customizable models that are upgrade-ready, aiming to accelerate content workflows and unlock the potential of visual content. The company states that their solutions are designed to maximize content in the AI era.\n\n## Funding & Investor Profile\n\nCoactive AI has raised $44 million in funding. The company is advised by a group of experts with significant experience in founding and growing technology companies, including Ken Coleman, Matei Zaharia, and Julie Choi. Not disclosed are the specific investors or the stages of funding.\n\n## Growth Momentum\n\nThe company has been active in product development, with recent advancements such as smarter metadata tagging for the multimodal era and the integration of their platform on Azure for enhanced scalability. Coactive AI has also engaged in partnerships, such as with NBCUniversal, to explore the potential of multimodal AI in media and entertainment.\n\n## Visibility & Market Sentiment\n\nCoactive AI has been recognized for its innovative approach in the AI space, particularly in the media and entertainment sectors. The company has been featured in discussions and events highlighting the transformative potential of AI in content discovery and management. However, specific awards or recognitions are not disclosed.\n\n## Risks and Challenges\n\nThe company faces challenges typical of AI startups, such as the need for continuous innovation and adaptation to rapidly evolving technology landscapes. Additionally, the reliance on partnerships and the integration of their platform with other technologies may pose operational risks.\n\n## Outlook\n\nCoactive AI is positioned to capitalize on the growing demand for AI-driven content management solutions. With a strong team and strategic partnerships, the company is poised for further growth and expansion in the media and entertainment industry. The company's focus on future-proof, customizable AI solutions aligns with market trends towards more adaptable and scalable technologies.\n\n## Disclosure Gaps\n\n- Specific details about the investors and stages of funding are not disclosed.\n- Information on specific awards and recognitions is not provided.\n- Detailed financial performance metrics and revenue figures are not disclosed.\n- Customer base and specific use cases beyond media and entertainment are not detailed.",
+    "context_results": [
+      {
+        "id": "coactive_ai_about_6fe49e1a",
+        "similarity_score": 0.37336731,
+        "text": "About Us\nCareers\nContact\nPartners\nLogin\nGet a Demo\nLogin\nGet a Demo\n🇺🇸EN\n🇨🇦FR\nWe are Coactive\nWe are a diverse team of experts that have led the charge in the world of machine learning systems and AI.\nCoactive in numbers\n3\nGlobal hub offices\n2021\nYear founded\n30+\nSize of team\n$44M\nFunding raised\nAwards & Recognition\nOur team\nWe've created a diverse team of experts that coactively bring products to life",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "6fe49e1a",
+          "indexed_at": "2025-11-10T19:28:39.707320",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_product_184fafcf",
+        "similarity_score": 0.341077805,
+        "text": "Time to Value\nTime to Value\nSlower onboarding, high customization needs\nFuture-Proof\nChoice of models and upgrade-ready\nBound to vendor’s foundation model evolution\nApproach\nFoundation Model Only\nResources\nEvents\nUnleash your video and image content: Accelerate content workflows with Coactive MAP ‘25\nFeatured\nMaximizing Content in the AI Era\nFeatured\nCoactive for Media & Entertainment\nReady to unlock the potential\nin your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source",
+        "metadata": {
+          "chunk_index": 23.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "184fafcf",
+          "indexed_at": "2025-11-10T19:28:39.711515",
+          "page_type": "product",
+          "source_file": "data/raw/coactive_ai/product/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_careers_5f373b67",
+        "similarity_score": 0.338695526,
+        "text": "Login\nGet a Demo\n🇺🇸EN\n🇨🇦FR\nBuild multimodal AI systems that help humans and machines work together.\nWe are a diverse team of experts that have led the charge in the world of machine learning systems and data-centric AI. Join us.\nExplore Open Roles\nGuiding Principles\nView culture as a product\nWe build and deploy the best version of our culture every day.\nBe coactive\nWe put aside our egos to win together as one team.\nEngineer magic",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "5f373b67",
+          "indexed_at": "2025-11-10T19:28:39.710176",
+          "page_type": "careers",
+          "source_file": "data/raw/coactive_ai/careers/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_about_550e4fe3",
+        "similarity_score": 0.363609344,
+        "text": "Josh Heller\nChief Revenue Officer\nBarbara Lewis\nHead of Marketing",
+        "metadata": {
+          "chunk_index": 20.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "550e4fe3",
+          "indexed_at": "2025-11-10T19:28:39.707398",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_blog_f44f3721",
+        "similarity_score": 0.393669128,
+        "text": "Product\nJan 27, 2025\nShould you build or buy your AI? A primer for business leaders\nTeam\nTeam\nMay 27, 2024\nCharting New Skies: This Veteran's Path from Cockpit to Product Management\nTeam\nNov 21, 2023\nFireside Chat: Joe Reis & The Future of Data Engineering\nTeam\nAug 17, 2023\nThe AI revolution: Adoption rhymes with interpretability\nTeam\nAug 3, 2023\nIntegrity sells: The power of staying true to our strengths in sales\nTeam\nJul 20, 2023",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "f44f3721",
+          "indexed_at": "2025-11-10T19:28:39.708946",
+          "page_type": "blog",
+          "source_file": "data/raw/coactive_ai/blog/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_about_72a729c1",
+        "similarity_score": 0.369468689,
+        "text": "Marcelo Bressan\nHead of Developer Success at Temporal Technologies\nDavid Cook\nChief Information Security Officer at Sequoia Consulting Group\nOur advisors\nBacked by world-renowned organizations who are committed to helping us shape the future of visual data\nElliott Robinson\nMartin Casado\nStacy Brown-Philpot\nFern Mandelbaum\nBrentt Baltimore\nPartners\nThe latest\nWhat’s new with Coactive\nView Blog\nProduct\nOct 17, 2025\nSmarter Metadata Tagging for the Multimodal Era\nProduct\nSep 30, 2025",
+        "metadata": {
+          "chunk_index": 24.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "72a729c1",
+          "indexed_at": "2025-11-10T19:28:39.707482",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_blog_a87c9be6",
+        "similarity_score": 0.348774,
+        "text": "Latest Lead Source\nLatest Lead Source Detail\n©\n2025\nCoactive Systems Inc.\nTerms\nPrivacy Policy\nSecurity\nStatus\nMade by\ntonik",
+        "metadata": {
+          "chunk_index": 14.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "a87c9be6",
+          "indexed_at": "2025-11-10T19:28:39.708963",
+          "page_type": "blog",
+          "source_file": "data/raw/coactive_ai/blog/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_product_0ea78994",
+        "similarity_score": 0.36315155,
+        "text": "in your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source\nLatest Lead Source Detail\nLogo\nLogin\nContact us\nlinkedin\nProduct\nOverview\nPlatform\nSearch\nAnalytics\nMetadata\nExplore\nResources\nBlog\nCase Studies\nDocumentation\nWebinars & Events\nWhitepapers & Datasheets\nVideo\nIndustries\nMedia & Entertainment\nContent Moderation\nAd Targeting\nContent Operations\nRetail\nCommunity\nCompany\nAbout Us\nCareers\nContact\nPartners\nPress Kit\nPress & Awards\nThank you!",
+        "metadata": {
+          "chunk_index": 24.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "0ea78994",
+          "indexed_at": "2025-11-10T19:28:39.711519",
+          "page_type": "product",
+          "source_file": "data/raw/coactive_ai/product/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_about_7b459186",
+        "similarity_score": 0.397428513,
+        "text": "Barbara Lewis\nHead of Marketing\nOur advisors\nAdvised by experts who have a depth of experience in founding and growing technology companies\nKen Coleman\nChairman at EIS Group Ltd & Special Advisor to a16z\nMatei Zaharia\nProfessor at Stanford University & Co-Founder/Chief Technologist at DataBricks\nJulie Choi\nSenior Vice President and Chief Marketing Officer at Cerebras Systems\nMarcelo Bressan\nHead of Developer Success at Temporal Technologies\nDavid Cook",
+        "metadata": {
+          "chunk_index": 23.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "7b459186",
+          "indexed_at": "2025-11-10T19:28:39.707411",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_about_7176233c",
+        "similarity_score": 0.379585266,
+        "text": "Satya Komala\nHead of Engineering\nJosh Heller\nChief Revenue Officer",
+        "metadata": {
+          "chunk_index": 17.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "7176233c",
+          "indexed_at": "2025-11-10T19:28:39.707369",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_product_a5dbc413",
+        "similarity_score": 0.371643066,
+        "text": "Retail\nCommunity\nCompany\nAbout Us\nCareers\nContact\nPartners\nPress Kit\nPress & Awards\nThank you!\nYou successfully subscribed to the Coactive blog!\nStay up to date with the latest at Coactive\nLatest Lead Source\nLatest Lead Source Detail\n©\n2025\nCoactive Systems Inc.\nTerms\nPrivacy Policy\nSecurity\nStatus\nMade by\ntonik",
+        "metadata": {
+          "chunk_index": 25.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "a5dbc413",
+          "indexed_at": "2025-11-10T19:28:39.711524",
+          "page_type": "product",
+          "source_file": "data/raw/coactive_ai/product/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_careers_c9581683",
+        "similarity_score": 0.348075867,
+        "text": "Be coactive\nWe put aside our egos to win together as one team.\nEngineer magic\nWe deliver magical moments to customers and hires by thoughtful design.\nHave crucial conversations\nWe learn and build together through clear and constructive dialogue.\nAct boldly\nFailure and uncertainty do not scare us from taking action.\nEmbrace difference\nWe understand everyone’s uniqueness to leverage strengths and unlock value.\nTeam testimonials\nHear from our team",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "c9581683",
+          "indexed_at": "2025-11-10T19:28:39.710182",
+          "page_type": "careers",
+          "source_file": "data/raw/coactive_ai/careers/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_careers_9f431076",
+        "similarity_score": 0.332557708,
+        "text": "Receive subsidies for your daily commute, including public transit and parking expenses.\nRetirement Savings\nInvest in your future with our 401(k) plan, offering both pre-tax and post-tax options.\nWork Life\nInclusive Parental Leave\nOffering leave for birthing and non-birthing parents, including adoption and foster care.\nUnlimited PTO\nTake time off when you need it, with a flexible vacation policy tailored to your needs.\nOne Coactive",
+        "metadata": {
+          "chunk_index": 13.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "9f431076",
+          "indexed_at": "2025-11-10T19:28:39.710209",
+          "page_type": "careers",
+          "source_file": "data/raw/coactive_ai/careers/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_careers_2603d9ba",
+        "similarity_score": 0.352323532,
+        "text": "Josh Heller\nChief Revenue Officer\n\"This company is filled with intelligent, gritty people who bring unique perspectives and fresh ideas everyday. I've never worked with such a diverse team before. Having been the only woman or one of very few women on multiple previous teams, I observe that many places tend towards treating diversity as an afterthought.\"\nMehul Smriti Raje\nMachine Learning Engineer",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "2603d9ba",
+          "indexed_at": "2025-11-10T19:28:39.710191",
+          "page_type": "careers",
+          "source_file": "data/raw/coactive_ai/careers/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_blog_13399475",
+        "similarity_score": 0.344936371,
+        "text": "Feb 7, 2023\nTackling Socioeconomic Bias in Machine Learning with the Dollar Street Dataset\nResearch\nIndustry perspectives: a multimedia archivist on the challenges of monetizing visual assets\nReady to unlock the potential\nin your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source\nLatest Lead Source Detail\nLogo\nLogin\nContact us\nlinkedin\nProduct\nOverview\nPlatform\nSearch\nAnalytics\nMetadata\nExplore\nResources\nBlog\nCase Studies\nDocumentation\nWebinars & Events",
+        "metadata": {
+          "chunk_index": 12.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "13399475",
+          "indexed_at": "2025-11-10T19:28:39.708954",
+          "page_type": "blog",
+          "source_file": "data/raw/coactive_ai/blog/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_about_59fc54f7",
+        "similarity_score": 0.348835,
+        "text": "Jesper Stroe\nCFO\nJesper has worked as a CFO/COO, both as an advisor, consultant, and full-time member of the executive team in early-stage technology companies for more than two decades. He loves being part of the creative and formative period in a company's life, helping it to build and grow revenue and the organization. Jesper received his MBA with a major in Finance, from Copenhagen Business School.\nJesper Stroe\nCFO\nTia Gordon\nHead of People",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "59fc54f7",
+          "indexed_at": "2025-11-10T19:28:39.707343",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_about_a6b058cd",
+        "similarity_score": 0.391181946,
+        "text": "Our team\nWe've created a diverse team of experts that coactively bring products to life\nAmong us there are decades of experience in data and machine learning at eBay, Google, Lyft, Meta, Clio, HubSpot, Tesla, MIT, Stanford and other leading organizations.\nCody Coleman\nCo-Founder and CEO",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "a6b058cd",
+          "indexed_at": "2025-11-10T19:28:39.707325",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_about_20f21829",
+        "similarity_score": 0.3450737,
+        "text": "Solutions\nFeb 20, 2025\nNBCUniversal + Coactive: A discussion on how multimodal AI is unlocking visual content discovery in media & entertainment\nReady to unlock the potential\nin your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source\nLatest Lead Source Detail\nLogo\nLogin\nContact us\nlinkedin\nProduct\nOverview\nPlatform\nSearch\nAnalytics\nMetadata\nExplore\nResources\nBlog\nCase Studies\nDocumentation\nWebinars & Events\nWhitepapers & Datasheets\nVideo\nIndustries\nMedia & Entertainment",
+        "metadata": {
+          "chunk_index": 27.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "20f21829",
+          "indexed_at": "2025-11-10T19:28:39.707496",
+          "page_type": "about",
+          "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_blog_879168cd",
+        "similarity_score": 0.341407776,
+        "text": "Solutions\nMedia & Entertainment\nUnlock massive digital archives that host decades of footage\nRetail\nLabel your product and marketing asset databases\nContent Moderation\nAd Targeting\nContent Operations\nResources\nBlog\nCase Studies\nDocs\nWebinars & Events\nWhitepapers & Datasheets\nVideo resources\nCompany\nAbout Us\nCareers\nContact\nPartners\nLogin\nGet a Demo\nLogin\nGet a Demo\n🇺🇸EN\n🇨🇦FR\nUnlocking Visual Content\nStay up-do-date on the latest news and insights on multimodal AI.\nLatest Lead Source",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "879168cd",
+          "indexed_at": "2025-11-10T19:28:39.708929",
+          "page_type": "blog",
+          "source_file": "data/raw/coactive_ai/blog/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_blog_544cc7ea",
+        "similarity_score": 0.341690063,
+        "text": "Product\nProduct\nOct 17, 2025\nSmarter Metadata Tagging for the Multimodal Era\nProduct\nSep 30, 2025\nThe Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes\nProduct\nJun 10, 2025\nCoactive is Now on Azure: Visual AI Search, Metadata Tagging, and Analytics, Built for Scale\nProduct\nMar 26, 2025\nUnlocking Video Insights: How an Optimized Video Ingestion Pipeline Transforms Content Discovery\nProduct\nJan 27, 2025",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "coactive_ai",
+          "content_hash": "544cc7ea",
+          "indexed_at": "2025-11-10T19:28:39.708942",
+          "page_type": "blog",
+          "source_file": "data/raw/coactive_ai/blog/text.txt"
+        }
+      }
+    ]
+  }
+}

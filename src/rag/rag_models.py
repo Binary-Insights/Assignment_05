@@ -6,6 +6,7 @@ class Provenance(BaseModel):
     source_url: str  # Changed from HttpUrl to str to accept page type identifiers like "about", "product", etc.
     crawled_at: str
     snippet: Optional[str] = None
+    chunk_id: Optional[str] = None
 
 class Company(BaseModel):
     company_id: str

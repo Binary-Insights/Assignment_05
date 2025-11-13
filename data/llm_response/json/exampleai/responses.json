@@ -1,0 +1,13 @@
+{
+  "company_slug": "exampleai",
+  "structured": null,
+  "rag": {
+    "company_name": "ExampleAI",
+    "company_slug": "exampleai",
+    "pipeline_type": "rag",
+    "timestamp": "2025-11-13T16:00:12.079865Z",
+    "markdown_file": "markdown/exampleai/rag.md",
+    "content": "## Company Overview\nNot disclosed.\n\n## Business Model and GTM\nNot disclosed.\n\n## Funding & Investor Profile\nNot disclosed.\n\n## Growth Momentum\nNot disclosed.\n\n## Visibility & Market Sentiment\nNot disclosed.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nNot disclosed.\n\n## Disclosure Gaps\nThe provided context does not include any specific information about ExampleAI. Key areas such as company overview, business model, funding details, growth metrics, market sentiment, risks, and future outlook are not disclosed. Additional data is required to generate a comprehensive diligence dashboard.",
+    "context_results": []
+  }
+}

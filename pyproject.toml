@@ -30,4 +30,6 @@ dependencies = [
     "pinecone>=7.3.0",
     "plotly>=6.4.0",
     "linkedin-api>=2.2.0",
+    "langchain-tavily>=0.2.13",
+    "grandalf>=0.8",
 ]
