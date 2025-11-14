@@ -1,0 +1,13 @@
+{
+  "base_url": "http://localhost:9000",
+  "tools": [
+    "tool/generate_structured_dashboard",
+    "tool/generate_rag_dashboard"
+  ],
+  "resources": [
+    "resource/ai50/companies"
+  ],
+  "prompts": [
+    "prompt/pe-dashboard"
+  ]
+}

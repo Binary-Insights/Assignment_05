@@ -1,0 +1,284 @@
+{
+  "company_record": {
+    "company_id": "abridge",
+    "legal_name": "Abridge Al, Inc.",
+    "brand_name": null,
+    "website": "https://abridge.com/",
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "Copyright © 2025 Abridge Al, Inc.",
+        "chunk_id": null
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-06",
+        "snippet": "Copyright © 2025 Abridge Al, Inc.",
+        "chunk_id": null
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-06",
+        "snippet": "abridge.com",
+        "chunk_id": null
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-10",
+      "event_type": "other",
+      "title": "Caitlin Clark and Abridge at Becker's CEO + CFO",
+      "description": "Caitlin Clark and Abridge participated in Becker's CEO + CFO event.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    },
+    {
+      "event_id": "2",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-04",
+      "event_type": "other",
+      "title": "Becker’s: Voices of Healthcare",
+      "description": "Abridge featured in Becker’s: Voices of Healthcare.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-06",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 53,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Builder",
+        "Foundations Engineering",
+        "Platform Engineering",
+        "Security",
+        "ML Engineering",
+        "Product",
+        "Product Design",
+        "Product Engineering",
+        "Science",
+        "Commercial",
+        "Partner Experience",
+        "Implement"
+      ],
+      "pricing_tiers": null,
+      "active_products": null,
+      "geo_presence": [
+        "Chicago-Hybrid",
+        "New York City-Hybrid",
+        "New York-Onsite",
+        "Pittsburgh-Hybrid",
+        "San Francisco-Hybrid"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "abridge.com",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "contextual_reasoning_engine",
+      "company_id": "abridge",
+      "name": "Contextual Reasoning Engine",
+      "description": "We Transform Conversations Into Insights With AI",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about]",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "shiv-rao",
+      "company_id": "abridge",
+      "name": "Shiv Rao, MD",
+      "role": "CEO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about]",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "person_id": "zack-lipton",
+      "company_id": "abridge",
+      "name": "Zack Lipton, PhD",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about]",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "person_id": "julia-chou",
+      "company_id": "abridge",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about]",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "person_id": "brian-wilson",
+      "company_id": "abridge",
+      "name": "Brian Wilson",
+      "role": "Chief Commercial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about]",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "person_id": "sagar-sanghvi",
+      "company_id": "abridge",
+      "name": "Sagar Sanghvi",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about]",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "person_id": "tim-hwang",
+      "company_id": "abridge",
+      "name": "Tim Hwang",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "[about]",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-09",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": []
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-13T21:07:19.791873",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}
