@@ -450,11 +450,20 @@ def search_pinecone_for_context(
     company_slug: str,
     pinecone_index,
     embeddings: Optional[OpenAIEmbeddings],
-    limit: int = 10,
+    limit: int = 100,
     min_similarity: float = 0.0
 ) -> List[Dict[str, Any]]:
     """Search Pinecone for relevant context using semantic search with lenient matching."""
     logger = logging.getLogger('structured_extraction')
+    
+    # Log parameters
+    logger.debug(f"🔍 search_pinecone_for_context called with:")
+    logger.debug(f"    query: {query}")
+    logger.debug(f"    company_slug: {company_slug}")
+    logger.debug(f"    limit: {limit}")
+    logger.debug(f"    min_similarity: {min_similarity}")
+    logger.debug(f"    has_index: {pinecone_index is not None}")
+    logger.debug(f"    has_embeddings: {embeddings is not None}")
     
     if not pinecone_index or not embeddings:
         logger.debug("Cannot search Pinecone - index/embeddings missing")
@@ -551,6 +560,50 @@ def log_extraction_sources(
     logger.info(f"  {'─' * 70}\n")
 
 
+def build_enriched_context(context_docs: List[Dict[str, Any]]) -> tuple:
+    """Build enriched context text with chunk tracking information.
+    
+    Returns:
+        Tuple of (enriched_context_text: str, chunk_mapping: Dict[str, List[str]])
+        where chunk_mapping maps source_url (page_type) to list of chunk identifiers
+    """
+    logger = logging.getLogger('structured_extraction')
+    
+    if not context_docs:
+        return "", {}
+    
+    # Build enriched context with explicit chunk references
+    enriched_parts = []
+    chunk_mapping = {}  # Maps page_type to list of chunk IDs
+    
+    for doc in context_docs:
+        page_type = doc.get('page_type', 'unknown')
+        chunk_index = doc.get('chunk_index', 0)
+        vector_id = doc.get('vector_id', '')
+        text = doc.get('text', '')
+        score = doc.get('score', 0.0)
+        
+        # Create chunk identifier combining vector_id and chunk_index for traceability
+        chunk_id = f"{vector_id}#{chunk_index}"
+        
+        # Track chunk IDs per page type for provenance
+        if page_type not in chunk_mapping:
+            chunk_mapping[page_type] = []
+        if chunk_id not in chunk_mapping[page_type]:
+            chunk_mapping[page_type].append(chunk_id)
+        
+        # Format context with chunk metadata
+        enriched_parts.append(
+            f"[{page_type} - Chunk #{chunk_index} (ID: {vector_id}, Relevance: {score:.2f})]\n{text}\n"
+        )
+    
+    enriched_context = "\n---\n".join(enriched_parts)
+    
+    logger.debug(f"Built enriched context with {len(context_docs)} chunks across {len(chunk_mapping)} page types")
+    
+    return enriched_context, chunk_mapping
+
+
 def should_use_fallback(context_docs: List[Dict[str, Any]], extraction_type: str) -> bool:
     """Determine if fallback should be used based on strategy and context availability."""
     logger = logging.getLogger('structured_extraction')
@@ -628,7 +681,7 @@ def extract_company_info(
     """Extract company information using LLM with instructor and Pinecone search."""
     logger = logging.getLogger('structured_extraction')
     
-    logger.info(f"Extracting company info for {company_name}...")
+    logger.info(f"🏢 Extracting company info for {company_name}...")
     
     # Build search queries for company information
     search_queries = [
@@ -641,6 +694,7 @@ def extract_company_info(
     # Determine search strategy
     context_docs = []
     context_text = ""
+    chunk_mapping = {}
     
     global USE_RAW_TEXT
     
@@ -654,13 +708,11 @@ def extract_company_info(
             context_docs.extend(docs)
         
         if context_docs:
-            logger.info("📊 Using Pinecone context for company extraction")
-            context_text = "\n\n".join([
-                f"[{doc['page_type']}] {doc['text'][:300]}"
-                for doc in context_docs[:10]  # Limit to top 10 results
-            ])
+            logger.info(f"🏢 Using {len(context_docs)} Pinecone documents for company extraction")
+            # Use enriched context with chunk information
+            context_text, chunk_mapping = build_enriched_context(context_docs)
         else:
-            logger.error("❌ No Pinecone results for company info - ABORTING")
+            logger.error("🏢 ❌ No Pinecone results for company info - ABORTING")
             raise ValueError("No Pinecone context available and raw text mode is disabled")
     
     # Log extraction sources for validation
@@ -669,6 +721,12 @@ def extract_company_info(
     # Build list of available page types for provenance guidance
     available_pages = list(pages_text.keys()) if pages_text else ["about", "product", "blog", "careers"]
     page_list_str = ", ".join(available_pages)
+    
+    # Build chunk ID reference for prompt
+    chunk_ids_ref = "\n".join([
+        f"  • {page_type}: {', '.join(ids)}"
+        for page_type, ids in chunk_mapping.items()
+    ]) if chunk_mapping else "None available"
     
     prompt = f"""Extract company information for "{company_name}" from the following web content and context:
 
@@ -688,8 +746,13 @@ PROVENANCE FIELD:
   - source_url: Use ONLY these page type values: {page_list_str}
   - crawled_at: Set to today's date in YYYY-MM-DD format
   - snippet: A brief quote from the source supporting this field (optional)
+  - chunk_id: List of chunk identifiers from the context that supported extracting this field. Reference the chunk IDs shown above.
 - Do NOT create URLs or use page names not in the list above
-- If you extract from multiple pages for one field, create multiple provenance entries"""
+- If you extract from multiple pages/chunks for one field, include all relevant chunk IDs in the list
+- For example: chunk_id: ["vector_id#0", "vector_id#1"] if multiple chunks supported a field
+
+Available chunk IDs by page type:
+{chunk_ids_ref}"""
     
     try:
         # Use instructor's patched client with response_model
@@ -704,13 +767,13 @@ PROVENANCE FIELD:
             ],
             temperature=0.3,  # Lower temperature for consistency
         )
-        logger.info(f"✓ Successfully extracted company: {company.legal_name if hasattr(company, 'legal_name') else 'Unknown'}")
+        logger.info(f"🏢 ✓ Successfully extracted company: {company.legal_name if hasattr(company, 'legal_name') else 'Unknown'}")
         return company
     except ValidationError as e:
-        logger.error(f"Validation error extracting company: {e}")
+        logger.error(f"🏢 Validation error extracting company: {e}")
         return None
     except Exception as e:
-        logger.error(f"Error extracting company info: {e}", exc_info=True)
+        logger.error(f"🏢 Error extracting company info: {e}", exc_info=True)
         return None
 
 
@@ -725,7 +788,7 @@ def extract_events(
     """Extract events (funding, M&A, partnerships, etc.) using LLM and Pinecone search."""
     logger = logging.getLogger('structured_extraction')
     
-    logger.info(f"Extracting events for {company_slug}...")
+    logger.info(f"📅 Extracting events for {company_slug}...")
     
     # Build search queries for events - using content from pages
     search_queries = [
@@ -750,6 +813,7 @@ def extract_events(
     # Determine search strategy
     context_docs = []
     context_text = ""
+    chunk_mapping = {}
     
     global USE_RAW_TEXT
     global FALLBACK_STRATEGY
@@ -782,19 +846,24 @@ def extract_events(
                 context_docs.extend(docs)
         
         if context_docs:
-            logger.info(f"📊 Using {len(context_docs)} Pinecone results for events extraction")
-            context_text = "\n\n".join([
-                f"[{doc['page_type']}] {doc['text'][:250]}"
-                for doc in context_docs[:20]  # Limit to top 20 results
-            ])
+            logger.info(f"📅 Using {len(context_docs)} Pinecone documents for events extraction")
+            # Use enriched context with chunk information
+            context_text, chunk_mapping = build_enriched_context(context_docs)
         else:
             # No Pinecone results - check fallback strategy
             if FALLBACK_STRATEGY == 'pinecone_only':
-                logger.error("❌ No Pinecone results for events - ABORTING (pinecone_only strategy)")
+                logger.error("📅 ❌ No Pinecone results for events - ABORTING (pinecone_only strategy)")
                 raise ValueError("No Pinecone context available for events")
             else:
-                logger.warning(f"⚠️  No Pinecone results for events - Falling back to raw text ({FALLBACK_STRATEGY})")
+                logger.warning(f"📅 ⚠️  No Pinecone results for events - Falling back to raw text ({FALLBACK_STRATEGY})")
                 context_text = json.dumps(pages_text, indent=2)[:3000]
+    
+    # Build chunk ID reference for prompt
+    chunk_ids_ref = "\n".join([
+        f"  • {page_type}: {', '.join(ids)}"
+        for page_type, ids in chunk_mapping.items()
+    ]) if chunk_mapping else "None (using raw text fallback)"
+    
     prompt = f"""Extract all significant events for company "{company_slug}" from the web content:
 
 {context_text}
@@ -808,11 +877,28 @@ Include:
 - Layoffs and restructuring
 - Major milestones and achievements
 
-For each event:
-- Provide: event_type, occurred_on date (YYYY-MM-DD), title, description
-- If it's a funding event, include amount_usd and valuation_usd
+For each event MUST include:
+- event_id: Unique identifier for event
+- company_id: The company identifier
+- occurred_on: Date in YYYY-MM-DD format
+- event_type: MUST be one of ONLY these values: 'funding', 'mna', 'product_release', 'integration', 'partnership', 'customer_win', 'leadership_change', 'regulatory', 'security_incident', 'pricing_change', 'layoff', 'hiring_spike', 'office_open', 'office_close', 'benchmark', 'open_source_release', 'contract_award', 'other'
+  * CRITICAL: Do NOT use custom event types like 'policy', 'announcement', etc.
+  * If event doesn't fit above categories, use 'other' instead
+- title: Brief event title
+- description: Detailed description (optional)
+- For funding events, include amount_usd and valuation_usd
 - Use only explicitly stated information
 - Use null for missing fields
+
+PROVENANCE FIELD FOR EACH EVENT:
+- source_url: Page type only (e.g., "blog", "product", "careers") - NOT vector IDs
+- crawled_at: Date in YYYY-MM-DD format
+- chunk_id: List of chunk identifiers that supported extracting this event
+  * Format: ["vector_id#chunk_index", ...] 
+  * Examples: ["abridge_blog_f1388ab9#2.0", "abridge_careers_c3a0a730#25.0"]
+
+Available chunk IDs by page type:
+{chunk_ids_ref}
 
 Return a list of Event objects."""
     
@@ -833,10 +919,10 @@ Return a list of Event objects."""
             temperature=0.3,
         )
         
-        logger.info(f"✓ Extracted {len(result.events)} events")
+        logger.info(f"📅 ✓ Extracted {len(result.events)} events")
         return result.events
     except Exception as e:
-        logger.warning(f"Error extracting events: {e}")
+        logger.warning(f"📅 Error extracting events: {e}")
         return []
 
 
@@ -851,7 +937,7 @@ def extract_snapshots(
     """Extract business snapshots (headcount, products, pricing, etc.) using Pinecone search."""
     logger = logging.getLogger('structured_extraction')
     
-    logger.info(f"Extracting snapshots for {company_slug}...")
+    logger.info(f"📸 Extracting snapshots for {company_slug}...")
     
     # Search queries for snapshot data - using content from pages
     search_queries = [
@@ -876,6 +962,7 @@ def extract_snapshots(
     # Determine search strategy
     context_docs = []
     context_text = ""
+    chunk_mapping = {}
     
     global USE_RAW_TEXT
     global FALLBACK_STRATEGY
@@ -908,19 +995,23 @@ def extract_snapshots(
                 context_docs.extend(docs)
         
         if context_docs:
-            logger.info(f"📊 Using {len(context_docs)} Pinecone results for snapshots extraction")
-            context_text = "\n\n".join([
-                f"[{doc['page_type']}] {doc['text'][:250]}"
-                for doc in context_docs[:20]
-            ])
+            logger.info(f"📸 Using {len(context_docs)} Pinecone documents for snapshots extraction")
+            # Use enriched context with chunk information
+            context_text, chunk_mapping = build_enriched_context(context_docs)
         else:
             # No Pinecone results - check fallback strategy
             if FALLBACK_STRATEGY == 'pinecone_only':
-                logger.error("❌ No Pinecone results for snapshots - ABORTING (pinecone_only strategy)")
+                logger.error("📸 ❌ No Pinecone results for snapshots - ABORTING (pinecone_only strategy)")
                 raise ValueError("No Pinecone context available for snapshots")
             else:
-                logger.warning(f"⚠️  No Pinecone results for snapshots - Falling back to raw text ({FALLBACK_STRATEGY})")
+                logger.warning(f"📸 ⚠️  No Pinecone results for snapshots - Falling back to raw text ({FALLBACK_STRATEGY})")
                 context_text = json.dumps(pages_text, indent=2)[:3000]
+    
+    # Build chunk ID reference for prompt
+    chunk_ids_ref = "\n".join([
+        f"  • {page_type}: {', '.join(ids)}"
+        for page_type, ids in chunk_mapping.items()
+    ]) if chunk_mapping else "None (using raw text fallback)"
     
     prompt = f"""Extract business snapshot information for company "{company_slug}" from web content:
 
@@ -933,6 +1024,16 @@ Extract current/recent:
 - Pricing tiers and pricing model
 - Active products
 - Geographic presence (countries/regions)
+
+PROVENANCE FIELD FOR EACH SNAPSHOT:
+- source_url: Page type only (e.g., "careers", "product", "blog") - NOT vector IDs or chunk references
+- crawled_at: Date in YYYY-MM-DD format
+- chunk_id: List of chunk identifiers that supported extracting this snapshot data
+  * Format: ["vector_id#chunk_index", ...]
+  * Examples: ["abridge_careers_0b8a84fe#1.0", "abridge_product_12345678#3.0"]
+
+Available chunk IDs by page type:
+{chunk_ids_ref}
 
 Return a list of Snapshot objects with as_of date set to today.
 Use only explicitly stated information. Use null for missing fields."""
@@ -953,10 +1054,10 @@ Use only explicitly stated information. Use null for missing fields."""
             temperature=0.3,
         )
         
-        logger.info(f"✓ Extracted {len(result.snapshots)} snapshots")
+        logger.info(f"📸 ✓ Extracted {len(result.snapshots)} snapshots")
         return result.snapshots
     except Exception as e:
-        logger.warning(f"Error extracting snapshots: {e}")
+        logger.warning(f"📸 Error extracting snapshots: {e}")
         return []
 
 
@@ -971,7 +1072,7 @@ def extract_products(
     """Extract product information using Pinecone search."""
     logger = logging.getLogger('structured_extraction')
     
-    logger.info(f"Extracting products for {company_slug}...")
+    logger.info(f"🛍️  Extracting products for {company_slug}...")
     
     # Search queries for product data - using content from pages
     search_queries = [
@@ -996,6 +1097,7 @@ def extract_products(
     # Determine search strategy
     context_docs = []
     context_text = ""
+    chunk_mapping = {}
     
     global USE_RAW_TEXT
     global FALLBACK_STRATEGY
@@ -1028,19 +1130,23 @@ def extract_products(
                 context_docs.extend(docs)
         
         if context_docs:
-            logger.info(f"📊 Using {len(context_docs)} Pinecone results for products extraction")
-            context_text = "\n\n".join([
-                f"[{doc['page_type']}] {doc['text'][:250]}"
-                for doc in context_docs[:20]
-            ])
+            logger.info(f"🛍️  Using {len(context_docs)} Pinecone documents for products extraction")
+            # Use enriched context with chunk information
+            context_text, chunk_mapping = build_enriched_context(context_docs)
         else:
             # No Pinecone results - check fallback strategy
             if FALLBACK_STRATEGY == 'pinecone_only':
-                logger.error("❌ No Pinecone results for products - ABORTING (pinecone_only strategy)")
+                logger.error("🛍️  ❌ No Pinecone results for products - ABORTING (pinecone_only strategy)")
                 raise ValueError("No Pinecone context available for products")
             else:
-                logger.warning(f"⚠️  No Pinecone results for products - Falling back to raw text ({FALLBACK_STRATEGY})")
+                logger.warning(f"🛍️  ⚠️  No Pinecone results for products - Falling back to raw text ({FALLBACK_STRATEGY})")
                 context_text = json.dumps(pages_text, indent=2)[:3000]
+    
+    # Build chunk ID reference for prompt
+    chunk_ids_ref = "\n".join([
+        f"  • {page_type}: {', '.join(ids)}"
+        for page_type, ids in chunk_mapping.items()
+    ]) if chunk_mapping else "None (using raw text fallback)"
     
     prompt = f"""Extract product information for company "{company_slug}" from web content:
 
@@ -1054,6 +1160,16 @@ For each product, extract:
 - GitHub repositories and open source projects
 - Reference customers and case studies
 - License type
+
+PROVENANCE FIELD FOR EACH PRODUCT:
+- source_url: Page type only (e.g., "product", "blog", "careers") - NOT vector IDs or chunk references
+- crawled_at: Date in YYYY-MM-DD format
+- chunk_id: List of chunk identifiers that supported extracting this product info
+  * Format: ["vector_id#chunk_index", ...]
+  * Examples: ["abridge_product_12345678#2.0", "abridge_blog_87654321#5.0"]
+
+Available chunk IDs by page type:
+{chunk_ids_ref}
 
 Return a list of Product objects. Use only explicitly stated information."""
     
@@ -1073,10 +1189,10 @@ Return a list of Product objects. Use only explicitly stated information."""
             temperature=0.3,
         )
         
-        logger.info(f"✓ Extracted {len(result.products)} products")
+        logger.info(f"🛍️  ✓ Extracted {len(result.products)} products")
         return result.products
     except Exception as e:
-        logger.warning(f"Error extracting products: {e}")
+        logger.warning(f"🛍️  Error extracting products: {e}")
         return []
 
 
@@ -1091,7 +1207,7 @@ def extract_leadership(
     """Extract leadership and team information using Pinecone search."""
     logger = logging.getLogger('structured_extraction')
     
-    logger.info(f"Extracting leadership for {company_slug}...")
+    logger.info(f"👥 Extracting leadership for {company_slug}...")
     
     # Search queries for leadership data - using content from pages
     search_queries = [
@@ -1148,19 +1264,24 @@ def extract_leadership(
                 context_docs.extend(docs)
         
         if context_docs:
-            logger.info(f"� Using {len(context_docs)} Pinecone results for leadership extraction")
-            context_text = "\n\n".join([
-                f"[{doc['page_type']}] {doc['text'][:250]}"
-                for doc in context_docs[:20]
-            ])
+            logger.info(f"👥 Using {len(context_docs)} Pinecone results for leadership extraction")
+            # Use enriched context with chunk information
+            context_text, chunk_mapping = build_enriched_context(context_docs)
         else:
             # No Pinecone results - check fallback strategy
             if FALLBACK_STRATEGY == 'pinecone_only':
-                logger.error("❌ No Pinecone results for leadership - ABORTING (pinecone_only strategy)")
+                logger.error("👥 ❌ No Pinecone results for leadership - ABORTING (pinecone_only strategy)")
                 raise ValueError("No Pinecone context available for leadership")
             else:
-                logger.warning(f"⚠️  No Pinecone results for leadership - Falling back to raw text ({FALLBACK_STRATEGY})")
+                logger.warning(f"👥 ⚠️  No Pinecone results for leadership - Falling back to raw text ({FALLBACK_STRATEGY})")
                 context_text = json.dumps(pages_text, indent=2)[:3000]
+                chunk_mapping = {}
+    
+    # Build chunk ID reference for prompt
+    chunk_ids_ref = "\n".join([
+        f"  • {page_type}: {', '.join(ids)}"
+        for page_type, ids in chunk_mapping.items()
+    ]) if chunk_mapping else "None (using raw text fallback)"
     
     prompt = f"""Extract leadership and key team members for company "{company_slug}" from web content:
 
@@ -1174,6 +1295,16 @@ For each person, extract:
 - Education background and university
 - LinkedIn profile URL
 - Previous companies/roles and employment history
+
+PROVENANCE FIELD FOR EACH PERSON:
+- source_url: Page type only (e.g., "careers", "about", "blog") - NOT vector IDs or chunk references
+- crawled_at: Date in YYYY-MM-DD format
+- chunk_id: List of chunk identifiers that supported extracting this leadership info
+  * Format: ["vector_id#chunk_index", ...]
+  * Examples: ["abridge_careers_c3a0a730#25.0", "abridge_about_6858d285#10.0"]
+
+Available chunk IDs by page type:
+{chunk_ids_ref}
 
 Generate person_id from full name (e.g., john-doe from John Doe).
 Return a list of Leadership objects. Use only explicitly stated information."""
@@ -1194,10 +1325,10 @@ Return a list of Leadership objects. Use only explicitly stated information."""
             temperature=0.3,
         )
         
-        logger.info(f"✓ Extracted {len(result.leadership)} leadership members")
+        logger.info(f"👥 ✓ Extracted {len(result.leadership)} leadership members")
         return result.leadership
     except Exception as e:
-        logger.warning(f"Error extracting leadership: {e}")
+        logger.warning(f"👥 Error extracting leadership: {e}")
         return []
 
 
@@ -1212,7 +1343,7 @@ def extract_visibility(
     """Extract visibility and public metrics using Pinecone search."""
     logger = logging.getLogger('structured_extraction')
     
-    logger.info(f"Extracting visibility for {company_slug}...")
+    logger.info(f"⭐ Extracting visibility for {company_slug}...")
     
     # Search queries for visibility data - using content from pages
     search_queries = [
@@ -1237,6 +1368,7 @@ def extract_visibility(
     # Determine search strategy
     context_docs = []
     context_text = ""
+    chunk_mapping = {}
     
     global USE_RAW_TEXT
     global FALLBACK_STRATEGY
@@ -1269,19 +1401,23 @@ def extract_visibility(
                 context_docs.extend(docs)
         
         if context_docs:
-            logger.info(f"📊 Using {len(context_docs)} Pinecone results for visibility extraction")
-            context_text = "\n\n".join([
-                f"[{doc['page_type']}] {doc['text'][:250]}"
-                for doc in context_docs[:20]
-            ])
+            logger.info(f"⭐ Using {len(context_docs)} Pinecone documents for visibility extraction")
+            # Use enriched context with chunk information
+            context_text, chunk_mapping = build_enriched_context(context_docs)
         else:
             # No Pinecone results - check fallback strategy
             if FALLBACK_STRATEGY == 'pinecone_only':
-                logger.error("❌ No Pinecone results for visibility - ABORTING (pinecone_only strategy)")
+                logger.error("⭐ ❌ No Pinecone results for visibility - ABORTING (pinecone_only strategy)")
                 raise ValueError("No Pinecone context available for visibility")
             else:
-                logger.warning(f"⚠️  No Pinecone results for visibility - Falling back to raw text ({FALLBACK_STRATEGY})")
+                logger.warning(f"⭐ ⚠️  No Pinecone results for visibility - Falling back to raw text ({FALLBACK_STRATEGY})")
                 context_text = json.dumps(pages_text, indent=2)[:3000]
+    
+    # Build chunk ID reference for prompt
+    chunk_ids_ref = "\n".join([
+        f"  • {page_type}: {', '.join(ids)}"
+        for page_type, ids in chunk_mapping.items()
+    ]) if chunk_mapping else "None (using raw text fallback)"
     
     prompt = f"""Extract visibility and public metrics for company "{company_slug}" from web content:
 
@@ -1294,6 +1430,16 @@ Extract:
 - Glassdoor rating if available
 - Awards or industry recognition
 - Social media followers if mentioned
+
+PROVENANCE FIELD:
+- source_url: Page type only (e.g., "blog", "product", "careers") - NOT vector IDs or chunk references
+- crawled_at: Date in YYYY-MM-DD format
+- chunk_id: List of chunk identifiers that supported extracting these visibility metrics
+  * Format: ["vector_id#chunk_index", ...]
+  * Examples: ["abridge_blog_f1388ab9#2.0", "abridge_careers_c3a0a730#25.0"]
+
+Available chunk IDs by page type:
+{chunk_ids_ref}
 
 Return a Visibility object with as_of set to today. Use only explicitly stated metrics."""
     
@@ -1310,10 +1456,10 @@ Return a Visibility object with as_of set to today. Use only explicitly stated m
             temperature=0.3,
         )
         
-        logger.info(f"✓ Extracted visibility metrics")
+        logger.info(f"⭐ ✓ Extracted visibility metrics")
         return visibility
     except Exception as e:
-        logger.warning(f"Error extracting visibility: {e}")
+        logger.warning(f"⭐ Error extracting visibility: {e}")
         return None
 
 

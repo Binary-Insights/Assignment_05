@@ -4,209 +4,547 @@
     "company_name": "Abridge",
     "company_slug": "abridge",
     "pipeline_type": "structured",
-    "timestamp": "2025-11-12T23:01:22.980497Z",
+    "timestamp": "2025-11-13T20:30:22.360231Z",
     "markdown_file": "markdown/abridge/structured.md",
-    "content": "## Company Overview\n\nAbridge AI, Inc. is a private company specializing in healthcare AI solutions. The company offers a suite of products designed to enhance clinical documentation and streamline healthcare operations. Their offerings include clinically accurate summaries, real-time prior authorization, enterprise security and compliance tools, a contextual reasoning engine, and analytics and reporting capabilities. Abridge aims to integrate seamlessly into existing healthcare systems, providing tools for security, compliance, and deployment management.\n\n**Website:** [abridge.com](https://abridge.com/)\n\n## Business Model and GTM\n\nAbridge's business model focuses on providing AI-driven solutions to healthcare systems. Their products are designed to improve clinical documentation accuracy and efficiency, offering tools that integrate with existing healthcare infrastructure. The company states that their solutions are HIPAA-compliant and include features like Single-Sign On (SSO) for user access control. The go-to-market strategy likely involves targeting healthcare providers and systems that require enhanced documentation and compliance tools.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility with only one mention in the provided data. Further details on market sentiment are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that its products are designed to adapt seamlessly to existing healthcare implementations, suggesting a focus on integration and compliance. The outlook for Abridge may depend on its ability to expand its market presence and demonstrate the efficacy and reliability of its AI solutions in clinical settings.\n\n## Disclosure Gaps\n\n- Specific dates for product releases, partnerships, and other events are not disclosed.\n- Funding details and investor profiles are not available.\n- Growth metrics and market sentiment data are limited.\n- Risks and challenges facing the company are not detailed."
+    "content": "## Company Overview\n\nAbridge AI, Inc. is a private company that specializes in transforming conversations into insights using artificial intelligence. The company operates under the legal name Abridge AI, Inc. and maintains an online presence through its website at [abridge.com](https://abridge.com/).\n\n## Business Model and GTM\n\nThe company offers a product known as the Contextual Reasoning Engine, which leverages AI to convert conversations into actionable insights. Specific details about the business model and go-to-market (GTM) strategy are not disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has been mentioned once in the context of visibility and market presence, but specific details or sentiment analysis are not provided.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Specific details about the business model and GTM strategy are not provided.\n- Funding history and investor profiles are not disclosed.\n- Information regarding growth momentum is not available.\n- Detailed visibility and market sentiment analysis are not provided.\n- Risks and challenges facing the company are not disclosed.\n- Outlook and future projections are not available."
   },
   "rag": {
     "company_name": "Abridge",
     "company_slug": "abridge",
     "pipeline_type": "rag",
-    "timestamp": "2025-11-12T23:04:12.297666Z",
+    "timestamp": "2025-11-13T21:15:46.415188Z",
     "markdown_file": "markdown/abridge/rag.md",
-    "content": "## Company Overview\n\nAbridge is a private AI startup focused on leveraging artificial intelligence to enhance various operational and commercial functions. The company offers a range of roles across different departments, including operations, marketing, data science, and finance, with positions available in hybrid and remote settings across major U.S. cities such as San Francisco, New York City, and Chicago.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nThe company states that it provides resources such as an Impact Calculator and a Best in KLAS Report, which may indicate a focus on demonstrating value and impact in its market. However, specific details on market sentiment or visibility metrics are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Specific details about Abridge's business model and go-to-market strategy are not disclosed.\n- Information regarding funding rounds, investor profiles, and financial backing is not available.\n- Growth metrics and momentum indicators are not provided.\n- Detailed visibility and market sentiment data are lacking.\n- Risks and challenges faced by the company are not outlined.\n- Future outlook and strategic direction are not disclosed.",
+    "content": "## Company Overview\n\nAbridge is a private AI startup focused on transforming healthcare conversations into actionable insights. The company leverages AI to enhance medical interactions, aiming to empower clinicians, create clarity for patients, and drive efficiencies in healthcare. Abridge positions itself as a pioneer in generative AI for healthcare, with a mission to deepen understanding in the sector through purpose-built AI solutions.\n\n## Business Model and GTM\n\nThe company states that its platform is designed to support clinicians, revenue cycle management, and nursing through AI-driven insights. Abridge's go-to-market strategy appears to focus on integrating its AI solutions into healthcare workflows to improve clinician-patient interactions and streamline healthcare processes.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nAbridge has been featured in various announcements and publications, indicating a level of visibility in the healthcare and AI sectors. The company emphasizes its commitment to building trusted AI in healthcare, as highlighted in its policy announcements.\n\n## Risks and Challenges\n\nThe company acknowledges the challenges inherent in healthcare and technology integration. It emphasizes the importance of empathy and understanding in deploying AI solutions responsibly. Abridge also warns against recruitment fraud, indicating a proactive approach to safeguarding its brand and potential hires.\n\n## Outlook\n\nThe company is optimistic about the transformative potential of AI in healthcare, with leadership expressing a commitment to improving clinician lives and patient interactions. Abridge's focus on AI-driven efficiencies suggests a forward-looking approach to addressing healthcare challenges.\n\n## Disclosure Gaps\n\n- Specific details on funding and investor profiles are not disclosed.\n- Growth metrics and specific market sentiment data are not provided.\n- Detailed information on the company's financial performance and strategic partnerships is not available.",
     "context_results": [
       {
         "id": "abridge_about_140f49f4",
-        "similarity_score": 0.379329711,
+        "similarity_score": 0.379341155,
         "text": "Contact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
         "metadata": {
           "chunk_index": 9.0,
           "company_slug": "abridge",
           "content_hash": "140f49f4",
-          "indexed_at": "2025-11-11T22:54:14.644039",
+          "indexed_at": "2025-11-13T20:29:08.161394",
           "page_type": "about",
           "source_file": "data/raw/abridge/about/text.txt"
         }
       },
       {
-        "id": "abridge_blog_140f49f4",
-        "similarity_score": 0.379329711,
-        "text": "Contact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
-        "metadata": {
-          "chunk_index": 4.0,
-          "company_slug": "abridge",
-          "content_hash": "140f49f4",
-          "indexed_at": "2025-11-11T20:34:21.074305",
-          "page_type": "blog",
-          "source_file": "data/raw/abridge/blog/text.txt"
-        }
-      },
-      {
         "id": "abridge_careers_70ddfbb0",
-        "similarity_score": 0.376155883,
+        "similarity_score": 0.375923157,
         "text": "$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel\nLegal - Product • United States-Remote • Full time • Remote\n$220K – $250K • Offers Equity\nOperations\nMarketing\nSenior Brand Designer\nMarketing • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Growth & CRM Marketer\nMarketing • New York City-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management",
         "metadata": {
           "chunk_index": 21.0,
           "company_slug": "abridge",
           "content_hash": "70ddfbb0",
-          "indexed_at": "2025-11-12T04:16:31.064887",
+          "indexed_at": "2025-11-13T15:29:32.018556",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
         }
       },
       {
-        "id": "abridge_careers_284518ed",
-        "similarity_score": 0.370923966,
-        "text": "Executive\nExecutive Operations Partner to the Office of the CEO (NYC)\nExecutive • New York City-Hybrid • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist",
+        "id": "abridge_careers_21e1d3d7",
+        "similarity_score": 0.369419128,
+        "text": "$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management\nMarketing • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Web Designer\nMarketing • New York City-Hybrid; San Francisco-Hybrid • Full time • Remote\n$150K – $170K • Offers Equity\nOperations\nMarketing\nGrowth\nDemand Generation Marketer\nGrowth • New York City-Hybrid • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist",
         "metadata": {
-          "chunk_index": 20.0,
+          "chunk_index": 22.0,
           "company_slug": "abridge",
-          "content_hash": "284518ed",
-          "indexed_at": "2025-11-11T20:34:21.075057",
+          "content_hash": "21e1d3d7",
+          "indexed_at": "2025-11-13T15:29:32.018569",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
         }
       },
       {
         "id": "abridge_careers_b3241ead",
-        "similarity_score": 0.365657806,
+        "similarity_score": 0.365913391,
         "text": "$123.2K – $144.9K • Offers Equity\nExecutive\nExecutive Operations Partner to the Office of the CEO (NYC)\nExecutive • New York City-Hybrid • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science",
         "metadata": {
           "chunk_index": 19.0,
           "company_slug": "abridge",
           "content_hash": "b3241ead",
-          "indexed_at": "2025-11-12T04:16:31.064871",
-          "page_type": "careers",
-          "source_file": "data/raw/abridge/careers/text.txt"
-        }
-      },
-      {
-        "id": "abridge_careers_cd2b82e3",
-        "similarity_score": 0.357887268,
-        "text": "Partner Success - Strategic • San Francisco-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • Pittsburgh-Hybrid; Chicago-Hybrid; San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nExecutive\nExecutive Operations Partner to the Office of the CEO (NYC)",
-        "metadata": {
-          "chunk_index": 19.0,
-          "company_slug": "abridge",
-          "content_hash": "cd2b82e3",
-          "indexed_at": "2025-11-11T20:34:21.075048",
-          "page_type": "careers",
-          "source_file": "data/raw/abridge/careers/text.txt"
-        }
-      },
-      {
-        "id": "abridge_careers_4e75ac6a",
-        "similarity_score": 0.356891632,
-        "text": "$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management\nMarketing • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Web Designer\nMarketing • New York City-Hybrid; San Francisco-Hybrid • Full time • Remote\n$150K – $170K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist\nPeople Ops • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nPeople\nTalent\nSenior Technical Sourcer",
-        "metadata": {
-          "chunk_index": 22.0,
-          "company_slug": "abridge",
-          "content_hash": "4e75ac6a",
-          "indexed_at": "2025-11-12T04:16:31.064893",
+          "indexed_at": "2025-11-13T15:29:32.018522",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
         }
       },
       {
         "id": "abridge_careers_e035aa15",
-        "similarity_score": 0.354465485,
+        "similarity_score": 0.354831696,
         "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • Pittsburgh-Hybrid; Chicago-Hybrid; San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid",
         "metadata": {
           "chunk_index": 18.0,
           "company_slug": "abridge",
           "content_hash": "e035aa15",
-          "indexed_at": "2025-11-12T04:16:31.064864",
+          "indexed_at": "2025-11-13T15:29:32.018507",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
         }
       },
       {
-        "id": "abridge_careers_4dc1c6f0",
-        "similarity_score": 0.353752136,
-        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPartner Success - Strategic\nPartner Success Director - Strategic Accounts\nPartner Success - Strategic • San Francisco-Hybrid • Full time • Hybrid",
+        "id": "abridge_blog_ec1b2fac",
+        "similarity_score": 0.353714019,
+        "text": "Customers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
         "metadata": {
-          "chunk_index": 18.0,
+          "chunk_index": 4.0,
           "company_slug": "abridge",
-          "content_hash": "4dc1c6f0",
-          "indexed_at": "2025-11-11T20:34:21.075041",
-          "page_type": "careers",
-          "source_file": "data/raw/abridge/careers/text.txt"
-        }
-      },
-      {
-        "id": "abridge_careers_23f0059b",
-        "similarity_score": 0.352825165,
-        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
-        "metadata": {
-          "chunk_index": 17.0,
-          "company_slug": "abridge",
-          "content_hash": "23f0059b",
-          "indexed_at": "2025-11-12T04:16:31.064857",
-          "page_type": "careers",
-          "source_file": "data/raw/abridge/careers/text.txt"
+          "content_hash": "ec1b2fac",
+          "indexed_at": "2025-11-13T15:29:32.015460",
+          "page_type": "blog",
+          "source_file": "data/raw/abridge/blog/text.txt"
         }
       },
       {
         "id": "abridge_careers_9099476e",
-        "similarity_score": 0.352722168,
+        "similarity_score": 0.35307312,
         "text": "$180K – $250K • Offers Equity\nCommercial\nSales Director - Commercial (MT/PST)\nCommercial • United States-Remote • Full time • Remote\n$100K – $120K • Offers Equity • Offers Commission\nCommercial\nPartner Experience\nImplementation\nImplementation Manager - Strategic Accounts\nImplementation • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nCommercial\nPartner Experience\nImplementation - Nursing\nImplementation Director - Nursing",
         "metadata": {
           "chunk_index": 12.0,
           "company_slug": "abridge",
           "content_hash": "9099476e",
-          "indexed_at": "2025-11-12T04:16:31.064821",
+          "indexed_at": "2025-11-13T15:29:32.018197",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
         }
       },
       {
-        "id": "abridge_careers_18c16b30",
-        "similarity_score": 0.350223541,
-        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Pittsburgh-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
+        "id": "abridge_careers_128553e3",
+        "similarity_score": 0.352352142,
+        "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Pittsburgh-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
         "metadata": {
           "chunk_index": 17.0,
           "company_slug": "abridge",
-          "content_hash": "18c16b30",
-          "indexed_at": "2025-11-11T04:47:53.432959",
+          "content_hash": "128553e3",
+          "indexed_at": "2025-11-13T15:29:32.018261",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
-        }
-      },
-      {
-        "id": "abridge_product_cc20cf4d",
-        "similarity_score": 0.348831177,
-        "text": "Platform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
-        "metadata": {
-          "chunk_index": 14.0,
-          "company_slug": "abridge",
-          "content_hash": "cc20cf4d",
-          "indexed_at": "2025-11-11T20:34:21.075815",
-          "page_type": "product",
-          "source_file": "data/raw/abridge/product/text.txt"
         }
       },
       {
         "id": "abridge_careers_22d269df",
-        "similarity_score": 0.34765625,
+        "similarity_score": 0.347755462,
         "text": "$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist\nData Science • San Francisco-Onsite; San Francisco-Hybrid • Full time\n$165K – $215K • Offers Equity\nOperations\nFinance\nFinance Operations\nFinancial Operations Lead\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $141.6K • Offers Equity\nPayroll Manager\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product",
         "metadata": {
           "chunk_index": 20.0,
           "company_slug": "abridge",
           "content_hash": "22d269df",
-          "indexed_at": "2025-11-12T04:16:31.064880",
+          "indexed_at": "2025-11-13T15:29:32.018535",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
         }
       },
       {
-        "id": "abridge_careers_397f3341",
-        "similarity_score": 0.343399078,
-        "text": "Commercial\nPartner Experience\nPartner Success - Enterprise and Commercial\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus",
+        "id": "abridge_careers_3d3258c6",
+        "similarity_score": 0.340904236,
+        "text": "Commercial\nPartner Experience\nImplementation - Nursing\nImplementation Director - Nursing\nImplementation - Nursing • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity\nCommercial\nPartner Experience\nPartner Success - Clinical Success\nClinical Success Director\nPartner Success - Clinical Success • San Francisco-Hybrid • Full time • Hybrid\n$163.2K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director",
+        "metadata": {
+          "chunk_index": 13.0,
+          "company_slug": "abridge",
+          "content_hash": "3d3258c6",
+          "indexed_at": "2025-11-13T15:29:32.018210",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_a7d317c3",
+        "similarity_score": 0.335216552,
+        "text": "Partner Success - Clinical Success • New York City-Hybrid; Pittsburgh-Hybrid • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity • $30K Bonus\nSenior Director, Clinical Success\nPartner Success - Clinical Success • San Francisco-Hybrid; New York City-Hybrid; Chicago-Hybrid; Pittsburgh-Hybrid • Full time • Hybrid\n$174.4K – $272.7K • Offers Equity • $34.9K – $54.5K Bonus\nCommercial\nPartner Experience\nPartner Success - Enterprise and Commercial",
+        "metadata": {
+          "chunk_index": 15.0,
+          "company_slug": "abridge",
+          "content_hash": "a7d317c3",
+          "indexed_at": "2025-11-13T15:29:32.018236",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_a3d0d96d",
+        "similarity_score": 0.332204819,
+        "text": "Commercial\nPartner Experience\nPartner Success - Enterprise and Commercial\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus",
         "metadata": {
           "chunk_index": 16.0,
           "company_slug": "abridge",
-          "content_hash": "397f3341",
-          "indexed_at": "2025-11-11T20:34:21.075026",
+          "content_hash": "a3d0d96d",
+          "indexed_at": "2025-11-13T15:29:32.018249",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_0b8a84fe",
+        "similarity_score": 0.332119,
+        "text": "Abridge Jobs\nOpen Positions\n(53)\nFilters:\nReset filters\nDepartment\nAll Departments\nBuilder\nFoundations Engineering\nPlatform Engineering\nSecurity\nML Engineering\nProduct\nProduct Design\nProduct Engineering\nScience\nCommercial\nPartner Experience\nImplementation\nImplementation - Nursing\nPartner Success - Clinical Success\nPartner Success - Enterprise and Commercial\nPartner Success - Key\nPX Operations\nExecutive\nOperations\nCore Operations\nData Science\nFinance\nFinance Operations\nLegal\nLegal - Product",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "abridge",
+          "content_hash": "0b8a84fe",
+          "indexed_at": "2025-11-13T15:29:32.017936",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_blog_c839bc87",
+        "similarity_score": 0.327503204,
+        "text": "Read more\nAnnouncements\nPosted\nNovember 10, 2025\nby\nAbridge\nCaitlin Clark and Abridge at Becker's CEO + CFO\nRead more\nAnnouncements\nPosted\nNovember 4, 2025\nby\nAbridge\nBecker’s: Voices of Healthcare\nRead more\nPrevious\nView more\nPlatform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "abridge",
+          "content_hash": "c839bc87",
+          "indexed_at": "2025-11-13T15:29:32.015450",
+          "page_type": "blog",
+          "source_file": "data/raw/abridge/blog/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_a65b002c",
+        "similarity_score": 0.325603515,
+        "text": "Senior Product Manager\nProduct • San Francisco-Hybrid; San Francisco-Onsite • Full time • Hybrid\n$182K – $203K • Offers Equity\nStaff Product Manager\nProduct • San Francisco-Hybrid; San Francisco-Onsite • Full time • Hybrid\n$215K – $229.5K • Offers Equity\nBuilder\nProduct\nProduct Design\nSenior Product Designer\nProduct Design • San Francisco-Hybrid; New York City-Hybrid; New York-Onsite; San Francisco-Onsite • Full time • Hybrid\n$182.5K – $203K • Offers Equity\nStaff Product Designer",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "abridge",
+          "content_hash": "a65b002c",
+          "indexed_at": "2025-11-13T15:29:32.018112",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_5a6f770b",
+        "similarity_score": 0.324975967,
+        "text": "Sagar Sanghvi\nChief Financial Officer\nI joined Abridge because Abridge’s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year.\nTim Hwang\nGeneral Counsel\nTechnology is nothing without empathy. I joined Abridge because it's a rare company that marries the most cutting-edge technology with a real, palpable understanding of the biggest challenges facing healthcare.\nOur core values\nLearn more\n01\nThe obstacle is the way",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "abridge",
+          "content_hash": "5a6f770b",
+          "indexed_at": "2025-11-13T20:29:08.161343",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_758294af",
+        "similarity_score": 0.320289642,
+        "text": "$135K – $145K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist\nPeople Ops • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nPeople\nTalent\nSenior Technical Sourcer\nTalent • San Francisco-Hybrid • Full time • Hybrid\n$150K – $177K • Offers Equity\nStaying safe - Protect yourself from recruitment fraud",
+        "metadata": {
+          "chunk_index": 23.0,
+          "company_slug": "abridge",
+          "content_hash": "758294af",
+          "indexed_at": "2025-11-13T15:29:32.018579",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_92bcfe2b",
+        "similarity_score": 0.316806823,
+        "text": "Pioneers in Generative AI for Healthcare | About Abridge\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nClose this dialog\nThis website utilizes technologies such as \nClose \nWatch the love stories that inspire us\nLove Stories\nWatch the love stories that inspire us\nWatch Video\nSkip to main content\nPlatform\nClinicians\nRevenue Cycle\nNursing\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "abridge",
+          "content_hash": "92bcfe2b",
+          "indexed_at": "2025-11-13T20:29:08.161234",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_dce88dcb",
+        "similarity_score": 0.31501773,
+        "text": "$182.5K – $203K • Offers Equity\nStaff Product Designer\nProduct Design • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$215K – $229.5K • Offers Equity\nBuilder\nProduct Engineering\nEngineering Manager, Core Notes\nProduct Engineering • San Francisco-Hybrid • Full time • Hybrid\n$215K – $275K • Offers Equity\nEngineering Manager, EHR Integrations\nProduct Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$215K – $275K • Offers Equity",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "abridge",
+          "content_hash": "dce88dcb",
+          "indexed_at": "2025-11-13T15:29:32.018125",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_191d7e55",
+        "similarity_score": 0.310287476,
+        "text": "Contextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us\nWe Transform Conversations Into Insights With Ai\nOur mission is to power deeper understanding in healthcare through purpose-built AI.\n“We’re giving agency back to clinicians, creating clarity for patients, and establishing radical efficiencies to transform healthcare from the conversation up.”",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "abridge",
+          "content_hash": "191d7e55",
+          "indexed_at": "2025-11-13T20:29:08.161270",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_c04e76ee",
+        "similarity_score": 0.309108734,
+        "text": "$215K – $275K • Offers Equity\nFull Stack Engineer, Integrations\nProduct Engineering • San Francisco-Remote • Full time • Remote\n$185K – $265K • Offers Equity\nFull Stack Engineering (New Grad)\nProduct Engineering • San Francisco-Hybrid • Full time • Hybrid\n$155K – $165K • Offers Equity\nMobile Engineer (All Levels)\nProduct Engineering • San Francisco-Hybrid; New York City-Hybrid; New York-Onsite; San Francisco-Onsite • Full time • Hybrid\n$162K – $234K • Offers Equity\nSenior Backend Engineer",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "abridge",
+          "content_hash": "c04e76ee",
+          "indexed_at": "2025-11-13T15:29:32.018154",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_8e43e139",
+        "similarity_score": 0.308990479,
+        "text": "Executive\nOperations\nCore Operations\nData Science\nFinance\nFinance Operations\nLegal\nLegal - Product\nMarketing\nGrowth\nPeople\nPeople Ops\nTalent\nLocation\nAll Locations\nChicago-Hybrid\nNew York City-Hybrid\nNew York-Onsite\nPittsburgh-Hybrid\nSan Francisco-Hybrid\nSan Francisco-Onsite\nSan Francisco-Remote\nSeattle\nUnited States-Remote\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nBuilder\nFoundations Engineering\nPlatform Engineering\nSenior Engineering Manager, Platform",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "abridge",
+          "content_hash": "8e43e139",
+          "indexed_at": "2025-11-13T15:29:32.017959",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_14f24a6d",
+        "similarity_score": 0.30896759,
+        "text": "05\nHonor humanity\nWe empathize with the needs of our users, accounting for their daily challenges and aspirations. We develop a deep understanding of how we can best serve them, earning and maintaining trust.\nExcited to help make an impact?\nJoin our team\nPlatform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "abridge",
+          "content_hash": "14f24a6d",
+          "indexed_at": "2025-11-13T20:29:08.161384",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_fadb9a6b",
+        "similarity_score": 0.308795929,
+        "text": "$182K – $254K • Offers Equity\nSenior/Staff Enterprise Security Engineer\nSecurity • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$182K – $254K • Offers Equity\nBuilder\nML Engineering\nEngineering Manager, GenAI Platform\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$220K – $275K • Offers Equity\nHead of AI Platform\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$270K – $340K • Offers Equity\nMachine Learning Infrastructure Engineer",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "abridge",
+          "content_hash": "fadb9a6b",
+          "indexed_at": "2025-11-13T15:29:32.018072",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_420bcdbb",
+        "similarity_score": 0.305540085,
+        "text": "$162K – $234K • Offers Equity\nSenior Backend Engineer\nProduct Engineering • San Francisco-Onsite; San Francisco-Hybrid • Full time • Hybrid\n$185K – $265K • Offers Equity • Will reimburse up to $10,000 USD for relocation expenses for candidates willing to relocate to the San Francisco Bay area.\nSoftware Engineer (All Levels)\nProduct Engineering • San Francisco-Onsite; New York-Onsite; New York City-Hybrid; San Francisco-Hybrid • Full time\n$162K – $234K • Offers Equity\nBuilder\nScience",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "abridge",
+          "content_hash": "420bcdbb",
+          "indexed_at": "2025-11-13T15:29:32.018167",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_f89ab9fe",
+        "similarity_score": 0.300140411,
+        "text": "Shiv Rao, MD\nCEO, Founder\nmeet the Leadership team behind abridge\nWe're\nclinicia\nShiv Rao, MD\nCEO, Co-Founder\nWorking at Abridge gives me the opportunity to advocate for patients the way I do at my weekly clinic, but at scale.\nZack Lipton, PhD\nCTO, Co-Founder\nThis is the moment when AI transforms healthcare. I joined Abridge to improve clinician lives by pushing the frontiers of this technology and rolling it out responsibly.\nJulia Chou\nChief Operating Officer",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "abridge",
+          "content_hash": "f89ab9fe",
+          "indexed_at": "2025-11-13T20:29:08.161285",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_7a9745f5",
+        "similarity_score": 0.300086975,
+        "text": "Shiv Rao, MD\nCEO, Founder\nmeet the Leadership team behind abridge\nWe're\nclinic\nShiv Rao, MD\nCEO, Co-Founder\nWorking at Abridge gives me the opportunity to advocate for patients the way I do at my weekly clinic, but at scale.\nZack Lipton, PhD\nCTO, Co-Founder\nThis is the moment when AI transforms healthcare. I joined Abridge to improve clinician lives by pushing the frontiers of this technology and rolling it out responsibly.\nJulia Chou\nChief Operating Officer",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "abridge",
+          "content_hash": "7a9745f5",
+          "indexed_at": "2025-11-13T15:29:32.013214",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_84bbdbda",
+        "similarity_score": 0.299654037,
+        "text": "$163.2K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director\nPartner Success - Clinical Success • San Francisco-Hybrid • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $29.4K – $38.5K Bonus\nClinical Success Director\nPartner Success - Clinical Success • Chicago-Hybrid • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director - Nursing\nPartner Success - Clinical Success • New York City-Hybrid; Pittsburgh-Hybrid • Full time • Hybrid",
+        "metadata": {
+          "chunk_index": 14.0,
+          "company_slug": "abridge",
+          "content_hash": "84bbdbda",
+          "indexed_at": "2025-11-13T15:29:32.018223",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_3770716e",
+        "similarity_score": 0.297523499,
+        "text": "$270K – $340K • Offers Equity\nMachine Learning Infrastructure Engineer\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$179K – $248K\nML Operations, Full Stack (New Grad)\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$155K – $165K • Offers Equity\nSoftware Engineer, Gen AI Platform\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$162K – $234K\nBuilder\nProduct\nSenior Product Manager\nProduct • San Francisco-Hybrid; San Francisco-Onsite • Full time • Hybrid",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "abridge",
+          "content_hash": "3770716e",
+          "indexed_at": "2025-11-13T15:29:32.018097",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_blog_82453668",
+        "similarity_score": 0.291740417,
+        "text": "Insights and Innovations in AI for Healthcare | Abridge Blog\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nClose this dialog\nThis website utilizes technologies such as \nClose \nSkip to main content\nPlatform\nClinicians\nRevenue Cycle\nNursing\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "abridge",
+          "content_hash": "82453668",
+          "indexed_at": "2025-11-13T15:29:32.015409",
+          "page_type": "blog",
+          "source_file": "data/raw/abridge/blog/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_42468d33",
+        "similarity_score": 0.285469085,
+        "text": "Julia Chou\nChief Operating Officer\nHealthcare is inherently human. Working at Abridge means I can help restore connection and meaning to every clinician-patient visit.\nBrian Wilson\nChief Commercial Officer\nI joined Abridge to help transform the patient-provider interaction that is fundamental to healthcare.\nSagar Sanghvi\nChief Financial Officer",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "abridge",
+          "content_hash": "42468d33",
+          "indexed_at": "2025-11-13T20:29:08.161326",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_blog_f1388ab9",
+        "similarity_score": 0.284912109,
+        "text": "Impact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us\nNews feed\nall categories\nAnnouncements\nCustomer Stories\nHealthcare\nMachine Learning\nPolicy\nProduct & Design\nFeatured\nReal Time Prior Authorization at the Point of Conversation\nAnnouncements\nPosted\nAugust 12, 2025\nby\nAbridge\nRead more\nRead more\nRecent\nPolicy\nPosted\nNovember 13, 2025\nby\nTim Hwang\nAbridge’s Principles for Building Trusted AI in Healthcare\nRead more\nAnnouncements\nPosted\nNovember 10, 2025\nby",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "abridge",
+          "content_hash": "f1388ab9",
+          "indexed_at": "2025-11-13T15:29:32.015437",
+          "page_type": "blog",
+          "source_file": "data/raw/abridge/blog/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_eb82d8e2",
+        "similarity_score": 0.281225234,
+        "text": "Our core values\nLearn more\n01\nThe obstacle is the way\nWe embrace challenges and transform constraints into unique solutions. Obstacles don’t deter us—we find a way to move around them, flowing like water.\n02\nChoose action\nWe ship, learn, iterate, and empower each other to maintain momentum. We focus on reducing cycle time, working together to figure out how to do things better and faster. We work in a blameless culture, with a relentless pursuit for continuous improvement.\n03\nTaste good things",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "abridge",
+          "content_hash": "eb82d8e2",
+          "indexed_at": "2025-11-13T20:29:08.161357",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_751f25c7",
+        "similarity_score": 0.274341583,
+        "text": "$162K – $234K • Offers Equity\nBuilder\nScience\nMachine Learning Scientist (All Levels)\nScience • San Francisco-Hybrid; New York City-Hybrid; New York-Onsite; San Francisco-Onsite • Full time • Hybrid\n$200K – $300K • Offers Equity\nML Science Manager\nScience • San Francisco-Hybrid • Full time • Hybrid\nNurse Scientist (RN)\nScience • San Francisco-Onsite; San Francisco-Hybrid; New York City-Hybrid; New York-Onsite • Full time • Hybrid\n$180K – $250K • Offers Equity\nCommercial",
+        "metadata": {
+          "chunk_index": 11.0,
+          "company_slug": "abridge",
+          "content_hash": "751f25c7",
+          "indexed_at": "2025-11-13T15:29:32.018179",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_e44245fc",
+        "similarity_score": 0.272930145,
+        "text": "03\nTaste good things\nWe’re curious people and it makes sense—you have to taste good things to have good taste. As lifelong learners, we continuously seek knowledge and the ‘why’ behind the ‘what.’ We love nerding out.\n04\nHelp others win\nWe leave egos behind in pursuit of achieving success as a team. Success for us is a team sport and we use constructive feedback to help each other achieve growth.\n05\nHonor humanity",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "abridge",
+          "content_hash": "e44245fc",
+          "indexed_at": "2025-11-13T20:29:08.161370",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_19ba1269",
+        "similarity_score": 0.271905929,
+        "text": "Platform Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$162K – $234K\nBuilder\nFoundations Engineering\nSecurity\nSenior/Staff Application Security Engineer\nSecurity • New York-Onsite; San Francisco-Hybrid; San Francisco-Onsite; New York City-Hybrid • Full time • Hybrid\n$185K – $265K • Offers Equity\nSenior/Staff Cloud Security Engineer\nSecurity • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$182K – $254K • Offers Equity",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "abridge",
+          "content_hash": "19ba1269",
+          "indexed_at": "2025-11-13T15:29:32.018029",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_a325d9df",
+        "similarity_score": 0.267406464,
+        "text": "Builder\nFoundations Engineering\nPlatform Engineering\nSenior Engineering Manager, Platform\nPlatform Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$245K – $320K • Offers Equity\nSenior Platform Engineer\nPlatform Engineering • San Francisco-Onsite; New York-Onsite; New York City-Hybrid; San Francisco-Hybrid • Full time\n$162K – $234K • Offers Equity\nSenior Software Engineer, SRE\nPlatform Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "abridge",
+          "content_hash": "a325d9df",
+          "indexed_at": "2025-11-13T15:29:32.017992",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_c82771fd",
+        "similarity_score": 0.246612549,
+        "text": "$150K – $177K • Offers Equity\nStaying safe - Protect yourself from recruitment fraud\nWe are aware of individuals and entities fraudulently representing themselves as Abridge recruiters and/or hiring managers. Abridge will never ask for financial information or payment, or for personal information such as bank account number or social security number during the job application or interview process. Any emails from the Abridge recruiting team will come from an @\nabridge.com",
+        "metadata": {
+          "chunk_index": 24.0,
+          "company_slug": "abridge",
+          "content_hash": "c82771fd",
+          "indexed_at": "2025-11-13T15:29:32.018591",
+          "page_type": "careers",
+          "source_file": "data/raw/abridge/careers/text.txt"
+        }
+      },
+      {
+        "id": "abridge_blog_6858d285",
+        "similarity_score": 0.234657288,
+        "text": "Copyright ©\n2025\nAbridge Al, Inc.\nContact us",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "abridge",
+          "content_hash": "6858d285",
+          "indexed_at": "2025-11-13T15:29:32.015470",
+          "page_type": "blog",
+          "source_file": "data/raw/abridge/blog/text.txt"
+        }
+      },
+      {
+        "id": "abridge_about_6858d285",
+        "similarity_score": 0.234657288,
+        "text": "Copyright ©\n2025\nAbridge Al, Inc.\nContact us",
+        "metadata": {
+          "chunk_index": 10.0,
+          "company_slug": "abridge",
+          "content_hash": "6858d285",
+          "indexed_at": "2025-11-13T20:29:08.161404",
+          "page_type": "about",
+          "source_file": "data/raw/abridge/about/text.txt"
+        }
+      },
+      {
+        "id": "abridge_careers_c3a0a730",
+        "similarity_score": 0.21962738,
+        "text": "abridge.com\nemail address. You can learn more about how to protect yourself from these types of fraud by referring to\nthis article\n. Please exercise caution and cease communications if something feels suspicious about your interactions.\nPowered by\nAshby\nPrivacy Policy\nSecurity\nVulnerability Disclosure",
+        "metadata": {
+          "chunk_index": 25.0,
+          "company_slug": "abridge",
+          "content_hash": "c3a0a730",
+          "indexed_at": "2025-11-13T15:29:32.018608",
           "page_type": "careers",
           "source_file": "data/raw/abridge/careers/text.txt"
         }
