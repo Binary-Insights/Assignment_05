@@ -44,6 +44,8 @@
 #
 # Feel free to modify this file to suit your needs.
 ---
+# Set AIRFLOW_UID to match your WSL/host user ID to avoid permission issues
+# Get your ID with: id -u
 x-airflow-common:
   &airflow-common
   # In order to add custom dependencies or upgrade provider packages you can use your extended image.
@@ -57,6 +59,7 @@ x-airflow-common:
     - ../.env
   environment:
     &airflow-common-env
+    AIRFLOW_UID: "1000"
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
     AIRFLOW__CORE__DAGS_FOLDER: /app/src/dags
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
@@ -97,7 +100,7 @@ x-airflow-common:
     - ../config:/app/config
     - huggingface_cache:/app/.cache/huggingface
     - deepsearch_models:/app/.cache/deepsearch_glm
-  user: "${AIRFLOW_UID:-50000}:0"
+  user: "${AIRFLOW_UID:-1000}:0"
   depends_on:
     &airflow-common-depends-on
     postgres:
@@ -214,9 +217,9 @@ services:
         
         echo "2. Creating Airflow directories..."
         mkdir -p /app/logs /app/plugins /app/dags
-        chown -R "$${AIRFLOW_UID:-50000}:0" /app/logs
-        chown -R "$${AIRFLOW_UID:-50000}:0" /app/plugins
-        chown -R "$${AIRFLOW_UID:-50000}:0" /app/dags
+        chown -R "$${AIRFLOW_UID:-1000}:0" /app/logs
+        chown -R "$${AIRFLOW_UID:-1000}:0" /app/plugins
+        chown -R "$${AIRFLOW_UID:-1000}:0" /app/dags
         echo "✓ Directories created"
         
         echo "3. Running Airflow database initialization..."

@@ -11,6 +11,9 @@
 # qdrant storage folder
 qdrant_storage/
 
+# Chroma database folder
+.chroma
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

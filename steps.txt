@@ -554,3 +554,6 @@ Benefits
 ✅ Observability: Detailed logging at each stage
 ✅ Flexibility: Easy to modify company selection or processing logic
 The DAG now follows Airflow best practices with dynamic task generation and proper orchestration!
+
+
+python src/tavily_agent/main.py single abridge --test-dir /mnt/c/Users/enigm/OneDrive/Documents/NortheasternAssignments/09_BigDataIntelAnlytics/Assignments/Assignment_05/tmp/agentic_rag_test

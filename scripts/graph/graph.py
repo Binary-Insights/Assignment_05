@@ -30,8 +30,11 @@ def grade_generation_grounded_in_documents_and_question(state: GraphState) -> st
     documents = state["documents"]
     generation = state["generation"]
 
+    # Convert documents list to string format for the grader
+    docs_str = "\n\n".join([doc.page_content for doc in documents])
+    
     score = hallucination_grader.invoke(
-        {"documents": documents, "generation": generation}
+        {"documents": docs_str, "generation": generation}
     )
 
     if hallucination_grade := score.binary_score:
@@ -95,8 +98,7 @@ workflow.add_conditional_edges(
     },
 )
 workflow.add_edge(WEBSEARCH, GENERATE)
-workflow.add_edge(GENERATE, END)
 
 app = workflow.compile()
 
-app.get_graph().draw_mermaid_png(output_file_path="langgraphv4_graph.png")
+app.get_graph().draw_mermaid_png(output_file_path="./scripts/langgraphv4_graph.png")
