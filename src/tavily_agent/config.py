@@ -59,7 +59,7 @@ for directory in [PAYLOADS_DIR, RAW_DATA_DIR, LOGS_DIR, VECTORS_DIR]:
 # ===========================
 # Agent Configuration
 # ===========================
-MAX_ITERATIONS: int = int(os.getenv("MAX_ITERATIONS", "5"))
+MAX_ITERATIONS: int = int(os.getenv("MAX_ITERATIONS", "20"))
 TOOL_TIMEOUT: int = int(os.getenv("TOOL_TIMEOUT", "30"))
 BATCH_SIZE: int = int(os.getenv("BATCH_SIZE", "3"))  # For concurrent processing
 
@@ -104,10 +104,21 @@ def validate_config() -> bool:
 
 def setup_langsmith():
     """Configure LangSmith for tracing and monitoring."""
+    import os
+    
+    print(f"\n🔍 [LANGSMITH DEBUG] Configuration Status:")
+    print(f"   LANGSMITH_ENABLED: {LANGSMITH_ENABLED}")
+    print(f"   LANGSMITH_API_KEY set: {'Yes' if LANGSMITH_API_KEY else 'No'}")
+    
     if LANGSMITH_ENABLED and LANGSMITH_API_KEY:
-        import os
         os.environ["LANGCHAIN_TRACING_V2"] = "true"
-        os.environ["LANGCHAIN_API_KEY"] = LANGSMITH_API_KEY
+        os.environ["LANGSMITH_API_KEY"] = LANGSMITH_API_KEY  # Correct env var name
         os.environ["LANGCHAIN_PROJECT"] = LANGSMITH_PROJECT
+        
+        print(f"   ✅ LangSmith ENV VARS SET:\")\n   LANGCHAIN_TRACING_V2: {os.environ.get('LANGCHAIN_TRACING_V2')}")
+        print(f"   LANGSMITH_API_KEY: {os.environ.get('LANGSMITH_API_KEY')[:20]}...")
+        print(f"   LANGCHAIN_PROJECT: {os.environ.get('LANGCHAIN_PROJECT')}")
         return True
+    else:
+        print(f"   ❌ LangSmith disabled or missing API key")
     return False

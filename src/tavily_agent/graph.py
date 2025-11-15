@@ -6,6 +6,7 @@ Defines the workflow graph for payload enrichment.
 import json
 import logging
 import sys
+import asyncio
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Any, List, Optional, Annotated
@@ -29,6 +30,7 @@ from tavily_agent.config import LLM_MODEL, LLM_TEMPERATURE, MAX_ITERATIONS
 from tavily_agent.file_io_manager import FileIOManager
 from tavily_agent.vector_db_manager import VectorDBManager, get_vector_db_manager
 from tavily_agent.tools import get_tool_manager
+from tavily_agent.llm_extraction import LLMExtractionChain, ChainedExtractionResult
 
 logger = logging.getLogger(__name__)
 
@@ -71,9 +73,9 @@ class PayloadEnrichmentState(BaseModel):
 
 # ===========================
 # Node Functions (Synchronous)
+# NOTE: No @traceable decorators on node functions - they are part of the parent trace
 # ===========================
 
-@traceable
 def analyze_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     """
     Analyze payload to identify null fields that need enrichment.
@@ -165,7 +167,6 @@ def analyze_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         return state
 
 
-@traceable
 def get_next_null_field(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     """
     Select the next null field to work on.
@@ -201,12 +202,14 @@ def get_next_null_field(state: PayloadEnrichmentState) -> PayloadEnrichmentState
     return state
 
 
-@traceable
 def generate_search_queries(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     """
     Generate search queries to find information about null field.
     Returns placeholder queries for now.
     """
+    print(f"\n>>> GENERATE_QUERIES CALLED")
+    print(f">>>   current_null_field: {state.current_null_field}")
+    
     if not state.current_null_field:
         logger.warning(f"⚠️  [QUERY GEN] No current_null_field to process!")
         return state
@@ -215,6 +218,7 @@ def generate_search_queries(state: PayloadEnrichmentState) -> PayloadEnrichmentS
     company_name = state.company_name
     field_name = field.get("field_name", "unknown")
     
+    print(f">>>   Generating queries for field: {field_name}")
     logger.info(f"\n📝 [QUERY GEN] Generating search queries for field: {field_name}")
     logger.debug(f"   Company: {company_name}, Field type: {field.get('entity_type')}")
     
@@ -225,6 +229,11 @@ def generate_search_queries(state: PayloadEnrichmentState) -> PayloadEnrichmentS
         f"{field_name} {company_name}"
     ]
     
+    print(f">>>   Generated {len(queries)} queries")
+    print(f">>>   📋 QUERIES TO EXECUTE:")
+    for idx, q in enumerate(queries, 1):
+        print(f">>>      [{idx}] {q}")
+    
     logger.info(f"✅ [QUERY GEN] Generated {len(queries)} search queries:")
     for idx, q in enumerate(queries, 1):
         logger.info(f"   [{idx}] {q}")
@@ -234,29 +243,79 @@ def generate_search_queries(state: PayloadEnrichmentState) -> PayloadEnrichmentS
     return state
 
 
-@traceable
+@traceable(name="tavily_search", tags=["search", "tavily"])
+def _execute_tavily_search(tool_manager, query: str, company_name: str) -> Dict[str, Any]:
+    """
+    Helper function to execute Tavily search synchronously.
+    Wraps async call and captures result in LangSmith trace as a named span.
+    
+    This uses @traceable to make Tavily responses visible as child spans in the parent trace.
+    """
+    try:
+        loop = asyncio.get_running_loop()
+        # We're in an event loop, use thread executor
+        import concurrent.futures
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            def run_search():
+                return asyncio.run(
+                    tool_manager.search_tavily(
+                        query=query,
+                        company_name=company_name,
+                        topic="company_enrichment"
+                    )
+                )
+            result = executor.submit(run_search).result(timeout=30)
+    except RuntimeError:
+        # No event loop, run directly
+        result = asyncio.run(
+            tool_manager.search_tavily(
+                query=query,
+                company_name=company_name,
+                topic="company_enrichment"
+            )
+        )
+    return result
+
+
 def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     """
     Execute searches using tools and collect results.
     Makes actual Tavily API calls to search for information.
+    Stores Tavily responses as JSON files.
     """
     queries = state.extracted_values.get("search_queries", [])
+    
+    print(f"\n>>> EXECUTE_SEARCHES CALLED: {len(queries)} queries")
+    logger.info(f"\n🔎 [EXECUTE SEARCH] Executing {len(queries)} search queries...")
     
     if not queries:
         logger.warning(f"⚠️  [EXECUTE SEARCH] No search queries to execute")
         return state
     
-    logger.info(f"\n🔎 [EXECUTE SEARCH] Executing {len(queries)} search queries...")
     for idx, q in enumerate(queries, 1):
+        print(f">>>   [{idx}] {q}")
         logger.info(f"   [{idx}] {q}")
     
     try:
         # Import necessary modules
         import asyncio
+        from pathlib import Path
         from tavily_agent.tools import ToolManager
+        from tavily_agent.file_io_manager import FileIOManager
         
+        print(f">>> Creating ToolManager...")
         # Get or create the tool manager (synchronously)
         tool_manager = ToolManager()
+        
+        # Determine output directory for Tavily responses
+        test_output_dir = FileIOManager.TEST_OUTPUT_DIR
+        if test_output_dir:
+            responses_dir = Path(test_output_dir) / "tavily_responses"
+            responses_dir.mkdir(parents=True, exist_ok=True)
+            print(f">>> Tavily responses will be saved to: {responses_dir}")
+            logger.info(f"📁 [TAVILY RESPONSES] Directory: {responses_dir}")
+        else:
+            responses_dir = None
         
         # Execute all searches synchronously using the blocking call
         all_documents = []
@@ -265,63 +324,72 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         
         for query in queries:
             try:
-                # Execute the search using asyncio in a new thread to avoid event loop conflict
-                # Or use the synchronous invoke method if available
+                print(f">>> Processing query: {query}")
                 logger.info(f"🔍 [TAVILY SEARCH] Executing search for query: '{query}'")
                 
-                # Use asyncio.get_event_loop() to get current loop and run coroutine
-                try:
-                    loop = asyncio.get_running_loop()
-                    # We're in an event loop, so schedule the coroutine
-                    import concurrent.futures
-                    import threading
-                    
-                    # Run in a thread pool to avoid blocking
-                    with concurrent.futures.ThreadPoolExecutor() as executor:
-                        def run_search():
-                            return asyncio.run(
-                                tool_manager.search_tavily(
-                                    query=query,
-                                    company_name=state.company_name,
-                                    topic="company_enrichment"
-                                )
-                            )
-                        
-                        result = executor.submit(run_search).result(timeout=30)
-                except RuntimeError:
-                    # No event loop running, use asyncio.run directly
-                    result = asyncio.run(
-                        tool_manager.search_tavily(
-                            query=query,
-                            company_name=state.company_name,
-                            topic="company_enrichment"
-                        )
-                    )
+                # Call Tavily search directly (synchronous wrapper)
+                result = _execute_tavily_search(tool_manager, query, state.company_name)
                 
                 if result.get("success"):
                     success_count += 1
                     count = result.get("count", 0)
+                    print(f">>> Query '{query}' returned {count} results")
+                    # print(f">>> Tavily Response JSON:\n{json.dumps(result, indent=2, default=str)}")
                     logger.info(f"✅ [TAVILY RESULT] Query '{query}' returned {count} results")
+                    logger.info(f"📄 [TAVILY RESPONSE]\n{json.dumps(result, indent=2, default=str)}")
+                    
+                    # Save Tavily response to JSON file
+                    if responses_dir:
+                        try:
+                            safe_query = "".join(c if c.isalnum() or c in " _-" else "_" for c in query).replace(" ", "_")
+                            response_file = responses_dir / f"tavily_response_{state.company_name}_{safe_query}_{success_count}.json"
+                            with open(response_file, "w") as f:
+                                json.dump(result, f, indent=2, default=str)
+                            print(f">>> ✅ Saved response to: {response_file.name}")
+                            logger.info(f"💾 [TAVILY SAVE] Response saved to {response_file.name}")
+                        except Exception as save_err:
+                            logger.warning(f"⚠️  [TAVILY SAVE] Could not save response: {save_err}")
+                    
                     all_documents.extend(result.get("results", []))
                     combined_content += result.get("raw_content", "") + "\n"
                 else:
                     error = result.get("error", "unknown")
+                    print(f">>> Query '{query}' failed: {error}")
+                    print(f">>> Full Error Response:\n{json.dumps(result, indent=2, default=str)}")
                     logger.warning(f"⚠️  [TAVILY ERROR] Query '{query}' failed: {error}")
+                    logger.warning(f"❌ [TAVILY ERROR DETAILS]\n{json.dumps(result, indent=2, default=str)}")
+                    
+                    # Save error response to JSON file
+                    if responses_dir:
+                        try:
+                            safe_query = "".join(c if c.isalnum() or c in " _-" else "_" for c in query).replace(" ", "_")
+                            error_file = responses_dir / f"tavily_error_{state.company_name}_{safe_query}_error.json"
+                            with open(error_file, "w") as f:
+                                json.dump(result, f, indent=2, default=str)
+                            print(f">>> 📝 Error response saved to: {error_file.name}")
+                            logger.info(f"💾 [TAVILY ERROR SAVE] Error response saved to {error_file.name}")
+                        except Exception as save_err:
+                            logger.warning(f"⚠️  [TAVILY SAVE] Could not save error response: {save_err}")
             
             except Exception as e:
+                print(f">>> ERROR in search: {type(e).__name__}: {e}")
                 logger.error(f"❌ [TAVILY EXCEPTION] Error executing query '{query}': {type(e).__name__}: {e}", exc_info=True)
                 state.errors.append(f"Tavily search error for '{query}': {str(e)}")
         
+        print(f">>> EXECUTE_SEARCHES COMPLETE: {success_count}/{len(queries)} successful, {len(all_documents)} total results")
         logger.info(f"📊 [EXECUTE SEARCH COMPLETE] Successfully executed {success_count}/{len(queries)} queries, found {len(all_documents)} total results")
         
+        # Store results in format expected by LLM extraction chain
+        # Ensure results contain title, content, url, etc.
         state.search_results = {
-            "documents": all_documents,
+            "results": all_documents,  # Key must be "results" for extraction chain
             "combined_content": combined_content,
             "total_results": len(all_documents),
             "queries_executed": len(queries)
         }
         
     except Exception as e:
+        print(f">>> ERROR in execute_searches: {type(e).__name__}: {e}")
         logger.error(f"❌ [EXECUTE SEARCH] Error in search execution: {type(e).__name__}: {e}", exc_info=True)
         state.errors.append(f"Search execution error: {str(e)}")
         state.search_results = {
@@ -335,10 +403,10 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     return state
 
 
-@traceable
-def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
+async def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     """
-    Extract relevant values from search results and update payload.
+    Extract relevant values from search results and update payload using LLM chain.
+    Uses chained LLM calls: question generation → extraction → validation.
     """
     if not state.current_null_field:
         logger.warning(f"⚠️  [EXTRACT] No current null field to update")
@@ -351,47 +419,98 @@ def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEnrichme
     field_name = state.current_null_field.get("field_name", "unknown")
     entity_type = state.current_null_field.get("entity_type", "unknown")
     entity_index = state.current_null_field.get("entity_index", 0)
+    importance = state.current_null_field.get("importance", "medium")
     
     logger.info(f"\n💡 [EXTRACT] Extracting value for {entity_type}.{field_name} (index: {entity_index})")
     logger.debug(f"   Search results available: {state.search_results.get('total_results')} documents")
     
-    # For now: Use a placeholder extraction (in real implementation, would use LLM)
-    # This is where you'd call an LLM to extract relevant value from search results
-    logger.info(f"🤖 [LLM] Calling LLM to extract value from search results...")
-    extracted_value = "Not disclosed."
-    logger.info(f"✅ [LLM] LLM extracted value: {repr(extracted_value)}")
-    
-    # Update the payload with extracted value
     try:
-        if entity_type == "company_record":
-            # Update nested company_record field
-            if "company_record" not in state.current_payload:
-                logger.error(f"❌ [UPDATE] company_record not found in payload!")
-                state.errors.append(f"company_record not found")
-                return state
-            
-            company = state.current_payload["company_record"]
-            old_value = company.get(field_name)
-            company[field_name] = extracted_value
-            logger.info(f"📝 [UPDATE] company_record.{field_name}: {repr(old_value)} → {repr(extracted_value)}")
-            
-            # Track this update
-            state.extracted_values[field_name] = extracted_value
-            state.iteration += 1
-            logger.info(f"   Tracked: extracted_values[{field_name}] = {repr(extracted_value)}")
-            
-        elif entity_type == "payload":
-            # Update top-level payload key
-            old_value = state.current_payload.get(field_name)
-            state.current_payload[field_name] = extracted_value
-            logger.info(f"📝 [UPDATE] {field_name}: {repr(old_value)} → {repr(extracted_value)}")
-            
-            # Track this update
-            state.extracted_values[field_name] = extracted_value
-            state.iteration += 1
-            logger.info(f"   Tracked: extracted_values[{field_name}] = {repr(extracted_value)}")
+        # Get search results in format expected by extraction chain
+        search_results = state.search_results.get("results", [])
+        if not search_results:
+            logger.warning(f"⚠️  [EXTRACT] No individual search results found")
+            extracted_value = None
+            confidence = 0.0
+            reasoning = "No search results available"
         else:
-            logger.error(f"❌ [UPDATE] Unknown entity_type: {entity_type}")
+            # Run the LLM extraction chain
+            logger.info(f"🔗 [LLM CHAIN] Starting extraction chain with {len(search_results)} results")
+            
+            chain = LLMExtractionChain(llm_model=LLM_MODEL, temperature=LLM_TEMPERATURE)
+            extraction_result: ChainedExtractionResult = await chain.run_extraction_chain(
+                field_name=field_name,
+                entity_type=entity_type,
+                company_name=state.company_name,
+                importance=importance,
+                search_results=search_results
+            )
+            
+            extracted_value = extraction_result.final_value
+            confidence = extraction_result.confidence
+            reasoning = extraction_result.reasoning
+            
+            logger.info(f"✅ [LLM CHAIN] Extraction complete:")
+            logger.info(f"   Final Value: {repr(extracted_value)}")
+            logger.info(f"   Confidence: {confidence:.2%}")
+            logger.info(f"   Reasoning: {reasoning}")
+            for step in extraction_result.chain_steps:
+                logger.debug(f"   • {step}")
+            
+            # Store extraction result in state
+            state.extracted_values[f"{field_name}_extraction_result"] = extraction_result.dict()
+        
+        # Update the payload with extracted value if confidence is sufficient
+        if extracted_value is not None and confidence >= 0.5:
+            logger.info(f"💾 [UPDATE] Updating payload with extracted value (confidence: {confidence:.2%})")
+            
+            try:
+                if entity_type == "company_record":
+                    # Update nested company_record field
+                    if "company_record" not in state.current_payload:
+                        logger.error(f"❌ [UPDATE] company_record not found in payload!")
+                        state.errors.append(f"company_record not found")
+                        return state
+                    
+                    company = state.current_payload["company_record"]
+                    old_value = company.get(field_name)
+                    company[field_name] = extracted_value
+                    logger.info(f"📝 [UPDATE] company_record.{field_name}: {repr(old_value)} → {repr(extracted_value)}")
+                    
+                    # Add extraction metadata (separate from original provenance list)
+                    if "_extraction_metadata" not in company:
+                        company["_extraction_metadata"] = {}
+                    
+                    # Get source URLs from extraction result
+                    source_urls = extraction_result.sources if 'extraction_result' in locals() else []
+                    
+                    company["_extraction_metadata"][field_name] = {
+                        "source": "agentic_rag",
+                        "tool": "tavily_llm_extraction",
+                        "source_urls": source_urls,  # List of URLs that support this value
+                        "extracted_at": datetime.now(timezone.utc).isoformat(),
+                        "confidence": confidence,
+                        "reasoning": reasoning
+                    }
+                    
+                elif entity_type == "payload":
+                    # Update top-level payload key
+                    old_value = state.current_payload.get(field_name)
+                    state.current_payload[field_name] = extracted_value
+                    logger.info(f"📝 [UPDATE] {field_name}: {repr(old_value)} → {repr(extracted_value)}")
+                else:
+                    logger.error(f"❌ [UPDATE] Unknown entity_type: {entity_type}")
+                
+                # Track this update
+                state.extracted_values[field_name] = extracted_value
+                state.iteration += 1
+                logger.info(f"   ✅ Tracked: extracted_values[{field_name}] = {repr(extracted_value)}")
+                
+            except Exception as e:
+                logger.error(f"❌ [UPDATE] Error updating payload: {type(e).__name__}: {e}", exc_info=True)
+                state.errors.append(f"Failed to update {field_name}: {str(e)}")
+        else:
+            logger.warning(f"⚠️  [UPDATE] Skipping update: value={extracted_value}, confidence={confidence:.2%}")
+            state.iteration += 1
         
         # Remove from null_fields since we processed it
         original_count = len(state.null_fields)
@@ -405,8 +524,9 @@ def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEnrichme
         logger.info(f"✅ [EXTRACT COMPLETE] Removed {removed_count} processed fields. Remaining: {len(state.null_fields)}")
         
     except Exception as e:
-        logger.error(f"❌ [EXTRACT] Error updating payload: {type(e).__name__}: {e}", exc_info=True)
-        state.errors.append(f"Failed to update {field_name}: {str(e)}")
+        logger.error(f"❌ [EXTRACT] Unexpected error: {type(e).__name__}: {e}", exc_info=True)
+        state.errors.append(f"Extraction failed for {field_name}: {str(e)}")
+        state.iteration += 1
     
     return state
 

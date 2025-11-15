@@ -7,6 +7,7 @@ import asyncio
 import json
 import logging
 import sys
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Any
@@ -72,10 +73,17 @@ logger = setup_logging()
 # ===========================
 
 # Initialize LangSmith tracing if enabled
+logger.info("\n" + "="*70)
+logger.info("🔧 [LANGSMITH SETUP] Configuring LangSmith tracing...")
+logger.info("="*70)
+
 if setup_langsmith():
-    logger.info("✓ LangSmith tracing enabled")
+    logger.info("✅ [LANGSMITH] LangSmith tracing ENABLED")
+    logger.info(f"   Project: {os.getenv('LANGCHAIN_PROJECT', 'N/A')}")
+    logger.info(f"   Tracing V2: {os.getenv('LANGCHAIN_TRACING_V2', 'N/A')}")
+    logger.info(f"   API Key: {os.getenv('LANGSMITH_API_KEY', 'Not set')[:20]}...")
 else:
-    logger.info("LangSmith tracing disabled or not configured")
+    logger.warning("⚠️  [LANGSMITH] LangSmith tracing DISABLED - check configuration")
 
 
 # ===========================
@@ -128,10 +136,10 @@ class AgenticRAGOrchestrator:
         
         logger.info("🌟 [INIT] Orchestrator ready!\n")
     
-    @traceable
     async def process_single_company(self, company_name: str) -> Dict[str, Any]:
         """
         Process enrichment for a single company.
+        NOTE: No @traceable decorator - execution is part of parent async context
         
         Args:
             company_name: Company identifier
@@ -183,7 +191,7 @@ class AgenticRAGOrchestrator:
             
             # 4. Execute workflow
             logger.info(f"\n🚀 [WORKFLOW] Starting enrichment workflow...")
-            final_state = self._execute_workflow(state)
+            final_state = await self._execute_workflow(state)
             
             # 5. Calculate metrics - count actual field updates, not just keys in extracted_values
             # extracted_values contains meta info like "search_queries", so we need to be smarter
@@ -218,10 +226,11 @@ class AgenticRAGOrchestrator:
         
         return result
     
-    @traceable
-    def _execute_workflow(self, state: PayloadEnrichmentState) -> PayloadEnrichmentState:
+    async def _execute_workflow(self, state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         """
-        Execute the LangGraph workflow.
+        Execute the LangGraph workflow asynchronously.
+        Uses ainvoke to support async nodes (LLM extraction chain).
+        NOTE: No @traceable decorator - this is part of the parent process_single_company trace
         
         Args:
             state: Initial enrichment state
@@ -237,7 +246,8 @@ class AgenticRAGOrchestrator:
             logger.info(f"🔬 [INVOKE] Invoking LangGraph with high recursion limit: {recursion_limit}")
             config = {"recursion_limit": recursion_limit}
             
-            final_state = self.graph.invoke(state.dict(), config=config)
+            # Use ainvoke for async support (required for LLM extraction chain)
+            final_state = await self.graph.ainvoke(state.dict(), config=config)
             
             logger.info(f"✅ [INVOKE] LangGraph execution completed")
             # Convert back to PayloadEnrichmentState
@@ -263,18 +273,12 @@ class AgenticRAGOrchestrator:
         self.execution_summary["start_time"] = datetime.now(timezone.utc).isoformat()
         self.execution_summary["total_companies"] = len(company_names)
         
-        # Process in batches to avoid overwhelming system
+        # Process sequentially to avoid overwhelming system
         all_results = []
-        for i in range(0, len(company_names), BATCH_SIZE):
-            batch = company_names[i:i + BATCH_SIZE]
-            batch_num = (i // BATCH_SIZE) + 1
-            total_batches = (len(company_names) + BATCH_SIZE - 1) // BATCH_SIZE
-            logger.info(f"\n🔄 [BATCH] Processing batch {batch_num}/{total_batches} ({len(batch)} companies)...")
-            
-            # Execute batch concurrently
-            tasks = [self.process_single_company(name) for name in batch]
-            batch_results = await asyncio.gather(*tasks, return_exceptions=False)
-            all_results.extend(batch_results)
+        for i, company_name in enumerate(company_names, 1):
+            logger.info(f"\n🔄 [BATCH] Processing {i}/{len(company_names)}: {company_name}")
+            result = await self.process_single_company(company_name)
+            all_results.append(result)
         
         self.execution_summary["end_time"] = datetime.now(timezone.utc).isoformat()
         self.execution_summary["results"] = all_results
@@ -353,9 +357,11 @@ class AgenticRAGOrchestrator:
 # Entry Points
 # ===========================
 
+@traceable
 async def enrich_single_company(company_name: str) -> Dict[str, Any]:
     """
     Enrich a single company payload.
+    This is the single @traceable entry point that creates ONE unified trace.
     
     Args:
         company_name: Company identifier

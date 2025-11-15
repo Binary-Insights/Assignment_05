@@ -1,6 +1,6 @@
 """
 Tool definitions for Agentic RAG system.
-Implements Tavily search and other tools for information gathering.
+Implements Tavily search using direct API calls to avoid LangSmith automatic tracing.
 """
 
 import asyncio
@@ -10,9 +10,7 @@ from typing import Dict, List, Any, Optional
 from datetime import datetime
 import sys
 from pathlib import Path
-
-from langchain.tools import tool
-from langchain_community.tools.tavily_search import TavilySearchResults
+import httpx
 
 # Add src directory to path for absolute imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -31,11 +29,9 @@ class ToolManager:
     """Manages tool execution and result processing."""
     
     def __init__(self):
-        """Initialize tool manager with Tavily search."""
-        self.tavily_search = TavilySearchResults(
-            max_results=5,
-            api_key=TAVILY_API_KEY
-        )
+        """Initialize tool manager with Tavily API key (direct HTTP calls, no LangChain wrapper)."""
+        self.tavily_api_key = TAVILY_API_KEY
+        self.tavily_api_url = "https://api.tavily.com/search"
         self.file_io = FileIOManager()
     
     async def search_tavily(
@@ -45,7 +41,8 @@ class ToolManager:
         topic: str = "general"
     ) -> Dict[str, Any]:
         """
-        Execute Tavily search and save results.
+        Execute Tavily search using direct HTTP API call.
+        Does NOT use LangChain's TavilySearchResults wrapper to avoid automatic LangSmith tracing.
         
         Args:
             query: Search query
@@ -59,42 +56,49 @@ class ToolManager:
         logger.debug(f"   Company: {company_name}, Topic: {topic}")
         
         try:
-            # Run search with timeout
+            # Use direct HTTP API call to avoid LangChain wrapper tracing
             logger.info(f"⏳ [TAVILY] Executing Tavily API call (timeout: {TOOL_TIMEOUT}s)...")
-            loop = asyncio.get_event_loop()
-            results = await asyncio.wait_for(
-                loop.run_in_executor(
-                    None,
-                    lambda: self.tavily_search.invoke({"query": query})
-                ),
-                timeout=TOOL_TIMEOUT
-            )
+            
+            async with httpx.AsyncClient(timeout=TOOL_TIMEOUT) as client:
+                response = await client.post(
+                    self.tavily_api_url,
+                    json={
+                        "api_key": self.tavily_api_key,
+                        "query": query,
+                        "max_results": 5,
+                        "include_answer": True
+                    }
+                )
+                response.raise_for_status()
+                api_response = response.json()
+            
             logger.info(f"✅ [TAVILY] API call successful")
             
             # Process results
             processed_results = []
             raw_content = ""
             
-            logger.info(f"📊 [TAVILY RESPONSE] Processing {type(results).__name__} response...")
-            if isinstance(results, list):
-                logger.info(f"📈 [TAVILY] Found list with {len(results)} items")
-                for idx, result in enumerate(results):
-                    if isinstance(result, dict):
-                        title = result.get('title', 'N/A')
-                        content_preview = result.get('content', '')[:100]
-                        logger.info(f"   [{idx+1}] Title: {title}")
-                        logger.debug(f"       Content preview: {content_preview}...")
-                        processed_results.append(result)
-                        raw_content += f"\n{result.get('title', 'N/A')}\n{result.get('content', '')}\n"
-                    else:
-                        # Handle string results
-                        logger.info(f"   [{idx+1}] String result: {str(result)[:100]}...")
-                        processed_results.append({"content": str(result)})
-                        raw_content += f"\n{str(result)}\n"
-            elif isinstance(results, str):
-                logger.info(f"📄 [TAVILY] Got string response: {results[:100]}...")
-                processed_results = [{"content": results}]
-                raw_content = results
+            logger.info(f"📊 [TAVILY RESPONSE] Processing API response...")
+            
+            # Extract results from Tavily API response
+            results = api_response.get("results", [])
+            logger.info(f"📈 [TAVILY] Found {len(results)} results")
+            
+            for idx, result in enumerate(results):
+                title = result.get('title', 'N/A')
+                content = result.get('content', '')
+                url = result.get('url', '')
+                logger.info(f"   [{idx+1}] Title: {title}")
+                logger.debug(f"       URL: {url}")
+                logger.debug(f"       Content preview: {content[:100]}...")
+                
+                processed_result = {
+                    "title": title,
+                    "content": content,
+                    "url": url
+                }
+                processed_results.append(processed_result)
+                raw_content += f"\n{title}\n{content}\n"
             
             logger.info(f"💾 [TAVILY] Saving {len(processed_results)} results to disk...")
             # Save raw data
@@ -261,11 +265,12 @@ async def get_tool_manager() -> ToolManager:
     return _tool_manager
 
 
-# LangChain tool definitions
-@tool
-async def tavily_search(query: str) -> str:
+# NOTE: Tavily search is NOT decorated with @tool or @traceable
+# All Tavily calls are integrated into the LangGraph nodes under the main trace
+async def tavily_search_helper(query: str) -> str:
     """
-    Search for information using Tavily search engine.
+    Helper function for Tavily search (not used as LangChain tool).
+    Kept for reference/backwards compatibility.
     
     Args:
         query: The search query

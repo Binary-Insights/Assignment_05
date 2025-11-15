@@ -1,0 +1,34 @@
+{
+  "tool": "tavily",
+  "query": "abridge founded_year",
+  "results": [
+    {
+      "title": "Abridge Business Breakdown & Founding Story - Contrary Research",
+      "content": "Abridge was founded in 2018 by Shivdev Rao (CEO), Florian Metze (CSO), and Sandeep Konam (CTO). The company originated from the Pittsburgh Health Data",
+      "url": "https://research.contrary.com/company/abridge"
+    },
+    {
+      "title": "Abridge 2025 Company Profile: Valuation, Funding & Investors",
+      "content": "Abridge was founded in 2018. Where is Abridge headquartered? Abridge is headquartered in Philadelphia, PA. What is the size of Abridge?",
+      "url": "https://pitchbook.com/profiles/company/268134-40"
+    },
+    {
+      "title": "Abridge - Paraform",
+      "content": "Abridge was founded in 2018 with the mission of powering deeper understanding in healthcare. We are a growing team of practicing MDs, AI scientists, PhDs, creatives, technologists, and engineers working together to empower people and make care make more sense. Healthcare, AI, Software Development He previously led the provider-facing investment portfolio for UPMC where he invested in startups, and also helped fund a Machine Learning in Health program at Carnegie Mellon University. Zachary Lipton is the Co-founder, Chief Technologist and Scientific Officer of Abridge and a Professor on the Machine Learning faculty at Carnegie Mellon University. # Full-stack Software Engineer # Full-stack Software Engineer # Software Engineer # Full-stack Software Engineer # Full-stack Software Engineer # Software Engineer Start hiring",
+      "url": "https://www.paraform.com/company/abridge"
+    },
+    {
+      "title": "Abridge AI Inc. Executive Team and Leadership Overview - Exa",
+      "content": "Abridge AI Inc. is a leading healthcare technology company founded in 2018, specializing in AI-driven solutions that convert patient-clinician conversations into structured clinical notes. This diverse expertise drives Abridge AI Inc.'s mission to integrate advanced technology into clinical settings, while fostering a culture of innovation, operational excellence, and positive impact in healthcare. As CEO and Co-Founder of Abridge AI Inc., Shivdev Rao leads the company in developing advanced AI technology for healthcare documentation, championing solutions that empower clinicians and improve patient engagement at scale. The Abridge AI Inc. leadership team brings together clinical insight, advanced AI research, and operational excellence to pioneer healthcare documentation transformation. Together, the Abridge AI Inc. management team and founders have positioned the company as a leader in healthcare technology.",
+      "url": "https://exa.ai/websets/directory/abridge-executives"
+    },
+    {
+      "title": "Abridge - Crunchbase Company Profile & Funding",
+      "content": "Abridge is an AI-driven platform that transforms patient-clinician conversations into structured clinical notes for healthcare industries.",
+      "url": "https://www.crunchbase.com/organization/abridge-d1a4"
+    }
+  ],
+  "raw_content": "\nAbridge Business Breakdown & Founding Story - Contrary Research\nAbridge was founded in 2018 by Shivdev Rao (CEO), Florian Metze (CSO), and Sandeep Konam (CTO). The company originated from the Pittsburgh Health Data\n\nAbridge 2025 Company Profile: Valuation, Funding & Investors\nAbridge was founded in 2018. Where is Abridge headquartered? Abridge is headquartered in Philadelphia, PA. What is the size of Abridge?\n\nAbridge - Paraform\nAbridge was founded in 2018 with the mission of powering deeper understanding in healthcare. We are a growing team of practicing MDs, AI scientists, PhDs, creatives, technologists, and engineers working together to empower people and make care make more sense. Healthcare, AI, Software Development He previously led the provider-facing investment portfolio for UPMC where he invested in startups, and also helped fund a Machine Learning in Health program at Carnegie Mellon University. Zachary Lipton is the Co-founder, Chief Technologist and Scientific Officer of Abridge and a Professor on the Machine Learning faculty at Carnegie Mellon University. # Full-stack Software Engineer # Full-stack Software Engineer # Software Engineer # Full-stack Software Engineer # Full-stack Software Engineer # Software Engineer Start hiring\n\nAbridge AI Inc. Executive Team and Leadership Overview - Exa\nAbridge AI Inc. is a leading healthcare technology company founded in 2018, specializing in AI-driven solutions that convert patient-clinician conversations into structured clinical notes. This diverse expertise drives Abridge AI Inc.'s mission to integrate advanced technology into clinical settings, while fostering a culture of innovation, operational excellence, and positive impact in healthcare. As CEO and Co-Founder of Abridge AI Inc., Shivdev Rao leads the company in developing advanced AI technology for healthcare documentation, championing solutions that empower clinicians and improve patient engagement at scale. The Abridge AI Inc. leadership team brings together clinical insight, advanced AI research, and operational excellence to pioneer healthcare documentation transformation. Together, the Abridge AI Inc. management team and founders have positioned the company as a leader in healthcare technology.\n\nAbridge - Crunchbase Company Profile & Funding\nAbridge is an AI-driven platform that transforms patient-clinician conversations into structured clinical notes for healthcare industries.\n",
+  "count": 5,
+  "success": true
+}

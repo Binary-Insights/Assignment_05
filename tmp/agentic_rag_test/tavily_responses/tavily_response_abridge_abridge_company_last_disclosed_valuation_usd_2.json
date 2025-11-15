@@ -1,0 +1,34 @@
+{
+  "tool": "tavily",
+  "query": "abridge company last_disclosed_valuation_usd",
+  "results": [
+    {
+      "title": "In just 4 months, AI medical scribe Abridge doubles valuation to $5.3B",
+      "content": "Abridge, an AI startup automating medical notes, has secured a $300 million Series E at a $5.3 billion valuation, according to the Wall Street Journal.",
+      "url": "https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/"
+    },
+    {
+      "title": "In just 4 months, AI medical scribe Abridge doubles valuation to $5.3B",
+      "content": "... Abridge secured $250 million in funding that valued the company at $2.75 billion. Founded seven years ago, Abridge has established itself as",
+      "url": "https://benzatine.com/news-room/abridges-valuation-skyrockets-to-53-billion-following-300-million-funding-round"
+    },
+    {
+      "title": "Healthcare startup Abridge tops $5 billion valuation in A16z-led ...",
+      "content": "Healthcare firm Abridge, which uses artificial intelligence to build medical documents, has raised $300 million at a $5.3 billion valuation.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/healthcare-startup-abridge-raises-300-million-led-by-vc-firm-andreessen-horowitz-2025-06-24/"
+    },
+    {
+      "title": "AI Medical Scribe Startup Abridge Achieves $5.3 Billion Valuation in ...",
+      "content": "Abridge hits $5.3B valuation by transforming healthcare workflows with AI scribe tech. It's not just transcription, it's the new nervous",
+      "url": "https://www.techi.com/abridge-ai-medical-scribe-startup-valuation/"
+    },
+    {
+      "title": "Medical AI startup Abridge closes $300M investment at $5.3B ...",
+      "content": "### Medical AI startup Abridge closes $300M investment at $5.3B valuation Medical software developer Abridge Inc. today disclosed that it has raised a $300 million funding round led by Andreessen Horowitz. To ease data management, healthcare organizations turn information from files such as medical notes into ICD-10 codes. Abridge can also generate medical billing codes, which serve a similar function as ICD-10 codes. \u201cEvery medical conversation is rich with the signals our healthcare system depends on,\u201d said Abridge co-founder and Chief Executive Officer Shiv Rao. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations.",
+      "url": "https://siliconangle.com/2025/06/24/medical-ai-startup-abridge-closes-300m-investment-5-3b-valuation/"
+    }
+  ],
+  "raw_content": "\nIn just 4 months, AI medical scribe Abridge doubles valuation to $5.3B\nAbridge, an AI startup automating medical notes, has secured a $300 million Series E at a $5.3 billion valuation, according to the Wall Street Journal.\n\nIn just 4 months, AI medical scribe Abridge doubles valuation to $5.3B\n... Abridge secured $250 million in funding that valued the company at $2.75 billion. Founded seven years ago, Abridge has established itself as\n\nHealthcare startup Abridge tops $5 billion valuation in A16z-led ...\nHealthcare firm Abridge, which uses artificial intelligence to build medical documents, has raised $300 million at a $5.3 billion valuation.\n\nAI Medical Scribe Startup Abridge Achieves $5.3 Billion Valuation in ...\nAbridge hits $5.3B valuation by transforming healthcare workflows with AI scribe tech. It's not just transcription, it's the new nervous\n\nMedical AI startup Abridge closes $300M investment at $5.3B ...\n### Medical AI startup Abridge closes $300M investment at $5.3B valuation Medical software developer Abridge Inc. today disclosed that it has raised a $300 million funding round led by Andreessen Horowitz. To ease data management, healthcare organizations turn information from files such as medical notes into ICD-10 codes. Abridge can also generate medical billing codes, which serve a similar function as ICD-10 codes. \u201cEvery medical conversation is rich with the signals our healthcare system depends on,\u201d said Abridge co-founder and Chief Executive Officer Shiv Rao. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations.\n",
+  "count": 5,
+  "success": true
+}

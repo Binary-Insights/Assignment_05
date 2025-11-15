@@ -1,0 +1,34 @@
+{
+  "tool": "tavily",
+  "query": "abridge company hq_country",
+  "results": [
+    {
+      "title": "Abridge",
+      "content": "... HQ: Pittsburgh, Pennsylvania, United States. Country: USA. https://www.abridge.com/. Establishment Year: 2018. Company Stage: Mature. Estimated Employees: 251 .",
+      "url": "https://www.cyberdb.co/ai-vendor/abridge/"
+    },
+    {
+      "title": "Abridge Headquarters - Office Location & Address",
+      "content": "## Abridge Headquarters - Office Location & Address ## Abridge Headquarters Abridge is a leading AI company headquartered in Pittsburgh, PA. ## Headquarters Location The Abridge headquarters is strategically located in Pittsburgh, providing access to top talent, industry partners, and a thriving business ecosystem. Located at 2000 Technology Dr, Pittsburgh, PA 15219, the headquarters is easily accessible via multiple transportation options including public transit, parking facilities, and bike storage. As Abridge continues to expand its market presence, the Pittsburgh headquarters remains the foundation of global operations, designed to accommodate future growth and evolving needs. ### Ibeo Automotive Headquarters - Office Location & Address ### Hesai Technology Headquarters - Office Location & Address ### RoboSense Headquarters - Office Location & Address",
+      "url": "https://salestools.io/report/abridge-headquarters"
+    },
+    {
+      "title": "Abridge: Headquarters, Global Offices & Leadership Team",
+      "content": "Abridge established in 2018 and headquartered in Pittsburgh., Learn more about Abridge offices, leadership team, mission, and growth journey.",
+      "url": "https://www.highperformr.ai/company/abridgehq"
+    },
+    {
+      "title": "Abridge - Valuation, Funding & Investors",
+      "content": "Abridge ; HQ Location. Philadelphia, PA ; Employees. 431 as of 2025 ; Primary Industry. Enterprise Systems (Healthcare) ; HQ Location. Redwood City, CA.",
+      "url": "https://pitchbook.com/profiles/company/268134-40"
+    },
+    {
+      "title": "Sell or Invest in Abridge Stock Pre-IPO | 1% Fee on Trades",
+      "content": "Sign up for SecondMarket\u00ae to view the market and buy or sell Abridge Stock ; Headquarters: Pittsburgh, PA ; Year Founded: 2018 ; Industry: Health Care",
+      "url": "http://www.nasdaqprivatemarket.com/company/abridge/"
+    }
+  ],
+  "raw_content": "\nAbridge\n... HQ: Pittsburgh, Pennsylvania, United States. Country: USA. https://www.abridge.com/. Establishment Year: 2018. Company Stage: Mature. Estimated Employees: 251 .\n\nAbridge Headquarters - Office Location & Address\n## Abridge Headquarters - Office Location & Address ## Abridge Headquarters Abridge is a leading AI company headquartered in Pittsburgh, PA. ## Headquarters Location The Abridge headquarters is strategically located in Pittsburgh, providing access to top talent, industry partners, and a thriving business ecosystem. Located at 2000 Technology Dr, Pittsburgh, PA 15219, the headquarters is easily accessible via multiple transportation options including public transit, parking facilities, and bike storage. As Abridge continues to expand its market presence, the Pittsburgh headquarters remains the foundation of global operations, designed to accommodate future growth and evolving needs. ### Ibeo Automotive Headquarters - Office Location & Address ### Hesai Technology Headquarters - Office Location & Address ### RoboSense Headquarters - Office Location & Address\n\nAbridge: Headquarters, Global Offices & Leadership Team\nAbridge established in 2018 and headquartered in Pittsburgh., Learn more about Abridge offices, leadership team, mission, and growth journey.\n\nAbridge - Valuation, Funding & Investors\nAbridge ; HQ Location. Philadelphia, PA ; Employees. 431 as of 2025 ; Primary Industry. Enterprise Systems (Healthcare) ; HQ Location. Redwood City, CA.\n\nSell or Invest in Abridge Stock Pre-IPO | 1% Fee on Trades\nSign up for SecondMarket\u00ae to view the market and buy or sell Abridge Stock ; Headquarters: Pittsburgh, PA ; Year Founded: 2018 ; Industry: Health Care\n",
+  "count": 5,
+  "success": true
+}

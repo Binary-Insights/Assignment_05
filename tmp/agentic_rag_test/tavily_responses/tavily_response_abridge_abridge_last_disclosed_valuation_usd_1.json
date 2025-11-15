@@ -1,0 +1,34 @@
+{
+  "tool": "tavily",
+  "query": "abridge last_disclosed_valuation_usd",
+  "results": [
+    {
+      "title": "Abridge raises USD 250 million to enhance AI capabilities",
+      "content": "Abridge did not disclose the valuation at which the amount was raised. The company was valued at $850 million after a funding round last",
+      "url": "https://medicalbuyer.co.in/abridge-raises-usd-250-million-to-enhance-ai-capabilities/"
+    },
+    {
+      "title": "In just 4 months, AI medical scribe Abridge doubles valuation to $5.3B",
+      "content": "Abridge, an AI startup automating medical notes, has secured a $300 million Series E at a $5.3 billion valuation, according to the Wall",
+      "url": "https://finance.yahoo.com/news/just-4-months-ai-medical-201646597.html"
+    },
+    {
+      "title": "In just 4 months, AI medical scribe Abridge doubles valuation to $5.3B",
+      "content": "Abridge, an AI startup automating medical notes, has secured a $300 million Series E at a $5.3 billion valuation, according to the Wall Street Journal.",
+      "url": "https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/"
+    },
+    {
+      "title": "Abridge Raises $300M Series E at $5.3B Valuation | The SaaS News",
+      "content": "# Abridge Raises $300M Series E at $5.3B Valuation Abridge, a Pittsburgh, PA-based AI-powered healthcare company, has secured $300 million in Series E funding at a $5.3 billion valuation. The round was led by Andreessen Horowitz, with participation from Khosla Ventures. Andreessen Horowitz is a venture capital firm focused on investing in and supporting technology-driven companies. **Abridge Use of Funds** The company will use the funds to support its expansion into AI-powered medical coding, in addition to scaling its core medical scribe technology. **About Abridge** Abridge is uses generative AI to automate clinical documentation. Abridge's mission is to power deeper understanding in healthcare through purpose-built AI. Company: Abridge AI, Inc. Additional Investors: Khosla Ventures\u00a0 Source: https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/",
+      "url": "https://www.thesaasnews.com/news/abridge-raises-300m-series-e-at-5-3b-valuation"
+    },
+    {
+      "title": "Healthcare startup Abridge tops $5 billion valuation in A16z-led ...",
+      "content": "Healthcare firm Abridge, which uses artificial intelligence to build medical documents, has raised $300 million at a $5.3 billion valuation,",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/healthcare-startup-abridge-raises-300-million-led-by-vc-firm-andreessen-horowitz-2025-06-24/"
+    }
+  ],
+  "raw_content": "\nAbridge raises USD 250 million to enhance AI capabilities\nAbridge did not disclose the valuation at which the amount was raised. The company was valued at $850 million after a funding round last\n\nIn just 4 months, AI medical scribe Abridge doubles valuation to $5.3B\nAbridge, an AI startup automating medical notes, has secured a $300 million Series E at a $5.3 billion valuation, according to the Wall\n\nIn just 4 months, AI medical scribe Abridge doubles valuation to $5.3B\nAbridge, an AI startup automating medical notes, has secured a $300 million Series E at a $5.3 billion valuation, according to the Wall Street Journal.\n\nAbridge Raises $300M Series E at $5.3B Valuation | The SaaS News\n# Abridge Raises $300M Series E at $5.3B Valuation Abridge, a Pittsburgh, PA-based AI-powered healthcare company, has secured $300 million in Series E funding at a $5.3 billion valuation. The round was led by Andreessen Horowitz, with participation from Khosla Ventures. Andreessen Horowitz is a venture capital firm focused on investing in and supporting technology-driven companies. **Abridge Use of Funds** The company will use the funds to support its expansion into AI-powered medical coding, in addition to scaling its core medical scribe technology. **About Abridge** Abridge is uses generative AI to automate clinical documentation. Abridge's mission is to power deeper understanding in healthcare through purpose-built AI. Company: Abridge AI, Inc. Additional Investors: Khosla Ventures\u00a0 Source: https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/\n\nHealthcare startup Abridge tops $5 billion valuation in A16z-led ...\nHealthcare firm Abridge, which uses artificial intelligence to build medical documents, has raised $300 million at a $5.3 billion valuation,\n",
+  "count": 5,
+  "success": true
+}
