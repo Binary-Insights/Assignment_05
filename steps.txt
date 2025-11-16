@@ -582,3 +582,14 @@ Your agentic RAG enrichment pipeline is complete and working end-to-end. Each co
 
 
 
+
+python -m src.mcp_server
+
+pkill -f "mcp_server"; sleep 1; echo "Processes killed"
+
+The error is still showing the old code. The issue is that Python is importing the old cached module from __pycache__. Let me clear the Python cache:
+
+find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null
+pkill -f "mcp_server"
+sleep 1
+python -m src.mcp_server
