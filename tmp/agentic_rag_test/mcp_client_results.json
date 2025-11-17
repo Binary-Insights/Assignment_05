@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-11-16T20:47:57.739789",
+  "test_dir": "/mnt/c/Users/enigm/OneDrive/Documents/NortheasternAssignments/09_BigDataIntelAnlytics/Assignments/Assignment_05/tmp/agentic_rag_test",
+  "operations": [
+    {
+      "operation": "enrich_payload",
+      "company": "abridge",
+      "status": "completed",
+      "null_fields_found": 0,
+      "null_fields_filled": 10,
+      "success": true
+    }
+  ]
+}

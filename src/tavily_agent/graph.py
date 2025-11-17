@@ -336,7 +336,7 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
                     print(f">>> Query '{query}' returned {count} results")
                     # print(f">>> Tavily Response JSON:\n{json.dumps(result, indent=2, default=str)}")
                     logger.info(f"✅ [TAVILY RESULT] Query '{query}' returned {count} results")
-                    logger.info(f"📄 [TAVILY RESPONSE]\n{json.dumps(result, indent=2, default=str)}")
+                    # logger.info(f"📄 [TAVILY RESPONSE]\n{json.dumps(result, indent=2, default=str)}")
                     
                     # Save Tavily response to JSON file
                     if responses_dir:

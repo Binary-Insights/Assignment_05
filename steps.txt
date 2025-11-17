@@ -593,3 +593,5 @@ find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null
 pkill -f "mcp_server"
 sleep 1
 python -m src.mcp_server
+
+ps aux | grep "mcp_server" | grep -v grep | head -3

@@ -9,10 +9,10 @@
     "hq_country": "United States",
     "founded_year": "2018",
     "categories": null,
-    "related_companies": "Innovaccer, Ambience Healthcare, Pieces Technologies, Beam Health, Highmark Health, Kaiser Permanente, Mayo Clinic, Johns Hopkins Medicine",
-    "total_raised_usd": "757500000",
-    "last_disclosed_valuation_usd": "5300000000",
-    "last_round_name": "Series E",
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
     "as_of": null,
@@ -53,20 +53,21 @@
           "https://www.pentagram.com/work/abridge",
           "https://www.linkedin.com/company/abridgehq"
         ],
-        "extracted_at": "2025-11-15T07:02:53.155636+00:00",
+        "extracted_at": "2025-11-17T01:48:26.661632+00:00",
         "confidence": 1.0,
-        "reasoning": "The search results consistently refer to the company as 'Abridge,' indicating that this is the brand name associated with the company. No alternate brand names or variations have been presented in the sources. [Validated: The extracted value 'Abridge' is consistently supported by multiple credible sources, confirming it as the correct brand name for the company.]"
+        "reasoning": "The company is consistently referred to as 'Abridge' across multiple sources, indicating that this is the established brand name associated with the company. [Validated: The extracted brand name 'Abridge' is consistently referenced across multiple credible sources, confirming its correctness.]"
       },
       "hq_city": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
           "https://salestools.io/report/abridge-headquarters",
-          "https://craft.co/abridge/locations"
+          "https://craft.co/abridge/locations",
+          "https://websets.exa.ai/websets/directory/abridge-offices"
         ],
-        "extracted_at": "2025-11-15T07:03:07.267612+00:00",
-        "confidence": 0.9,
-        "reasoning": "Multiple sources confirm that Abridge is headquartered in Pittsburgh, PA, providing consistent information. Source 1 and Source 2 both explicitly state the headquarters' location as Pittsburgh. While Source 4 mentions Philadelphia, it is not corroborated by the other sources, leading to a strong confidence in Pittsburgh being the correct city. [Validated: The extracted value is supported by multiple credible sources. While there is a conflicting mention of Philadelphia, it is not corroborated, reinforcing Pittsburgh as the correct headquarters location.]"
+        "extracted_at": "2025-11-17T01:48:35.422879+00:00",
+        "confidence": 1.0,
+        "reasoning": "Multiple sources consistently identify Pittsburgh as the headquarters city for Abridge, including specific addresses and confirmation from the company's own blog. The information is corroborated across different sources, indicating high confidence in the accuracy of the extraction. [Validated: The extracted value is consistent with multiple reliable sources and the company's own blog, confirming Pittsburgh as the headquarters city.]"
       },
       "hq_state": {
         "source": "agentic_rag",
@@ -74,83 +75,34 @@
         "source_urls": [
           "https://www.dupagetownship.com/wp-content/uploads/2021/01/Resolution-20-19.pdf"
         ],
-        "extracted_at": "2025-11-15T07:03:18.249866+00:00",
+        "extracted_at": "2025-11-17T01:48:41.171851+00:00",
         "confidence": 1.0,
-        "reasoning": "The information regarding Abridge's headquarters state was explicitly mentioned in Source 1, stating 'HQ STATE: IL'. This provides a clear and direct answer to the query. [Validated: The extracted value 'IL' for Abridge's headquarters state is confirmed by the explicit mention in the provided source.]"
+        "reasoning": "Source 1 explicitly states 'HQ STATE: IL' in the content related to Abridge, providing a clear and direct indication of the headquarters state. [Validated: The extracted value is supported by a direct statement in the source document, confirming the headquarters state as Illinois (IL).]"
       },
       "hq_country": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
-          "https://www.extruct.ai/hub/abridge-com-funding/",
           "https://salestools.io/report/abridge-headquarters",
           "https://craft.co/abridge/locations"
         ],
-        "extracted_at": "2025-11-15T07:03:29.498726+00:00",
+        "extracted_at": "2025-11-17T01:48:47.452762+00:00",
         "confidence": 1.0,
-        "reasoning": "Multiple sources consistently indicate that Abridge is headquartered in Pittsburgh, which is located in the United States. The information is corroborated by Source 1, Source 2, and Source 3, all of which specify the country as the United States. [Validated: The extracted value is validated as correct; all sources consistently indicate that Abridge is headquartered in the United States.]"
+        "reasoning": "Both Source 1 and Source 2 clearly state that Abridge is headquartered in Pittsburgh, PA, which is in the United States. The mention of 'United States' in Source 2 further solidifies this extraction. [Validated: The extracted value is consistent with both sources confirming Abridge's headquarters in the United States.]"
       },
       "founded_year": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
           "https://research.contrary.com/company/abridge",
+          "https://www.linkedin.com/company/abridgehq",
           "https://pitchbook.com/profiles/company/268134-40",
-          "https://www.paraform.com/company/abridge",
-          "https://exa.ai/websets/directory/abridge-executives",
-          "https://www.crunchbase.com/organization/abridge-d1a4"
+          "https://www.abridge.com/press-release/abridge-research-collaborative",
+          "https://www.paraform.com/company/abridge"
         ],
-        "extracted_at": "2025-11-15T07:03:47.582945+00:00",
+        "extracted_at": "2025-11-17T01:48:54.060939+00:00",
         "confidence": 1.0,
-        "reasoning": "All sources consistently state that Abridge was founded in 2018, providing a high level of certainty regarding this information. [Validated: All sources consistently confirm that Abridge was founded in 2018, supporting the accuracy of the extracted value.]"
-      },
-      "related_companies": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "http://www.modernhealthcare.com/health-tech/ai/mh-epic-ai-tools-abridge-innovaccer-ambience/",
-          "https://www.cbinsights.com/company/abridge-ai/alternatives-competitors",
-          "https://www.prnewswire.com/news-releases/first-of-its-kind-relationship-highmark-health-abridge-announce-unique-collaboration-to-scale-and-deploy-ai-technologies-across-an-entire-payer-provider-ecosystem-302527334.html",
-          "https://www.abridge.com/"
-        ],
-        "extracted_at": "2025-11-15T07:04:13.247023+00:00",
-        "confidence": 0.9,
-        "reasoning": "The extracted companies are mentioned in the context of Abridge in various sources as either direct competitors, collaborators, or involved in similar technology sectors. The confidence is high due to the direct references in the content, which establish a clear relationship with Abridge. [Validated: The extracted companies are accurately identified as related to Abridge based on multiple credible sources, reflecting their roles as competitors or collaborators in the healthcare technology sector.]"
-      },
-      "total_raised_usd": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://news.crunchbase.com/health-wellness-biotech/ai-doctor-note-taking-startup-abridge/",
-          "https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b"
-        ],
-        "extracted_at": "2025-11-15T07:04:21.529430+00:00",
-        "confidence": 1.0,
-        "reasoning": "The total amount raised by Abridge is explicitly stated as $757.5 million in the second source, which is a reliable and well-known platform (Crunchbase). Other sources confirm individual funding rounds, but they do not contradict this total amount, providing high confidence in its accuracy. [Validated: The extracted value is consistent with multiple reputable sources. The amount of $757.5 million is explicitly confirmed in Crunchbase, and other sources do not provide conflicting information. Therefore, the confidence remains high.]"
-      },
-      "last_disclosed_valuation_usd": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://finance.yahoo.com/news/just-4-months-ai-medical-201646597.html",
-          "https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/",
-          "https://www.thesaasnews.com/news/abridge-raises-300m-series-e-at-5-3b-valuation",
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/healthcare-startup-abridge-raises-300-million-led-by-vc-firm-andreessen-horowitz-2025-06-24/"
-        ],
-        "extracted_at": "2025-11-15T07:04:30.169506+00:00",
-        "confidence": 1.0,
-        "reasoning": "Multiple sources confirm that Abridge's last disclosed valuation is $5.3 billion following a Series E funding round. This valuation is consistently reported across reliable outlets and reflects the most recent funding event. [Validated: The extracted value of $5.3 billion is consistent across multiple reputable sources, confirming the last disclosed valuation of Abridge following their Series E funding round.]"
-      },
-      "last_round_name": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://digitalhealthwire.com/abridge-moves-upstream-with-300m-series-e/",
-          "https://www.mobihealthnews.com/news/abridge-secures-300m-boosts-valuation-53b"
-        ],
-        "extracted_at": "2025-11-15T07:04:37.335265+00:00",
-        "confidence": 1.0,
-        "reasoning": "Multiple sources confirm that Abridge's last funding round is Series E, with specific details about the amount raised and the valuation increase provided in articles from Digital Health Wire and MobiHealthNews. [Validated: The extracted value is confirmed by multiple reliable sources detailing Abridge's last funding round as Series E, with associated financial specifics.]"
+        "reasoning": "All sources consistently state that Abridge was founded in 2018, providing a strong consensus on this information. [Validated: All sources confirm that Abridge was founded in 2018, ensuring high confidence in the extracted value.]"
       }
     }
   },

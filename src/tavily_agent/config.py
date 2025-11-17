@@ -59,7 +59,7 @@ for directory in [PAYLOADS_DIR, RAW_DATA_DIR, LOGS_DIR, VECTORS_DIR]:
 # ===========================
 # Agent Configuration
 # ===========================
-MAX_ITERATIONS: int = int(os.getenv("MAX_ITERATIONS", "20"))
+MAX_ITERATIONS: int = int(os.getenv("MAX_ITERATIONS", "5"))
 TOOL_TIMEOUT: int = int(os.getenv("TOOL_TIMEOUT", "30"))
 BATCH_SIZE: int = int(os.getenv("BATCH_SIZE", "3"))  # For concurrent processing
 
