@@ -88,6 +88,31 @@ def setup_logging(script_name: str = 'structured_extraction'):
 # ─────────────────────────────────────────────────────────────────────────────
 #  Flexible Payload File Lookup
 # ─────────────────────────────────────────────────────────────────────────────
+def _normalize_encoding(obj: Any) -> Any:
+    """
+    Recursively normalize encoding in dicts/lists/strings.
+    Fixes mojibake (double-encoded UTF-8) where UTF-8 bytes were interpreted as Latin-1.
+    """
+    if isinstance(obj, dict):
+        return {k: _normalize_encoding(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [_normalize_encoding(item) for item in obj]
+    elif isinstance(obj, str):
+        try:
+            # Try to fix mojibake: Latin-1 interpretation of UTF-8 bytes
+            # This happens when UTF-8 bytes are decoded as Latin-1
+            if any(ord(c) in range(0xC0, 0x100) for c in obj):  # Latin-1 high range
+                fixed = obj.encode('latin-1').decode('utf-8', errors='replace')
+                # Only use if it looks better than original
+                if fixed != obj and '\ufffd' not in fixed:
+                    return fixed
+        except (UnicodeDecodeError, UnicodeEncodeError):
+            pass
+        return obj
+    else:
+        return obj
+
+
 def find_payload_file(company_id_or_name: str) -> Optional[Path]:
     """
     Find payload file with flexible naming conventions.
@@ -467,16 +492,19 @@ def search_pinecone_for_context(
         query_embedding = embeddings.embed_query(query)
         
         # Search Pinecone and filter by company using vector_id prefix
-        logger.debug(f"🔍 Searching Pinecone (namespace '{namespace}'): '{query}' for company '{company_slug}'")
-        
+        logger.info(f"🔍 Searching Pinecone (namespace '{namespace}'): '{query}' for company '{company_slug}'")
+
         # Query with higher top_k to account for cross-company results that we'll filter out
         results = pinecone_index.query(
             vector=query_embedding,
             top_k=limit * 3,  # Get 3x results to filter
             namespace=namespace,
-            include_metadata=True
+            include_metadata=True,
+            filter={"company_slug": {"$eq": company_slug}}
+
         )
-        
+        print(results)
+
         # Extract context from results with full source tracking
         # Filter to only include vectors for this specific company
         context_docs = []
@@ -1468,9 +1496,13 @@ def process_company(company_slug: str, verbose: bool = False):
         payloads_dir = Path("data/payloads") 
         payloads_dir.mkdir(parents=True, exist_ok=True)
         
+        # Normalize encoding before saving
+        payload_dict = payload.model_dump(mode='json')
+        payload_dict = _normalize_encoding(payload_dict)
+        
         payload_file = payloads_dir / f"{company_slug}.json"
         with open(payload_file, 'w', encoding='utf-8') as f:
-            json.dump(payload.model_dump(mode='json'), f, indent=2, ensure_ascii=False, default=str)
+            json.dump(payload_dict, f, indent=2, ensure_ascii=False, default=str)
         
         logger.info(f"\n✓ Saved extraction results to: {payload_file}")
         

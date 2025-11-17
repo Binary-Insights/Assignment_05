@@ -13,7 +13,7 @@ from pathlib import Path
 # Add parent directory to path to allow imports from src/
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from tools.payload_tool import get_latest_structured_payload
+from tools.payload import get_latest_structured_payload
 from tools.rag_tool import rag_search_company
 from tools.risk_logger import report_layoff_signal, LayoffSignal
 
@@ -21,7 +21,7 @@ from tools.risk_logger import report_layoff_signal, LayoffSignal
 
 async def demo_supervisor_run(company_id: str):
     print("Thought: I should get the latest structured payload.")
-    payload = await get_latest_structured_payload(company_id)
+    payload = get_latest_structured_payload.invoke({"company_id": company_id})
     print("Observation (payload):", payload)
 
     print("Thought: I should search for layoffs.")
