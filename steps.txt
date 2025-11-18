@@ -596,4 +596,10 @@ python -m src.mcp_server
 
 ps aux | grep "mcp_server" | grep -v grep | head -3
 
+
+
 python src/mcp_server/mcp_enrichment_client.py abridge --enrich --test-dir /mnt/c/Users/enigm/OneDrive/Documents/NortheasternAssignments/09_BigDataIntelAnlytics/Assignments/Assignment_05/tmp/agentic_rag_test
+
+
+docker exec assignment04-airflow-scheduler python /app/src/mcp_server/mcp_enrichment_client.py abridge --enrich 2>&1 | Select-Object -First 50
+Start-Sleep -Seconds 120; docker compose -f c:\Users\enigm\OneDrive\Documents\NortheasternAssignments\09_BigDataIntelAnlytics\Assignments\Assignment_05\docker\docker-compose.yml up -d --force-recreate airflow-scheduler airflow-webserver airflow-triggerer

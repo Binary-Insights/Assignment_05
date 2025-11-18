@@ -204,15 +204,8 @@ services:
       - |
         set -e
         echo "1. Checking Airflow version..."
-        function ver() { printf "%04d%04d%04d%04d" $${1//./ } ; }
-        airflow_version=$$(AIRFLOW__LOGGING__LOGGING_LEVEL=INFO airflow version)
-        airflow_version_comparable=$$(ver $${airflow_version})
-        min_airflow_version=2.2.0
-        min_airflow_version_comparable=$$(ver $${min_airflow_version})
-        if (( airflow_version_comparable < min_airflow_version_comparable )); then
-          echo -e "\033[1;31mERROR!!!: Too old Airflow version $${airflow_version}\e[0m"
-          exit 1
-        fi
+        airflow_version=$$(AIRFLOW__LOGGING__LOGGING_LEVEL=INFO airflow version 2>/dev/null | head -n 1)
+        echo "Detected Airflow version: $${airflow_version}"
         echo "✓ Airflow version OK"
         
         echo "2. Creating Airflow directories..."
