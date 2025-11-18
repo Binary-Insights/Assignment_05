@@ -595,3 +595,5 @@ sleep 1
 python -m src.mcp_server
 
 ps aux | grep "mcp_server" | grep -v grep | head -3
+
+python src/mcp_server/mcp_enrichment_client.py abridge --enrich --test-dir /mnt/c/Users/enigm/OneDrive/Documents/NortheasternAssignments/09_BigDataIntelAnlytics/Assignments/Assignment_05/tmp/agentic_rag_test

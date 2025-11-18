@@ -2,12 +2,12 @@
   "company_record": {
     "company_id": "abridge",
     "legal_name": "Abridge Al, Inc.",
-    "brand_name": null,
+    "brand_name": "Abridge",
     "website": "https://abridge.com/",
-    "hq_city": null,
+    "hq_city": "Pittsburgh",
     "hq_state": null,
-    "hq_country": null,
-    "founded_year": null,
+    "hq_country": "United States",
+    "founded_year": "2018",
     "categories": null,
     "related_companies": null,
     "total_raised_usd": null,
@@ -43,7 +43,58 @@
           "abridge_careers_c82771fd#24.0"
         ]
       }
-    ]
+    ],
+    "_extraction_metadata": {
+      "brand_name": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crunchbase.com/organization/abridge-d1a4",
+          "https://www.pentagram.com/work/abridge",
+          "https://www.linkedin.com/company/abridgehq",
+          "https://www.abridge.com/blog/abridge-now-most-awarded-ai-platform-in-healthcare"
+        ],
+        "extracted_at": "2025-11-17T19:35:45.204648+00:00",
+        "confidence": 1.0,
+        "reasoning": "The company name 'Abridge' is consistently mentioned across all sources as the identity of the company. No other brand name is suggested in the search results, confirming that 'Abridge' is indeed the brand name. [Validated: The extracted brand name 'Abridge' is consistent across multiple reliable sources, confirming its correctness.]"
+      },
+      "hq_city": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://salestools.io/report/abridge-headquarters",
+          "https://www.abridge.com/blog/behind-the-scenes-at-pittsburgh-hq"
+        ],
+        "extracted_at": "2025-11-17T19:35:52.770637+00:00",
+        "confidence": 0.9,
+        "reasoning": "Multiple sources confirm that Abridge is headquartered in Pittsburgh, PA. Source 1 explicitly states the headquarters is located in Pittsburgh, while Source 2 also refers to it as the Pittsburgh HQ. Although Source 3 mentions Philadelphia, it is likely outdated or incorrect as the other sources consistently point to Pittsburgh. Therefore, I am confident that the correct city is Pittsburgh. [Validated: Multiple reliable sources confirm that Abridge is headquartered in Pittsburgh. The mention of Philadelphia in one source is likely outdated or incorrect, supporting the validity of the extracted value.]"
+      },
+      "hq_country": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://craft.co/abridge/locations",
+          "https://salestools.io/report/abridge-headquarters"
+        ],
+        "extracted_at": "2025-11-17T19:36:05.692639+00:00",
+        "confidence": 0.9,
+        "reasoning": "Multiple sources confirm that Abridge is headquartered in Pittsburgh, which is located in the United States. Source 1 explicitly states the headquarters location as 'Pittsburgh, 500 Grant Street, Suite 2900, United States', and Source 2 mentions Pittsburgh, PA as the headquarters. Although Source 3 mentions a different city (Philadelphia), this may refer to either a former or secondary location, which makes the United States the most reliable value. [Validated: The extracted value is valid as multiple sources confirm that Abridge is headquartered in Pittsburgh, which is in the United States. The conflicting information from Source 3 does not undermine the overall validity of the extracted value.]"
+      },
+      "founded_year": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://research.contrary.com/company/abridge",
+          "https://www.linkedin.com/company/abridgehq",
+          "https://pitchbook.com/profiles/company/268134-40",
+          "https://www.paraform.com/company/abridge",
+          "https://www.fiercehealthcare.com/ai-and-machine-learning/abridge-clinches-150m-build-out-generative-ai-medical-documentation"
+        ],
+        "extracted_at": "2025-11-17T19:36:13.817156+00:00",
+        "confidence": 1.0,
+        "reasoning": "Multiple sources consistently state that Abridge was founded in 2018, which provides a high level of certainty about this information. [Validated: The extracted value of 2018 for the founding year of Abridge is consistent across multiple reputable sources, confirming its accuracy.]"
+      }
+    }
   },
   "events": [
     {
@@ -101,8 +152,8 @@
       "company_id": "abridge",
       "occurred_on": "2025-11-04",
       "event_type": "other",
-      "title": "Becker’s: Voices of Healthcare",
-      "description": "Abridge was featured in Becker’s: Voices of Healthcare.",
+      "title": "Becker\u2019s: Voices of Healthcare",
+      "description": "Abridge was featured in Becker\u2019s: Voices of Healthcare.",
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -126,8 +177,8 @@
       "company_id": "abridge",
       "occurred_on": "2025-11-13",
       "event_type": "other",
-      "title": "Abridge’s Principles for Building Trusted AI in Healthcare",
-      "description": "Tim Hwang posted about Abridge’s principles for building trusted AI in healthcare.",
+      "title": "Abridge\u2019s Principles for Building Trusted AI in Healthcare",
+      "description": "Tim Hwang posted about Abridge\u2019s principles for building trusted AI in healthcare.",
       "round_name": null,
       "investors": null,
       "amount_usd": null,

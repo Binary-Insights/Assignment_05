@@ -4,17 +4,226 @@
     "company_name": "World Labs",
     "company_slug": "world-labs",
     "pipeline_type": "structured",
-    "timestamp": "2025-11-13T19:30:44.545661Z",
+    "timestamp": "2025-11-17T19:14:53.148014Z",
     "markdown_file": "markdown/world-labs/structured.md",
-    "content": "## Company Overview\n\nWorld Labs is a private company specializing in spatial intelligence, AI research, and product development. The company is focused on revolutionizing artificial intelligence by developing Large World Models, which extend AI capabilities beyond language and 2D visuals into complex 3D environments, both virtual and real. World Labs is recognized as a leading spatial intelligence company, building frontier world models that can perceive, generate, reason, and interact with the 3D world.\n\n## Business Model and GTM\n\nThe company states that its flagship product, Marble, is powered by best-in-class generative 3D world models. Marble enables users to create spatially cohesive, high-fidelity, and persistent 3D worlds from a single image, video, or text prompt. The company has also released a research preview of RTFM, a generative world model that generates video in real-time as users interact with it. World Labs is exploring the next frontier of AI through spatial, world-model-driven experiences, which are designed to empower creators and developers.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nWorld Labs has released several products and previews, including Marble and RTFM, indicating active development and innovation in the field of spatial intelligence and AI. However, specific growth metrics or user adoption rates are not disclosed.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company is positioned at the forefront of AI development with its focus on spatial intelligence and 3D world modeling. The release of products like Marble and RTFM suggests a commitment to innovation and expanding the capabilities of AI in new dimensions. However, without disclosed funding details or market sentiment, the long-term outlook remains uncertain.\n\n## Disclosure Gaps\n\n- Specific dates for product releases are not disclosed.\n- Funding and investor profiles are not disclosed.\n- Growth metrics, user adoption rates, and market sentiment are not disclosed.\n- Risks and challenges facing the company are not disclosed."
+    "content": "## Company Overview\n\nWORLD LABS TECHNOLOGIES, operating under the brand name World Labs, is headquartered in San Francisco, CA. The company is positioned in the fields of spatial intelligence, AI research, and product development. World Labs is recognized as a leading spatial intelligence company, focusing on building advanced world models that can perceive, generate, reason, and interact with the 3D world.\n\n## Business Model and GTM\n\nWorld Labs is engaged in the development of AI systems that enable the creation of 3D worlds from minimal inputs such as a single image, video, or text prompt. Their flagship product, Marble, exemplifies this capability by allowing users to generate spatially cohesive, high-fidelity, and persistent 3D environments. The company states that its technology is at the frontier of spatial intelligence, offering new possibilities for creators and developers.\n\n## Funding & Investor Profile\n\nWorld Labs has secured over $230 million in total funding. The funding round was led by prominent investors including Martin Casado and Sarah Wang from Andreessen Horowitz, Scott Sandell from NEA, and Jordan Jacobs from Radical Ventures. This strong backing from leading venture capital firms underscores the confidence in World Labs' innovative approach and market potential.\n\n## Growth Momentum\n\nWorld Labs has demonstrated significant progress in its product development, with multiple product releases showcasing advancements in 3D world generation. Notable releases include an AI system capable of generating 3D worlds from a single image and the introduction of Marble, a multimodal world model available to the public. These developments highlight the company's commitment to pushing the boundaries of spatial intelligence.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company is poised to continue its trajectory of innovation in the spatial intelligence domain. With substantial funding and a series of product breakthroughs, World Labs is well-positioned to expand its influence and capabilities in creating immersive 3D environments. The involvement of high-profile investors suggests a positive outlook for future growth and market penetration.\n\n## Disclosure Gaps\n\n- Specific details on the company's business model and go-to-market strategy are not disclosed.\n- Information on market presence and sentiment is not available.\n- Risks and challenges facing the company are not disclosed.\n- Dates for events and product releases are unspecified.\n- Detailed roles and contributions of leadership team members are not provided."
   },
   "rag": {
     "company_name": "World Labs",
     "company_slug": "world-labs",
     "pipeline_type": "rag",
-    "timestamp": "2025-11-13T15:59:33.747409Z",
+    "timestamp": "2025-11-17T19:06:57.381386Z",
     "markdown_file": "markdown/world-labs/rag.md",
-    "content": "## Company Overview\nNot disclosed.\n\n## Business Model and GTM\nNot disclosed.\n\n## Funding & Investor Profile\nNot disclosed.\n\n## Growth Momentum\nNot disclosed.\n\n## Visibility & Market Sentiment\nNot disclosed.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nNot disclosed.\n\n## Disclosure Gaps\nThe provided context does not include any information about World Labs. Key areas such as company overview, business model, funding, growth, market sentiment, risks, and outlook are not disclosed.",
-    "context_results": []
+    "content": "## Company Overview\n\nWorld Labs is a frontier AI research and product company specializing in spatial intelligence. The company focuses on building foundational world models that can perceive, generate, reason, and interact with the 3D world. Founded by visionary AI pioneer Fei-Fei Li, along with Justin Johnson, Christoph Lassner, and Ben Mildenhall, World Labs aims to revolutionize artificial intelligence by developing Large World Models that extend AI capabilities beyond language and 2D visuals into complex 3D environments.\n\n## Business Model and GTM\n\nThe company states that its first product, Marble, is powered by generative 3D world models, enabling users to create spatially cohesive, high-fidelity, and persistent 3D worlds from a single image, video, or text prompt. World Labs positions itself as a leader in spatial intelligence, unlocking new forms of storytelling, creativity, design, simulation, and immersive experiences across both virtual and physical worlds.\n\n## Funding & Investor Profile\n\nSupported by world-class investors, World Labs has not disclosed specific details about its funding rounds or investor profiles.\n\n## Growth Momentum\n\nWorld Labs is actively hiring for various full-time positions at its San Francisco headquarters, indicating growth and expansion. The company is focused on research and development in areas such as 3D reconstruction, rendering, machine learning, and systems engineering.\n\n## Visibility & Market Sentiment\n\nThe company has been featured in various updates and news articles, highlighting its innovations in spatial intelligence and generative AI. The launch of Marble and other research initiatives like RTFM (Real-Time Frame Model) have been publicized, contributing to its visibility in the AI and tech community.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nWorld Labs is poised to continue its trajectory as a leader in spatial intelligence and generative AI. With a strong foundation in research and a focus on developing cutting-edge products, the company is well-positioned to impact the future of AI-driven creativity and interaction with 3D environments.\n\n## Disclosure Gaps\n\n- Specific funding details and investor profiles are not disclosed.\n- Risks and challenges facing the company are not disclosed.",
+    "context_results": [
+      {
+        "id": "world_labs_careers_9f576a05",
+        "similarity_score": 0.346969604,
+        "text": "We're looking for the overachievers, the visionaries, and the relentless innovators who aren't satisfied with the status quo. You know that person who's always dreaming up the next big breakthrough? That's us. And we want you to be part of it.\nOpen Positions\n(7)\nFilters:\nReset filters\nDepartment\nAll Departments\nWorld Labs HQ\nLocation\nAll Locations\nSan Francisco Office (HQ)\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nWorld Labs HQ\nInfrastructure / Backend Engineer",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "world_labs",
+          "content_hash": "9f576a05",
+          "indexed_at": "2025-11-13T19:29:25.668528",
+          "page_type": "careers",
+          "source_file": "data/raw/world_labs/careers/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_36cf6502",
+        "similarity_score": 0.339834213,
+        "text": "About | World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\nAbout Us\nWorld Labs is a leading spatial intelligence company, building frontier world models that can perceive, generate, reason, and interact with the 3D world.\nWorld Labs is a frontier AI research and product company.",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "world_labs",
+          "content_hash": "36cf6502",
+          "indexed_at": "2025-11-13T19:29:25.664378",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_4d0b70aa",
+        "similarity_score": 0.312421799,
+        "text": "Our first product, Marble, is powered by best-in-class generative 3D world models and enables anyone to create spatially cohesive, high-fidelity, and persistent 3D worlds from just a single image, video or text prompt.\nJoin us\nSupported by world-class investors\nUnleash your creativity\nwith Marble\nCreate with Marble\nAbout\nResearch & Insights\nMarble Labs\nCareers\nTerms of Service\nPrivacy Policy\n© 2025 WORLD LABS. All Rights Reserved.\nWORLD LABS™ is a trademark of its respective owner.",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "world_labs",
+          "content_hash": "4d0b70aa",
+          "indexed_at": "2025-11-13T19:29:25.664474",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_blog_81a8b5f1",
+        "similarity_score": 0.307403564,
+        "text": "Research & Insights | World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\nResearch & Insights\nUpdates and news from the World Labs team.\nNovember 12, 2025\nWorld Labs team\nMarble: A Multimodal World Model\nMarble, our frontier multimodal world model, is available to everyone starting today\nRead More →\nNovember 10, 2025\nDr. Fei-Fei Li\nFrom Words to Worlds: Spatial Intelligence is AI’s Next Frontier",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "world_labs",
+          "content_hash": "81a8b5f1",
+          "indexed_at": "2025-11-13T19:29:25.666512",
+          "page_type": "blog",
+          "source_file": "data/raw/world_labs/blog/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_c2b63bef",
+        "similarity_score": 0.305002242,
+        "text": "World Labs was founded by visionary AI pioneer Fei-Fei Li along with Justin Johnson, Christoph Lassner, and Ben Mildenhall, each a world-renowned technologist in machine learning, generative AI, computer vision, and graphics. We bring together a world-class team, united by a shared curiosity, passion, and deep backgrounds in technology — from AI research to systems engineering to product design — creating a tight feedback loop between our cutting-edge research and products that empower our",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "world_labs",
+          "content_hash": "c2b63bef",
+          "indexed_at": "2025-11-13T19:29:25.664422",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_careers_6a53da8f",
+        "similarity_score": 0.294807434,
+        "text": "World Labs HQ • San Francisco Office (HQ) • Full time\nResearch Scientist – 3D\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Scientist – Generative Modeling\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nSenior Product Engineer\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nPowered by\nAshby\nPrivacy Policy\nSecurity\nVulnerability Disclosure",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "world_labs",
+          "content_hash": "6a53da8f",
+          "indexed_at": "2025-11-13T19:29:25.668555",
+          "page_type": "careers",
+          "source_file": "data/raw/world_labs/careers/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_blog_32a7ab52",
+        "similarity_score": 0.286914825,
+        "text": "Read More →\nUnleash your creativity\nwith Marble\nCreate with Marble\nAbout\nResearch & Insights\nMarble Labs\nCareers\nTerms of Service\nPrivacy Policy\n© 2025 WORLD LABS. All Rights Reserved.\nWORLD LABS™ is a trademark of its respective owner.",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "world_labs",
+          "content_hash": "32a7ab52",
+          "indexed_at": "2025-11-13T19:29:25.666591",
+          "page_type": "blog",
+          "source_file": "data/raw/world_labs/blog/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_1389aaa4",
+        "similarity_score": 0.282497406,
+        "text": "World Labs is a frontier AI research and product company.\nWe build foundational world models that can perceive, generate, reason, and interact with the 3D world — unlocking AI's full potential through spatial intelligence by transforming seeing into doing, perceiving into reasoning, and imagining into creating. We believe spatial intelligence will unlock new forms of storytelling, creativity, design, simulation, and immersive experiences across both virtual and physical worlds.",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "world_labs",
+          "content_hash": "1389aaa4",
+          "indexed_at": "2025-11-13T19:29:25.664406",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_about_193d6413",
+        "similarity_score": 0.27589798,
+        "text": "— creating a tight feedback loop between our cutting-edge research and products that empower our users.",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "world_labs",
+          "content_hash": "193d6413",
+          "indexed_at": "2025-11-13T19:29:25.664457",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_product_6fa0527e",
+        "similarity_score": 0.275398254,
+        "text": "World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\n404\nPage Not Found\nSorry, the page you’re looking for doesn’t exist. It may have been moved or deleted.\nGo Home\nUnleash your creativity\nwith Marble\nCreate with Marble\nAbout\nResearch & Insights\nMarble Labs\nCareers\nTerms of Service\nPrivacy Policy\n© 2025 WORLD LABS. All Rights Reserved.\nWORLD LABS™ is a trademark of its respective owner.",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "world_labs",
+          "content_hash": "6fa0527e",
+          "indexed_at": "2025-11-13T19:29:25.670107",
+          "page_type": "product",
+          "source_file": "data/raw/world_labs/product/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_careers_634dd088",
+        "similarity_score": 0.258310348,
+        "text": "World Labs Jobs\nAt World Labs, our mission is to revolutionize artificial intelligence by developing Large World Models, taking AI beyond language and 2D visuals into the realm of complex 3D environments, both virtual and real. We're the team that's envisioning a future where AI doesn't just process information, but truly understands and interacts with the world around us.",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "world_labs",
+          "content_hash": "634dd088",
+          "indexed_at": "2025-11-13T19:29:25.668505",
+          "page_type": "careers",
+          "source_file": "data/raw/world_labs/careers/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_careers_a017cd8d",
+        "similarity_score": 0.250946045,
+        "text": "All Employment Types\nFull time\nNo filters applied\nWorld Labs HQ\nInfrastructure / Backend Engineer\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Engineer – 3D Reconstruction and Rendering\nWorld Labs HQ • San Francisco Office (HQ) • Full time • On-site\nResearch Engineer – Machine Learning & Systems\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Engineer – Model Optimization\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Scientist – 3D",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "world_labs",
+          "content_hash": "a017cd8d",
+          "indexed_at": "2025-11-13T19:29:25.668542",
+          "page_type": "careers",
+          "source_file": "data/raw/world_labs/careers/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_blog_e1fb6992",
+        "similarity_score": 0.228719711,
+        "text": "Read More →\nSeptember 20, 2024\nWorld Labs team\nA New Frontier\nA look at the next frontier of AI—spatial, world‑model‑driven experiences—and what they enable for creators and developers.\nRead More →\nMay 16, 2024\nFei‑Fei Li\nWith Spatial Intelligence, AI Will Understand the Real World\nFei‑Fei Li describes how “spatial intelligence” — AI that perceives, reasons about and acts within 3D space — will let machines truly understand and interact with our physical world.\nRead More →",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "world_labs",
+          "content_hash": "e1fb6992",
+          "indexed_at": "2025-11-13T19:29:25.666580",
+          "page_type": "blog",
+          "source_file": "data/raw/world_labs/blog/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_blog_26f2cd3f",
+        "similarity_score": 0.223054886,
+        "text": "November 10, 2025\nDr. Fei-Fei Li\nFrom Words to Worlds: Spatial Intelligence is AI’s Next Frontier\nA manifesto piece explaining what spatial intelligence is, why it matters, and how we’re building the world models that will unlock it—with impact that will reshape creativity, embodied intelligence, and human progress.\nRead More →\nOctober 16, 2025\nWorld Labs team\nRTFM: A Real-Time Frame Model",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "world_labs",
+          "content_hash": "26f2cd3f",
+          "indexed_at": "2025-11-13T19:29:25.666537",
+          "page_type": "blog",
+          "source_file": "data/raw/world_labs/blog/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_blog_208be4a3",
+        "similarity_score": 0.221843719,
+        "text": "Read More →\nDecember 2, 2024\nWorld Labs team\nGenerating Worlds\nSharing our early progress toward persistent, navigable 3D worlds you can explore in your browser.\nRead More →\nMore Articles\nOctober 28, 2025\nChristoph Lassner\nContent 3.0 in the GenAI Era\nChristoph Lassner on how generative AI leads to a new medium with dynamically evolving characters and worlds-and what this means for storytelling and the future of digital content.\nRead More →\nSeptember 20, 2024\nWorld Labs team\nA New Frontier",
+        "metadata": {
+          "chunk_index": 4.0,
+          "company_slug": "world_labs",
+          "content_hash": "208be4a3",
+          "indexed_at": "2025-11-13T19:29:25.666566",
+          "page_type": "blog",
+          "source_file": "data/raw/world_labs/blog/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_blog_42cada63",
+        "similarity_score": 0.212200165,
+        "text": "Read More →\nOctober 16, 2025\nWorld Labs team\nRTFM: A Real-Time Frame Model\nA research preview of RTFM, a new generative world model that generates video in real-time as you interact with it.\nRead More →\nSeptember 16, 2025\nWorld Labs team\nGenerating Bigger and Better Worlds\nAnnouncing our latest breakthrough in 3D world generation with larger, more detailed environments and improved fidelity.\nRead More →\nDecember 2, 2024\nWorld Labs team\nGenerating Worlds",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "world_labs",
+          "content_hash": "42cada63",
+          "indexed_at": "2025-11-13T19:29:25.666554",
+          "page_type": "blog",
+          "source_file": "data/raw/world_labs/blog/text.txt"
+        }
+      }
+    ]
   }
 }

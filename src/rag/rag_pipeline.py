@@ -21,6 +21,51 @@ except ImportError:
 logger = logging.getLogger(__name__)
 
 
+def generate_slug_variations(company_slug: str) -> List[str]:
+    """
+    Generate all possible slug variations for a company name.
+    
+    Handles different naming conventions:
+    - "world-labs" (hyphens)
+    - "world_labs" (underscores)
+    - "worldlabs" (no separators)
+    - "world labs" (spaces)
+    
+    Args:
+        company_slug: Original company slug
+    
+    Returns:
+        List of unique slug variations
+    """
+    # Start with original
+    variations = [company_slug]
+    
+    # Normalize to get base words
+    base = company_slug.lower()
+    
+    # Split by common separators to get words
+    import re
+    words = re.split(r'[-_\s]+', base)
+    
+    if len(words) > 1:
+        # Generate variations with different separators
+        variations.append('-'.join(words))  # hyphen: world-labs
+        variations.append('_'.join(words))  # underscore: world_labs
+        variations.append(''.join(words))   # no separator: worldlabs
+        variations.append(' '.join(words))  # space: world labs
+    
+    # Remove duplicates while preserving order
+    seen = set()
+    unique_variations = []
+    for v in variations:
+        if v not in seen:
+            seen.add(v)
+            unique_variations.append(v)
+    
+    logger.debug(f"Generated slug variations for '{company_slug}': {unique_variations}")
+    return unique_variations
+
+
 def get_dashboard_system_prompt() -> str:
     """Load the dashboard system prompt from the markdown file."""
     prompt_path = Path(__file__).resolve().parent.parent / "prompts" / "dashboard_system.md"
@@ -199,7 +244,7 @@ def generate_dashboard_with_retrieval(
     pinecone_index: Any,
     llm_client: Any = None,
     llm_model: str = "gpt-4o",
-    top_k: int = 100,
+    top_k: int = 30,
     temperature: float = 0.1
 ) -> tuple[str, List[Dict[str, Any]]]:
     """
@@ -268,93 +313,30 @@ def generate_dashboard_with_retrieval(
         except Exception as e:
             logger.warning(f"Could not fetch index stats: {e}")
         
-        # Try searching with company-specific namespace first
-        logger.debug(f"Attempting to search Pinecone namespace: '{namespace}'")
+        # Search using metadata filter in default namespace (works for all cases)
+        # Generate slug variations to handle different naming conventions
+        slug_variations = generate_slug_variations(company_slug)
+        
+        metadata_filter = {
+            "company_slug": {"$in": slug_variations}
+        }
+        
+        logger.debug(f"Searching Pinecone with metadata filter for slug variations: {slug_variations}")
         
         search_result = pinecone_index.query(
             vector=query_embedding,
             top_k=top_k,
-            namespace=namespace,
+            namespace="default",
+            filter=metadata_filter,
             include_metadata=True
         )
         
         matches = search_result.get("matches", [])
-        logger.info(f"DEBUG: Pinecone search with namespace '{namespace}' returned {len(matches)} matches")
+        logger.info(f"DEBUG: Pinecone search returned {len(matches)} matches for '{company_slug}'")
         
-        # If no results found in company namespace, search the 'default' namespace instead
+        # If no results, log warning
         if len(matches) == 0:
-            logger.warning(f"No results found in namespace '{namespace}'. Trying 'default' namespace with metadata filtering...")
-            
-            # Adaptive search: keep fetching more results until we have enough or reach the index limit
-            filtered_matches = []
-            fetch_multiplier = 2  # Start with 2x
-            max_attempts = 5  # Limit attempts to avoid excessive queries
-            attempt = 0
-            total_checked = 0  # Track total items checked across attempts
-            
-            while len(filtered_matches) < top_k and attempt < max_attempts:
-                fetch_size = min(top_k * fetch_multiplier, 1000)  # Cap at 1000 (Pinecone limit)
-                logger.debug(f"Attempt {attempt + 1}: Fetching {fetch_size} results (multiplier: {fetch_multiplier}x)...")
-                
-                # Search the default namespace
-                search_result = pinecone_index.query(
-                    vector=query_embedding,
-                    top_k=fetch_size,
-                    namespace="default",
-                    include_metadata=True
-                )
-                
-                all_matches = search_result.get("matches", [])
-                logger.info(f"DEBUG: Fetched {len(all_matches)} total matches from 'default' namespace")
-                total_checked += len(all_matches)
-                
-                if len(all_matches) > 0 and attempt == 0:
-                    # Log what company_slugs we got (only on first attempt)
-                    company_slugs_found = set()
-                    for match in all_matches:
-                        metadata = match.get("metadata", {})
-                        company_slugs_found.add(metadata.get("company_slug", "unknown"))
-                    logger.info(f"DEBUG: Found company_slugs in results: {company_slugs_found}")
-                
-                # Filter results by company_slug in metadata
-                filtered_matches = []
-                for match in all_matches:
-                    metadata = match.get("metadata", {})
-                    match_company_slug = metadata.get("company_slug", "")
-                    # Match both hyphenated and underscored versions
-                    if match_company_slug == company_slug or match_company_slug == company_slug.replace("-", "_"):
-                        filtered_matches.append(match)
-                
-                logger.info(f"DEBUG: After filtering by company_slug '{company_slug}', got {len(filtered_matches)} relevant matches (attempt {attempt + 1})")
-                
-                # If we have enough results, break
-                if len(filtered_matches) >= top_k:
-                    logger.info(f"DEBUG: Got {len(filtered_matches)} results >= requested {top_k}. Stopping search.")
-                    break
-                
-                # Check if we've exhausted the index or found all for this company
-                # If we fetched less than requested, we might be near the end of index
-                if len(all_matches) < fetch_size:
-                    logger.info(f"DEBUG: Fetched only {len(all_matches)} < {fetch_size} requested. Likely reached end of index. Got {len(filtered_matches)} total for {company_slug}.")
-                    break
-                
-                # If we found nothing this attempt and previous attempts also had nothing, stop
-                if len(filtered_matches) == 0:
-                    fetch_multiplier += 1
-                    attempt += 1
-                    logger.debug(f"DEBUG: No matches for {company_slug} yet. Increasing fetch size to {top_k * fetch_multiplier}...")
-                else:
-                    # Got some matches but not enough, continue searching
-                    fetch_multiplier += 1
-                    attempt += 1
-                    logger.debug(f"DEBUG: Got {len(filtered_matches)} matches, still need more. Increasing fetch size...")
-            
-            matches = filtered_matches
-            logger.info(f"DEBUG: Completed adaptive search after {attempt + 1} attempts, checked {total_checked} items total")
-            
-            # If still no results, log available companies
-            if len(matches) == 0:
-                logger.warning(f"No matches found for company_slug '{company_slug}' after {attempt + 1} attempts. Company may not be indexed or has no data.")
+            logger.warning(f"No matches found for company_slug '{company_slug}'. Company may not be indexed or has no data.")
         
         # Convert results to expected format
         search_results = []

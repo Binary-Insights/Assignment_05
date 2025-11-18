@@ -1074,7 +1074,7 @@ async def generate_rag_dashboard(
             pinecone_index=pc.Index(index_name),
             llm_client=llm_client,
             llm_model="gpt-4o",
-            top_k=100,
+            top_k=30,
             temperature=0.1  # Low temperature for deterministic output
         )
         
