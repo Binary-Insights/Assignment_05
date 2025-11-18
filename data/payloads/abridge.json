@@ -11,8 +11,8 @@
     "categories": null,
     "related_companies": null,
     "total_raised_usd": null,
-    "last_disclosed_valuation_usd": null,
-    "last_round_name": null,
+    "last_disclosed_valuation_usd": "5300000000",
+    "last_round_name": "Series E",
     "last_round_date": null,
     "schema_version": "2.0.0",
     "as_of": null,
@@ -179,7 +179,7 @@
       "pricing_tiers_public": null,
       "ga_date": null,
       "integration_partners": null,
-      "github_repo": null,
+      "github_repo": "https://github.com/abridgeio",
       "license_type": null,
       "reference_customers": [
         "Best in KLAS Report"
@@ -344,7 +344,7 @@
   "visibility": [
     {
       "company_id": "abridge",
-      "as_of": "2023-10-06",
+      "as_of": "2023-10-01",
       "news_mentions_30d": null,
       "avg_sentiment": null,
       "github_stars": null,
@@ -353,7 +353,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-06",
+          "crawled_at": "2023-10-01",
           "snippet": null,
           "chunk_id": [
             "abridge_about_09e7a64d#1.0",
