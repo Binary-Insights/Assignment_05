@@ -9,16 +9,22 @@ from pathlib import Path
 
 # Create logs directory if it doesn't exist
 log_dir = Path(__file__).parent.parent.parent / "logs"
-log_dir.mkdir(parents=True, exist_ok=True)
 
-# Setup logging
+# Setup logging handlers
+handlers = [logging.StreamHandler(sys.stderr)]  # MCP uses stderr for logging
+
+# Try to add file handler if we have write permissions
+try:
+    log_dir.mkdir(parents=True, exist_ok=True)
+    handlers.append(logging.FileHandler(log_dir / "mcp_server.log"))
+except (PermissionError, OSError) as e:
+    # If we can't write to logs, just use stderr (e.g., in Docker/Airflow)
+    print(f"Warning: Could not create log file: {e}. Using stderr only.", file=sys.stderr)
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.StreamHandler(sys.stderr),  # MCP uses stderr for logging
-        logging.FileHandler(log_dir / "mcp_server.log")
-    ]
+    handlers=handlers
 )
 
 logger = logging.getLogger(__name__)

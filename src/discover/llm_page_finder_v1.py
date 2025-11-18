@@ -248,7 +248,7 @@ def get_llm() -> Any:
     """Initialize LLM (OpenAI or Anthropic)."""
     # Try OpenAI first
     if ChatOpenAI is not None and os.getenv("OPENAI_API_KEY"):
-        return ChatOpenAI(model="gpt-4o-mini", temperature=0.3)
+        return ChatOpenAI(model="gpt-4o", temperature=0.3)
     
     # Fall back to Anthropic
     if ChatAnthropic is not None and os.getenv("ANTHROPIC_API_KEY"):
@@ -593,7 +593,7 @@ Be precise and specific with your answer."""
                 
                 # Call LLM with Instructor using messages API
                 response = client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model="gpt-4o",
                     response_model=DiscoveredPage,
                     messages=[
                         {

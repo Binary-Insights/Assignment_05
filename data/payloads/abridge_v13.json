@@ -5,7 +5,7 @@
     "brand_name": "Abridge",
     "website": "https://abridge.com/",
     "hq_city": "Pittsburgh",
-    "hq_state": "IL",
+    "hq_state": null,
     "hq_country": "United States",
     "founded_year": "2018",
     "categories": null,
@@ -51,33 +51,24 @@
         "source_urls": [
           "https://www.crunchbase.com/organization/abridge-d1a4",
           "https://www.pentagram.com/work/abridge",
+          "https://hmacademy.com/insights/AI-Catalyst/health-technology/abridge-ai-powered-clinical-documentation-vendor-snapshot",
           "https://www.linkedin.com/company/abridgehq"
         ],
-        "extracted_at": "2025-11-17T01:48:26.661632+00:00",
+        "extracted_at": "2025-11-18T03:54:26.409020+00:00",
         "confidence": 1.0,
-        "reasoning": "The company is consistently referred to as 'Abridge' across multiple sources, indicating that this is the established brand name associated with the company. [Validated: The extracted brand name 'Abridge' is consistently referenced across multiple credible sources, confirming its correctness.]"
+        "reasoning": "The company name 'Abridge' is consistently referenced across all sources as the brand name associated with the company. There are no alternative brand names mentioned in the provided search results. [Validated: The extracted brand name 'Abridge' is consistent across all sources with no alternative names found.]"
       },
       "hq_city": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
-          "https://salestools.io/report/abridge-headquarters",
           "https://craft.co/abridge/locations",
-          "https://websets.exa.ai/websets/directory/abridge-offices"
+          "https://salestools.io/report/abridge-headquarters",
+          "https://www.abridge.com/blog/behind-the-scenes-at-pittsburgh-hq"
         ],
-        "extracted_at": "2025-11-17T01:48:35.422879+00:00",
-        "confidence": 1.0,
-        "reasoning": "Multiple sources consistently identify Pittsburgh as the headquarters city for Abridge, including specific addresses and confirmation from the company's own blog. The information is corroborated across different sources, indicating high confidence in the accuracy of the extraction. [Validated: The extracted value is consistent with multiple reliable sources and the company's own blog, confirming Pittsburgh as the headquarters city.]"
-      },
-      "hq_state": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://www.dupagetownship.com/wp-content/uploads/2021/01/Resolution-20-19.pdf"
-        ],
-        "extracted_at": "2025-11-17T01:48:41.171851+00:00",
-        "confidence": 1.0,
-        "reasoning": "Source 1 explicitly states 'HQ STATE: IL' in the content related to Abridge, providing a clear and direct indication of the headquarters state. [Validated: The extracted value is supported by a direct statement in the source document, confirming the headquarters state as Illinois (IL).]"
+        "extracted_at": "2025-11-18T03:54:36.999751+00:00",
+        "confidence": 0.9,
+        "reasoning": "Multiple sources consistently identify Pittsburgh as the headquarters of Abridge. Sources 1 and 2 provide specific addresses in Pittsburgh, and Source 4 mentions Pittsburgh as the HQ location. Source 3 contradicts this by stating Philadelphia, but it is less reliable compared to the other sources. Therefore, Pittsburgh is extracted as the most credible city. [Validated: Multiple reliable sources confirm Pittsburgh as the headquarters of Abridge, with one less reliable source suggesting Philadelphia. Therefore, the extracted value is deemed valid.]"
       },
       "hq_country": {
         "source": "agentic_rag",
@@ -86,23 +77,22 @@
           "https://salestools.io/report/abridge-headquarters",
           "https://craft.co/abridge/locations"
         ],
-        "extracted_at": "2025-11-17T01:48:47.452762+00:00",
-        "confidence": 1.0,
-        "reasoning": "Both Source 1 and Source 2 clearly state that Abridge is headquartered in Pittsburgh, PA, which is in the United States. The mention of 'United States' in Source 2 further solidifies this extraction. [Validated: The extracted value is consistent with both sources confirming Abridge's headquarters in the United States.]"
+        "extracted_at": "2025-11-18T03:54:56.425896+00:00",
+        "confidence": 0.9,
+        "reasoning": "Multiple sources consistently indicate that Abridge is headquartered in Pittsburgh, PA, which is in the United States. Source 1 and Source 2 confirm the Pittsburgh location, while Source 4 suggests a potential move to San Francisco but does not state it as the current headquarters. Thus, I am confident in stating that the country of the headquarters is the United States. [Validated: The extracted value is validated by multiple sources confirming that Abridge is headquartered in Pittsburgh, PA, USA. The potential move to San Francisco does not negate the current headquarters status.]"
       },
       "founded_year": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
-          "https://research.contrary.com/company/abridge",
           "https://www.linkedin.com/company/abridgehq",
           "https://pitchbook.com/profiles/company/268134-40",
-          "https://www.abridge.com/press-release/abridge-research-collaborative",
-          "https://www.paraform.com/company/abridge"
+          "https://www.paraform.com/company/abridge",
+          "https://exa.ai/websets/directory/abridge-executives"
         ],
-        "extracted_at": "2025-11-17T01:48:54.060939+00:00",
+        "extracted_at": "2025-11-18T03:55:09.022102+00:00",
         "confidence": 1.0,
-        "reasoning": "All sources consistently state that Abridge was founded in 2018, providing a strong consensus on this information. [Validated: All sources confirm that Abridge was founded in 2018, ensuring high confidence in the extracted value.]"
+        "reasoning": "Multiple sources consistently state that Abridge was founded in 2018, including LinkedIn, PitchBook, Paraform, and Exa. This unanimity across reputable sources provides strong confidence in the accuracy of this information. [Validated: The extracted value is validated against multiple reputable sources, all confirming the founding year of Abridge as 2018.]"
       }
     }
   },

@@ -1,0 +1,507 @@
+{
+  "company_record": {
+    "company_id": "world-labs",
+    "legal_name": "WORLD LABS TECHNOLOGIES",
+    "brand_name": "World Labs",
+    "website": "https://www.worldlabs.ai/",
+    "hq_city": "San Francisco",
+    "hq_state": "CA",
+    "hq_country": "United States",
+    "founded_year": null,
+    "categories": [
+      "spatial intelligence",
+      "AI research",
+      "product development"
+    ],
+    "related_companies": null,
+    "total_raised_usd": "230000000",
+    "last_disclosed_valuation_usd": "1000000000",
+    "last_round_name": "Series D",
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-11-01",
+        "snippet": "\u00a9 2024 WORLD LABS TECHNOLOGIES San Francisco, CA",
+        "chunk_id": [
+          "world_labs_about_56b5f13e#16.0",
+          "world_labs_product_ae09d9be#11.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-11-01",
+        "snippet": "World Labs is a leading spatial intelligence company, building frontier world models that can perceive, generate, reason, and interact with the 3D world.",
+        "chunk_id": [
+          "world_labs_about_36cf6502#1.0",
+          "world_labs_about_1389aaa4#2.0"
+        ]
+      }
+    ],
+    "_extraction_metadata": {
+      "website": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.worldlabs.ai/",
+          "https://www.linkedin.com/company/world-labs"
+        ],
+        "extracted_at": "2025-11-17T19:36:30.481661+00:00",
+        "confidence": 1.0,
+        "reasoning": "This URL is directly associated with the company World Labs and provides a clear indication of their online presence. It is presented in the context of their services and offerings, which further supports its authenticity as their official website. [Validated: The extracted URL is confirmed as the official website of World Labs, supported by multiple sources.]"
+      },
+      "hq_country": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crunchbase.com/organization/world-labs",
+          "https://www.bloomberg.com/profile/company/2465887D:US"
+        ],
+        "extracted_at": "2025-11-17T19:36:42.554205+00:00",
+        "confidence": 1.0,
+        "reasoning": "Multiple sources confirm that World Labs is located in San Francisco, California, which is in the United States. The information is consistently reported across different platforms, enhancing its reliability. [Validated: The extracted value is confirmed by multiple reliable sources, ensuring its accuracy and consistency.]"
+      },
+      "total_raised_usd": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://techcrunch.com/2024/09/13/fei-fei-lis-world-labs-comes-out-of-stealth-with-230m-in-funding/",
+          "https://www.implicator.ai/world-models-get-230-million-and-a-100-trillion-story/"
+        ],
+        "extracted_at": "2025-11-17T19:37:23.365350+00:00",
+        "confidence": 1.0,
+        "reasoning": "Multiple sources consistently report that World Labs has raised a total of $230 million in funding. This figure is explicitly stated in several articles, including those from TechCrunch and Clay, and is supported by the other sources as well. [Validated: The extracted value is confirmed by multiple reputable sources reporting the same amount of funding raised by World Labs.]"
+      },
+      "last_disclosed_valuation_usd": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.trueup.io/co/world-labs",
+          "https://www.reddit.com/r/mlscaling/comments/1e63ztq/feifei_li_startup_world_labs_raised_1b_aims_for/",
+          "https://techcrunch.com/2024/08/14/nea-led-a-100m-round-into-fei-fei-lis-new-ai-startup-now-valued-at-over-1b/"
+        ],
+        "extracted_at": "2025-11-17T19:39:11.357556+00:00",
+        "confidence": 1.0,
+        "reasoning": "The valuation of World Labs is consistently reported as $1 billion across multiple sources, including a direct statement in Source 1 and corroborated by Source 2 and Source 4. The information is clear and reliable, indicating that the last disclosed valuation is indeed $1 billion. [Validated: The extracted value is consistent with multiple reliable sources, confirming the last disclosed valuation of World Labs as $1 billion.]"
+      },
+      "last_round_name": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://tracxn.com/d/companies/world-labs/__9k2QeFKxbXi5EffPqD-w46E9BgqtWSgCrLgRK5sEwKE"
+        ],
+        "extracted_at": "2025-11-17T19:39:22.289641+00:00",
+        "confidence": 0.9,
+        "reasoning": "Source 1 explicitly states that the latest funding round for World Labs was a Series D round, which is corroborated by the amount raised and the date. This information is specific and consistent across the source. [Validated: The extracted value is consistent with the source, which confirms that World Labs' latest funding round was indeed a Series D round.]"
+      }
+    }
+  },
+  "events": [
+    {
+      "event_id": "world_labs_event_001",
+      "company_id": "world_labs",
+      "occurred_on": "2024-09-20",
+      "event_type": "other",
+      "title": "A New Frontier",
+      "description": "A look at the next frontier of AI\u2014spatial, world\u2011model\u2011driven experiences\u2014and what they enable for creators and developers.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2024-09-20",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_e1fb6992#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_event_002",
+      "company_id": "world_labs",
+      "occurred_on": "2024-05-16",
+      "event_type": "other",
+      "title": "With Spatial Intelligence, AI Will Understand the Real World",
+      "description": "Fei\u2011Fei Li describes how \u201cspatial intelligence\u201d \u2014 AI that perceives, reasons about and acts within 3D space \u2014 will let machines truly understand and interact with our physical world.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2024-05-16",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_e1fb6992#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_event_003",
+      "company_id": "world_labs",
+      "occurred_on": "2024-12-02",
+      "event_type": "product_release",
+      "title": "Generating Worlds",
+      "description": "Sharing our first step towards spatial intelligence: an AI system that generates 3D worlds from a single image.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2024-12-02",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_aa93ff14#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_event_004",
+      "company_id": "world_labs",
+      "occurred_on": "2025-09-16",
+      "event_type": "product_release",
+      "title": "Generating Bigger and Better Worlds",
+      "description": "Announcing our latest breakthrough in 3D world generation with larger, more detailed environments and improved fidelity.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-09-16",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_42cada63#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_event_005",
+      "company_id": "world_labs",
+      "occurred_on": "2025-10-16",
+      "event_type": "product_release",
+      "title": "RTFM: A Real-Time Frame Model",
+      "description": "A research preview of RTFM, a new generative world model that generates video in real-time as you interact with it.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-10-16",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_42cada63#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_event_006",
+      "company_id": "world_labs",
+      "occurred_on": "2025-11-12",
+      "event_type": "product_release",
+      "title": "Marble: A Multimodal World Model",
+      "description": "Marble, our frontier multimodal world model, is available to everyone starting today.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-12",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_81a8b5f1#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_event_007",
+      "company_id": "world_labs",
+      "occurred_on": "2024-09-20",
+      "event_type": "funding",
+      "title": "World Labs Raises Over $230M in Total Funding",
+      "description": "World Labs has raised more than $230M in total funding led by Martin Casado and Sarah Wang of Andreessen Horowitz, Scott Sandell of NEA, and Jordan Jacobs of Radical Ventures.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 230000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2024-09-20",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_eaafd71d#14.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "world_labs",
+      "as_of": "2023-10-25",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 7,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Infrastructure / Backend Engineer",
+        "Research Scientist \u2013 3D",
+        "Research Scientist \u2013 Generative Modeling",
+        "Senior Product Engineer",
+        "Research Engineer \u2013 3D Reconstruction and Rendering",
+        "Research Engineer \u2013 Machine Learning & Systems",
+        "Research Engineer \u2013 Model Optimization"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Marble"
+      ],
+      "geo_presence": [
+        "San Francisco, CA"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-25",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_careers_634dd088#1.0",
+            "world_labs_careers_9f576a05#2.0",
+            "world_labs_careers_6a53da8f#4.0",
+            "world_labs_careers_10ee287f#2.0",
+            "world_labs_careers_428c7edc#4.0",
+            "world_labs_careers_6925d487#3.0",
+            "world_labs_careers_a017cd8d#3.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-25",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_product_5ac541cd#10.0",
+            "world_labs_product_02770583#1.0",
+            "world_labs_product_ae09d9be#11.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-25",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_36cf6502#1.0",
+            "world_labs_about_56b5f13e#16.0",
+            "world_labs_about_1389aaa4#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "marble",
+      "company_id": "world_labs",
+      "name": "Marble",
+      "description": "Marble is powered by best-in-class generative 3D world models and enables anyone to create spatially cohesive, high-fidelity, and persistent 3D worlds from just a single image, video or text prompt.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2024-10-16",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_4d0b70aa#5.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "fei-fei-li",
+      "company_id": "world_labs",
+      "name": "Fei-Fei Li",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Vice President at Google and served as Chief Scientist of AI/ML at Google Cloud",
+      "education": "Sequoia Professor in the Computer Science Department at Stanford University",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2024-11-10",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_0d988aa7#7.0",
+            "world_labs_about_c2b63bef#3.0",
+            "world_labs_product_02770583#1.0",
+            "world_labs_product_5c4fdd04#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "justin-johnson",
+      "company_id": "world_labs",
+      "name": "Justin Johnson",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Senior Staff Research Scientist at Meta",
+      "education": "Faculty member of the Electrical Engineering and Computer Science Department at the University of Michigan",
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2024-11-10",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_0d988aa7#7.0",
+            "world_labs_about_c2b63bef#3.0",
+            "world_labs_product_781b30a6#4.0",
+            "world_labs_product_fb8194e6#7.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "christoph-lassner",
+      "company_id": "world_labs",
+      "name": "Christoph Lassner",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Staff Research Scientist Manager at Meta Reality Labs Research",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2024-11-10",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_0d988aa7#7.0",
+            "world_labs_about_c2b63bef#3.0",
+            "world_labs_product_781b30a6#4.0",
+            "world_labs_product_87871b5b#8.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "ben-mildenhall",
+      "company_id": "world_labs",
+      "name": "Ben Mildenhall",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": "Senior Research Scientist at Google",
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2024-11-10",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_0d988aa7#7.0",
+            "world_labs_about_c2b63bef#3.0",
+            "world_labs_product_781b30a6#4.0",
+            "world_labs_product_cf4be24b#9.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "world_labs",
+      "as_of": "2023-10-01",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_212bb5b2#1.0",
+            "world_labs_blog_aa93ff14#2.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_product_5ac541cd#10.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-17T19:14:39.855812",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

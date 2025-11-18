@@ -24,13 +24,16 @@ RUN ln -s /usr/bin/chromium-driver /usr/bin/chromedriver || true
 
 USER airflow
 
-# Install additional Python requirements
-COPY requirements.txt /app/requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+# Install additional Python requirements from parent directory
+COPY ../requirements.txt /app/requirements.txt
+# Pin SQLAlchemy to version compatible with Airflow 2.10.4 and exclude it from requirements
+RUN pip install --no-cache-dir "sqlalchemy<2.0.0" && \
+    grep -v "sqlalchemy" /app/requirements.txt > /tmp/requirements_no_sql.txt && \
+    pip install --no-cache-dir -r /tmp/requirements_no_sql.txt
 
-# Copy application code
-COPY src /app/src
-COPY data /app/data
+# Copy application code from parent directory
+COPY ../src /app/src
+COPY ../data /app/data
 
 # Set environment variables
 ENV PYTHONPATH=/app

@@ -30,7 +30,7 @@ LANGSMITH_TRACING_V2: bool = os.getenv("LANGCHAIN_TRACING_V2", "true").lower() =
 # ===========================
 # LLM Configuration
 # ===========================
-LLM_MODEL: str = os.getenv("LLM_MODEL", "gpt-4o-mini")
+LLM_MODEL: str = os.getenv("LLM_MODEL", "gpt-4o")  # Default to gpt-4o if not set
 LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.7"))
 LLM_MAX_TOKENS: int = int(os.getenv("LLM_MAX_TOKENS", "4096"))
 

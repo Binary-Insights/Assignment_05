@@ -5305,11 +5305,228 @@
       "company_name": "World Labs",
       "company_slug": "world-labs",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-13T19:30:44.545661Z",
+      "timestamp": "2025-11-17T19:14:53.148014Z",
       "markdown_file": "markdown/world-labs/structured.md",
-      "content": "## Company Overview\n\nWorld Labs is a private company specializing in spatial intelligence, AI research, and product development. The company is focused on revolutionizing artificial intelligence by developing Large World Models, which extend AI capabilities beyond language and 2D visuals into complex 3D environments, both virtual and real. World Labs is recognized as a leading spatial intelligence company, building frontier world models that can perceive, generate, reason, and interact with the 3D world.\n\n## Business Model and GTM\n\nThe company states that its flagship product, Marble, is powered by best-in-class generative 3D world models. Marble enables users to create spatially cohesive, high-fidelity, and persistent 3D worlds from a single image, video, or text prompt. The company has also released a research preview of RTFM, a generative world model that generates video in real-time as users interact with it. World Labs is exploring the next frontier of AI through spatial, world-model-driven experiences, which are designed to empower creators and developers.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nWorld Labs has released several products and previews, including Marble and RTFM, indicating active development and innovation in the field of spatial intelligence and AI. However, specific growth metrics or user adoption rates are not disclosed.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company is positioned at the forefront of AI development with its focus on spatial intelligence and 3D world modeling. The release of products like Marble and RTFM suggests a commitment to innovation and expanding the capabilities of AI in new dimensions. However, without disclosed funding details or market sentiment, the long-term outlook remains uncertain.\n\n## Disclosure Gaps\n\n- Specific dates for product releases are not disclosed.\n- Funding and investor profiles are not disclosed.\n- Growth metrics, user adoption rates, and market sentiment are not disclosed.\n- Risks and challenges facing the company are not disclosed."
+      "content": "## Company Overview\n\nWORLD LABS TECHNOLOGIES, operating under the brand name World Labs, is headquartered in San Francisco, CA. The company is positioned in the fields of spatial intelligence, AI research, and product development. World Labs is recognized as a leading spatial intelligence company, focusing on building advanced world models that can perceive, generate, reason, and interact with the 3D world.\n\n## Business Model and GTM\n\nWorld Labs is engaged in the development of AI systems that enable the creation of 3D worlds from minimal inputs such as a single image, video, or text prompt. Their flagship product, Marble, exemplifies this capability by allowing users to generate spatially cohesive, high-fidelity, and persistent 3D environments. The company states that its technology is at the frontier of spatial intelligence, offering new possibilities for creators and developers.\n\n## Funding & Investor Profile\n\nWorld Labs has secured over $230 million in total funding. The funding round was led by prominent investors including Martin Casado and Sarah Wang from Andreessen Horowitz, Scott Sandell from NEA, and Jordan Jacobs from Radical Ventures. This strong backing from leading venture capital firms underscores the confidence in World Labs' innovative approach and market potential.\n\n## Growth Momentum\n\nWorld Labs has demonstrated significant progress in its product development, with multiple product releases showcasing advancements in 3D world generation. Notable releases include an AI system capable of generating 3D worlds from a single image and the introduction of Marble, a multimodal world model available to the public. These developments highlight the company's commitment to pushing the boundaries of spatial intelligence.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company is poised to continue its trajectory of innovation in the spatial intelligence domain. With substantial funding and a series of product breakthroughs, World Labs is well-positioned to expand its influence and capabilities in creating immersive 3D environments. The involvement of high-profile investors suggests a positive outlook for future growth and market penetration.\n\n## Disclosure Gaps\n\n- Specific details on the company's business model and go-to-market strategy are not disclosed.\n- Information on market presence and sentiment is not available.\n- Risks and challenges facing the company are not disclosed.\n- Dates for events and product releases are unspecified.\n- Detailed roles and contributions of leadership team members are not provided."
     },
-    "rag": null
+    "rag": {
+      "company_name": "World Labs",
+      "company_slug": "world-labs",
+      "pipeline_type": "rag",
+      "timestamp": "2025-11-17T19:06:57.381386Z",
+      "markdown_file": "markdown/world-labs/rag.md",
+      "content": "## Company Overview\n\nWorld Labs is a frontier AI research and product company specializing in spatial intelligence. The company focuses on building foundational world models that can perceive, generate, reason, and interact with the 3D world. Founded by visionary AI pioneer Fei-Fei Li, along with Justin Johnson, Christoph Lassner, and Ben Mildenhall, World Labs aims to revolutionize artificial intelligence by developing Large World Models that extend AI capabilities beyond language and 2D visuals into complex 3D environments.\n\n## Business Model and GTM\n\nThe company states that its first product, Marble, is powered by generative 3D world models, enabling users to create spatially cohesive, high-fidelity, and persistent 3D worlds from a single image, video, or text prompt. World Labs positions itself as a leader in spatial intelligence, unlocking new forms of storytelling, creativity, design, simulation, and immersive experiences across both virtual and physical worlds.\n\n## Funding & Investor Profile\n\nSupported by world-class investors, World Labs has not disclosed specific details about its funding rounds or investor profiles.\n\n## Growth Momentum\n\nWorld Labs is actively hiring for various full-time positions at its San Francisco headquarters, indicating growth and expansion. The company is focused on research and development in areas such as 3D reconstruction, rendering, machine learning, and systems engineering.\n\n## Visibility & Market Sentiment\n\nThe company has been featured in various updates and news articles, highlighting its innovations in spatial intelligence and generative AI. The launch of Marble and other research initiatives like RTFM (Real-Time Frame Model) have been publicized, contributing to its visibility in the AI and tech community.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nWorld Labs is poised to continue its trajectory as a leader in spatial intelligence and generative AI. With a strong foundation in research and a focus on developing cutting-edge products, the company is well-positioned to impact the future of AI-driven creativity and interaction with 3D environments.\n\n## Disclosure Gaps\n\n- Specific funding details and investor profiles are not disclosed.\n- Risks and challenges facing the company are not disclosed.",
+      "context_results": [
+        {
+          "id": "world_labs_careers_9f576a05",
+          "similarity_score": 0.346969604,
+          "text": "We're looking for the overachievers, the visionaries, and the relentless innovators who aren't satisfied with the status quo. You know that person who's always dreaming up the next big breakthrough? That's us. And we want you to be part of it.\nOpen Positions\n(7)\nFilters:\nReset filters\nDepartment\nAll Departments\nWorld Labs HQ\nLocation\nAll Locations\nSan Francisco Office (HQ)\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nWorld Labs HQ\nInfrastructure / Backend Engineer",
+          "metadata": {
+            "chunk_index": 2.0,
+            "company_slug": "world_labs",
+            "content_hash": "9f576a05",
+            "indexed_at": "2025-11-13T19:29:25.668528",
+            "page_type": "careers",
+            "source_file": "data/raw/world_labs/careers/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_about_36cf6502",
+          "similarity_score": 0.339834213,
+          "text": "About | World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\nAbout Us\nWorld Labs is a leading spatial intelligence company, building frontier world models that can perceive, generate, reason, and interact with the 3D world.\nWorld Labs is a frontier AI research and product company.",
+          "metadata": {
+            "chunk_index": 1.0,
+            "company_slug": "world_labs",
+            "content_hash": "36cf6502",
+            "indexed_at": "2025-11-13T19:29:25.664378",
+            "page_type": "about",
+            "source_file": "data/raw/world_labs/about/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_about_4d0b70aa",
+          "similarity_score": 0.312421799,
+          "text": "Our first product, Marble, is powered by best-in-class generative 3D world models and enables anyone to create spatially cohesive, high-fidelity, and persistent 3D worlds from just a single image, video or text prompt.\nJoin us\nSupported by world-class investors\nUnleash your creativity\nwith Marble\nCreate with Marble\nAbout\nResearch & Insights\nMarble Labs\nCareers\nTerms of Service\nPrivacy Policy\n© 2025 WORLD LABS. All Rights Reserved.\nWORLD LABS™ is a trademark of its respective owner.",
+          "metadata": {
+            "chunk_index": 5.0,
+            "company_slug": "world_labs",
+            "content_hash": "4d0b70aa",
+            "indexed_at": "2025-11-13T19:29:25.664474",
+            "page_type": "about",
+            "source_file": "data/raw/world_labs/about/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_blog_81a8b5f1",
+          "similarity_score": 0.307403564,
+          "text": "Research & Insights | World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\nResearch & Insights\nUpdates and news from the World Labs team.\nNovember 12, 2025\nWorld Labs team\nMarble: A Multimodal World Model\nMarble, our frontier multimodal world model, is available to everyone starting today\nRead More →\nNovember 10, 2025\nDr. Fei-Fei Li\nFrom Words to Worlds: Spatial Intelligence is AI’s Next Frontier",
+          "metadata": {
+            "chunk_index": 1.0,
+            "company_slug": "world_labs",
+            "content_hash": "81a8b5f1",
+            "indexed_at": "2025-11-13T19:29:25.666512",
+            "page_type": "blog",
+            "source_file": "data/raw/world_labs/blog/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_about_c2b63bef",
+          "similarity_score": 0.305002242,
+          "text": "World Labs was founded by visionary AI pioneer Fei-Fei Li along with Justin Johnson, Christoph Lassner, and Ben Mildenhall, each a world-renowned technologist in machine learning, generative AI, computer vision, and graphics. We bring together a world-class team, united by a shared curiosity, passion, and deep backgrounds in technology — from AI research to systems engineering to product design — creating a tight feedback loop between our cutting-edge research and products that empower our",
+          "metadata": {
+            "chunk_index": 3.0,
+            "company_slug": "world_labs",
+            "content_hash": "c2b63bef",
+            "indexed_at": "2025-11-13T19:29:25.664422",
+            "page_type": "about",
+            "source_file": "data/raw/world_labs/about/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_careers_6a53da8f",
+          "similarity_score": 0.294807434,
+          "text": "World Labs HQ • San Francisco Office (HQ) • Full time\nResearch Scientist – 3D\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Scientist – Generative Modeling\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nSenior Product Engineer\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nPowered by\nAshby\nPrivacy Policy\nSecurity\nVulnerability Disclosure",
+          "metadata": {
+            "chunk_index": 4.0,
+            "company_slug": "world_labs",
+            "content_hash": "6a53da8f",
+            "indexed_at": "2025-11-13T19:29:25.668555",
+            "page_type": "careers",
+            "source_file": "data/raw/world_labs/careers/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_blog_32a7ab52",
+          "similarity_score": 0.286914825,
+          "text": "Read More →\nUnleash your creativity\nwith Marble\nCreate with Marble\nAbout\nResearch & Insights\nMarble Labs\nCareers\nTerms of Service\nPrivacy Policy\n© 2025 WORLD LABS. All Rights Reserved.\nWORLD LABS™ is a trademark of its respective owner.",
+          "metadata": {
+            "chunk_index": 6.0,
+            "company_slug": "world_labs",
+            "content_hash": "32a7ab52",
+            "indexed_at": "2025-11-13T19:29:25.666591",
+            "page_type": "blog",
+            "source_file": "data/raw/world_labs/blog/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_about_1389aaa4",
+          "similarity_score": 0.282497406,
+          "text": "World Labs is a frontier AI research and product company.\nWe build foundational world models that can perceive, generate, reason, and interact with the 3D world — unlocking AI's full potential through spatial intelligence by transforming seeing into doing, perceiving into reasoning, and imagining into creating. We believe spatial intelligence will unlock new forms of storytelling, creativity, design, simulation, and immersive experiences across both virtual and physical worlds.",
+          "metadata": {
+            "chunk_index": 2.0,
+            "company_slug": "world_labs",
+            "content_hash": "1389aaa4",
+            "indexed_at": "2025-11-13T19:29:25.664406",
+            "page_type": "about",
+            "source_file": "data/raw/world_labs/about/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_about_193d6413",
+          "similarity_score": 0.27589798,
+          "text": "— creating a tight feedback loop between our cutting-edge research and products that empower our users.",
+          "metadata": {
+            "chunk_index": 4.0,
+            "company_slug": "world_labs",
+            "content_hash": "193d6413",
+            "indexed_at": "2025-11-13T19:29:25.664457",
+            "page_type": "about",
+            "source_file": "data/raw/world_labs/about/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_product_6fa0527e",
+          "similarity_score": 0.275398254,
+          "text": "World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\n404\nPage Not Found\nSorry, the page you’re looking for doesn’t exist. It may have been moved or deleted.\nGo Home\nUnleash your creativity\nwith Marble\nCreate with Marble\nAbout\nResearch & Insights\nMarble Labs\nCareers\nTerms of Service\nPrivacy Policy\n© 2025 WORLD LABS. All Rights Reserved.\nWORLD LABS™ is a trademark of its respective owner.",
+          "metadata": {
+            "chunk_index": 1.0,
+            "company_slug": "world_labs",
+            "content_hash": "6fa0527e",
+            "indexed_at": "2025-11-13T19:29:25.670107",
+            "page_type": "product",
+            "source_file": "data/raw/world_labs/product/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_careers_634dd088",
+          "similarity_score": 0.258310348,
+          "text": "World Labs Jobs\nAt World Labs, our mission is to revolutionize artificial intelligence by developing Large World Models, taking AI beyond language and 2D visuals into the realm of complex 3D environments, both virtual and real. We're the team that's envisioning a future where AI doesn't just process information, but truly understands and interacts with the world around us.",
+          "metadata": {
+            "chunk_index": 1.0,
+            "company_slug": "world_labs",
+            "content_hash": "634dd088",
+            "indexed_at": "2025-11-13T19:29:25.668505",
+            "page_type": "careers",
+            "source_file": "data/raw/world_labs/careers/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_careers_a017cd8d",
+          "similarity_score": 0.250946045,
+          "text": "All Employment Types\nFull time\nNo filters applied\nWorld Labs HQ\nInfrastructure / Backend Engineer\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Engineer – 3D Reconstruction and Rendering\nWorld Labs HQ • San Francisco Office (HQ) • Full time • On-site\nResearch Engineer – Machine Learning & Systems\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Engineer – Model Optimization\nWorld Labs HQ • San Francisco Office (HQ) • Full time\nResearch Scientist – 3D",
+          "metadata": {
+            "chunk_index": 3.0,
+            "company_slug": "world_labs",
+            "content_hash": "a017cd8d",
+            "indexed_at": "2025-11-13T19:29:25.668542",
+            "page_type": "careers",
+            "source_file": "data/raw/world_labs/careers/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_blog_e1fb6992",
+          "similarity_score": 0.228719711,
+          "text": "Read More →\nSeptember 20, 2024\nWorld Labs team\nA New Frontier\nA look at the next frontier of AI—spatial, world‑model‑driven experiences—and what they enable for creators and developers.\nRead More →\nMay 16, 2024\nFei‑Fei Li\nWith Spatial Intelligence, AI Will Understand the Real World\nFei‑Fei Li describes how “spatial intelligence” — AI that perceives, reasons about and acts within 3D space — will let machines truly understand and interact with our physical world.\nRead More →",
+          "metadata": {
+            "chunk_index": 5.0,
+            "company_slug": "world_labs",
+            "content_hash": "e1fb6992",
+            "indexed_at": "2025-11-13T19:29:25.666580",
+            "page_type": "blog",
+            "source_file": "data/raw/world_labs/blog/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_blog_26f2cd3f",
+          "similarity_score": 0.223054886,
+          "text": "November 10, 2025\nDr. Fei-Fei Li\nFrom Words to Worlds: Spatial Intelligence is AI’s Next Frontier\nA manifesto piece explaining what spatial intelligence is, why it matters, and how we’re building the world models that will unlock it—with impact that will reshape creativity, embodied intelligence, and human progress.\nRead More →\nOctober 16, 2025\nWorld Labs team\nRTFM: A Real-Time Frame Model",
+          "metadata": {
+            "chunk_index": 2.0,
+            "company_slug": "world_labs",
+            "content_hash": "26f2cd3f",
+            "indexed_at": "2025-11-13T19:29:25.666537",
+            "page_type": "blog",
+            "source_file": "data/raw/world_labs/blog/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_blog_208be4a3",
+          "similarity_score": 0.221843719,
+          "text": "Read More →\nDecember 2, 2024\nWorld Labs team\nGenerating Worlds\nSharing our early progress toward persistent, navigable 3D worlds you can explore in your browser.\nRead More →\nMore Articles\nOctober 28, 2025\nChristoph Lassner\nContent 3.0 in the GenAI Era\nChristoph Lassner on how generative AI leads to a new medium with dynamically evolving characters and worlds-and what this means for storytelling and the future of digital content.\nRead More →\nSeptember 20, 2024\nWorld Labs team\nA New Frontier",
+          "metadata": {
+            "chunk_index": 4.0,
+            "company_slug": "world_labs",
+            "content_hash": "208be4a3",
+            "indexed_at": "2025-11-13T19:29:25.666566",
+            "page_type": "blog",
+            "source_file": "data/raw/world_labs/blog/text.txt"
+          }
+        },
+        {
+          "id": "world_labs_blog_42cada63",
+          "similarity_score": 0.212200165,
+          "text": "Read More →\nOctober 16, 2025\nWorld Labs team\nRTFM: A Real-Time Frame Model\nA research preview of RTFM, a new generative world model that generates video in real-time as you interact with it.\nRead More →\nSeptember 16, 2025\nWorld Labs team\nGenerating Bigger and Better Worlds\nAnnouncing our latest breakthrough in 3D world generation with larger, more detailed environments and improved fidelity.\nRead More →\nDecember 2, 2024\nWorld Labs team\nGenerating Worlds",
+          "metadata": {
+            "chunk_index": 3.0,
+            "company_slug": "world_labs",
+            "content_hash": "42cada63",
+            "indexed_at": "2025-11-13T19:29:25.666554",
+            "page_type": "blog",
+            "source_file": "data/raw/world_labs/blog/text.txt"
+          }
+        }
+      ]
+    }
   },
   "abridge": {
     "company_name": "Abridge",
@@ -5318,29 +5535,68 @@
       "company_name": "Abridge",
       "company_slug": "abridge",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-17T23:40:51.683048Z",
+      "timestamp": "2025-11-18T14:41:07.830818Z",
       "markdown_file": "markdown/abridge/structured.md",
-      "content": "## Company Overview\n\nAbridge AI, Inc. is a private company focused on transforming healthcare interactions through artificial intelligence. The company leverages its AI platform to convert conversations into actionable insights, aiming to enhance understanding and interactions between clinicians and patients. The leadership team includes Shiv Rao, MD, Zack Lipton, PhD, Julia Chou, Brian Wilson, Sagar Sanghvi, and Tim Hwang.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nThe company has recently expanded its leadership team with key hires, including Sagar Sanghvi as Chief Financial Officer, Tim Hwang as General Counsel, Julia Chou as Chief Operating Officer, and Brian Wilson, all of whom bring expertise in healthcare and technology to the company. These leadership changes suggest a strategic focus on enhancing patient-provider interactions and integrating advanced technology with empathy in healthcare.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that its AI platform is designed to transform conversations into insights, which could position Abridge as a significant player in the healthcare technology space. The recent leadership additions indicate a commitment to strengthening its operational and strategic capabilities.\n\n## Disclosure Gaps\n\n- Business model and go-to-market strategy details are not disclosed.\n- Funding history and investor profile are not disclosed.\n- Specific growth metrics and market sentiment data are not disclosed.\n- Risks and challenges facing the company are not disclosed."
+      "content": "## Company Overview\n\nAbridge AI, Inc., branded as Abridge, is a private company founded in 2018 and headquartered in San Francisco, California, United States. The company operates in the category of \"Generative AI for Clinical Conversations.\" Abridge's primary product is the Abridge AI Platform, which focuses on enhancing clinical conversations through generative AI technology.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nAbridge recently completed a Series E funding round, raising $300 million. This round has brought the company's valuation to $5.3 billion. The company has a significant relationship with Epic Systems, which is noted as a related company.\n\n## Growth Momentum\n\nAbridge is experiencing a hiring spike, with 53 open positions across various departments, including Engineering, Product, and Operations. This indicates a phase of expansion and scaling within the company.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nAbridge has faced a security incident involving individuals fraudulently representing themselves as Abridge recruiters. The company has issued warnings and guidance to mitigate this risk.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Detailed business model and go-to-market strategy are not disclosed.\n- Specific investor profiles and names are not disclosed.\n- Market sentiment and visibility details are not provided.\n- Future outlook and strategic plans are not disclosed."
     },
     "rag": {
       "company_name": "Abridge",
       "company_slug": "abridge",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-13T21:15:46.415188Z",
+      "timestamp": "2025-11-17T18:54:26.479227Z",
       "markdown_file": "markdown/abridge/rag.md",
-      "content": "## Company Overview\n\nAbridge is a private AI startup focused on transforming healthcare conversations into actionable insights. The company leverages AI to enhance medical interactions, aiming to empower clinicians, create clarity for patients, and drive efficiencies in healthcare. Abridge positions itself as a pioneer in generative AI for healthcare, with a mission to deepen understanding in the sector through purpose-built AI solutions.\n\n## Business Model and GTM\n\nThe company states that its platform is designed to support clinicians, revenue cycle management, and nursing through AI-driven insights. Abridge's go-to-market strategy appears to focus on integrating its AI solutions into healthcare workflows to improve clinician-patient interactions and streamline healthcare processes.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nAbridge has been featured in various announcements and publications, indicating a level of visibility in the healthcare and AI sectors. The company emphasizes its commitment to building trusted AI in healthcare, as highlighted in its policy announcements.\n\n## Risks and Challenges\n\nThe company acknowledges the challenges inherent in healthcare and technology integration. It emphasizes the importance of empathy and understanding in deploying AI solutions responsibly. Abridge also warns against recruitment fraud, indicating a proactive approach to safeguarding its brand and potential hires.\n\n## Outlook\n\nThe company is optimistic about the transformative potential of AI in healthcare, with leadership expressing a commitment to improving clinician lives and patient interactions. Abridge's focus on AI-driven efficiencies suggests a forward-looking approach to addressing healthcare challenges.\n\n## Disclosure Gaps\n\n- Specific details on funding and investor profiles are not disclosed.\n- Growth metrics and specific market sentiment data are not provided.\n- Detailed information on the company's financial performance and strategic partnerships is not available.",
+      "content": "## Company Overview\n\nAbridge is a private AI startup focused on transforming healthcare conversations into actionable insights. The company aims to empower clinicians, enhance patient clarity, and drive efficiencies in healthcare through its purpose-built AI solutions. Abridge is recognized for its innovative approach in leveraging generative AI to improve medical conversations and outcomes.\n\n## Business Model and GTM\n\nThe company states that its mission is to power deeper understanding in healthcare by providing AI-driven insights. Abridge's business model likely involves offering AI solutions to healthcare providers, focusing on improving clinician-patient interactions and optimizing revenue cycle management. The company operates across various offices, including San Francisco, New York City, and Pittsburgh, with a hybrid work model for many roles.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nAbridge has been featured in reports such as the \"Best in KLAS Report\" and the \"Scale & Impact Report,\" indicating a positive market presence and recognition in the healthcare AI sector. The company also maintains a news feed and customer hub to engage with its audience and stakeholders.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is pioneering in the field of generative AI for healthcare, suggesting a forward-looking approach to innovation and market leadership. Abridge's focus on enhancing medical conversations positions it well to address ongoing challenges in healthcare communication and efficiency.\n\n## Disclosure Gaps\n\n- Specific funding details and investor profiles are not disclosed.\n- Growth metrics and specific market sentiment data are not available.\n- Detailed risks and challenges faced by the company are not provided.",
       "context_results": [
         {
+          "id": "abridge_careers_5d15c928",
+          "similarity_score": 0.380802155,
+          "text": "$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel\nLegal - Product • United States - Remote • Full time • Remote\n$220K – $250K • Offers Equity\nOperations\nMarketing\nSenior Brand Designer\nMarketing • SF Office; NYC Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Growth & CRM Marketer\nMarketing • NYC Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management",
+          "metadata": {
+            "chunk_index": 20.0,
+            "company_slug": "abridge",
+            "content_hash": "5d15c928",
+            "indexed_at": "2025-11-14T17:12:02.200324",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
           "id": "abridge_about_140f49f4",
-          "similarity_score": 0.379341155,
+          "similarity_score": 0.378959656,
           "text": "Contact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
           "metadata": {
             "chunk_index": 9.0,
             "company_slug": "abridge",
             "content_hash": "140f49f4",
-            "indexed_at": "2025-11-13T20:29:08.161394",
+            "indexed_at": "2025-11-15T14:14:52.189600",
             "page_type": "about",
             "source_file": "data/raw/abridge/about/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_33812742",
+          "similarity_score": 0.37846756,
+          "text": "$123.2K – $144.9K • Offers Equity\nExecutive\nExecutive Operations Partner to the Office of the CEO (NYC)\nExecutive • NYC Office • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist",
+          "metadata": {
+            "chunk_index": 18.0,
+            "company_slug": "abridge",
+            "content_hash": "33812742",
+            "indexed_at": "2025-11-14T17:12:02.200309",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_2d75818a",
+          "similarity_score": 0.377830505,
+          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • NYC Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • PGH Office; CHI Office; SF Office; NYC Office • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nExecutive",
+          "metadata": {
+            "chunk_index": 17.0,
+            "company_slug": "abridge",
+            "content_hash": "2d75818a",
+            "indexed_at": "2025-11-14T17:12:02.200303",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
           }
         },
         {
@@ -5352,6 +5608,19 @@
             "company_slug": "abridge",
             "content_hash": "70ddfbb0",
             "indexed_at": "2025-11-13T15:29:32.018556",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_04797073",
+          "similarity_score": 0.37096405,
+          "text": "$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management\nMarketing • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Web Designer\nMarketing • NYC Office; SF Office • Full time • Remote\n$150K – $170K • Offers Equity\nOperations\nMarketing\nGrowth\nDemand Generation Marketer\nGrowth • NYC Office • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist\nPeople Ops • SF Office • Full time • Hybrid",
+          "metadata": {
+            "chunk_index": 21.0,
+            "company_slug": "abridge",
+            "content_hash": "04797073",
+            "indexed_at": "2025-11-14T17:12:02.200330",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
@@ -5383,6 +5652,58 @@
           }
         },
         {
+          "id": "abridge_careers_6ae90e5f",
+          "similarity_score": 0.362407684,
+          "text": "ML Science Manager\nScience • SF Office • Full time • Hybrid\nNurse Scientist (RN)\nScience • San Francisco-Onsite; SF Office; NYC Office; New York-Onsite • Full time • Hybrid\n$180K – $250K • Offers Equity\nCommercial\nSales Director - Commercial (MT/PST)\nCommercial • United States - Remote • Full time • Remote\n$100K – $120K • Offers Equity • Offers Commission\nCommercial\nPartner Experience\nImplementation\nImplementation Manager - Strategic Accounts",
+          "metadata": {
+            "chunk_index": 11.0,
+            "company_slug": "abridge",
+            "content_hash": "6ae90e5f",
+            "indexed_at": "2025-11-14T17:12:02.200270",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_9aa29fb6",
+          "similarity_score": 0.36233139,
+          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • NYC Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • SF Office; Seattle • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
+          "metadata": {
+            "chunk_index": 16.0,
+            "company_slug": "abridge",
+            "content_hash": "9aa29fb6",
+            "indexed_at": "2025-11-14T17:12:02.200297",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_about_42010519",
+          "similarity_score": 0.357399017,
+          "text": "Publications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us\nWe Transform Conversations Into Insights With Ai\nOur mission is to power deeper understanding in healthcare through purpose-built AI.\n“We’re giving agency back to clinicians, creating clarity for patients, and establishing radical efficiencies to transform healthcare from the conversation up.”\nShiv Rao, MD\nCEO, Founder",
+          "metadata": {
+            "chunk_index": 2.0,
+            "company_slug": "abridge",
+            "content_hash": "42010519",
+            "indexed_at": "2025-11-15T14:14:52.189573",
+            "page_type": "about",
+            "source_file": "data/raw/abridge/about/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_1d9b4649",
+          "similarity_score": 0.355110168,
+          "text": "$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist\nData Science • San Francisco-Onsite; SF Office • Full time\n$165K – $215K • Offers Equity\nOperations\nFinance\nFinance Operations\nFinancial Operations Lead\nFinance Operations • SF Office • Full time • Hybrid\n$127.5K – $141.6K • Offers Equity\nPayroll Manager\nFinance Operations • SF Office • Full time • Hybrid\n$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel",
+          "metadata": {
+            "chunk_index": 19.0,
+            "company_slug": "abridge",
+            "content_hash": "1d9b4649",
+            "indexed_at": "2025-11-14T17:12:02.200314",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
           "id": "abridge_careers_e035aa15",
           "similarity_score": 0.354831696,
           "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • Pittsburgh-Hybrid; Chicago-Hybrid; San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid",
@@ -5397,13 +5718,13 @@
         },
         {
           "id": "abridge_blog_ec1b2fac",
-          "similarity_score": 0.353714019,
+          "similarity_score": 0.353614807,
           "text": "Customers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
           "metadata": {
             "chunk_index": 4.0,
             "company_slug": "abridge",
             "content_hash": "ec1b2fac",
-            "indexed_at": "2025-11-13T15:29:32.015460",
+            "indexed_at": "2025-11-14T17:12:02.193813",
             "page_type": "blog",
             "source_file": "data/raw/abridge/blog/text.txt"
           }
@@ -5435,6 +5756,19 @@
           }
         },
         {
+          "id": "abridge_product_cc20cf4d",
+          "similarity_score": 0.348644286,
+          "text": "Platform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
+          "metadata": {
+            "chunk_index": 14.0,
+            "company_slug": "abridge",
+            "content_hash": "cc20cf4d",
+            "indexed_at": "2025-11-14T17:12:02.229701",
+            "page_type": "product",
+            "source_file": "data/raw/abridge/product/text.txt"
+          }
+        },
+        {
           "id": "abridge_careers_22d269df",
           "similarity_score": 0.347755462,
           "text": "$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist\nData Science • San Francisco-Onsite; San Francisco-Hybrid • Full time\n$165K – $215K • Offers Equity\nOperations\nFinance\nFinance Operations\nFinancial Operations Lead\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $141.6K • Offers Equity\nPayroll Manager\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product",
@@ -5443,6 +5777,19 @@
             "company_slug": "abridge",
             "content_hash": "22d269df",
             "indexed_at": "2025-11-13T15:29:32.018535",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_71598339",
+          "similarity_score": 0.341579437,
+          "text": "$163.7K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director - Nursing\nPartner Success - Clinical Success • NYC Office; PGH Office • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity • $30K Bonus\nSenior Director, Clinical Success\nPartner Success - Clinical Success • SF Office; NYC Office; CHI Office; PGH Office • Full time • Hybrid\n$174.4K – $272.7K • Offers Equity • $34.9K – $54.5K Bonus\nCommercial\nPartner Experience\nPartner Success - Enterprise and Commercial",
+          "metadata": {
+            "chunk_index": 14.0,
+            "company_slug": "abridge",
+            "content_hash": "71598339",
+            "indexed_at": "2025-11-14T17:12:02.200286",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
@@ -5474,6 +5821,32 @@
           }
         },
         {
+          "id": "abridge_careers_0b8a84fe",
+          "similarity_score": 0.332508117,
+          "text": "Abridge Jobs\nOpen Positions\n(53)\nFilters:\nReset filters\nDepartment\nAll Departments\nBuilder\nFoundations Engineering\nPlatform Engineering\nSecurity\nML Engineering\nProduct\nProduct Design\nProduct Engineering\nScience\nCommercial\nPartner Experience\nImplementation\nImplementation - Nursing\nPartner Success - Clinical Success\nPartner Success - Enterprise and Commercial\nPartner Success - Key\nPX Operations\nExecutive\nOperations\nCore Operations\nData Science\nFinance\nFinance Operations\nLegal\nLegal - Product",
+          "metadata": {
+            "chunk_index": 1.0,
+            "company_slug": "abridge",
+            "content_hash": "0b8a84fe",
+            "indexed_at": "2025-11-14T17:12:02.200174",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_aff8f5f5",
+          "similarity_score": 0.332485199,
+          "text": "Commercial\nPartner Experience\nImplementation\nImplementation Manager - Strategic Accounts\nImplementation • SF Office; Seattle • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nCommercial\nPartner Experience\nImplementation - Nursing\nImplementation Director - Nursing\nImplementation - Nursing • SF Office; Seattle • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity\nCommercial\nPartner Experience\nPartner Success - Clinical Success\nClinical Success Director",
+          "metadata": {
+            "chunk_index": 12.0,
+            "company_slug": "abridge",
+            "content_hash": "aff8f5f5",
+            "indexed_at": "2025-11-14T17:12:02.200274",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
           "id": "abridge_careers_a3d0d96d",
           "similarity_score": 0.332204819,
           "text": "Commercial\nPartner Experience\nPartner Success - Enterprise and Commercial\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus",
@@ -5487,27 +5860,40 @@
           }
         },
         {
-          "id": "abridge_careers_0b8a84fe",
-          "similarity_score": 0.332119,
-          "text": "Abridge Jobs\nOpen Positions\n(53)\nFilters:\nReset filters\nDepartment\nAll Departments\nBuilder\nFoundations Engineering\nPlatform Engineering\nSecurity\nML Engineering\nProduct\nProduct Design\nProduct Engineering\nScience\nCommercial\nPartner Experience\nImplementation\nImplementation - Nursing\nPartner Success - Clinical Success\nPartner Success - Enterprise and Commercial\nPartner Success - Key\nPX Operations\nExecutive\nOperations\nCore Operations\nData Science\nFinance\nFinance Operations\nLegal\nLegal - Product",
+          "id": "abridge_careers_bebaddbb",
+          "similarity_score": 0.330509186,
+          "text": "Commercial\nPartner Experience\nPartner Success - Clinical Success\nClinical Success Director\nPartner Success - Clinical Success • SF Office • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $29.4K – $38.5K Bonus\nClinical Success Director\nPartner Success - Clinical Success • SF Office • Full time • Hybrid\n$163.2K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director\nPartner Success - Clinical Success • CHI Office • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $30K Bonus",
           "metadata": {
-            "chunk_index": 1.0,
+            "chunk_index": 13.0,
             "company_slug": "abridge",
-            "content_hash": "0b8a84fe",
-            "indexed_at": "2025-11-13T15:29:32.017936",
+            "content_hash": "bebaddbb",
+            "indexed_at": "2025-11-14T17:12:02.200279",
+            "page_type": "careers",
+            "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_careers_a2203d54",
+          "similarity_score": 0.32824707,
+          "text": "Commercial\nPartner Experience\nPartner Success - Enterprise and Commercial\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • CHI Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • PGH Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus",
+          "metadata": {
+            "chunk_index": 15.0,
+            "company_slug": "abridge",
+            "content_hash": "a2203d54",
+            "indexed_at": "2025-11-14T17:12:02.200291",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
         },
         {
           "id": "abridge_blog_c839bc87",
-          "similarity_score": 0.327503204,
+          "similarity_score": 0.327102661,
           "text": "Read more\nAnnouncements\nPosted\nNovember 10, 2025\nby\nAbridge\nCaitlin Clark and Abridge at Becker's CEO + CFO\nRead more\nAnnouncements\nPosted\nNovember 4, 2025\nby\nAbridge\nBecker’s: Voices of Healthcare\nRead more\nPrevious\nView more\nPlatform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies",
           "metadata": {
             "chunk_index": 3.0,
             "company_slug": "abridge",
             "content_hash": "c839bc87",
-            "indexed_at": "2025-11-13T15:29:32.015450",
+            "indexed_at": "2025-11-14T17:12:02.193807",
             "page_type": "blog",
             "source_file": "data/raw/abridge/blog/text.txt"
           }
@@ -5527,343 +5913,450 @@
         },
         {
           "id": "abridge_about_5a6f770b",
-          "similarity_score": 0.324975967,
+          "similarity_score": 0.325128555,
           "text": "Sagar Sanghvi\nChief Financial Officer\nI joined Abridge because Abridge’s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year.\nTim Hwang\nGeneral Counsel\nTechnology is nothing without empathy. I joined Abridge because it's a rare company that marries the most cutting-edge technology with a real, palpable understanding of the biggest challenges facing healthcare.\nOur core values\nLearn more\n01\nThe obstacle is the way",
           "metadata": {
             "chunk_index": 5.0,
             "company_slug": "abridge",
             "content_hash": "5a6f770b",
-            "indexed_at": "2025-11-13T20:29:08.161343",
+            "indexed_at": "2025-11-15T14:14:52.189584",
             "page_type": "about",
             "source_file": "data/raw/abridge/about/text.txt"
           }
         },
         {
-          "id": "abridge_careers_758294af",
-          "similarity_score": 0.320289642,
-          "text": "$135K – $145K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist\nPeople Ops • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nPeople\nTalent\nSenior Technical Sourcer\nTalent • San Francisco-Hybrid • Full time • Hybrid\n$150K – $177K • Offers Equity\nStaying safe - Protect yourself from recruitment fraud",
-          "metadata": {
-            "chunk_index": 23.0,
-            "company_slug": "abridge",
-            "content_hash": "758294af",
-            "indexed_at": "2025-11-13T15:29:32.018579",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_92bcfe2b",
-          "similarity_score": 0.316806823,
-          "text": "Pioneers in Generative AI for Healthcare | About Abridge\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nClose this dialog\nThis website utilizes technologies such as \nClose \nWatch the love stories that inspire us\nLove Stories\nWatch the love stories that inspire us\nWatch Video\nSkip to main content\nPlatform\nClinicians\nRevenue Cycle\nNursing\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report",
+          "id": "abridge_about_09e7a64d",
+          "similarity_score": 0.323345184,
+          "text": "Pioneers in Generative AI for Healthcare | About Abridge\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nThis website utilizes technologies such as \nWatch the love stories that inspire us\nLove Stories\nWatch the love stories that inspire us\nWatch Video\nSkip to main content\nPlatform\nClinicians\nRevenue Cycle\nNursing\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator",
           "metadata": {
             "chunk_index": 1.0,
             "company_slug": "abridge",
-            "content_hash": "92bcfe2b",
-            "indexed_at": "2025-11-13T20:29:08.161234",
+            "content_hash": "09e7a64d",
+            "indexed_at": "2025-11-15T14:14:52.189523",
             "page_type": "about",
             "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_dce88dcb",
-          "similarity_score": 0.31501773,
-          "text": "$182.5K – $203K • Offers Equity\nStaff Product Designer\nProduct Design • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$215K – $229.5K • Offers Equity\nBuilder\nProduct Engineering\nEngineering Manager, Core Notes\nProduct Engineering • San Francisco-Hybrid • Full time • Hybrid\n$215K – $275K • Offers Equity\nEngineering Manager, EHR Integrations\nProduct Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$215K – $275K • Offers Equity",
-          "metadata": {
-            "chunk_index": 8.0,
-            "company_slug": "abridge",
-            "content_hash": "dce88dcb",
-            "indexed_at": "2025-11-13T15:29:32.018125",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_191d7e55",
-          "similarity_score": 0.310287476,
-          "text": "Contextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us\nWe Transform Conversations Into Insights With Ai\nOur mission is to power deeper understanding in healthcare through purpose-built AI.\n“We’re giving agency back to clinicians, creating clarity for patients, and establishing radical efficiencies to transform healthcare from the conversation up.”",
-          "metadata": {
-            "chunk_index": 2.0,
-            "company_slug": "abridge",
-            "content_hash": "191d7e55",
-            "indexed_at": "2025-11-13T20:29:08.161270",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_c04e76ee",
-          "similarity_score": 0.309108734,
-          "text": "$215K – $275K • Offers Equity\nFull Stack Engineer, Integrations\nProduct Engineering • San Francisco-Remote • Full time • Remote\n$185K – $265K • Offers Equity\nFull Stack Engineering (New Grad)\nProduct Engineering • San Francisco-Hybrid • Full time • Hybrid\n$155K – $165K • Offers Equity\nMobile Engineer (All Levels)\nProduct Engineering • San Francisco-Hybrid; New York City-Hybrid; New York-Onsite; San Francisco-Onsite • Full time • Hybrid\n$162K – $234K • Offers Equity\nSenior Backend Engineer",
-          "metadata": {
-            "chunk_index": 9.0,
-            "company_slug": "abridge",
-            "content_hash": "c04e76ee",
-            "indexed_at": "2025-11-13T15:29:32.018154",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_8e43e139",
-          "similarity_score": 0.308990479,
-          "text": "Executive\nOperations\nCore Operations\nData Science\nFinance\nFinance Operations\nLegal\nLegal - Product\nMarketing\nGrowth\nPeople\nPeople Ops\nTalent\nLocation\nAll Locations\nChicago-Hybrid\nNew York City-Hybrid\nNew York-Onsite\nPittsburgh-Hybrid\nSan Francisco-Hybrid\nSan Francisco-Onsite\nSan Francisco-Remote\nSeattle\nUnited States-Remote\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nBuilder\nFoundations Engineering\nPlatform Engineering\nSenior Engineering Manager, Platform",
-          "metadata": {
-            "chunk_index": 2.0,
-            "company_slug": "abridge",
-            "content_hash": "8e43e139",
-            "indexed_at": "2025-11-13T15:29:32.017959",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_14f24a6d",
-          "similarity_score": 0.30896759,
-          "text": "05\nHonor humanity\nWe empathize with the needs of our users, accounting for their daily challenges and aspirations. We develop a deep understanding of how we can best serve them, earning and maintaining trust.\nExcited to help make an impact?\nJoin our team\nPlatform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub",
-          "metadata": {
-            "chunk_index": 8.0,
-            "company_slug": "abridge",
-            "content_hash": "14f24a6d",
-            "indexed_at": "2025-11-13T20:29:08.161384",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_fadb9a6b",
-          "similarity_score": 0.308795929,
-          "text": "$182K – $254K • Offers Equity\nSenior/Staff Enterprise Security Engineer\nSecurity • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$182K – $254K • Offers Equity\nBuilder\nML Engineering\nEngineering Manager, GenAI Platform\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$220K – $275K • Offers Equity\nHead of AI Platform\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$270K – $340K • Offers Equity\nMachine Learning Infrastructure Engineer",
-          "metadata": {
-            "chunk_index": 5.0,
-            "company_slug": "abridge",
-            "content_hash": "fadb9a6b",
-            "indexed_at": "2025-11-13T15:29:32.018072",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_420bcdbb",
-          "similarity_score": 0.305540085,
-          "text": "$162K – $234K • Offers Equity\nSenior Backend Engineer\nProduct Engineering • San Francisco-Onsite; San Francisco-Hybrid • Full time • Hybrid\n$185K – $265K • Offers Equity • Will reimburse up to $10,000 USD for relocation expenses for candidates willing to relocate to the San Francisco Bay area.\nSoftware Engineer (All Levels)\nProduct Engineering • San Francisco-Onsite; New York-Onsite; New York City-Hybrid; San Francisco-Hybrid • Full time\n$162K – $234K • Offers Equity\nBuilder\nScience",
-          "metadata": {
-            "chunk_index": 10.0,
-            "company_slug": "abridge",
-            "content_hash": "420bcdbb",
-            "indexed_at": "2025-11-13T15:29:32.018167",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_f89ab9fe",
-          "similarity_score": 0.300140411,
-          "text": "Shiv Rao, MD\nCEO, Founder\nmeet the Leadership team behind abridge\nWe're\nclinicia\nShiv Rao, MD\nCEO, Co-Founder\nWorking at Abridge gives me the opportunity to advocate for patients the way I do at my weekly clinic, but at scale.\nZack Lipton, PhD\nCTO, Co-Founder\nThis is the moment when AI transforms healthcare. I joined Abridge to improve clinician lives by pushing the frontiers of this technology and rolling it out responsibly.\nJulia Chou\nChief Operating Officer",
-          "metadata": {
-            "chunk_index": 3.0,
-            "company_slug": "abridge",
-            "content_hash": "f89ab9fe",
-            "indexed_at": "2025-11-13T20:29:08.161285",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_7a9745f5",
-          "similarity_score": 0.300086975,
-          "text": "Shiv Rao, MD\nCEO, Founder\nmeet the Leadership team behind abridge\nWe're\nclinic\nShiv Rao, MD\nCEO, Co-Founder\nWorking at Abridge gives me the opportunity to advocate for patients the way I do at my weekly clinic, but at scale.\nZack Lipton, PhD\nCTO, Co-Founder\nThis is the moment when AI transforms healthcare. I joined Abridge to improve clinician lives by pushing the frontiers of this technology and rolling it out responsibly.\nJulia Chou\nChief Operating Officer",
-          "metadata": {
-            "chunk_index": 3.0,
-            "company_slug": "abridge",
-            "content_hash": "7a9745f5",
-            "indexed_at": "2025-11-13T15:29:32.013214",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_84bbdbda",
-          "similarity_score": 0.299654037,
-          "text": "$163.2K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director\nPartner Success - Clinical Success • San Francisco-Hybrid • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $29.4K – $38.5K Bonus\nClinical Success Director\nPartner Success - Clinical Success • Chicago-Hybrid • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director - Nursing\nPartner Success - Clinical Success • New York City-Hybrid; Pittsburgh-Hybrid • Full time • Hybrid",
-          "metadata": {
-            "chunk_index": 14.0,
-            "company_slug": "abridge",
-            "content_hash": "84bbdbda",
-            "indexed_at": "2025-11-13T15:29:32.018223",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_3770716e",
-          "similarity_score": 0.297523499,
-          "text": "$270K – $340K • Offers Equity\nMachine Learning Infrastructure Engineer\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$179K – $248K\nML Operations, Full Stack (New Grad)\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$155K – $165K • Offers Equity\nSoftware Engineer, Gen AI Platform\nML Engineering • San Francisco-Hybrid • Full time • Hybrid\n$162K – $234K\nBuilder\nProduct\nSenior Product Manager\nProduct • San Francisco-Hybrid; San Francisco-Onsite • Full time • Hybrid",
-          "metadata": {
-            "chunk_index": 6.0,
-            "company_slug": "abridge",
-            "content_hash": "3770716e",
-            "indexed_at": "2025-11-13T15:29:32.018097",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_blog_82453668",
-          "similarity_score": 0.291740417,
-          "text": "Insights and Innovations in AI for Healthcare | Abridge Blog\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nClose this dialog\nThis website utilizes technologies such as \nClose \nSkip to main content\nPlatform\nClinicians\nRevenue Cycle\nNursing\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us",
-          "metadata": {
-            "chunk_index": 1.0,
-            "company_slug": "abridge",
-            "content_hash": "82453668",
-            "indexed_at": "2025-11-13T15:29:32.015409",
-            "page_type": "blog",
-            "source_file": "data/raw/abridge/blog/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_42468d33",
-          "similarity_score": 0.285469085,
-          "text": "Julia Chou\nChief Operating Officer\nHealthcare is inherently human. Working at Abridge means I can help restore connection and meaning to every clinician-patient visit.\nBrian Wilson\nChief Commercial Officer\nI joined Abridge to help transform the patient-provider interaction that is fundamental to healthcare.\nSagar Sanghvi\nChief Financial Officer",
-          "metadata": {
-            "chunk_index": 4.0,
-            "company_slug": "abridge",
-            "content_hash": "42468d33",
-            "indexed_at": "2025-11-13T20:29:08.161326",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_blog_f1388ab9",
-          "similarity_score": 0.284912109,
-          "text": "Impact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us\nNews feed\nall categories\nAnnouncements\nCustomer Stories\nHealthcare\nMachine Learning\nPolicy\nProduct & Design\nFeatured\nReal Time Prior Authorization at the Point of Conversation\nAnnouncements\nPosted\nAugust 12, 2025\nby\nAbridge\nRead more\nRead more\nRecent\nPolicy\nPosted\nNovember 13, 2025\nby\nTim Hwang\nAbridge’s Principles for Building Trusted AI in Healthcare\nRead more\nAnnouncements\nPosted\nNovember 10, 2025\nby",
-          "metadata": {
-            "chunk_index": 2.0,
-            "company_slug": "abridge",
-            "content_hash": "f1388ab9",
-            "indexed_at": "2025-11-13T15:29:32.015437",
-            "page_type": "blog",
-            "source_file": "data/raw/abridge/blog/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_eb82d8e2",
-          "similarity_score": 0.281225234,
-          "text": "Our core values\nLearn more\n01\nThe obstacle is the way\nWe embrace challenges and transform constraints into unique solutions. Obstacles don’t deter us—we find a way to move around them, flowing like water.\n02\nChoose action\nWe ship, learn, iterate, and empower each other to maintain momentum. We focus on reducing cycle time, working together to figure out how to do things better and faster. We work in a blameless culture, with a relentless pursuit for continuous improvement.\n03\nTaste good things",
-          "metadata": {
-            "chunk_index": 6.0,
-            "company_slug": "abridge",
-            "content_hash": "eb82d8e2",
-            "indexed_at": "2025-11-13T20:29:08.161357",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_751f25c7",
-          "similarity_score": 0.274341583,
-          "text": "$162K – $234K • Offers Equity\nBuilder\nScience\nMachine Learning Scientist (All Levels)\nScience • San Francisco-Hybrid; New York City-Hybrid; New York-Onsite; San Francisco-Onsite • Full time • Hybrid\n$200K – $300K • Offers Equity\nML Science Manager\nScience • San Francisco-Hybrid • Full time • Hybrid\nNurse Scientist (RN)\nScience • San Francisco-Onsite; San Francisco-Hybrid; New York City-Hybrid; New York-Onsite • Full time • Hybrid\n$180K – $250K • Offers Equity\nCommercial",
-          "metadata": {
-            "chunk_index": 11.0,
-            "company_slug": "abridge",
-            "content_hash": "751f25c7",
-            "indexed_at": "2025-11-13T15:29:32.018179",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_e44245fc",
-          "similarity_score": 0.272930145,
-          "text": "03\nTaste good things\nWe’re curious people and it makes sense—you have to taste good things to have good taste. As lifelong learners, we continuously seek knowledge and the ‘why’ behind the ‘what.’ We love nerding out.\n04\nHelp others win\nWe leave egos behind in pursuit of achieving success as a team. Success for us is a team sport and we use constructive feedback to help each other achieve growth.\n05\nHonor humanity",
-          "metadata": {
-            "chunk_index": 7.0,
-            "company_slug": "abridge",
-            "content_hash": "e44245fc",
-            "indexed_at": "2025-11-13T20:29:08.161370",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_19ba1269",
-          "similarity_score": 0.271905929,
-          "text": "Platform Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$162K – $234K\nBuilder\nFoundations Engineering\nSecurity\nSenior/Staff Application Security Engineer\nSecurity • New York-Onsite; San Francisco-Hybrid; San Francisco-Onsite; New York City-Hybrid • Full time • Hybrid\n$185K – $265K • Offers Equity\nSenior/Staff Cloud Security Engineer\nSecurity • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$182K – $254K • Offers Equity",
-          "metadata": {
-            "chunk_index": 4.0,
-            "company_slug": "abridge",
-            "content_hash": "19ba1269",
-            "indexed_at": "2025-11-13T15:29:32.018029",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_a325d9df",
-          "similarity_score": 0.267406464,
-          "text": "Builder\nFoundations Engineering\nPlatform Engineering\nSenior Engineering Manager, Platform\nPlatform Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$245K – $320K • Offers Equity\nSenior Platform Engineer\nPlatform Engineering • San Francisco-Onsite; New York-Onsite; New York City-Hybrid; San Francisco-Hybrid • Full time\n$162K – $234K • Offers Equity\nSenior Software Engineer, SRE\nPlatform Engineering • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid",
-          "metadata": {
-            "chunk_index": 3.0,
-            "company_slug": "abridge",
-            "content_hash": "a325d9df",
-            "indexed_at": "2025-11-13T15:29:32.017992",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_c82771fd",
-          "similarity_score": 0.246612549,
-          "text": "$150K – $177K • Offers Equity\nStaying safe - Protect yourself from recruitment fraud\nWe are aware of individuals and entities fraudulently representing themselves as Abridge recruiters and/or hiring managers. Abridge will never ask for financial information or payment, or for personal information such as bank account number or social security number during the job application or interview process. Any emails from the Abridge recruiting team will come from an @\nabridge.com",
-          "metadata": {
-            "chunk_index": 24.0,
-            "company_slug": "abridge",
-            "content_hash": "c82771fd",
-            "indexed_at": "2025-11-13T15:29:32.018591",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_blog_6858d285",
-          "similarity_score": 0.234657288,
-          "text": "Copyright ©\n2025\nAbridge Al, Inc.\nContact us",
-          "metadata": {
-            "chunk_index": 5.0,
-            "company_slug": "abridge",
-            "content_hash": "6858d285",
-            "indexed_at": "2025-11-13T15:29:32.015470",
-            "page_type": "blog",
-            "source_file": "data/raw/abridge/blog/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_6858d285",
-          "similarity_score": 0.234657288,
-          "text": "Copyright ©\n2025\nAbridge Al, Inc.\nContact us",
-          "metadata": {
-            "chunk_index": 10.0,
-            "company_slug": "abridge",
-            "content_hash": "6858d285",
-            "indexed_at": "2025-11-13T20:29:08.161404",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_c3a0a730",
-          "similarity_score": 0.21962738,
-          "text": "abridge.com\nemail address. You can learn more about how to protect yourself from these types of fraud by referring to\nthis article\n. Please exercise caution and cease communications if something feels suspicious about your interactions.\nPowered by\nAshby\nPrivacy Policy\nSecurity\nVulnerability Disclosure",
-          "metadata": {
-            "chunk_index": 25.0,
-            "company_slug": "abridge",
-            "content_hash": "c3a0a730",
-            "indexed_at": "2025-11-13T15:29:32.018608",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
           }
         }
       ]
+    }
+  },
+  "clay": {
+    "company_name": "Clay",
+    "company_slug": "clay",
+    "structured": null,
+    "rag": {
+      "company_name": "Clay",
+      "company_slug": "clay",
+      "pipeline_type": "rag",
+      "timestamp": "2025-11-17T18:59:17.873158Z",
+      "markdown_file": "markdown/clay/rag.md",
+      "content": "## Company Overview\n\nClay is a private AI startup focused on building creative tools for growth teams. The company provides solutions that help businesses automate prospecting, research, and growth marketing. Clay's product offerings include tools like Claygent for AI-driven research, Sculptor for building GTM workflows, and Signals for tracking job changes and social mentions.\n\n## Business Model and GTM\n\nClay operates a SaaS business model, offering a suite of tools designed to enhance sales and marketing efforts through automation and AI. The company targets both enterprise clients and startups, providing solutions that enable quick launch of growth campaigns and building robust data foundations for GTM workflows. Key features include multi-provider data enrichment, AI formula generation, and CRM data integration.\n\n## Funding & Investor Profile\n\nClay raised a Series C expansion fundraise at a $3.1 billion valuation in 2025. The company is backed by prominent investors, including Elena Verna (Head of Growth, Dropbox), Scott Belsky (CPO, Adobe), and Maggie Hott (GTM Leader, OpenAI). Sequoia led a $1.5 billion tender offer for Clay, highlighting strong investor confidence.\n\n## Growth Momentum\n\nClay has demonstrated significant growth momentum, as evidenced by its high-profile customer base, which includes OpenAI, Vanta, Verkada, Sendoso, Anthropic, and Rippling. The company has been recognized in various publications, such as Forbes and TechCrunch, for its innovative approach and market impact.\n\n## Visibility & Market Sentiment\n\nThe company has garnered positive market sentiment, being described as a \"secret weapon\" for companies like Anthropic and OpenAI. Clay has been featured in major publications, including Forbes and the NY Times, and has been named to the Enterprise Tech 30 list.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is on a mission to grow and continues to innovate in the AI sales and marketing space. With strong backing from world-class investors and a robust product lineup, Clay is well-positioned to capitalize on the growing demand for AI-driven sales and marketing solutions.\n\n## Disclosure Gaps\n\n- Specific revenue figures and financial performance metrics are not disclosed.\n- Detailed information on competitive landscape and market share is not provided.\n- Risks and challenges facing the company are not disclosed.",
+      "context_results": [
+        {
+          "id": "clay_about_f0a53ad8",
+          "similarity_score": 0.448371917,
+          "text": "Backed by world-class investors\nWe raised our\nSeries C expansion fundraise at a $3.1B valuation\nin 2025. We're grateful to have the best venture capital and angel investors in the world on our team. Below are just a few of the incredible investors who are part of our journey.\nElena Verna\nHead of Growth, Dropbox\nScott Belsky\nCPO, Adobe\nStevie Case\nCRO, Vanta\nMaggie Hott\nGTM Leader, OpenAI\nOliver Jay\nHead of OpenAI International, Prev. CRO of Asana\nIdan Koren\nCMO, Verkada\nMatt MacInnis",
+          "metadata": {
+            "chunk_index": 38.0,
+            "company_slug": "clay",
+            "content_hash": "f0a53ad8",
+            "indexed_at": "2025-11-13T22:24:53.023469",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_careers_d82fee89",
+          "similarity_score": 0.443409,
+          "text": "Pricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog\nWhy we built the first GTM engineering team\nAI for sales prospecting\nWhy good CRM data matters\nGoogle maps lead generation in 5 easy steps",
+          "metadata": {
+            "chunk_index": 55.0,
+            "company_slug": "clay",
+            "content_hash": "d82fee89",
+            "indexed_at": "2025-11-13T22:24:53.079730",
+            "page_type": "careers",
+            "source_file": "data/raw/clay/careers/text.txt"
+          }
+        },
+        {
+          "id": "clay_blog_d82fee89",
+          "similarity_score": 0.443092346,
+          "text": "Pricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog\nWhy we built the first GTM engineering team\nAI for sales prospecting\nWhy good CRM data matters\nGoogle maps lead generation in 5 easy steps",
+          "metadata": {
+            "chunk_index": 135.0,
+            "company_slug": "clay",
+            "content_hash": "d82fee89",
+            "indexed_at": "2025-11-13T22:24:53.060639",
+            "page_type": "blog",
+            "source_file": "data/raw/clay/blog/text.txt"
+          }
+        },
+        {
+          "id": "clay_blog_5dee5a19",
+          "similarity_score": 0.434135437,
+          "text": "Join Slack\nSubscribe on Youtube\nFollow on LinkedIn\nTurn your growth ideas into reality today\nStart your 14-day Pro trial today. No credit card required.\nStart building for free\nGet a demo\nGo to market with unique data—and the ability to act on it\nStart building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences\nSignals\nIntegrations\nMulti-provider data enrichment\nAI formula generator\nAI Research agent\nPricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling",
+          "metadata": {
+            "chunk_index": 134.0,
+            "company_slug": "clay",
+            "content_hash": "5dee5a19",
+            "indexed_at": "2025-11-13T22:24:53.060626",
+            "page_type": "blog",
+            "source_file": "data/raw/clay/blog/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_b76e0ca8",
+          "similarity_score": 0.423418045,
+          "text": "Oliver Jay\nHead of OpenAI International, Prev. CRO of Asana\nIdan Koren\nCMO, Verkada\nMatt MacInnis\nCOO, Rippling\nJeff Sinclair\nHead of GTM Data, Stripe\nPress\nIn the wild\nThe word is spreading — read about us in the news below.\n“A secret weapon for Anthropic and OpenAI.”\nForbes\nRead article\nPrevious\nNext\nArticle — NY Times\nClay raises $100M Series C at a $3.1B valuation\nRead article\nRead article\nArticle — TechCrunch\nSequoia leads $1.5B tender offer for sales automation startup Clay\nRead article",
+          "metadata": {
+            "chunk_index": 39.0,
+            "company_slug": "clay",
+            "content_hash": "b76e0ca8",
+            "indexed_at": "2025-11-13T22:24:53.023481",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_careers_51f449a8",
+          "similarity_score": 0.411331177,
+          "text": "Social media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favourite tools",
+          "metadata": {
+            "chunk_index": 6.0,
+            "company_slug": "clay",
+            "content_hash": "51f449a8",
+            "indexed_at": "2025-11-13T22:24:53.078959",
+            "page_type": "careers",
+            "source_file": "data/raw/clay/careers/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_665e193f",
+          "similarity_score": 0.409873962,
+          "text": "Explore open jobs\nWe make creative tools to help people\ngrow\ntheir\nbusinesses\n.\nWe help teams get the best data foundation possible to reach their best-fit customers.\nWe care about helping people grow businesses: whether taking a solo dream to a small team or scaling a mature enterprise company.\nGrowing a business means finding and reaching customers who need your product. That requires deep research which, historically, demanded huge investments in tooling, money, and manual labor.",
+          "metadata": {
+            "chunk_index": 11.0,
+            "company_slug": "clay",
+            "content_hash": "665e193f",
+            "indexed_at": "2025-11-13T22:24:53.020718",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_product_51f449a8",
+          "similarity_score": 0.409637481,
+          "text": "Social media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favourite tools",
+          "metadata": {
+            "chunk_index": 6.0,
+            "company_slug": "clay",
+            "content_hash": "51f449a8",
+            "indexed_at": "2025-11-13T22:24:53.086068",
+            "page_type": "product",
+            "source_file": "data/raw/clay/product/text.txt"
+          }
+        },
+        {
+          "id": "clay_blog_51f449a8",
+          "similarity_score": 0.408882141,
+          "text": "Social media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nFeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nNew\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nNew\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favourite tools",
+          "metadata": {
+            "chunk_index": 6.0,
+            "company_slug": "clay",
+            "content_hash": "51f449a8",
+            "indexed_at": "2025-11-13T22:24:53.053580",
+            "page_type": "blog",
+            "source_file": "data/raw/clay/blog/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_e983d471",
+          "similarity_score": 0.405883789,
+          "text": "Start building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences\nSignals\nIntegrations\nMulti-provider data enrichment\nAI formula generator\nAI Research agent\nPricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog",
+          "metadata": {
+            "chunk_index": 44.0,
+            "company_slug": "clay",
+            "content_hash": "e983d471",
+            "indexed_at": "2025-11-13T22:24:53.023624",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_product_e983d471",
+          "similarity_score": 0.405536652,
+          "text": "Start building for free\nProduct\nLogin\nSculptor\nSequencer\nAudiences\nSignals\nIntegrations\nMulti-provider data enrichment\nAI formula generator\nAI Research agent\nPricing\nChangelog\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nRippling\nCustomer stories\nCustomers\nOpenAI\nVanta\nVerkada\nSendoso\nAnthropic\nCoverflex\nTools\nEmail finder\nHeadcount finder\nCredits calculator\nChrome extension\nLookup WHOIS info\nCPM calculator\nMargin calculator\nHeadcount directory\nGlossary\nDossier\nJob board\nBlog",
+          "metadata": {
+            "chunk_index": 40.0,
+            "company_slug": "clay",
+            "content_hash": "e983d471",
+            "indexed_at": "2025-11-13T22:24:53.086492",
+            "page_type": "product",
+            "source_file": "data/raw/clay/product/text.txt"
+          }
+        },
+        {
+          "id": "clay_product_6a3c90d0",
+          "similarity_score": 0.401958466,
+          "text": "GTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nPartner Program\nSolutions at the Cutting Edge\nClay Solutions Partners deliver top-tier AI-powered GTM work, signaling to clients your technical expertise, leadership, and service quality.\nStart Your Application",
+          "metadata": {
+            "chunk_index": 10.0,
+            "company_slug": "clay",
+            "content_hash": "6a3c90d0",
+            "indexed_at": "2025-11-13T22:24:53.086118",
+            "page_type": "product",
+            "source_file": "data/raw/clay/product/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_1b0c83b0",
+          "similarity_score": 0.399169922,
+          "text": "Read article\nRead article\nArticle — Sequoia\nPartnering with Clay: On a Mission to Grow\nRead article\nRead article\nArticle — Nasdaq\nCelebrating the 2024 Wing Enterprise Tech 30\nRead article\nRead article\nArticle — Forbes\nNext Billion Dollar Startups 2024\nRead article\nRead article\nPodcast — Pavilion\nHow Clay Built a $500M Series B Company\nRead article\nRead article\nArticle — EnterpriseTech\nClay named to 2024 Enterprise Tech 30 list\nRead article\nRead article\nPodcast — First Round Capital",
+          "metadata": {
+            "chunk_index": 42.0,
+            "company_slug": "clay",
+            "content_hash": "1b0c83b0",
+            "indexed_at": "2025-11-13T22:24:53.023595",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_product_cfb766a9",
+          "similarity_score": 0.397418976,
+          "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts",
+          "metadata": {
+            "chunk_index": 3.0,
+            "company_slug": "clay",
+            "content_hash": "cfb766a9",
+            "indexed_at": "2025-11-13T22:24:53.086029",
+            "page_type": "product",
+            "source_file": "data/raw/clay/product/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_9831d5f0",
+          "similarity_score": 0.397333145,
+          "text": "Read article\nRead article\nPodcast — First Round Review\nInside Clay's unconventional path to $1.25B\nRead article\nRead article\nArticle — Next play\nSpotlight: Learn about what it's like to work at Clay\nRead article\nRead article\nArticle — First Round Review\nClay’s Path to Product-Market Fit\nRead article\nRead article\nArticle — Bloomberg\nSequoia, Meritech Invest in AI Sales and Marketing Startup Clay\nRead article\nRead article\nArticle — Sequoia\nPartnering with Clay: On a Mission to Grow\nRead article",
+          "metadata": {
+            "chunk_index": 41.0,
+            "company_slug": "clay",
+            "content_hash": "9831d5f0",
+            "indexed_at": "2025-11-13T22:24:53.023504",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_blog_cfb766a9",
+          "similarity_score": 0.397222519,
+          "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts",
+          "metadata": {
+            "chunk_index": 3.0,
+            "company_slug": "clay",
+            "content_hash": "cfb766a9",
+            "indexed_at": "2025-11-13T22:24:53.048606",
+            "page_type": "blog",
+            "source_file": "data/raw/clay/blog/text.txt"
+          }
+        },
+        {
+          "id": "clay_careers_cfb766a9",
+          "similarity_score": 0.396944046,
+          "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts",
+          "metadata": {
+            "chunk_index": 3.0,
+            "company_slug": "clay",
+            "content_hash": "cfb766a9",
+            "indexed_at": "2025-11-13T22:24:53.078914",
+            "page_type": "careers",
+            "source_file": "data/raw/clay/careers/text.txt"
+          }
+        },
+        {
+          "id": "clay_careers_92590c6f",
+          "similarity_score": 0.391527176,
+          "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+          "metadata": {
+            "chunk_index": 8.0,
+            "company_slug": "clay",
+            "content_hash": "92590c6f",
+            "indexed_at": "2025-11-13T22:24:53.078986",
+            "page_type": "careers",
+            "source_file": "data/raw/clay/careers/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_92590c6f",
+          "similarity_score": 0.391294479,
+          "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+          "metadata": {
+            "chunk_index": 8.0,
+            "company_slug": "clay",
+            "content_hash": "92590c6f",
+            "indexed_at": "2025-11-13T22:24:53.020680",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_blog_92590c6f",
+          "similarity_score": 0.390575409,
+          "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+          "metadata": {
+            "chunk_index": 8.0,
+            "company_slug": "clay",
+            "content_hash": "92590c6f",
+            "indexed_at": "2025-11-13T22:24:53.053629",
+            "page_type": "blog",
+            "source_file": "data/raw/clay/blog/text.txt"
+          }
+        },
+        {
+          "id": "clay_careers_5e797a6c",
+          "similarity_score": 0.390537262,
+          "text": "additional help\nGetting started\nCreators\nSolutions partners\nIntegrations partners\nClaybooks\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up",
+          "metadata": {
+            "chunk_index": 5.0,
+            "company_slug": "clay",
+            "content_hash": "5e797a6c",
+            "indexed_at": "2025-11-13T22:24:53.078944",
+            "page_type": "careers",
+            "source_file": "data/raw/clay/careers/text.txt"
+          }
+        },
+        {
+          "id": "clay_product_92590c6f",
+          "similarity_score": 0.390460968,
+          "text": "Sales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nClaybooks\nBuild powerful workflows with Clay and other tools\nExperts\nNeed help scaling your outbound? Hire a Clay expert\nGTME blog",
+          "metadata": {
+            "chunk_index": 8.0,
+            "company_slug": "clay",
+            "content_hash": "92590c6f",
+            "indexed_at": "2025-11-13T22:24:53.086092",
+            "page_type": "product",
+            "source_file": "data/raw/clay/product/text.txt"
+          }
+        },
+        {
+          "id": "clay_product_5e797a6c",
+          "similarity_score": 0.390239716,
+          "text": "additional help\nGetting started\nCreators\nSolutions partners\nIntegrations partners\nClaybooks\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up",
+          "metadata": {
+            "chunk_index": 5.0,
+            "company_slug": "clay",
+            "content_hash": "5e797a6c",
+            "indexed_at": "2025-11-13T22:24:53.086055",
+            "page_type": "product",
+            "source_file": "data/raw/clay/product/text.txt"
+          }
+        },
+        {
+          "id": "clay_blog_5e797a6c",
+          "similarity_score": 0.390151978,
+          "text": "additional help\nGetting started\nCreators\nSolutions partners\nIntegrations partners\nClaybooks\nFAQ\ntools\nEmail finder\nWHOIS lookup\nGTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nCustomer stories\nLearn how GTM teams use Clay to level up their outbound motion!\nSocial media\nLinkedIn\nYouTube\nPress\nCustomers\nPricing\nGet a demo\nLogin\nSign up",
+          "metadata": {
+            "chunk_index": 5.0,
+            "company_slug": "clay",
+            "content_hash": "5e797a6c",
+            "indexed_at": "2025-11-13T22:24:53.052054",
+            "page_type": "blog",
+            "source_file": "data/raw/clay/blog/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_bd636bfe",
+          "similarity_score": 0.387308121,
+          "text": "Sequencer\nAutomate and launch personalized email outreach\nRecurring workflows\nCRM enrichment & hygiene\nTAM sourcing\nWaterfall enrichment\nAccount & lead scoring\nAutomated inbound\nAutomated outbound\nadditional\nAI formula generator\nSalesforce package\nChangelog\nSecurity\nSolutions\nby team\nRevOps\nProspect, enrich, and clean your CRM automatically\nSales\nAutomate your prospecting and research\nGrowth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise",
+          "metadata": {
+            "chunk_index": 2.0,
+            "company_slug": "clay",
+            "content_hash": "bd636bfe",
+            "indexed_at": "2025-11-13T22:24:53.020586",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_9a6473f6",
+          "similarity_score": 0.386379272,
+          "text": "About | Clay.com\nSkip to main\nCopy logo to clipboard (png)\nCopied!\nCopy icon to clipboard (png)\nCopied!\nDownload brand assets\nDownloaded!\nProduct\nfeatures\nClaygent\nResearch target companies and people with AI\nSculptor\nBuild GTM workflows with natural language\nSignals\nTrack job changes, news, social mentions, and more\nAudiences\nCombine signals, enrichment, and CRM data in Clay\nIntegrations\nConnect to 150+ providers and your favorite tools\nSequencer\nAutomate and launch personalized email outreach",
+          "metadata": {
+            "chunk_index": 1.0,
+            "company_slug": "clay",
+            "content_hash": "9a6473f6",
+            "indexed_at": "2025-11-13T22:24:53.020550",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_a961b661",
+          "similarity_score": 0.385141373,
+          "text": "Sequoia leads $1.5B tender offer for sales automation startup Clay\nRead article\nRead article\nArticle — Enterprise Tech 30\nClay named #1 mid-stage company on ENT30 list\nRead article\nRead article\nArticle — Forbes\nClay Named the Only GTM Company on Forbes’ 2025 AI 50 List\nRead article\nRead article\nArticle — Forbes\nClay, A Secret Weapon For Anthropic And OpenAI, Boosts Valuation To $1.3 Billion\nRead article\nRead article\nPodcast — First Round Review\nInside Clay's unconventional path to $1.25B",
+          "metadata": {
+            "chunk_index": 40.0,
+            "company_slug": "clay",
+            "content_hash": "a961b661",
+            "indexed_at": "2025-11-13T22:24:53.023492",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_e3347812",
+          "similarity_score": 0.381530762,
+          "text": "GTME job board\nCompany\nour company\nCareers\nLearn about our team – and apply to join us\nAbout\nWe build creative tools for growth teams\nEarly career opportunities\nKickstart your career with us\nSocial media\nLinkedIn\nYouTube\nPress\nEnterprise\nPricing\nLogin\nGet a demo\nGet a demo\nLogin\nSign up\nAbout\nWelcome to Clay\nWe build creative tools for growth teams.\nExplore open jobs\nWe make creative tools to help people\ngrow\ntheir\nbusinesses\n.",
+          "metadata": {
+            "chunk_index": 10.0,
+            "company_slug": "clay",
+            "content_hash": "e3347812",
+            "indexed_at": "2025-11-13T22:24:53.020705",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_about_bb90203a",
+          "similarity_score": 0.381271392,
+          "text": "Growth marketing\nTargeted campaigns across every channel\nby company type\nEnterprise\nBuild the data foundation for any GTM workflow\nStartups\nLaunch growth campaigns quickly without adding headcount\nby company type\nHow OpenAI is scaling their GTM motion with Clay\nHow Rippling uses Clay to scale growth experiments and email personalization\nResources\ngrow with clay\nUniversity\nLearn how to use Clay with our best resources\nCohorts\nLive training - the fastest way to master Clay\nGTME blog",
+          "metadata": {
+            "chunk_index": 3.0,
+            "company_slug": "clay",
+            "content_hash": "bb90203a",
+            "indexed_at": "2025-11-13T22:24:53.020600",
+            "page_type": "about",
+            "source_file": "data/raw/clay/about/text.txt"
+          }
+        },
+        {
+          "id": "clay_careers_6d38f59c",
+          "similarity_score": 0.381206512,
+          "text": "Explore open jobs\nwe’re looking for help in these areas\nJob title\nDeparment\nApply to this role\nEnterprise Growth Strategist (Customer Success)\nCX\nApply to this role\nCommercial Counsel\nFinance\nApply to this role\nCreate Your Own Role\nTalent Opportunities\nApply to this role\nSoftware Engineer, Backend\nEngineering\nApply to this role\nStrategic Finance\nFinance\nApply to this role\nProduct Design\nProduct & Design\nApply to this role\nData Scientist\nFinance\nApply to this role\nSoftware Engineer, Full Stack",
+          "metadata": {
+            "chunk_index": 11.0,
+            "company_slug": "clay",
+            "content_hash": "6d38f59c",
+            "indexed_at": "2025-11-13T22:24:53.079030",
+            "page_type": "careers",
+            "source_file": "data/raw/clay/careers/text.txt"
+          }
+        }
+      ]
+    }
+  },
+  "coactive-ai": {
+    "company_name": "Coactive AI",
+    "company_slug": "coactive-ai",
+    "structured": null,
+    "rag": {
+      "company_name": "Coactive AI",
+      "company_slug": "coactive-ai",
+      "pipeline_type": "rag",
+      "timestamp": "2025-11-17T18:59:47.108254Z",
+      "markdown_file": "markdown/coactive-ai/rag.md",
+      "content": "## Company Overview\nNot disclosed.\n\n## Business Model and GTM\nNot disclosed.\n\n## Funding & Investor Profile\nNot disclosed.\n\n## Growth Momentum\nNot disclosed.\n\n## Visibility & Market Sentiment\nNot disclosed.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nNot disclosed.\n\n## Disclosure Gaps\nThe provided context does not include any specific information about Coactive AI. Key areas such as the company's overview, business model, funding details, growth metrics, market sentiment, risks, and future outlook are not disclosed.",
+      "context_results": []
     }
   }
 }

@@ -39,6 +39,7 @@ from pydantic import BaseModel, ValidationError, Field
 from dotenv import load_dotenv
 from pinecone import Pinecone
 from langchain_openai import OpenAIEmbeddings
+import re
 
 # Import Pydantic models
 sys.path.insert(0, str(Path(__file__).parent))
@@ -53,7 +54,7 @@ load_dotenv()
 # Global configuration
 FALLBACK_STRATEGY = 'pinecone_first'  # Can be: 'pinecone_only', 'raw_only', 'pinecone_first'
 USE_RAW_TEXT = False  # Set to True to skip Pinecone and use raw text directly
-PINECONE_SEARCH_LIMIT = 100  # Increased from 5 to get more results per query
+PINECONE_SEARCH_LIMIT = 30  # Increased from 5 to get more results per query
 PINECONE_MIN_SIMILARITY = 0.0  # Minimum similarity score (0.0 = accept all results)
 
 
@@ -449,6 +450,49 @@ def get_pinecone_client():
         return None
 
 
+def generate_slug_variations(company_slug: str) -> List[str]:
+    """
+    Generate all possible slug variations for a company name.
+    
+    Handles different naming conventions:
+    - "world-labs" (hyphens)
+    - "world_labs" (underscores)
+    - "worldlabs" (no separators)
+    - "world labs" (spaces)
+    
+    Args:
+        company_slug: Original company slug
+    
+    Returns:
+        List of unique slug variations
+    """
+    # Start with original
+    variations = [company_slug]
+    
+    # Normalize to get base words
+    base = company_slug.lower()
+    
+    # Split by common separators to get words
+    words = re.split(r'[-_\s]+', base)
+    
+    if len(words) > 1:
+        # Generate variations with different separators
+        variations.append('-'.join(words))  # hyphen: world-labs
+        variations.append('_'.join(words))  # underscore: world_labs
+        variations.append(''.join(words))   # no separator: worldlabs
+        variations.append(' '.join(words))  # space: world labs
+    
+    # Remove duplicates while preserving order
+    seen = set()
+    unique_variations = []
+    for v in variations:
+        if v not in seen:
+            seen.add(v)
+            unique_variations.append(v)
+    
+    return unique_variations
+
+
 def get_embeddings_model():
     """Get OpenAI embeddings model."""
     logger = logging.getLogger('structured_extraction')
@@ -461,7 +505,9 @@ def get_embeddings_model():
     try:
         embeddings = OpenAIEmbeddings(
             model="text-embedding-3-large",
-            api_key=api_key
+            api_key=api_key,
+            dimensions=3072,  # Explicitly set dimensions for text-embedding-3-large
+            openai_api_key=api_key  # Some versions require this parameter name
         )
         logger.debug("Initialized OpenAI embeddings model (text-embedding-3-large, dimension: 3072)")
         return embeddings
@@ -475,7 +521,7 @@ def search_pinecone_for_context(
     company_slug: str,
     pinecone_index,
     embeddings: Optional[OpenAIEmbeddings],
-    limit: int = 100,
+    limit: int = 30,
     min_similarity: float = 0.0
 ) -> List[Dict[str, Any]]:
     """Search Pinecone for relevant context using semantic search with lenient matching."""
@@ -500,17 +546,35 @@ def search_pinecone_for_context(
         # Generate embedding for query
         query_embedding = embeddings.embed_query(query)
         
+<<<<<<< HEAD
         # Search Pinecone and filter by company using vector_id prefix
         logger.info(f"🔍 Searching Pinecone (namespace '{namespace}'): '{query}' for company '{company_slug}'")
 
         # Query with higher top_k to account for cross-company results that we'll filter out
+=======
+        # Build metadata filter for company_slug
+        # Generate slug variations to handle different naming conventions
+        # (hyphens, underscores, no separators, spaces)
+        slug_variations = generate_slug_variations(company_slug)
+        
+        metadata_filter = {
+            "company_slug": {"$in": slug_variations}
+        }
+        
+        logger.info(f"🔍 Searching Pinecone (namespace '{namespace}', slug variations={slug_variations}): '{query}'")
+>>>>>>> dc42c5fa82e9d63644f89949c700473d69ace75b
         results = pinecone_index.query(
             vector=query_embedding,
-            top_k=limit * 3,  # Get 3x results to filter
+            top_k=limit,
             namespace=namespace,
+<<<<<<< HEAD
             include_metadata=True,
             filter={"company_slug": {"$eq": company_slug}}
 
+=======
+            filter=metadata_filter,
+            include_metadata=True
+>>>>>>> dc42c5fa82e9d63644f89949c700473d69ace75b
         )
         print(results)
 

@@ -100,23 +100,57 @@ def enrich_single_company_task(company_name: str):
         env = dict(subprocess.os.environ)
         env['PYTHONPATH'] = str(PROJECT_ROOT)
         env['PYTHONUNBUFFERED'] = '1'
+        env['PYTHONDONTWRITEBYTECODE'] = '1'
         
-        result = subprocess.run(
+        # Use Popen to stream output in real-time
+        process = subprocess.Popen(
             cmd,
             cwd=str(PROJECT_ROOT),
-            timeout=600,  # 10 minute timeout per company
             env=env,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             text=True,
-            capture_output=False,  # Don't capture - let it stream to Airflow logs
+            bufsize=0,  # Unbuffered
         )
+        
+        # Stream output line by line from both stdout and stderr
+        try:
+            while True:
+                # Read from stdout
+                stdout_line = process.stdout.readline()
+                if stdout_line:
+                    logger_task.info(stdout_line.rstrip())
+                
+                # Read from stderr
+                stderr_line = process.stderr.readline()
+                if stderr_line:
+                    logger_task.error(stderr_line.rstrip())
+                
+                # Check if process has finished
+                if process.poll() is not None:
+                    # Read any remaining output
+                    for line in process.stdout:
+                        logger_task.info(line.rstrip())
+                    for line in process.stderr:
+                        logger_task.error(line.rstrip())
+                    break
+            
+            # Get return code
+            return_code = process.wait(timeout=600)
+            
+        except subprocess.TimeoutExpired:
+            logger_task.error(f"Process timeout after 600 seconds")
+            process.kill()
+            process.wait()
+            raise subprocess.TimeoutExpired(cmd, 600)
         
         logger_task.info("=" * 80)
         logger_task.info(f"ENRICHMENT END FOR {company_name}")
-        logger_task.info(f"Return code: {result.returncode}")
+        logger_task.info(f"Return code: {return_code}")
         logger_task.info("=" * 80)
         
-        if result.returncode != 0:
-            error_msg = f"Enrichment failed for {company_name} with return code {result.returncode}"
+        if return_code != 0:
+            error_msg = f"Enrichment failed for {company_name} with return code {return_code}"
             logger_task.error(error_msg)
             raise RuntimeError(error_msg)
         

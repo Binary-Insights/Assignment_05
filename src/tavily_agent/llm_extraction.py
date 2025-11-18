@@ -72,7 +72,7 @@ class ChainedExtractionResult(BaseModel):
 class LLMExtractionChain:
     """Chains multiple LLM calls to extract and validate field values."""
     
-    def __init__(self, llm_model: str = "gpt-4o-mini", temperature: float = 0.1):
+    def __init__(self, llm_model: str = "gpt-4o", temperature: float = 0.1):
         """
         Initialize the extraction chain.
         
@@ -383,7 +383,7 @@ async def extract_field_value(
     company_name: str,
     importance: str,
     search_results: List[Dict[str, Any]],
-    llm_model: str = "gpt-4o-mini"
+    llm_model: str = "gpt-4o"
 ) -> ChainedExtractionResult:
     """
     Convenience function to run extraction chain for a single field.

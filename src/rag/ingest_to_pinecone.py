@@ -625,6 +625,257 @@ def index_company_pages_to_pinecone(
     return namespace, ingestion_stats
 
 
+def ingest_tavily_json_to_pinecone(
+    company_slug: str,
+    tavily_json_path: str,
+    pinecone_index,
+    embeddings
+) -> Tuple[int, int]:
+    """
+    Ingest Tavily search results from JSON file to Pinecone with deduplication.
+    
+    Args:
+        company_slug: Company identifier
+        tavily_json_path: Path to Tavily JSON file
+        pinecone_index: Pinecone index instance
+        embeddings: OpenAI embeddings instance
+    
+    Returns:
+        Tuple of (added_count, skipped_count)
+    """
+    logger = logging.getLogger('ingest_to_pinecone')
+    
+    logger.info(f"📄 [TAVILY INGEST] Processing: {tavily_json_path}")
+    
+    try:
+        # Load Tavily JSON
+        with open(tavily_json_path, 'r', encoding='utf-8') as f:
+            tavily_data = json.load(f)
+        
+        # Extract results
+        results = tavily_data.get('results', [])
+        if not results:
+            logger.warning(f"No results found in {tavily_json_path}")
+            return 0, 0
+        
+        logger.info(f"Found {len(results)} Tavily results to process")
+        
+        # Load existing metadata to check for duplicates
+        metadata = load_metadata(company_slug)
+        existing_chunks = metadata.get('chunks_metadata', {})
+        
+        added_count = 0
+        skipped_count = 0
+        vectors_to_upsert = []
+        new_chunks_metadata = {}
+        
+        for idx, result in enumerate(results, 1):
+            try:
+                # Extract fields from Tavily result
+                content = result.get('content', '')
+                title = result.get('title', '')
+                url = result.get('url', '')
+                score = result.get('score', 0.0)
+                
+                if not content:
+                    logger.warning(f"Skipping result {idx}: empty content")
+                    skipped_count += 1
+                    continue
+                
+                # Combine title and content for better context
+                full_text = f"{title}\n\n{content}" if title else content
+                
+                # Calculate content hash for deduplication
+                content_hash = calculate_content_hash(full_text)[:8]
+                
+                # Check if this content already exists
+                if content_hash in existing_chunks:
+                    logger.debug(f"Skipping duplicate content (hash: {content_hash})")
+                    skipped_count += 1
+                    continue
+                
+                # Generate embedding
+                embedding = embeddings.embed_query(full_text)
+                
+                # Create metadata
+                chunk_metadata = {
+                    "company_slug": company_slug,
+                    "source": "tavily",
+                    "source_url": url,
+                    "title": title,
+                    "relevance_score": score,
+                    "text_preview": full_text[:200],
+                    "ingested_at": datetime.now().isoformat(),
+                    "content_hash": content_hash
+                }
+                
+                # Prepare vector for upsert
+                vector = {
+                    "id": f"{company_slug}_tavily_{content_hash}",
+                    "values": embedding,
+                    "metadata": chunk_metadata
+                }
+                vectors_to_upsert.append(vector)
+                
+                # Track new chunk metadata
+                new_chunks_metadata[content_hash] = {
+                    "chunk_id": content_hash,
+                    "source": "tavily",
+                    "source_url": url,
+                    "title": title,
+                    "text_length": len(full_text),
+                    "ingested_at": datetime.now().isoformat(),
+                    "status": "active"
+                }
+                
+                added_count += 1
+                logger.debug(f"Prepared vector for: {title[:50]}... (hash: {content_hash})")
+                
+            except Exception as e:
+                logger.error(f"Error processing Tavily result {idx}: {e}", exc_info=True)
+                skipped_count += 1
+                continue
+        
+        # Upsert vectors to Pinecone in batches
+        if vectors_to_upsert:
+            logger.info(f"Upserting {len(vectors_to_upsert)} vectors to Pinecone...")
+            namespace = os.getenv("PINECONE_NAMESPACE", "default")
+            
+            batch_size = 100
+            for i in range(0, len(vectors_to_upsert), batch_size):
+                batch = vectors_to_upsert[i:i + batch_size]
+                pinecone_index.upsert(
+                    vectors=batch,
+                    namespace=namespace
+                )
+            
+            logger.info(f"✓ Upserted {len(vectors_to_upsert)} vectors")
+            
+            # Update metadata with new chunks
+            metadata['chunks_metadata'].update(new_chunks_metadata)
+            metadata['total_vectors_in_pinecone'] = metadata.get('total_vectors_in_pinecone', 0) + added_count
+            metadata['last_ingestion'] = datetime.now().isoformat()
+            
+            # Add ingestion record
+            ingestion_record = {
+                "timestamp": datetime.now().isoformat(),
+                "source": "tavily_json",
+                "source_file": str(tavily_json_path),
+                "chunks_added": added_count,
+                "chunks_skipped": skipped_count,
+                "total_results_processed": len(results)
+            }
+            metadata = add_ingestion_record(metadata, ingestion_record)
+            
+            # Save updated metadata
+            save_metadata(company_slug, metadata)
+            logger.info(f"✓ Updated metadata for {company_slug}")
+        
+        logger.info(f"✅ [TAVILY INGEST] Added: {added_count}, Skipped: {skipped_count}")
+        return added_count, skipped_count
+        
+    except Exception as e:
+        logger.error(f"❌ [TAVILY INGEST] Error processing {tavily_json_path}: {e}", exc_info=True)
+        return 0, 0
+
+
+def ingest_all_tavily_json_for_company(
+    company_slug: str,
+    pinecone_index=None,
+    embeddings=None
+) -> Dict[str, Any]:
+    """
+    Ingest all Tavily JSON files for a company.
+    
+    Args:
+        company_slug: Company identifier
+        pinecone_index: Pinecone index (will initialize if None)
+        embeddings: Embeddings model (will initialize if None)
+    
+    Returns:
+        Summary statistics
+    """
+    logger = logging.getLogger('ingest_to_pinecone')
+    
+    logger.info(f"\n{'='*70}")
+    logger.info(f"🔍 [TAVILY INGEST] Processing all Tavily JSONs for: {company_slug}")
+    logger.info(f"{'='*70}")
+    
+    # Initialize if needed
+    if pinecone_index is None:
+        pinecone_index = get_pinecone_client()
+    if embeddings is None:
+        embeddings = get_embeddings_model()
+    
+    # Find all Tavily JSON files
+    tavily_dir = Path(f"data/raw/{company_slug}/tavily")
+    if not tavily_dir.exists():
+        logger.warning(f"No Tavily directory found for {company_slug}: {tavily_dir}")
+        return {
+            "success": False,
+            "error": "No tavily directory found",
+            "files_processed": 0,
+            "total_added": 0,
+            "total_skipped": 0
+        }
+    
+    tavily_files = list(tavily_dir.glob("tavily_*.json"))
+    if not tavily_files:
+        logger.warning(f"No Tavily JSON files found in {tavily_dir}")
+        return {
+            "success": False,
+            "error": "No tavily JSON files found",
+            "files_processed": 0,
+            "total_added": 0,
+            "total_skipped": 0
+        }
+    
+    logger.info(f"Found {len(tavily_files)} Tavily JSON files to process")
+    
+    total_added = 0
+    total_skipped = 0
+    files_processed = 0
+    errors = []
+    
+    for tavily_file in sorted(tavily_files):
+        try:
+            added, skipped = ingest_tavily_json_to_pinecone(
+                company_slug,
+                str(tavily_file),
+                pinecone_index,
+                embeddings
+            )
+            total_added += added
+            total_skipped += skipped
+            files_processed += 1
+            
+        except Exception as e:
+            error_msg = f"Error processing {tavily_file.name}: {e}"
+            logger.error(error_msg, exc_info=True)
+            errors.append(error_msg)
+    
+    summary = {
+        "success": files_processed > 0,
+        "files_processed": files_processed,
+        "total_files": len(tavily_files),
+        "total_added": total_added,
+        "total_skipped": total_skipped,
+        "errors": errors
+    }
+    
+    logger.info(f"\n{'='*70}")
+    logger.info(f"✅ [TAVILY INGEST SUMMARY] {company_slug}")
+    logger.info(f"{'='*70}")
+    logger.info(f"  Files processed: {files_processed}/{len(tavily_files)}")
+    logger.info(f"  Vectors added: {total_added}")
+    logger.info(f"  Vectors skipped (duplicates): {total_skipped}")
+    if errors:
+        logger.warning(f"  Errors: {len(errors)}")
+    logger.info(f"{'='*70}\n")
+    
+    return summary
+
+
 def discover_companies_from_raw_data() -> List[tuple]:
     """Discover companies from raw data directory structure."""
     logger = logging.getLogger('ingest_to_pinecone')

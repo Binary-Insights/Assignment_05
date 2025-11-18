@@ -229,7 +229,7 @@ Client → MCP Protocol (stdio) → Server
          ↓
     Tavily Agent Components
          ↓
-    OpenAI LLM (gpt-4o-mini)
+    OpenAI LLM (gpt-4o)
          ↓
     Response → Client
 ```
