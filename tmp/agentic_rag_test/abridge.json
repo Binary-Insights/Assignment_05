@@ -1,0 +1,448 @@
+{
+  "company_record": {
+    "company_id": "abridge",
+    "legal_name": "Abridge Al, Inc.",
+    "brand_name": "Abridge",
+    "website": "https://abridge.com/",
+    "hq_city": "Pittsburgh",
+    "hq_state": "IL",
+    "hq_country": "United States",
+    "founded_year": "2018",
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-09",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_about_6858d285#10.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-09",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_blog_6858d285#5.0"
+        ]
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-09",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_careers_c3a0a730#25.0",
+          "abridge_careers_0b8a84fe#1.0",
+          "abridge_careers_c82771fd#24.0"
+        ]
+      }
+    ],
+    "_extraction_metadata": {
+      "brand_name": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crunchbase.com/organization/abridge-d1a4",
+          "https://www.pentagram.com/work/abridge",
+          "https://www.linkedin.com/company/abridgehq"
+        ],
+        "extracted_at": "2025-11-17T01:48:26.661632+00:00",
+        "confidence": 1.0,
+        "reasoning": "The company is consistently referred to as 'Abridge' across multiple sources, indicating that this is the established brand name associated with the company. [Validated: The extracted brand name 'Abridge' is consistently referenced across multiple credible sources, confirming its correctness.]"
+      },
+      "hq_city": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://salestools.io/report/abridge-headquarters",
+          "https://craft.co/abridge/locations",
+          "https://websets.exa.ai/websets/directory/abridge-offices"
+        ],
+        "extracted_at": "2025-11-17T01:48:35.422879+00:00",
+        "confidence": 1.0,
+        "reasoning": "Multiple sources consistently identify Pittsburgh as the headquarters city for Abridge, including specific addresses and confirmation from the company's own blog. The information is corroborated across different sources, indicating high confidence in the accuracy of the extraction. [Validated: The extracted value is consistent with multiple reliable sources and the company's own blog, confirming Pittsburgh as the headquarters city.]"
+      },
+      "hq_state": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.dupagetownship.com/wp-content/uploads/2021/01/Resolution-20-19.pdf"
+        ],
+        "extracted_at": "2025-11-17T01:48:41.171851+00:00",
+        "confidence": 1.0,
+        "reasoning": "Source 1 explicitly states 'HQ STATE: IL' in the content related to Abridge, providing a clear and direct indication of the headquarters state. [Validated: The extracted value is supported by a direct statement in the source document, confirming the headquarters state as Illinois (IL).]"
+      },
+      "hq_country": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://salestools.io/report/abridge-headquarters",
+          "https://craft.co/abridge/locations"
+        ],
+        "extracted_at": "2025-11-17T01:48:47.452762+00:00",
+        "confidence": 1.0,
+        "reasoning": "Both Source 1 and Source 2 clearly state that Abridge is headquartered in Pittsburgh, PA, which is in the United States. The mention of 'United States' in Source 2 further solidifies this extraction. [Validated: The extracted value is consistent with both sources confirming Abridge's headquarters in the United States.]"
+      },
+      "founded_year": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://research.contrary.com/company/abridge",
+          "https://www.linkedin.com/company/abridgehq",
+          "https://pitchbook.com/profiles/company/268134-40",
+          "https://www.abridge.com/press-release/abridge-research-collaborative",
+          "https://www.paraform.com/company/abridge"
+        ],
+        "extracted_at": "2025-11-17T01:48:54.060939+00:00",
+        "confidence": 1.0,
+        "reasoning": "All sources consistently state that Abridge was founded in 2018, providing a strong consensus on this information. [Validated: All sources confirm that Abridge was founded in 2018, ensuring high confidence in the extracted value.]"
+      }
+    }
+  },
+  "events": [
+    {
+      "event_id": "abridge_announcement_2025_08_12",
+      "company_id": "abridge",
+      "occurred_on": "2025-08-12",
+      "event_type": "product_release",
+      "title": "Real Time Prior Authorization at the Point of Conversation",
+      "description": "Abridge announced the release of a new feature for real-time prior authorization during medical conversations.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-08-12",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_f1388ab9#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_announcement_2025_11_10",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-10",
+      "event_type": "other",
+      "title": "Caitlin Clark and Abridge at Becker's CEO + CFO",
+      "description": "Abridge participated in Becker's CEO + CFO event with Caitlin Clark.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-10",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_c839bc87#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_announcement_2025_11_04",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-04",
+      "event_type": "other",
+      "title": "Becker\u2019s: Voices of Healthcare",
+      "description": "Abridge was featured in Becker\u2019s: Voices of Healthcare.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-04",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_c839bc87#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_policy_2025_11_13",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-13",
+      "event_type": "other",
+      "title": "Abridge\u2019s Principles for Building Trusted AI in Healthcare",
+      "description": "Tim Hwang posted about Abridge\u2019s principles for building trusted AI in healthcare.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-13",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_f1388ab9#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-11-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 53,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": null,
+      "geo_presence": null,
+      "confidence": 0.5,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_careers_0b8a84fe#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "contextual_reasoning_engine",
+      "company_id": "abridge",
+      "name": "Contextual Reasoning Engine",
+      "description": "Transforms conversations into insights with AI, giving agency back to clinicians, creating clarity for patients, and establishing radical efficiencies to transform healthcare from the conversation up.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-10",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_191d7e55#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "shiv-rao",
+      "company_id": "abridge",
+      "name": "Shiv Rao, MD",
+      "role": "CEO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_7a9745f5#3.0",
+            "abridge_about_f89ab9fe#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "zack-lipton",
+      "company_id": "abridge",
+      "name": "Zack Lipton, PhD",
+      "role": "CTO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_7a9745f5#3.0",
+            "abridge_about_f89ab9fe#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "julia-chou",
+      "company_id": "abridge",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_7a9745f5#3.0",
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "brian-wilson",
+      "company_id": "abridge",
+      "name": "Brian Wilson",
+      "role": "Chief Commercial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "sagar-sanghvi",
+      "company_id": "abridge",
+      "name": "Sagar Sanghvi",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0",
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "tim-hwang",
+      "company_id": "abridge",
+      "name": "Tim Hwang",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_f1388ab9#2.0",
+            "abridge_blog_c839bc87#3.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_careers_c3a0a730#25.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_6858d285#10.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-14T03:29:56.072773",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

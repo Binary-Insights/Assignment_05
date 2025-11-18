@@ -1,0 +1,34 @@
+{
+  "tool": "tavily",
+  "query": "abridge total_raised_usd",
+  "results": [
+    {
+      "title": "Abridge raises $300M, now valued at $5.3B - LinkedIn",
+      "content": "In February, Abridge raised $250 million at a valuation of $2.75 billion. Exclusive | Abridge, Whose AI App Takes",
+      "url": "https://www.linkedin.com/posts/ameyers_exclusive-abridge-whose-ai-app-takes-notes-activity-7344704628665610240-QUEi"
+    },
+    {
+      "title": "Abridge Raises $250 Million in Series D - October 2024 - SalesTools",
+      "content": "Abridge successfully raised $250 Million in this Series D funding round. ... Total funding: $457.5 million; Used across 100+ health systems",
+      "url": "https://salestools.io/report/abridge-raises-250-million-series-d-october-2024"
+    },
+    {
+      "title": "Abridge lands $300M funding round led by Andreessen Horowitz",
+      "content": "In total, the company has raised more than $800 million since it was founded in 2018, according to PitchBook. Abridge has so far been at the",
+      "url": "https://technical.ly/entrepreneurship/abridge-300m-healthtech-ai-funding/"
+    },
+    {
+      "title": "AI Note-Taking Startup Abridge Raises $300M As Tech To Reduce ...",
+      "content": "# AI Note-Taking Startup Abridge Raises $300M As Tech To Reduce Physician Burnout Gains Traction Abridge, a startup that offers an AI note-taking tool for doctors, raised $300 million at a $5.3 billion valuation, according to The Wall Street Journal. Along with Abridge \u2014\u00a0which has now raised $757.5 million total from investors, per Crunchbase \u2014 other well-funded startups in the AI healthcare documentation space include: * Nabla, which has a note-taking AI copilot for doctors and other medical staff earlier this month raised $70 million in Series C funding, bringing its total raised to $114.7 million; Overall, funding to startups at the intersection of AI and healthcare hit $7.5 billion in 2024. * Rounds Raised By Startups Using AI, 2025",
+      "url": "https://news.crunchbase.com/health-wellness-biotech/ai-doctor-note-taking-startup-abridge/"
+    },
+    {
+      "title": "Abridge, Whose AI App Takes Notes for Doctors, Valued at $5.3 ...",
+      "content": "In February, Abridge raised $250 million at a valuation of $2.75 billion. Appeared in the June 25, 2025, print edition as 'Doctors' Note-Taking",
+      "url": "https://www.wsj.com/articles/abridge-whose-ai-app-takes-notes-for-doctors-valued-at-5-3-billion-at-funding-801825f3?gaa_at=eafs&gaa_n=AWEtsqf-_tYn1XNgKz8TpPTAFNpyC7LlyE-QQZgSufRNFyyBmIhuQ_2cyikN&gaa_ts=691a752e&gaa_sig=s8GFDuufckWHltpGDh8VfHitlrx6hYNyjK3pSdExXEB9HQmx-zVhE6Kn1fq-9h6vfiU2pYxQjwuPFDL32OtMQw%3D%3D"
+    }
+  ],
+  "raw_content": "\nAbridge raises $300M, now valued at $5.3B - LinkedIn\nIn February, Abridge raised $250 million at a valuation of $2.75 billion. Exclusive | Abridge, Whose AI App Takes\n\nAbridge Raises $250 Million in Series D - October 2024 - SalesTools\nAbridge successfully raised $250 Million in this Series D funding round. ... Total funding: $457.5 million; Used across 100+ health systems\n\nAbridge lands $300M funding round led by Andreessen Horowitz\nIn total, the company has raised more than $800 million since it was founded in 2018, according to PitchBook. Abridge has so far been at the\n\nAI Note-Taking Startup Abridge Raises $300M As Tech To Reduce ...\n# AI Note-Taking Startup Abridge Raises $300M As Tech To Reduce Physician Burnout Gains Traction Abridge, a startup that offers an AI note-taking tool for doctors, raised $300 million at a $5.3 billion valuation, according to The Wall Street Journal. Along with Abridge \u2014\u00a0which has now raised $757.5 million total from investors, per Crunchbase \u2014 other well-funded startups in the AI healthcare documentation space include: * Nabla, which has a note-taking AI copilot for doctors and other medical staff earlier this month raised $70 million in Series C funding, bringing its total raised to $114.7 million; Overall, funding to startups at the intersection of AI and healthcare hit $7.5 billion in 2024. * Rounds Raised By Startups Using AI, 2025\n\nAbridge, Whose AI App Takes Notes for Doctors, Valued at $5.3 ...\nIn February, Abridge raised $250 million at a valuation of $2.75 billion. Appeared in the June 25, 2025, print edition as 'Doctors' Note-Taking\n",
+  "count": 5,
+  "success": true
+}

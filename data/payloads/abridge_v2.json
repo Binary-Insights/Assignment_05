@@ -1,0 +1,369 @@
+{
+  "company_record": {
+    "company_id": "abridge",
+    "legal_name": "Abridge Al, Inc.",
+    "brand_name": "Abridge",
+    "website": null,
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": "2018",
+    "categories": "Generative AI for Clinical Conversations",
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-11",
+        "snippet": "Copyright \u00a9 2025 Abridge Al, Inc.",
+        "chunk_id": [
+          "abridge_about_6858d285#10.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "abridge_event_001",
+      "company_id": "abridge",
+      "occurred_on": "2023-01-15",
+      "event_type": "leadership_change",
+      "title": "Appointment of Sagar Sanghvi as CFO",
+      "description": "Sagar Sanghvi joined Abridge as the Chief Financial Officer, bringing expertise in healthcare and technology.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [
+        "Sagar Sanghvi"
+      ],
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_event_002",
+      "company_id": "abridge",
+      "occurred_on": "2023-02-10",
+      "event_type": "leadership_change",
+      "title": "Appointment of Tim Hwang as General Counsel",
+      "description": "Tim Hwang joined Abridge as General Counsel, emphasizing the integration of cutting-edge technology with empathy in healthcare.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [
+        "Tim Hwang"
+      ],
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_event_003",
+      "company_id": "abridge",
+      "occurred_on": "2023-03-05",
+      "event_type": "leadership_change",
+      "title": "Appointment of Julia Chou as COO",
+      "description": "Julia Chou joined Abridge as Chief Operating Officer to enhance clinician-patient interactions.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [
+        "Julia Chou"
+      ],
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_event_004",
+      "company_id": "abridge",
+      "occurred_on": "2023-04-20",
+      "event_type": "leadership_change",
+      "title": "Appointment of Brian Wilson as Chief Commercial Officer",
+      "description": "Brian Wilson joined Abridge to transform patient-provider interactions fundamental to healthcare.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": [
+        "Brian Wilson"
+      ],
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-06",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "AI",
+        "Contextual Reasoning Engine"
+      ],
+      "geo_presence": null,
+      "confidence": 0.8,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_09e7a64d#1.0",
+            "abridge_about_14f24a6d#8.0",
+            "abridge_about_42010519#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "abridge_product_1",
+      "company_id": "abridge",
+      "name": "Abridge AI Platform",
+      "description": "Transforms Conversations Into Insights With AI, powering deeper understanding in healthcare.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [
+        "Best in KLAS Report"
+      ],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42010519#2.0",
+            "abridge_about_09e7a64d#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "shiv-rao",
+      "company_id": "abridge",
+      "name": "Shiv Rao, MD",
+      "role": "CEO, Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_b3488d93#3.0",
+            "abridge_about_42010519#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "zack-lipton",
+      "company_id": "abridge",
+      "name": "Zack Lipton, PhD",
+      "role": "CTO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_b3488d93#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "julia-chou",
+      "company_id": "abridge",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_b3488d93#3.0",
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "brian-wilson",
+      "company_id": "abridge",
+      "name": "Brian Wilson",
+      "role": "Chief Commercial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "sagar-sanghvi",
+      "company_id": "abridge",
+      "name": "Sagar Sanghvi",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0",
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "tim-hwang",
+      "company_id": "abridge",
+      "name": "Tim Hwang",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_09e7a64d#1.0",
+            "abridge_about_42010519#2.0",
+            "abridge_about_14f24a6d#8.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-17T18:40:28.296667",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

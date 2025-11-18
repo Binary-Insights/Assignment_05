@@ -1,0 +1,34 @@
+{
+  "tool": "tavily",
+  "query": "abridge company total_raised_usd",
+  "results": [
+    {
+      "title": "Abridge lands $300M funding round led by Andreessen Horowitz",
+      "content": "In total, the company has raised more than $800 million since it was founded in 2018, according to PitchBook. Abridge has so far been at the",
+      "url": "https://technical.ly/entrepreneurship/abridge-300m-healthtech-ai-funding/"
+    },
+    {
+      "title": "AI Note-Taking Startup Abridge Raises $300M As Tech To Reduce ...",
+      "content": "# AI Note-Taking Startup Abridge Raises $300M As Tech To Reduce Physician Burnout Gains Traction Abridge, a startup that offers an AI note-taking tool for doctors, raised $300 million at a $5.3 billion valuation, according to The Wall Street Journal. Along with Abridge \u2014\u00a0which has now raised $757.5 million total from investors, per Crunchbase \u2014 other well-funded startups in the AI healthcare documentation space include: * Nabla, which has a note-taking AI copilot for doctors and other medical staff earlier this month raised $70 million in Series C funding, bringing its total raised to $114.7 million; Overall, funding to startups at the intersection of AI and healthcare hit $7.5 billion in 2024. * Rounds Raised By Startups Using AI, 2025",
+      "url": "https://news.crunchbase.com/health-wellness-biotech/ai-doctor-note-taking-startup-abridge/"
+    },
+    {
+      "title": "Healthcare startup Abridge tops $5 billion valuation in A16z-led ...",
+      "content": "Healthcare firm Abridge, which uses artificial intelligence to build medical documents, has raised $300 million at a $5.3 billion valuation,",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/healthcare-startup-abridge-raises-300-million-led-by-vc-firm-andreessen-horowitz-2025-06-24/"
+    },
+    {
+      "title": "Abridge Raises $250 Million in Series D - October 2024 - SalesTools",
+      "content": "$2.5 billion pre-money valuation (up from ~$200M in 2023) \u00b7 Total funding: $457.5 million \u00b7 Used across 100+ health systems nationwide \u00b7 Supports",
+      "url": "https://salestools.io/report/abridge-raises-250-million-series-d-october-2024"
+    },
+    {
+      "title": "Abridge Business Breakdown & Founding Story - Contrary Research",
+      "content": "In July 2025, the company raised $243 million in Series C funding at a $1.25 billion valuation, bringing its total funding to 320 million as of September 2025.",
+      "url": "https://research.contrary.com/company/abridge"
+    }
+  ],
+  "raw_content": "\nAbridge lands $300M funding round led by Andreessen Horowitz\nIn total, the company has raised more than $800 million since it was founded in 2018, according to PitchBook. Abridge has so far been at the\n\nAI Note-Taking Startup Abridge Raises $300M As Tech To Reduce ...\n# AI Note-Taking Startup Abridge Raises $300M As Tech To Reduce Physician Burnout Gains Traction Abridge, a startup that offers an AI note-taking tool for doctors, raised $300 million at a $5.3 billion valuation, according to The Wall Street Journal. Along with Abridge \u2014\u00a0which has now raised $757.5 million total from investors, per Crunchbase \u2014 other well-funded startups in the AI healthcare documentation space include: * Nabla, which has a note-taking AI copilot for doctors and other medical staff earlier this month raised $70 million in Series C funding, bringing its total raised to $114.7 million; Overall, funding to startups at the intersection of AI and healthcare hit $7.5 billion in 2024. * Rounds Raised By Startups Using AI, 2025\n\nHealthcare startup Abridge tops $5 billion valuation in A16z-led ...\nHealthcare firm Abridge, which uses artificial intelligence to build medical documents, has raised $300 million at a $5.3 billion valuation,\n\nAbridge Raises $250 Million in Series D - October 2024 - SalesTools\n$2.5 billion pre-money valuation (up from ~$200M in 2023) \u00b7 Total funding: $457.5 million \u00b7 Used across 100+ health systems nationwide \u00b7 Supports\n\nAbridge Business Breakdown & Founding Story - Contrary Research\nIn July 2025, the company raised $243 million in Series C funding at a $1.25 billion valuation, bringing its total funding to 320 million as of September 2025.\n",
+  "count": 5,
+  "success": true
+}

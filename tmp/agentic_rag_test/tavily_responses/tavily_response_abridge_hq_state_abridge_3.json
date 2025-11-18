@@ -1,0 +1,34 @@
+{
+  "tool": "tavily",
+  "query": "hq_state abridge",
+  "results": [
+    {
+      "title": "[PDF] ATP 3-57.30 Civil Affairs Support to Nation Assistance",
+      "content": "List units attached to or detached from the issuing HQ. State when each attachment or detachment is effective (for example, on order or on",
+      "url": "https://www.tecom.marines.mil/Portals/162/Docs/ATP3-57.30_CA%20Support%20to%20NA.pdf"
+    },
+    {
+      "title": "[PDF] Construction, at TDOT.ContPerfEvals@tn.gov",
+      "content": "The link contains a bridge deck construction checklist procedure to be followed for prepour during and post pour for bridge deck pours and a",
+      "url": "https://www.tn.gov/content/dam/tn/tdot/programdevelopment/localprograms/documents-and-forms/Circular%20Letters%20Combined%201.31.23.pdf"
+    },
+    {
+      "title": "[PDF] Untitled - DuPage Township",
+      "content": "Published in pamphlet form by authority of the Supervisor and Board of Trustees of DuPage Township on. 2020. Prepared by ODELSON, STERK, MURPHEY,",
+      "url": "https://www.dupagetownship.com/wp-content/uploads/2021/01/Resolution-20-19.pdf"
+    },
+    {
+      "title": "Don't judge people based on what others say - Facebook",
+      "content": "Please don't hate anyone because of what they told you about him or her. Remember someone's enemy can be your helper. Nti Odikwa?",
+      "url": "https://www.facebook.com/groups/821626585865212/posts/1587661975928332/"
+    },
+    {
+      "title": "We made a little something to announce a first-of-its-kind online ...",
+      "content": "59% of people scan QR codes daily. In the next 18 months, QR codes will evolve matter be the bridge between the physical and the digital worlds. \ud83d\udca1 Subscribe to the Inspiral Accessibility Newsletter \u2014 where we break down: Practical best practices Legal updates (like WCAG, ADA, EAA) Tools & real case studies from conscious businesses \ud83d\udcf0 Follow us on LinkedIn & subscribe here https://lnkd.in/e5hMApuD Let\u2019s build a more inclusive internet \u2014 together. The Complete Survey Platform with\u00a0QR Codes & Analytics Create surveys, generate QR codes, manage payments, and get real-time analytics. \ud83d\udcf8 The next time you scan a QR code, take a moment to appreciate the thought and engineering behind those little squares!",
+      "url": "https://www.linkedin.com/posts/uniqode-hq_state-of-qr-codes-report-2025-activity-7303314002917384194-xV3r"
+    }
+  ],
+  "raw_content": "\n[PDF] ATP 3-57.30 Civil Affairs Support to Nation Assistance\nList units attached to or detached from the issuing HQ. State when each attachment or detachment is effective (for example, on order or on\n\n[PDF] Construction, at TDOT.ContPerfEvals@tn.gov\nThe link contains a bridge deck construction checklist procedure to be followed for prepour during and post pour for bridge deck pours and a\n\n[PDF] Untitled - DuPage Township\nPublished in pamphlet form by authority of the Supervisor and Board of Trustees of DuPage Township on. 2020. Prepared by ODELSON, STERK, MURPHEY,\n\nDon't judge people based on what others say - Facebook\nPlease don't hate anyone because of what they told you about him or her. Remember someone's enemy can be your helper. Nti Odikwa?\n\nWe made a little something to announce a first-of-its-kind online ...\n59% of people scan QR codes daily. In the next 18 months, QR codes will evolve matter be the bridge between the physical and the digital worlds. \ud83d\udca1 Subscribe to the Inspiral Accessibility Newsletter \u2014 where we break down: Practical best practices Legal updates (like WCAG, ADA, EAA) Tools & real case studies from conscious businesses \ud83d\udcf0 Follow us on LinkedIn & subscribe here https://lnkd.in/e5hMApuD Let\u2019s build a more inclusive internet \u2014 together. The Complete Survey Platform with\u00a0QR Codes & Analytics Create surveys, generate QR codes, manage payments, and get real-time analytics. \ud83d\udcf8 The next time you scan a QR code, take a moment to appreciate the thought and engineering behind those little squares!\n",
+  "count": 5,
+  "success": true
+}

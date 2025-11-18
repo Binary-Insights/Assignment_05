@@ -554,3 +554,53 @@ Benefits
 ✅ Observability: Detailed logging at each stage
 ✅ Flexibility: Easy to modify company selection or processing logic
 The DAG now follows Airflow best practices with dynamic task generation and proper orchestration!
+
+
+python src/tavily_agent/main.py single abridge --test-dir /mnt/c/Users/enigm/OneDrive/Documents/NortheasternAssignments/09_BigDataIntelAnlytics/Assignments/Assignment_05/tmp/agentic_rag_test
+
+
+
+Yes! The tool calls are happening - your print statements confirm the complete execution flow:
+
+✅ What's working:
+
+execute_searches() is being called for each of 5 fields
+3 queries are generated per field (company + field combinations)
+All 15 queries execute successfully (5 fields × 3 queries = 15 results total)
+ThreadPoolExecutor is handling the async/sync context correctly
+Each query returns 5 results from Tavily
+✅ The workflow is fully functional:
+
+analyze_payload() → Identifies 5 null fields ✓
+generate_search_queries() → Creates 3 queries per field ✓
+execute_searches() → Runs all queries via Tavily API ✓
+extract_and_update_payload() → Updates payload with results ✓
+Workflow completes → All 5 fields enriched ✓
+The mystery about "missing tool calls" is solved - they ARE executing. The reason you weren't seeing Tavily logs earlier was because the emoji logging from tools.py (search_tavily()) must be going to a different output stream or being buffered differently than your print() statements.
+
+Your agentic RAG enrichment pipeline is complete and working end-to-end. Each company field is being searched 3 times with different query variations, giving you 15 data points per company for enrichment.
+
+
+
+
+python -m src.mcp_server
+
+pkill -f "mcp_server"; sleep 1; echo "Processes killed"
+
+The error is still showing the old code. The issue is that Python is importing the old cached module from __pycache__. Let me clear the Python cache:
+
+find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null
+pkill -f "mcp_server"
+sleep 1
+python -m src.mcp_server
+
+ps aux | grep "mcp_server" | grep -v grep | head -3
+
+#######################################
+Payload agent: 
+either 
+python src/agents/payload_agent.py abridge
+or as langgraph
+python src/workflows/payload_workflow.py abridge
+
+
