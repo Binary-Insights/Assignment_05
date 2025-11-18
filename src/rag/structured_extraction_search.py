@@ -480,7 +480,9 @@ def get_embeddings_model():
     try:
         embeddings = OpenAIEmbeddings(
             model="text-embedding-3-large",
-            api_key=api_key
+            api_key=api_key,
+            dimensions=3072,  # Explicitly set dimensions for text-embedding-3-large
+            openai_api_key=api_key  # Some versions require this parameter name
         )
         logger.debug("Initialized OpenAI embeddings model (text-embedding-3-large, dimension: 3072)")
         return embeddings

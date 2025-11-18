@@ -308,14 +308,12 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         tool_manager = ToolManager()
         
         # Determine output directory for Tavily responses
-        test_output_dir = FileIOManager.TEST_OUTPUT_DIR
-        if test_output_dir:
-            responses_dir = Path(test_output_dir) / "tavily_responses"
-            responses_dir.mkdir(parents=True, exist_ok=True)
-            print(f">>> Tavily responses will be saved to: {responses_dir}")
-            logger.info(f"📁 [TAVILY RESPONSES] Directory: {responses_dir}")
-        else:
-            responses_dir = None
+        # Always save to data/raw/{company}/tavily/ for proper pipeline integration
+        project_root = Path(__file__).parent.parent.parent
+        responses_dir = project_root / "data" / "raw" / state.company_name / "tavily"
+        responses_dir.mkdir(parents=True, exist_ok=True)
+        print(f">>> Tavily responses will be saved to: {responses_dir}")
+        logger.info(f"📁 [TAVILY RESPONSES] Directory: {responses_dir}")
         
         # Execute all searches synchronously using the blocking call
         all_documents = []
@@ -378,6 +376,36 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         
         print(f">>> EXECUTE_SEARCHES COMPLETE: {success_count}/{len(queries)} successful, {len(all_documents)} total results")
         logger.info(f"📊 [EXECUTE SEARCH COMPLETE] Successfully executed {success_count}/{len(queries)} queries, found {len(all_documents)} total results")
+        
+        # Ingest Tavily results to Pinecone (if any results were saved)
+        if success_count > 0 and responses_dir:
+            try:
+                logger.info(f"🔄 [PINECONE INGEST] Ingesting Tavily results to Pinecone...")
+                
+                # Import the ingestion function
+                import sys
+                from pathlib import Path
+                sys.path.insert(0, str(Path(__file__).parent.parent))
+                from rag.ingest_to_pinecone import ingest_all_tavily_json_for_company
+                
+                # Ingest all Tavily JSONs for this company
+                ingest_summary = ingest_all_tavily_json_for_company(state.company_name)
+                
+                if ingest_summary.get('success'):
+                    logger.info(
+                        f"✅ [PINECONE INGEST] Successfully ingested Tavily data: "
+                        f"{ingest_summary.get('total_added', 0)} vectors added, "
+                        f"{ingest_summary.get('total_skipped', 0)} duplicates skipped"
+                    )
+                else:
+                    logger.warning(
+                        f"⚠️  [PINECONE INGEST] Ingestion completed with issues: "
+                        f"{ingest_summary.get('error', 'unknown error')}"
+                    )
+            except Exception as ingest_err:
+                logger.error(f"❌ [PINECONE INGEST] Error ingesting to Pinecone: {ingest_err}", exc_info=True)
+                # Don't fail the whole workflow if ingestion fails
+                state.errors.append(f"Pinecone ingestion error: {str(ingest_err)}")
         
         # Store results in format expected by LLM extraction chain
         # Ensure results contain title, content, url, etc.

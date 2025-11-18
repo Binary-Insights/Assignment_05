@@ -58,7 +58,7 @@ async def get_extraction_chain() -> LLMExtractionChain:
     """Get or create extraction chain instance."""
     global extraction_chain
     if extraction_chain is None:
-        extraction_chain = LLMExtractionChain(llm_model="gpt-4o-mini", temperature=0.1)
+        extraction_chain = LLMExtractionChain(llm_model="gpt-4o", temperature=0.1)
     return extraction_chain
 
 

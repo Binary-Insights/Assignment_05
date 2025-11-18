@@ -2,7 +2,7 @@
   "company_record": {
     "company_id": "abridge",
     "legal_name": "Abridge Al, Inc.",
-    "brand_name": "Abridge",
+    "brand_name": null,
     "website": "https://abridge.com/",
     "hq_city": "San Francisco",
     "hq_state": "California",
@@ -11,10 +11,10 @@
     "categories": [
       "Generative AI for Clinical Conversations"
     ],
-    "related_companies": "Epic Systems",
+    "related_companies": null,
     "total_raised_usd": null,
-    "last_disclosed_valuation_usd": "5300000000",
-    "last_round_name": "Series E",
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
     "as_of": null,
@@ -35,54 +35,7 @@
           "abridge_careers_c3a0a730#24.0"
         ]
       }
-    ],
-    "_extraction_metadata": {
-      "brand_name": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://www.crunchbase.com/organization/abridge-d1a4",
-          "https://www.linkedin.com/company/abridgehq",
-          "https://www.abridge.com/blog/abridge-now-most-awarded-ai-platform-in-healthcare"
-        ],
-        "extracted_at": "2025-11-18T14:38:28.057352+00:00",
-        "confidence": 1.0,
-        "reasoning": "The name 'Abridge' consistently appears across multiple sources, such as Crunchbase, LinkedIn, and the company's own blog, as the name of the company. There is no indication of any other brand name used for the company. Therefore, it is highly likely that the brand name is simply 'Abridge'. [Validated: The extracted brand name 'Abridge' is correct and matches the consistent usage across verified sources such as Crunchbase, LinkedIn, and the company's official blog.]"
-      },
-      "related_companies": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://www.businessinsider.com/inside-messiest-relationship-in-healthcare-ai-abridge-epic-2025-9"
-        ],
-        "extracted_at": "2025-11-18T14:38:39.121883+00:00",
-        "confidence": 0.9,
-        "reasoning": "Source 5 indicates that Epic Systems is a close partner and former shareholder of Abridge, implying a significant relationship between the two companies. This suggests that Epic Systems can be considered a related company. [Validated: The relationship between Abridge and Epic Systems is confirmed as significant through partnership and shareholding. The source indicates a strong linkage, justifying the inclusion of Epic Systems as a related company. Confidence is increased based on the detailed context provided.]"
-      },
-      "last_disclosed_valuation_usd": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/abridge-closes-300m-in-series-e-funding-hits-5-3b-valuation/",
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/healthcare-startup-abridge-raises-300-million-led-by-vc-firm-andreessen-horowitz-2025-06-24/",
-          "https://www.mobihealthnews.com/news/abridge-secures-300m-boosts-valuation-53b"
-        ],
-        "extracted_at": "2025-11-18T14:38:54.972244+00:00",
-        "confidence": 1.0,
-        "reasoning": "The most recent valuation mentioned across multiple sources is $5.3 billion. Sources 3, 4, and 5 consistently report this valuation as the result of a $300 million Series E funding round. This repeated mention across trusted sources gives high confidence in the value. [Validated: The extracted valuation is consistent across multiple credible sources, confirming the $5.3 billion valuation after a $300 million Series E funding round.]"
-      },
-      "last_round_name": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://thisweekhealth.com/news_story/abridge-secures-series-e-funding-to-revolutionize-healthcare-with-ai-platform/",
-          "https://americanbazaaronline.com/2025/06/25/ai-powered-medical-notes-taking-startup-abridge-raises-300-million-in-funding/"
-        ],
-        "extracted_at": "2025-11-18T14:39:03.681303+00:00",
-        "confidence": 1.0,
-        "reasoning": "The information about the Series E funding round is consistent across multiple sources. Sources 3 and 4 explicitly mention that the latest funding round for Abridge is a Series E round, with Source 3 stating that Abridge successfully closed its Series E funding round and Source 4 confirming the same detail. [Validated: The extracted value 'Series E' is confirmed by multiple consistent sources, indicating a high level of confidence in the accuracy of the data. No discrepancies were found in the available information.]"
-      }
-    }
+    ]
   },
   "events": [
     {

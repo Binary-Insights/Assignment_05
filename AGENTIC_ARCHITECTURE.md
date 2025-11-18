@@ -679,7 +679,7 @@ Trace: enrich_single_company [ROOT]
 
 | Parameter | Value | Purpose |
 |---|---|---|
-| `LLM_MODEL` | `gpt-4o-mini` | Fast, deterministic extraction |
+| `LLM_MODEL` | `gpt-4o` | Fast, deterministic extraction |
 | `LLM_TEMPERATURE` | `0.1` | Minimal randomness |
 | `MAX_ITERATIONS` | `20` | Process up to 20 fields |
 | `CONFIDENCE_THRESHOLD` | `0.5` | Only update if confident |

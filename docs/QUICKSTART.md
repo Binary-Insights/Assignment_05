@@ -7,7 +7,7 @@
 pip install -r requirements.txt
 
 # 2. Set API key (choose one)
-export OPENAI_API_KEY="sk-..."           # For OpenAI/GPT-4o-mini
+export OPENAI_API_KEY="sk-..."           # For OpenAI/GPT-4o
 # OR
 export ANTHROPIC_API_KEY="sk-ant-..."    # For Anthropic/Claude
 
@@ -108,7 +108,7 @@ pip install langchain langchain-openai instructor beautifulsoup4 anthropic
 
 **Low confidence results?**
 - Website structure is non-standard → consider manual override
-- Try GPT-4 Turbo instead of GPT-4o-mini for better reasoning
+- Try GPT-4 Turbo instead of GPT-4o for better reasoning
 
 ## Next Steps
 

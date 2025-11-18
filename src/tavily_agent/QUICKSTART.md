@@ -17,7 +17,7 @@ TAVILY_API_KEY=your_tavily_key
 PINECONE_API_KEY=your_pinecone_key
 
 # Optional (defaults provided)
-LLM_MODEL=gpt-4o-mini
+LLM_MODEL=gpt-4o
 MAX_ITERATIONS=5
 BATCH_SIZE=3
 ```
