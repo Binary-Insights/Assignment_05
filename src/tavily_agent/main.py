@@ -107,8 +107,12 @@ class AgenticRAGOrchestrator:
             "results": []
         }
     
-    async def initialize(self):
-        """Initialize the orchestrator and build the graph."""
+    async def initialize(self, with_checkpointing: bool = False):
+        """Initialize the orchestrator and build the graph.
+        
+        Args:
+            with_checkpointing: Enable LangGraph checkpointing for HITL pause/resume
+        """
         logger.info("\n" + "="*70)
         logger.info("🔧 [INIT] Initializing Agentic RAG Orchestrator")
         logger.info("="*70)
@@ -122,7 +126,7 @@ class AgenticRAGOrchestrator:
         
         # Build the enrichment graph
         logger.info("💬 [GRAPH] Building LangGraph workflow...")
-        self.graph = build_enrichment_graph()
+        self.graph = build_enrichment_graph(with_checkpointing=with_checkpointing)
         logger.info("✅ [GRAPH] LangGraph workflow built successfully")
         
         # Save graph visualization (optional, don't block on errors)

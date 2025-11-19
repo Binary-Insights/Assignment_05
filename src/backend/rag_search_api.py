@@ -31,11 +31,13 @@ import json
 import subprocess
 import logging
 import logging
+import asyncio
+import uuid
 from typing import List, Dict, Any, Optional
 from pathlib import Path
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, BackgroundTasks
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
@@ -325,6 +327,54 @@ class ComparisonResponse(BaseModel):
         description="Which pipeline wins for each metric ('structured', 'rag', or 'tie')"
     )
     status: str = "success"
+
+
+# ===========================
+# HITL Response Models
+# ===========================
+
+class ApprovalRequestModel(BaseModel):
+    """Model for approval request."""
+    approval_id: str
+    company_name: str
+    approval_type: str
+    field_name: str
+    extracted_value: Any
+    confidence: float
+    sources: List[str]
+    reasoning: str
+    metadata: Dict[str, Any]
+    status: str
+    created_at: str
+    reviewed_at: Optional[str] = None
+    reviewer_decision: Optional[str] = None
+    approved_value: Any = None
+
+
+class ApprovalActionRequest(BaseModel):
+    """Request model for approval/rejection."""
+    approved_value: Optional[Any] = None
+    reviewer_decision: Optional[str] = None
+
+
+class ApprovalStatsResponse(BaseModel):
+    """Response model for approval queue stats."""
+    total: int
+    pending: int
+    approved: int
+    modified: int
+    rejected: int
+    by_type: Dict[str, int]
+
+
+class HITLSettingsRequest(BaseModel):
+    """Request model for HITL settings."""
+    enabled: bool = False
+    high_risk_fields: bool = True
+    low_confidence: bool = True
+    conflicting_info: bool = False
+    entity_batch: bool = False
+    pre_save: bool = False
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1381,6 +1431,555 @@ async def list_evaluations() -> Dict[str, Any]:
             status_code=500,
             detail=f"Error listing evaluations: {str(e)}"
         )
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  HITL (Human-in-the-Loop) Endpoints
+# ─────────────────────────────────────────────────────────────────────────────
+
+@app.get("/hitl/approvals/pending", response_model=List[ApprovalRequestModel])
+async def get_pending_approvals(
+    company_name: Optional[str] = Query(None, description="Filter by company name")
+):
+    """
+    Get all pending approval requests.
+    
+    Args:
+        company_name: Optional filter by company
+    
+    Returns:
+        List of pending approvals
+    """
+    try:
+        # Import here to avoid circular dependencies
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+        
+        from tavily_agent.approval_queue import get_approval_queue
+        
+        queue = get_approval_queue()
+        pending = queue.get_pending_approvals(company_name=company_name)
+        
+        return [ApprovalRequestModel(**approval.to_dict()) for approval in pending]
+    
+    except Exception as e:
+        logger.error(f"Error getting pending approvals: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting pending approvals: {str(e)}"
+        )
+
+
+@app.post("/hitl/approvals/{approval_id}/approve")
+async def approve_request(
+    approval_id: str,
+    action: ApprovalActionRequest,
+    background_tasks: BackgroundTasks
+):
+    """
+    Approve an approval request and automatically resume the workflow.
+    
+    Args:
+        approval_id: ID of approval to approve
+        action: Approval action details
+        background_tasks: FastAPI background tasks for workflow resumption
+    
+    Returns:
+        Success message
+    """
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+        
+        from tavily_agent.approval_queue import get_approval_queue
+        
+        queue = get_approval_queue()
+        
+        # Get the approval to find the company name
+        approval = queue.get_approval(approval_id)
+        if not approval:
+            raise HTTPException(status_code=404, detail="Approval not found")
+        
+        # Approve the request
+        success = queue.approve(
+            approval_id=approval_id,
+            approved_value=action.approved_value,
+            reviewer_decision=action.reviewer_decision
+        )
+        
+        if not success:
+            raise HTTPException(status_code=404, detail="Failed to approve")
+        
+        logger.info(f"✅ [API] Approved: {approval_id} for {approval.company_name}")
+        
+        # Find the task_id for this company and resume workflow
+        task_id = None
+        for tid, task in enrichment_tasks.items():
+            if (task["company_name"] == approval.company_name and 
+                task["status"] == "waiting_approval"):
+                task_id = tid
+                break
+        
+        if task_id:
+            logger.info(f"▶️  [API] Auto-resuming workflow for task {task_id}")
+            background_tasks.add_task(resume_enrichment_from_checkpoint, approval.company_name, task_id)
+            
+            return {
+                "status": "success",
+                "message": f"Approval {approval_id} approved and workflow resumed",
+                "approval_id": approval_id,
+                "task_id": task_id,
+                "auto_resumed": True
+            }
+        else:
+            logger.warning(f"⚠️  [API] No waiting task found for {approval.company_name}")
+            return {
+                "status": "success",
+                "message": f"Approval {approval_id} approved (no active workflow to resume)",
+                "approval_id": approval_id,
+                "auto_resumed": False
+            }
+    
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error approving request: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error approving request: {str(e)}"
+        )
+
+
+@app.post("/hitl/approvals/{approval_id}/reject")
+async def reject_request(
+    approval_id: str,
+    action: ApprovalActionRequest,
+    background_tasks: BackgroundTasks
+):
+    """
+    Reject an approval request and automatically resume the workflow.
+    
+    Args:
+        approval_id: ID of approval to reject
+        action: Rejection action details
+        background_tasks: FastAPI background tasks for workflow resumption
+    
+    Returns:
+        Success message
+    """
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+        
+        from tavily_agent.approval_queue import get_approval_queue
+        
+        queue = get_approval_queue()
+        
+        # Get the approval to find the company name
+        approval = queue.get_approval(approval_id)
+        if not approval:
+            raise HTTPException(status_code=404, detail="Approval not found")
+        
+        # Reject the request
+        success = queue.reject(
+            approval_id=approval_id,
+            reviewer_decision=action.reviewer_decision
+        )
+        
+        if not success:
+            raise HTTPException(status_code=404, detail="Failed to reject")
+        
+        logger.info(f"❌ [API] Rejected: {approval_id} for {approval.company_name}")
+        
+        # Find the task_id for this company and resume workflow
+        task_id = None
+        for tid, task in enrichment_tasks.items():
+            if (task["company_name"] == approval.company_name and 
+                task["status"] == "waiting_approval"):
+                task_id = tid
+                break
+        
+        if task_id:
+            logger.info(f"▶️  [API] Auto-resuming workflow for task {task_id}")
+            background_tasks.add_task(resume_enrichment_from_checkpoint, approval.company_name, task_id)
+            
+            return {
+                "status": "success",
+                "message": f"Approval {approval_id} rejected and workflow resumed",
+                "approval_id": approval_id,
+                "task_id": task_id,
+                "auto_resumed": True
+            }
+        else:
+            logger.warning(f"⚠️  [API] No waiting task found for {approval.company_name}")
+            return {
+                "status": "success",
+                "message": f"Approval {approval_id} rejected (no active workflow to resume)",
+                "approval_id": approval_id,
+                "auto_resumed": False
+            }
+    
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error rejecting request: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error rejecting request: {str(e)}"
+        )
+
+
+@app.get("/hitl/stats", response_model=ApprovalStatsResponse)
+async def get_approval_stats():
+    """Get approval queue statistics."""
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+        
+        from tavily_agent.approval_queue import get_approval_queue
+        
+        queue = get_approval_queue()
+        stats = queue.get_stats()
+        
+        return ApprovalStatsResponse(**stats)
+    
+    except Exception as e:
+        logger.error(f"Error getting approval stats: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting approval stats: {str(e)}"
+        )
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Agentic RAG Enrichment Endpoints (HITL-enabled with checkpointing)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Global task tracking
+enrichment_tasks: Dict[str, Dict[str, Any]] = {}
+
+class EnrichmentTaskResponse(BaseModel):
+    """Response for enrichment task creation."""
+    task_id: str
+    company_name: str
+    status: str
+    message: str
+
+class EnrichmentStatusResponse(BaseModel):
+    """Response for enrichment status check."""
+    task_id: str
+    company_name: str
+    status: str  # started, running, waiting_approval, completed, failed
+    message: Optional[str] = None
+    approval_id: Optional[str] = None
+    field_name: Optional[str] = None
+    result: Optional[Dict[str, Any]] = None
+    error: Optional[str] = None
+
+class ResumeWorkflowRequest(BaseModel):
+    """Request to resume workflow after approval."""
+    approval_id: str
+
+async def resume_enrichment_from_checkpoint(company_name: str, task_id: str):
+    """
+    Resume enrichment workflow from checkpoint after HITL approval/rejection.
+    Does NOT restart the workflow - continues from the saved checkpoint.
+    """
+    try:
+        logger.info(f"🔄 [RESUME] Resuming task {task_id} for {company_name} from checkpoint")
+        enrichment_tasks[task_id]["status"] = "running"
+        enrichment_tasks[task_id]["message"] = "Resuming from checkpoint..."
+        
+        # Import graph builder
+        sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+        from tavily_agent.graph import build_enrichment_graph
+        from tavily_agent.file_io_manager import FileIOManager
+        from tavily_agent.graph import PayloadEnrichmentState
+        
+        # Build graph with same checkpointer
+        logger.info(f"🔧 [RESUME] Rebuilding graph with checkpointing for {company_name}")
+        graph = build_enrichment_graph(with_checkpointing=True)
+        
+        # Resume from checkpoint using config with same thread_id
+        config = {
+            "configurable": {"thread_id": task_id},
+            "recursion_limit": 100
+        }
+        
+        logger.info(f"▶️  [RESUME] Continuing workflow from checkpoint with thread_id={task_id}")
+        
+        try:
+            # Get the current state from checkpoint first
+            state_snapshot = graph.get_state(config)
+            if not state_snapshot or not state_snapshot.values:
+                logger.error(f"❌ [RESUME] No checkpoint found for thread_id={task_id}")
+                enrichment_tasks[task_id]["status"] = "failed"
+                enrichment_tasks[task_id]["message"] = "No checkpoint found to resume from"
+                return
+            
+            logger.info(f"✅ [RESUME] Loaded checkpoint state, resuming workflow...")
+            
+            # Resume by invoking with None - graph will continue from checkpoint
+            # Using stream to handle interrupt properly
+            final_state = None
+            async for event in graph.astream(None, config=config, stream_mode="values"):
+                # In "values" mode, we get the full state after each node
+                final_state = event
+                logger.debug(f"[RESUME] State update received")
+            
+            if final_state is None:
+                logger.warning(f"⚠️  [RESUME] No state received from stream")
+                return
+            
+            # Convert to state object
+            final_state_obj = PayloadEnrichmentState(**final_state)
+            
+            # Check if we hit another interrupt
+            if final_state_obj.pending_approval_id:
+                logger.info(f"⏸️  [RESUME] Workflow paused again - waiting for approval: {final_state_obj.pending_approval_id}")
+                enrichment_tasks[task_id]["status"] = "waiting_approval"
+                enrichment_tasks[task_id]["approval_id"] = final_state_obj.pending_approval_id
+                enrichment_tasks[task_id]["message"] = "Waiting for human approval"
+                
+                # Get approval details
+                from tavily_agent.approval_queue import get_approval_queue
+                queue = get_approval_queue()
+                approval = queue.get_approval(final_state_obj.pending_approval_id)
+                if approval:
+                    enrichment_tasks[task_id]["field_name"] = approval.field_name
+                
+                return
+            
+            # Workflow completed
+            logger.info(f"✅ [RESUME] Workflow completed for {company_name}")
+            
+            # Save result
+            file_io = FileIOManager()
+            await file_io.save_payload(company_name, final_state_obj.current_payload)
+            
+            enrichment_tasks[task_id]["status"] = "completed"
+            enrichment_tasks[task_id]["message"] = "Enrichment completed successfully"
+            enrichment_tasks[task_id]["result"] = {
+                "fields_updated": len(final_state_obj.extracted_values),
+                "iterations": final_state_obj.iteration
+            }
+            
+        except Exception as workflow_error:
+            # Check if this is an interrupt (normal for HITL)
+            if "interrupt" in str(workflow_error).lower():
+                logger.info(f"⏸️  [RESUME] Workflow interrupted for approval")
+                enrichment_tasks[task_id]["status"] = "waiting_approval"
+                enrichment_tasks[task_id]["message"] = "Waiting for human approval"
+            else:
+                raise
+        
+    except Exception as e:
+        logger.error(f"❌ [RESUME] Error resuming workflow: {e}", exc_info=True)
+        enrichment_tasks[task_id]["status"] = "failed"
+        enrichment_tasks[task_id]["message"] = f"Resume failed: {str(e)}"
+        enrichment_tasks[task_id]["error"] = str(e)
+
+
+async def run_enrichment_with_checkpointing(company_name: str, task_id: str):
+    """
+    Run enrichment workflow with checkpointing enabled.
+    This allows the workflow to pause when HITL approval is needed.
+    """
+    try:
+        logger.info(f"🚀 [ENRICHMENT] Starting task {task_id} for {company_name}")
+        enrichment_tasks[task_id]["status"] = "running"
+        enrichment_tasks[task_id]["message"] = "Initializing workflow..."
+        
+        # Import main enrichment logic
+        sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
+        from tavily_agent.main import AgenticRAGOrchestrator
+        from tavily_agent.file_io_manager import FileIOManager
+        from tavily_agent.graph import PayloadEnrichmentState
+        
+        # Initialize orchestrator with checkpointing
+        orchestrator = AgenticRAGOrchestrator()
+        orchestrator.graph = None  # Will rebuild with checkpointing
+        
+        logger.info(f"🔧 [ENRICHMENT] Building graph with checkpointing for {company_name}")
+        from tavily_agent.graph import build_enrichment_graph
+        orchestrator.graph = build_enrichment_graph(with_checkpointing=True)
+        
+        # Load payload
+        logger.info(f"📥 [ENRICHMENT] Loading payload for {company_name}")
+        file_io = FileIOManager()
+        payload = await file_io.read_payload(company_name)
+        
+        if not payload:
+            raise ValueError(f"Could not load payload for {company_name}")
+        
+        # Create initial state
+        state = PayloadEnrichmentState(
+            company_name=company_name,
+            company_id=payload.get("company_record", {}).get("company_id", company_name),
+            current_payload=json.loads(json.dumps(payload, default=str)),
+            original_payload=json.loads(json.dumps(payload, default=str))
+        )
+        
+        # Execute workflow with thread/config for checkpointing
+        config = {
+            "configurable": {"thread_id": task_id},
+            "recursion_limit": 100
+        }
+        
+        enrichment_tasks[task_id]["message"] = "Executing workflow..."
+        logger.info(f"▶️  [ENRICHMENT] Invoking workflow for {company_name} with thread_id={task_id}")
+        
+        try:
+            # This will pause if interrupt() is called
+            final_state = await orchestrator.graph.ainvoke(state.dict(), config=config)
+            
+            # Convert back to state object
+            final_state_obj = PayloadEnrichmentState(**final_state)
+            
+            # Check if we hit an interrupt (HITL pause)
+            if final_state_obj.pending_approval_id:
+                logger.info(f"⏸️  [ENRICHMENT] Workflow paused - waiting for approval: {final_state_obj.pending_approval_id}")
+                enrichment_tasks[task_id]["status"] = "waiting_approval"
+                enrichment_tasks[task_id]["approval_id"] = final_state_obj.pending_approval_id
+                enrichment_tasks[task_id]["message"] = "Waiting for human approval"
+                
+                # Get approval details
+                from tavily_agent.approval_queue import get_approval_queue
+                queue = get_approval_queue()
+                approval = queue.get_approval(final_state_obj.pending_approval_id)
+                if approval:
+                    enrichment_tasks[task_id]["field_name"] = approval.field_name
+                
+                return
+            
+            # Workflow completed
+            logger.info(f"✅ [ENRICHMENT] Workflow completed for {company_name}")
+            
+            # Save result
+            await file_io.save_payload(company_name, final_state_obj.current_payload)
+            
+            enrichment_tasks[task_id]["status"] = "completed"
+            enrichment_tasks[task_id]["message"] = "Enrichment completed successfully"
+            enrichment_tasks[task_id]["result"] = {
+                "fields_updated": len(final_state_obj.extracted_values),
+                "iterations": final_state_obj.iteration
+            }
+            
+        except Exception as workflow_error:
+            # Check if this is an interrupt (normal for HITL)
+            if "interrupt" in str(workflow_error).lower():
+                logger.info(f"⏸️  [ENRICHMENT] Workflow interrupted for approval")
+                enrichment_tasks[task_id]["status"] = "waiting_approval"
+                enrichment_tasks[task_id]["message"] = "Waiting for human approval"
+            else:
+                raise
+        
+    except Exception as e:
+        logger.error(f"❌ [ENRICHMENT] Task {task_id} failed: {e}", exc_info=True)
+        enrichment_tasks[task_id]["status"] = "failed"
+        enrichment_tasks[task_id]["error"] = str(e)
+        enrichment_tasks[task_id]["message"] = f"Enrichment failed: {str(e)}"
+
+
+@app.post("/enrich/company/{company_name}", response_model=EnrichmentTaskResponse)
+async def trigger_enrichment(company_name: str, background_tasks: BackgroundTasks):
+    """
+    Trigger agentic RAG enrichment for a company with HITL support.
+    
+    This endpoint:
+    1. Starts enrichment in background
+    2. Returns immediately with task_id
+    3. Workflow will pause if HITL approval needed
+    4. Use /enrich/status/{task_id} to check progress
+    """
+    task_id = str(uuid.uuid4())
+    
+    # Initialize task tracking
+    enrichment_tasks[task_id] = {
+        "task_id": task_id,
+        "company_name": company_name,
+        "status": "started",
+        "message": "Task created",
+        "approval_id": None,
+        "field_name": None,
+        "result": None,
+        "error": None
+    }
+    
+    # Start enrichment in background
+    background_tasks.add_task(run_enrichment_with_checkpointing, company_name, task_id)
+    
+    logger.info(f"📋 [API] Created enrichment task {task_id} for {company_name}")
+    
+    return EnrichmentTaskResponse(
+        task_id=task_id,
+        company_name=company_name,
+        status="started",
+        message=f"Enrichment task created for {company_name}. Use /enrich/status/{task_id} to check progress."
+    )
+
+
+@app.get("/enrich/status/{task_id}", response_model=EnrichmentStatusResponse)
+async def get_enrichment_status(task_id: str):
+    """
+    Check status of an enrichment task.
+    
+    Status values:
+    - started: Task created but not yet running
+    - running: Workflow executing
+    - waiting_approval: Paused, waiting for HITL approval
+    - completed: Successfully finished
+    - failed: Error occurred
+    """
+    if task_id not in enrichment_tasks:
+        raise HTTPException(status_code=404, detail=f"Task {task_id} not found")
+    
+    task = enrichment_tasks[task_id]
+    
+    return EnrichmentStatusResponse(
+        task_id=task_id,
+        company_name=task["company_name"],
+        status=task["status"],
+        message=task.get("message"),
+        approval_id=task.get("approval_id"),
+        field_name=task.get("field_name"),
+        result=task.get("result"),
+        error=task.get("error")
+    )
+
+
+@app.post("/enrich/resume/{task_id}")
+async def resume_enrichment(task_id: str, background_tasks: BackgroundTasks):
+    """
+    Resume a paused enrichment workflow after approval is processed.
+    
+    This is called automatically after approval/rejection in the HITL dashboard.
+    """
+    if task_id not in enrichment_tasks:
+        raise HTTPException(status_code=404, detail=f"Task {task_id} not found")
+    
+    task = enrichment_tasks[task_id]
+    
+    if task["status"] != "waiting_approval":
+        raise HTTPException(
+            status_code=400,
+            detail=f"Task is not waiting for approval (current status: {task['status']})"
+        )
+    
+    logger.info(f"▶️  [API] Resuming task {task_id} for {task['company_name']}")
+    
+    # Resume workflow from checkpoint
+    background_tasks.add_task(run_enrichment_with_checkpointing, task["company_name"], task_id)
+    
+    return {
+        "task_id": task_id,
+        "status": "resuming",
+        "message": "Workflow resuming from checkpoint"
+    }
 
 
 # ─────────────────────────────────────────────────────────────────────────────

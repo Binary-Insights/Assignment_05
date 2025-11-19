@@ -5535,406 +5535,448 @@
       "company_name": "Abridge",
       "company_slug": "abridge",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-18T14:41:07.830818Z",
+      "timestamp": "2025-11-19T00:48:43.173452Z",
       "markdown_file": "markdown/abridge/structured.md",
-      "content": "## Company Overview\n\nAbridge AI, Inc., branded as Abridge, is a private company founded in 2018 and headquartered in San Francisco, California, United States. The company operates in the category of \"Generative AI for Clinical Conversations.\" Abridge's primary product is the Abridge AI Platform, which focuses on enhancing clinical conversations through generative AI technology.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nAbridge recently completed a Series E funding round, raising $300 million. This round has brought the company's valuation to $5.3 billion. The company has a significant relationship with Epic Systems, which is noted as a related company.\n\n## Growth Momentum\n\nAbridge is experiencing a hiring spike, with 53 open positions across various departments, including Engineering, Product, and Operations. This indicates a phase of expansion and scaling within the company.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nAbridge has faced a security incident involving individuals fraudulently representing themselves as Abridge recruiters. The company has issued warnings and guidance to mitigate this risk.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Detailed business model and go-to-market strategy are not disclosed.\n- Specific investor profiles and names are not disclosed.\n- Market sentiment and visibility details are not provided.\n- Future outlook and strategic plans are not disclosed."
+      "content": "## Company Overview\n\nAbridge AI, Inc., branded as Abridge, is a private company founded in 2018. It operates at the intersection of healthcare and technology, focusing on AI-driven solutions for clinical settings. The company is headquartered in Pittsburgh, Illinois, US. Abridge's mission is to enhance healthcare delivery through advanced AI technologies.\n\n## Business Model and GTM\n\nAbridge offers a suite of AI-powered products designed to improve clinical documentation and healthcare workflows. Key products include the Abridge Contextual Reasoning Engine, Abridge Enterprise, and a Generative AI Tool for Emergency Care. These products aim to provide clinically accurate summaries, enhance security and compliance, and integrate seamlessly with existing healthcare systems like Epic. The company states that its solutions are tailored to support multilingual communities and improve clinician well-being and coding compliance.\n\n## Funding & Investor Profile\n\nAbridge has raised a total of $550 million, with its most recent funding round being a Series E, where it secured $300 million. Notable investors include Khosla Ventures and Andreessen Horowitz. The last disclosed valuation of the company was $5.3 billion.\n\n## Growth Momentum\n\nAbridge has demonstrated significant growth momentum, as evidenced by its partnerships with major healthcare providers such as AltaMed Health Services Corporation, Sharp HealthCare, CHRISTUS Health, and Highmark Health. These collaborations aim to integrate Abridge's AI technology into various healthcare settings, enhancing clinical documentation and automating processes like prior authorization requests.\n\n## Visibility & Market Sentiment\n\nThe company states that it is recognized as a leading AI platform in healthcare, with its products being integrated into major healthcare systems. However, specific visibility metrics and market sentiment data are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nAbridge is positioned to continue its growth trajectory by leveraging its advanced AI technologies to address critical needs in healthcare documentation and workflow efficiency. The company's strategic partnerships and robust funding support its potential for further expansion and innovation in the healthcare technology sector.\n\n## Disclosure Gaps\n\n- Specific dates for product releases and partnerships are not disclosed.\n- Detailed visibility metrics and market sentiment data are not available.\n- Risks and challenges faced by the company are not disclosed.\n- Additional leadership details and roles are not fully provided."
     },
     "rag": {
       "company_name": "Abridge",
       "company_slug": "abridge",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-17T18:54:26.479227Z",
+      "timestamp": "2025-11-19T00:49:17.214159Z",
       "markdown_file": "markdown/abridge/rag.md",
-      "content": "## Company Overview\n\nAbridge is a private AI startup focused on transforming healthcare conversations into actionable insights. The company aims to empower clinicians, enhance patient clarity, and drive efficiencies in healthcare through its purpose-built AI solutions. Abridge is recognized for its innovative approach in leveraging generative AI to improve medical conversations and outcomes.\n\n## Business Model and GTM\n\nThe company states that its mission is to power deeper understanding in healthcare by providing AI-driven insights. Abridge's business model likely involves offering AI solutions to healthcare providers, focusing on improving clinician-patient interactions and optimizing revenue cycle management. The company operates across various offices, including San Francisco, New York City, and Pittsburgh, with a hybrid work model for many roles.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nAbridge has been featured in reports such as the \"Best in KLAS Report\" and the \"Scale & Impact Report,\" indicating a positive market presence and recognition in the healthcare AI sector. The company also maintains a news feed and customer hub to engage with its audience and stakeholders.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that it is pioneering in the field of generative AI for healthcare, suggesting a forward-looking approach to innovation and market leadership. Abridge's focus on enhancing medical conversations positions it well to address ongoing challenges in healthcare communication and efficiency.\n\n## Disclosure Gaps\n\n- Specific funding details and investor profiles are not disclosed.\n- Growth metrics and specific market sentiment data are not available.\n- Detailed risks and challenges faced by the company are not provided.",
+      "content": "## Company Overview\n\nAbridge is a private AI startup focused on leveraging artificial intelligence to enhance various operational and commercial functions. The company is involved in multiple sectors, including operations, marketing, finance, and science, with a presence in major cities like San Francisco and New York City. Abridge offers hybrid work arrangements and provides equity as part of its compensation packages.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nThe company states that it provides resources such as an Impact Calculator and a Best in KLAS Report, which may indicate a focus on demonstrating value and impact in its market. However, specific details on market sentiment or visibility metrics are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Specific details about Abridge's business model and go-to-market strategy are not disclosed.\n- Information regarding funding, investor profiles, and growth momentum is not available.\n- There is no detailed information on the company's visibility, market sentiment, risks, challenges, or future outlook.",
       "context_results": [
         {
-          "id": "abridge_careers_5d15c928",
-          "similarity_score": 0.380802155,
-          "text": "$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel\nLegal - Product • United States - Remote • Full time • Remote\n$220K – $250K • Offers Equity\nOperations\nMarketing\nSenior Brand Designer\nMarketing • SF Office; NYC Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Growth & CRM Marketer\nMarketing • NYC Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management",
+          "id": "abridge_tavily_bbcbb6ef",
+          "similarity_score": 0.495552063,
+          "text": "",
           "metadata": {
-            "chunk_index": 20.0,
             "company_slug": "abridge",
-            "content_hash": "5d15c928",
-            "indexed_at": "2025-11-14T17:12:02.200324",
+            "content_hash": "bbcbb6ef",
+            "ingested_at": "2025-11-19T00:29:37.220773",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://research.contrary.com/company/abridge",
+            "text_preview": "Report: Abridge Business Breakdown & Founding Story\n\nIn July 2025, the company raised $243 million in Series C funding at a $1.25 billion valuation, bringing its total funding to 320 million as of Sep",
+            "title": "Report: Abridge Business Breakdown & Founding Story"
+          }
+        },
+        {
+          "id": "abridge_tavily_e252aa38",
+          "similarity_score": 0.432304323,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "e252aa38",
+            "ingested_at": "2025-11-19T00:30:08.387465",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://research.contrary.com/company/abridge",
+            "text_preview": "Report: Abridge Business Breakdown & Founding Story\n\nIn June 2025, Abridge raised a $300 million Series E round led by Andreessen Horowitz, with participation from Khosla Ventures, at a $5.3 billion p",
+            "title": "Report: Abridge Business Breakdown & Founding Story"
+          }
+        },
+        {
+          "id": "abridge_careers_92c2fe3c",
+          "similarity_score": 0.398147583,
+          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • NYC Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • SF Office • Full time • Hybrid",
+          "metadata": {
+            "chunk_index": 17.0,
+            "company_slug": "abridge",
+            "content_hash": "92c2fe3c",
+            "indexed_at": "2025-11-18T20:23:16.980422",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
         },
         {
+          "id": "abridge_tavily_be7819d7",
+          "similarity_score": 0.394065857,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "be7819d7",
+            "ingested_at": "2025-11-19T00:11:48.813509",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://www.linkedin.com/company/abridgehq",
+            "text_preview": "Abridge - LinkedIn\n\nOverview:\nAbridge was founded in 2018 with the mission of powering deeper understanding in healthcare. Our Best in KLAS AI-powered platform was purpose-built for medical conversati",
+            "title": "Abridge - LinkedIn"
+          }
+        },
+        {
+          "id": "abridge_tavily_13ce2c5d",
+          "similarity_score": 0.392663956,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "13ce2c5d",
+            "ingested_at": "2025-11-19T00:12:58.734287",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://pitchbook.com/profiles/company/268134-40",
+            "text_preview": "Abridge 2025 Company Profile: Valuation, Funding & Investors\n\nAbridge Overview · Year Founded. 2018. Year Founded · Status. Private · Employees. 431. Employees · Latest Deal Type. Series E · Latest De",
+            "title": "Abridge 2025 Company Profile: Valuation, Funding & Investors"
+          }
+        },
+        {
+          "id": "abridge_tavily_e097527b",
+          "similarity_score": 0.389930725,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "e097527b",
+            "ingested_at": "2025-11-19T00:30:44.777402",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://www.linkedin.com/company/abridgehq",
+            "text_preview": "Abridge | LinkedIn\n\nOverview:\nAbridge was founded in 2018 with the mission of powering deeper understanding in healthcare. Our Best in KLAS AI-powered platform was purpose-built for medical conversati",
+            "title": "Abridge | LinkedIn"
+          }
+        },
+        {
+          "id": "abridge_tavily_b7909f86",
+          "similarity_score": 0.389060974,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "b7909f86",
+            "ingested_at": "2025-11-19T00:12:44.433383",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://pitchbook.com/profiles/company/268134-40",
+            "text_preview": "Abridge 2025 Company Profile: Valuation, Funding & Investors\n\nCorporate Office · 30 South 15th Street · Suite1550 PMB 41901 · Philadelphia, PA 19102 · United States.",
+            "title": "Abridge 2025 Company Profile: Valuation, Funding & Investors"
+          }
+        },
+        {
+          "id": "abridge_tavily_79b65228",
+          "similarity_score": 0.388000518,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "79b65228",
+            "ingested_at": "2025-11-19T00:29:34.444518",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://salestools.io/report/abridge-raises-250-million-series-d-october-2024",
+            "text_preview": "Abridge Raises $250 Million in Series D - October 2024 - SalesTools\n\nAbridge successfully raised **$250 Million** in this Series D funding round. **IVP (Institutional Venture Partners)** (Co-Lead Inve",
+            "title": "Abridge Raises $250 Million in Series D - October 2024 - SalesTools"
+          }
+        },
+        {
+          "id": "abridge_tavily_52f1b382",
+          "similarity_score": 0.385955811,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "52f1b382",
+            "ingested_at": "2025-11-19T00:29:35.210109",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://www.texau.com/profiles/abridge-inc",
+            "text_preview": "How Much Did Abridge Inc Raise? Funding & Key Investors\n\nLinkedIn automations are now retired. TexAu V3 is on the way, be the first to know when it launches. Get updates * **Motivation:** Platform dev",
+            "title": "How Much Did Abridge Inc Raise? Funding & Key Investors"
+          }
+        },
+        {
+          "id": "abridge_tavily_a3e8806a",
+          "similarity_score": 0.383785248,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "a3e8806a",
+            "ingested_at": "2025-11-19T00:12:59.222780",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://www.linkedin.com/company/abridgehq",
+            "text_preview": "Abridge\n\nOverview:\nAbridge was founded in 2018 with the mission of powering deeper understanding in healthcare. Our Best in KLAS AI-powered platform was purpose-built for medical conversations, improv",
+            "title": "Abridge"
+          }
+        },
+        {
           "id": "abridge_about_140f49f4",
-          "similarity_score": 0.378959656,
+          "similarity_score": 0.379516631,
           "text": "Contact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
           "metadata": {
             "chunk_index": 9.0,
             "company_slug": "abridge",
             "content_hash": "140f49f4",
-            "indexed_at": "2025-11-15T14:14:52.189600",
+            "indexed_at": "2025-11-18T20:23:16.977641",
             "page_type": "about",
             "source_file": "data/raw/abridge/about/text.txt"
           }
         },
         {
-          "id": "abridge_careers_33812742",
-          "similarity_score": 0.37846756,
-          "text": "$123.2K – $144.9K • Offers Equity\nExecutive\nExecutive Operations Partner to the Office of the CEO (NYC)\nExecutive • NYC Office • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist",
+          "id": "abridge_tavily_87fec48f",
+          "similarity_score": 0.379192352,
+          "text": "",
           "metadata": {
-            "chunk_index": 18.0,
             "company_slug": "abridge",
-            "content_hash": "33812742",
-            "indexed_at": "2025-11-14T17:12:02.200309",
+            "content_hash": "87fec48f",
+            "ingested_at": "2025-11-19T00:12:59.579265",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://tracxn.com/d/companies/abridge/__U5uqj6We-1PaN9os5ml0gBojQkLlz_jwGih4yWgtvxI",
+            "text_preview": "Abridge - 2025 Company Profile, Team & Competitors\n\n# Abridge - Company Profile ## Abridge - About the company Abridge is an unfunded company, founded in 2000bySusan Hunt. | 7th | Lucas Health 2023, M",
+            "title": "Abridge - 2025 Company Profile, Team & Competitors"
+          }
+        },
+        {
+          "id": "abridge_tavily_3539a27a",
+          "similarity_score": 0.376928329,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "3539a27a",
+            "ingested_at": "2025-11-19T00:13:00.322162",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://tracxn.com/d/companies/abridge-inc/__Pa9JE2faVUirY8e07Tb0M33vLUKKRf0BPr2xbtBzrq8",
+            "text_preview": "Abridge Inc - 2025 Company Profile & Team\n\n## Abridge Inc - About the company Abridge Inc is a series E company based in Pittsburgh (United States), founded in 2018byZachary Zack Lipton, Florian Metze",
+            "title": "Abridge Inc - 2025 Company Profile & Team"
+          }
+        },
+        {
+          "id": "abridge_blog_670fa5af",
+          "similarity_score": 0.375015259,
+          "text": "Science\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
+          "metadata": {
+            "chunk_index": 4.0,
+            "company_slug": "abridge",
+            "content_hash": "670fa5af",
+            "indexed_at": "2025-11-18T20:23:16.978859",
+            "page_type": "blog",
+            "source_file": "data/raw/abridge/blog/text.txt"
+          }
+        },
+        {
+          "id": "abridge_tavily_b1800566",
+          "similarity_score": 0.374702483,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "b1800566",
+            "ingested_at": "2025-11-19T00:29:36.584508",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://salestools.io/report/abridge-raises-250-million-series-d-october-2024",
+            "text_preview": "Abridge Raises $250 Million in Series D - October 2024\n\nAbridge successfully raised **$250 Million** in this Series D funding round. **IVP (Institutional Venture Partners)** (Co-Lead Investor): Leadin",
+            "title": "Abridge Raises $250 Million in Series D - October 2024"
+          }
+        },
+        {
+          "id": "abridge_careers_41a5c5c5",
+          "similarity_score": 0.373031616,
+          "text": "Marketing • NYC Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management\nMarketing • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Web Designer\nMarketing • NYC Office; SF Office • Full time • Remote\n$150K – $170K • Offers Equity\nOperations\nMarketing\nGrowth\nDemand Generation Marketer\nGrowth • NYC Office • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist",
+          "metadata": {
+            "chunk_index": 20.0,
+            "company_slug": "abridge",
+            "content_hash": "41a5c5c5",
+            "indexed_at": "2025-11-18T20:23:16.980442",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
         },
         {
-          "id": "abridge_careers_2d75818a",
-          "similarity_score": 0.377830505,
-          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • NYC Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • PGH Office; CHI Office; SF Office; NYC Office • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nExecutive",
+          "id": "abridge_tavily_777c6901",
+          "similarity_score": 0.372680694,
+          "text": "",
           "metadata": {
-            "chunk_index": 17.0,
             "company_slug": "abridge",
-            "content_hash": "2d75818a",
-            "indexed_at": "2025-11-14T17:12:02.200303",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
+            "content_hash": "777c6901",
+            "ingested_at": "2025-11-19T00:12:58.937407",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://tracxn.com/d/companies/abridge-inc/__Pa9JE2faVUirY8e07Tb0M33vLUKKRf0BPr2xbtBzrq8",
+            "text_preview": "Abridge Inc - 2025 Company Profile, Team, Funding, Competitors ...\n\n## Abridge Inc - About the company Abridge Inc is a series E company based in Pittsburgh (United States), founded in 2018byZachary Z",
+            "title": "Abridge Inc - 2025 Company Profile, Team, Funding, Competitors ..."
           }
         },
         {
-          "id": "abridge_careers_70ddfbb0",
-          "similarity_score": 0.375923157,
-          "text": "$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel\nLegal - Product • United States-Remote • Full time • Remote\n$220K – $250K • Offers Equity\nOperations\nMarketing\nSenior Brand Designer\nMarketing • San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Growth & CRM Marketer\nMarketing • New York City-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management",
-          "metadata": {
-            "chunk_index": 21.0,
-            "company_slug": "abridge",
-            "content_hash": "70ddfbb0",
-            "indexed_at": "2025-11-13T15:29:32.018556",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_04797073",
-          "similarity_score": 0.37096405,
-          "text": "$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management\nMarketing • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Web Designer\nMarketing • NYC Office; SF Office • Full time • Remote\n$150K – $170K • Offers Equity\nOperations\nMarketing\nGrowth\nDemand Generation Marketer\nGrowth • NYC Office • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist\nPeople Ops • SF Office • Full time • Hybrid",
-          "metadata": {
-            "chunk_index": 21.0,
-            "company_slug": "abridge",
-            "content_hash": "04797073",
-            "indexed_at": "2025-11-14T17:12:02.200330",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_21e1d3d7",
-          "similarity_score": 0.369419128,
-          "text": "$150K – $170K • Offers Equity\nSenior Product Marketer, Revenue Cycle Management\nMarketing • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Web Designer\nMarketing • New York City-Hybrid; San Francisco-Hybrid • Full time • Remote\n$150K – $170K • Offers Equity\nOperations\nMarketing\nGrowth\nDemand Generation Marketer\nGrowth • New York City-Hybrid • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nPeople\nPeople Ops\nSenior People Operations Generalist",
-          "metadata": {
-            "chunk_index": 22.0,
-            "company_slug": "abridge",
-            "content_hash": "21e1d3d7",
-            "indexed_at": "2025-11-13T15:29:32.018569",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_b3241ead",
-          "similarity_score": 0.365913391,
-          "text": "$123.2K – $144.9K • Offers Equity\nExecutive\nExecutive Operations Partner to the Office of the CEO (NYC)\nExecutive • New York City-Hybrid • Full time • Hybrid\n$135K – $145K • Offers Equity\nOperations\nCore Operations\nSenior Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Product Operations Manager\nCore Operations • San Francisco-Hybrid • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science",
+          "id": "abridge_careers_76443986",
+          "similarity_score": 0.371688843,
+          "text": "Payroll Manager\nFinance Operations • SF Office • Full time • Hybrid\n$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel\nLegal - Product • United States - Remote • Full time • Remote\n$220K – $250K • Offers Equity\nOperations\nMarketing\nSenior Brand Designer\nMarketing • SF Office; NYC Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nSenior Growth & CRM Marketer\nMarketing • NYC Office • Full time • Hybrid\n$150K – $170K • Offers Equity",
           "metadata": {
             "chunk_index": 19.0,
             "company_slug": "abridge",
-            "content_hash": "b3241ead",
-            "indexed_at": "2025-11-13T15:29:32.018522",
+            "content_hash": "76443986",
+            "indexed_at": "2025-11-18T20:23:16.980434",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
+          }
+        },
+        {
+          "id": "abridge_tavily_a41ab268",
+          "similarity_score": 0.364891052,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "a41ab268",
+            "ingested_at": "2025-11-19T00:12:58.155333",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://research.contrary.com/company/abridge",
+            "text_preview": "Abridge Business Breakdown & Founding Story - Contrary Research\n\nAbridge was founded in 2018 by Shivdev Rao (CEO), Florian Metze (CSO), and Sandeep Konam (CTO). The company originated from the Pittsbu",
+            "title": "Abridge Business Breakdown & Founding Story - Contrary Research"
           }
         },
         {
           "id": "abridge_careers_6ae90e5f",
-          "similarity_score": 0.362407684,
+          "similarity_score": 0.363376617,
           "text": "ML Science Manager\nScience • SF Office • Full time • Hybrid\nNurse Scientist (RN)\nScience • San Francisco-Onsite; SF Office; NYC Office; New York-Onsite • Full time • Hybrid\n$180K – $250K • Offers Equity\nCommercial\nSales Director - Commercial (MT/PST)\nCommercial • United States - Remote • Full time • Remote\n$100K – $120K • Offers Equity • Offers Commission\nCommercial\nPartner Experience\nImplementation\nImplementation Manager - Strategic Accounts",
           "metadata": {
             "chunk_index": 11.0,
             "company_slug": "abridge",
             "content_hash": "6ae90e5f",
-            "indexed_at": "2025-11-14T17:12:02.200270",
+            "indexed_at": "2025-11-18T20:23:16.980383",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
         },
         {
-          "id": "abridge_careers_9aa29fb6",
-          "similarity_score": 0.36233139,
-          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • NYC Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • SF Office; Seattle • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
+          "id": "abridge_tavily_a4a75bbd",
+          "similarity_score": 0.361795425,
+          "text": "",
           "metadata": {
-            "chunk_index": 16.0,
             "company_slug": "abridge",
-            "content_hash": "9aa29fb6",
-            "indexed_at": "2025-11-14T17:12:02.200297",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
+            "content_hash": "a4a75bbd",
+            "ingested_at": "2025-11-19T00:12:56.783962",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://research.contrary.com/company/abridge",
+            "text_preview": "Abridge Business Breakdown & Founding Story - Contrary Research\n\nAbridge was founded in 2018 by Shivdev Rao (CEO), Florian Metze (CSO), and Sandeep Konam (CTO). The company originated from the Pittsbu",
+            "title": "Abridge Business Breakdown & Founding Story - Contrary Research"
           }
         },
         {
-          "id": "abridge_about_42010519",
-          "similarity_score": 0.357399017,
-          "text": "Publications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator\nNews Feed\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nLogin\nContact us\nWe Transform Conversations Into Insights With Ai\nOur mission is to power deeper understanding in healthcare through purpose-built AI.\n“We’re giving agency back to clinicians, creating clarity for patients, and establishing radical efficiencies to transform healthcare from the conversation up.”\nShiv Rao, MD\nCEO, Founder",
+          "id": "abridge_tavily_1ec2d66c",
+          "similarity_score": 0.361234695,
+          "text": "",
           "metadata": {
-            "chunk_index": 2.0,
             "company_slug": "abridge",
-            "content_hash": "42010519",
-            "indexed_at": "2025-11-15T14:14:52.189573",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
+            "content_hash": "1ec2d66c",
+            "ingested_at": "2025-11-19T00:12:02.489371",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://pitchbook.com/profiles/company/268134-40",
+            "text_preview": "Abridge 2025 Company Profile: Valuation, Funding & Investors\n\nComparisons. Abridge. HQ Location. Philadelphia, PA. Employees. 431 as of 2025. Primary Industry. Enterprise Systems (Healthcare). Total R",
+            "title": "Abridge 2025 Company Profile: Valuation, Funding & Investors"
           }
         },
         {
-          "id": "abridge_careers_1d9b4649",
-          "similarity_score": 0.355110168,
-          "text": "$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist\nData Science • San Francisco-Onsite; SF Office • Full time\n$165K – $215K • Offers Equity\nOperations\nFinance\nFinance Operations\nFinancial Operations Lead\nFinance Operations • SF Office • Full time • Hybrid\n$127.5K – $141.6K • Offers Equity\nPayroll Manager\nFinance Operations • SF Office • Full time • Hybrid\n$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product\nSenior Corporate Counsel",
-          "metadata": {
-            "chunk_index": 19.0,
-            "company_slug": "abridge",
-            "content_hash": "1d9b4649",
-            "indexed_at": "2025-11-14T17:12:02.200314",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_e035aa15",
-          "similarity_score": 0.354831696,
-          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience\nPartner Success - Key\nPartner Success Director - Key Accounts\nPartner Success - Key • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $28.7K Bonus\nCommercial\nPartner Experience\nPX Operations\nProgram Manager/Senior Program Manager - Clinician Onboarding\nPX Operations • Pittsburgh-Hybrid; Chicago-Hybrid; San Francisco-Hybrid; New York City-Hybrid • Full time • Hybrid",
+          "id": "abridge_careers_171d0362",
+          "similarity_score": 0.359470397,
+          "text": "Senior Product Operations Manager\nCore Operations • SF Office • Full time • Hybrid\n$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist\nData Science • San Francisco-Onsite; SF Office • Full time\n$165K – $215K • Offers Equity\nOperations\nFinance\nFinance Operations\nFinancial Operations Lead\nFinance Operations • SF Office • Full time • Hybrid\n$127.5K – $141.6K • Offers Equity\nPayroll Manager\nFinance Operations • SF Office • Full time • Hybrid\n$127.5K – $170K • Offers Equity",
           "metadata": {
             "chunk_index": 18.0,
             "company_slug": "abridge",
-            "content_hash": "e035aa15",
-            "indexed_at": "2025-11-13T15:29:32.018507",
+            "content_hash": "171d0362",
+            "indexed_at": "2025-11-18T20:23:16.980428",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
         },
         {
-          "id": "abridge_blog_ec1b2fac",
-          "similarity_score": 0.353614807,
-          "text": "Customers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
+          "id": "abridge_tavily_db47a688",
+          "similarity_score": 0.359214813,
+          "text": "",
           "metadata": {
-            "chunk_index": 4.0,
             "company_slug": "abridge",
-            "content_hash": "ec1b2fac",
-            "indexed_at": "2025-11-14T17:12:02.193813",
-            "page_type": "blog",
-            "source_file": "data/raw/abridge/blog/text.txt"
+            "content_hash": "db47a688",
+            "ingested_at": "2025-11-19T00:29:53.753655",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://hr.economictimes.indiatimes.com/news/industry/byjus-raises-800-mn-in-funding-led-by-founder-raveendran/90163049",
+            "text_preview": "Byju's raises $800 mn in funding led by founder Raveendran...\n\nThe company has raised fresh funds at an enterprise value of USD 22 billion, which has increased by about 22 per cent from the last discl",
+            "title": "Byju's raises $800 mn in funding led by founder Raveendran..."
           }
         },
         {
-          "id": "abridge_careers_9099476e",
-          "similarity_score": 0.35307312,
-          "text": "$180K – $250K • Offers Equity\nCommercial\nSales Director - Commercial (MT/PST)\nCommercial • United States-Remote • Full time • Remote\n$100K – $120K • Offers Equity • Offers Commission\nCommercial\nPartner Experience\nImplementation\nImplementation Manager - Strategic Accounts\nImplementation • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nCommercial\nPartner Experience\nImplementation - Nursing\nImplementation Director - Nursing",
+          "id": "abridge_tavily_82c991b9",
+          "similarity_score": 0.356872559,
+          "text": "",
           "metadata": {
-            "chunk_index": 12.0,
             "company_slug": "abridge",
-            "content_hash": "9099476e",
-            "indexed_at": "2025-11-13T15:29:32.018197",
+            "content_hash": "82c991b9",
+            "ingested_at": "2025-11-19T00:12:58.415774",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://tracxn.com/d/companies/abridge/__U5uqj6We-1PaN9os5ml0gBojQkLlz_jwGih4yWgtvxI",
+            "text_preview": "Abridge - 2025 Company Profile, Team & Competitors - Tracxn\n\n# Abridge - Company Profile ## Abridge - About the company Abridge is an unfunded company, founded in 2000bySusan Hunt. | 7th | Lucas Healt",
+            "title": "Abridge - 2025 Company Profile, Team & Competitors - Tracxn"
+          }
+        },
+        {
+          "id": "abridge_tavily_6500de9c",
+          "similarity_score": 0.355178803,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "6500de9c",
+            "ingested_at": "2025-11-19T00:29:34.675431",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://tracxn.com/d/companies/abridge-inc/__Pa9JE2faVUirY8e07Tb0M33vLUKKRf0BPr2xbtBzrq8/funding-and-investors",
+            "text_preview": "Abridge Inc - 2025 Funding Rounds & List of Investors - Tracxn\n\n* Bessemer Venture Partners, located in Redwood City (United States), made their first investment in Abridge Inc on Oct 06, 2020 in its ",
+            "title": "Abridge Inc - 2025 Funding Rounds & List of Investors - Tracxn"
+          }
+        },
+        {
+          "id": "abridge_careers_cd60cad6",
+          "similarity_score": 0.353881836,
+          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • PGH Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • SF Office; Seattle • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
+          "metadata": {
+            "chunk_index": 16.0,
+            "company_slug": "abridge",
+            "content_hash": "cd60cad6",
+            "indexed_at": "2025-11-18T20:23:16.980415",
             "page_type": "careers",
             "source_file": "data/raw/abridge/careers/text.txt"
           }
         },
         {
-          "id": "abridge_careers_128553e3",
-          "similarity_score": 0.352352142,
-          "text": "$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Pittsburgh-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • New York City-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nCommercial\nPartner Experience",
+          "id": "abridge_tavily_e57f50d8",
+          "similarity_score": 0.350664139,
+          "text": "",
           "metadata": {
-            "chunk_index": 17.0,
             "company_slug": "abridge",
-            "content_hash": "128553e3",
-            "indexed_at": "2025-11-13T15:29:32.018261",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
+            "content_hash": "e57f50d8",
+            "ingested_at": "2025-11-19T00:12:04.505164",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://www.cbinsights.com/company/abridge",
+            "text_preview": "Abridge - Products, Competitors, Financials, Employees ...\n\n# Abridge ## About Abridge ## Abridge Patents Abridge has filed 6 patents. | Application Date | Grant Date | Title | Related Topics | Status",
+            "title": "Abridge - Products, Competitors, Financials, Employees ..."
+          }
+        },
+        {
+          "id": "abridge_tavily_f5787b3d",
+          "similarity_score": 0.350194931,
+          "text": "",
+          "metadata": {
+            "company_slug": "abridge",
+            "content_hash": "f5787b3d",
+            "ingested_at": "2025-11-19T00:30:44.590990",
+            "relevance_score": 0.0,
+            "source": "tavily",
+            "source_url": "https://www.businessinsider.com/abridge-wants-to-buy-healthcare-ai-startups-2025-8",
+            "text_preview": "$5.3 Billion Company Abridge Wants to Buy More... - Business Insider\n\nThe startup is also partnering closely with some of those health systems on its new products — Abridge said Tuesday it's collabora",
+            "title": "$5.3 Billion Company Abridge Wants to Buy More... - Business Insider"
           }
         },
         {
           "id": "abridge_product_cc20cf4d",
-          "similarity_score": 0.348644286,
+          "similarity_score": 0.348701477,
           "text": "Platform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies\nPrivacy Policy\nTerms",
           "metadata": {
             "chunk_index": 14.0,
             "company_slug": "abridge",
             "content_hash": "cc20cf4d",
-            "indexed_at": "2025-11-14T17:12:02.229701",
+            "indexed_at": "2025-11-18T20:23:16.981814",
             "page_type": "product",
             "source_file": "data/raw/abridge/product/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_22d269df",
-          "similarity_score": 0.347755462,
-          "text": "$150K – $170K • Offers Equity\nOperations\nData Science\nSenior Data Scientist\nData Science • San Francisco-Onsite; San Francisco-Hybrid • Full time\n$165K – $215K • Offers Equity\nOperations\nFinance\nFinance Operations\nFinancial Operations Lead\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $141.6K • Offers Equity\nPayroll Manager\nFinance Operations • San Francisco-Hybrid • Full time • Hybrid\n$127.5K – $170K • Offers Equity\nOperations\nLegal\nLegal - Product",
-          "metadata": {
-            "chunk_index": 20.0,
-            "company_slug": "abridge",
-            "content_hash": "22d269df",
-            "indexed_at": "2025-11-13T15:29:32.018535",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_71598339",
-          "similarity_score": 0.341579437,
-          "text": "$163.7K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director - Nursing\nPartner Success - Clinical Success • NYC Office; PGH Office • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity • $30K Bonus\nSenior Director, Clinical Success\nPartner Success - Clinical Success • SF Office; NYC Office; CHI Office; PGH Office • Full time • Hybrid\n$174.4K – $272.7K • Offers Equity • $34.9K – $54.5K Bonus\nCommercial\nPartner Experience\nPartner Success - Enterprise and Commercial",
-          "metadata": {
-            "chunk_index": 14.0,
-            "company_slug": "abridge",
-            "content_hash": "71598339",
-            "indexed_at": "2025-11-14T17:12:02.200286",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_3d3258c6",
-          "similarity_score": 0.340904236,
-          "text": "Commercial\nPartner Experience\nImplementation - Nursing\nImplementation Director - Nursing\nImplementation - Nursing • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity\nCommercial\nPartner Experience\nPartner Success - Clinical Success\nClinical Success Director\nPartner Success - Clinical Success • San Francisco-Hybrid • Full time • Hybrid\n$163.2K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director",
-          "metadata": {
-            "chunk_index": 13.0,
-            "company_slug": "abridge",
-            "content_hash": "3d3258c6",
-            "indexed_at": "2025-11-13T15:29:32.018210",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_a7d317c3",
-          "similarity_score": 0.335216552,
-          "text": "Partner Success - Clinical Success • New York City-Hybrid; Pittsburgh-Hybrid • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity • $30K Bonus\nSenior Director, Clinical Success\nPartner Success - Clinical Success • San Francisco-Hybrid; New York City-Hybrid; Chicago-Hybrid; Pittsburgh-Hybrid • Full time • Hybrid\n$174.4K – $272.7K • Offers Equity • $34.9K – $54.5K Bonus\nCommercial\nPartner Experience\nPartner Success - Enterprise and Commercial",
-          "metadata": {
-            "chunk_index": 15.0,
-            "company_slug": "abridge",
-            "content_hash": "a7d317c3",
-            "indexed_at": "2025-11-13T15:29:32.018236",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_0b8a84fe",
-          "similarity_score": 0.332508117,
-          "text": "Abridge Jobs\nOpen Positions\n(53)\nFilters:\nReset filters\nDepartment\nAll Departments\nBuilder\nFoundations Engineering\nPlatform Engineering\nSecurity\nML Engineering\nProduct\nProduct Design\nProduct Engineering\nScience\nCommercial\nPartner Experience\nImplementation\nImplementation - Nursing\nPartner Success - Clinical Success\nPartner Success - Enterprise and Commercial\nPartner Success - Key\nPX Operations\nExecutive\nOperations\nCore Operations\nData Science\nFinance\nFinance Operations\nLegal\nLegal - Product",
-          "metadata": {
-            "chunk_index": 1.0,
-            "company_slug": "abridge",
-            "content_hash": "0b8a84fe",
-            "indexed_at": "2025-11-14T17:12:02.200174",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_aff8f5f5",
-          "similarity_score": 0.332485199,
-          "text": "Commercial\nPartner Experience\nImplementation\nImplementation Manager - Strategic Accounts\nImplementation • SF Office; Seattle • Full time • Hybrid\n$123.2K – $144.9K • Offers Equity\nCommercial\nPartner Experience\nImplementation - Nursing\nImplementation Director - Nursing\nImplementation - Nursing • SF Office; Seattle • Full time • Hybrid\n$146.9K – $172.8K • Offers Equity\nCommercial\nPartner Experience\nPartner Success - Clinical Success\nClinical Success Director",
-          "metadata": {
-            "chunk_index": 12.0,
-            "company_slug": "abridge",
-            "content_hash": "aff8f5f5",
-            "indexed_at": "2025-11-14T17:12:02.200274",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_a3d0d96d",
-          "similarity_score": 0.332204819,
-          "text": "Commercial\nPartner Experience\nPartner Success - Enterprise and Commercial\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • Chicago-Hybrid • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • San Francisco-Hybrid; Seattle • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus",
-          "metadata": {
-            "chunk_index": 16.0,
-            "company_slug": "abridge",
-            "content_hash": "a3d0d96d",
-            "indexed_at": "2025-11-13T15:29:32.018249",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_bebaddbb",
-          "similarity_score": 0.330509186,
-          "text": "Commercial\nPartner Experience\nPartner Success - Clinical Success\nClinical Success Director\nPartner Success - Clinical Success • SF Office • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $29.4K – $38.5K Bonus\nClinical Success Director\nPartner Success - Clinical Success • SF Office • Full time • Hybrid\n$163.2K – $192.6K • Offers Equity • $30K Bonus\nClinical Success Director\nPartner Success - Clinical Success • CHI Office • Full time • Hybrid\n$163.7K – $192.6K • Offers Equity • $30K Bonus",
-          "metadata": {
-            "chunk_index": 13.0,
-            "company_slug": "abridge",
-            "content_hash": "bebaddbb",
-            "indexed_at": "2025-11-14T17:12:02.200279",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_a2203d54",
-          "similarity_score": 0.32824707,
-          "text": "Commercial\nPartner Experience\nPartner Success - Enterprise and Commercial\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • CHI Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus\nPartner Success Director - Commercial & Enterprise Accounts\nPartner Success - Enterprise and Commercial • PGH Office • Full time • Hybrid\n$135.4K – $159.3K • Offers Equity • $27.1K – $31.9K Bonus",
-          "metadata": {
-            "chunk_index": 15.0,
-            "company_slug": "abridge",
-            "content_hash": "a2203d54",
-            "indexed_at": "2025-11-14T17:12:02.200291",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_blog_c839bc87",
-          "similarity_score": 0.327102661,
-          "text": "Read more\nAnnouncements\nPosted\nNovember 10, 2025\nby\nAbridge\nCaitlin Clark and Abridge at Becker's CEO + CFO\nRead more\nAnnouncements\nPosted\nNovember 4, 2025\nby\nAbridge\nBecker’s: Voices of Healthcare\nRead more\nPrevious\nView more\nPlatform\nClinicians\nRevenue Cycle\nNurses\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nAbout\nAbout Us\nPress\nLife at Abridge\nCareers\nContact\nResources\nCustomers\nImpact Calculator\nBest in KLAS Report\nSupport Center\nCustomer Hub\nNews Feed\nPolicies",
-          "metadata": {
-            "chunk_index": 3.0,
-            "company_slug": "abridge",
-            "content_hash": "c839bc87",
-            "indexed_at": "2025-11-14T17:12:02.193807",
-            "page_type": "blog",
-            "source_file": "data/raw/abridge/blog/text.txt"
-          }
-        },
-        {
-          "id": "abridge_careers_a65b002c",
-          "similarity_score": 0.325603515,
-          "text": "Senior Product Manager\nProduct • San Francisco-Hybrid; San Francisco-Onsite • Full time • Hybrid\n$182K – $203K • Offers Equity\nStaff Product Manager\nProduct • San Francisco-Hybrid; San Francisco-Onsite • Full time • Hybrid\n$215K – $229.5K • Offers Equity\nBuilder\nProduct\nProduct Design\nSenior Product Designer\nProduct Design • San Francisco-Hybrid; New York City-Hybrid; New York-Onsite; San Francisco-Onsite • Full time • Hybrid\n$182.5K – $203K • Offers Equity\nStaff Product Designer",
-          "metadata": {
-            "chunk_index": 7.0,
-            "company_slug": "abridge",
-            "content_hash": "a65b002c",
-            "indexed_at": "2025-11-13T15:29:32.018112",
-            "page_type": "careers",
-            "source_file": "data/raw/abridge/careers/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_5a6f770b",
-          "similarity_score": 0.325128555,
-          "text": "Sagar Sanghvi\nChief Financial Officer\nI joined Abridge because Abridge’s DNA in healthcare and technology has enabled us to create a magical product that enhances millions of medical conversations each year.\nTim Hwang\nGeneral Counsel\nTechnology is nothing without empathy. I joined Abridge because it's a rare company that marries the most cutting-edge technology with a real, palpable understanding of the biggest challenges facing healthcare.\nOur core values\nLearn more\n01\nThe obstacle is the way",
-          "metadata": {
-            "chunk_index": 5.0,
-            "company_slug": "abridge",
-            "content_hash": "5a6f770b",
-            "indexed_at": "2025-11-15T14:14:52.189584",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
-          }
-        },
-        {
-          "id": "abridge_about_09e7a64d",
-          "similarity_score": 0.323345184,
-          "text": "Pioneers in Generative AI for Healthcare | About Abridge\nOpens in a new window\nOpens an external website\nOpens an external website in a new window\nThis website utilizes technologies such as \nWatch the love stories that inspire us\nLove Stories\nWatch the love stories that inspire us\nWatch Video\nSkip to main content\nPlatform\nClinicians\nRevenue Cycle\nNursing\nAI\nWhitepapers\nContextual Reasoning Engine\nScience\nPublications\nResources\nCustomers\nBest in KLAS Report\nScale & Impact Report\nImpact Calculator",
-          "metadata": {
-            "chunk_index": 1.0,
-            "company_slug": "abridge",
-            "content_hash": "09e7a64d",
-            "indexed_at": "2025-11-15T14:14:52.189523",
-            "page_type": "about",
-            "source_file": "data/raw/abridge/about/text.txt"
           }
         }
       ]

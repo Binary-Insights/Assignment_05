@@ -219,6 +219,111 @@ except Exception as e:
 names = [c["company_name"] for c in companies] if companies else ["ExampleAI"]
 choice = st.selectbox("Select company", names)
 
+# ─────────────────────────────────────────────────────────────────────────────
+#  Agentic RAG Enrichment with HITL
+# ─────────────────────────────────────────────────────────────────────────────
+st.divider()
+st.subheader("🤖 Agentic RAG Enrichment (HITL-Enabled)")
+st.markdown("""
+**Intelligent payload enrichment** with human-in-the-loop approval for high-risk fields.
+This workflow will pause and wait for your approval when extracting sensitive data like valuations or funding amounts.
+""")
+
+# Initialize session state for enrichment
+if "enrichment_task_id" not in st.session_state:
+    st.session_state.enrichment_task_id = None
+if "enrichment_status" not in st.session_state:
+    st.session_state.enrichment_status = None
+
+col_enrich1, col_enrich2 = st.columns([1, 2])
+
+with col_enrich1:
+    if st.button("🚀 Enrich with HITL", type="primary", use_container_width=True):
+        try:
+            with st.spinner(f"🔄 Starting enrichment for {choice}..."):
+                resp = requests.post(
+                    f"{API_BASE}/enrich/company/{choice.lower().replace(' ', '-')}",
+                    timeout=10
+                )
+            
+            if resp.status_code == 200:
+                data = resp.json()
+                st.session_state.enrichment_task_id = data["task_id"]
+                st.session_state.enrichment_status = data["status"]
+                st.success(f"✅ Enrichment started! Task ID: {data['task_id'][:8]}...")
+                st.info("📊 Monitor progress below. Check **HITL Approvals** page if workflow pauses for approval.")
+                st.rerun()  # Refresh to show status
+            else:
+                st.error(f"❌ Error starting enrichment: {resp.status_code}")
+                st.json(resp.json())
+        
+        except Exception as e:
+            st.error(f"❌ Error: {e}")
+
+with col_enrich2:
+    # Status monitoring
+    if st.session_state.enrichment_task_id:
+        task_id = st.session_state.enrichment_task_id
+        
+        # Auto-refresh status
+        if st.button("🔄 Refresh Status", use_container_width=True):
+            st.rerun()
+        
+        try:
+            resp = requests.get(f"{API_BASE}/enrich/status/{task_id}", timeout=5)
+            if resp.status_code == 200:
+                status_data = resp.json()
+                status = status_data["status"]
+                
+                # Status display with color coding
+                if status == "running":
+                    st.info(f"▶️ **Status:** Running - {status_data.get('message', 'Processing...')}")
+                elif status == "waiting_approval":
+                    st.warning(f"⏸️ **Status:** Waiting for Approval")
+                    st.markdown(f"""
+                    **Field:** `{status_data.get('field_name', 'Unknown')}`  
+                    **Approval ID:** `{status_data.get('approval_id', 'N/A')[:8]}...`
+                    
+                    👉 **Go to HITL Approvals page** to review and approve this field.
+                    """)
+                    
+                    # Add link/button to HITL page
+                    if st.button("📋 Go to HITL Approvals", use_container_width=True):
+                        st.switch_page("pages/2_HITL_Approvals.py")
+                
+                elif status == "completed":
+                    st.success(f"✅ **Status:** Completed!")
+                    if status_data.get("result"):
+                        st.json(status_data["result"])
+                    # Clear task after completion
+                    if st.button("Clear", use_container_width=True):
+                        st.session_state.enrichment_task_id = None
+                        st.session_state.enrichment_status = None
+                        st.rerun()
+                
+                elif status == "failed":
+                    st.error(f"❌ **Status:** Failed")
+                    st.error(status_data.get("error", "Unknown error"))
+                    # Clear task after failure
+                    if st.button("Clear", use_container_width=True):
+                        st.session_state.enrichment_task_id = None
+                        st.session_state.enrichment_status = None
+                        st.rerun()
+                
+                else:
+                    st.info(f"ℹ️ **Status:** {status}")
+                    st.caption(status_data.get("message", ""))
+        
+        except Exception as e:
+            st.error(f"Error fetching status: {e}")
+
+st.divider()
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Traditional Dashboard Generation (Structured & RAG)
+# ─────────────────────────────────────────────────────────────────────────────
+st.subheader("📊 Traditional Dashboard Generation")
+
 col1, col2 = st.columns(2)
 
 with col1:

@@ -13,6 +13,8 @@ from typing import Dict, Any, List, Optional, Annotated
 
 from langchain_core.messages import BaseMessage, HumanMessage, ToolMessage
 from langgraph.graph import StateGraph, END
+from langgraph.checkpoint.memory import MemorySaver
+from langgraph.types import interrupt
 from pydantic import BaseModel, Field
 from langsmith import traceable
 
@@ -26,13 +28,30 @@ from langsmith import traceable
 # Add src directory to path for absolute imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from tavily_agent.config import LLM_MODEL, LLM_TEMPERATURE, MAX_ITERATIONS
+from tavily_agent.config import (
+    LLM_MODEL, LLM_TEMPERATURE, MAX_ITERATIONS, OPENAI_API_KEY,
+    HITL_ENABLED, HITL_HIGH_RISK_FIELDS, HITL_LOW_CONFIDENCE,
+    HITL_CONFIDENCE_THRESHOLD, HIGH_RISK_FIELDS
+)
 from tavily_agent.file_io_manager import FileIOManager
 from tavily_agent.vector_db_manager import VectorDBManager, get_vector_db_manager
 from tavily_agent.tools import get_tool_manager
 from tavily_agent.llm_extraction import LLMExtractionChain, ChainedExtractionResult
+from tavily_agent.approval_queue import (
+    get_approval_queue, ApprovalType, ApprovalStatus
+)
+
+# Import Pydantic models for structured entity extraction
+from rag.rag_models import Event, Leadership, Visibility, Product, Snapshot, Provenance
 
 logger = logging.getLogger(__name__)
+
+# ===========================
+# Global Checkpointer for HITL
+# ===========================
+# Use a single MemorySaver instance across all workflow runs
+# This ensures checkpoints persist when resuming after approval
+_global_checkpointer = MemorySaver()
 
 
 # ===========================
@@ -62,6 +81,7 @@ class PayloadEnrichmentState(BaseModel):
     # Tool results
     search_results: Optional[Dict[str, Any]] = None
     extracted_values: Dict[str, Any] = Field(default_factory=dict)
+    extraction_result: Optional[Dict[str, Any]] = None  # Current field's extraction result for HITL
     
     # Vector DB context
     vector_context: str = ""
@@ -69,6 +89,11 @@ class PayloadEnrichmentState(BaseModel):
     # Processing state
     status: str = "initialized"  # initialized, analyzing, searching, updating, completed
     errors: List[str] = Field(default_factory=list)
+    
+    # Human-in-the-Loop state
+    pending_approval_id: Optional[str] = None
+    hitl_enabled: bool = False
+    hitl_settings: Dict[str, Any] = Field(default_factory=dict)  # Mixed types: bool + float for confidence_threshold
 
 
 # ===========================
@@ -82,6 +107,16 @@ def analyze_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     Checks first-level keys in the payload AND nested fields in company_record.
     """
     try:
+        # Load HITL settings from persistent file
+        from tavily_agent.config import load_hitl_settings
+        hitl_config = load_hitl_settings()
+        state.hitl_enabled = hitl_config["enabled"]
+        state.hitl_settings = hitl_config
+        
+        logger.info(f"\n🔧 [HITL CONFIG] Loaded settings: enabled={state.hitl_enabled}")
+        logger.info(f"   High-risk fields: {hitl_config['high_risk_fields']}")
+        logger.info(f"   Low confidence: {hitl_config['low_confidence']}")
+        logger.info(f"   Threshold: {hitl_config['confidence_threshold']}")
         logger.info(f"\n🔍 [ANALYZE] Starting payload analysis for {state.company_name}")
         logger.info(f"   Company ID: {state.company_id}")
         logger.info(f"   Payload keys: {list(state.current_payload.keys())}")
@@ -125,12 +160,47 @@ def analyze_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         else:
             logger.warning(f"   ❌ No company_record found or not a dict")
         
-        # Also check top-level payload keys for completeness
+        # Also check top-level payload keys for list-based entities
+        # These are special: events, leadership, products, snapshots, visibility
+        # We want to ALWAYS extract these from Tavily to enrich existing entities
+        entity_lists = ['events', 'leadership', 'products', 'snapshots', 'visibility']
+        logger.info(f"   📦 Checking entity lists for Tavily extraction...")
+        
+        for entity_type in entity_lists:
+            if entity_type in payload:
+                current_count = len(payload[entity_type]) if isinstance(payload[entity_type], list) else 0
+                logger.info(f"   📋 {entity_type}: currently has {current_count} items")
+                
+                # ALWAYS add these for Tavily extraction to supplement existing entities
+                # entity_index == -1 triggers entity extraction via instructor+GPT-4o
+                null_fields.append({
+                    "entity_type": entity_type,
+                    "field_name": entity_type,  # The list itself
+                    "entity_index": -1,  # -1 triggers extract_and_insert_entities()
+                    "current_value": current_count,
+                    "importance": "high"
+                })
+                logger.info(f"      ✅ QUEUED for Tavily entity extraction (will supplement existing {current_count} items)")
+            else:
+                # Entity list doesn't exist yet - create it
+                logger.info(f"   📋 {entity_type}: not found - will create new list")
+                payload[entity_type] = []
+                null_fields.append({
+                    "entity_type": entity_type,
+                    "field_name": entity_type,
+                    "entity_index": -1,
+                    "current_value": 0,
+                    "importance": "high"
+                })
+                logger.info(f"      ✅ QUEUED for Tavily entity extraction (new list)")
+
+        
+        # Also check other top-level scalar keys for completeness
         logger.info(f"   📦 Checking {len(payload)} top-level payload keys...")
         for key, value in payload.items():
-            # Skip nested structures and special keys
-            if isinstance(value, (dict, list)) or key.startswith('_') or key in ['company_record', 'llm_responses', 'enrichment_history', 'metadata']:
-                logger.debug(f"   🏷️  {key}: [SKIPPED - special/nested]")
+            # Skip nested structures, entity lists (handled above), and special keys
+            if isinstance(value, (dict, list)) or key.startswith('_') or key in ['company_record', 'llm_responses', 'enrichment_history', 'metadata', 'events', 'leadership', 'products', 'snapshots', 'visibility']:
+                logger.debug(f"   🏷️  {key}: [SKIPPED - special/nested/entity-list]")
                 continue
             
             logger.info(f"   🏷️  {key}: {repr(value)}")
@@ -157,7 +227,7 @@ def analyze_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         # If no null fields found, mark as complete
         if not null_fields:
             state.status = "completed"
-            logger.info(f"   🛑 No null fields found - marking workflow as complete")
+            logger.info(f"   🛑 No null or entity fields found - marking workflow as complete")
         
         return state
     except Exception as e:
@@ -319,6 +389,7 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
         all_documents = []
         combined_content = ""
         success_count = 0
+        all_search_responses = []  # Collect all responses to save in single JSON
         
         for query in queries:
             try:
@@ -328,51 +399,97 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
                 # Call Tavily search directly (synchronous wrapper)
                 result = _execute_tavily_search(tool_manager, query, state.company_name)
                 
+                # Add query metadata to result for consolidated JSON
+                result['query'] = query
+                result['query_index'] = len(all_search_responses) + 1
+                all_search_responses.append(result)
+                
                 if result.get("success"):
                     success_count += 1
                     count = result.get("count", 0)
                     print(f">>> Query '{query}' returned {count} results")
-                    # print(f">>> Tavily Response JSON:\n{json.dumps(result, indent=2, default=str)}")
                     logger.info(f"✅ [TAVILY RESULT] Query '{query}' returned {count} results")
-                    # logger.info(f"📄 [TAVILY RESPONSE]\n{json.dumps(result, indent=2, default=str)}")
-                    
-                    # Save Tavily response to JSON file
-                    if responses_dir:
-                        try:
-                            safe_query = "".join(c if c.isalnum() or c in " _-" else "_" for c in query).replace(" ", "_")
-                            response_file = responses_dir / f"tavily_response_{state.company_name}_{safe_query}_{success_count}.json"
-                            with open(response_file, "w") as f:
-                                json.dump(result, f, indent=2, default=str)
-                            print(f">>> ✅ Saved response to: {response_file.name}")
-                            logger.info(f"💾 [TAVILY SAVE] Response saved to {response_file.name}")
-                        except Exception as save_err:
-                            logger.warning(f"⚠️  [TAVILY SAVE] Could not save response: {save_err}")
                     
                     all_documents.extend(result.get("results", []))
                     combined_content += result.get("raw_content", "") + "\n"
                 else:
                     error = result.get("error", "unknown")
                     print(f">>> Query '{query}' failed: {error}")
-                    print(f">>> Full Error Response:\n{json.dumps(result, indent=2, default=str)}")
                     logger.warning(f"⚠️  [TAVILY ERROR] Query '{query}' failed: {error}")
-                    logger.warning(f"❌ [TAVILY ERROR DETAILS]\n{json.dumps(result, indent=2, default=str)}")
-                    
-                    # Save error response to JSON file
-                    if responses_dir:
-                        try:
-                            safe_query = "".join(c if c.isalnum() or c in " _-" else "_" for c in query).replace(" ", "_")
-                            error_file = responses_dir / f"tavily_error_{state.company_name}_{safe_query}_error.json"
-                            with open(error_file, "w") as f:
-                                json.dump(result, f, indent=2, default=str)
-                            print(f">>> 📝 Error response saved to: {error_file.name}")
-                            logger.info(f"💾 [TAVILY ERROR SAVE] Error response saved to {error_file.name}")
-                        except Exception as save_err:
-                            logger.warning(f"⚠️  [TAVILY SAVE] Could not save error response: {save_err}")
             
             except Exception as e:
                 print(f">>> ERROR in search: {type(e).__name__}: {e}")
                 logger.error(f"❌ [TAVILY EXCEPTION] Error executing query '{query}': {type(e).__name__}: {e}", exc_info=True)
                 state.errors.append(f"Tavily search error for '{query}': {str(e)}")
+                
+                # Add error to responses collection
+                all_search_responses.append({
+                    'query': query,
+                    'query_index': len(all_search_responses) + 1,
+                    'success': False,
+                    'error': str(e),
+                    'error_type': type(e).__name__
+                })
+        
+        # Save all search responses to a SINGLE consolidated JSON file (append mode)
+        if all_search_responses and responses_dir:
+            try:
+                timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+                consolidated_file = responses_dir / "tavily_all_sessions.json"
+                
+                # Create new session entry
+                session_data = {
+                    'session_id': timestamp,
+                    'timestamp': timestamp,
+                    'company': state.company_name,
+                    'total_queries': len(queries),
+                    'successful_queries': success_count,
+                    'failed_queries': len(queries) - success_count,
+                    'total_results': len(all_documents),
+                    'search_responses': all_search_responses
+                }
+                
+                # Load existing sessions or create new structure
+                if consolidated_file.exists():
+                    try:
+                        with open(consolidated_file, 'r', encoding='utf-8') as f:
+                            all_sessions = json.load(f)
+                        
+                        # Ensure it's a dict with sessions array
+                        if not isinstance(all_sessions, dict) or 'sessions' not in all_sessions:
+                            logger.warning(f"⚠️  Existing file has unexpected format, creating new structure")
+                            all_sessions = {
+                                'company': state.company_name,
+                                'sessions': []
+                            }
+                    except Exception as read_err:
+                        logger.warning(f"⚠️  Error reading existing file: {read_err}, creating new structure")
+                        all_sessions = {
+                            'company': state.company_name,
+                            'sessions': []
+                        }
+                else:
+                    # New file
+                    all_sessions = {
+                        'company': state.company_name,
+                        'sessions': []
+                    }
+                
+                # Append new session
+                all_sessions['sessions'].append(session_data)
+                all_sessions['last_updated'] = timestamp
+                all_sessions['total_sessions'] = len(all_sessions['sessions'])
+                
+                # Save updated file
+                with open(consolidated_file, 'w', encoding='utf-8') as f:
+                    json.dump(all_sessions, f, indent=2, ensure_ascii=False, default=str)
+                
+                print(f">>> ✅ Appended session {timestamp} to: {consolidated_file.name} (total sessions: {all_sessions['total_sessions']})")
+                logger.info(f"💾 [TAVILY SAVE] Appended session to {consolidated_file.name}")
+                logger.info(f"   Session ID: {timestamp}, Queries: {len(queries)}, Results: {len(all_documents)}")
+                logger.info(f"   Total sessions in file: {all_sessions['total_sessions']}")
+            except Exception as save_err:
+                logger.warning(f"⚠️  [TAVILY SAVE] Could not save consolidated responses: {save_err}")
         
         print(f">>> EXECUTE_SEARCHES COMPLETE: {success_count}/{len(queries)} successful, {len(all_documents)} total results")
         logger.info(f"📊 [EXECUTE SEARCH COMPLETE] Successfully executed {success_count}/{len(queries)} queries, found {len(all_documents)} total results")
@@ -431,10 +548,174 @@ def execute_searches(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     return state
 
 
+async def extract_and_insert_entities(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
+    """
+    Extract structured entities from Tavily search results and insert into payload lists.
+    
+    Uses instructor library + Pydantic models to structure Tavily data into:
+    - events: Event objects (funding, acquisitions, partnerships, etc.)
+    - leadership: Leadership objects (executives, founders, board members)
+    - products: Product objects (software, services, APIs)
+    - snapshots: Snapshot objects (headcount, hiring, growth metrics)
+    - visibility: Visibility objects (news mentions, sentiment, github stars)
+    
+    Args:
+        state: PayloadEnrichmentState with current_null_field containing:
+            - field_name: The entity type to extract (e.g., "events", "leadership")
+            - entity_index: -1 (indicates list extraction mode)
+    
+    Returns:
+        Updated state with extracted entities inserted into appropriate payload list
+    """
+    field_name = state.current_null_field.get("field_name", "unknown")
+    company_name = state.company_name
+    company_id = state.current_payload.get("company_record", {}).get("company_id", "unknown")
+    
+    logger.info(f"\n🔍 [ENTITY EXTRACTION] Starting entity extraction for '{field_name}'")
+    logger.info(f"   Company: {company_name} (ID: {company_id})")
+    logger.info(f"   Tavily search results available: {state.search_results.get('total_results', 0)}")
+    
+    # Map entity type to Pydantic model
+    entity_model_map = {
+        "events": Event,
+        "leadership": Leadership,
+        "products": Product,
+        "snapshots": Snapshot,
+        "visibility": Visibility
+    }
+    
+    if field_name not in entity_model_map:
+        logger.error(f"❌ [ENTITY EXTRACTION] Unknown entity type: {field_name}")
+        state.errors.append(f"Unknown entity type for extraction: {field_name}")
+        return state
+    
+    entity_model = entity_model_map[field_name]
+    logger.info(f"   Using Pydantic model: {entity_model.__name__}")
+    
+    try:
+        # Get Tavily search results
+        search_results = state.search_results.get("results", [])
+        if not search_results:
+            logger.warning(f"⚠️  [ENTITY EXTRACTION] No search results to extract from")
+            return state
+        
+        # Combine search results into context for LLM
+        combined_context = "\n\n".join([
+            f"Source: {doc.get('url', 'unknown')}\n"
+            f"Title: {doc.get('title', 'N/A')}\n"
+            f"Content: {doc.get('content', 'N/A')}"
+            for doc in search_results[:10]  # Limit to top 10 to avoid token overflow
+        ])
+        
+        logger.info(f"   Combined context length: {len(combined_context)} characters")
+        logger.info(f"🤖 [LLM] Calling GPT-4o with instructor for structured extraction...")
+        
+        # Initialize instructor-patched OpenAI client
+        import instructor
+        from openai import OpenAI
+        from pydantic import BaseModel, Field
+        from typing import List
+        
+        client = instructor.from_openai(OpenAI(api_key=OPENAI_API_KEY))
+        
+        # Create a wrapper model for multiple entities
+        class EntityExtractionResult(BaseModel):
+            """Container for extracted entities from Tavily search results."""
+            entities: List[entity_model] = Field(
+                default_factory=list,
+                description=f"List of {field_name} extracted from search results"
+            )
+            extraction_reasoning: str = Field(
+                description="Brief explanation of extraction logic and entity count"
+            )
+        
+        # Build extraction prompt
+        extraction_prompt = f"""You are analyzing Tavily search results for **{company_name}** (Company ID: {company_id}).
+
+Your task: Extract structured **{field_name}** entities from the search results below.
+
+**Entity Type**: {entity_model.__name__}
+**Expected Fields**: Review the Pydantic model schema carefully and extract all available information.
+
+**Instructions**:
+1. Read through all search results carefully
+2. Identify information related to {field_name} for {company_name}
+3. Structure each relevant piece of information according to the {entity_model.__name__} schema
+4. Include provenance (source_url, snippet) for each extracted entity
+5. If multiple {field_name} are found, extract all of them
+6. If no relevant {field_name} found, return an empty list
+
+**Search Results**:
+
+{combined_context}
+
+**Important Notes**:
+- Only extract {field_name} specifically for {company_name}, not competitors or unrelated companies
+- Ensure all required fields in the Pydantic model are populated (use None/"" if unavailable)
+- Include source URLs in the provenance field
+- Be precise: extract factual information, don't infer or speculate
+- For dates: use ISO format (YYYY-MM-DD) when possible
+
+Extract the {field_name} entities now.
+"""
+        
+        # Call LLM with instructor for structured extraction
+        extraction_result: EntityExtractionResult = client.chat.completions.create(
+            model=LLM_MODEL,
+            temperature=0.2,  # Low temperature for factual extraction
+            response_model=EntityExtractionResult,
+            messages=[
+                {"role": "system", "content": "You are a precise data extraction assistant. Extract structured entities from search results according to the Pydantic schema provided."},
+                {"role": "user", "content": extraction_prompt}
+            ]
+        )
+        
+        extracted_entities = extraction_result.entities
+        reasoning = extraction_result.extraction_reasoning
+        
+        logger.info(f"✅ [LLM] Extraction complete!")
+        logger.info(f"   Entities extracted: {len(extracted_entities)}")
+        logger.info(f"   Reasoning: {reasoning}")
+        
+        # Insert extracted entities into payload
+        if not extracted_entities:
+            logger.info(f"   ℹ️  No {field_name} found in search results")
+        else:
+            # Ensure the list exists in payload
+            if field_name not in state.current_payload:
+                state.current_payload[field_name] = []
+            
+            # Convert Pydantic objects to dicts and append
+            current_count = len(state.current_payload[field_name])
+            for entity in extracted_entities:
+                state.current_payload[field_name].append(entity.model_dump())
+            
+            new_count = len(state.current_payload[field_name])
+            logger.info(f"   📝 Inserted {new_count - current_count} new {field_name} into payload")
+            logger.info(f"   📊 Total {field_name} in payload: {new_count}")
+            
+            # Track extraction in state
+            state.extracted_values[field_name] = {
+                "entity_count": len(extracted_entities),
+                "reasoning": reasoning,
+                "extraction_timestamp": str(datetime.now())
+            }
+        
+        logger.info(f"✅ [ENTITY EXTRACTION] Completed for '{field_name}'")
+        
+    except Exception as e:
+        logger.error(f"❌ [ENTITY EXTRACTION] Error extracting {field_name}: {type(e).__name__}: {e}", exc_info=True)
+        state.errors.append(f"Entity extraction error for {field_name}: {str(e)}")
+    
+    return state
+
+
 async def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
     """
     Extract relevant values from search results and update payload using LLM chain.
     Uses chained LLM calls: question generation → extraction → validation.
+    
+    Special handling for entity_index == -1: triggers entity list extraction from Tavily responses.
     """
     if not state.current_null_field:
         logger.warning(f"⚠️  [EXTRACT] No current null field to update")
@@ -449,6 +730,12 @@ async def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEn
     entity_index = state.current_null_field.get("entity_index", 0)
     importance = state.current_null_field.get("importance", "medium")
     
+    # SPECIAL CASE: entity_index == -1 means this is a request to extract entities from Tavily
+    if entity_index == -1:
+        logger.info(f"\n🔍 [ENTITY EXTRACTION] Detected entity list extraction request for '{field_name}'")
+        return await extract_and_insert_entities(state)
+    
+    # NORMAL CASE: scalar field extraction
     logger.info(f"\n💡 [EXTRACT] Extracting value for {entity_type}.{field_name} (index: {entity_index})")
     logger.debug(f"   Search results available: {state.search_results.get('total_results')} documents")
     
@@ -484,7 +771,8 @@ async def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEn
             for step in extraction_result.chain_steps:
                 logger.debug(f"   • {step}")
             
-            # Store extraction result in state
+            # Store extraction result in state for HITL assessment
+            state.extraction_result = extraction_result.dict()
             state.extracted_values[f"{field_name}_extraction_result"] = extraction_result.dict()
         
         # Update the payload with extracted value if confidence is sufficient
@@ -551,12 +839,227 @@ async def extract_and_update_payload(state: PayloadEnrichmentState) -> PayloadEn
         removed_count = original_count - len(state.null_fields)
         logger.info(f"✅ [EXTRACT COMPLETE] Removed {removed_count} processed fields. Remaining: {len(state.null_fields)}")
         
+        # Note: extraction_result will be cleared in assess_risk_and_route after HITL check
+        
     except Exception as e:
         logger.error(f"❌ [EXTRACT] Unexpected error: {type(e).__name__}: {e}", exc_info=True)
         state.errors.append(f"Extraction failed for {field_name}: {str(e)}")
         state.iteration += 1
     
     return state
+
+
+# ===========================
+# Human-in-the-Loop Nodes
+# ===========================
+
+def assess_risk_and_route(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
+    """
+    Assess if current extraction requires human approval based on HITL settings.
+    Creates approval request if needed.
+    """
+    if not state.hitl_enabled:
+        logger.info(f"ℹ️  [HITL] HITL disabled - auto-approving all updates")
+        return state
+    
+    field_name = state.current_null_field.get("field_name", "unknown")
+    extracted_result = state.extraction_result
+    
+    if not extracted_result:
+        logger.info(f"ℹ️  [HITL] No extraction result for {field_name} - skipping risk assessment")
+        return state
+    
+    confidence = extracted_result.get("confidence", 1.0)
+    final_value = extracted_result.get("final_value")
+    sources = extracted_result.get("sources", [])
+    reasoning = extracted_result.get("reasoning", "")
+    
+    requires_approval = False
+    approval_type = None
+    
+    # Check 1: High-risk field
+    if state.hitl_settings.get("high_risk_fields", False) and field_name in HIGH_RISK_FIELDS:
+        requires_approval = True
+        approval_type = ApprovalType.HIGH_RISK_FIELD
+        logger.info(f"⚠️  [HITL RISK] High-risk field detected: {field_name}")
+    
+    # Check 2: Low confidence
+    elif state.hitl_settings.get("low_confidence", False) and confidence < HITL_CONFIDENCE_THRESHOLD:
+        requires_approval = True
+        approval_type = ApprovalType.LOW_CONFIDENCE
+        logger.info(f"⚠️  [HITL RISK] Low confidence detected: {confidence:.2%} < {HITL_CONFIDENCE_THRESHOLD:.2%}")
+    
+    if requires_approval:
+        # Create approval request
+        approval_queue = get_approval_queue()
+        approval_id = approval_queue.create_approval(
+            company_name=state.company_name,
+            approval_type=approval_type,
+            field_name=field_name,
+            extracted_value=final_value,
+            confidence=confidence,
+            sources=sources,
+            reasoning=reasoning,
+            metadata={
+                "entity_type": state.current_null_field.get("entity_type"),
+                "importance": state.current_null_field.get("importance")
+            }
+        )
+        
+        state.pending_approval_id = approval_id
+        state.status = "waiting_approval"
+        
+        logger.info(f"⏸️  [HITL] Created approval request: {approval_id}")
+        logger.info(f"   Field: {field_name}, Type: {approval_type.value}")
+        logger.info(f"   Value: {final_value}, Confidence: {confidence:.2%}")
+    else:
+        logger.info(f"✅ [HITL] No approval required for {field_name}")
+        state.pending_approval_id = None
+    
+    # Clear extraction_result after assessment to avoid reuse for next field
+    state.extraction_result = None
+    
+    return state
+
+
+async def wait_for_approval(state: PayloadEnrichmentState) -> PayloadEnrichmentState:
+    """
+    Check if approval has been granted.
+    If still pending, interrupt the workflow to pause execution.
+    Workflow will resume when approval is processed.
+    
+    Args:
+        state: Current enrichment state
+    
+    Returns:
+        Updated state with approval status, or interrupt signal
+    """
+    if not state.pending_approval_id:
+        logger.info("   ⏭️  No pending approval")
+        return state
+    
+    approval_queue = get_approval_queue()
+    approval = approval_queue.get_approval(state.pending_approval_id)
+    
+    if not approval:
+        logger.warning(f"   ⚠️  Approval {state.pending_approval_id} not found")
+        state.pending_approval_id = None
+        return state
+    
+    logger.info(f"   📋 [HITL] Checking approval status: {approval.status.value}")
+    
+    if approval.status == ApprovalStatus.PENDING:
+        logger.info(f"   ⏸️  [HITL] Waiting for approval - INTERRUPTING WORKFLOW")
+        logger.info(f"   💾 [HITL] State saved to checkpoint - workflow can be resumed")
+        # Interrupt the workflow - this pauses execution
+        # When approval is processed, workflow can be resumed from this point
+        interrupt(
+            {
+                "type": "approval_required",
+                "approval_id": state.pending_approval_id,
+                "field_name": approval.field_name,
+                "company_name": state.company_name,
+                "message": f"Waiting for approval of {approval.field_name}"
+            }
+        )
+    
+    elif approval.status == ApprovalStatus.APPROVED:
+        logger.info(f"   ✅ [HITL] Approval granted: {state.pending_approval_id}")
+        # Use approved value if modified, otherwise original
+        final_value = approval.approved_value or approval.extracted_value
+        
+        # Update payload with approved value
+        field_name = approval.field_name
+        state.current_payload["company_record"][field_name] = final_value
+        state.extracted_values[field_name] = final_value
+        
+        logger.info(f"   📝 [HITL] Updated {field_name} with approved value: {final_value}")
+        
+        # Save updated payload to disk to prevent re-processing on workflow resume
+        try:
+            file_io = FileIOManager()
+            loop = asyncio.get_event_loop()
+            if loop.is_running():
+                # If we're in an async context, create a task
+                asyncio.create_task(file_io.save_payload(state.company_name, state.current_payload))
+            else:
+                # Otherwise run synchronously
+                asyncio.run(file_io.save_payload(state.company_name, state.current_payload))
+            logger.info(f"   💾 [HITL] Saved approved value to payload file: {field_name}")
+        except Exception as save_err:
+            logger.error(f"   ❌ [HITL] Failed to save payload to disk: {save_err}")
+            # Don't fail the workflow, but log the error
+        
+        # Remove field from null_fields to prevent re-processing
+        original_count = len(state.null_fields)
+        state.null_fields = [
+            f for f in state.null_fields 
+            if f.get("field_name") != field_name
+        ]
+        removed_count = original_count - len(state.null_fields)
+        logger.info(f"   🗑️  [HITL] Removed {removed_count} field(s) from queue. Remaining: {len(state.null_fields)}")
+        
+        state.pending_approval_id = None
+        
+    elif approval.status == ApprovalStatus.REJECTED:
+        logger.info(f"   ❌ [HITL] Approval rejected: {state.pending_approval_id}")
+        
+        # Mark field as explicitly rejected in payload (keep as null)
+        field_name = approval.field_name
+        # Keep the field as null in the payload (user chose to reject)
+        state.current_payload["company_record"][field_name] = None
+        
+        # Save updated payload to disk to prevent re-processing on workflow resume
+        try:
+            file_io = FileIOManager()
+            loop = asyncio.get_event_loop()
+            if loop.is_running():
+                asyncio.create_task(file_io.save_payload(state.company_name, state.current_payload))
+            else:
+                asyncio.run(file_io.save_payload(state.company_name, state.current_payload))
+            logger.info(f"   💾 [HITL] Saved rejection (null) to payload file: {field_name}")
+        except Exception as save_err:
+            logger.error(f"   ❌ [HITL] Failed to save payload to disk: {save_err}")
+        
+        # Remove field from null_fields even if rejected (skip this field)
+        original_count = len(state.null_fields)
+        state.null_fields = [
+            f for f in state.null_fields 
+            if f.get("field_name") != field_name
+        ]
+        removed_count = original_count - len(state.null_fields)
+        logger.info(f"   🗑️  [HITL] Removed {removed_count} rejected field(s). Remaining: {len(state.null_fields)}")
+        
+        state.pending_approval_id = None
+    
+    return state
+
+
+def route_after_extraction(state: PayloadEnrichmentState) -> str:
+    """
+    Route after extraction based on HITL status.
+    Returns: "check_approval" if approval needed, "continue" otherwise
+    """
+    if state.pending_approval_id:
+        logger.info(f"🔀 [ROUTE] Approval required - routing to wait_for_approval")
+        return "wait_approval"
+    else:
+        logger.info(f"🔀 [ROUTE] No approval needed - continuing to check_completion")
+        return "continue"
+
+
+def route_after_approval(state: PayloadEnrichmentState) -> str:
+    """
+    Route after approval check.
+    Returns: "wait" if still pending, "continue" if approved/rejected
+    """
+    if state.pending_approval_id:
+        # Still waiting
+        logger.info(f"🔀 [ROUTE] Still waiting for approval - pausing workflow")
+        return END  # Pause workflow - will resume via API
+    else:
+        logger.info(f"🔀 [ROUTE] Approval complete - continuing")
+        return "continue"
 
 
 def check_completion(state: PayloadEnrichmentState) -> str:
@@ -575,7 +1078,13 @@ def check_completion(state: PayloadEnrichmentState) -> str:
     logger.info(f"   Iteration: {state.iteration}/{state.max_iterations}")
     logger.info(f"   Remaining fields: {len(state.null_fields)}")
     logger.info(f"   Errors: {len(state.errors)}")
+    logger.info(f"   Pending approval: {state.pending_approval_id}")
     logger.debug(f"   Current null field: {state.current_null_field}")
+    
+    # STOP CONDITION 0: Waiting for approval (workflow paused)
+    if state.status == "waiting_approval" and state.pending_approval_id:
+        logger.info(f"⏸️  [WORKFLOW PAUSED] Waiting for approval: {state.pending_approval_id}")
+        return END  # Pause - will resume via API
     
     # STOP CONDITION 1: Explicitly marked as completed
     if state.status == "completed":
@@ -609,8 +1118,15 @@ def check_completion(state: PayloadEnrichmentState) -> str:
 # Graph Construction
 # ===========================
 
-def build_enrichment_graph():
-    """Build the LangGraph workflow."""
+def build_enrichment_graph(with_checkpointing: bool = False):
+    """Build the LangGraph workflow.
+    
+    Args:
+        with_checkpointing: Enable checkpointing for HITL pause/resume support
+    
+    Returns:
+        Compiled graph with optional checkpointing
+    """
     
     graph = StateGraph(PayloadEnrichmentState)
     
@@ -620,6 +1136,10 @@ def build_enrichment_graph():
     graph.add_node("generate_queries", generate_search_queries)
     graph.add_node("execute_searches", execute_searches)
     graph.add_node("extract_update", extract_and_update_payload)
+    
+    # HITL nodes
+    graph.add_node("assess_risk", assess_risk_and_route)
+    graph.add_node("wait_approval", wait_for_approval)
     
     # Add edges
     graph.set_entry_point("analyze")
@@ -647,17 +1167,35 @@ def build_enrichment_graph():
     graph.add_edge("generate_queries", "execute_searches")
     graph.add_edge("execute_searches", "extract_update")
     
-    # Add conditional edge after extraction
+    # After extraction, assess risk for HITL
+    graph.add_edge("extract_update", "assess_risk")
+    
+    # After risk assessment, route to approval or continue
     graph.add_conditional_edges(
-        "extract_update",
-        check_completion,
+        "assess_risk",
+        route_after_extraction,
         {
-            "continue": "get_next_field",
-            END: END
+            "wait_approval": "wait_approval",
+            "continue": "get_next_field"
         }
     )
     
-    return graph.compile()
+    # After approval check, either wait (pause) or continue
+    graph.add_conditional_edges(
+        "wait_approval",
+        route_after_approval,
+        {
+            "continue": "get_next_field",
+            END: END  # Pause workflow if still pending
+        }
+    )
+    
+    # Compile with optional checkpointing
+    if with_checkpointing:
+        logger.info("✅ [GRAPH] Checkpointing enabled for HITL pause/resume (using global checkpointer)")
+        return graph.compile(checkpointer=_global_checkpointer)
+    else:
+        return graph.compile()
 
 
 def save_graph_visualization(graph, output_path: str = "graph_visualization.png"):

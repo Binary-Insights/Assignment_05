@@ -652,8 +652,34 @@ def ingest_tavily_json_to_pinecone(
         with open(tavily_json_path, 'r', encoding='utf-8') as f:
             tavily_data = json.load(f)
         
-        # Extract results
-        results = tavily_data.get('results', [])
+        # Extract results - support multiple JSON structures
+        # Multi-session format: sessions[].search_responses (newest)
+        # Single session format: search_responses (previous)
+        # Old structure: metadata.results (nested)
+        # Legacy structure: results (top-level)
+        results = []
+        
+        # Check for multi-session format (newest)
+        if 'sessions' in tavily_data and isinstance(tavily_data['sessions'], list):
+            logger.info(f"Detected multi-session format with {len(tavily_data['sessions'])} sessions")
+            # Extract from all sessions
+            for session in tavily_data['sessions']:
+                for response in session.get('search_responses', []):
+                    if response.get('success'):
+                        results.extend(response.get('results', []))
+        # Check for single session format (previous)
+        elif 'search_responses' in tavily_data:
+            logger.info(f"Detected single session format")
+            for response in tavily_data.get('search_responses', []):
+                if response.get('success'):
+                    results.extend(response.get('results', []))
+        # Check for nested metadata format
+        elif 'metadata' in tavily_data and 'results' in tavily_data.get('metadata', {}):
+            results = tavily_data.get('metadata', {}).get('results', [])
+        # Check for direct results format
+        elif 'results' in tavily_data:
+            results = tavily_data.get('results', [])
+        
         if not results:
             logger.warning(f"No results found in {tavily_json_path}")
             return 0, 0
@@ -819,7 +845,27 @@ def ingest_all_tavily_json_for_company(
             "total_skipped": 0
         }
     
-    tavily_files = list(tavily_dir.glob("tavily_*.json"))
+    # Check for multi-session file first (new format)
+    multi_session_file = tavily_dir / "tavily_all_sessions.json"
+    tavily_files = []
+    
+    if multi_session_file.exists():
+        tavily_files.append(multi_session_file)
+        logger.info(f"Found multi-session file: {multi_session_file}")
+    
+    # Also check for legacy individual session files
+    legacy_files = list(tavily_dir.glob("tavily_session_*.json"))
+    if legacy_files:
+        tavily_files.extend(legacy_files)
+        logger.info(f"Found {len(legacy_files)} legacy session files")
+    
+    # Fallback to old format
+    if not tavily_files:
+        old_files = list(tavily_dir.glob("tavily_*.json"))
+        if old_files:
+            tavily_files.extend(old_files)
+            logger.info(f"Found {len(old_files)} old format files")
+    
     if not tavily_files:
         logger.warning(f"No Tavily JSON files found in {tavily_dir}")
         return {

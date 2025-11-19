@@ -19,40 +19,31 @@
     "provenance": [
       {
         "source_url": "about",
-        "crawled_at": "2023-10-09",
-        "snippet": null,
+        "crawled_at": "2023-10-05",
+        "snippet": "Copyright © 2025 Abridge Al, Inc.",
         "chunk_id": [
           "abridge_about_6858d285#10.0"
         ]
       },
       {
-        "source_url": "blog",
-        "crawled_at": "2023-10-09",
-        "snippet": null,
-        "chunk_id": [
-          "abridge_blog_6858d285#5.0"
-        ]
-      },
-      {
         "source_url": "careers",
-        "crawled_at": "2023-10-09",
-        "snippet": null,
+        "crawled_at": "2023-10-05",
+        "snippet": "abridge.com email address.",
         "chunk_id": [
-          "abridge_careers_c3a0a730#25.0",
-          "abridge_careers_0b8a84fe#1.0",
-          "abridge_careers_c82771fd#24.0"
+          "abridge_careers_c3a0a730#23.0",
+          "abridge_careers_b276960a#1.0"
         ]
       }
     ]
   },
   "events": [
     {
-      "event_id": "abridge_announcement_2025_08_12",
+      "event_id": "1",
       "company_id": "abridge",
       "occurred_on": "2025-08-12",
       "event_type": "product_release",
-      "title": "Real Time Prior Authorization at the Point of Conversation",
-      "description": "Abridge announced the release of a new feature for real-time prior authorization during medical conversations.",
+      "title": "Announcing Real Time Prior Authorization at the Point of Conversation",
+      "description": null,
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -62,22 +53,73 @@
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "blog",
+          "source_url": "product",
           "crawled_at": "2025-08-12",
           "snippet": null,
           "chunk_id": [
-            "abridge_blog_f1388ab9#2.0"
+            "abridge_product_61b2fae9#13.0",
+            "abridge_blog_d73877cd#2.0"
           ]
         }
       ]
     },
     {
-      "event_id": "abridge_announcement_2025_11_10",
+      "event_id": "2",
       "company_id": "abridge",
-      "occurred_on": "2025-11-10",
-      "event_type": "other",
-      "title": "Caitlin Clark and Abridge at Becker's CEO + CFO",
-      "description": "Abridge participated in Becker's CEO + CFO event with Caitlin Clark.",
+      "occurred_on": "2025-04-29",
+      "event_type": "partnership",
+      "title": "AltaMed Health Services Corporation Partners with Abridge",
+      "description": "AltaMed Health Services Corporation Partners with Abridge to Bring Leading AI Technology to Multilingual Communities",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-04-29",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "abridge",
+      "occurred_on": "2025-04-10",
+      "event_type": "customer_win",
+      "title": "Sharp HealthCare Chooses Abridge for Clinical Documentation",
+      "description": "Sharp HealthCare Chooses Abridge for Clinical Documentation, Enabling Clinicians to Focus on Care—Not Coding",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-04-10",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "4",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-18",
+      "event_type": "partnership",
+      "title": "Abridge and CHRISTUS Health Partnership",
+      "description": "From Clinician Wellbeing to Coding Compliance: Abridge and CHRISTUS Health",
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -88,60 +130,10 @@
       "provenance": [
         {
           "source_url": "blog",
-          "crawled_at": "2025-11-10",
+          "crawled_at": "2025-11-18",
           "snippet": null,
           "chunk_id": [
-            "abridge_blog_c839bc87#3.0"
-          ]
-        }
-      ]
-    },
-    {
-      "event_id": "abridge_announcement_2025_11_04",
-      "company_id": "abridge",
-      "occurred_on": "2025-11-04",
-      "event_type": "other",
-      "title": "Becker’s: Voices of Healthcare",
-      "description": "Abridge was featured in Becker’s: Voices of Healthcare.",
-      "round_name": null,
-      "investors": null,
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": null,
-      "tags": null,
-      "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "blog",
-          "crawled_at": "2025-11-04",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_blog_c839bc87#3.0"
-          ]
-        }
-      ]
-    },
-    {
-      "event_id": "abridge_policy_2025_11_13",
-      "company_id": "abridge",
-      "occurred_on": "2025-11-13",
-      "event_type": "other",
-      "title": "Abridge’s Principles for Building Trusted AI in Healthcare",
-      "description": "Tim Hwang posted about Abridge’s principles for building trusted AI in healthcare.",
-      "round_name": null,
-      "investors": null,
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": null,
-      "tags": null,
-      "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "blog",
-          "crawled_at": "2025-11-13",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_blog_f1388ab9#2.0"
+            "abridge_blog_d73877cd#2.0"
           ]
         }
       ]
@@ -150,25 +142,66 @@
   "snapshots": [
     {
       "company_id": "abridge",
-      "as_of": "2023-11-01",
+      "as_of": "2023-10-06",
       "headcount_total": null,
       "headcount_growth_pct": null,
-      "job_openings_count": 53,
+      "job_openings_count": 51,
       "engineering_openings": null,
       "sales_openings": null,
-      "hiring_focus": null,
+      "hiring_focus": [
+        "Builder",
+        "Foundations Engineering",
+        "Platform Engineering",
+        "Security",
+        "ML Engineering",
+        "Product",
+        "Product Design",
+        "Product Engineering",
+        "Science",
+        "Commercial",
+        "Partner Experience",
+        "Implementation",
+        "Implementation - Nursing",
+        "Partner Success - Clinical Success",
+        "Partner Success - Enterprise and Commercial",
+        "Partner Success - Key",
+        "Operations",
+        "Core Operations",
+        "Data Science",
+        "Finance",
+        "Finance Operations",
+        "Legal",
+        "Legal - Product",
+        "Marketing",
+        "Growth",
+        "People"
+      ],
       "pricing_tiers": null,
-      "active_products": null,
-      "geo_presence": null,
-      "confidence": 0.5,
+      "active_products": [
+        "Generative AI Platform for Clinical Conversations",
+        "Abridge Contextual Reasoning Engine"
+      ],
+      "geo_presence": [
+        "United States"
+      ],
+      "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
           "source_url": "careers",
-          "crawled_at": "2023-11-01",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
-            "abridge_careers_0b8a84fe#1.0"
+            "abridge_careers_b276960a#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_a1071d0a#2.0",
+            "abridge_product_01b8735a#3.0"
           ]
         }
       ]
@@ -176,10 +209,10 @@
   ],
   "products": [
     {
-      "product_id": "contextual_reasoning_engine",
+      "product_id": "abridge_product_66300029#4.0",
       "company_id": "abridge",
-      "name": "Contextual Reasoning Engine",
-      "description": "Transforms conversations into insights with AI, giving agency back to clinicians, creating clarity for patients, and establishing radical efficiencies to transform healthcare from the conversation up.",
+      "name": "Abridge Contextual Reasoning Engine",
+      "description": "Provides clinically accurate summaries and medical terms across specialties. Recognizes, understands, and takes accurate notes across a wide range of languages. Adapts seamlessly to your existing implementations and EHR workflows.",
       "pricing_model": null,
       "pricing_tiers_public": null,
       "ga_date": null,
@@ -190,11 +223,59 @@
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "about",
-          "crawled_at": "2023-10-10",
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_191d7e55#2.0"
+            "abridge_product_66300029#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge_product_1dbeb749#10.0",
+      "company_id": "abridge",
+      "name": "Abridge Enterprise",
+      "description": "With Abridge Enterprise, healthcare systems get all the tools they need to easily manage security, compliance, and deployments—for all clinicians, in one place. Single-Sign On (SSO) and Custom Governance Controls.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_1dbeb749#10.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge_product_d65aff0e#5.0",
+      "company_id": "abridge",
+      "name": "Abridge Contextual Reasoning Engine",
+      "description": "Leading healthcare AI infrastructure, powering the most trusted billable, clinically useful, and compliant notes at the point of care. Unlock contextually aware notes with dynamically integrated data from previous patient encounters, health system-specific guidelines, and clinician preferences.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_d65aff0e#5.0"
           ]
         }
       ]
@@ -216,11 +297,10 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_7a9745f5#3.0",
-            "abridge_about_f89ab9fe#3.0"
+            "abridge_about_b3488d93#3.0"
           ]
         }
       ]
@@ -240,11 +320,10 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_7a9745f5#3.0",
-            "abridge_about_f89ab9fe#3.0"
+            "abridge_about_b3488d93#3.0"
           ]
         }
       ]
@@ -264,10 +343,10 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_7a9745f5#3.0",
+            "abridge_about_b3488d93#3.0",
             "abridge_about_42468d33#4.0"
           ]
         }
@@ -288,7 +367,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
             "abridge_about_42468d33#4.0"
@@ -311,7 +390,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
             "abridge_about_42468d33#4.0",
@@ -335,7 +414,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
             "abridge_about_5a6f770b#5.0"
@@ -347,7 +426,7 @@
   "visibility": [
     {
       "company_id": "abridge",
-      "as_of": "2023-10-06",
+      "as_of": "2023-10-01",
       "news_mentions_30d": null,
       "avg_sentiment": null,
       "github_stars": null,
@@ -355,33 +434,17 @@
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "blog",
-          "crawled_at": "2023-10-06",
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
           "snippet": null,
           "chunk_id": [
-            "abridge_blog_f1388ab9#2.0",
-            "abridge_blog_c839bc87#3.0"
-          ]
-        },
-        {
-          "source_url": "careers",
-          "crawled_at": "2023-10-06",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_careers_c3a0a730#25.0"
-          ]
-        },
-        {
-          "source_url": "about",
-          "crawled_at": "2023-10-06",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_about_6858d285#10.0"
+            "abridge_product_61b2fae9#13.0",
+            "abridge_product_b2e98bc5#12.0"
           ]
         }
       ]
     }
   ],
-  "notes": "Extracted with semantic search via Pinecone on 2025-11-14T03:29:56.072773",
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-18T23:57:47.464934",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

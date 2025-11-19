@@ -480,9 +480,7 @@ def get_embeddings_model():
     try:
         embeddings = OpenAIEmbeddings(
             model="text-embedding-3-large",
-            api_key=api_key,
-            dimensions=3072,  # Explicitly set dimensions for text-embedding-3-large
-            openai_api_key=api_key  # Some versions require this parameter name
+            dimensions=3072  # Explicitly set dimensions for text-embedding-3-large
         )
         logger.debug("Initialized OpenAI embeddings model (text-embedding-3-large, dimension: 3072)")
         return embeddings
@@ -754,6 +752,7 @@ def extract_company_info(
     if USE_RAW_TEXT:
         logger.info(f"⚙️  Using raw text mode for company info")
         context_text = json.dumps(pages_text, indent=2)[:3000]
+        chunk_mapping = {}  # Initialize chunk_mapping for raw text mode
     else:
         # Try Pinecone search
         for query in search_queries:
@@ -876,6 +875,7 @@ def extract_events(
     if USE_RAW_TEXT:
         logger.info(f"⚙️  Using raw text mode for events")
         context_text = json.dumps(pages_text, indent=2)[:3000]
+        chunk_mapping = {}  # Initialize chunk_mapping for raw text mode
     else:
         # Try Pinecone search with primary queries
         logger.debug(f"Trying primary search queries for events...")
@@ -1025,6 +1025,7 @@ def extract_snapshots(
     if USE_RAW_TEXT:
         logger.info(f"⚙️  Using raw text mode for snapshots")
         context_text = json.dumps(pages_text, indent=2)[:3000]
+        chunk_mapping = {}  # Initialize chunk_mapping for raw text mode
     else:
         # Try Pinecone search with primary queries
         logger.debug(f"Trying primary search queries for snapshots...")
@@ -1160,6 +1161,7 @@ def extract_products(
     if USE_RAW_TEXT:
         logger.info(f"⚙️  Using raw text mode for products")
         context_text = json.dumps(pages_text, indent=2)[:3000]
+        chunk_mapping = {}  # Initialize chunk_mapping for raw text mode
     else:
         # Try Pinecone search with primary queries
         logger.debug(f"Trying primary search queries for products...")
@@ -1294,6 +1296,7 @@ def extract_leadership(
     if USE_RAW_TEXT:
         logger.info(f"⚙️  Using raw text mode for leadership")
         context_text = json.dumps(pages_text, indent=2)[:3000]
+        chunk_mapping = {}  # Initialize chunk_mapping for raw text mode
     else:
         # Try Pinecone search with primary queries
         logger.debug(f"Trying primary search queries for leadership...")
@@ -1431,6 +1434,7 @@ def extract_visibility(
     if USE_RAW_TEXT:
         logger.info(f"⚙️  Using raw text mode for visibility")
         context_text = json.dumps(pages_text, indent=2)[:3000]
+        chunk_mapping = {}  # Initialize chunk_mapping for raw text mode
     else:
         # Try Pinecone search with primary queries
         logger.debug(f"Trying primary search queries for visibility...")

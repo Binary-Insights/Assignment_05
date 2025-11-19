@@ -5,13 +5,13 @@
     "brand_name": "Abridge",
     "website": "https://abridge.com/",
     "hq_city": "Pittsburgh",
-    "hq_state": null,
-    "hq_country": "United States",
+    "hq_state": "IL",
+    "hq_country": "US",
     "founded_year": "2018",
     "categories": null,
-    "related_companies": "Innovaccer, Ambience Healthcare, DeepScribe, Augmedix, Amazon Transcribe Medical, NextGen Healthcare EHR, Pieces Technologies, Beam Health",
-    "total_raised_usd": "757500000",
-    "last_disclosed_valuation_usd": "5300000000",
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
     "last_round_name": null,
     "last_round_date": null,
     "schema_version": "2.0.0",
@@ -19,28 +19,19 @@
     "provenance": [
       {
         "source_url": "about",
-        "crawled_at": "2023-10-09",
-        "snippet": null,
+        "crawled_at": "2023-10-05",
+        "snippet": "Copyright \u00a9 2025 Abridge Al, Inc.",
         "chunk_id": [
           "abridge_about_6858d285#10.0"
         ]
       },
       {
-        "source_url": "blog",
-        "crawled_at": "2023-10-09",
-        "snippet": null,
-        "chunk_id": [
-          "abridge_blog_6858d285#5.0"
-        ]
-      },
-      {
         "source_url": "careers",
-        "crawled_at": "2023-10-09",
-        "snippet": null,
+        "crawled_at": "2023-10-05",
+        "snippet": "abridge.com email address.",
         "chunk_id": [
-          "abridge_careers_c3a0a730#25.0",
-          "abridge_careers_0b8a84fe#1.0",
-          "abridge_careers_c82771fd#24.0"
+          "abridge_careers_c3a0a730#23.0",
+          "abridge_careers_b276960a#1.0"
         ]
       }
     ],
@@ -50,96 +41,67 @@
         "tool": "tavily_llm_extraction",
         "source_urls": [
           "https://www.crunchbase.com/organization/abridge-d1a4",
-          "https://www.pentagram.com/work/abridge",
           "https://www.linkedin.com/company/abridgehq",
           "https://www.abridge.com/blog/abridge-now-most-awarded-ai-platform-in-healthcare"
         ],
-        "extracted_at": "2025-11-17T19:35:45.204648+00:00",
-        "confidence": 1.0,
-        "reasoning": "The company name 'Abridge' is consistently mentioned across all sources as the identity of the company. No other brand name is suggested in the search results, confirming that 'Abridge' is indeed the brand name. [Validated: The extracted brand name 'Abridge' is consistent across multiple reliable sources, confirming its correctness.]"
+        "extracted_at": "2025-11-19T00:11:56.612181+00:00",
+        "confidence": 0.97,
+        "reasoning": "The name 'Abridge' appears consistently across multiple sources as the identifier of the company. It is referred to as a platform and company in sources like Crunchbase, LinkedIn, and its own blog, suggesting 'Abridge' is the brand name. No alternative names were mentioned, increasing confidence. [Validated: The extracted value 'Abridge' is consistent with the brand name used across reliable sources. No discrepancies or alternative names were found, supporting the validity and slightly increasing confidence.]"
       },
       "hq_city": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
+          "https://craft.co/abridge/locations",
           "https://salestools.io/report/abridge-headquarters",
           "https://www.abridge.com/blog/behind-the-scenes-at-pittsburgh-hq"
         ],
-        "extracted_at": "2025-11-17T19:35:52.770637+00:00",
+        "extracted_at": "2025-11-19T00:12:19.795153+00:00",
+        "confidence": 0.95,
+        "reasoning": "The majority of sources, including Source 1, Source 2, and Source 4, indicate that Abridge is headquartered in Pittsburgh. Although Source 3 mentions Philadelphia, this appears to be an outlier or possibly outdated information. Source 5 does not directly mention a move but discusses building a presence in San Francisco, not confirming a headquarters move. Thus, Pittsburgh is the most consistent and reliable location across multiple sources. [Validated: The majority of sources confirm Pittsburgh as the headquarters, with only one outlier suggesting otherwise. No evidence of a headquarters move was found. Therefore, Pittsburgh remains the valid and refined value with high confidence.]"
+      },
+      "hq_state": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.dupagetownship.com/wp-content/uploads/2021/01/Resolution-20-19.pdf"
+        ],
+        "extracted_at": "2025-11-19T00:12:38.891748+00:00",
         "confidence": 0.9,
-        "reasoning": "Multiple sources confirm that Abridge is headquartered in Pittsburgh, PA. Source 1 explicitly states the headquarters is located in Pittsburgh, while Source 2 also refers to it as the Pittsburgh HQ. Although Source 3 mentions Philadelphia, it is likely outdated or incorrect as the other sources consistently point to Pittsburgh. Therefore, I am confident that the correct city is Pittsburgh. [Validated: Multiple reliable sources confirm that Abridge is headquartered in Pittsburgh. The mention of Philadelphia in one source is likely outdated or incorrect, supporting the validity of the extracted value.]"
+        "reasoning": "Source 1 explicitly lists 'HQ STATE: IL' alongside other headquarters information such as ZIP code and FAX, which strongly indicates the headquarters state of Abridge. The other sources do not provide relevant information regarding Abridge's headquarters. [Validated: The extracted value 'IL' for the field 'hq_state' is consistent with the information provided in Source 1, which explicitly mentions it alongside other headquarters details. No conflicting information from other sources was found.]"
       },
       "hq_country": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
-          "https://craft.co/abridge/locations",
           "https://salestools.io/report/abridge-headquarters"
         ],
-        "extracted_at": "2025-11-17T19:36:05.692639+00:00",
-        "confidence": 0.9,
-        "reasoning": "Multiple sources confirm that Abridge is headquartered in Pittsburgh, which is located in the United States. Source 1 explicitly states the headquarters location as 'Pittsburgh, 500 Grant Street, Suite 2900, United States', and Source 2 mentions Pittsburgh, PA as the headquarters. Although Source 3 mentions a different city (Philadelphia), this may refer to either a former or secondary location, which makes the United States the most reliable value. [Validated: The extracted value is valid as multiple sources confirm that Abridge is headquartered in Pittsburgh, which is in the United States. The conflicting information from Source 3 does not undermine the overall validity of the extracted value.]"
+        "extracted_at": "2025-11-19T00:12:51.468934+00:00",
+        "confidence": 0.95,
+        "reasoning": "Source 1 explicitly states that Abridge is headquartered in Pittsburgh, PA, which is in the United States. Although Source 3 mentions a move of the headquarters to San Francisco, the context of the move is not clear enough to contradict the primary location information from Source 1. No other sources provide clear information contradicting the US location. [Validated: The primary source confirms the headquarters as being in the US, specifically Pittsburgh, PA. The mention of a move to San Francisco lacks sufficient context to change the extracted value, hence the US location remains valid.]"
       },
       "founded_year": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
           "https://research.contrary.com/company/abridge",
-          "https://www.linkedin.com/company/abridgehq",
           "https://pitchbook.com/profiles/company/268134-40",
-          "https://www.paraform.com/company/abridge",
-          "https://www.fiercehealthcare.com/ai-and-machine-learning/abridge-clinches-150m-build-out-generative-ai-medical-documentation"
+          "https://www.paraform.com/company/abridge"
         ],
-        "extracted_at": "2025-11-17T19:36:13.817156+00:00",
+        "extracted_at": "2025-11-19T00:13:08.867172+00:00",
         "confidence": 1.0,
-        "reasoning": "Multiple sources consistently state that Abridge was founded in 2018, which provides a high level of certainty about this information. [Validated: The extracted value of 2018 for the founding year of Abridge is consistent across multiple reputable sources, confirming its accuracy.]"
-      },
-      "related_companies": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "http://www.modernhealthcare.com/health-tech/ai/mh-epic-ai-tools-abridge-innovaccer-ambience/",
-          "https://www.g2.com/products/abridge/competitors/alternatives",
-          "https://www.cbinsights.com/company/abridge-ai/alternatives-competitors"
-        ],
-        "extracted_at": "2025-11-17T19:38:02.582386+00:00",
-        "confidence": 0.9,
-        "reasoning": "The extracted companies are mentioned as either competitors or alternatives to Abridge in multiple sources. Source 1 explicitly lists Innovaccer and Ambience Healthcare alongside Abridge in a competitive context. Source 2 and Source 5 provide direct alternatives and competitors, confirming their relevance to Abridge's market position. [Validated: The extracted companies have been corroborated by multiple reputable sources as relevant competitors or alternatives to Abridge, supporting the high confidence level.]"
-      },
-      "total_raised_usd": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://news.crunchbase.com/health-wellness-biotech/ai-doctor-note-taking-startup-abridge/",
-          "https://www.linkedin.com/posts/ameyers_exclusive-abridge-whose-ai-app-takes-notes-activity-7344704628665610240-QUEi"
-        ],
-        "extracted_at": "2025-11-17T19:38:16.446226+00:00",
-        "confidence": 1.0,
-        "reasoning": "The total amount raised for Abridge is stated to be $757.5 million in Source 2. This figure is supported by multiple sources, confirming the total fundraising amount across different rounds. I am confident in this extraction as it is a consolidated total rather than a single funding round. [Validated: The extracted value of $757.5 million is corroborated by multiple reliable sources, confirming the total amount raised for Abridge. The confidence level is maintained at 1.0 due to the consistency across the sources.]"
-      },
-      "last_disclosed_valuation_usd": {
-        "source": "agentic_rag",
-        "tool": "tavily_llm_extraction",
-        "source_urls": [
-          "https://www.mobihealthnews.com/news/abridge-secures-300m-boosts-valuation-53b",
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/healthcare-startup-abridge-raises-300-million-led-by-vc-firm-andreessen-horowitz-2025-06-24/",
-          "https://techcrunch.com/2025/06/24/in-just-4-months-ai-medical-scribe-abridge-doubles-valuation-to-5-3b/",
-          "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/abridge-closes-300m-in-series-e-funding-hits-5-3b-valuation/"
-        ],
-        "extracted_at": "2025-11-17T19:38:30.416648+00:00",
-        "confidence": 1.0,
-        "reasoning": "All sources consistently report Abridge's last disclosed valuation at $5.3 billion following its Series E funding round, and there are multiple confirmations of this figure across various reputable sources. [Validated: The extracted value of $5.3 billion is corroborated by multiple reputable sources, confirming the valuation following Abridge's Series E funding round.]"
+        "reasoning": "The year 2018 is consistently mentioned as the founding year of Abridge in multiple reliable sources (Contrary Research, PitchBook, and Paraform). No conflicting information about the founding year appears in the provided search results. [Validated: The extracted founding year of 2018 for Abridge is corroborated by multiple reliable sources with no conflicting information, making the confidence level appropriately high.]"
       }
     }
   },
   "events": [
     {
-      "event_id": "abridge_announcement_2025_08_12",
+      "event_id": "1",
       "company_id": "abridge",
       "occurred_on": "2025-08-12",
       "event_type": "product_release",
-      "title": "Real Time Prior Authorization at the Point of Conversation",
-      "description": "Abridge announced the release of a new feature for real-time prior authorization during medical conversations.",
+      "title": "Announcing Real Time Prior Authorization at the Point of Conversation",
+      "description": null,
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -149,22 +111,73 @@
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "blog",
+          "source_url": "product",
           "crawled_at": "2025-08-12",
           "snippet": null,
           "chunk_id": [
-            "abridge_blog_f1388ab9#2.0"
+            "abridge_product_61b2fae9#13.0",
+            "abridge_blog_d73877cd#2.0"
           ]
         }
       ]
     },
     {
-      "event_id": "abridge_announcement_2025_11_10",
+      "event_id": "2",
       "company_id": "abridge",
-      "occurred_on": "2025-11-10",
-      "event_type": "other",
-      "title": "Caitlin Clark and Abridge at Becker's CEO + CFO",
-      "description": "Abridge participated in Becker's CEO + CFO event with Caitlin Clark.",
+      "occurred_on": "2025-04-29",
+      "event_type": "partnership",
+      "title": "AltaMed Health Services Corporation Partners with Abridge",
+      "description": "AltaMed Health Services Corporation Partners with Abridge to Bring Leading AI Technology to Multilingual Communities",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-04-29",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "abridge",
+      "occurred_on": "2025-04-10",
+      "event_type": "customer_win",
+      "title": "Sharp HealthCare Chooses Abridge for Clinical Documentation",
+      "description": "Sharp HealthCare Chooses Abridge for Clinical Documentation, Enabling Clinicians to Focus on Care\u2014Not Coding",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-04-10",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "4",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-18",
+      "event_type": "partnership",
+      "title": "Abridge and CHRISTUS Health Partnership",
+      "description": "From Clinician Wellbeing to Coding Compliance: Abridge and CHRISTUS Health",
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -175,60 +188,10 @@
       "provenance": [
         {
           "source_url": "blog",
-          "crawled_at": "2025-11-10",
+          "crawled_at": "2025-11-18",
           "snippet": null,
           "chunk_id": [
-            "abridge_blog_c839bc87#3.0"
-          ]
-        }
-      ]
-    },
-    {
-      "event_id": "abridge_announcement_2025_11_04",
-      "company_id": "abridge",
-      "occurred_on": "2025-11-04",
-      "event_type": "other",
-      "title": "Becker\u2019s: Voices of Healthcare",
-      "description": "Abridge was featured in Becker\u2019s: Voices of Healthcare.",
-      "round_name": null,
-      "investors": null,
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": null,
-      "tags": null,
-      "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "blog",
-          "crawled_at": "2025-11-04",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_blog_c839bc87#3.0"
-          ]
-        }
-      ]
-    },
-    {
-      "event_id": "abridge_policy_2025_11_13",
-      "company_id": "abridge",
-      "occurred_on": "2025-11-13",
-      "event_type": "other",
-      "title": "Abridge\u2019s Principles for Building Trusted AI in Healthcare",
-      "description": "Tim Hwang posted about Abridge\u2019s principles for building trusted AI in healthcare.",
-      "round_name": null,
-      "investors": null,
-      "amount_usd": null,
-      "valuation_usd": null,
-      "actors": null,
-      "tags": null,
-      "schema_version": "2.0.0",
-      "provenance": [
-        {
-          "source_url": "blog",
-          "crawled_at": "2025-11-13",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_blog_f1388ab9#2.0"
+            "abridge_blog_d73877cd#2.0"
           ]
         }
       ]
@@ -237,25 +200,66 @@
   "snapshots": [
     {
       "company_id": "abridge",
-      "as_of": "2023-11-01",
+      "as_of": "2023-10-06",
       "headcount_total": null,
       "headcount_growth_pct": null,
-      "job_openings_count": 53,
+      "job_openings_count": 51,
       "engineering_openings": null,
       "sales_openings": null,
-      "hiring_focus": null,
+      "hiring_focus": [
+        "Builder",
+        "Foundations Engineering",
+        "Platform Engineering",
+        "Security",
+        "ML Engineering",
+        "Product",
+        "Product Design",
+        "Product Engineering",
+        "Science",
+        "Commercial",
+        "Partner Experience",
+        "Implementation",
+        "Implementation - Nursing",
+        "Partner Success - Clinical Success",
+        "Partner Success - Enterprise and Commercial",
+        "Partner Success - Key",
+        "Operations",
+        "Core Operations",
+        "Data Science",
+        "Finance",
+        "Finance Operations",
+        "Legal",
+        "Legal - Product",
+        "Marketing",
+        "Growth",
+        "People"
+      ],
       "pricing_tiers": null,
-      "active_products": null,
-      "geo_presence": null,
-      "confidence": 0.5,
+      "active_products": [
+        "Generative AI Platform for Clinical Conversations",
+        "Abridge Contextual Reasoning Engine"
+      ],
+      "geo_presence": [
+        "United States"
+      ],
+      "confidence": null,
       "schema_version": "2.0.0",
       "provenance": [
         {
           "source_url": "careers",
-          "crawled_at": "2023-11-01",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
-            "abridge_careers_0b8a84fe#1.0"
+            "abridge_careers_b276960a#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_a1071d0a#2.0",
+            "abridge_product_01b8735a#3.0"
           ]
         }
       ]
@@ -263,10 +267,10 @@
   ],
   "products": [
     {
-      "product_id": "contextual_reasoning_engine",
+      "product_id": "abridge_product_66300029#4.0",
       "company_id": "abridge",
-      "name": "Contextual Reasoning Engine",
-      "description": "Transforms conversations into insights with AI, giving agency back to clinicians, creating clarity for patients, and establishing radical efficiencies to transform healthcare from the conversation up.",
+      "name": "Abridge Contextual Reasoning Engine",
+      "description": "Provides clinically accurate summaries and medical terms across specialties. Recognizes, understands, and takes accurate notes across a wide range of languages. Adapts seamlessly to your existing implementations and EHR workflows.",
       "pricing_model": null,
       "pricing_tiers_public": null,
       "ga_date": null,
@@ -277,11 +281,59 @@
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "about",
-          "crawled_at": "2023-10-10",
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_191d7e55#2.0"
+            "abridge_product_66300029#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge_product_1dbeb749#10.0",
+      "company_id": "abridge",
+      "name": "Abridge Enterprise",
+      "description": "With Abridge Enterprise, healthcare systems get all the tools they need to easily manage security, compliance, and deployments\u2014for all clinicians, in one place. Single-Sign On (SSO) and Custom Governance Controls.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_1dbeb749#10.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge_product_d65aff0e#5.0",
+      "company_id": "abridge",
+      "name": "Abridge Contextual Reasoning Engine",
+      "description": "Leading healthcare AI infrastructure, powering the most trusted billable, clinically useful, and compliant notes at the point of care. Unlock contextually aware notes with dynamically integrated data from previous patient encounters, health system-specific guidelines, and clinician preferences.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_d65aff0e#5.0"
           ]
         }
       ]
@@ -303,11 +355,10 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_7a9745f5#3.0",
-            "abridge_about_f89ab9fe#3.0"
+            "abridge_about_b3488d93#3.0"
           ]
         }
       ]
@@ -327,11 +378,10 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_7a9745f5#3.0",
-            "abridge_about_f89ab9fe#3.0"
+            "abridge_about_b3488d93#3.0"
           ]
         }
       ]
@@ -351,10 +401,10 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
-            "abridge_about_7a9745f5#3.0",
+            "abridge_about_b3488d93#3.0",
             "abridge_about_42468d33#4.0"
           ]
         }
@@ -375,7 +425,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
             "abridge_about_42468d33#4.0"
@@ -398,7 +448,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
             "abridge_about_42468d33#4.0",
@@ -422,7 +472,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-01",
+          "crawled_at": "2023-10-05",
           "snippet": null,
           "chunk_id": [
             "abridge_about_5a6f770b#5.0"
@@ -434,7 +484,7 @@
   "visibility": [
     {
       "company_id": "abridge",
-      "as_of": "2023-10-06",
+      "as_of": "2023-10-01",
       "news_mentions_30d": null,
       "avg_sentiment": null,
       "github_stars": null,
@@ -442,33 +492,17 @@
       "schema_version": "2.0.0",
       "provenance": [
         {
-          "source_url": "blog",
-          "crawled_at": "2023-10-06",
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
           "snippet": null,
           "chunk_id": [
-            "abridge_blog_f1388ab9#2.0",
-            "abridge_blog_c839bc87#3.0"
-          ]
-        },
-        {
-          "source_url": "careers",
-          "crawled_at": "2023-10-06",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_careers_c3a0a730#25.0"
-          ]
-        },
-        {
-          "source_url": "about",
-          "crawled_at": "2023-10-06",
-          "snippet": null,
-          "chunk_id": [
-            "abridge_about_6858d285#10.0"
+            "abridge_product_61b2fae9#13.0",
+            "abridge_product_b2e98bc5#12.0"
           ]
         }
       ]
     }
   ],
-  "notes": "Extracted with semantic search via Pinecone on 2025-11-14T03:29:56.072773",
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-18T23:57:47.464934",
   "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
 }

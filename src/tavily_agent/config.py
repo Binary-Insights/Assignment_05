@@ -6,7 +6,7 @@ Manages API keys, LLM settings, vector database configuration, and file paths.
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from typing import Optional
+from typing import Optional, List
 
 # Load environment variables
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
@@ -39,7 +39,7 @@ LLM_MAX_TOKENS: int = int(os.getenv("LLM_MAX_TOKENS", "4096"))
 # ===========================
 PINECONE_INDEX_NAME: str = os.getenv("PINECONE_INDEX_NAME", "agentic-rag-payloads")
 PINECONE_NAMESPACE: str = os.getenv("PINECONE_NAMESPACE", "default")
-PINECONE_DIMENSION: int = int(os.getenv("PINECONE_DIMENSION", "1536"))
+PINECONE_DIMENSION: int = int(os.getenv("PINECONE_DIMENSION", "3072"))
 EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 
 # ===========================
@@ -59,9 +59,61 @@ for directory in [PAYLOADS_DIR, RAW_DATA_DIR, LOGS_DIR, VECTORS_DIR]:
 # ===========================
 # Agent Configuration
 # ===========================
-MAX_ITERATIONS: int = int(os.getenv("MAX_ITERATIONS", "5"))
+MAX_ITERATIONS: int = int(os.getenv("MAX_ITERATIONS", "5"))  # Increased to allow entity extraction (5 company fields + 5 entities + buffer)
 TOOL_TIMEOUT: int = int(os.getenv("TOOL_TIMEOUT", "30"))
 BATCH_SIZE: int = int(os.getenv("BATCH_SIZE", "3"))  # For concurrent processing
+
+# ===========================
+# Human-in-the-Loop Configuration
+# ===========================
+
+# HITL settings file path
+HITL_SETTINGS_FILE = DATA_DIR / "hitl_settings.json"
+
+def load_hitl_settings() -> dict:
+    """
+    Load HITL settings from persistent JSON file.
+    Falls back to environment variables if file doesn't exist.
+    
+    Returns:
+        Dictionary with HITL configuration
+    """
+    if HITL_SETTINGS_FILE.exists():
+        try:
+            import json
+            with open(HITL_SETTINGS_FILE, 'r') as f:
+                settings = json.load(f)
+                print(f"✅ [CONFIG] Loaded HITL settings from {HITL_SETTINGS_FILE}")
+                return settings
+        except Exception as e:
+            print(f"⚠️  [CONFIG] Error loading HITL settings: {e}. Using defaults.")
+    
+    # Fallback to environment variables
+    return {
+        "enabled": os.getenv("HITL_ENABLED", "false").lower() == "true",
+        "high_risk_fields": os.getenv("HITL_HIGH_RISK_FIELDS", "true").lower() == "true",
+        "low_confidence": os.getenv("HITL_LOW_CONFIDENCE", "true").lower() == "true",
+        "conflicting_info": os.getenv("HITL_CONFLICTING_INFO", "false").lower() == "true",
+        "entity_batch": os.getenv("HITL_ENTITY_BATCH", "false").lower() == "true",
+        "pre_save": os.getenv("HITL_PRE_SAVE", "false").lower() == "true",
+        "confidence_threshold": float(os.getenv("HITL_CONFIDENCE_THRESHOLD", "0.7"))
+    }
+
+# Load settings from file or environment
+_hitl_settings = load_hitl_settings()
+
+HITL_ENABLED: bool = _hitl_settings["enabled"]
+HITL_HIGH_RISK_FIELDS: bool = _hitl_settings["high_risk_fields"]
+HITL_LOW_CONFIDENCE: bool = _hitl_settings["low_confidence"]
+HITL_CONFLICTING_INFO: bool = _hitl_settings["conflicting_info"]
+HITL_ENTITY_BATCH: bool = _hitl_settings["entity_batch"]
+HITL_PRE_SAVE: bool = _hitl_settings["pre_save"]
+HITL_CONFIDENCE_THRESHOLD: float = _hitl_settings["confidence_threshold"]
+
+# High-risk fields that require approval
+HIGH_RISK_FIELDS: List[str] = [
+    "total_raised_usd"
+]
 
 # ===========================
 # Deduplication Settings
