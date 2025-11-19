@@ -400,12 +400,12 @@ def main():
             from langchain_openai import ChatOpenAI
             print("\n🤖 Initializing OpenAI LLM...")
             llm = ChatOpenAI(
-                model="gpt-4o-mini",
+                model="gpt-4o",
                 temperature=0,
                 max_tokens=500,
                 api_key=os.getenv("OPENAI_API_KEY")
             )
-            print("   ✅ LLM initialized (gpt-4o-mini)")
+            print("   ✅ LLM initialized (gpt-4o)")
         except Exception as e:
             print(f"   ⚠️  LLM initialization failed: {str(e)[:60]}")
         

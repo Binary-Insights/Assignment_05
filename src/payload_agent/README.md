@@ -130,7 +130,7 @@ response = agent.execute_with_agent(
 ```bash
 # OpenAI
 OPENAI_API_KEY=sk-...
-OPENAI_MODEL=gpt-4o-mini
+OPENAI_MODEL=gpt-4o
 
 # Pinecone
 PINECONE_API_KEY=...

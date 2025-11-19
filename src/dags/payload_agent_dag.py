@@ -124,8 +124,19 @@ def process_single_company_task(company_name: str):
             timeout=600,  # 10 minute timeout per company
             env=env,
             text=True,
-            capture_output=False,  # Don't capture - let it stream to Airflow logs
+            capture_output=True,  # Capture output to show errors
         )
+        
+        # Log the output
+        if result.stdout:
+            logger_task.info("📄 STDOUT:")
+            for line in result.stdout.splitlines():
+                logger_task.info(f"   {line}")
+        
+        if result.stderr:
+            logger_task.error("📄 STDERR:")
+            for line in result.stderr.splitlines():
+                logger_task.error(f"   {line}")
         
         # Calculate duration
         duration = time() - start_time

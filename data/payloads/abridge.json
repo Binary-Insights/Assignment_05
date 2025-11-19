@@ -2,11 +2,11 @@
   "company_record": {
     "company_id": "abridge",
     "legal_name": "Abridge Al, Inc.",
-    "brand_name": null,
+    "brand_name": "Abridge",
     "website": null,
-    "hq_city": null,
+    "hq_city": "Pittsburgh",
     "hq_state": null,
-    "hq_country": null,
+    "hq_country": "United States",
     "founded_year": null,
     "categories": null,
     "related_companies": null,
@@ -20,12 +20,47 @@
       {
         "source_url": "about",
         "crawled_at": "2023-10-11",
-        "snippet": "Copyright © 2025 Abridge Al, Inc.",
+        "snippet": "Copyright \u00a9 2025 Abridge Al, Inc.",
         "chunk_id": [
           "abridge_about_6858d285#10.0"
         ]
       }
-    ]
+    ],
+    "_extraction_metadata": {
+      "brand_name": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crunchbase.com/organization/abridge-d1a4",
+          "https://www.linkedin.com/company/abridgehq",
+          "https://www.abridge.com/blog/abridge-now-most-awarded-ai-platform-in-healthcare"
+        ],
+        "extracted_at": "2025-11-18T19:48:34.240530+00:00",
+        "confidence": 0.98,
+        "reasoning": "The search results consistently refer to the company as 'Abridge' across multiple reputable sources, including Crunchbase, LinkedIn, and the company's official blog. There is no indication of any other brand name in the provided results. [Validated: The extracted value 'Abridge' is consistent across multiple reputable sources and aligns with the company's branding and official documents.]"
+      },
+      "hq_city": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://salestools.io/report/abridge-headquarters",
+          "https://www.abridge.com/blog/behind-the-scenes-at-pittsburgh-hq"
+        ],
+        "extracted_at": "2025-11-18T19:49:08.641690+00:00",
+        "confidence": 0.95,
+        "reasoning": "Sources 1 and 2 both explicitly mention Pittsburgh as the headquarters city. Source 1 provides a detailed address in Pittsburgh, and Source 2 refers to 'Pittsburgh HQ'. Source 3 discusses building a presence in San Francisco but does not state that the headquarters has moved. Therefore, the most accurate current headquarters city is Pittsburgh. [Validated: The extracted value is consistent with the provided sources, which confirm Pittsburgh as the headquarters city. No contradictory information suggests a different location for the headquarters.]"
+      },
+      "hq_country": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://salestools.io/report/abridge-headquarters"
+        ],
+        "extracted_at": "2025-11-18T19:49:40.592370+00:00",
+        "confidence": 1.0,
+        "reasoning": "Source 3 explicitly states that Abridge is headquartered in Pittsburgh, PA. 'PA' refers to Pennsylvania, which is a state in the United States. This provides a clear indication of the company's headquarters country. [Validated: The extracted value is correct as the source clearly indicates that Abridge is headquartered in Pittsburgh, Pennsylvania, which is in the United States.]"
+      }
+    }
   },
   "events": [
     {

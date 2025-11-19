@@ -183,6 +183,6 @@ def _save_payload(payload, company_id):
     output = PAYLOADS_DIR / f"{company_id}_v2.json"
     PAYLOADS_DIR.mkdir(parents=True, exist_ok=True)
     data = payload.model_dump() if hasattr(payload, 'model_dump') else payload.__dict__
-    with open(output, 'w') as f:
-        json.dump(data, f, indent=2, default=str)
+    with open(output, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, default=str, ensure_ascii=False)
     return output

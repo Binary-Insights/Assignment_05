@@ -92,12 +92,12 @@ class PayloadAgent:
     - Built on LangGraph state machine
     """
     
-    def __init__(self, model_name: str = "gpt-4o-mini", use_agent: bool = True):
+    def __init__(self, model_name: str = "gpt-4o", use_agent: bool = True):
         """
         Initialize PayloadAgent with LangGraph ReAct agent and tool calling.
         
         Args:
-            model_name: OpenAI model (defaults to gpt-4o-mini for cost efficiency)
+            model_name: OpenAI model (defaults to gpt-4o for cost efficiency)
             use_agent: Whether to initialize LangGraph agent (default: True)
         """
         if not os.getenv("OPENAI_API_KEY"):
@@ -162,8 +162,8 @@ class PayloadAgent:
         """
         # Import the @tool decorated functions directly
         # These are already tool-decorated and agent-discoverable
-        from tools.payload.retrieval import get_latest_structured_payload
-        from tools.payload.validation import validate_payload, update_payload
+        from payload_agent.tools.retrieval import get_latest_structured_payload
+        from payload_agent.tools.validation import validate_payload, update_payload
         from langchain_core.tools import tool
         
         # Create agent wrapper tools that call the actual tools with proper parameters

@@ -11,7 +11,7 @@
     "categories": null,
     "related_companies": null,
     "total_raised_usd": null,
-    "last_disclosed_valuation_usd": 5300000000.0,
+    "last_disclosed_valuation_usd": "5300000000",
     "last_round_name": "Series E",
     "last_round_date": null,
     "schema_version": "2.0.0",
