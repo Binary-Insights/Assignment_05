@@ -608,9 +608,9 @@ Start-Sleep -Seconds 120; docker compose -f c:\Users\enigm\OneDrive\Documents\No
 #######################################
 Payload agent: 
 either 
-python src/agents/payload_agent.py abridge
+python src/payload_agent/payload_agent.py abridge
 or as langgraph
-python src/workflows/payload_workflow.py abridge
+python src/payload_agent/payload_workflow.py abridge
 
 
 Tests
