@@ -113,7 +113,7 @@
         "confidence": 0.95,
         "reasoning": "Source 2 explicitly states that Abridge has raised a total of $757.5 million, according to Crunchbase. This source provides a specific and recent figure that aligns closely with other sources, adding confidence to its accuracy. While Source 1 mentions a higher figure of $773 million, the consistency and specificity in Source 2 make it more reliable. [Validated: The extracted value of $757.5 million is validated by a reliable source, Crunchbase, which is a reputable platform for company financial data. The discrepancy with Source 1's figure is noted, but the specificity and recency of Source 2 enhance the confidence level.]"
       },
-      "last_disclosed_valuation_usd": {
+      "hq_country": {
         "source": "agentic_rag",
         "tool": "tavily_llm_extraction",
         "source_urls": [
@@ -162,7 +162,7 @@
   },
   "events": [
     {
-      "event_id": "1",
+      "event_id": "abridge_event_001",
       "company_id": "abridge",
       "occurred_on": "2025-08-12",
       "event_type": "product_release",
@@ -172,7 +172,9 @@
       "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
-      "actors": null,
+      "actors": [
+        "Sagar Sanghvi"
+      ],
       "tags": null,
       "schema_version": "2.0.0",
       "provenance": [
@@ -188,7 +190,7 @@
       ]
     },
     {
-      "event_id": "2",
+      "event_id": "abridge_event_002",
       "company_id": "abridge",
       "occurred_on": "2025-04-29",
       "event_type": "partnership",
@@ -198,7 +200,9 @@
       "investors": null,
       "amount_usd": null,
       "valuation_usd": null,
-      "actors": null,
+      "actors": [
+        "Tim Hwang"
+      ],
       "tags": null,
       "schema_version": "2.0.0",
       "provenance": [
@@ -728,7 +732,8 @@
       "geo_presence": [
         "United States"
       ],
-      "confidence": null,
+      "geo_presence": null,
+      "confidence": 0.8,
       "schema_version": "2.0.0",
       "provenance": [
         {
@@ -901,7 +906,9 @@
       "integration_partners": null,
       "github_repo": null,
       "license_type": null,
-      "reference_customers": null,
+      "reference_customers": [
+        "Best in KLAS Report"
+      ],
       "schema_version": "2.0.0",
       "provenance": [
         {
@@ -1474,7 +1481,7 @@
       "person_id": "shiv-rao",
       "company_id": "abridge",
       "name": "Shiv Rao, MD",
-      "role": "CEO, Co-Founder",
+      "role": "CEO, Founder",
       "is_founder": true,
       "start_date": null,
       "end_date": null,
@@ -1485,7 +1492,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-05",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
             "abridge_about_b3488d93#3.0"
@@ -1508,7 +1515,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-05",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
             "abridge_about_b3488d93#3.0"
@@ -1531,7 +1538,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-05",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
             "abridge_about_b3488d93#3.0",
@@ -1555,7 +1562,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-05",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
             "abridge_about_42468d33#4.0"
@@ -1578,7 +1585,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-05",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
             "abridge_about_42468d33#4.0",
@@ -1602,7 +1609,7 @@
       "provenance": [
         {
           "source_url": "about",
-          "crawled_at": "2023-10-05",
+          "crawled_at": "2023-10-06",
           "snippet": null,
           "chunk_id": [
             "abridge_about_5a6f770b#5.0"

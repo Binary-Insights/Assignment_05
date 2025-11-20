@@ -605,3 +605,11 @@ docker exec assignment04-airflow-scheduler python /app/src/mcp_server/mcp_enrich
 Start-Sleep -Seconds 120; docker compose -f c:\Users\enigm\OneDrive\Documents\NortheasternAssignments\09_BigDataIntelAnlytics\Assignments\Assignment_05\docker\docker-compose.yml up -d --force-recreate airflow-scheduler airflow-webserver airflow-triggerer
 
 (base) PS C:\Users\enigm\OneDrive\Documents\NortheasternAssignments\09_BigDataIntelAnlytics\Assignments\Assignment_05\docker> docker exec assignment04-airflow-scheduler tail -100 /app/data/logs/structured_extraction.log 2>&1
+#######################################
+Payload agent: 
+either 
+python src/agents/payload_agent.py abridge
+or as langgraph
+python src/workflows/payload_workflow.py abridge
+
+
