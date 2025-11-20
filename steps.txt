@@ -613,3 +613,6 @@ or as langgraph
 python src/workflows/payload_workflow.py abridge
 
 
+Tests
+pytest tests/test_payload_tools.py -v --tb=short
+pytest tests/test_payload_workflow.py -v --tb=short
