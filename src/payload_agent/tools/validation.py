@@ -2,7 +2,7 @@
 
 TWO @tool functions for LangGraph agent:
 1. validate_payload: Check structure and identify null fields
-2. update_payload: Fill nulls from Pinecone + save as {company_id}_v2.json
+2. update_payload: Fill nulls from Pinecone + save as {company_id}.json (with versioned backup)
 """
 
 import json
@@ -52,7 +52,7 @@ def validate_payload(company_id: str) -> Dict[str, Any]:
 
 @tool
 def update_payload(company_id: str, rag_search_tool: Optional[Any] = None, llm: Optional[Any] = None) -> Dict[str, Any]:
-    """Fill null fields from Pinecone and save as {company_id}_v2.json."""
+    """Fill null fields from Pinecone and save as {company_id}.json (creates versioned backup first)."""
     try:
         from payload_agent.tools import get_latest_structured_payload
         payload = get_latest_structured_payload.invoke({"company_id": company_id})
@@ -178,11 +178,81 @@ def _update_field(payload, section, field_name, value):
         return False
 
 
+def _backup_payload(company_id):
+    """
+    Create a versioned backup of the current payload.
+    Saves current version as {company_id}_v1.json, {company_id}_v2.json, etc.
+    
+    Args:
+        company_id: Company identifier
+        
+    Returns:
+        Path to backup file or None if backup not needed/failed
+    """
+    original_path = PAYLOADS_DIR / f"{company_id}.json"
+    
+    if not original_path.exists():
+        logger.debug(f"No existing payload to backup for {company_id}")
+        return None
+    
+    try:
+        # Find next version number
+        version = 1
+        while (PAYLOADS_DIR / f"{company_id}_v{version}.json").exists():
+            version += 1
+        
+        backup_path = PAYLOADS_DIR / f"{company_id}_v{version}.json"
+        
+        # Read the original file and write to backup
+        logger.info(f"Creating backup v{version} from: {original_path}")
+        with open(original_path, 'r', encoding='utf-8') as src:
+            content = src.read()
+        
+        with open(backup_path, 'w', encoding='utf-8') as dst:
+            dst.write(content)
+        
+        # Verify backup was created
+        if backup_path.exists():
+            logger.info(f"✓ Created backup: {backup_path}")
+            return backup_path
+        else:
+            logger.error(f"Backup file was not created: {backup_path}")
+            return None
+            
+    except PermissionError as e:
+        logger.warning(f"⚠ Backup skipped (permission denied): {e}")
+        logger.warning(f"  Continuing without backup (non-critical)")
+        return None
+    except Exception as e:
+        logger.error(f"Error creating backup: {e}")
+        return None
+
+
 def _save_payload(payload, company_id):
-    """Save as {company_id}_v2.json."""
-    output = PAYLOADS_DIR / f"{company_id}_v2.json"
+    """
+    Save updated payload as {company_id}.json (overwrites existing).
+    Creates versioned backup before overwriting.
+    
+    Args:
+        payload: Payload object to save
+        company_id: Company identifier
+        
+    Returns:
+        Path to saved file
+    """
+    # Create backup of existing file if it exists
+    backup_path = _backup_payload(company_id)
+    if backup_path:
+        logger.info(f"Backed up existing payload before updating")
+    
+    # Save updated payload as main file
+    output = PAYLOADS_DIR / f"{company_id}.json"
     PAYLOADS_DIR.mkdir(parents=True, exist_ok=True)
+    
     data = payload.model_dump() if hasattr(payload, 'model_dump') else payload.__dict__
+    
     with open(output, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, default=str, ensure_ascii=False)
+    
+    logger.info(f"✓ Saved updated payload to: {output}")
     return output

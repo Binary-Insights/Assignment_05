@@ -156,7 +156,7 @@ def process_single_company_task(company_name: str):
             raise RuntimeError(error_msg)
         
         logger_task.info(f"✅ Payload agent processing complete for: {company_name}")
-        logger_task.info(f"📝 Check data/payloads/{company_name}_v2.json for updated payload")
+        logger_task.info(f"📝 Updated payload: data/payloads/{company_name}.json (backup saved as _v1, _v2, etc.)")
         logger_task.info("")
         
         return {
@@ -183,7 +183,7 @@ def process_single_company_task(company_name: str):
 def verify_processing_complete():
     """
     Verify that payload agent processing completed for all companies.
-    Checks that updated payload files (_v2.json) exist.
+    Checks that backup files (_v1.json, _v2.json, etc.) exist, indicating updates were made.
     """
     try:
         logger.info("=" * 80)
@@ -201,29 +201,38 @@ def verify_processing_complete():
             if "_v" not in f.stem
         ]
         
-        # Check for _v2 versions (updated payloads)
-        updated_files = [
-            f for f in PAYLOADS_DIR.glob("*_v2.json")
+        # Check for backup versions (indicates update was performed)
+        backup_files = [
+            f for f in PAYLOADS_DIR.glob("*_v*.json")
         ]
         
+        # Count unique companies with backups
+        unique_companies_with_backups = set()
+        for f in backup_files:
+            # Extract company name before _v
+            company_name = f.stem.rsplit('_v', 1)[0]
+            unique_companies_with_backups.add(company_name)
+        
         total_companies = len(payload_files)
-        updated_companies = len(updated_files)
+        updated_companies = len(unique_companies_with_backups)
         success_rate = (updated_companies / total_companies * 100) if total_companies > 0 else 0
         
         logger.info("")
         logger.info("📊 PROCESSING SUMMARY:")
         logger.info(f"   Total companies: {total_companies}")
-        logger.info(f"   Successfully processed: {updated_companies}")
+        logger.info(f"   Successfully processed (with backups): {updated_companies}")
         logger.info(f"   Success rate: {success_rate:.1f}%")
         logger.info(f"   Output directory: {PAYLOADS_DIR}")
         logger.info("")
         
         if updated_companies > 0:
-            logger.info("✅ Updated payload files (_v2.json):")
-            for i, f in enumerate(sorted(updated_files)[:10], 1):
-                logger.info(f"   {i}. {f.name}")
-            if len(updated_files) > 10:
-                logger.info(f"   ... and {len(updated_files) - 10} more files")
+            logger.info("✅ Companies with backup files (updated payloads):")
+            for i, company in enumerate(sorted(unique_companies_with_backups)[:10], 1):
+                # Count how many backups exist for this company
+                company_backups = [f for f in backup_files if f.stem.startswith(company + '_v')]
+                logger.info(f"   {i}. {company} ({len(company_backups)} backup(s))")
+            if len(unique_companies_with_backups) > 10:
+                logger.info(f"   ... and {len(unique_companies_with_backups) - 10} more companies")
         
         if updated_companies < total_companies:
             missing_count = total_companies - updated_companies

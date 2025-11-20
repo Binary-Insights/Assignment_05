@@ -203,7 +203,7 @@ class PayloadAgent:
         def update_payload_tool(company_id: str) -> dict:
             """Update a company payload by filling null fields from Pinecone vector search.
             
-            Saves updated payload as {company_id}_v2.json in data/payloads/ directory.
+            Creates versioned backup before updating, then saves as {company_id}.json.
             
             Args:
                 company_id: Company identifier (e.g., 'abridge')
@@ -618,7 +618,7 @@ Observation from '{action}' action:
         """
         if use_agent and self.agent_executor:
             # LangGraph agent autonomously decides which tools to call
-            query = f"Update the payload for company {company_id}. Fill null fields using Pinecone vector search and LLM extraction. Save the updated payload as {{company_id}}_v2.json."
+            query = f"Update the payload for company {company_id}. Fill null fields using Pinecone vector search and LLM extraction. Save the updated payload as {{company_id}}.json with versioned backup."
             return self.execute_with_agent(query)
         elif use_react:
             # Manual ReAct cycle with predefined workflow
