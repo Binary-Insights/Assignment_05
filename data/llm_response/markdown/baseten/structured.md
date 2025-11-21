@@ -1,18 +1,36 @@
 ## Company Overview
 
-Baseten is a private AI startup that offers a suite of products designed to facilitate the deployment and management of AI models. The company provides various deployment options, including Baseten Cloud, Self-hosted, and Hybrid solutions, catering to different infrastructure needs. Baseten has recently made its training product generally available, indicating a focus on enhancing AI model training capabilities.
+**Legal Name:** Baseten  
+**Brand Name:** Baseten  
+**Website:** [https://www.baseten.co/](https://www.baseten.co/)  
+**Headquarters:** San Francisco, CA, United States  
+**Founded Year:** 2019  
+
+Baseten is a private AI startup focused on providing deployment options and solutions for enterprise AI applications, including transcription, image generation, text-to-speech, and large language models.
 
 ## Business Model and GTM
 
-Baseten's business model revolves around providing infrastructure solutions for AI model deployment and training. The company offers multiple deployment options, allowing customers to choose between cloud-based, self-hosted, or hybrid solutions. This flexibility suggests a go-to-market strategy that targets a wide range of customers, from those preferring fully managed services to those requiring more control over their infrastructure.
+Baseten offers a variety of products and services, including:
+
+- **Baseten Cloud:** Deployment options for cloud, self-hosted, and hybrid environments.
+- **Dedicated Deployments:** Model APIs, training, and infrastructure solutions.
+- **Inference Stack:** Cost-effective, high-performance model serving for custom-built LLMs.
+- **Multi-Model Inference:** Ultra-low latency inference workflows across multiple models.
+- **Multi-Model Pipelines:** Compound AI systems for applications like AI phone calling and multimodal chat.
+
+The company states that its products are designed to enhance developer experience and manage multi-cloud capacity effectively.
 
 ## Funding & Investor Profile
 
-Not disclosed.
+**Total Raised:** $285 million  
+**Last Disclosed Valuation:** $0.8 billion  
+**Last Round Name:** Series D  
+
+Baseten has raised significant capital, indicating strong investor confidence and support for its growth and development strategies.
 
 ## Growth Momentum
 
-Baseten has shown growth momentum by making its training product generally available after receiving positive feedback from early users. This indicates a successful initial phase and readiness to scale its offerings to a broader market.
+Baseten has released several key products, including a training product that has been made generally available after positive feedback from early users. The launch of Brain MAX has enhanced user experience by providing sub-300ms transcription with no unpredictable latency spikes.
 
 ## Visibility & Market Sentiment
 
@@ -24,11 +42,11 @@ Not disclosed.
 
 ## Outlook
 
-The company states that its recent product release and the positive reception from early users position it well for future growth. The diverse deployment options suggest that Baseten is prepared to meet various customer needs, which could enhance its market penetration and adoption rates.
+The company is positioned to leverage its comprehensive suite of AI deployment and management solutions to capture a significant share of the enterprise AI market. Its focus on enhancing user experience and developer efficiency could drive further adoption and growth.
 
 ## Disclosure Gaps
 
-- Specific funding details and investor profiles are not disclosed.
-- Detailed visibility and market sentiment information are not available.
+- Specific dates for product releases are not disclosed.
+- Details on leadership roles and responsibilities are not provided.
+- Visibility and market sentiment data are not available.
 - Risks and challenges facing the company are not disclosed.
-- Key snapshots and leadership roles are not fully detailed.

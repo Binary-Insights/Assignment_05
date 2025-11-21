@@ -4,55 +4,419 @@
     "company_name": "Baseten",
     "company_slug": "baseten",
     "pipeline_type": "structured",
-    "timestamp": "2025-11-12T23:01:14.098618Z",
+    "timestamp": "2025-11-21T19:37:31.403060Z",
     "markdown_file": "markdown/baseten/structured.md",
-    "content": "## Company Overview\n\nBaseten is a private AI startup that offers a suite of products designed to facilitate the deployment and management of AI models. The company provides various deployment options, including Baseten Cloud, Self-hosted, and Hybrid solutions, catering to different infrastructure needs. Baseten has recently made its training product generally available, indicating a focus on enhancing AI model training capabilities.\n\n## Business Model and GTM\n\nBaseten's business model revolves around providing infrastructure solutions for AI model deployment and training. The company offers multiple deployment options, allowing customers to choose between cloud-based, self-hosted, or hybrid solutions. This flexibility suggests a go-to-market strategy that targets a wide range of customers, from those preferring fully managed services to those requiring more control over their infrastructure.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nBaseten has shown growth momentum by making its training product generally available after receiving positive feedback from early users. This indicates a successful initial phase and readiness to scale its offerings to a broader market.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that its recent product release and the positive reception from early users position it well for future growth. The diverse deployment options suggest that Baseten is prepared to meet various customer needs, which could enhance its market penetration and adoption rates.\n\n## Disclosure Gaps\n\n- Specific funding details and investor profiles are not disclosed.\n- Detailed visibility and market sentiment information are not available.\n- Risks and challenges facing the company are not disclosed.\n- Key snapshots and leadership roles are not fully detailed."
+    "content": "## Company Overview\n\n**Legal Name:** Baseten  \n**Brand Name:** Baseten  \n**Website:** [https://www.baseten.co/](https://www.baseten.co/)  \n**Headquarters:** San Francisco, CA, United States  \n**Founded Year:** 2019  \n\nBaseten is a private AI startup focused on providing deployment options and solutions for enterprise AI applications, including transcription, image generation, text-to-speech, and large language models.\n\n## Business Model and GTM\n\nBaseten offers a variety of products and services, including:\n\n- **Baseten Cloud:** Deployment options for cloud, self-hosted, and hybrid environments.\n- **Dedicated Deployments:** Model APIs, training, and infrastructure solutions.\n- **Inference Stack:** Cost-effective, high-performance model serving for custom-built LLMs.\n- **Multi-Model Inference:** Ultra-low latency inference workflows across multiple models.\n- **Multi-Model Pipelines:** Compound AI systems for applications like AI phone calling and multimodal chat.\n\nThe company states that its products are designed to enhance developer experience and manage multi-cloud capacity effectively.\n\n## Funding & Investor Profile\n\n**Total Raised:** $285 million  \n**Last Disclosed Valuation:** $0.8 billion  \n**Last Round Name:** Series D  \n\nBaseten has raised significant capital, indicating strong investor confidence and support for its growth and development strategies.\n\n## Growth Momentum\n\nBaseten has released several key products, including a training product that has been made generally available after positive feedback from early users. The launch of Brain MAX has enhanced user experience by providing sub-300ms transcription with no unpredictable latency spikes.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company is positioned to leverage its comprehensive suite of AI deployment and management solutions to capture a significant share of the enterprise AI market. Its focus on enhancing user experience and developer efficiency could drive further adoption and growth.\n\n## Disclosure Gaps\n\n- Specific dates for product releases are not disclosed.\n- Details on leadership roles and responsibilities are not provided.\n- Visibility and market sentiment data are not available.\n- Risks and challenges facing the company are not disclosed."
   },
   "rag": {
     "company_name": "Baseten",
     "company_slug": "baseten",
     "pipeline_type": "rag",
-    "timestamp": "2025-11-12T23:04:54.864899Z",
+    "timestamp": "2025-11-21T19:39:08.435276Z",
     "markdown_file": "markdown/baseten/rag.md",
-    "content": "## Company Overview\n\nBaseten is a company focused on building products for engineering and machine learning teams. The company offers a platform that includes dedicated deployments, model APIs, training, inference stack, model runtimes, and infrastructure solutions. Baseten provides multi-cloud capacity management and a developer experience that includes model management and deployment options such as Baseten Cloud, self-hosted, and hybrid solutions. The company also offers solutions for enterprise needs, including transcription, image generation, text-to-speech, large language models, compound AI, and embeddings.\n\n## Business Model and GTM\n\nThe company states that it builds \"delightful products\" for engineering and machine learning teams to deliver their best work. Baseten's platform and solutions are designed to cater to developers and enterprises, providing a range of deployment options and model management capabilities. The company offers resources such as documentation, a model library, and a changelog to support developers.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\n- Funding & Investor Profile: Not disclosed.\n- Growth Momentum: Not disclosed.\n- Visibility & Market Sentiment: Not disclosed.\n- Risks and Challenges: Not disclosed.\n- Outlook: Not disclosed.",
+    "content": "## Company Overview\n\nBaseten is an AI infrastructure platform based in San Francisco, led by CEO Tuhin Srivastava. The company specializes in providing the tools, expertise, and hardware necessary to bring AI products to market efficiently. Baseten's proprietary Inference Stack offers high performance and reliability, ensuring global availability with 99.99% uptime. The company operates in the software development industry and employs between 51-200 people.\n\n## Business Model and GTM\n\nBaseten focuses on delivering infrastructure solutions for machine learning model deployment. The company provides a platform that allows data scientists to deploy ML models with minimal code, offering scalable APIs without the typical infrastructure challenges. Baseten's offerings include dedicated deployments, model APIs, and training services, catering to engineering and machine learning teams aiming to optimize their workflows and scale AI applications.\n\n## Funding & Investor Profile\n\nBaseten has completed five funding rounds, with the most recent being a Series D round in March 2025, where it raised $150 million at a $2.15 billion valuation. This round was led by BOND, with participation from CapitalG, Premji, Kevin and Elizabeth Weil, and existing investors such as IVP, Spark Capital, and Greylock. The company has raised over $285 million in total funding.\n\n## Growth Momentum\n\nBaseten is experiencing significant growth, as evidenced by its successful Series D funding round and its valuation of $2.15 billion. The company is expanding its team and scaling its AI inference platform to meet increasing demand for scalable, cost-efficient AI infrastructure solutions.\n\n## Visibility & Market Sentiment\n\nThe company states that it is trusted by top engineering and machine learning teams, indicating a positive market sentiment. Baseten's focus on providing robust, scalable infrastructure solutions positions it well within the AI industry, which is seeing substantial investment and interest.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nBaseten is poised for continued growth as it expands its team and enhances its AI inference platform. The company's strong funding position and strategic investor backing suggest a positive outlook, with opportunities to further penetrate the AI infrastructure market.\n\n## Disclosure Gaps\n\n- The exact founding date of Baseten is not disclosed.\n- Specific risks and challenges faced by the company are not disclosed.",
     "context_results": [
       {
-        "id": "baseten_about_5f3912e1",
-        "similarity_score": 0.380111724,
-        "text": "Careers\nProduct\nProduct\nPlatform\nPlatform\nSolutions\nSolutions\nDeveloper\nDeveloper\nResources\nResources\nPricing\nPricing\nLog in\nGet started\nProduct\nPlatform\nSolutions\nDeveloper\nResources\nPricing\nCome build with us\nWe build delightful products for engineering and machine learning teams to deliver their best work.\nSee open roles",
+        "id": "baseten_tavily_5b25e777",
+        "similarity_score": 0.385684967,
+        "text": "Home - Base10\n\nCompaniesTeamContent Companies Team Content # Investing in Automation for the Real Economy ## We are a technology investment firm investing in Founders who solve problems for the 99%. ## We donate 50% of profits from our largest investments to createscholarships at underfunded colleges for the next generation of technology founders. Finance Food Retail Operations",
         "metadata": {
-          "chunk_index": 1.0,
           "company_slug": "baseten",
-          "content_hash": "5f3912e1",
-          "indexed_at": "2025-11-11T04:49:14.311474",
-          "page_type": "about",
-          "source_file": "data/raw/baseten/about/text.txt"
+          "content_hash": "5b25e777",
+          "ingested_at": "2025-11-21T19:28:11.329152",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://base10.vc/",
+          "title": "Home - Base10"
+        }
+      },
+      {
+        "id": "baseten_tavily_2f389c61",
+        "similarity_score": 0.380149841,
+        "text": "Baseten - LinkedIn\n\nOverview:\nInference is everything. Baseten is an AI infrastructure platform giving you the tooling, expertise, and hardware needed to bring great AI products to market - fast. Our proprietary Inference Stack utilizes the cutting-edge of performance research combined with highly performant and reliable infrastructure to give you out-of-the-box global availability with 99.99% of uptime.\n\nWebsite: https://www.baseten.co/\nCrunchbase Url: https://www.crunchbase.com/organization/baseten?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase\nLinkedin Url: https://www.linkedin.com/company/baseten\n\nIndustry:\nSoftware Development\n\nCompany size:\n51-200 employees\n109 associated members (LinkedIn members who’ve listed Baseten as their current workplace on their profile)\n\nFounded:\nN/A\n\nFunding:\nLast Round Date: 2025-03-19T00:00:00.000Z\nLast Round Type: Series C\nTotal Rounds: 5\nLast Round Raised: US$ 75.0M\n\nInvestors:\nIVP, Spark Capital, + 9 Other investors",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "2f389c61",
+          "ingested_at": "2025-11-21T19:27:42.798888",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/company/baseten",
+          "title": "Baseten - LinkedIn"
         }
       },
       {
         "id": "baseten_careers_5f3912e1",
-        "similarity_score": 0.380111724,
+        "similarity_score": 0.380065948,
         "text": "Careers\nProduct\nProduct\nPlatform\nPlatform\nSolutions\nSolutions\nDeveloper\nDeveloper\nResources\nResources\nPricing\nPricing\nLog in\nGet started\nProduct\nPlatform\nSolutions\nDeveloper\nResources\nPricing\nCome build with us\nWe build delightful products for engineering and machine learning teams to deliver their best work.\nSee open roles",
         "metadata": {
           "chunk_index": 1.0,
           "company_slug": "baseten",
           "content_hash": "5f3912e1",
-          "indexed_at": "2025-11-11T20:36:08.746726",
+          "indexed_at": "2025-11-21T18:37:06.808862",
           "page_type": "careers",
           "source_file": "data/raw/baseten/careers/text.txt"
         }
       },
       {
+        "id": "baseten_tavily_a73e7f2c",
+        "similarity_score": 0.375862122,
+        "text": "DEVELOPER-FIRST STARTUPS\n\nOPEN-SOURCE IS IN PLACE Global Developer-First Transactions - H1 2024 14 Company Country Sector Deal size ($m) Deal type Month Anthropic USA AI Series D+ March Mistral AI France AI Series B June Cohere Canada AI Series D+ June CData USA Data Management Series D+ June Lambda USA Cloud Series C February DeepL Germany AI Series D+ May Vercel USA DevTool Series D+ May Augment USA DevTool Series B April H Company France AI Seed May Cognition USA AI Series A April $220m $227m $250m $300m $320m $350m $450m $640m $2,900m $175m AI companies are prominently featured in the largest fundraising rounds, securing significant investments.",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "a73e7f2c",
+          "ingested_at": "2025-11-21T19:28:11.627926",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.unicorn-cto.com/content/files/2024/09/Global-Developer-First-Transactions---H1-2024.pdf",
+          "title": "DEVELOPER-FIRST STARTUPS"
+        }
+      },
+      {
+        "id": "baseten_tavily_979c62a4",
+        "similarity_score": 0.368959427,
+        "text": "Baseten\n\nOverview:\nInference is everything. Baseten is an AI infrastructure platform giving you the tooling, expertise, and hardware needed to bring great AI products to market - fast. Our proprietary Inference Stack utilizes the cutting-edge of performance research combined with highly performant and reliable infrastructure to give you out-of-the-box global availability with 99.99% of uptime.\n\nWebsite: https://www.baseten.co/\nCrunchbase Url: https://www.crunchbase.com/organization/baseten?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase\nLinkedin Url: https://www.linkedin.com/company/baseten\n\nIndustry:\nSoftware Development\n\nCompany size:\n51-200 employees\n109 associated members (LinkedIn members who’ve listed Baseten as their current workplace on their profile)\n\nFounded:\nN/A\n\nFunding:\nLast Round Date: 2025-03-19T00:00:00.000Z\nLast Round Type: Series C\nTotal Rounds: 5\nLast Round Raised: US$ 75.0M\n\nInvestors:\nIVP, Spark Capital, + 9 Other investors",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "979c62a4",
+          "ingested_at": "2025-11-21T19:27:43.226400",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/company/baseten",
+          "title": "Baseten"
+        }
+      },
+      {
+        "id": "baseten_tavily_18305e8c",
+        "similarity_score": 0.36135295,
+        "text": "Baseten, a San Francisco-based company led by CEO ...\n\nBaseten, a San Francisco-based company led by CEO Tuhin Srivastava, raised $150M in a Series D round at a $2.15B valuation to expand its team and scale its AI inference platform. The funding, led by BOND with participation from CapitalG, Premji, Kevin and Elizabeth Weil, and existing backers like IVP, Spark, and Greylock, brings Baseten’s total raised to over $285M as it continues to deliver scalable, cost-efficient infrastructure for modern AI applications. Image 14: Shipday, a Menlo Park-based delivery and logistics technology platform led by CEO Moin Islam, has raised $7M in Series A funding from ECP Growth and Ibex Investors Mobility VC. Image 15: Gridware, a San Francisco-based grid-technology company led by CEO Tim Barat, raised $55M in Growth funding to expand manufacturing capacity and scale deployment operations.",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "18305e8c",
+          "ingested_at": "2025-11-21T19:28:09.109888",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.instagram.com/p/DOg-oCiibIh/",
+          "title": "Baseten, a San Francisco-based company led by CEO ..."
+        }
+      },
+      {
+        "id": "baseten_tavily_ffc1621a",
+        "similarity_score": 0.356754303,
+        "text": "Baseten, a San Francisco-based company led by CEO Tuhin ...\n\nBaseten, a San Francisco-based company led by CEO Tuhin Srivastava, raised $150M in a Series D round at a $2.15B valuation to expand its team and scale its AI inference platform. The funding, led by BOND with participation from CapitalG, Premji, Kevin and Elizabeth Weil, and existing backers like IVP, Spark, and Greylock, brings Baseten’s total raised to over $285M as it continues to deliver scalable, cost-efficient infrastructure for modern AI applications. Image 14: Shipday, a Menlo Park-based delivery and logistics technology platform led by CEO Moin Islam, has raised $7M in Series A funding from ECP Growth and Ibex Investors Mobility VC. Image 15: Gridware, a San Francisco-based grid-technology company led by CEO Tim Barat, raised $55M in Growth funding to expand manufacturing capacity and scale deployment operations.",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "ffc1621a",
+          "ingested_at": "2025-11-21T19:27:42.205614",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.instagram.com/p/DOg-oCiibIh/",
+          "title": "Baseten, a San Francisco-based company led by CEO Tuhin ..."
+        }
+      },
+      {
         "id": "baseten_blog_fed45e1c",
-        "similarity_score": 0.345977783,
+        "similarity_score": 0.345458984,
         "text": "Madison Kanna\n1\n2\n3\n...\n15\nProduct\nDedicated deployments\nModel APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure\nMulti-cloud Capacity Management\nDeveloper Experience\nChains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription\nImage generation\nText-to-speech\nLarge language models\nCompound AI\nEmbeddings\nDeveloper\nDocumentation\nModel library\nChangelog\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nPopular models",
         "metadata": {
           "chunk_index": 7.0,
           "company_slug": "baseten",
           "content_hash": "fed45e1c",
-          "indexed_at": "2025-11-12T04:17:17.321773",
+          "indexed_at": "2025-11-21T18:37:06.804091",
           "page_type": "blog",
           "source_file": "data/raw/baseten/blog/text.txt"
+        }
+      },
+      {
+        "id": "baseten_careers_1a34ad23",
+        "similarity_score": 0.344896287,
+        "text": "New York\nApply now\nAccount Executive - AI Native: Emerging\nSan Francisco\nSan Francisco\nApply now\nAccount Executive - AI Native: Strategic\nNew York\nNew York\nApply now\nAccount Executive - AI Native: Strategic\nSan Francisco\nSan Francisco\nApply now\nAccount Executive - Enterprise\nSan Francisco\nSan Francisco\nApply now\nOther\nOther\nPartnerships Product Marketing Manager\nSan Francisco\nSan Francisco\nApply now\nWorkplace Experience Manager\nSan Francisco\nSan Francisco\nApply now\nPeople Operations Manager",
+        "metadata": {
+          "chunk_index": 16.0,
+          "company_slug": "baseten",
+          "content_hash": "1a34ad23",
+          "indexed_at": "2025-11-21T18:37:06.808981",
+          "page_type": "careers",
+          "source_file": "data/raw/baseten/careers/text.txt"
+        }
+      },
+      {
+        "id": "baseten_tavily_97832622",
+        "similarity_score": 0.34352684,
+        "text": "Baseten\n\nBuild With Us For FoundersFor Partners # Baseten Accelerating time to market for companies scaling inference in production Thesis Infrastructure & Developer Tools Status Private View Site ## Company Bio Baseten revolutionizes the process for building machine learning-powered applications. With Baseten, data scientists can deploy ML models with a few lines of code and serve fast, scalable APIs without the common infrastructure, framework, and deployment problems. ## Founders ### Tuhin Srivastava Co-founder ### Amir Haghighat Co-founder ### Philip Howes Co-founder ## Insights News ### Announcing Baseten’s $75M Series C News ### Enterprise Tech 30 News ### Baseten nabs $20M to make it easier to build machine learning-based applications ## Let's Work Together Ready to build something great? Build With Us",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "97832622",
+          "ingested_at": "2025-11-21T19:27:57.042871",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://aifund.ai/portfolio/baseten/",
+          "title": "Baseten"
+        }
+      },
+      {
+        "id": "baseten_careers_8dcef574",
+        "similarity_score": 0.329936981,
+        "text": "Product\nDedicated deployments\nModel APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure\nMulti-cloud Capacity Management\nDeveloper Experience\nChains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription\nImage generation\nText-to-speech\nLarge language models\nCompound AI\nEmbeddings\nDeveloper\nDocumentation\nModel library\nChangelog\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nPopular models\nGPT OSS 120B\nGPT OSS 20B",
+        "metadata": {
+          "chunk_index": 18.0,
+          "company_slug": "baseten",
+          "content_hash": "8dcef574",
+          "indexed_at": "2025-11-21T18:37:06.808993",
+          "page_type": "careers",
+          "source_file": "data/raw/baseten/careers/text.txt"
+        }
+      },
+      {
+        "id": "baseten_product_03b757d1",
+        "similarity_score": 0.328567535,
+        "text": "Partner\nCareers\nContact us\nPopular models\nGPT OSS 120B\nGPT OSS 20B\nKimi K2 Thinking\nQwen Image\nOrpheus TTS\nQwen3 Coder 480B\nExplore all\nLegal\nTerms and Conditions\nPrivacy Policy\nService Level Agreement\nall systems normal\n© 2025 Baseten\nProduct\nDedicated deployments\nModel APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure\nMulti-cloud Capacity Management\nDeveloper Experience\nChains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription",
+        "metadata": {
+          "chunk_index": 23.0,
+          "company_slug": "baseten",
+          "content_hash": "03b757d1",
+          "indexed_at": "2025-11-21T18:37:06.811951",
+          "page_type": "product",
+          "source_file": "data/raw/baseten/product/text.txt"
+        }
+      },
+      {
+        "id": "baseten_blog_27f913ae",
+        "similarity_score": 0.327514678,
+        "text": "Developer Experience\nChains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription\nImage generation\nText-to-speech\nLarge language models\nCompound AI\nEmbeddings\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nDeveloper\nDocumentation\nModel library\nChangelog\nPopular models\nGPT OSS 120B\nGPT OSS 20B\nKimi K2 Thinking\nQwen Image\nOrpheus TTS\nQwen3 Coder 480B\nExplore all\nLegal\nTerms and Conditions\nPrivacy Policy\nService Level Agreement",
+        "metadata": {
+          "chunk_index": 9.0,
+          "company_slug": "baseten",
+          "content_hash": "27f913ae",
+          "indexed_at": "2025-11-21T18:37:06.804107",
+          "page_type": "blog",
+          "source_file": "data/raw/baseten/blog/text.txt"
+        }
+      },
+      {
+        "id": "baseten_tavily_5187dbc3",
+        "similarity_score": 0.324129134,
+        "text": "Baseten - Products, Competitors, Financials, Employees ...\n\nThe San Francisco-based company announced Thursday the general availability of Baseten Training , an infrastructure platform designed to help companies fine-tune open-source AI models without the operational headaches of managing GPU clusters, multi-node orchestration, or cloud capacity planning. \"We don't even need open source to surpass closed models, because as both of them are getting better, they unlock all these invisible lines of usefulness for different use cases.\" He pointed to the proliferation of reinforcement learning and supervised fine-tuning techniques that allow companies to take an open-source model and make it \"as good as the closed model, not at everything, but at this narrow band of capability that they want.\" That trend is already visible in Baseten's Model APIs business , launched alongside Training earlier this year to provide production-grade access to open-source models. Model APIs serves as a top-of-funnel product: companies start with off-the-shelf open-source models, realize they need customization, move to Training for fine-tuning, and ultimately deploy on Baseten's Dedicated Deployments infrastructure.",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "5187dbc3",
+          "ingested_at": "2025-11-21T19:28:10.212417",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.cbinsights.com/company/baseten",
+          "title": "Baseten - Products, Competitors, Financials, Employees ..."
+        }
+      },
+      {
+        "id": "baseten_about_14b406a8",
+        "similarity_score": 0.324020386,
+        "text": "Get started\nTalk to an engineer\nN\nT\nN\nT\nT\nT\nT\nN\nB\nT\nN\nT\n672\nS\nB\nS\nB\nB\nT\nT\nT\nS\nN\nT\nT\nS\nS\nT\nT\nB\nN\nS\nB\n3132\nTrusted by top engineering and machine learning teams\nProducts\nThe platform for\nmission-critical inference\nDedicated deployments\nfor high-scale workloads\nServe open-source, custom, and fine-tuned AI models on infra purpose-built for production. Scale seamlessly in our cloud or yours.\nStart deploying\nLearn more\nM\n7\n5\n%\n4\n1\n5\n9\n3\n3\n0\n0\n0\nBuild with Model APIs",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "baseten",
+          "content_hash": "14b406a8",
+          "indexed_at": "2025-11-21T18:37:06.796002",
+          "page_type": "about",
+          "source_file": "data/raw/baseten/about/text.txt"
+        }
+      },
+      {
+        "id": "baseten_about_d14a3794",
+        "similarity_score": 0.321811676,
+        "text": "Explore all\nLegal\nTerms and Conditions\nPrivacy Policy\nService Level Agreement\nall systems normal\n© 2025 Baseten\nProduct\nDedicated deployments\nModel APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure\nMulti-cloud Capacity Management\nDeveloper Experience\nChains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription\nImage generation\nText-to-speech\nLarge language models\nCompound AI\nEmbeddings\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner",
+        "metadata": {
+          "chunk_index": 20.0,
+          "company_slug": "baseten",
+          "content_hash": "d14a3794",
+          "indexed_at": "2025-11-21T18:37:06.797784",
+          "page_type": "about",
+          "source_file": "data/raw/baseten/about/text.txt"
+        }
+      },
+      {
+        "id": "baseten_careers_53bd280c",
+        "similarity_score": 0.32151413,
+        "text": "Chains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription\nImage generation\nText-to-speech\nLarge language models\nCompound AI\nEmbeddings\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nDeveloper\nDocumentation\nModel library\nChangelog\nPopular models\nGPT OSS 120B\nGPT OSS 20B\nKimi K2 Thinking\nQwen Image\nOrpheus TTS\nQwen3 Coder 480B\nExplore all\nLegal\nTerms and Conditions\nPrivacy Policy\nService Level Agreement\nall systems normal",
+        "metadata": {
+          "chunk_index": 20.0,
+          "company_slug": "baseten",
+          "content_hash": "53bd280c",
+          "indexed_at": "2025-11-21T18:37:06.809006",
+          "page_type": "careers",
+          "source_file": "data/raw/baseten/careers/text.txt"
+        }
+      },
+      {
+        "id": "baseten_blog_80ed124f",
+        "similarity_score": 0.320304871,
+        "text": "Changelog\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nPopular models\nGPT OSS 120B\nGPT OSS 20B\nKimi K2 Thinking\nQwen Image\nOrpheus TTS\nQwen3 Coder 480B\nExplore all\nLegal\nTerms and Conditions\nPrivacy Policy\nService Level Agreement\nall systems normal\n© 2025 Baseten\nProduct\nDedicated deployments\nModel APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure\nMulti-cloud Capacity Management\nDeveloper Experience\nChains\nModel management\nDeployment options\nBaseten Cloud",
+        "metadata": {
+          "chunk_index": 8.0,
+          "company_slug": "baseten",
+          "content_hash": "80ed124f",
+          "indexed_at": "2025-11-21T18:37:06.804100",
+          "page_type": "blog",
+          "source_file": "data/raw/baseten/blog/text.txt"
+        }
+      },
+      {
+        "id": "baseten_about_074b8860",
+        "similarity_score": 0.320156097,
+        "text": "Chains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription\nImage generation\nText-to-speech\nLarge language models\nCompound AI\nEmbeddings\nDeveloper\nDocumentation\nModel library\nChangelog\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nPopular models\nGPT OSS 120B\nGPT OSS 20B\nKimi K2 Thinking\nQwen Image\nOrpheus TTS\nQwen3 Coder 480B\nExplore all\nLegal\nTerms and Conditions\nPrivacy Policy\nService Level Agreement\nall systems normal",
+        "metadata": {
+          "chunk_index": 19.0,
+          "company_slug": "baseten",
+          "content_hash": "074b8860",
+          "indexed_at": "2025-11-21T18:37:06.797776",
+          "page_type": "about",
+          "source_file": "data/raw/baseten/about/text.txt"
+        }
+      },
+      {
+        "id": "baseten_product_eba57ace",
+        "similarity_score": 0.319313049,
+        "text": "Model APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure\nMulti-cloud Capacity Management\nDeveloper Experience\nChains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions\nEnterprise\nTranscription\nImage generation\nText-to-speech\nLarge language models\nCompound AI\nEmbeddings\nDeveloper\nDocumentation\nModel library\nChangelog\nResources\nBlog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nPopular models\nGPT OSS 120B\nGPT OSS 20B\nKimi K2 Thinking\nQwen Image",
+        "metadata": {
+          "chunk_index": 22.0,
+          "company_slug": "baseten",
+          "content_hash": "eba57ace",
+          "indexed_at": "2025-11-21T18:37:06.811944",
+          "page_type": "product",
+          "source_file": "data/raw/baseten/product/text.txt"
+        }
+      },
+      {
+        "id": "baseten_product_7f0792c1",
+        "similarity_score": 0.317489654,
+        "text": "Features\nCreated for engineers.\nLoved by enterprises.\nSupport for every model\nIntegrate any model architecture seamlessly into your workflows. Combine your own fine-tuned or bespoke models with the latest open source and 3rd party models.\nDelightful dev experience\nOur SDK optimizes development by abstracting complexities, facilitating simple task automation while providing robust tools for intricate operations.\nComposable and extensible",
+        "metadata": {
+          "chunk_index": 14.0,
+          "company_slug": "baseten",
+          "content_hash": "7f0792c1",
+          "indexed_at": "2025-11-21T18:37:06.811717",
+          "page_type": "product",
+          "source_file": "data/raw/baseten/product/text.txt"
+        }
+      },
+      {
+        "id": "baseten_careers_1d8806e0",
+        "similarity_score": 0.31716156,
+        "text": "Apply now\nDocumentation Engineer / Technical Writer\nSan Francisco / New York / Remote\nSan Francisco / New York / Remote\nApply now\nSenior Product Designer\nSan Francisco / New York\nSan Francisco / New York\nApply now\nMarketing\nMarketing\nSales Development Representative\nSan Francisco\nSan Francisco\nApply now\nField Marketing Manager\nNew York\nNew York\nApply now\nRecruiting\nRecruiting\nBusiness Recruiter\nSan Francisco / New York\nSan Francisco / New York\nApply now\nSales Recruiter\nSan Francisco / New York",
+        "metadata": {
+          "chunk_index": 14.0,
+          "company_slug": "baseten",
+          "content_hash": "1d8806e0",
+          "indexed_at": "2025-11-21T18:37:06.808968",
+          "page_type": "careers",
+          "source_file": "data/raw/baseten/careers/text.txt"
+        }
+      },
+      {
+        "id": "baseten_tavily_a6cf19d4",
+        "similarity_score": 0.313697815,
+        "text": "Baseten - Companies\n\nTuhin Srivastava, Phil Howes, Amir Haghighat Baseten delivers streamlined infrastructure for ML model deployment, offering fast, efficient, and cost-effective inference that scales effortlessly from prototype to production-ready systems. Baseten delivers streamlined infrastructure for ML model deployment, offering fast, efficient, and cost-effective inference that scales effortlessly from prototype to production-ready systems. Co-founder of Baseten, building infrastructure to deploy and serve machine learning models at scale. Previously co-founded Shape and worked on ML at Gumroad and Skulpt. Co-founder of Baseten, building infrastructure to deploy and serve machine learning models in production. Previously co-founded Shape (acquired by Reflektive) and worked on ML at Gumroad. Amir is a co-founder of Baseten, building infrastructure to serve and scale machine learning applications. * Companies * SPC Company Jobs * Companies * SPC Company Jobs",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "a6cf19d4",
+          "ingested_at": "2025-11-21T19:28:10.587642",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.southparkcommons.com/companies/baseten",
+          "title": "Baseten - Companies"
+        }
+      },
+      {
+        "id": "baseten_tavily_6cb7bc8d",
+        "similarity_score": 0.313018799,
+        "text": "BaseTen - Company Profile - TrueUp\n\nBaseTen is a ML infrastructure company with 41 job openings. It is currently valued at $0.8 billion as a private company. 120 people work at BaseTen.",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "6cb7bc8d",
+          "ingested_at": "2025-11-21T19:28:33.809437",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.trueup.io/co/baseten",
+          "title": "BaseTen - Company Profile - TrueUp"
+        }
+      },
+      {
+        "id": "baseten_careers_1a56e2ac",
+        "similarity_score": 0.30978778,
+        "text": "Workplace Experience Manager\nSan Francisco\nSan Francisco\nApply now\nPeople Operations Manager\nSan Francisco / New York / Remote\nSan Francisco / New York / Remote\nApply now\nController\nSan Francisco\nSan Francisco\nApply now\nDon't see a fitting open role?\nJoin our Talent Community!\nDon't see a fitting open role?\nJoin our Talent Community!\nExplore Baseten today\nStart deploying\nTalk to an engineer\nProduct\nDedicated deployments\nModel APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure",
+        "metadata": {
+          "chunk_index": 17.0,
+          "company_slug": "baseten",
+          "content_hash": "1a56e2ac",
+          "indexed_at": "2025-11-21T18:37:06.808987",
+          "page_type": "careers",
+          "source_file": "data/raw/baseten/careers/text.txt"
+        }
+      },
+      {
+        "id": "baseten_careers_6c20654a",
+        "similarity_score": 0.309673309,
+        "text": "Blog\nGuides\nEvents\nCustomers\nPartner\nCareers\nContact us\nPopular models\nGPT OSS 120B\nGPT OSS 20B\nKimi K2 Thinking\nQwen Image\nOrpheus TTS\nQwen3 Coder 480B\nExplore all\nLegal\nTerms and Conditions\nPrivacy Policy\nService Level Agreement\nall systems normal\n© 2025 Baseten\nProduct\nDedicated deployments\nModel APIs\nTraining\nInference Stack\nModel Runtimes\nInfrastructure\nMulti-cloud Capacity Management\nDeveloper Experience\nChains\nModel management\nDeployment options\nBaseten Cloud\nSelf-hosted\nHybrid\nSolutions",
+        "metadata": {
+          "chunk_index": 19.0,
+          "company_slug": "baseten",
+          "content_hash": "6c20654a",
+          "indexed_at": "2025-11-21T18:37:06.809000",
+          "page_type": "careers",
+          "source_file": "data/raw/baseten/careers/text.txt"
+        }
+      },
+      {
+        "id": "baseten_tavily_a93849a5",
+        "similarity_score": 0.308990508,
+        "text": "Baseten - Crunchbase Company Profile & Funding\n\nBaseten is an AI infrastructure company that integrates machine learning into business operations, production, and processes.",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "a93849a5",
+          "ingested_at": "2025-11-21T19:27:41.723037",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/baseten",
+          "title": "Baseten - Crunchbase Company Profile & Funding"
+        }
+      },
+      {
+        "id": "baseten_tavily_5c52a244",
+        "similarity_score": 0.308857,
+        "text": "Baseten - Company Profile - Boring Business Nerd\n\nBaseten provides all the infrastructure you need to deploy and serve ML models performantly, scalably, and cost-efficiently.",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "5c52a244",
+          "ingested_at": "2025-11-21T19:28:34.090487",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.boringbusinessnerd.com/startups/baseten",
+          "title": "Baseten - Company Profile - Boring Business Nerd"
+        }
+      },
+      {
+        "id": "baseten_tavily_59918476",
+        "similarity_score": 0.307670593,
+        "text": "The Baseten Team\n\n# The Baseten Team Infrastructure #### AI infrastructure: build vs. buy The Baseten Team News #### Baseten announces HIPAA compliance The Baseten Team News #### How we achieved SOC 2 and HIPAA compliance as an early-stage company The Baseten Team News #### Baseten achieves SOC 2 Type II certification The Baseten Team News #### Baseten achieves SOC 2 Type 1 certification The Baseten Team ## Explore Baseten today Start deployingTalk to an engineer Popular models * GPT OSS 120B * GPT OSS 20B * Kimi K2 Thinking * Qwen Image * Orpheus TTS * Qwen3 Coder 480B * Explore all Popular models * GPT OSS 120B * GPT OSS 20B * Qwen Image * Qwen3 Coder 480B * Explore all",
+        "metadata": {
+          "company_slug": "baseten",
+          "content_hash": "59918476",
+          "ingested_at": "2025-11-21T19:27:57.917005",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.baseten.co/author/baseten/",
+          "title": "The Baseten Team"
+        }
+      },
+      {
+        "id": "baseten_about_1e0a7042",
+        "similarity_score": 0.306705475,
+        "text": "Learn More\nLearn More\nForward Deployed Engineering\nPartner with our forward deployed engineers to build, optimize, and scale your models with hands-on-support from prototype to production.\nLearn More\n1\n6\n9\n2\n8\n3\n1\n2\n3\nLearn More\nDeploy anywhere–our cloud or yours.\nLearn more\nRun your workloads on Baseten Cloud, self-host, or flex on demand. We're compatible with any cloud provider and have global capacity.\nLearn more\nOur Cloud",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "baseten",
+          "content_hash": "1e0a7042",
+          "indexed_at": "2025-11-21T18:37:06.796051",
+          "page_type": "about",
+          "source_file": "data/raw/baseten/about/text.txt"
         }
       }
     ]

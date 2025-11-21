@@ -4,144 +4,216 @@
     "company_name": "Captions",
     "company_slug": "captions",
     "pipeline_type": "structured",
-    "timestamp": "2025-11-12T23:00:06.029246Z",
+    "timestamp": "2025-11-21T19:37:15.258813Z",
     "markdown_file": "markdown/captions/structured.md",
-    "content": "## Company Overview\n\nMirage, operating under the brand name Captions, is headquartered in New York. The company specializes in AI-driven video generation and editing, offering a product known as Captions. This tool allows users to create fully-edited videos by either uploading existing footage or generating new content using AI technology.\n\n## Business Model and GTM\n\nThe company states that Captions is an all-in-one video generator and AI editor, suggesting a focus on providing comprehensive video editing solutions. The business model likely revolves around offering these AI-powered tools to content creators, businesses, and possibly other sectors needing video production capabilities. Specific details on pricing, distribution channels, or target markets are not disclosed.\n\n## Funding & Investor Profile\n\nMirage has raised a total of $125 million, with the most recent funding being a Series C round on July 9, 2024. The company announced that it plans to invest $100 million from this round into AI video research in New York. Previous funding rounds include a $25 million Series B, but further details on investors or specific funding dates are not disclosed.\n\n## Growth Momentum\n\nThe company has shown growth momentum by securing significant funding, particularly the recent Series C round. However, specific metrics or data on user growth, revenue, or market expansion are not disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility with only one mention in the provided data. There is no detailed information on market sentiment or broader media coverage.\n\n## Risks and Challenges\n\nPotential risks and challenges include the competitive landscape of AI video editing tools, the need for continuous innovation in AI technology, and the effective allocation of the recent $100 million investment into research. Specific challenges faced by the company are not disclosed.\n\n## Outlook\n\nThe outlook for Mirage appears positive, given the substantial investment in AI research and development. The company's focus on enhancing its AI capabilities could position it well in the growing market for video content creation tools. However, the lack of detailed market data and user metrics makes it difficult to fully assess future prospects.\n\n## Disclosure Gaps\n\n- Specific details on the business model, including pricing and target markets.\n- Information on distribution channels and go-to-market strategies.\n- Detailed investor profiles and specific funding dates for previous rounds.\n- Metrics on user growth, revenue, and market expansion.\n- Comprehensive visibility and market sentiment data.\n- Specific risks and challenges faced by the company."
+    "content": "## Company Overview\n\nMirage, operating under the brand name Captions, is a private AI startup headquartered in New York, United States. Founded in 2023, the company specializes in AI video editing and creative studio solutions. Captions offers a suite of products designed to simplify video production through AI-powered tools. The company recently underwent a rebranding from Captions to Mirage to reflect its expanded mission.\n\n## Business Model and GTM\n\nThe company states that Captions is an all-in-one video generator and AI editor, making video production more accessible. Their product offerings include the Captions App, which allows users to edit existing footage or generate new content using AI, and Captions Subtitles, which provides automatic subtitle generation and audio transcription. The Captions Mobile App is available for download on major platforms, offering both free and paid plans. Captions targets content creators and small businesses, while Mirage Studio caters to larger enterprises with additional brand controls and marketing asset scaling capabilities.\n\n## Funding & Investor Profile\n\nCaptions has raised a total of $125 million, with the most recent funding round being a Series C, completed on July 9, 2024. The last disclosed valuation of the company was $500 million. The company announced plans to invest $100 million from this round into AI video research in New York.\n\n## Growth Momentum\n\nThe company has shown significant growth momentum, as evidenced by its successful Series C funding round and substantial investment in AI research. The rebranding to Mirage indicates a strategic shift to broaden its market reach and capabilities.\n\n## Visibility & Market Sentiment\n\nVisibility and market sentiment details are not disclosed. However, the company's rebranding and substantial funding rounds suggest a positive market perception and a strategic effort to enhance its market presence.\n\n## Risks and Challenges\n\nSpecific risks and challenges are not disclosed. However, as a relatively new company in a competitive AI video editing market, Captions may face challenges related to market penetration, technological advancements, and competition from established players like Synthesia.\n\n## Outlook\n\nThe outlook for Captions appears promising, given its recent funding success and strategic rebranding. The company's focus on AI research and product development positions it well for future growth in the AI video editing space.\n\n## Disclosure Gaps\n\n- Specific dates for product releases and funding events are not disclosed.\n- Detailed visibility and market sentiment information are not available.\n- Leadership roles and responsibilities are not specified.\n- Specific risks and challenges faced by the company are not detailed."
   },
   "rag": {
     "company_name": "Captions",
     "company_slug": "captions",
     "pipeline_type": "rag",
-    "timestamp": "2025-11-12T23:03:18.989833Z",
+    "timestamp": "2025-11-21T19:38:40.772217Z",
     "markdown_file": "markdown/captions/rag.md",
-    "content": "## Company Overview\nCaptions, now rebranded as Mirage, is a private AI startup focused on redefining video creation through AI-powered tools. The company is based in New York City and aims to bridge the gap between ideas and audiences, empowering creators and businesses to reach their full potential. The founders are Gaurav Misra (Co-Founder and CEO) and Dwight Churchill (Co-Founder and COO).\n\n## Business Model and GTM\nMirage offers solutions tailored for enterprises, agencies, and small businesses. Their product lineup includes Captions and Mirage Studio, which are designed to enhance video creation and editing through AI. The company states that their technology allows for faster and better video production, targeting a wide range of users from individual creators to large enterprises.\n\n## Funding & Investor Profile\nMirage has raised significant funding, including a $25 million Series B round announced in June 2023. The company is backed by prominent investors such as Index Ventures, Kleiner Perkins, Sequoia Capital, Andreessen Horowitz, and notable individuals like Kevin Systrom, Mike Krieger, and Jared Leto.\n\n## Growth Momentum\nThe company has been recognized as one of the most innovative video companies in 2025 by Fast Company. They have also announced a Series C round to invest $100 million in AI video research in New York, indicating strong growth and expansion plans.\n\n## Visibility & Market Sentiment\nMirage has received extensive press coverage from outlets like TechCrunch, Forbes, and Fast Company. The company was featured in the Forbes AI 50 list in April 2025, highlighting its prominence in the AI industry. The rebranding from Captions to Mirage in 2025 reflects its expanded mission and market presence.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nThe company is positioned for continued growth with its focus on AI video research and development. The rebranding to Mirage and the significant investment in AI research suggest a strategic shift towards broader applications of their technology, potentially opening new market opportunities.\n\n## Disclosure Gaps\n- Specific revenue figures and financial performance metrics are not disclosed.\n- Detailed information on customer acquisition strategies and market penetration is not available.\n- Risks and challenges faced by the company are not disclosed.",
+    "content": "## Company Overview\n\nCaptions, founded in 2021, is a privately-held AI-powered creative studio headquartered in New York City. The company is led by Co-Founder and CEO Gaurav Misra and Co-Founder and COO Dwight Churchill. Captions specializes in AI-driven video creation and editing tools, offering solutions such as video captioning, subtitling, and AI avatar generation. The company aims to bridge the gap between ideas and audiences, empowering creators and businesses to reach their full potential.\n\n## Business Model and GTM\n\nCaptions operates in the AI-powered video editing and creation market, providing a suite of tools designed for content creators and businesses. The company offers solutions for enterprises, agencies, and small businesses, focusing on features like automated captioning, advanced editing, and multilingual support. The company states that its products, including Captions and Mirage Studio, are designed to enhance user experience and accelerate content creation processes.\n\n## Funding & Investor Profile\n\nCaptions has raised a total of $100 million across four funding rounds. The latest funding was a $60 million Series C round in July 2024, led by Index Ventures, with participation from Kleiner Perkins, Andreessen Horowitz, Sequoia Capital, Adobe Ventures, HubSpot, and Jared Leto. The company is backed by prominent investors and entrepreneurs, including Kevin Systrom, Mike Krieger, Lenny Rachitsky, and Julie Zhuo.\n\n## Growth Momentum\n\nCaptions has demonstrated significant growth, with a reported annual revenue of $43.6 million and a team of 133 employees. The company has achieved a 150% year-over-year growth in user acquisition, driven by effective go-to-market strategies and successful global marketing campaigns. Captions' valuation reached $500 million following the Series C funding round.\n\n## Visibility & Market Sentiment\n\nCaptions has received coverage from major media outlets such as TechCrunch, Forbes AI 50, and Fast Company. The company is recognized for its innovative AI-powered video solutions and has been featured in discussions about improving video SEO strategies and AI video research. The market sentiment appears positive, with Captions being a popular choice among content creators and businesses seeking advanced video editing tools.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that its vision is to create a world where the distance between idea and audience is zero, suggesting a focus on expanding its reach and enhancing its product offerings. With continued investment in AI video research and development, Captions is well-positioned to capitalize on the growing demand for AI-driven video solutions.\n\n## Disclosure Gaps\n\n- Specific details on the company's revenue growth rate beyond user acquisition.\n- Information on potential risks and challenges faced by the company.\n- Detailed financial metrics and profitability status.\n- Specific product pricing and customer acquisition costs.",
     "context_results": [
       {
-        "id": "captions_careers_3d36bd70",
-        "similarity_score": 0.463611603,
-        "text": "Press Coverage\nTechCrunch\nLenny’s Podcast\nForbes AI 50\nFast Company\nOur Investors\nWe’re very fortunate to have some the best investors and entrepreneurs backing us, including\nIndex Ventures, Kleiner Perkins, Sequoia Capital, Andreessen Horowitz\n, Uncommon Projects, Kevin Systrom, Mike Krieger, Lenny Rachitsky, Antoine Martin, Julie Zhuo, Ben Rubin, Jaren Glover, SVAngel, 20VC, Ludlow Ventures, Chapter One, and more.\nOpen Positions\n(12)\nFilters:\nReset filters\nDepartment\nAll Departments",
+        "id": "captions_careers_63494074",
+        "similarity_score": 0.466472626,
+        "text": "Press Coverage\nTechCrunch\nLenny’s Podcast\nForbes AI 50\nFast Company\nOur Investors\nWe’re very fortunate to have some the best investors and entrepreneurs backing us, including\nIndex Ventures, Kleiner Perkins, Sequoia Capital, Andreessen Horowitz\n, Uncommon Projects, Kevin Systrom, Mike Krieger, Lenny Rachitsky, Antoine Martin, Julie Zhuo, Ben Rubin, Jaren Glover, SVAngel, 20VC, Ludlow Ventures, Chapter One, and more.\nOpen Positions\n(10)\nFilters:\nReset filters\nDepartment\nAll Departments",
         "metadata": {
           "chunk_index": 3.0,
           "company_slug": "captions",
-          "content_hash": "3d36bd70",
-          "indexed_at": "2025-11-11T20:36:35.647145",
+          "content_hash": "63494074",
+          "indexed_at": "2025-11-21T18:37:34.283889",
           "page_type": "careers",
           "source_file": "data/raw/captions/careers/text.txt"
         }
       },
       {
         "id": "captions_about_352a5b24",
-        "similarity_score": 0.440261841,
+        "similarity_score": 0.440284729,
         "text": "Our vision\nA world where the distance between idea and audience is zero, giving creators and businesses the power to reach their full creative and commercial potential.\nOur founders\nGaurav Misra\nCo-Founder and CEO\nDwight Churchill\nCo-Founder and COO\nAs seen in:\nSee recent press\nOur research",
         "metadata": {
           "chunk_index": 2.0,
           "company_slug": "captions",
           "content_hash": "352a5b24",
-          "indexed_at": "2025-11-11T20:36:35.646447",
+          "indexed_at": "2025-11-21T18:37:34.283164",
           "page_type": "about",
           "source_file": "data/raw/captions/about/text.txt"
         }
       },
       {
-        "id": "captions_about_1ffcd743",
-        "similarity_score": 0.438297272,
-        "text": "Lenny Rachitsky\nJulie Zhuo\nBen Rubin\nNico Wittenborn\nAntoine Martin\nJaren Glover\nJared Leto\nAmong other esteemed investors and advisors\nSee the latest\nNovember 7, 2025\nHow to improve your video SEO strategy.\nOctober 28, 2025\nHow HubSpot built better campaigns with Mirage Studio.\nOctober 15, 2025\nYour guide to AI credits.\nScene\nCaptions\nOverview\nPricing\nMirage Studio\nOverview\nPricing\nSolutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center",
+        "id": "captions_about_dfb2930c",
+        "similarity_score": 0.439292908,
+        "text": "Lenny Rachitsky\nJulie Zhuo\nBen Rubin\nNico Wittenborn\nAntoine Martin\nJaren Glover\nJared Leto\nAmong other esteemed investors and advisors\nSee the latest\nNovember 7, 2025\nHow to improve your video SEO strategy\nOctober 28, 2025\nHow HubSpot built better campaigns with Mirage Studio.\nOctober 15, 2025\nYour guide to AI credits.\nScene\nCaptions\nOverview\nPricing\nMirage Studio\nOverview\nPricing\nSolutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center",
         "metadata": {
           "chunk_index": 5.0,
           "company_slug": "captions",
-          "content_hash": "1ffcd743",
-          "indexed_at": "2025-11-11T20:36:35.646482",
+          "content_hash": "dfb2930c",
+          "indexed_at": "2025-11-21T18:37:34.283199",
           "page_type": "about",
           "source_file": "data/raw/captions/about/text.txt"
+        }
+      },
+      {
+        "id": "captions_tavily_92fe51bd",
+        "similarity_score": 0.411260635,
+        "text": "Captions - 2025 Company Profile, Team, Funding & Competitors\n\n| 1st | Captions 2021, Boston (United States), Series C | AI-powered photo and video editing platform | $100M | Index Ventures, HubSpot & 9 others | 73/100 | Captions secures US$60M Series C funding by Index VenturesContentGrip•Jul 18, 2024•Captions, Index Ventures, Kleiner Perkins, Andreessen Horowitz and 3 others Captions Raises Series C to Invest $100M in Pioneering AI Video Research in New York CityBakersfield•Jul 09, 2024•Captions, Kleiner Perkins, Andreessen Horowitz, Sequoia Capital and 3 others Captions is a funded company, having raised a total of $100M across 4 funding rounds to date. Captions' latest funding was a $60M Series C round on Jul 09, 2024, led byIndex Ventures, with participation from Kleiner Perkins, Andreessen Horowitz, Sequoia Capital, Adobe Ventures, HubSpot and Jared Leto.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "92fe51bd",
+          "ingested_at": "2025-11-21T19:29:56.365793",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/captions/__8rxCBs5wW3Y9nS9GsqvwmTDxqUMzLhz5tJyF4-HlLSg",
+          "title": "Captions - 2025 Company Profile, Team, Funding & Competitors"
+        }
+      },
+      {
+        "id": "captions_tavily_0674a41a",
+        "similarity_score": 0.405609131,
+        "text": "Captions LLC Company Profile: Financials, Valuation, and Growth\n\nValuation (2024) $0.00 BN Description Captions LLC is a privately-held developer of an AI-powered platform providing advanced captioning and transcription",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "0674a41a",
+          "ingested_at": "2025-11-21T19:29:56.601270",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://system.privco.com/company/captions",
+          "title": "Captions LLC Company Profile: Financials, Valuation, and Growth"
+        }
+      },
+      {
+        "id": "captions_tavily_d73b1167",
+        "similarity_score": 0.393978119,
+        "text": "Captions - 2025 Company Profile & Team\n\n| 1st | Captions 2021, Boston (United States), Series C | AI-powered photo and video editing platform | $100M | Index Ventures, HubSpot & 9 others | 73/100 | Captions secures US$60M Series C funding by Index VenturesContentGrip•Jul 18, 2024•Captions, Index Ventures, Kleiner Perkins, Andreessen Horowitz and 3 others Captions Raises Series C to Invest $100M in Pioneering AI Video Research in New York CityBakersfield•Jul 09, 2024•Captions, Kleiner Perkins, Andreessen Horowitz, Sequoia Capital and 3 others Captions is a funded company, having raised a total of $100M across 4 funding rounds to date. Captions' latest funding was a $60M Series C round on Jul 09, 2024, led byIndex Ventures, with participation from Kleiner Perkins, Andreessen Horowitz, Sequoia Capital, Adobe Ventures, HubSpot and Jared Leto.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "d73b1167",
+          "ingested_at": "2025-11-21T19:29:26.909096",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/captions/__8rxCBs5wW3Y9nS9GsqvwmTDxqUMzLhz5tJyF4-HlLSg",
+          "title": "Captions - 2025 Company Profile & Team"
+        }
+      },
+      {
+        "id": "captions_tavily_3b372c2b",
+        "similarity_score": 0.393127441,
+        "text": "Captions | Company Overview & News\n\nIndustry: Video editor ; Founded: 2021 ; Headquarters: New York, New York ; Country/Territory: United States ; CEO: Gaurav Misra",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "3b372c2b",
+          "ingested_at": "2025-11-21T19:29:26.683963",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.forbes.com/companies/captions/",
+          "title": "Captions | Company Overview & News"
         }
       },
       {
         "id": "captions_careers_cf1f8e7e",
-        "similarity_score": 0.391273528,
+        "similarity_score": 0.391284943,
         "text": "We are a rapidly growing team of ambitious, experienced, and devoted engineers, researchers, designers, marketers, and operators based in NYC. As an early member of our team, you’ll have an opportunity to have an outsized impact on our products and our company's culture.\nOur Products\nCaptions\nMirage Studio\nOur Technology\nAI Research @ Mirage\nMirage Model Announcement\nSeeing Voices (white-paper)\nPress Coverage\nTechCrunch\nLenny’s Podcast\nForbes AI 50\nFast Company\nOur Investors",
         "metadata": {
           "chunk_index": 2.0,
           "company_slug": "captions",
           "content_hash": "cf1f8e7e",
-          "indexed_at": "2025-11-11T20:36:35.647137",
+          "indexed_at": "2025-11-21T18:37:34.283882",
           "page_type": "careers",
           "source_file": "data/raw/captions/careers/text.txt"
         }
       },
       {
+        "id": "captions_tavily_17ecf018",
+        "similarity_score": 0.389907837,
+        "text": "Meet the Executive Team at Captions, Inc.: Pioneering AI Video Editing\n\n[Name Placeholder], as Chief Marketing Officer, leads all marketing, brand, and communications strategy at Captions, Inc. They have driven several successful global campaigns that accelerated user acquisition and brand recognition in the competitive AI creative software market. As Head of Product Marketing, Tory Le crafts go-to-market strategies that have driven user acquisition growth by 150% year-over-year and launched effective campaigns for AI-powered features such as automated captioning and advanced editing. [Name Placeholder] operates as Chief Product Officer, guiding product vision and delivery at Captions, Inc. They have introduced processes that accelerated product cycles and enhanced the user experience throughout the company’s application suite. As Chief Revenue Officer, [Name Placeholder] manages sales, partnerships, and monetization strategy for Captions, Inc., playing an essential role in achieving significant year-over-year revenue growth and expanding enterprise adoption of the company’s solutions.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "17ecf018",
+          "ingested_at": "2025-11-21T19:29:00.239624",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://exa.ai/websets/directory/captions-executives",
+          "title": "Meet the Executive Team at Captions, Inc.: Pioneering AI Video Editing"
+        }
+      },
+      {
+        "id": "captions_tavily_9f1ae72f",
+        "similarity_score": 0.389184982,
+        "text": "Captions : Revenue, Competitors, Alternatives\n\nCaptions top competitors are dMetrics, Cyera and Ordaos and they have annual revenue of $43.6M and 133 employees. Captions Revenue and Competitors. License our Company Data API.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "9f1ae72f",
+          "ingested_at": "2025-11-21T19:29:42.245598",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://growjo.com/company/Captions",
+          "title": "Captions : Revenue, Competitors, Alternatives"
+        }
+      },
+      {
         "id": "captions_about_2be5e832",
-        "similarity_score": 0.389221191,
+        "similarity_score": 0.389045715,
         "text": "Solutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit\n© 2025 Mirage. All rights reserved.\nPrivacy Policy\nSafety & Security\nMirage Studio Terms\nMirage Studio User Terms\nCaptions Terms",
         "metadata": {
           "chunk_index": 6.0,
           "company_slug": "captions",
           "content_hash": "2be5e832",
-          "indexed_at": "2025-11-11T20:36:35.646490",
+          "indexed_at": "2025-11-21T18:37:34.283207",
           "page_type": "about",
           "source_file": "data/raw/captions/about/text.txt"
         }
       },
       {
         "id": "captions_product_2be5e832",
-        "similarity_score": 0.389026642,
+        "similarity_score": 0.389030457,
         "text": "Solutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit\n© 2025 Mirage. All rights reserved.\nPrivacy Policy\nSafety & Security\nMirage Studio Terms\nMirage Studio User Terms\nCaptions Terms",
         "metadata": {
           "chunk_index": 18.0,
           "company_slug": "captions",
           "content_hash": "2be5e832",
-          "indexed_at": "2025-11-11T20:36:35.648082",
+          "indexed_at": "2025-11-21T18:37:34.284814",
           "page_type": "product",
           "source_file": "data/raw/captions/product/text.txt"
         }
       },
       {
-        "id": "captions_blog_8734730e",
-        "similarity_score": 0.386333466,
-        "text": "Tech Crunch\nVideo editing startup Captions launches a dubbing app\nOctober 2023\nVenture Beat\nAI video creation app Captions bags $25M from top VCs\nJune 2023\nForbes\nVideo Editing App Captions Just Raised $25 Million To Bring AI To Creators\nJune 2023\nScene\nCaptions\nOverview\nPricing\nMirage Studio\nOverview\nPricing\nSolutions\nEnterprise\nAgencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit",
-        "metadata": {
-          "chunk_index": 7.0,
-          "company_slug": "captions",
-          "content_hash": "8734730e",
-          "indexed_at": "2025-11-11T04:49:45.469377",
-          "page_type": "blog",
-          "source_file": "data/raw/captions/blog/text.txt"
-        }
-      },
-      {
         "id": "captions_about_4918681c",
-        "similarity_score": 0.381034851,
+        "similarity_score": 0.38097,
         "text": "Learn more\nDesigned and built in New York City\nJoin the Mirage team\nYes, we’re hiring! If you want to help shape the future of AI alongside a team that feels like home, we’d love to talk. You'll be joining an early team where you'll have an outsized impact on both the product and the company's culture.\nSee current openings\nOur investors\nJacob Andreou\nKevin Systrom\nMike Krieger\nLenny Rachitsky\nJulie Zhuo\nBen Rubin\nNico Wittenborn\nAntoine Martin\nJaren Glover\nJared Leto",
         "metadata": {
           "chunk_index": 4.0,
           "company_slug": "captions",
           "content_hash": "4918681c",
-          "indexed_at": "2025-11-11T20:36:35.646473",
+          "indexed_at": "2025-11-21T18:37:34.283191",
           "page_type": "about",
           "source_file": "data/raw/captions/about/text.txt"
         }
       },
       {
+        "id": "captions_tavily_3ae1a008",
+        "similarity_score": 0.374660492,
+        "text": "Captions IPO: Investment Opportunities & Pre-IPO Valuations\n\nWays to buy and sell Captions shares pre-IPO. Invest in proven Consumer & Lifestyle private companies like Captions at ForgeGlobal.com.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "3ae1a008",
+          "ingested_at": "2025-11-21T19:29:41.201220",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://forgeglobal.com/captions-ai_ipo/",
+          "title": "Captions IPO: Investment Opportunities & Pre-IPO Valuations"
+        }
+      },
+      {
         "id": "captions_blog_549047f0",
-        "similarity_score": 0.370182067,
+        "similarity_score": 0.370494872,
         "text": "Agencies\nSmall businesses\nResources\nAbout us\nBlog\nResearch\nCareers\nHelp Center\nContact information\nPress coverage\nPress inquiries\nGeneral inquiries\nPress kit\n© 2025 Mirage. All rights reserved.\nPrivacy Policy\nSafety & Security\nMirage Studio Terms\nMirage Studio User Terms\nCaptions Terms",
         "metadata": {
           "chunk_index": 4.0,
           "company_slug": "captions",
           "content_hash": "549047f0",
-          "indexed_at": "2025-11-11T20:36:35.646824",
-          "page_type": "blog",
-          "source_file": "data/raw/captions/blog/text.txt"
-        }
-      },
-      {
-        "id": "captions_blog_3ba128c4",
-        "similarity_score": 0.368724853,
-        "text": "Most innovative video companies 2025\nMarch 2025\nAdditional coverage\nMarketing Against the Grain\nThis New AI Tool Makes Videos Better & Faster Than You\nJune 2025\nNYSE\nGaurav Misra, Co Founder + CEO at Captions Joins NYSE TV Live\nJune 2025\nThe Verge\nFrom ChatGPT to Gemini: how AI is rewriting the internet\nJune 2025\nEO\nThe Journey from India to Building a $500M AI Video Product\nMay 2025\nLenny's Podcast\nHow to win in the AI era\nMarch 2025\nDigiday\nHow generative AI is changing creator contracts",
-        "metadata": {
-          "chunk_index": 2.0,
-          "company_slug": "captions",
-          "content_hash": "3ba128c4",
-          "indexed_at": "2025-11-11T04:49:45.469354",
+          "indexed_at": "2025-11-21T18:37:34.283560",
           "page_type": "blog",
           "source_file": "data/raw/captions/blog/text.txt"
         }
@@ -154,35 +226,202 @@
           "chunk_index": 3.0,
           "company_slug": "captions",
           "content_hash": "ee0ba725",
-          "indexed_at": "2025-11-11T20:36:35.646818",
+          "indexed_at": "2025-11-21T18:37:34.283554",
           "page_type": "blog",
           "source_file": "data/raw/captions/blog/text.txt"
         }
       },
       {
-        "id": "captions_blog_7198b08a",
-        "similarity_score": 0.362522125,
-        "text": "Mirage In The News | Company Press and Appearances\nProducts\nSolutions\nResearch\nResources\nGet started\nOpen Mirage Studio\nMirage in the news\nExplore recent press about Mirage's AI research, company milestones and more.\nFeatured\nForbes\nAI 50\nApril 2025\nTech Crunch\nCaptions rebrands as Mirage, expands beyond creator tools to AI video research\nSeptember 2025\nFast Company\nMost innovative video companies 2025\nMarch 2025\nAdditional coverage\nMarketing Against the Grain",
+        "id": "captions_tavily_d161e0ba",
+        "similarity_score": 0.36192131,
+        "text": "Captions company information, funding & investors\n\nCaptions, Inc. is an AI-powered creative studio headquartered in New York, founded in 2021 by CEO Gaurav Misra and COO Dwight Churchill.",
         "metadata": {
-          "chunk_index": 1.0,
           "company_slug": "captions",
-          "content_hash": "7198b08a",
-          "indexed_at": "2025-11-11T04:49:45.469339",
-          "page_type": "blog",
-          "source_file": "data/raw/captions/blog/text.txt"
+          "content_hash": "d161e0ba",
+          "ingested_at": "2025-11-21T19:29:14.498753",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://app.dealroom.co/companies/captions_2",
+          "title": "Captions company information, funding & investors"
+        }
+      },
+      {
+        "id": "captions_tavily_e96c168c",
+        "similarity_score": 0.358621597,
+        "text": "Report: Captions Business Breakdown & Founding Story\n\nCaptions offers a suite of AI-powered tools designed for video creation and editing. Captions operates in a number of markets including AI-powered video editing, captioning and subtitling solutions, and AI avatar generation. Like Captions, Synthesia offers AI-powered video creation tools, but it has more of a focus on corporate training and multilingual content creation. It provides tools for captioning and dubbing videos into 29 languages, along with AI-powered video editing features like eye contact correction and background noise removal. Captions operates at the intersection of video creation and AI-driven tools, catering to a global audience of content creators and businesses. Originally founded as a video captioning platform, Captions has expanded its offerings to include video generation, editing, AI-powered avatars, and multilingual captioning.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "e96c168c",
+          "ingested_at": "2025-11-21T19:29:27.384739",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://research.contrary.com/company/captions",
+          "title": "Report: Captions Business Breakdown & Founding Story"
+        }
+      },
+      {
+        "id": "captions_tavily_8f6e7675",
+        "similarity_score": 0.354623795,
+        "text": "Captions - 2025 Company Profile & Team\n\nCaptions is a series C company based in Boston (United States), founded in 2021 by Gaurav Misra and Dwight Churchill.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "8f6e7675",
+          "ingested_at": "2025-11-21T19:29:13.986085",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/captions/__8rxCBs5wW3Y9nS9GsqvwmTDxqUMzLhz5tJyF4-HlLSg",
+          "title": "Captions - 2025 Company Profile & Team"
+        }
+      },
+      {
+        "id": "captions_tavily_f88e512b",
+        "similarity_score": 0.349330902,
+        "text": "Captions IPO: Investment Opportunities & Pre-IPO Valuations\n\nCaptions IPO. $500MM. Last Known Valuation, Apr 2025. Buy And Sell Captions StockLearn More About Captions Stock. Register for details. For more details",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "f88e512b",
+          "ingested_at": "2025-11-21T19:29:55.267179",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://forgeglobal.com/captions-ai_ipo/",
+          "title": "Captions IPO: Investment Opportunities & Pre-IPO Valuations"
+        }
+      },
+      {
+        "id": "captions_tavily_e64700bd",
+        "similarity_score": 0.345197678,
+        "text": "Mirage - Crunchbase Company Profile & Funding\n\nMirage (formerly known as Captions) is a video-generating, video-editing and AI research company headquartered in New York City. Their first app, Captions,",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "e64700bd",
+          "ingested_at": "2025-11-21T19:29:27.186948",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/captions",
+          "title": "Mirage - Crunchbase Company Profile & Funding"
+        }
+      },
+      {
+        "id": "captions_tavily_0fb73cf5",
+        "similarity_score": 0.344989806,
+        "text": "Captions IPO: Investment Opportunities & Pre-IPO Valuations\n\nCaptions is a company that offers a video editing platform designed to create and edit video content with AI-enabled features. Captions was founded in 2021",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "0fb73cf5",
+          "ingested_at": "2025-11-21T19:29:14.663670",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://forgeglobal.com/captions-ai_ipo/",
+          "title": "Captions IPO: Investment Opportunities & Pre-IPO Valuations"
         }
       },
       {
         "id": "captions_about_fb4c77bf",
-        "similarity_score": 0.343681335,
+        "similarity_score": 0.343925476,
         "text": "About Mirage | Redefining the Future of Video\nProducts\nSolutions\nResearch\nResources\nGet started\nOpen Mirage Studio\nAbout Mirage\nYou can't grow your brand without short-form video. At Mirage, we're building foundation models and products to redefine how videos get made. Formerly known as Captions, we rebranded in 2025 to reflect our expanded mission.\nOur vision",
         "metadata": {
           "chunk_index": 1.0,
           "company_slug": "captions",
           "content_hash": "fb4c77bf",
-          "indexed_at": "2025-11-11T20:36:35.646432",
+          "indexed_at": "2025-11-21T18:37:34.283150",
           "page_type": "about",
           "source_file": "data/raw/captions/about/text.txt"
+        }
+      },
+      {
+        "id": "captions_tavily_192adfac",
+        "similarity_score": 0.343812943,
+        "text": "Maginative's Post - LinkedIn\n\nCaptions, the popular AI-powered video creation platform, has just closed a $60 million Series C funding round, its valuation to a hefty $500",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "192adfac",
+          "ingested_at": "2025-11-21T19:29:56.118191",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/posts/maginative_captions-the-popular-ai-powered-video-creation-activity-7216453085857001472-dWlU",
+          "title": "Maginative's Post - LinkedIn"
+        }
+      },
+      {
+        "id": "captions_about_d08dcefe",
+        "similarity_score": 0.335906982,
+        "text": "Co-Founder and CEO\nDwight Churchill\nCo-Founder and COO\nAs seen in:\nSee recent press\nOur research\nWe create generative models that turn voice and language into rich, photorealistic video. Our multimodal foundation model produces A-roll footage that looks and feels real, matching speech with natural lip movement, eye contact, and emotional expression. It's a new way to bring human presence to screens, powered entirely by AI.\nLearn more\nDesigned and built in New York City\nJoin the Mirage team",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "captions",
+          "content_hash": "d08dcefe",
+          "indexed_at": "2025-11-21T18:37:34.283172",
+          "page_type": "about",
+          "source_file": "data/raw/captions/about/text.txt"
+        }
+      },
+      {
+        "id": "captions_careers_2f9ce50e",
+        "similarity_score": 0.334991455,
+        "text": "Engineering • Union Square, New York City • Full time\nSoftware Engineering Manager\nEngineering • Union Square, New York City • Full time\nMarketing\nSocial Media Manager\nMarketing • Union Square, New York City • Full time\nSocial Media Strategist (Contract)\nMarketing • Union Square, New York City • Contract • On-site\nProduct\nData Scientist, Product\nProduct • Union Square, New York City • Full time\nPowered by\nAshby\nPrivacy Policy\nSecurity\nVulnerability Disclosure",
+        "metadata": {
+          "chunk_index": 6.0,
+          "company_slug": "captions",
+          "content_hash": "2f9ce50e",
+          "indexed_at": "2025-11-21T18:37:34.283915",
+          "page_type": "careers",
+          "source_file": "data/raw/captions/careers/text.txt"
+        }
+      },
+      {
+        "id": "captions_tavily_f90e24a0",
+        "similarity_score": 0.308532745,
+        "text": "Captions Announces $60M Series C, Hits $500M Valuation\n\nCaptions, the popular AI-powered video creation platform, has just closed a $60 million Series C funding round, pushing the company's total raised capital to $",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "f90e24a0",
+          "ingested_at": "2025-11-21T19:29:55.094164",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.maginative.com/article/captions-announces-60m-series-c-hits-500m-valuation/",
+          "title": "Captions Announces $60M Series C, Hits $500M Valuation"
+        }
+      },
+      {
+        "id": "captions_tavily_c51b6e37",
+        "similarity_score": 0.30667305,
+        "text": "AI Video Startup Captions Valued at USD 500M in ...\n\nAI video creation startup Captions, which offers subtitles and dubs in 28 languages, raises USD 60M in Series C; valuation reaches USD 500M.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "c51b6e37",
+          "ingested_at": "2025-11-21T19:29:55.508767",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://slator.com/ai-video-startup-captions-valued-at-usd-500m-in-usd-60m-series-c/",
+          "title": "AI Video Startup Captions Valued at USD 500M in ..."
+        }
+      },
+      {
+        "id": "captions_tavily_65d00222",
+        "similarity_score": 0.304050446,
+        "text": "AI Video Startup Captions Valued at USD 500M in USD 60M Series C\n\nAI video creation startup Captions, which offers subtitles and dubs in 28 languages, raises USD 60M in Series C; valuation reaches USD 500M.",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "65d00222",
+          "ingested_at": "2025-11-21T19:29:55.919529",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://slator.com/ai-video-startup-captions-valued-at-usd-500m-in-usd-60m-series-c/",
+          "title": "AI Video Startup Captions Valued at USD 500M in USD 60M Series C"
+        }
+      },
+      {
+        "id": "captions_tavily_f5858ad0",
+        "similarity_score": 0.303379059,
+        "text": "Climate Solutions Tracker: Mapping the Future of Sustainability\n\n... HQ State Government Funda SORTED INTO THE HQ HQCity City Total Funding . ... This was too long to put in a caption, so I nonsensically made",
+        "metadata": {
+          "company_slug": "captions",
+          "content_hash": "f5858ad0",
+          "ingested_at": "2025-11-21T19:29:14.858340",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.instagram.com/reel/DPUb74RCIF6/",
+          "title": "Climate Solutions Tracker: Mapping the Future of Sustainability"
         }
       }
     ]

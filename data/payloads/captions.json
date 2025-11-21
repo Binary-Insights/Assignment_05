@@ -1,0 +1,723 @@
+{
+  "company_record": {
+    "company_id": "mirage",
+    "legal_name": "Mirage",
+    "brand_name": "Captions",
+    "website": "https://www.captions.ai/",
+    "hq_city": "New York",
+    "hq_state": null,
+    "hq_country": "United States",
+    "founded_year": 2023,
+    "categories": [
+      "AI video editor",
+      "Creative studio"
+    ],
+    "related_companies": [
+      "Synthesia"
+    ],
+    "total_raised_usd": 125000000.0,
+    "last_disclosed_valuation_usd": 500000000.0,
+    "last_round_name": "Series C",
+    "last_round_date": "2024-07-09",
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-11-01",
+        "snippet": "Captions announces Series C to invest $100M in AI video research in New York.",
+        "chunk_id": [
+          "captions_blog_ee0ba725#3.0"
+        ]
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-11-01",
+        "snippet": "We renamed our company from Captions to Mirage.",
+        "chunk_id": [
+          "captions_product_a75780fa#15.0"
+        ]
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-11-01",
+        "snippet": "Captions is an all-in-one video generator and AI editor.",
+        "chunk_id": [
+          "captions_product_229d63b3#1.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-11-01",
+        "snippet": "Captions announces a $25 million Series B for our AI-powered creative studio",
+        "chunk_id": [
+          "captions_blog_ee0ba725#3.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-11-01",
+        "snippet": "Captions announces Series C to invest $100M in AI video research in New York.",
+        "chunk_id": [
+          "captions_blog_ee0ba725#3.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "1",
+      "company_id": "captions",
+      "occurred_on": "2025-03-12",
+      "event_type": "product_release",
+      "title": "Mirage: world's first foundation model for UGC video",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-06-02",
+          "snippet": null,
+          "chunk_id": [
+            "captions_blog_ee0ba725#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "2",
+      "company_id": "captions",
+      "occurred_on": "2024-07-09",
+      "event_type": "funding",
+      "title": "Captions announces Series C to invest $100M in AI video research in New York",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 100000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-06-02",
+          "snippet": null,
+          "chunk_id": [
+            "captions_blog_ee0ba725#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "3",
+      "company_id": "captions",
+      "occurred_on": "2023-06-22",
+      "event_type": "funding",
+      "title": "Captions announces a $25 million Series B for our AI-powered creative studio",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 25000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-06-02",
+          "snippet": null,
+          "chunk_id": [
+            "captions_blog_ee0ba725#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "4",
+      "company_id": "captions",
+      "occurred_on": "2025-09-04",
+      "event_type": "other",
+      "title": "Introducing Mirage: The future of video starts now",
+      "description": "Rebranding from Captions to Mirage to reflect expanded mission.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-09-04",
+          "snippet": null,
+          "chunk_id": [
+            "captions_blog_b175f758#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "captions",
+      "as_of": "2023-11-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 10,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "AI Research",
+        "Engineering",
+        "Marketing",
+        "Product"
+      ],
+      "pricing_tiers": [
+        "free",
+        "paid"
+      ],
+      "active_products": [
+        "Captions",
+        "Mirage Studio"
+      ],
+      "geo_presence": [
+        "New York City"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_careers_339f16f3#4.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_b8ef67df#8.0",
+            "captions_product_229d63b3#1.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_about_4918681c#4.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "captions_product_229d63b3",
+      "company_id": "captions",
+      "name": "Captions by Mirage",
+      "description": "Captions is an all-in-one video generator and AI editor. Powered by Mirage AI, Captions makes video production easier than ever.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_229d63b3#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_fc4d3631",
+      "company_id": "captions",
+      "name": "Captions App",
+      "description": "Captions is an AI video editor that produces fully-edited videos. You can upload existing footage and use easy AI editing tools to finish the project. Or, use Captions to generate entirely new footage, without having to record on your own.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_fc4d3631#16.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_15ca2c14",
+      "company_id": "captions",
+      "name": "Captions Subtitles",
+      "description": "Captions automatically generates subtitles and transcribes audio with high accuracy, syncing the text perfectly with the video timeline. Supports multiple languages and allows customization of style, color, font, and placement.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_15ca2c14#12.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_b8ef67df",
+      "company_id": "captions",
+      "name": "Captions Mobile App",
+      "description": "Captions is made for your phone. Download the app from the App Store or Google Play. Free to download with some features accessible without a subscription. Paid plans available for full capabilities.",
+      "pricing_model": "tiered",
+      "pricing_tiers_public": [
+        "free",
+        "paid plans"
+      ],
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_b8ef67df#8.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_78c211e2",
+      "company_id": "captions",
+      "name": "Captions vs Mirage Studio",
+      "description": "Captions was designed for content creators and small businesses to make polished videos quickly. Mirage Studio is recommended for scaling marketing assets or ads, offering additional brand controls and enterprise options.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_78c211e2#14.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_a75780fa",
+      "company_id": "captions",
+      "name": "Captions App",
+      "description": "The company was renamed from Captions to Mirage. Captions remains the app you know and love, retaining its name.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_a75780fa#15.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_ecfccb2e",
+      "company_id": "captions",
+      "name": "Captions AI Video Editor",
+      "description": "Captions helps create professional-quality content fast without advanced editing skills. Uses AI to handle time-consuming tasks automatically, delivering studio-quality results in minutes.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_ecfccb2e#9.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_68a24eeb",
+      "company_id": "captions",
+      "name": "Captions Chat-Based Editor",
+      "description": "The chat-based editor lets you edit videos through text prompts and simple commands. Describe your changes, and Mirage's AI will execute them.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_68a24eeb#17.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_ef4e162d",
+      "company_id": "captions",
+      "name": "Captions Full Video Editor",
+      "description": "Captions is designed to handle the entire video editing process, from start to finish, automatically editing and stylizing videos with custom zooms, B-roll, music, transitions, and more.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_ef4e162d#7.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_66f9fb9b",
+      "company_id": "captions",
+      "name": "AI Captions Generator",
+      "description": "Automatically add captions or subtitles with AI. Fix eye contact, remove background noise, or resize assets with AI.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_66f9fb9b#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_4fb2c8a5",
+      "company_id": "captions",
+      "name": "Captions for Engagement",
+      "description": "Adding captions can boost engagement, accessibility, and watch time for social media clips, tutorials, or podcasts.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_4fb2c8a5#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_f51d2e00",
+      "company_id": "captions",
+      "name": "Conversational Editor",
+      "description": "Use the conversational editor to turn text into edits. Handles a wide range of changes, from smaller swaps to abstract requests.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_f51d2e00#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_44c5af71",
+      "company_id": "captions",
+      "name": "AI Video Generator",
+      "description": "Uses Mirage's proprietary model, trained on the style and pacing of short-form social videos. Generate an AI twin from a selfie for future videos.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_44c5af71#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_43e77b46",
+      "company_id": "captions",
+      "name": "Mirage Video",
+      "description": "Proprietary AI model delivers better, more realistic footage. Control the process with simple prompts, clone yourself to make an AI twin, or generate a new AI actor.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_43e77b46#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_2be5e832",
+      "company_id": "captions",
+      "name": "Captions Solutions",
+      "description": "Solutions for enterprise, agencies, and small businesses. Resources include blog, research, careers, and help center.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_2be5e832#18.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_44bbd0fa",
+      "company_id": "captions",
+      "name": "Studio-Quality Results",
+      "description": "Delivers studio-quality results in minutes, making it a top choice for creators who want speed, quality, and accessibility all in one app.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_44bbd0fa#10.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "captions_product_c9334670",
+      "company_id": "captions",
+      "name": "Subtitles Feature",
+      "description": "Feature to add subtitles to videos.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "captions_product_c9334670#11.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "gaurav-misra",
+      "company_id": "captions",
+      "name": "Gaurav Misra",
+      "role": "Co-Founder and CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-07",
+          "snippet": null,
+          "chunk_id": [
+            "captions_about_352a5b24#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "dwight-churchill",
+      "company_id": "captions",
+      "name": "Dwight Churchill",
+      "role": "Co-Founder and COO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-07",
+          "snippet": null,
+          "chunk_id": [
+            "captions_about_352a5b24#2.0",
+            "captions_about_d08dcefe#3.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "captions",
+      "as_of": "2023-10-11",
+      "news_mentions_30d": 4,
+      "avg_sentiment": 0.5,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "captions_blog_ee0ba725#3.0",
+            "captions_blog_549047f0#4.0",
+            "captions_blog_099bf70f#2.0",
+            "captions_blog_b175f758#1.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "captions_careers_63494074#3.0",
+            "captions_careers_cf1f8e7e#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T19:02:13.311295",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,0 +1,711 @@
+{
+  "company_record": {
+    "company_id": "abridge.com",
+    "legal_name": "Abridge",
+    "brand_name": "Abridge",
+    "website": "https://www.abridge.com/",
+    "hq_city": "Pittsburgh",
+    "hq_state": "Pennsylvania",
+    "hq_country": "United States",
+    "founded_year": 2018,
+    "categories": [
+      "Medical AI",
+      "Digitally-Assisted Provider Documentation"
+    ],
+    "related_companies": [
+      "['Highmark Health'",
+      "'CVS Health'",
+      "'Mayo Clinic'",
+      "'Spark Capital'",
+      "'Epic']"
+    ],
+    "total_raised_usd": 800000000.0,
+    "last_disclosed_valuation_usd": 5300000000.0,
+    "last_round_name": "Series E",
+    "last_round_date": "2025-06-01",
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-10",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_careers_c3a0a730#24.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-10",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_tavily_c7f9896c",
+          "abridge_tavily_73bde93e",
+          "abridge_tavily_225a3bac",
+          "abridge_tavily_feb31ee9"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-10",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_tavily_f0665611",
+          "abridge_tavily_29f28a0c",
+          "abridge_tavily_feea9fc8"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-10",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_tavily_716cb657",
+          "abridge_tavily_af9d7091"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-10",
+        "snippet": null,
+        "chunk_id": [
+          "abridge_tavily_f0665611"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "abridge_2024_series_d",
+      "company_id": "abridge",
+      "occurred_on": "2024-10-01",
+      "event_type": "funding",
+      "title": "Abridge Raises $250 Million in Series D",
+      "description": "Abridge successfully raised $250 Million in this Series D funding round. IVP (Institutional Venture Partners) co-led the round with participation from Bessemer Venture Partners, Lightspeed Venture Partners, NVentures (NVIDIA), Redpoint Ventures, and Spark Capital.",
+      "round_name": "Series D",
+      "investors": [
+        "IVP (Institutional Venture Partners)",
+        "Bessemer Venture Partners",
+        "Lightspeed Venture Partners",
+        "NVentures (NVIDIA)",
+        "Redpoint Ventures",
+        "Spark Capital"
+      ],
+      "amount_usd": 250000000.0,
+      "valuation_usd": 2750000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2024-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_b1800566#"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_2025_series_e",
+      "company_id": "abridge",
+      "occurred_on": "2025-06-24",
+      "event_type": "funding",
+      "title": "Abridge Closes $300M in Series E Funding",
+      "description": "Abridge, which provides ambient listening technology for clinical documentation to more than 150 health systems, has raised $300 million to bring its valuation to $5.3 billion. The Series E round was led by Andreessen Horowitz with participation from Khosla Ventures.",
+      "round_name": "Series E",
+      "investors": [
+        "Andreessen Horowitz",
+        "Khosla Ventures"
+      ],
+      "amount_usd": 300000000.0,
+      "valuation_usd": 5300000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-06-24",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_87868cbe#"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_funding_2025_07_24",
+      "company_id": "abridge.com",
+      "occurred_on": "2025-07-24",
+      "event_type": "funding",
+      "title": "Abridge raises $300M in Series E funding",
+      "description": "Abridge raised $300 million in a Series E funding round with investors including Khosla Ventures and Andreessen Horowitz.",
+      "round_name": "Series E",
+      "investors": [
+        "Khosla Ventures",
+        "Andreessen Horowitz"
+      ],
+      "amount_usd": 300000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.linkedin.com/company/abridgehq",
+          "crawled_at": "2023-10-10",
+          "snippet": "Funding: Last Round Date: 2025-07-24T00:00:00.000Z Last Round Type: Series E Total Rounds: 9 Last Round Raised: US$ 300.0M Investors: Khosla Ventures, Andreessen Horowitz",
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_product_release_2025_10",
+      "company_id": "abridge.com",
+      "occurred_on": "2025-10-01",
+      "event_type": "product_release",
+      "title": "Abridge launches gen AI tool for inpatient clinicians",
+      "description": "Abridge Inside automatically transforms bedside conversations into structured Epic notes, empowering inpatient clinicians.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.fiercehealthcare.com/health-tech/abridge-launches-gen-ai-tool-inpatient-clinicians-adds-outpatient-orders-feature",
+          "crawled_at": "2023-10-10",
+          "snippet": "Abridge Inside automatically transforms bedside conversations into structured Epic notes, empowering inpatient clinicians who deliver the intricately balanced coordinated care for admitted patients to devote more time to patient care.",
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_partnership_2025",
+      "company_id": "abridge.com",
+      "occurred_on": "2025-01-01",
+      "event_type": "partnership",
+      "title": "Abridge becomes a Platinum Corporate Partner with AMIA",
+      "description": "Abridge partners with the American Medical Informatics Association (AMIA) as a Platinum Corporate Partner for the 2025 calendar year.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://amia.org/news-publications/amia-welcomes-abridge-platinum-corporate-partner",
+          "crawled_at": "2023-10-10",
+          "snippet": "AMIA Welcomes Abridge as a Platinum Corporate Partner Washington, DC – The American Medical Informatics Association (AMIA) is pleased to announce Abridge as an AMIA Platinum Corporate Partner for the 2025 calendar year.",
+          "chunk_id": null
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-09",
+      "headcount_total": 156,
+      "headcount_growth_pct": null,
+      "job_openings_count": 53,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Builder",
+        "Foundations Engineering",
+        "IT",
+        "Platform Engineering",
+        "Security",
+        "ML Engineering",
+        "Product",
+        "Product Design",
+        "Product Engineering",
+        "Science",
+        "Commercial",
+        "Partner Experience",
+        "Implementation",
+        "Implementation - Nursing",
+        "Partner Success - Clinical Success",
+        "Partner Success - Enterprise and Commercial",
+        "Partner Success - Key",
+        "Operations",
+        "Core Operations",
+        "Data Science",
+        "Finance",
+        "Finance Operations",
+        "Legal",
+        "Legal - Product",
+        "Marketing",
+        "Growth"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Software",
+        "Mobile Application"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "Pittsburgh"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-09",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_careers_9977b70a#1.0",
+            "abridge_careers_0b8a84fe#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-09",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_406c833e#",
+            "abridge_tavily_af9d7091#"
+          ]
+        },
+        {
+          "source_url": "abridge_tavily_f22a477c#",
+          "crawled_at": "2023-10-09",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_f22a477c#"
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "abridge.com",
+      "as_of": "2023-10-01",
+      "headcount_total": 330,
+      "headcount_growth_pct": null,
+      "job_openings_count": 52,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": null,
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.trueup.io/co/abridge",
+          "crawled_at": "2023-10-01",
+          "snippet": "Abridge is an AI for medical records company with 52 job openings. It is currently valued at $5.3 billion as a private company. 330 people work at Abridge.",
+          "chunk_id": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "abridge_ai_platform",
+      "company_id": "abridge",
+      "name": "Abridge AI Platform",
+      "description": "Abridge offers a transformative solution with their trusted AI-powered clinical conversation platform purpose-built for healthcare. It transforms patient-clinician conversations into structured clinical notes in real-time, with deep EMR integrations.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_3593e440#",
+            "abridge_tavily_13d843fb#",
+            "abridge_tavily_4246a73d#"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge_mobile_application",
+      "company_id": "abridge",
+      "name": "Abridge Mobile Application",
+      "description": "Abridge offers Software, Mobile Application products.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_406c833e#"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge-gen-ai-emergency-care",
+      "company_id": "abridge.com",
+      "name": "Abridge Gen AI for Emergency Care",
+      "description": "A generative AI product for emergency care that integrates with Epic’s note drafting workflows for emergency department clinicians, working with Epic’s ASAP module in Haiku and Hyperspace.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": [
+        "Epic"
+      ],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": [
+        "Deaconess Health System",
+        "Emory Healthcare",
+        "Johns Hopkins Medicine",
+        "UChicago Medicine"
+      ],
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.fiercehealthcare.com/ai-and-machine-learning/abridge-offers-generative-ai-tool-emergency-medicine-emory-healthcare-johns",
+          "crawled_at": "2023-10-01",
+          "snippet": "The company launched a new gen AI product for emergency care, and it's currently in use at several health systems including Deaconess Health System, Emory Healthcare, Johns Hopkins Medicine and UChicago Medicine. Abridge's new gen AI product was developed to suit the needs of emergency medicine as it integrates with Epic’s note drafting workflows for emergency department clinicians and works with Epic’s ASAP module in Haiku and Hyperspace, according to the company.",
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "product_id": "abridge-ai-scribe",
+      "company_id": "abridge.com",
+      "name": "Abridge AI Scribe",
+      "description": "Abridge AI Scribe captures patient-doctor conversations using ambient listening, uses natural language processing to create a transcript of the discussion, and uses large language models and generative AI to convert the transcript into a draft clinical note for providers.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://it.johnshopkins.edu/ai/abridge-ai-scribe/",
+          "crawled_at": "2023-10-01",
+          "snippet": "Abridge software captures the patient-doctor conversation using ambient listening, uses natural language processing to create a transcript of the discussion, and uses large language models and generative AI to convert the transcript into a draft clinical note for providers.",
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "product_id": "abridge-inside",
+      "company_id": "abridge.com",
+      "name": "Abridge Inside",
+      "description": "Abridge Inside allows clinicians to harness the power of Abridge from start to finish without ever leaving Epic Haiku or Hyperspace, transforming patient-clinician conversations into structured clinical notes in real-time.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": [
+        "Epic"
+      ],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://showroom.epic.com/Listing?id=2772&returnTitle=6",
+          "crawled_at": "2023-10-01",
+          "snippet": "Abridge’s enterprise-grade AI transforms patient-clinician conversations into structured clinical notes in real-time. With Abridge Inside, clinicians can harness the power of Abridge from start to finish without ever leaving Epic Haiku or Hyperspace.",
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "product_id": "abridge-ambient-documentation",
+      "company_id": "abridge.com",
+      "name": "Abridge Ambient Documentation",
+      "description": "A generative AI ambient documentation workflow for nurses developed in collaboration with Mayo Clinic and Epic, as part of the Epic Workshop program.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": [
+        "Mayo Clinic",
+        "Epic"
+      ],
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.abridge.com/press-release/abridge-mayo-epic",
+          "crawled_at": "2023-10-01",
+          "snippet": "Abridge, Mayo Clinic, and Epic announced a generative AI ambient documentation workflow for nurses. Developed as part of the next phase of collaboration in the Epic Workshop program.",
+          "chunk_id": null
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "shiv-rao",
+      "company_id": "abridge",
+      "name": "Shiv Rao",
+      "role": "CEO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_efd0fbb3#3.0",
+            "abridge_about_b0c44a34#3.0",
+            "abridge_about_28998577#3.0",
+            "abridge_about_b3488d93#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "zack-lipton",
+      "company_id": "abridge",
+      "name": "Zack Lipton",
+      "role": "CTO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_efd0fbb3#3.0",
+            "abridge_about_b0c44a34#3.0",
+            "abridge_about_28998577#3.0",
+            "abridge_about_b3488d93#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "julia-chou",
+      "company_id": "abridge",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_efd0fbb3#3.0",
+            "abridge_about_b0c44a34#3.0",
+            "abridge_about_28998577#3.0",
+            "abridge_about_b3488d93#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "sandeep-konam",
+      "company_id": "abridge",
+      "name": "Sandeep Konam",
+      "role": "CTO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "abridge_tavily_a41ab268",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_a41ab268#"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "florian-metze",
+      "company_id": "abridge",
+      "name": "Florian Metze",
+      "role": "CSO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "abridge_tavily_a41ab268",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_tavily_a41ab268#"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "shivdev_rao",
+      "company_id": "abridge.com",
+      "name": "Shivdev Rao",
+      "role": "CEO and Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://exa.ai/websets/directory/abridge-executives",
+          "crawled_at": "2023-10-05",
+          "snippet": "As CEO and Co-Founder of Abridge AI Inc., Shivdev Rao leads the company in developing advanced AI technology for healthcare documentation.",
+          "chunk_id": null
+        },
+        {
+          "source_url": "https://www.abridge.com/about",
+          "crawled_at": "2023-10-05",
+          "snippet": "CEO, Founder. meet the Leadership team behind abridge. We're. Shiv Rao, MD. CEO, Co-Founder.",
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "person_id": "julia_chou",
+      "company_id": "abridge.com",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.abridge.com/blog/hlth-2025-insights-recap",
+          "crawled_at": "2023-10-05",
+          "snippet": "Abridge Chief Operating Officer Julia Chou and Vice President of Partner Experience Reba Schenk",
+          "chunk_id": null
+        },
+        {
+          "source_url": "https://www.abridge.com/blog/abridge-coo-julia-chou-honored-by-modern-healthcare",
+          "crawled_at": "2023-10-05",
+          "snippet": "Abridge COO Julia Chou Honored by Modern Healthcare",
+          "chunk_id": null
+        }
+      ]
+    },
+    {
+      "person_id": "sagar_sanghvi",
+      "company_id": "abridge.com",
+      "name": "Sagar Sanghvi",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "https://www.abridge.com/press-release/sagar-sanghvi-announcement",
+          "crawled_at": "2023-10-05",
+          "snippet": "Abridge Hires Experienced Tech Executive Sagar Sanghvi as CFO to Fuel Next Phase of Growth",
+          "chunk_id": null
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": 3,
+      "avg_sentiment": 0.7,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0",
+            "abridge_product_b2e98bc5#12.0",
+            "abridge_product_cc20cf4d#14.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_b03afff0#2.0",
+            "abridge_blog_9fef269b#4.0",
+            "abridge_blog_6720fbe4#3.0",
+            "abridge_blog_82453668#1.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_careers_c3a0a730#24.0",
+            "abridge_careers_fa7fafda#11.0",
+            "abridge_careers_3d3258c6#13.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T18:45:04.113188",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

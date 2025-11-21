@@ -1,0 +1,733 @@
+{
+  "company_record": {
+    "company_id": "clay",
+    "legal_name": "Clay",
+    "brand_name": null,
+    "website": null,
+    "hq_city": "Brooklyn",
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": 2025,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": 105000000.0,
+    "last_disclosed_valuation_usd": 1500000000.0,
+    "last_round_name": "Series B expansion",
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-05",
+        "snippet": "Born in Brooklyn.",
+        "chunk_id": [
+          "clay_about_5d2813d5#46.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-05",
+        "snippet": "Clay raises $40M at a $1.25B valuation",
+        "chunk_id": [
+          "clay_blog_505f42f5#29.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-05",
+        "snippet": "Clay announces employee tender offer led by Sequoia at $1.5B valuation",
+        "chunk_id": [
+          "clay_blog_2370aae2#24.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-05",
+        "snippet": "Clay raises $62M at a $500M valuation",
+        "chunk_id": [
+          "clay_blog_0a70c3ac#34.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "clay_funding_series_b_1",
+      "company_id": "clay",
+      "occurred_on": "2023-06-26",
+      "event_type": "funding",
+      "title": "Clay raises $62M at a $500M valuation",
+      "description": "Clay has raised a $46M Series B from Meritech Capital with participation from Sequoia, First Round, Box Group, Boldstart, and some of the world’s top sales and marketing leaders. This is in addition to a previously unannounced $13.5M Series A, led by Sequoia, and $2.5M seed led by First Round.",
+      "round_name": "Series B",
+      "investors": [
+        "Meritech Capital",
+        "Sequoia",
+        "First Round",
+        "Box Group",
+        "Boldstart"
+      ],
+      "amount_usd": 62000000.0,
+      "valuation_usd": 500000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-06-26",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_0a70c3ac#34.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_funding_series_b_2",
+      "company_id": "clay",
+      "occurred_on": "2025-01-21",
+      "event_type": "funding",
+      "title": "Clay raises $40M at a $1.25B valuation",
+      "description": "Clay has raised $40M in Series B expansion funding at a $1.25B valuation, following 6x growth in 2024.",
+      "round_name": "Series B",
+      "investors": null,
+      "amount_usd": 40000000.0,
+      "valuation_usd": 1250000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-01-21",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_505f42f5#29.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_mna_avenue",
+      "company_id": "clay",
+      "occurred_on": "2025-01-22",
+      "event_type": "mna",
+      "title": "Clay acquires Avenue",
+      "description": "Clay acquires Avenue to help growth teams act on intent signals.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-01-22",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_505f42f5#29.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_integration_hg_insights",
+      "company_id": "clay",
+      "occurred_on": "2025-01-08",
+      "event_type": "integration",
+      "title": "Clay integrates with HG Insights",
+      "description": "Clay integrates with HG Insights, unlocking enterprise-grade technology intelligence for anyone.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-01-08",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_505f42f5#29.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_tender_offer",
+      "company_id": "clay",
+      "occurred_on": "2025-05-08",
+      "event_type": "other",
+      "title": "Clay announces employee tender offer led by Sequoia at $1.5B valuation",
+      "description": "Clay allows employees to sell vested shares for immediate liquidity through a $20M tender offer at a $1.5B valuation.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-05-08",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_2370aae2#24.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_series_c",
+      "company_id": "clay",
+      "occurred_on": "2025-08-05",
+      "event_type": "funding",
+      "title": "Clay Series C announcement",
+      "description": "Clay raised a $100M Series C at a $3.1B valuation to power GTM engineering.",
+      "round_name": "Series C",
+      "investors": null,
+      "amount_usd": 100000000.0,
+      "valuation_usd": 3100000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-08-05",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_71221655#118.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_integration_webflow",
+      "company_id": "clay",
+      "occurred_on": "2025-03-26",
+      "event_type": "integration",
+      "title": "Clay integrates with Webflow",
+      "description": "Clay integrates with Webflow, unlocking scalable website personalization for GTM teams.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-03-26",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_e3f3b6a1#82.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_product_custom_signals",
+      "company_id": "clay",
+      "occurred_on": "2025-02-18",
+      "event_type": "product_release",
+      "title": "Announcing custom signals at Clay",
+      "description": "Clay's new custom signals platform helps sales teams track unique data changes that indicate buying opportunities.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-02-18",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_e8b43bc9#23.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "clay_1_billion_runs",
+      "company_id": "clay",
+      "occurred_on": "2025-06-05",
+      "event_type": "benchmark",
+      "title": "Claygent surpasses 1 billion runs",
+      "description": "Claygent, the world's most loved AI research agent in GTM, surpasses a huge milestone at 1 billion runs.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-06-05",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_94664fb0#80.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "clay",
+      "as_of": "2023-10-11",
+      "headcount_total": 206,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": [
+        "cost-effective entry-level plans",
+        "comprehensive solutions for advanced users"
+      ],
+      "active_products": [
+        "Claygent",
+        "Sculptor",
+        "Signals",
+        "Audiences",
+        "Integrations",
+        "Sequencer"
+      ],
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_a7ff29a4#13.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_008cc53d#58.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "clay_careers_3da90aee#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "claygent",
+      "company_id": "clay",
+      "name": "Claygent",
+      "description": "Research target companies and people with AI",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_9a6473f6#1.0",
+            "clay_about_7318d854#43.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_careers_3da90aee#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_product_2e13c3b8#1.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_a4869a8c#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "sculptor",
+      "company_id": "clay",
+      "name": "Sculptor",
+      "description": "Build GTM workflows with natural language",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_9a6473f6#1.0",
+            "clay_about_7318d854#43.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_careers_3da90aee#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_product_2e13c3b8#1.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_a4869a8c#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "signals",
+      "company_id": "clay",
+      "name": "Signals",
+      "description": "Track job changes, news, social mentions, and more",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_9a6473f6#1.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_careers_3da90aee#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_product_2e13c3b8#1.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_a4869a8c#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "audiences",
+      "company_id": "clay",
+      "name": "Audiences",
+      "description": "Combine signals, enrichment, and CRM data in Clay",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_9a6473f6#1.0",
+            "clay_about_7318d854#43.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_careers_3da90aee#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_product_2e13c3b8#1.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_a4869a8c#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "integrations",
+      "company_id": "clay",
+      "name": "Integrations",
+      "description": "Connect to 150+ providers and your favorite tools",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_9a6473f6#1.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_careers_3da90aee#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_product_2e13c3b8#1.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_a4869a8c#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "sequencer",
+      "company_id": "clay",
+      "name": "Sequencer",
+      "description": "Automate and launch personalized email outreach",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_9a6473f6#1.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_careers_3da90aee#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_product_2e13c3b8#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "brandon-charleson",
+      "company_id": "clay",
+      "name": "Brandon Charleson",
+      "role": "Founder, Top of Funnel",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_product_228602f7#22.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "patrick-spychalski",
+      "company_id": "clay",
+      "name": "Patrick Spychalski",
+      "role": "Co-Founder at TheKiln",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_dfdb910c#37.0",
+            "clay_about_7daacaa3#35.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "jacob-tuwiner",
+      "company_id": "clay",
+      "name": "Jacob Tuwiner",
+      "role": "Founder at Sculpted",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_dfdb910c#37.0",
+            "clay_about_7daacaa3#35.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "clay",
+      "as_of": "2023-10-11",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "clay_blog_94664fb0#80.0",
+            "clay_blog_505f42f5#29.0",
+            "clay_blog_2370aae2#24.0",
+            "clay_blog_0a70c3ac#34.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "clay_about_a961b661#40.0",
+            "clay_about_7318d854#43.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T19:06:58.857072",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -1,25 +1,34 @@
 ## Company Overview
-Captions, now rebranded as Mirage, is a private AI startup focused on redefining video creation through AI-powered tools. The company is based in New York City and aims to bridge the gap between ideas and audiences, empowering creators and businesses to reach their full potential. The founders are Gaurav Misra (Co-Founder and CEO) and Dwight Churchill (Co-Founder and COO).
+
+Captions, founded in 2021, is a privately-held AI-powered creative studio headquartered in New York City. The company is led by Co-Founder and CEO Gaurav Misra and Co-Founder and COO Dwight Churchill. Captions specializes in AI-driven video creation and editing tools, offering solutions such as video captioning, subtitling, and AI avatar generation. The company aims to bridge the gap between ideas and audiences, empowering creators and businesses to reach their full potential.
 
 ## Business Model and GTM
-Mirage offers solutions tailored for enterprises, agencies, and small businesses. Their product lineup includes Captions and Mirage Studio, which are designed to enhance video creation and editing through AI. The company states that their technology allows for faster and better video production, targeting a wide range of users from individual creators to large enterprises.
+
+Captions operates in the AI-powered video editing and creation market, providing a suite of tools designed for content creators and businesses. The company offers solutions for enterprises, agencies, and small businesses, focusing on features like automated captioning, advanced editing, and multilingual support. The company states that its products, including Captions and Mirage Studio, are designed to enhance user experience and accelerate content creation processes.
 
 ## Funding & Investor Profile
-Mirage has raised significant funding, including a $25 million Series B round announced in June 2023. The company is backed by prominent investors such as Index Ventures, Kleiner Perkins, Sequoia Capital, Andreessen Horowitz, and notable individuals like Kevin Systrom, Mike Krieger, and Jared Leto.
+
+Captions has raised a total of $100 million across four funding rounds. The latest funding was a $60 million Series C round in July 2024, led by Index Ventures, with participation from Kleiner Perkins, Andreessen Horowitz, Sequoia Capital, Adobe Ventures, HubSpot, and Jared Leto. The company is backed by prominent investors and entrepreneurs, including Kevin Systrom, Mike Krieger, Lenny Rachitsky, and Julie Zhuo.
 
 ## Growth Momentum
-The company has been recognized as one of the most innovative video companies in 2025 by Fast Company. They have also announced a Series C round to invest $100 million in AI video research in New York, indicating strong growth and expansion plans.
+
+Captions has demonstrated significant growth, with a reported annual revenue of $43.6 million and a team of 133 employees. The company has achieved a 150% year-over-year growth in user acquisition, driven by effective go-to-market strategies and successful global marketing campaigns. Captions' valuation reached $500 million following the Series C funding round.
 
 ## Visibility & Market Sentiment
-Mirage has received extensive press coverage from outlets like TechCrunch, Forbes, and Fast Company. The company was featured in the Forbes AI 50 list in April 2025, highlighting its prominence in the AI industry. The rebranding from Captions to Mirage in 2025 reflects its expanded mission and market presence.
+
+Captions has received coverage from major media outlets such as TechCrunch, Forbes AI 50, and Fast Company. The company is recognized for its innovative AI-powered video solutions and has been featured in discussions about improving video SEO strategies and AI video research. The market sentiment appears positive, with Captions being a popular choice among content creators and businesses seeking advanced video editing tools.
 
 ## Risks and Challenges
+
 Not disclosed.
 
 ## Outlook
-The company is positioned for continued growth with its focus on AI video research and development. The rebranding to Mirage and the significant investment in AI research suggest a strategic shift towards broader applications of their technology, potentially opening new market opportunities.
+
+The company states that its vision is to create a world where the distance between idea and audience is zero, suggesting a focus on expanding its reach and enhancing its product offerings. With continued investment in AI video research and development, Captions is well-positioned to capitalize on the growing demand for AI-driven video solutions.
 
 ## Disclosure Gaps
-- Specific revenue figures and financial performance metrics are not disclosed.
-- Detailed information on customer acquisition strategies and market penetration is not available.
-- Risks and challenges faced by the company are not disclosed.
+
+- Specific details on the company's revenue growth rate beyond user acquisition.
+- Information on potential risks and challenges faced by the company.
+- Detailed financial metrics and profitability status.
+- Specific product pricing and customer acquisition costs.

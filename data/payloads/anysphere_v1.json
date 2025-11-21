@@ -1,0 +1,543 @@
+{
+  "company_record": {
+    "company_id": "anysphere",
+    "legal_name": "Anysphere, Inc.",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": 2300000000.0,
+    "last_round_name": "Series D",
+    "last_round_date": "2025-11-13",
+    "schema_version": "2.0.0",
+    "as_of": "2025-11-13",
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-09",
+        "snippet": "We raised our Series D of $2.3B and have passed $1B in annualized revenue.",
+        "chunk_id": [
+          "anysphere_about_7805acc4#20.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-09",
+        "snippet": "We raised our Series D of $2.3B and have passed $1B in annualized revenue.",
+        "chunk_id": [
+          "anysphere_blog_40a18162#1.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-09",
+        "snippet": "© 2025 Anysphere, Inc.",
+        "chunk_id": [
+          "anysphere_about_1de62db5#22.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-09",
+        "snippet": "© 2025 Anysphere, Inc.",
+        "chunk_id": [
+          "anysphere_blog_69fe5752#6.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "company_id": "anysphere",
+      "occurred_on": "2025-11-13",
+      "event_type": "funding",
+      "title": "Series D Funding",
+      "description": "We raised our Series D of $2.3B and have passed $1B in annualized revenue.",
+      "round_name": "Series D",
+      "investors": null,
+      "amount_usd": 2300000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-13",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_7805acc4#20.0",
+            "anysphere_about_c09faa41#19.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "company_id": "anysphere",
+      "occurred_on": "2025-10-29",
+      "event_type": "product_release",
+      "title": "Introducing Cursor 2.0 and Composer",
+      "description": "A new interface and our first coding model, both purpose-built for working with agents.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-10-29",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_7805acc4#20.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "company_id": "anysphere",
+      "occurred_on": "2025-10-30",
+      "event_type": "product_release",
+      "title": "Composer: Building a fast frontier model with RL",
+      "description": "Composer is our new agent model designed for software engineering intelligence and speed.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-10-30",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_blog_c57c0c41#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "company_id": "anysphere",
+      "occurred_on": "2025-10-31",
+      "event_type": "product_release",
+      "title": "Cloud Agents",
+      "description": "Cloud agents make it easy to run many agents at once, without requiring your laptop to stay connected to the internet.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-10-31",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_blog_44582c74#3.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "anysphere",
+      "as_of": "2023-11-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": null,
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_careers_fcd89b7e#7.0",
+            "anysphere_careers_56685853#6.0",
+            "anysphere_careers_8fc5bdc7#5.0",
+            "anysphere_careers_1cff695c#2.0",
+            "anysphere_careers_1bcc6374#1.0",
+            "anysphere_careers_1800a340#4.0",
+            "anysphere_careers_0fac5333#3.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_product_9a4f5776#16.0",
+            "anysphere_product_d52e9f15#35.0",
+            "anysphere_product_fd1a1f1f#1.0",
+            "anysphere_product_bc3d8500#27.0",
+            "anysphere_product_052c222d#3.0",
+            "anysphere_product_5de3f1c3#14.0",
+            "anysphere_product_1a8c4b4b#34.0",
+            "anysphere_product_91b95827#4.0",
+            "anysphere_product_d012de0f#2.0",
+            "anysphere_product_db946e3f#15.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_blog_69fe5752#6.0",
+            "anysphere_blog_40a18162#1.0",
+            "anysphere_blog_036644bd#2.0",
+            "anysphere_blog_44582c74#3.0",
+            "anysphere_blog_35735798#5.0",
+            "anysphere_blog_c57c0c41#4.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_026243f2#5.0",
+            "anysphere_about_1de62db5#22.0",
+            "anysphere_about_4e8e49b3#14.0",
+            "anysphere_about_efa2c229#21.0",
+            "anysphere_about_1bc7168c#10.0",
+            "anysphere_about_db18afcc#1.0",
+            "anysphere_about_7805acc4#20.0",
+            "anysphere_about_c09faa41#19.0",
+            "anysphere_about_d6665de9#6.0",
+            "anysphere_about_7650c8e8#18.0",
+            "anysphere_about_55c97dda#3.0",
+            "anysphere_about_738b6700#16.0",
+            "anysphere_about_9b072adc#11.0",
+            "anysphere_about_7d93477b#15.0",
+            "anysphere_about_9608d757#9.0",
+            "anysphere_about_919fb3ee#17.0",
+            "anysphere_about_4110d3df#13.0",
+            "anysphere_about_b6f6e313#4.0",
+            "anysphere_about_dbe47166#12.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "cursor",
+      "company_id": "anysphere",
+      "name": "Cursor",
+      "description": "The best way to build software. Delegate coding tasks so you can focus on higher-level direction.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_product_fd1a1f1f#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "cursor_enterprise",
+      "company_id": "anysphere",
+      "name": "Cursor Enterprise",
+      "description": "Develop enduring software at scale. Ship better software, faster.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_db18afcc#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "cursor_agents",
+      "company_id": "anysphere",
+      "name": "Cursor Agents",
+      "description": "Delegate coding tasks so you can focus on higher-level direction. Includes mobile agent and web agent.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_product_d012de0f#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "composer",
+      "company_id": "anysphere",
+      "name": "Composer",
+      "description": "Building a fast frontier model with RL. Designed for software engineering intelligence and speed.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-10-30",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_blog_c57c0c41#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "cloud_agents",
+      "company_id": "anysphere",
+      "name": "Cloud Agents",
+      "description": "Make it easy to run many agents at once, without requiring your laptop to stay connected to the internet.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-10-31",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_blog_44582c74#3.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "patrick-collison",
+      "company_id": "anysphere",
+      "name": "Patrick Collison",
+      "role": "Co-Founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_919fb3ee#17.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "jensen-huang",
+      "company_id": "anysphere",
+      "name": "Jensen Huang",
+      "role": "President & CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_919fb3ee#17.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "brian-armstrong",
+      "company_id": "anysphere",
+      "name": "Brian Armstrong",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_919fb3ee#17.0",
+            "anysphere_about_7650c8e8#18.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "albert-strasheim",
+      "company_id": "anysphere",
+      "name": "Albert Strasheim",
+      "role": "CTO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_7650c8e8#18.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "cody-de-arkland",
+      "company_id": "anysphere",
+      "name": "Cody De Arkland",
+      "role": "Senior Director",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_c09faa41#19.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "scott-mckenzie",
+      "company_id": "anysphere",
+      "name": "Scott McKenzie",
+      "role": "Head of Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_c09faa41#19.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "anysphere",
+      "as_of": "2023-10-10",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-10",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_blog_40a18162#1.0",
+            "anysphere_blog_036644bd#2.0",
+            "anysphere_blog_44582c74#3.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-10",
+          "snippet": null,
+          "chunk_id": [
+            "anysphere_about_7805acc4#20.0",
+            "anysphere_about_4e8e49b3#14.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T18:53:48.215886",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

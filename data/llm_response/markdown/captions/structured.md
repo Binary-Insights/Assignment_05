@@ -1,36 +1,34 @@
 ## Company Overview
 
-Mirage, operating under the brand name Captions, is headquartered in New York. The company specializes in AI-driven video generation and editing, offering a product known as Captions. This tool allows users to create fully-edited videos by either uploading existing footage or generating new content using AI technology.
+Mirage, operating under the brand name Captions, is a private AI startup headquartered in New York, United States. Founded in 2023, the company specializes in AI video editing and creative studio solutions. Captions offers a suite of products designed to simplify video production through AI-powered tools. The company recently underwent a rebranding from Captions to Mirage to reflect its expanded mission.
 
 ## Business Model and GTM
 
-The company states that Captions is an all-in-one video generator and AI editor, suggesting a focus on providing comprehensive video editing solutions. The business model likely revolves around offering these AI-powered tools to content creators, businesses, and possibly other sectors needing video production capabilities. Specific details on pricing, distribution channels, or target markets are not disclosed.
+The company states that Captions is an all-in-one video generator and AI editor, making video production more accessible. Their product offerings include the Captions App, which allows users to edit existing footage or generate new content using AI, and Captions Subtitles, which provides automatic subtitle generation and audio transcription. The Captions Mobile App is available for download on major platforms, offering both free and paid plans. Captions targets content creators and small businesses, while Mirage Studio caters to larger enterprises with additional brand controls and marketing asset scaling capabilities.
 
 ## Funding & Investor Profile
 
-Mirage has raised a total of $125 million, with the most recent funding being a Series C round on July 9, 2024. The company announced that it plans to invest $100 million from this round into AI video research in New York. Previous funding rounds include a $25 million Series B, but further details on investors or specific funding dates are not disclosed.
+Captions has raised a total of $125 million, with the most recent funding round being a Series C, completed on July 9, 2024. The last disclosed valuation of the company was $500 million. The company announced plans to invest $100 million from this round into AI video research in New York.
 
 ## Growth Momentum
 
-The company has shown growth momentum by securing significant funding, particularly the recent Series C round. However, specific metrics or data on user growth, revenue, or market expansion are not disclosed.
+The company has shown significant growth momentum, as evidenced by its successful Series C funding round and substantial investment in AI research. The rebranding to Mirage indicates a strategic shift to broaden its market reach and capabilities.
 
 ## Visibility & Market Sentiment
 
-The company has limited visibility with only one mention in the provided data. There is no detailed information on market sentiment or broader media coverage.
+Visibility and market sentiment details are not disclosed. However, the company's rebranding and substantial funding rounds suggest a positive market perception and a strategic effort to enhance its market presence.
 
 ## Risks and Challenges
 
-Potential risks and challenges include the competitive landscape of AI video editing tools, the need for continuous innovation in AI technology, and the effective allocation of the recent $100 million investment into research. Specific challenges faced by the company are not disclosed.
+Specific risks and challenges are not disclosed. However, as a relatively new company in a competitive AI video editing market, Captions may face challenges related to market penetration, technological advancements, and competition from established players like Synthesia.
 
 ## Outlook
 
-The outlook for Mirage appears positive, given the substantial investment in AI research and development. The company's focus on enhancing its AI capabilities could position it well in the growing market for video content creation tools. However, the lack of detailed market data and user metrics makes it difficult to fully assess future prospects.
+The outlook for Captions appears promising, given its recent funding success and strategic rebranding. The company's focus on AI research and product development positions it well for future growth in the AI video editing space.
 
 ## Disclosure Gaps
 
-- Specific details on the business model, including pricing and target markets.
-- Information on distribution channels and go-to-market strategies.
-- Detailed investor profiles and specific funding dates for previous rounds.
-- Metrics on user growth, revenue, and market expansion.
-- Comprehensive visibility and market sentiment data.
-- Specific risks and challenges faced by the company.
+- Specific dates for product releases and funding events are not disclosed.
+- Detailed visibility and market sentiment information are not available.
+- Leadership roles and responsibilities are not specified.
+- Specific risks and challenges faced by the company are not detailed.

@@ -1,34 +1,34 @@
 ## Company Overview
 
-Coactive AI is a private company founded in 2021, specializing in machine learning systems and AI. The company boasts a diverse team of over 30 experts with experience from leading organizations such as eBay, Google, Lyft, Meta, Clio, HubSpot, Tesla, MIT, and Stanford. Coactive AI operates from three global hub offices and is focused on bringing innovative AI products to life.
+Coactive AI, founded in 2021 by Cody Coleman and Will Gaviria Rojas, is headquartered in San Jose, California. The company operates in the business/productivity software industry, focusing on data labeling and software development. Coactive AI employs between 11-50 people, with 64 associated members on LinkedIn listing it as their current workplace.
 
 ## Business Model and GTM
 
-Coactive AI's business model revolves around providing AI solutions for industries such as media and entertainment, content moderation, ad targeting, and content operations. The company offers a platform that includes features like visual AI search, metadata tagging, and analytics. The company states that its solutions are designed to unlock the potential of visual content, accelerate content workflows, and transform content discovery.
+Coactive AI offers a Multimodal Application Platform (MAP) that enables users to search and analyze images and videos without the need for metadata or tags. The platform aims to unlock the hidden value in visual content, facilitating the discovery of valuable assets, trend analysis, and the development of AI-powered use cases. The company states that its platform accelerates content workflows and enhances content operations.
 
 ## Funding & Investor Profile
 
-Coactive AI has raised $44 million in funding. The company is advised by experts with significant experience in technology, including Ken Coleman, Matei Zaharia, Julie Choi, Marcelo Bressan, and David Cook. Notably, Ken Coleman is a Special Advisor to a16z, indicating potential connections to prominent venture capital networks.
+Coactive AI has raised a total of $44 million across five funding rounds. The latest funding round was a Series B, raising $30 million on June 21, 2024. Notable investors include Andreessen Horowitz, Bessemer Venture Partners, Emerson Collective, Cherryrock Capital, Greycroft, and Exceptional Capital. The company's current valuation is approximately $200 million.
 
 ## Growth Momentum
 
-The company has been active in product development, with recent advancements such as smarter metadata tagging for the multimodal era and the ability to create video-based apps quickly. Coactive AI has also expanded its platform to Azure, enhancing its scalability and reach.
+The company has shown growth in its employee base, with reports indicating a range of 11-50 employees. Coactive AI's platform has been recognized for its ability to enhance content operations and unlock value in visual data, which may contribute to its growth trajectory.
 
 ## Visibility & Market Sentiment
 
-Coactive AI is recognized for its innovative contributions to AI and machine learning. The company has been involved in discussions with major industry players like NBCUniversal, highlighting its role in unlocking visual content discovery in media and entertainment. The company states that it is committed to staying true to its strengths in sales and maintaining integrity.
+Coactive AI is positioned within the competitive landscape of AI-based platforms offering image and video data analytics solutions. The company is noted for its diverse team with experience from leading organizations such as eBay, Google, and Meta. The company has been involved in discussions on how multimodal AI is transforming media and entertainment, indicating a positive market sentiment towards its offerings.
 
 ## Risks and Challenges
 
-Not disclosed.
+The primary risks and challenges for Coactive AI include competition from established players like Surge AI, Snorkel AI, and Scale AI. Additionally, the company must continue to innovate and differentiate its platform to maintain its competitive edge in the rapidly evolving AI and data analytics market.
 
 ## Outlook
 
-Coactive AI appears to be well-positioned for growth, with a strong team, significant funding, and a focus on cutting-edge AI solutions. The company's partnerships and advisory board suggest a robust network that could support future expansion and innovation.
+The outlook for Coactive AI appears promising, given its strong investor backing and innovative platform. The company's focus on unlocking value from visual content positions it well to capitalize on the growing demand for AI-driven data analytics solutions. Continued investment in technology and talent will be crucial for sustaining growth and market relevance.
 
 ## Disclosure Gaps
 
-- Specific details on the company's revenue model and pricing strategy are not disclosed.
-- Information on customer acquisition costs and lifetime value is not available.
-- Detailed financial performance metrics, such as revenue growth or profitability, are not disclosed.
-- Specific risks and challenges faced by the company are not detailed.
+- Specific details about the company's go-to-market strategy are not disclosed.
+- Information on the company's revenue and profitability is not available.
+- The exact number of employees and their roles within the company are not specified.
+- Details on the company's customer base and market penetration are not provided.

@@ -1,22 +1,38 @@
 ## Company Overview
 
-Clay is a private AI startup headquartered in Brooklyn. The company operates a website at [clay.com](https://clay.com/). Clay is focused on leveraging AI to enhance growth strategies and sales processes.
+**Legal Name:** Clay  
+**Brand Name:** ClayCo  
+**Website:** [https://clay.global/](https://clay.global/)  
+**Headquarters:** Brooklyn, New York, NY  
+**Founded Year:** 2025  
+**Categories:** Data Test  
+
+Clay is a private AI startup headquartered in Brooklyn, New York. The company was founded in 2025 and operates in the data test category.
 
 ## Business Model and GTM
 
-Clay offers two main products:
-- **Claygent**: An AI tool designed to research target companies and individuals.
-- **Sculptor**: A platform that allows users to build go-to-market (GTM) workflows using natural language.
+Clay offers a suite of products designed to enhance go-to-market (GTM) strategies through AI and data integration. Key products include:
 
-The company states that its new custom signals platform helps sales teams track unique data changes that indicate buying opportunities. Additionally, Clay has integrated GPT-5 as a model option across its platform to enhance GTM workflows.
+- **Claygent:** An AI tool for researching target companies and individuals.
+- **Sculptor:** A platform for building GTM workflows using natural language.
+- **Signals:** A product for tracking job changes, news, and social mentions.
+- **Audiences:** A tool for combining signals, enrichment, and CRM data.
+- **Integrations:** Connects to over 150 providers and tools.
+
+The company states that its products are designed to help sales teams track unique data changes that indicate buying opportunities.
 
 ## Funding & Investor Profile
 
-Clay has raised a total of $62 million in funding. The last disclosed valuation was $500 million. The company completed a Series B round, raising $46 million from investors including Meritech Capital, Sequoia, First Round, Box Group, and Boldstart. Additionally, Clay raised $40 million in a Series B expansion at a $1.25 billion valuation.
+**Total Raised:** $105,000,000  
+**Last Disclosed Valuation:** $1,500,000,000  
+**Last Round Name:** Series B expansion  
+**Last Round Date:** November 4, 2025  
+
+Clay has raised significant funding from prominent investors, including Meritech Capital, Sequoia, First Round, Box Group, and Boldstart. The company has completed multiple funding rounds, including a $46M Series B and a $100M Series C at a $3.1B valuation.
 
 ## Growth Momentum
 
-Clay has demonstrated significant growth, achieving a 6x increase in 2024. The company has also made strategic acquisitions, such as acquiring Avenue to enhance its capabilities in helping growth teams act on intelligence. Claygent, one of its products, has surpassed 1 billion runs, indicating strong user engagement and adoption.
+Clay has demonstrated strong growth, with a reported 6x increase in 2024. The company has expanded its capabilities through strategic acquisitions, such as the acquisition of Avenue, and integrations with platforms like HG Insights and Webflow.
 
 ## Visibility & Market Sentiment
 
@@ -28,12 +44,11 @@ Not disclosed.
 
 ## Outlook
 
-The company states that it is well-positioned to capitalize on its growth momentum and product advancements. With substantial funding and strategic acquisitions, Clay aims to continue expanding its market presence and enhancing its product offerings.
+Clay's outlook appears positive, with substantial funding and a strong valuation. The company's focus on AI-driven GTM solutions positions it well for continued growth and market expansion.
 
 ## Disclosure Gaps
 
-- Specific dates for funding rounds, product releases, and acquisitions are not disclosed.
-- Detailed information on market sentiment and visibility is not available.
-- Risks and challenges faced by the company are not disclosed.
-- Leadership details are incomplete, with only a partial mention of "Kunal."
-- Additional context on the company's strategic direction and competitive landscape is not provided.
+- Specific details on the business model and go-to-market strategy are not disclosed.
+- Information on market sentiment and visibility is not available.
+- Risks and challenges facing the company are not disclosed.
+- Detailed financial performance metrics beyond funding and valuation are not provided.

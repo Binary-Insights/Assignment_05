@@ -1,0 +1,510 @@
+{
+  "company_record": {
+    "company_id": "baseten",
+    "legal_name": "Baseten",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-06",
+        "snippet": null,
+        "chunk_id": [
+          "baseten_careers_5ec8fecc#21.0",
+          "baseten_careers_29f0e494#5.0",
+          "baseten_careers_f2a33a7c#3.0"
+        ]
+      },
+      {
+        "source_url": "product",
+        "crawled_at": "2023-10-06",
+        "snippet": null,
+        "chunk_id": [
+          "baseten_product_03b757d1#23.0",
+          "baseten_product_73b32247#24.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-06",
+        "snippet": null,
+        "chunk_id": [
+          "baseten_blog_80ed124f#8.0",
+          "baseten_blog_8f7ad6cf#10.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": null,
+        "chunk_id": [
+          "baseten_about_6412a73a#16.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "company_id": "baseten",
+      "occurred_on": "2023-10-01",
+      "event_type": "product_release",
+      "title": "Baseten Training Is GA",
+      "description": "Baseten has made its training product generally available (GA) for all customers after receiving positive feedback from early users.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_blog_b9a8f771#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "company_id": "baseten",
+      "occurred_on": "2023-09-15",
+      "event_type": "product_release",
+      "title": "Launch of Brain MAX",
+      "description": "With the launch of Brain MAX, Baseten unlocked sub-300ms transcription with no unpredictable latency spikes, significantly enhancing user experience.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-09-15",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_careers_19bb69a6#4.0",
+            "baseten_careers_b81367cb#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "baseten",
+      "as_of": "2023-10-11",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Engineering",
+        "Product",
+        "Marketing"
+      ],
+      "pricing_tiers": null,
+      "active_products": [
+        "Dedicated deployments",
+        "Model APIs",
+        "Training",
+        "Inference Stack",
+        "Model Runtimes",
+        "Infrastructure",
+        "Multi-cloud Capacity Management",
+        "Developer Experience",
+        "Chains",
+        "Model management",
+        "Deployment options",
+        "Baseten Cloud",
+        "Self-hosted",
+        "Hybrid",
+        "Solutions",
+        "Enterprise",
+        "Transcription",
+        "Image generation",
+        "Text-to-speech",
+        "Large language models",
+        "Compound AI",
+        "Embeddings"
+      ],
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_careers_29f0e494#5.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_product_73b32247#24.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "baseten_product_73b32247#24.0",
+      "company_id": "baseten",
+      "name": "Baseten Cloud",
+      "description": "Deployment options including Baseten Cloud, Self-hosted, Hybrid, and Solutions for Enterprise, Transcription, Image generation, Text-to-speech, Large language models, Compound AI, and Embeddings.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_product_73b32247#24.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "baseten_product_03b757d1#23.0",
+      "company_id": "baseten",
+      "name": "Dedicated deployments",
+      "description": "Dedicated deployments, Model APIs, Training, Inference Stack, Model Runtimes, Infrastructure, Multi-cloud Capacity Management, Developer Experience, Chains, Model management, Deployment options including Baseten Cloud, Self-hosted, Hybrid, Solutions, Enterprise, Transcription.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_product_03b757d1#23.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "baseten_product_52114468#21.0",
+      "company_id": "baseten",
+      "name": "Inference Stack",
+      "description": "Inference for custom-built LLMs with cost-effective high-performance model serving.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_product_52114468#21.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "baseten_product_96c18c76#1.0",
+      "company_id": "baseten",
+      "name": "Multi-Model Inference",
+      "description": "Multi-model inference built for ultra-low latency at scale using Chains to orchestrate inference workflows across multiple models.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_product_96c18c76#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "baseten_product_8811182c#18.0",
+      "company_id": "baseten",
+      "name": "Multi-model pipelines",
+      "description": "Build powerful compound AI systems and experiences like AI phone calling, multi-step image generation, and Multimodal chat.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_product_8811182c#18.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "nathan-sobo",
+      "company_id": "baseten",
+      "name": "Nathan Sobo",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_about_6412a73a#16.0",
+            "baseten_about_9a7cfa6e#11.0",
+            "baseten_about_e76d0412#17.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "federico-puddu",
+      "company_id": "baseten",
+      "name": "Federico Puddu",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_careers_f2a33a7c#3.0",
+            "baseten_careers_19bb69a6#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "sahaj-garg",
+      "company_id": "baseten",
+      "name": "Sahaj Garg",
+      "role": "Co-Founder and CTO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_about_9a7cfa6e#11.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "mahendan-karunakaran",
+      "company_id": "baseten",
+      "name": "Mahendan Karunakaran",
+      "role": "Head of Mobile Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_about_9a7cfa6e#11.0",
+            "baseten_about_98f7aaa1#12.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "isaiah-granet",
+      "company_id": "baseten",
+      "name": "Isaiah Granet",
+      "role": "CEO and Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_about_98f7aaa1#12.0",
+            "baseten_about_bd9da59d#13.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "baseten",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_careers_5ec8fecc#21.0",
+            "baseten_careers_29f0e494#5.0",
+            "baseten_careers_f2a33a7c#3.0",
+            "baseten_careers_6c20654a#19.0",
+            "baseten_careers_1a56e2ac#17.0",
+            "baseten_careers_19bb69a6#4.0",
+            "baseten_careers_53bd280c#20.0",
+            "baseten_careers_b81367cb#2.0",
+            "baseten_careers_3ea97a1f#11.0",
+            "baseten_careers_1a34ad23#16.0",
+            "baseten_careers_b9971540#15.0",
+            "baseten_careers_29e0f341#12.0",
+            "baseten_careers_8dcef574#18.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_blog_80ed124f#8.0",
+            "baseten_blog_b9a8f771#3.0",
+            "baseten_blog_8f7ad6cf#10.0",
+            "baseten_blog_12b560f7#2.0",
+            "baseten_blog_27f913ae#9.0",
+            "baseten_blog_872c5822#5.0",
+            "baseten_blog_f679ec95#4.0",
+            "baseten_blog_1b40c803#6.0",
+            "baseten_blog_8269e6b0#1.0",
+            "baseten_blog_fed45e1c#7.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_product_73b32247#24.0",
+            "baseten_product_03b757d1#23.0",
+            "baseten_product_52114468#21.0",
+            "baseten_product_cda465ab#20.0",
+            "baseten_product_96c18c76#1.0",
+            "baseten_product_2cfa0928#19.0",
+            "baseten_product_8811182c#18.0",
+            "baseten_product_25d0d8b1#16.0",
+            "baseten_product_eba57ace#22.0",
+            "baseten_product_7f0792c1#14.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "baseten_about_9a7cfa6e#11.0",
+            "baseten_about_6412a73a#16.0",
+            "baseten_about_36ed0e48#10.0",
+            "baseten_about_d14a3794#20.0",
+            "baseten_about_989d873b#18.0",
+            "baseten_about_fe4f4b76#14.0",
+            "baseten_about_46328b49#4.0",
+            "baseten_about_98f7aaa1#12.0",
+            "baseten_about_074b8860#19.0",
+            "baseten_about_1f7c2329#21.0",
+            "baseten_about_bb7afed8#1.0",
+            "baseten_about_1e0a7042#6.0",
+            "baseten_about_bd9da59d#13.0",
+            "baseten_about_e76d0412#17.0",
+            "baseten_about_14b406a8#2.0",
+            "baseten_about_4ea39a77#3.0",
+            "baseten_about_9e76236a#15.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T18:58:30.106685",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

@@ -4,68 +4,426 @@
     "company_name": "Anysphere",
     "company_slug": "anysphere",
     "pipeline_type": "structured",
-    "timestamp": "2025-11-12T22:59:48.121425Z",
+    "timestamp": "2025-11-21T19:37:45.390964Z",
     "markdown_file": "markdown/anysphere/structured.md",
-    "content": "## Company Overview\nAnysphere, Inc. is a private AI startup known for its product, Cursor, which is designed to enhance software development processes. The company claims that Cursor is a powerful and customizable tool that helps standardize engineering teams on the same tools and best practices, aiming to catch real bugs and security issues before they reach production. The company is reportedly used by major enterprises such as Salesforce, NVIDIA, and PwC to accelerate product velocity and build durable software.\n\n## Business Model and GTM\nThe company states that its product, Cursor, is the best way to build software, suggesting a focus on enterprise clients who require robust and customizable software development tools. The go-to-market strategy appears to target large enterprises, as evidenced by its reported use by companies like Salesforce, NVIDIA, and PwC.\n\n## Funding & Investor Profile\nNot disclosed.\n\n## Growth Momentum\nAnysphere's product, Cursor, is reportedly used by tens of thousands of enterprises, indicating significant adoption and growth momentum within the enterprise software development market.\n\n## Visibility & Market Sentiment\nThe company has limited visibility and market presence data available. There is one mention, but details are not disclosed.\n\n## Risks and Challenges\nNot disclosed.\n\n## Outlook\nThe company appears to be positioned well within the enterprise software development market, with its product being adopted by major enterprises. However, specific future plans or strategic directions are not disclosed.\n\n## Disclosure Gaps\n- Specific funding and investor information is not disclosed.\n- Detailed information on leadership roles and responsibilities is not provided.\n- Exact dates for product releases are unknown.\n- Risks and challenges faced by the company are not disclosed.\n- Market sentiment and broader visibility details are limited."
+    "content": "## Company Overview\n\nAnysphere, Inc., operating under the brand name Cursor, is a private AI startup headquartered in San Francisco, California, United States. The company was founded in 2021 and focuses on developing AI-driven tools for software development. Its website is www.anysphere.co.\n\n## Business Model and GTM\n\nAnysphere's business model revolves around providing AI-powered software development tools. Their product lineup includes Cursor, Cursor Enterprise, Cursor Agents, Composer, and Cloud Agents. These products are designed to enhance software engineering by delegating coding tasks to AI, allowing developers to focus on strategic direction. The company states that its products are purpose-built for working with agents, emphasizing speed and intelligence in software engineering.\n\n## Funding & Investor Profile\n\nAnysphere recently completed a Series D funding round, achieving a valuation of $2.3 billion. The company has not disclosed specific investors or the total amount raised in this round.\n\n## Growth Momentum\n\nThe company states that it has surpassed $1 billion in annualized revenue, indicating significant growth momentum. This milestone reflects strong market adoption and the scalability of its AI-driven solutions.\n\n## Visibility & Market Sentiment\n\nVisibility and market sentiment details are limited. The company has not disclosed specific mentions or market presence metrics.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nAnysphere's outlook appears positive, given its recent valuation and revenue milestones. The company's focus on AI-driven software development tools positions it well in the growing AI and software engineering markets.\n\n## Disclosure Gaps\n\n- Specific details about the leadership team roles and backgrounds are not disclosed.\n- The exact date of the Series D funding round is not provided.\n- Information on specific investors and the total amount raised in the Series D round is not disclosed.\n- Detailed visibility and market sentiment data are not available.\n- Risks and challenges facing the company are not disclosed."
   },
   "rag": {
     "company_name": "Anysphere",
     "company_slug": "anysphere",
     "pipeline_type": "rag",
-    "timestamp": "2025-11-12T23:02:51.801413Z",
+    "timestamp": "2025-11-21T19:39:45.484749Z",
     "markdown_file": "markdown/anysphere/rag.md",
-    "content": "## Company Overview\n\nAnysphere, Inc. is a private company that operates in the AI sector. The company is SOC 2 Certified, indicating a commitment to maintaining high standards of data security and privacy. Anysphere provides its services in multiple languages, including English, Simplified Chinese, Japanese, and Traditional Chinese.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nNot disclosed.\n\n## Growth Momentum\n\nNot disclosed.\n\n## Visibility & Market Sentiment\n\nAnysphere maintains a presence on platforms such as LinkedIn and YouTube, which suggests an effort to engage with a professional audience and share content related to its operations and offerings.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nNot disclosed.\n\n## Disclosure Gaps\n\nThe provided context lacks specific details on Anysphere's business model, go-to-market strategy, funding history, investor profile, growth metrics, specific risks and challenges, and future outlook.",
+    "content": "## Company Overview\n\nAnysphere is a private company headquartered in San Francisco, California. It operates within the software development industry, focusing on artificial intelligence-powered coding platforms designed to enhance the productivity and capabilities of programmers and software engineers. The company is known for its product, Cursor, which aims to automate coding and improve the efficiency of software development. As of 2025, Anysphere employs approximately 300 people.\n\n## Business Model and GTM\n\nAnysphere's business model revolves around developing AI tools and assistants to aid human programmers. The company states its mission is to build a \"human-AI programmer\" that is significantly more effective than a single programmer. This hybrid engineer is designed to have effortless control over their codebase, enabling rapid iteration even in complex systems. Anysphere's product, Cursor, is used by tens of thousands of enterprises, including notable companies like Salesforce, NVIDIA, and PwC, to accelerate product development and enhance software durability.\n\n## Funding & Investor Profile\n\nAnysphere has raised a total of $2.3 billion in its Series D funding round, achieving a valuation of $29.3 billion. The round was co-led by Accel. Prior to this, the company raised $900 million in a Series C round. Other investors include Thrive Capital and two additional undisclosed investors. The company has completed five funding rounds in total.\n\n## Growth Momentum\n\nAnysphere has demonstrated significant growth momentum, with its annualized revenue surpassing $1 billion. The company has been recognized as a highflier among other AI companies and has been included in several expert collections related to artificial intelligence. The company claims that its product, Cursor, has improved the productivity of millions of programmers and is trusted by 64% of Fortune 500 companies.\n\n## Visibility & Market Sentiment\n\nAnysphere is positioned as a leader in the AI-powered coding market, with a strong presence in the enterprise sector. The company has been featured in various industry reports and is recognized for its innovative approach to automating coding. The company states that its product, Cursor, has been instrumental in increasing the productivity of coding agents, as evidenced by a study from the University of Chicago.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nAnysphere is poised for continued growth, driven by its innovative AI solutions and strong market presence. The company's focus on automating coding and enhancing programmer productivity positions it well in the rapidly evolving software development industry. With significant funding and a robust product offering, Anysphere is expected to maintain its leadership position in the AI coding market.\n\n## Disclosure Gaps\n\n- Specific founding date of Anysphere is not disclosed.\n- Detailed information on risks and challenges faced by the company is not disclosed.\n- The identities of two additional investors in the Series D funding round are not disclosed.",
     "context_results": [
       {
-        "id": "anysphere_careers_7648a062",
-        "similarity_score": 0.345436096,
-        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "id": "anysphere_tavily_85857a95",
+        "similarity_score": 0.414573669,
+        "text": "Anysphere 2025 Company Profile: Valuation, Funding & Investors\n\nAnysphere ; HQ Location. San Francisco, CA ; Employees. 300 as of 2025 ; Primary Industry. Business/Productivity Software.",
         "metadata": {
-          "chunk_index": 6.0,
           "company_slug": "anysphere",
-          "content_hash": "7648a062",
-          "indexed_at": "2025-11-11T20:35:41.458162",
-          "page_type": "careers",
-          "source_file": "data/raw/anysphere/careers/text.txt"
+          "content_hash": "85857a95",
+          "ingested_at": "2025-11-21T19:27:04.065661",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/519419-89",
+          "title": "Anysphere 2025 Company Profile: Valuation, Funding & Investors"
         }
       },
       {
-        "id": "anysphere_blog_7648a062",
-        "similarity_score": 0.345253,
-        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "id": "anysphere_about_7805acc4",
+        "similarity_score": 0.40429306,
+        "text": "We raised our Series D of $2.3B and have passed $1B in annualized revenue.\ncompany\n·\nNov 13, 2025\nThe productivity impact of coding agents\nA new study from the University of Chicago finds that companies merge 39% more PRs after Cursor's agent became the default.\nresearch\n·\nNov 11, 2025\nIntroducing Cursor 2.0 and Composer\nA new interface and our first coding model, both purpose-built for working with agents.\nproduct\n·\nOct 29, 2025\nView more posts\n→\nQuestions & Answers",
         "metadata": {
-          "chunk_index": 6.0,
+          "chunk_index": 20.0,
           "company_slug": "anysphere",
-          "content_hash": "7648a062",
-          "indexed_at": "2025-11-11T04:48:58.501615",
-          "page_type": "blog",
-          "source_file": "data/raw/anysphere/blog/text.txt"
-        }
-      },
-      {
-        "id": "anysphere_about_7648a062",
-        "similarity_score": 0.345123291,
-        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
-        "metadata": {
-          "chunk_index": 6.0,
-          "company_slug": "anysphere",
-          "content_hash": "7648a062",
-          "indexed_at": "2025-11-11T04:48:58.500684",
+          "content_hash": "7805acc4",
+          "indexed_at": "2025-11-21T18:36:41.424458",
           "page_type": "about",
           "source_file": "data/raw/anysphere/about/text.txt"
         }
       },
       {
-        "id": "anysphere_product_7648a062",
-        "similarity_score": 0.345081329,
-        "text": "X\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "id": "anysphere_tavily_150cb40f",
+        "similarity_score": 0.40020752,
+        "text": "Series B Stage Tech Companies & Startups - Employbl\n\n| Maven AGI  Maven AGI is a technology company that focuses on the development of modern artificial intelligence (AI) solutions. The company is revolutionizing the video creation and editing process through the integration of AI, offering a user-friendly and | Palo Alto | CA | 5 - 10 | 2023 | $135,000,000 | The company's custom application development is combined with cloud operations as a service, lowering risk and increasing predictability for Global 2000 c | San Francisco | CA | 50 - 200 | 2022 | $83,999,992 | Its platform also offers reinforcement learning that teaches AI through trial and error and offers AI systems that pick up a vast amount of information during training | San Francisco | CA | 10 - 50 | 2022 |",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "150cb40f",
+          "ingested_at": "2025-11-21T19:27:05.530418",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/series-b",
+          "title": "Series B Stage Tech Companies & Startups - Employbl"
+        }
+      },
+      {
+        "id": "anysphere_tavily_157b3f36",
+        "similarity_score": 0.399791718,
+        "text": "Anysphere 2025 Company Profile: Valuation, Funding & Investors\n\nDeveloper of an artificial intelligence-powered coding platform designed to enhance the productivity and capabilities of programmers and software engineers.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "157b3f36",
+          "ingested_at": "2025-11-21T19:26:13.911301",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/519419-89",
+          "title": "Anysphere 2025 Company Profile: Valuation, Funding & Investors"
+        }
+      },
+      {
+        "id": "anysphere_tavily_370b3954",
+        "similarity_score": 0.396795303,
+        "text": "Anysphere – MapCo Company Profile\n\nHQ Country. N/A. People. Loading... Add Marketing Information. Add ... Anysphere raised $2.3 billion at a $29.3 billion valuation, co-led by Accel",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "370b3954",
+          "ingested_at": "2025-11-21T19:27:16.426432",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.mapco.ai/company.html?instance=aiagents&category=Software%20Development&company=Anysphere",
+          "title": "Anysphere – MapCo Company Profile"
+        }
+      },
+      {
+        "id": "anysphere_tavily_151d7a38",
+        "similarity_score": 0.394979537,
+        "text": "Anysphere - 2025 Company Profile, Team, Funding & Competitors\n\nAnysphere is headquartered in San Francisco, United States. How much is Anysphere worth? The latest valuation of Anysphere is $9.9B as of Jun 05",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "151d7a38",
+          "ingested_at": "2025-11-21T19:26:51.240715",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/anysphere/__boMTRCeqvEyO5l8MfmRisI6Gmrw7Hjta62sJbpUI4uc",
+          "title": "Anysphere - 2025 Company Profile, Team, Funding & Competitors"
+        }
+      },
+      {
+        "id": "anysphere_tavily_f17b781a",
+        "similarity_score": 0.38712123,
+        "text": "Series B Stage Tech Companies & Startups\n\n| Maven AGI  Maven AGI is a technology company that focuses on the development of modern artificial intelligence (AI) solutions. The company is revolutionizing the video creation and editing process through the integration of AI, offering a user-friendly and | Palo Alto | CA | 5 - 10 | 2023 | $135,000,000 | The company's custom application development is combined with cloud operations as a service, lowering risk and increasing predictability for Global 2000 c | San Francisco | CA | 50 - 200 | 2022 | $83,999,992 | Its platform also offers reinforcement learning that teaches AI through trial and error and offers AI systems that pick up a vast amount of information during training | San Francisco | CA | 10 - 50 | 2022 |",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "f17b781a",
+          "ingested_at": "2025-11-21T19:27:03.409048",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/series-b",
+          "title": "Series B Stage Tech Companies & Startups"
+        }
+      },
+      {
+        "id": "anysphere_tavily_707ed53e",
+        "similarity_score": 0.380245209,
+        "text": "Anysphere\n\nOverview:\nWe're Anysphere, the team behind Cursor. Our mission is to automate coding. Our approach is to build the engineer of the future: a human-AI programmer that's an order of magnitude more effective than any one programmer. This hybrid engineer will have effortless control over their codebase and no low-entropy keystrokes. They will iterate at the speed of their judgment, even in the most complex systems. Using a combination of AI and human ingenuity, they will out-smart and out-engineer the best pure-AI system. We are a group of researchers and engineers. We build software and models to invent at the edge of what's useful and what's possible. Cursor has already improved the lives of millions of programmers.\n\nWebsite: https://www.anysphere.co/\nCrunchbase Url: https://www.crunchbase.com/organization/anysphere?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase\nLinkedin Url: https://www.linkedin.com/company/anysphereinc\n\nIndustry:\nSoftware Development\n\nCompany size:\n51-200 employees\n1408 associated members (LinkedIn members who’ve listed Anysphere as their current workplace on their profile)\n\nFounded:\nN/A\n\nFunding:\nLast Round Date: 2025-07-05T00:00:00.000Z\nLast Round Type: Series C\nTotal Rounds: 5\nLast Round Raised: US$ 900.0M\n\nInvestors:\nThrive Capital, + 2 Other investors",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "707ed53e",
+          "ingested_at": "2025-11-21T19:26:32.260718",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/company/anysphereinc",
+          "title": "Anysphere"
+        }
+      },
+      {
+        "id": "anysphere_tavily_ae92a478",
+        "similarity_score": 0.374053955,
+        "text": "[PDF] Shaping an AI-enabled Future - Naspers\n\nWe believe we are close to an inversion - value and investments will skyrocket in the application layer.” Euro Beinat, Global Head AI and Data Science at Prosus Page / 7 Page / 8 We believe we are close to an inversion, value and investments will skyrocket in the application layer Estimated annual revenues by stack Estimated annual revenues by stack @apoorv03 Source: $400B $400B $200B $200B $50B $50B Cloud Cloud $10B $10B Generative AI Generative AI $5B $5B $75B $75B Infra Infra Apps Apps Semi Semi Page / 9 Source: Dealroom.co Prosus has made a number of investments in the AI-enabled future AI for e-Commerce Digital Workforce Companies that are using AI to drive growth and efficiencies for e-commerce customers AI agents to augment and/or substitute labor (typically, white collar jobs) Qeen Advolve Taktile Voa Health SpotDraft Nexad Corti Ema Screenshot 2025-04-01 at Page / 10 Commerce Nexad AI-native generative ad system 2 2024 N/A Advolve AI powered advertising 6 2023 17 qeen.ai AI-driven e-commerce OS 11 2023 53 Taktile Automated risk management 72 2020 22 Corti AI platform for healthcare practitioners 87 2016 23 Ema Universal AI employee 55 2023 87 SpotDraft Legal contract automation 75 2017 17 VoaHealth AI platform for healthcare practitioners 0 2023 36 Source:Dealroom.co Prosus has made a number of investments in the AI-enabled future Space Space Name Name Tagline Tagline HQ Country HQ Country Employee growth % (last 6 months) Employee growth %",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "ae92a478",
+          "ingested_at": "2025-11-21T19:27:17.244440",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.naspers.com/~/media/Files/N/Naspers-Corp-V2/investor/shaping-an-ai-enabled-future.pdf",
+          "title": "[PDF] Shaping an AI-enabled Future - Naspers"
+        }
+      },
+      {
+        "id": "anysphere_tavily_c249ce15",
+        "similarity_score": 0.372543335,
+        "text": "Andreessen Horowitz Portfolio Companies - Employbl\n\nAnysphere is a company that builds Artificial Intelligence tools and assistants to help humans. San Francisco, CA, 5 - 10, 2022, $173,400,000.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "c249ce15",
+          "ingested_at": "2025-11-21T19:27:04.886038",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/andreessen-horowitz",
+          "title": "Andreessen Horowitz Portfolio Companies - Employbl"
+        }
+      },
+      {
+        "id": "anysphere_tavily_b3e1b778",
+        "similarity_score": 0.372138977,
+        "text": "Anysphere - LinkedIn\n\nOverview:\nWe're Anysphere, the team behind Cursor. Our mission is to automate coding. Our approach is to build the engineer of the future: a human-AI programmer that's an order of magnitude more effective than any one programmer. This hybrid engineer will have effortless control over their codebase and no low-entropy keystrokes. They will iterate at the speed of their judgment, even in the most complex systems. Using a combination of AI and human ingenuity, they will out-smart and out-engineer the best pure-AI system. We are a group of researchers and engineers. We build software and models to invent at the edge of what's useful and what's possible. Cursor has already improved the lives of millions of programmers.\n\nWebsite: https://www.anysphere.co/\nCrunchbase Url: https://www.crunchbase.com/organization/anysphere?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase\nLinkedin Url: https://www.linkedin.com/company/anysphereinc\n\nIndustry:\nSoftware Development\n\nCompany size:\n51-200 employees\n1408 associated members (LinkedIn members who’ve listed Anysphere as their current workplace on their profile)\n\nFounded:\nN/A\n\nFunding:\nLast Round Date: 2025-07-05T00:00:00.000Z\nLast Round Type: Series C\nTotal Rounds: 5\nLast Round Raised: US$ 900.0M\n\nInvestors:\nThrive Capital, + 2 Other investors",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "b3e1b778",
+          "ingested_at": "2025-11-21T19:26:12.423885",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/company/anysphereinc",
+          "title": "Anysphere - LinkedIn"
+        }
+      },
+      {
+        "id": "anysphere_tavily_9d4dadda",
+        "similarity_score": 0.369829208,
+        "text": "Anysphere\n\nHeadquarters. San Francisco, California. ,. United States. Key people. Michael Truell (CEO). Products, Cursor. Revenue, US$500 million ARR (2025). Number",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "9d4dadda",
+          "ingested_at": "2025-11-21T19:26:50.302638",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://en.wikipedia.org/wiki/Anysphere",
+          "title": "Anysphere"
+        }
+      },
+      {
+        "id": "anysphere_blog_40a18162",
+        "similarity_score": 0.369247437,
+        "text": "Blog · Cursor\nSkip to content\nCursor\nFeatures\nEnterprise\nPricing\nResources\n↓\nChangelog\nBlog\nDocs\nCommunity\nForum\n↗\nCareers\nFeatures\nEnterprise\nPricing\nResources\n→\nSign in\nDownload\nBlog\nall posts\nProduct\nResearch\nCompany\nNews\nPast, Present, and Future\nWe raised our Series D of $2.3B and have passed $1B in annualized revenue.\ncompany\n·\nNov 13, 2025\nThe productivity impact of coding agents",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "anysphere",
+          "content_hash": "40a18162",
+          "indexed_at": "2025-11-21T18:36:41.425394",
+          "page_type": "blog",
+          "source_file": "data/raw/anysphere/blog/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_tavily_ecd656b7",
+        "similarity_score": 0.368030548,
+        "text": "Anysphere 2025 Company Profile: Valuation, Funding & Investors\n\nWhere is Anysphere headquartered? Anysphere is headquartered in San Francisco, CA. What is the size of Anysphere? Anysphere has 300 total employees.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "ecd656b7",
+          "ingested_at": "2025-11-21T19:26:50.817824",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/519419-89",
+          "title": "Anysphere 2025 Company Profile: Valuation, Funding & Investors"
+        }
+      },
+      {
+        "id": "anysphere_tavily_357f2cda",
+        "similarity_score": 0.361183196,
+        "text": "Andreessen Horowitz Portfolio Companies\n\nAnysphere is a company that builds Artificial Intelligence tools and assistants to help humans. San Francisco, CA, 5 - 10, 2022, $173,400,000.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "357f2cda",
+          "ingested_at": "2025-11-21T19:27:02.960124",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/andreessen-horowitz",
+          "title": "Andreessen Horowitz Portfolio Companies"
+        }
+      },
+      {
+        "id": "anysphere_tavily_763be131",
+        "similarity_score": 0.357524902,
+        "text": "Anysphere - 2025 Company Profile & Team\n\nAnysphere is headquartered in San Francisco, United States. How much is Anysphere worth? The latest valuation of Anysphere is $9.9B as of Jun 05",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "763be131",
+          "ingested_at": "2025-11-21T19:27:16.283832",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/anysphere/__boMTRCeqvEyO5l8MfmRisI6Gmrw7Hjta62sJbpUI4uc",
+          "title": "Anysphere - 2025 Company Profile & Team"
+        }
+      },
+      {
+        "id": "anysphere_tavily_b0ad7f96",
+        "similarity_score": 0.356155396,
+        "text": "Anysphere - Crunchbase Company Profile & Funding\n\nWhere is Anysphere 's headquarters? Anysphere is located in San Francisco, California, United States . Who invested in Anysphere ? Anysphere has 16",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "b0ad7f96",
+          "ingested_at": "2025-11-21T19:26:50.053445",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/anysphere",
+          "title": "Anysphere - Crunchbase Company Profile & Funding"
+        }
+      },
+      {
+        "id": "anysphere_blog_69fe5752",
+        "similarity_score": 0.353622437,
+        "text": "Changelog\nDocs\nForum\n↗\nStatus\n↗\nCompany\nCareers\nBlog\nCommunity\nStudents\nBrand\nAnysphere\n↗\nLegal\nTerms of Service\nPrivacy Policy\nData Use\nSecurity\nConnect\nX\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
         "metadata": {
           "chunk_index": 6.0,
           "company_slug": "anysphere",
-          "content_hash": "7648a062",
-          "indexed_at": "2025-11-11T04:48:58.503625",
-          "page_type": "product",
-          "source_file": "data/raw/anysphere/product/text.txt"
+          "content_hash": "69fe5752",
+          "indexed_at": "2025-11-21T18:36:41.425475",
+          "page_type": "blog",
+          "source_file": "data/raw/anysphere/blog/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_tavily_76fc20f6",
+        "similarity_score": 0.351400405,
+        "text": "Anysphere - Valuation, Funding & Investors\n\nWhere is Anysphere headquartered? Anysphere is headquartered in San Francisco, CA. What is the size of Anysphere? Anysphere has 300 total employees.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "76fc20f6",
+          "ingested_at": "2025-11-21T19:26:49.849320",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/519419-89",
+          "title": "Anysphere - Valuation, Funding & Investors"
+        }
+      },
+      {
+        "id": "anysphere_tavily_32744474",
+        "similarity_score": 0.341529846,
+        "text": "Anysphere - Products, Competitors, Financials, Employees, Headquarters ...\n\n# Anysphere anysphere.inc ## About Anysphere Anysphere is an applied research lab focused on automating coding within the software development industry. The coding AI agents & copilots market consists of AI-powered solutions that help software developers write, fix, test, and maintain code. Anysphere named as Highflier among 15 other companies, including Augment Code, Replit, and Cognition. Anysphere is included in **5 Expert Collections,** including **Artificial Intelligence (AI)**. Cognition operates as an applied artificial intelligence (AI) lab that develops AI-driven tools for software engineering. Its main service includes an AI coding assistant for enterprises, designed to improve the end-to-end developer workflow by incorporating the company's libraries and coding patterns while ensuring data security and privacy.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "32744474",
+          "ingested_at": "2025-11-21T19:26:52.476326",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.cbinsights.com/company/anysphere",
+          "title": "Anysphere - Products, Competitors, Financials, Employees, Headquarters ..."
+        }
+      },
+      {
+        "id": "anysphere_tavily_b192e58d",
+        "similarity_score": 0.340484649,
+        "text": "Anysphere Inc - Company Profile and News - Bloomberg Markets\n\nAnysphere Inc ; SUB-INDUSTRY. Software ; INCORPORATED. 01/06/2022 ; ADDRESS. 1967 Wehrle Dr Suite 1-096 Buffalo, NY 14221 United States ; WEBSITE. www.anysphere.co",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "b192e58d",
+          "ingested_at": "2025-11-21T19:27:04.658081",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.bloomberg.com/profile/company/2313364D:US",
+          "title": "Anysphere Inc - Company Profile and News - Bloomberg Markets"
+        }
+      },
+      {
+        "id": "anysphere_careers_fcd89b7e",
+        "similarity_score": 0.338329345,
+        "text": "Resources\nDownload\nWeb Agents\nChangelog\nDocs\nForum\n↗\nStatus\n↗\nCompany\nCareers\nBlog\nCommunity\nStudents\nBrand\nAnysphere\n↗\nLegal\nTerms of Service\nPrivacy Policy\nData Use\nSecurity\nConnect\nX\n↗\nLinkedIn\n↗\nYouTube\n↗\n©\n2025\nAnysphere, Inc.\n🛡\nSOC 2 Certified\n🖥\n☉\n☾\n🌐\nEnglish\n↓\nEnglish\n✓\n简体中文\n日本語\n繁體中文",
+        "metadata": {
+          "chunk_index": 7.0,
+          "company_slug": "anysphere",
+          "content_hash": "fcd89b7e",
+          "indexed_at": "2025-11-21T18:36:41.426337",
+          "page_type": "careers",
+          "source_file": "data/raw/anysphere/careers/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_tavily_23481ff8",
+        "similarity_score": 0.338092804,
+        "text": "Anysphere - Products, Competitors, Financials, Employees ...\n\n# Anysphere anysphere.inc ## About Anysphere Anysphere is an applied research lab focused on automating coding within the software development industry. The coding AI agents & copilots market consists of AI-powered solutions that help software developers write, fix, test, and maintain code. Anysphere named as Highflier among 15 other companies, including Augment Code, Replit, and Cognition. Anysphere is included in **5 Expert Collections,** including **Artificial Intelligence (AI)**. Cognition operates as an applied artificial intelligence (AI) lab that develops AI-driven tools for software engineering. Its main service includes an AI coding assistant for enterprises, designed to improve the end-to-end developer workflow by incorporating the company's libraries and coding patterns while ensuring data security and privacy.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "23481ff8",
+          "ingested_at": "2025-11-21T19:27:04.315106",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.cbinsights.com/company/anysphere",
+          "title": "Anysphere - Products, Competitors, Financials, Employees ..."
+        }
+      },
+      {
+        "id": "anysphere_careers_8fc5bdc7",
+        "similarity_score": 0.33808139,
+        "text": "Sales Manager\nGTM\n·\nFull-time\n·\nSF / NY\nApply →\nSecurity GRC Engineer\nEngineering\n·\nFull-time\n·\nSF / NY\nApply →\nSoftware Engineer, Client Infrastructure\nEngineering\n·\nFull-time\n·\nSF / NY / Remote\nApply →\nSoftware Engineer, Enterprise\nEngineering\n·\nFull-time\n·\nSF / NY\nApply →\nSoftware Engineer, Growth\nEngineering\n·\nFull-time\n·\nSF / NY\nApply →\nSoftware Engineer, Infrastructure\nEngineering\n·\nFull-time\n·\nSF / NY\nApply →\nSoftware Engineer, ML Research\nEngineering\n·\nFull-time\n·\nSF / NY\nApply →",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "anysphere",
+          "content_hash": "8fc5bdc7",
+          "indexed_at": "2025-11-21T18:36:41.426294",
+          "page_type": "careers",
+          "source_file": "data/raw/anysphere/careers/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_blog_44582c74",
+        "similarity_score": 0.334587097,
+        "text": "research\n·\nNov 6, 2025\nIntroducing Cursor for Enterprise\nCursor is used by tens of thousands of enterprises, including Salesforce, NVIDIA, and PwC, to accelerate product velocity and build durable software.\nproduct\n·\nOct 31, 2025\nCloud Agents\nCloud agents make it easy to run many agents at once, without requiring your laptop to stay connected to the internet.\nproduct\n·\nOct 30, 2025\nComposer: Building a fast frontier model with RL",
+        "metadata": {
+          "chunk_index": 3.0,
+          "company_slug": "anysphere",
+          "content_hash": "44582c74",
+          "indexed_at": "2025-11-21T18:36:41.425427",
+          "page_type": "blog",
+          "source_file": "data/raw/anysphere/blog/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_tavily_25506641",
+        "similarity_score": 0.333969116,
+        "text": "Anysphere Funding | Complete Analysis - Extruct AI\n\nAnysphere? Anysphere is an applied research lab that automates coding by developing a hybrid human-AI programmer to improve programming efficiency. HQ Country.",
+        "metadata": {
+          "company_slug": "anysphere",
+          "content_hash": "25506641",
+          "ingested_at": "2025-11-21T19:27:16.673969",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.extruct.ai/hub/anysphere-inc/",
+          "title": "Anysphere Funding | Complete Analysis - Extruct AI"
+        }
+      },
+      {
+        "id": "anysphere_blog_036644bd",
+        "similarity_score": 0.32989502,
+        "text": "company\n·\nNov 13, 2025\nThe productivity impact of coding agents\nA new study from the University of Chicago finds that companies merge 39% more PRs after Cursor's agent became the default.\nresearch\n·\nNov 11, 2025\nImproving agent with semantic search\nSemantic search significantly improves coding agent performance with 12.5% higher accuracy, improves code retention and decreases dissatisfied user requests.\nresearch\n·\nNov 6, 2025\nIntroducing Cursor for Enterprise",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "anysphere",
+          "content_hash": "036644bd",
+          "indexed_at": "2025-11-21T18:36:41.425415",
+          "page_type": "blog",
+          "source_file": "data/raw/anysphere/blog/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_about_c09faa41",
+        "similarity_score": 0.329006195,
+        "text": "Cody De Arkland\nSenior Director\n,\nSentry\nAt Optiver, we’ve recently expanded our Cursor usage to firm-wide deployment. Our teams have consistently found Cursor to be robust, context-aware, and flexible enough to support the scale and complexity of a global trading firm.\nScott McKenzie\nHead of Engineering\n,\nOptiver\nBring Cursor to your team\n→\nLatest from Cursor\nPast, Present, and Future\nWe raised our Series D of $2.3B and have passed $1B in annualized revenue.\ncompany\n·\nNov 13, 2025",
+        "metadata": {
+          "chunk_index": 19.0,
+          "company_slug": "anysphere",
+          "content_hash": "c09faa41",
+          "indexed_at": "2025-11-21T18:36:41.424451",
+          "page_type": "about",
+          "source_file": "data/raw/anysphere/about/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_about_4e8e49b3",
+        "similarity_score": 0.328964263,
+        "text": "64%\nFortune 500 companies using Cursor.\n50,000+\nEnterprises choose to build with Cursor.\n100M+\nLines of enterprise code written per day with Cursor.\nTrusted by companies worldwide\nBuilt with security and compliance at the core.\nDedicated guidance\nDeploy AI at scale with professional expertise.\nPremium support\nTailored support for teams with specialized needs.\nZero data retention\nNo training on your data by Cursor or LLM providers.\nIdentity management",
+        "metadata": {
+          "chunk_index": 14.0,
+          "company_slug": "anysphere",
+          "content_hash": "4e8e49b3",
+          "indexed_at": "2025-11-21T18:36:41.424417",
+          "page_type": "about",
+          "source_file": "data/raw/anysphere/about/text.txt"
+        }
+      },
+      {
+        "id": "anysphere_careers_1cff695c",
+        "similarity_score": 0.328472137,
+        "text": "We obsess over talent to an unusual degree and are designing a company that’s a haven for self-motivated individual contributors. This work demands our best.\nIf this sounds exciting, we’d love to hear from you.\nOpen roles\nAll teams\n↓\nAll teams\n✓\nGTM\nEngineering\nUser Ops\nOperations\nAll locations\n↓\nAll locations\n✓\nSF / NY\nNew York\nRemote\nSan Francisco\nSF / NY / Remote\nAccount Executive\nGTM\n·\nFull-time\n·\nSF / NY\nApply →\nBrand Designer\nEngineering\n·\nFull-time\n·\nNew York\nApply →",
+        "metadata": {
+          "chunk_index": 2.0,
+          "company_slug": "anysphere",
+          "content_hash": "1cff695c",
+          "indexed_at": "2025-11-21T18:36:41.426255",
+          "page_type": "careers",
+          "source_file": "data/raw/anysphere/careers/text.txt"
         }
       }
     ]

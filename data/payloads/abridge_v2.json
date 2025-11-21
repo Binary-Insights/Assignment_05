@@ -1,0 +1,534 @@
+{
+  "company_record": {
+    "company_id": "abridge.com",
+    "legal_name": "Abridge Al, Inc.",
+    "brand_name": "Abridge",
+    "website": "https://abridge.com/",
+    "hq_city": "Pittsburgh",
+    "hq_state": null,
+    "hq_country": "United States",
+    "founded_year": "2018",
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "Abridge Al, Inc.",
+        "chunk_id": [
+          "abridge_about_6858d285#10.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-06",
+        "snippet": "Abridge Al, Inc.",
+        "chunk_id": [
+          "abridge_about_6858d285#10.0"
+        ]
+      },
+      {
+        "source_url": "careers",
+        "crawled_at": "2023-10-06",
+        "snippet": "abridge.com",
+        "chunk_id": [
+          "abridge_careers_c3a0a730#24.0",
+          "abridge_careers_9977b70a#1.0",
+          "abridge_careers_0b8a84fe#1.0",
+          "abridge_careers_c82771fd#24.0",
+          "abridge_careers_c6e23f07#23.0"
+        ]
+      }
+    ],
+    "_extraction_metadata": {
+      "brand_name": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.instagram.com/p/DCaLnuYv6_V/?hl=en",
+          "https://www.pentagram.com/work/abridge",
+          "https://www.linkedin.com/company/abridgehq",
+          "https://techcrunch.com/2024/06/18/how-abridge-became-one-of-the-most-talked-about-healthcare-ai-startups/",
+          "https://corporate.dukehealth.org/news/duke-health-abridge-partner-improve-clinician-efficiency-and-patient-care"
+        ],
+        "extracted_at": "2025-11-21T17:41:16.829994+00:00",
+        "confidence": 1.0,
+        "reasoning": "The name 'Abridge' consistently appears across multiple sources as the name of the company. Sources 1, 2, 3, 4, and 5 refer to the company in a manner that suggests 'Abridge' is the brand name, particularly since it is capitalized and treated as a proper noun. There is no indication of any other brand name being associated with the company. [Validated: The extracted value 'Abridge' is validated as the correct brand name of the company based on consistent use across multiple reliable sources. The confidence is raised to 1.0 as there is no contradictory evidence.]"
+      },
+      "hq_city": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://craft.co/abridge/locations",
+          "https://salestools.io/report/abridge-headquarters"
+        ],
+        "extracted_at": "2025-11-21T17:41:34.751031+00:00",
+        "confidence": 0.95,
+        "reasoning": "Two sources explicitly state that Abridge is headquartered in Pittsburgh. Source 1 specifies the address as 500 Grant Street, Suite 2900, Pittsburgh, and Source 2 confirms Pittsburgh as the headquarters location with a detailed address. Source 3 incorrectly lists Philadelphia, but Sources 1 and 2 provide consistent information about Pittsburgh. Source 4 mentions San Francisco as a tech hub but clarifies it is not the headquarters, further supporting Pittsburgh as the headquarters city. [Validated: The extracted value of Pittsburgh is supported by two reliable sources providing consistent address details. The incorrect listing of Philadelphia in Source 3 is outweighed by the corroborated information from Sources 1 and 2. Source 4 further clarifies that San Francisco is not the headquarters, reinforcing the validity of Pittsburgh as the headquarters city.]"
+      },
+      "hq_country": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.visualvisitor.com/companies/2890322/abridge_ai"
+        ],
+        "extracted_at": "2025-11-21T17:42:01.187363+00:00",
+        "confidence": 1.0,
+        "reasoning": "Source 3 explicitly mentions 'Abridge Ai (abridge.ai) location in Pennsylvania, United States', which is a strong indication that the headquarters of Abridge is in the United States. No other sources contradict this information. [Validated: The extracted value is consistent with the source information, explicitly stating that Abridge's location is in Pennsylvania, United States. No contradictory information is present.]"
+      },
+      "founded_year": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://research.contrary.com/company/abridge",
+          "https://www.linkedin.com/company/abridgehq",
+          "https://pitchbook.com/profiles/company/268134-40",
+          "https://www.paraform.com/company/abridge",
+          "https://exa.ai/websets/directory/abridge-executives"
+        ],
+        "extracted_at": "2025-11-21T17:42:12.860322+00:00",
+        "confidence": 1.0,
+        "reasoning": "The year 2018 is consistently mentioned across multiple independent sources as the founding year of Abridge. Each source explicitly states that the company was founded in 2018, and there are no conflicting accounts. [Validated: The extracted value of 2018 is confirmed as correct based on multiple independent sources with no conflicting information.]"
+      }
+    }
+  },
+  "events": [
+    {
+      "event_id": "abridge_event_001",
+      "company_id": "abridge",
+      "occurred_on": "2025-08-12",
+      "event_type": "product_release",
+      "title": "Announcing Real Time Prior Authorization at the Point of Conversation",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-08-12",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0",
+            "abridge_blog_b03afff0#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_event_002",
+      "company_id": "abridge",
+      "occurred_on": "2025-04-29",
+      "event_type": "partnership",
+      "title": "AltaMed Health Services Corporation Partners with Abridge",
+      "description": "AltaMed Health Services Corporation partners with Abridge to bring leading AI technology to multilingual communities.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-04-29",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_event_003",
+      "company_id": "abridge",
+      "occurred_on": "2025-04-10",
+      "event_type": "customer_win",
+      "title": "Sharp HealthCare Chooses Abridge for Clinical Documentation",
+      "description": "Sharp HealthCare selects Abridge for clinical documentation, enabling clinicians to focus on care instead of coding.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2025-04-10",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_event_004",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-20",
+      "event_type": "partnership",
+      "title": "Abridge, Highmark Health, AHN: Designing the Future of Care",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-20",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_b03afff0#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "abridge_event_005",
+      "company_id": "abridge",
+      "occurred_on": "2025-11-18",
+      "event_type": "partnership",
+      "title": "Abridge and CHRISTUS Health",
+      "description": "From Clinician Wellbeing to Coding Compliance: Abridge partners with CHRISTUS Health.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_6720fbe4#3.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-11",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 53,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "Builder",
+        "Foundations Engineering",
+        "IT",
+        "Platform Engineering",
+        "Security",
+        "ML Engineering",
+        "Product",
+        "Product Design",
+        "Product Engineering",
+        "Science",
+        "Commercial",
+        "Partner Experience",
+        "Implementation",
+        "Implementation - Nursing",
+        "Partner Success - Clinical Success",
+        "Partner Success - Enterprise and Commercial",
+        "Partner Success - Key",
+        "Operations",
+        "Core Operations",
+        "Data Science",
+        "Finance",
+        "Finance Operations",
+        "Legal",
+        "Legal - Product",
+        "Marketing",
+        "Growth"
+      ],
+      "pricing_tiers": null,
+      "active_products": null,
+      "geo_presence": null,
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_careers_9977b70a#1.0",
+            "abridge_careers_0b8a84fe#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "abridge_product_66300029",
+      "company_id": "abridge",
+      "name": "Abridge Contextual Reasoning Engine",
+      "description": "Provides clinically accurate summaries and medical terms across specialties. Multilingual. Recognizes, understands, and takes accurate notes across a wide range of languages. Integrated Workflows. Adapts seamlessly to your existing implementations and EHR workflows.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_66300029#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge_product_1dbeb749",
+      "company_id": "abridge",
+      "name": "Abridge Enterprise",
+      "description": "Enterprise Security and compliance. With Abridge Enterprise, healthcare systems get all the tools they need to easily manage security, compliance, and deployments\u2014for all clinicians, in one place. Single-Sign On (SSO). Control user access and make it easy for your clinicians to use Abridge. Custom Governance Controls. Customization for your compliance and data governance requirements. Analytics and Reporting. Track and monitor usage of Abridge across your health system in one place.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_1dbeb749#10.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "abridge_product_a1071d0a",
+      "company_id": "abridge",
+      "name": "Generative AI Platform for Clinical Conversations",
+      "description": "Enterprise-grade AI. Clinically useful and billable AI notes at the point of care, integrated directly into EHR workflows. Powered by the Abridge Contextual Reasoning Engine.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_a1071d0a#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "shiv-rao",
+      "company_id": "abridge",
+      "name": "Shiv Rao, MD",
+      "role": "CEO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_b0c44a34#3.0",
+            "abridge_about_b3488d93#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "zack-lipton",
+      "company_id": "abridge",
+      "name": "Zack Lipton, PhD",
+      "role": "CTO, Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_b0c44a34#3.0",
+            "abridge_about_b3488d93#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "julia-chou",
+      "company_id": "abridge",
+      "name": "Julia Chou",
+      "role": "Chief Operating Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_b0c44a34#3.0",
+            "abridge_about_b3488d93#3.0",
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "brian-wilson",
+      "company_id": "abridge",
+      "name": "Brian Wilson",
+      "role": "Chief Commercial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "sagar-sanghvi",
+      "company_id": "abridge",
+      "name": "Sagar Sanghvi",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_42468d33#4.0",
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "tim-hwang",
+      "company_id": "abridge",
+      "name": "Tim Hwang",
+      "role": "General Counsel",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_about_5a6f770b#5.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "abridge",
+      "as_of": "2023-10-11",
+      "news_mentions_30d": 3,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_product_61b2fae9#13.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "abridge_blog_b03afff0#2.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T17:40:49.148090",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

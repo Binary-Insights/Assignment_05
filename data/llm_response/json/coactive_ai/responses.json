@@ -4,29 +4,113 @@
     "company_name": "Coactive AI",
     "company_slug": "coactive-ai",
     "pipeline_type": "structured",
-    "timestamp": "2025-11-12T23:00:13.232082Z",
+    "timestamp": "2025-11-21T19:37:24.519904Z",
     "markdown_file": "markdown/coactive_ai/structured.md",
-    "content": "## Company Overview\n\nCoactive Systems Inc., founded in 2021, is a private AI startup specializing in video and image intelligence. The company offers a range of products focused on multimodal AI platforms that enhance video understanding and content discovery. Coactive AI is positioned to provide context-aware analysis and flexible content management solutions.\n\n## Business Model and GTM\n\nThe company states that its business model revolves around providing a powerful and flexible multimodal AI platform. This platform is designed to help developers create applications that can handle video and image content efficiently. Coactive AI's products offer features such as context-aware analysis, content discovery, and dynamic tagging, which are aimed at transforming visual and audio content into structured metadata at scale.\n\n## Funding & Investor Profile\n\nCoactive Systems Inc. has raised a total of $44 million USD as of October 6, 2023. Details regarding specific investors or funding rounds have not been disclosed.\n\n## Growth Momentum\n\nThe company has released a product related to advancements in video and image intelligence, although the exact date of this release is unknown. This indicates ongoing development and potential growth in their product offerings.\n\n## Visibility & Market Sentiment\n\nThere is limited information available regarding Coactive AI's visibility and market presence. The company has been mentioned once, but further details are not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company states that its platform is future-proof, allowing users to choose and chain different foundation models for deeper understanding. This flexibility may position Coactive AI well for adapting to future technological advancements and market demands.\n\n## Disclosure Gaps\n\n- Specific details about the company's go-to-market strategy are not disclosed.\n- Information on the leadership team's roles and backgrounds is not provided.\n- There is a lack of detailed visibility and market sentiment data.\n- Risks and challenges facing the company are not disclosed.\n- Specific investor details and funding round information are missing."
+    "content": "## Company Overview\n\nCoactive Systems Inc., branded as Coactive AI, is a private AI startup headquartered in San Jose, California, United States. The company was founded in 2021 and focuses on developing AI platforms for video understanding and content discovery. Their website is [https://coactive.ai/](https://coactive.ai/).\n\n## Business Model and GTM\n\nCoactive AI offers a suite of products centered around its Multimodal AI Platform, which provides capabilities such as video understanding, context-aware analysis, and content discovery. The company states that its platform is designed to manage and activate content catalogs across image, video, and audio, and is available on Azure. Coactive AI has also formed a partnership with NBCUniversal to enhance visual content discovery in the media and entertainment sector.\n\n## Funding & Investor Profile\n\nCoactive AI has raised a total of $44 million in funding, with the most recent round being a Series B funding round completed on August 3, 2023. The last disclosed valuation of the company was $200 million.\n\n## Growth Momentum\n\nCoactive AI has demonstrated growth through product releases and strategic partnerships. The company has released new product features, such as enhanced metadata tagging for multimodal content, and expanded its platform availability to Azure. The partnership with NBCUniversal is a significant step in increasing its market presence in the media and entertainment industry.\n\n## Visibility & Market Sentiment\n\nNot disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nThe company is positioned for growth with its recent funding and strategic partnerships. The expansion of its platform to Azure and collaboration with NBCUniversal suggest a focus on scaling its offerings and increasing market penetration in the media and entertainment sector.\n\n## Disclosure Gaps\n\n- Specific dates for product releases and partnerships are not disclosed.\n- Detailed information on the business model and go-to-market strategy is not provided.\n- Visibility and market sentiment data are not available.\n- Risks and challenges facing the company are not disclosed."
   },
   "rag": {
     "company_name": "Coactive AI",
     "company_slug": "coactive-ai",
     "pipeline_type": "rag",
-    "timestamp": "2025-11-12T23:03:36.080288Z",
+    "timestamp": "2025-11-21T19:38:54.534266Z",
     "markdown_file": "markdown/coactive_ai/rag.md",
-    "content": "## Company Overview\n\nCoactive AI is a private company founded in 2021, specializing in machine learning systems and AI. The company boasts a diverse team of over 30 experts with experience from leading organizations such as eBay, Google, Lyft, Meta, Clio, HubSpot, Tesla, MIT, and Stanford. Coactive AI operates from three global hub offices and is focused on bringing innovative AI products to life.\n\n## Business Model and GTM\n\nCoactive AI's business model revolves around providing AI solutions for industries such as media and entertainment, content moderation, ad targeting, and content operations. The company offers a platform that includes features like visual AI search, metadata tagging, and analytics. The company states that its solutions are designed to unlock the potential of visual content, accelerate content workflows, and transform content discovery.\n\n## Funding & Investor Profile\n\nCoactive AI has raised $44 million in funding. The company is advised by experts with significant experience in technology, including Ken Coleman, Matei Zaharia, Julie Choi, Marcelo Bressan, and David Cook. Notably, Ken Coleman is a Special Advisor to a16z, indicating potential connections to prominent venture capital networks.\n\n## Growth Momentum\n\nThe company has been active in product development, with recent advancements such as smarter metadata tagging for the multimodal era and the ability to create video-based apps quickly. Coactive AI has also expanded its platform to Azure, enhancing its scalability and reach.\n\n## Visibility & Market Sentiment\n\nCoactive AI is recognized for its innovative contributions to AI and machine learning. The company has been involved in discussions with major industry players like NBCUniversal, highlighting its role in unlocking visual content discovery in media and entertainment. The company states that it is committed to staying true to its strengths in sales and maintaining integrity.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nCoactive AI appears to be well-positioned for growth, with a strong team, significant funding, and a focus on cutting-edge AI solutions. The company's partnerships and advisory board suggest a robust network that could support future expansion and innovation.\n\n## Disclosure Gaps\n\n- Specific details on the company's revenue model and pricing strategy are not disclosed.\n- Information on customer acquisition costs and lifetime value is not available.\n- Detailed financial performance metrics, such as revenue growth or profitability, are not disclosed.\n- Specific risks and challenges faced by the company are not detailed.",
+    "content": "## Company Overview\n\nCoactive AI, founded in 2021 by Cody Coleman and Will Gaviria Rojas, is headquartered in San Jose, California. The company operates in the business/productivity software industry, focusing on data labeling and software development. Coactive AI employs between 11-50 people, with 64 associated members on LinkedIn listing it as their current workplace.\n\n## Business Model and GTM\n\nCoactive AI offers a Multimodal Application Platform (MAP) that enables users to search and analyze images and videos without the need for metadata or tags. The platform aims to unlock the hidden value in visual content, facilitating the discovery of valuable assets, trend analysis, and the development of AI-powered use cases. The company states that its platform accelerates content workflows and enhances content operations.\n\n## Funding & Investor Profile\n\nCoactive AI has raised a total of $44 million across five funding rounds. The latest funding round was a Series B, raising $30 million on June 21, 2024. Notable investors include Andreessen Horowitz, Bessemer Venture Partners, Emerson Collective, Cherryrock Capital, Greycroft, and Exceptional Capital. The company's current valuation is approximately $200 million.\n\n## Growth Momentum\n\nThe company has shown growth in its employee base, with reports indicating a range of 11-50 employees. Coactive AI's platform has been recognized for its ability to enhance content operations and unlock value in visual data, which may contribute to its growth trajectory.\n\n## Visibility & Market Sentiment\n\nCoactive AI is positioned within the competitive landscape of AI-based platforms offering image and video data analytics solutions. The company is noted for its diverse team with experience from leading organizations such as eBay, Google, and Meta. The company has been involved in discussions on how multimodal AI is transforming media and entertainment, indicating a positive market sentiment towards its offerings.\n\n## Risks and Challenges\n\nThe primary risks and challenges for Coactive AI include competition from established players like Surge AI, Snorkel AI, and Scale AI. Additionally, the company must continue to innovate and differentiate its platform to maintain its competitive edge in the rapidly evolving AI and data analytics market.\n\n## Outlook\n\nThe outlook for Coactive AI appears promising, given its strong investor backing and innovative platform. The company's focus on unlocking value from visual content positions it well to capitalize on the growing demand for AI-driven data analytics solutions. Continued investment in technology and talent will be crucial for sustaining growth and market relevance.\n\n## Disclosure Gaps\n\n- Specific details about the company's go-to-market strategy are not disclosed.\n- Information on the company's revenue and profitability is not available.\n- The exact number of employees and their roles within the company are not specified.\n- Details on the company's customer base and market penetration are not provided.",
     "context_results": [
       {
+        "id": "coactive_ai_tavily_17e93ba0",
+        "similarity_score": 0.422613144,
+        "text": "Coactive 2025 Company Profile: Valuation, Funding & Investors\n\nHQ Location. San Jose, CA. Employees. 30 as of 2025. Primary Industry. Business/Productivity Software. Total Raised. Post Valuation. Last Financing Details.",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "17e93ba0",
+          "ingested_at": "2025-11-21T19:32:07.558302",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/501449-95",
+          "title": "Coactive 2025 Company Profile: Valuation, Funding & Investors"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_b0aea752",
+        "similarity_score": 0.417791367,
+        "text": "Bessemer Venture Partners Portfolio Companies - Employbl\n\nThe company's platform enables the development of beneficial artificial general intelligence, as well as an open-source environmen | San Francisco | CA | 50 - 200 | 2022 | $665,000,000 | The platform of the company includes features such as automated insights, conversion goals, visual funnels, flexibility, marketing attribution, qualitative data, a | San Francisco | CA | 10 - 50 | 2021 | $23,200,000 | The company built a healthcare-focused AI automation platform to unburden staff, deliver meaningful f | San Francisco | CA | 20 - 50 | 2021 | $26,000,000 | The platform of the company provides access to financial information and financial products such as credit information, credit cards | Los Angeles | CA | 10 - 50 | 2020 |",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "b0aea752",
+          "ingested_at": "2025-11-21T19:32:21.866667",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/bessemer-venture-partners",
+          "title": "Bessemer Venture Partners Portfolio Companies - Employbl"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_05287bef",
+        "similarity_score": 0.404281616,
+        "text": "Coactive AI\n\nOverview:\nYour videos and images. Our AI platform. Find the perfect moment, identify and understand existing content, and accelerate content workflows with the Coactive Multimodal AI Platform. Our Multimodal Application Platform (MAP) unlocks the hidden value in your visual content, making it easy to discover valuable assets, analyze trends, and build a foundation for future AI-powered use cases.\n\nWebsite: https://coactive.ai/\nCrunchbase Url: https://www.crunchbase.com/organization/coactive-ai?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase\nLinkedin Url: https://www.linkedin.com/company/coactiveai\n\nIndustry:\nSoftware Development\n\nCompany size:\n11-50 employees\n64 associated members (LinkedIn members who’ve listed Coactive AI as their current workplace on their profile)\n\nFounded:\nN/A\n\nFunding:\nLast Round Date: 2024-06-21T00:00:00.000Z\nLast Round Type: Series B\nTotal Rounds: 5\nLast Round Raised: US$ 30.0M\n\nInvestors:\nEmerson Collective, Cherryrock Capital, + 4 Other investors",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "05287bef",
+          "ingested_at": "2025-11-21T19:31:39.269307",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/company/coactiveai",
+          "title": "Coactive AI"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_43f25501",
+        "similarity_score": 0.40243724,
+        "text": "Coactive company information, funding & investors | Dealroom.co\n\nHQ location. San Jose, United States. Website. coactive.ai. Launch date. 2021. Employees. 51-200 people. Enterprise value. $120—180m. Jobs. View",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "43f25501",
+          "ingested_at": "2025-11-21T19:32:34.410859",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://app.dealroom.co/companies/coactive_ai",
+          "title": "Coactive company information, funding & investors | Dealroom.co"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_75bfe86d",
+        "similarity_score": 0.398462296,
+        "text": "Coactive 2025 Company Profile: Valuation, Funding & Investors\n\nHQ Location. San Jose, CA. Employees. 30 as of 2025. Primary Industry. Business ... Surge AI, Snorkel AI, and Scale AI are competitors of Coactive. Data",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "75bfe86d",
+          "ingested_at": "2025-11-21T19:32:05.324592",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/501449-95",
+          "title": "Coactive 2025 Company Profile: Valuation, Funding & Investors"
+        }
+      },
+      {
         "id": "coactive_ai_about_7b459186",
-        "similarity_score": 0.397274017,
+        "similarity_score": 0.397409439,
         "text": "Barbara Lewis\nHead of Marketing\nOur advisors\nAdvised by experts who have a depth of experience in founding and growing technology companies\nKen Coleman\nChairman at EIS Group Ltd & Special Advisor to a16z\nMatei Zaharia\nProfessor at Stanford University & Co-Founder/Chief Technologist at DataBricks\nJulie Choi\nSenior Vice President and Chief Marketing Officer at Cerebras Systems\nMarcelo Bressan\nHead of Developer Success at Temporal Technologies\nDavid Cook",
         "metadata": {
           "chunk_index": 23.0,
           "company_slug": "coactive_ai",
           "content_hash": "7b459186",
-          "indexed_at": "2025-11-11T22:55:19.813559",
+          "indexed_at": "2025-11-21T18:39:12.285659",
           "page_type": "about",
           "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_0b38fd59",
+        "similarity_score": 0.395814896,
+        "text": "Coactive AI - 2025 Company Profile, Team, Funding & Competitors\n\nCoactive AI has raised $44M in funding from investors like Andreessen Horowitz, Bessemer Venture Partners and Emerson Collective, with a current valuation of $200M. | 6th | Coactive AI 2021, San Jose (United States), Series B | Provider of AI based platform offering image and video data analytics solutions | $44M | Bessemer Venture Partners, SV Angel & 11 others | 60/100 | Coactive AI is a funded company, having raised a total of $44M across 3 funding rounds to date. Coactive AI's latest funding was a $30M Series B round on May 21, 2024, led byCherryrock Capital, Emerson Collective, Cherryrock Capital, Emerson Collective, Cherryrock Capital, Emerson Collective, Cherryrock Capital and Emerson Collective, with participation from Greycroft, Andreessen Horowitz, Bessemer Venture Partners and Exceptional Capital.",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "0b38fd59",
+          "ingested_at": "2025-11-21T19:32:34.045576",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/coactive-ai/__HubkgaKG6ioh7DFJJB6bRlobMAPi1s98L2NccjewLiw",
+          "title": "Coactive AI - 2025 Company Profile, Team, Funding & Competitors"
         }
       },
       {
@@ -37,7 +121,7 @@
           "chunk_index": 10.0,
           "company_slug": "coactive_ai",
           "content_hash": "f44f3721",
-          "indexed_at": "2025-11-11T22:55:19.814971",
+          "indexed_at": "2025-11-21T18:39:12.286339",
           "page_type": "blog",
           "source_file": "data/raw/coactive_ai/blog/text.txt"
         }
@@ -50,9 +134,51 @@
           "chunk_index": 8.0,
           "company_slug": "coactive_ai",
           "content_hash": "a6b058cd",
-          "indexed_at": "2025-11-11T22:55:19.813460",
+          "indexed_at": "2025-11-21T18:39:12.285560",
           "page_type": "about",
           "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_096541a5",
+        "similarity_score": 0.389694214,
+        "text": "Coactive AI Funding & Investor Information\n\nCoactive AI is a business/productivity software company founded in 2021 by Cody Coleman and Will Gaviria Rojas. Headquartered in San Jose, California",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "096541a5",
+          "ingested_at": "2025-11-21T19:32:20.501442",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://exa.ai/websets/directory/coactive-funding",
+          "title": "Coactive AI Funding & Investor Information"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_9dcabb4a",
+        "similarity_score": 0.387926131,
+        "text": "Coactive AI Funding & Investor Information\n\nCoactive AI is a business/productivity software company founded in 2021 by Cody Coleman and Will Gaviria Rojas. Headquartered in San Jose, California, Coactive",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "9dcabb4a",
+          "ingested_at": "2025-11-21T19:31:53.745173",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://exa.ai/websets/directory/coactive-funding",
+          "title": "Coactive AI Funding & Investor Information"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_9ea0e85c",
+        "similarity_score": 0.380611449,
+        "text": "Coactive AI - 2025 Company Profile & Team\n\nCoactive AI has raised $44M in funding from investors like Andreessen Horowitz, Bessemer Venture Partners and Emerson Collective, with a current valuation of $200M. | 6th | Coactive AI 2021, San Jose (United States), Series B | Provider of AI based platform offering image and video data analytics solutions | $44M | Bessemer Venture Partners, SV Angel & 11 others | 60/100 | Coactive AI is a funded company, having raised a total of $44M across 3 funding rounds to date. Coactive AI's latest funding was a $30M Series B round on May 21, 2024, led byCherryrock Capital, Emerson Collective, Cherryrock Capital, Emerson Collective, Cherryrock Capital, Emerson Collective, Cherryrock Capital and Emerson Collective, with participation from Greycroft, Andreessen Horowitz, Bessemer Venture Partners and Exceptional Capital.",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "9ea0e85c",
+          "ingested_at": "2025-11-21T19:32:33.757931",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/coactive-ai/__HubkgaKG6ioh7DFJJB6bRlobMAPi1s98L2NccjewLiw",
+          "title": "Coactive AI - 2025 Company Profile & Team"
         }
       },
       {
@@ -63,48 +189,105 @@
           "chunk_index": 17.0,
           "company_slug": "coactive_ai",
           "content_hash": "7176233c",
-          "indexed_at": "2025-11-11T22:55:19.813521",
+          "indexed_at": "2025-11-21T18:39:12.285620",
           "page_type": "about",
           "source_file": "data/raw/coactive_ai/about/text.txt"
         }
       },
       {
+        "id": "coactive_ai_tavily_7e53f880",
+        "similarity_score": 0.378534257,
+        "text": "Invest and Sell Coactive AI Stock - Forge Global\n\nCompany details ; Sector. Enterprise Software ; Subsector. Data Intelligence ; Founded. 2021 ; Headquarters. San Jose, CA, United States.",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "7e53f880",
+          "ingested_at": "2025-11-21T19:32:06.715396",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://forgeglobal.com/coactive-ai_stock/",
+          "title": "Invest and Sell Coactive AI Stock - Forge Global"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_4d8f7fb3",
+        "similarity_score": 0.375257522,
+        "text": "Coactive AI Funding & Investor Information\n\nCoactive's actual company name is Coactive Systems Inc ... Its website is www.coactive.ai, and it operates in the Business/Productivity Software industry.",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "4d8f7fb3",
+          "ingested_at": "2025-11-21T19:31:37.673406",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://exa.ai/websets/directory/coactive-funding",
+          "title": "Coactive AI Funding & Investor Information"
+        }
+      },
+      {
         "id": "coactive_ai_about_6fe49e1a",
-        "similarity_score": 0.373142242,
+        "similarity_score": 0.373558044,
         "text": "About Us\nCareers\nContact\nPartners\nLogin\nGet a Demo\nLogin\nGet a Demo\n🇺🇸EN\n🇨🇦FR\nWe are Coactive\nWe are a diverse team of experts that have led the charge in the world of machine learning systems and AI.\nCoactive in numbers\n3\nGlobal hub offices\n2021\nYear founded\n30+\nSize of team\n$44M\nFunding raised\nAwards & Recognition\nOur team\nWe've created a diverse team of experts that coactively bring products to life",
         "metadata": {
           "chunk_index": 7.0,
           "company_slug": "coactive_ai",
           "content_hash": "6fe49e1a",
-          "indexed_at": "2025-11-11T22:55:19.813450",
+          "indexed_at": "2025-11-21T18:39:12.285552",
           "page_type": "about",
           "source_file": "data/raw/coactive_ai/about/text.txt"
         }
       },
       {
-        "id": "coactive_ai_product_a5dbc413",
-        "similarity_score": 0.37171936,
-        "text": "Retail\nCommunity\nCompany\nAbout Us\nCareers\nContact\nPartners\nPress Kit\nPress & Awards\nThank you!\nYou successfully subscribed to the Coactive blog!\nStay up to date with the latest at Coactive\nLatest Lead Source\nLatest Lead Source Detail\n©\n2025\nCoactive Systems Inc.\nTerms\nPrivacy Policy\nSecurity\nStatus\nMade by\ntonik",
+        "id": "coactive_ai_tavily_cb902c10",
+        "similarity_score": 0.370220184,
+        "text": "Coactive AI - Crunchbase Company Profile & Funding\n\nAbout Coactive AI · Private · Series B · San Jose, California, United States · 11-50 · coactive.ai.",
         "metadata": {
-          "chunk_index": 25.0,
           "company_slug": "coactive_ai",
-          "content_hash": "a5dbc413",
-          "indexed_at": "2025-11-11T22:55:19.820165",
-          "page_type": "product",
-          "source_file": "data/raw/coactive_ai/product/text.txt"
+          "content_hash": "cb902c10",
+          "ingested_at": "2025-11-21T19:32:33.520625",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/coactive-ai",
+          "title": "Coactive AI - Crunchbase Company Profile & Funding"
         }
       },
       {
         "id": "coactive_ai_about_72a729c1",
-        "similarity_score": 0.369342804,
+        "similarity_score": 0.368946075,
         "text": "Marcelo Bressan\nHead of Developer Success at Temporal Technologies\nDavid Cook\nChief Information Security Officer at Sequoia Consulting Group\nOur advisors\nBacked by world-renowned organizations who are committed to helping us shape the future of visual data\nElliott Robinson\nMartin Casado\nStacy Brown-Philpot\nFern Mandelbaum\nBrentt Baltimore\nPartners\nThe latest\nWhat’s new with Coactive\nView Blog\nProduct\nOct 17, 2025\nSmarter Metadata Tagging for the Multimodal Era\nProduct\nSep 30, 2025",
         "metadata": {
           "chunk_index": 24.0,
           "company_slug": "coactive_ai",
           "content_hash": "72a729c1",
-          "indexed_at": "2025-11-11T22:55:19.813568",
+          "indexed_at": "2025-11-21T18:39:12.285668",
           "page_type": "about",
           "source_file": "data/raw/coactive_ai/about/text.txt"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_942a1769",
+        "similarity_score": 0.368658066,
+        "text": "Coactive AI | Company Overview & News\n\nIndustry: Data labeling software ; Founded: 2021 ; Headquarters: San Jose, California ; Country/Territory: United States ; CEO: Cody Coleman.See more",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "942a1769",
+          "ingested_at": "2025-11-21T19:31:38.545405",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.forbes.com/companies/coactive-ai/",
+          "title": "Coactive AI | Company Overview & News"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_eb376547",
+        "similarity_score": 0.368377686,
+        "text": "Coactive AI | Company Overview & News - Forbes\n\nIndustry: Data labeling software ; Founded: 2021 ; Headquarters: San Jose, California ; Country/Territory: United States ; CEO: Cody Coleman.",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "eb376547",
+          "ingested_at": "2025-11-21T19:31:39.756815",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.forbes.com/companies/coactive-ai/",
+          "title": "Coactive AI | Company Overview & News - Forbes"
         }
       },
       {
@@ -115,126 +298,132 @@
           "chunk_index": 20.0,
           "company_slug": "coactive_ai",
           "content_hash": "550e4fe3",
-          "indexed_at": "2025-11-11T22:55:19.813542",
+          "indexed_at": "2025-11-21T18:39:12.285639",
           "page_type": "about",
           "source_file": "data/raw/coactive_ai/about/text.txt"
         }
       },
       {
-        "id": "coactive_ai_product_0ea78994",
-        "similarity_score": 0.362915039,
-        "text": "in your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source\nLatest Lead Source Detail\nLogo\nLogin\nContact us\nlinkedin\nProduct\nOverview\nPlatform\nSearch\nAnalytics\nMetadata\nExplore\nResources\nBlog\nCase Studies\nDocumentation\nWebinars & Events\nWhitepapers & Datasheets\nVideo\nIndustries\nMedia & Entertainment\nContent Moderation\nAd Targeting\nContent Operations\nRetail\nCommunity\nCompany\nAbout Us\nCareers\nContact\nPartners\nPress Kit\nPress & Awards\nThank you!",
+        "id": "coactive_ai_tavily_a87ada7b",
+        "similarity_score": 0.358001709,
+        "text": "Coactive AI's Post - LinkedIn\n\nWhat a start to FY26! Our 3-day company kick-off saw the whole team come together at our HQ in San Jose to connect, innovate, and strategize",
         "metadata": {
-          "chunk_index": 24.0,
           "company_slug": "coactive_ai",
-          "content_hash": "0ea78994",
-          "indexed_at": "2025-11-11T22:55:19.820156",
-          "page_type": "product",
-          "source_file": "data/raw/coactive_ai/product/text.txt"
+          "content_hash": "a87ada7b",
+          "ingested_at": "2025-11-21T19:32:07.800370",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/posts/coactiveai_companyculture-startups-workinstartups-activity-7298718230078980096-UZxK",
+          "title": "Coactive AI's Post - LinkedIn"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_ace0c4e8",
+        "similarity_score": 0.357059479,
+        "text": "Coactive | About Us\n\n[![Image 40: Find the right content faster with the latest Dynamic Tags](https://cdn.prod.website-files.com/669141b31392c7a0b4eea67d/68f27c592970868c5dae1352_dynamic-tags-v3-blog-thumbnail.webp) Product Oct 17, 2025 Smarter Metadata Tagging for the Multimodal Era](https://www.coactive.ai/blog/smarter-metadata-tagging-multimodal) [![Image 41: Coactive Head of Engineering Breaks Down MAP Autumn '25](https://cdn.prod.website-files.com/669141b31392c7a0b4eea67d/68dac34b9b514983bf70576a_coactive-launch-sep30-Satya-blog-thumbnail%20v%202%20B.webp) Product Sep 30, 2025 The Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes](https://www.coactive.ai/blog/coactive-multimodal-ai-platform-minutes) [![Image 47](https://cdn.prod.website-files.com/669141b31392c7a0b4eea67d/67d2dfa2acd5beeeb685aa3b_media-intelligence.png) Solutions Mar 13, 2025 The Media Intelligence Stack: A Blueprint for the Future of Content Operations](https://www.coactive.ai/blog/media-intelligence-stack) [![Image 48: Image of a man looking at his phone with a text overlay that says \"How Media & Entertainment companies are unlocking video content with multimodal AI\"](https://cdn.prod.website-files.com/669141b31392c7a0b4eea67d/67b75f84a25fb14d4cb787bf_multimoda-ai-in-media.jpg) Solutions Feb 20, 2025 NBCUniversal + Coactive: A discussion on how multimodal AI is unlocking visual content discovery in media & entertainment](https://www.coactive.ai/blog/nbcuniversal-coactive-multimodal-ai-in-media-and-entertainment)",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "ace0c4e8",
+          "ingested_at": "2025-11-21T19:31:52.189019",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.coactive.ai/company",
+          "title": "Coactive | About Us"
+        }
+      },
+      {
+        "id": "coactive_ai_tavily_18f9b133",
+        "similarity_score": 0.352207184,
+        "text": "Top 1000 - Discov(e)r Ai as it Happens\n\n| kubiya.ai | Palo Alto | CA | 2022 | 14886 | |  | TWO | two.ai | San Francisco | CA | 2021 | 11312 | |  | Hirefly | https://www.hirefly.ai/ | San Francisco | CA | 2021 | 12710 | | summery.ai | San Francisco | CA | 2016 | 2485 | |  | Rune | https://www.rune.ai/ | San Francisco | CA | 2016 | 10407 | |  | Overview | https://overview.ai/ | San Francisco | CA | 2013 | 10404 | |  | Searchlight | https://www.searchlight.ai/ | San Francisco | CA | 1995 | 10408 | |  | Eto | https://eto.ai/ | San Francisco | CA |  | 14360 |",
+        "metadata": {
+          "company_slug": "coactive_ai",
+          "content_hash": "18f9b133",
+          "ingested_at": "2025-11-21T19:32:21.590127",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://discovr.ai/1000-companies-with-their-ai-domain-brand/",
+          "title": "Top 1000 - Discov(e)r Ai as it Happens"
         }
       },
       {
         "id": "coactive_ai_careers_2603d9ba",
-        "similarity_score": 0.352535248,
+        "similarity_score": 0.35218811,
         "text": "Josh Heller\nChief Revenue Officer\n\"This company is filled with intelligent, gritty people who bring unique perspectives and fresh ideas everyday. I've never worked with such a diverse team before. Having been the only woman or one of very few women on multiple previous teams, I observe that many places tend towards treating diversity as an afterthought.\"\nMehul Smriti Raje\nMachine Learning Engineer",
         "metadata": {
           "chunk_index": 10.0,
           "company_slug": "coactive_ai",
           "content_hash": "2603d9ba",
-          "indexed_at": "2025-11-11T22:55:19.818760",
+          "indexed_at": "2025-11-21T18:39:12.286931",
           "page_type": "careers",
           "source_file": "data/raw/coactive_ai/careers/text.txt"
         }
       },
       {
         "id": "coactive_ai_about_59fc54f7",
-        "similarity_score": 0.349033386,
+        "similarity_score": 0.349113464,
         "text": "Jesper Stroe\nCFO\nJesper has worked as a CFO/COO, both as an advisor, consultant, and full-time member of the executive team in early-stage technology companies for more than two decades. He loves being part of the creative and formative period in a company's life, helping it to build and grow revenue and the organization. Jesper received his MBA with a major in Finance, from Copenhagen Business School.\nJesper Stroe\nCFO\nTia Gordon\nHead of People",
         "metadata": {
           "chunk_index": 11.0,
           "company_slug": "coactive_ai",
           "content_hash": "59fc54f7",
-          "indexed_at": "2025-11-11T22:55:19.813485",
+          "indexed_at": "2025-11-21T18:39:12.285585",
           "page_type": "about",
           "source_file": "data/raw/coactive_ai/about/text.txt"
         }
       },
       {
-        "id": "coactive_ai_blog_a87c9be6",
-        "similarity_score": 0.348686248,
-        "text": "Latest Lead Source\nLatest Lead Source Detail\n©\n2025\nCoactive Systems Inc.\nTerms\nPrivacy Policy\nSecurity\nStatus\nMade by\ntonik",
+        "id": "coactive_ai_tavily_d016aa78",
+        "similarity_score": 0.348489732,
+        "text": "Coactive AI - Crunchbase Company Profile & Funding\n\nCoactive AI is a machine learning platform that unlocks analytics and insights from unstructured image and video data.See more",
         "metadata": {
-          "chunk_index": 14.0,
           "company_slug": "coactive_ai",
-          "content_hash": "a87c9be6",
-          "indexed_at": "2025-11-11T22:55:19.815001",
-          "page_type": "blog",
-          "source_file": "data/raw/coactive_ai/blog/text.txt"
+          "content_hash": "d016aa78",
+          "ingested_at": "2025-11-21T19:31:51.527483",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/coactive-ai",
+          "title": "Coactive AI - Crunchbase Company Profile & Funding"
         }
       },
       {
         "id": "coactive_ai_careers_c9581683",
-        "similarity_score": 0.34828949,
+        "similarity_score": 0.348228455,
         "text": "Be coactive\nWe put aside our egos to win together as one team.\nEngineer magic\nWe deliver magical moments to customers and hires by thoughtful design.\nHave crucial conversations\nWe learn and build together through clear and constructive dialogue.\nAct boldly\nFailure and uncertainty do not scare us from taking action.\nEmbrace difference\nWe understand everyone’s uniqueness to leverage strengths and unlock value.\nTeam testimonials\nHear from our team",
         "metadata": {
           "chunk_index": 8.0,
           "company_slug": "coactive_ai",
           "content_hash": "c9581683",
-          "indexed_at": "2025-11-11T22:55:19.818590",
+          "indexed_at": "2025-11-21T18:39:12.286919",
           "page_type": "careers",
           "source_file": "data/raw/coactive_ai/careers/text.txt"
         }
       },
       {
-        "id": "coactive_ai_about_20f21829",
-        "similarity_score": 0.344947815,
-        "text": "Solutions\nFeb 20, 2025\nNBCUniversal + Coactive: A discussion on how multimodal AI is unlocking visual content discovery in media & entertainment\nReady to unlock the potential\nin your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source\nLatest Lead Source Detail\nLogo\nLogin\nContact us\nlinkedin\nProduct\nOverview\nPlatform\nSearch\nAnalytics\nMetadata\nExplore\nResources\nBlog\nCase Studies\nDocumentation\nWebinars & Events\nWhitepapers & Datasheets\nVideo\nIndustries\nMedia & Entertainment",
+        "id": "coactive_ai_tavily_9b3161cb",
+        "similarity_score": 0.345460892,
+        "text": "Coactive AI - Crunchbase Company Profile & Funding\n\nWhere is Coactive AI 's headquarters? Coactive AI is located in San Jose, California, United States . Who invested in Coactive AI ? Coactive AI has 15",
         "metadata": {
-          "chunk_index": 27.0,
           "company_slug": "coactive_ai",
-          "content_hash": "20f21829",
-          "indexed_at": "2025-11-11T22:55:19.813690",
-          "page_type": "about",
-          "source_file": "data/raw/coactive_ai/about/text.txt"
+          "content_hash": "9b3161cb",
+          "ingested_at": "2025-11-21T19:32:06.435986",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/coactive-ai",
+          "title": "Coactive AI - Crunchbase Company Profile & Funding"
         }
       },
       {
-        "id": "coactive_ai_blog_13399475",
-        "similarity_score": 0.344589233,
-        "text": "Feb 7, 2023\nTackling Socioeconomic Bias in Machine Learning with the Dollar Street Dataset\nResearch\nIndustry perspectives: a multimedia archivist on the challenges of monetizing visual assets\nReady to unlock the potential\nin your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source\nLatest Lead Source Detail\nLogo\nLogin\nContact us\nlinkedin\nProduct\nOverview\nPlatform\nSearch\nAnalytics\nMetadata\nExplore\nResources\nBlog\nCase Studies\nDocumentation\nWebinars & Events",
+        "id": "coactive_ai_tavily_7e4647e1",
+        "similarity_score": 0.343963623,
+        "text": "Press Kit - Coactive AI\n\n[Login](https://app.coactive.ai/login)[Get a Demo](/contact) [🇺🇸EN](/press-kit) [🇨🇦FR](/fr/press-kit) For any media inquiries please reach out to [media@coactive.ai](mailto:media@coactive.ai) ## Team photos and bios Co-Founder and CEO [Photo](#) Co-Founder [Photo](#) Coactive AI is a Multimodal Application Platform (MAP) that unlocks value in content by making it easy to search and analyze images and videos — no metadata or tags required. With Coactive, data leaders are able to leverage multimodal AI today while also creating a foundation for future use cases. This enables users across the organization to discover, analyze, and enrich visual content. ## Coactive graphic assets Primary color palette Dark Green Middle Green Light Green Background Green CTA Green Extended color palette Dark orange Orange Light orange Soft orange Green Dark Green ## Photos and Graphics",
         "metadata": {
-          "chunk_index": 12.0,
           "company_slug": "coactive_ai",
-          "content_hash": "13399475",
-          "indexed_at": "2025-11-11T22:55:19.814988",
-          "page_type": "blog",
-          "source_file": "data/raw/coactive_ai/blog/text.txt"
-        }
-      },
-      {
-        "id": "coactive_ai_blog_544cc7ea",
-        "similarity_score": 0.341526061,
-        "text": "Product\nProduct\nOct 17, 2025\nSmarter Metadata Tagging for the Multimodal Era\nProduct\nSep 30, 2025\nThe Power to Create Video-Based Apps, Fast: How the Coactive Multimodal AI Platform Turns Months Into Minutes\nProduct\nJun 10, 2025\nCoactive is Now on Azure: Visual AI Search, Metadata Tagging, and Analytics, Built for Scale\nProduct\nMar 26, 2025\nUnlocking Video Insights: How an Optimized Video Ingestion Pipeline Transforms Content Discovery\nProduct\nJan 27, 2025",
-        "metadata": {
-          "chunk_index": 9.0,
-          "company_slug": "coactive_ai",
-          "content_hash": "544cc7ea",
-          "indexed_at": "2025-11-11T22:55:19.814965",
-          "page_type": "blog",
-          "source_file": "data/raw/coactive_ai/blog/text.txt"
-        }
-      },
-      {
-        "id": "coactive_ai_product_184fafcf",
-        "similarity_score": 0.341360092,
-        "text": "Time to Value\nTime to Value\nSlower onboarding, high customization needs\nFuture-Proof\nChoice of models and upgrade-ready\nBound to vendor’s foundation model evolution\nApproach\nFoundation Model Only\nResources\nEvents\nUnleash your video and image content: Accelerate content workflows with Coactive MAP ‘25\nFeatured\nMaximizing Content in the AI Era\nFeatured\nCoactive for Media & Entertainment\nReady to unlock the potential\nin your visual content?\nThank you!\nWe will be in touch soon.\nLatest Lead Source",
-        "metadata": {
-          "chunk_index": 23.0,
-          "company_slug": "coactive_ai",
-          "content_hash": "184fafcf",
-          "indexed_at": "2025-11-11T22:55:19.820150",
-          "page_type": "product",
-          "source_file": "data/raw/coactive_ai/product/text.txt"
+          "content_hash": "7e4647e1",
+          "ingested_at": "2025-11-21T19:31:39.915108",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.coactive.ai/press-kit",
+          "title": "Press Kit - Coactive AI"
         }
       }
     ]

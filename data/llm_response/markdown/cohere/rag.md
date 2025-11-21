@@ -1,22 +1,22 @@
 ## Company Overview
 
-Cohere is a private AI startup founded in 2019 in Toronto, Canada. The company focuses on creating cutting-edge foundation models and secure AI solutions for enterprises. Cohere's mission is to enhance human judgment and productivity through AI, aiming to solve real-world business problems. The company operates globally with over 450 employees across 7 offices in more than 25 countries.
+Cohere is a leading security-first enterprise AI company founded in 2019 and headquartered at 171 John Street, 2nd Floor, Toronto, ON M5T 1X3, Canada. The company specializes in building cutting-edge foundation models and end-to-end AI products designed to solve real-world business problems. Cohere's platform offers enterprises high levels of data security, privacy, and flexibility to deploy across major cloud providers, private cloud environments, or on-premises. The company operates globally with 7 offices and a workforce of over 447 employees across more than 25 countries.
 
 ## Business Model and GTM
 
-Cohere offers a range of AI products and solutions, including the North platform, Compass, and Command, which are designed to enhance workplace productivity and provide intelligent search and discovery capabilities. The company also provides advanced retrieval models like Embed and Rerank. Cohere's solutions are tailored for various industries, including financial services, healthcare, manufacturing, and the public sector. The company emphasizes secure and scalable AI deployments that integrate seamlessly with existing systems and workflows.
+Cohere's business model focuses on providing enterprise AI solutions that leverage natural language processing (NLP) and large language models (LLMs) to derive insights from enterprise data. The company's platform supports use cases such as chatbots, semantic search, content generation, and data analysis. Cohere's AI models are domain-specific and designed for enterprise use, rather than being trained on the full internet. The company emphasizes seamless integration, full customization, and ease of use for its enterprise clients.
 
 ## Funding & Investor Profile
 
-Between 2021 and 2024, Cohere secured four major funding rounds (Series A through D), raising nearly $1 billion. This financial backing has supported the company's global expansion and the development of its AI models. Specific investor details are not disclosed.
+Cohere has secured nearly $1 billion in funding through four major rounds (Series A through D) between 2021 and 2024. The most recent funding round was a Series D, completed on October 24, 2025, raising $100 million. Notable investors include the Business Development Bank of Canada and Nexxus Capital Management, among others.
 
 ## Growth Momentum
 
-Cohere has demonstrated significant growth since its inception, expanding its team to over 450 employees and establishing a presence in more than 25 countries. The company has launched initiatives like Cohere Labs to focus on solving complex machine learning problems and continues to develop multilingual models that excel across 23 languages.
+Cohere is one of the fastest-growing enterprise software companies, having doubled its revenue since January 2025 and surpassing $100 million in annual recurring revenue (ARR) just 2.5 years after its first revenues. The company has expanded its global presence and scaled its teams significantly, driven by its robust funding and strategic focus on enterprise AI solutions.
 
 ## Visibility & Market Sentiment
 
-The company states that it is trusted by industry leaders and developers worldwide, indicating a positive market sentiment. Cohere's products are positioned as enterprise-ready solutions that enhance productivity and drive innovation.
+The company states that it is recognized as a category-defining entity in the enterprise AI space, with a strong emphasis on security and data protection. Cohere's solutions are trusted by industry leaders and developers worldwide, and the company is seen as a key player in shaping the future of AI-enabled enterprise solutions.
 
 ## Risks and Challenges
 
@@ -24,10 +24,10 @@ Not disclosed.
 
 ## Outlook
 
-Cohere is poised for continued growth, supported by substantial funding and a strong focus on developing AI solutions that address enterprise needs. The company's commitment to open science and solving complex machine learning challenges positions it well for future advancements in AI technology.
+Cohere is positioned to continue its growth trajectory by leveraging its strong foundation in enterprise AI and its commitment to security and customization. The company aims to further enhance its AI capabilities and expand its market reach, capitalizing on the increasing demand for AI-driven enterprise solutions.
 
 ## Disclosure Gaps
 
-- Specific details about investors and funding terms are not disclosed.
-- Risks and challenges facing the company are not detailed.
-- Market sentiment and competitive positioning are not explicitly covered.
+- Specific details on the company's revenue figures and financial performance beyond ARR are not disclosed.
+- Information on specific risks and challenges faced by the company is not provided.
+- Details on the company's complete list of investors and total funding rounds are not fully disclosed.

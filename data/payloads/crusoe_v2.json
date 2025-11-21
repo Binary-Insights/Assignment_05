@@ -1,0 +1,763 @@
+{
+  "company_record": {
+    "company_id": "crusoe",
+    "legal_name": "Crusoe",
+    "brand_name": "Crusoe",
+    "website": "https://www.crusoe.ai/",
+    "hq_city": "Denver",
+    "hq_state": "CO",
+    "hq_country": "USA",
+    "founded_year": 2018,
+    "categories": [
+      "Energy",
+      "High-performance computing"
+    ],
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": null,
+    "last_round_date": null,
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-01",
+        "snippet": "Crusoe is founded with an energy-first approach, pioneering technology to convert wasted natural gas into energy for high-performance computing.",
+        "chunk_id": [
+          "crusoe_about_a9f9a9f3#11.0",
+          "crusoe_about_dbf012c3#7.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-01",
+        "snippet": "Accelerating the abundance of energy and intelligence",
+        "chunk_id": [
+          "crusoe_about_d6bf21a5#1.0"
+        ]
+      }
+    ],
+    "_extraction_metadata": {
+      "brand_name": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://trademarks.justia.com/972/77/crusoe-97277510.html",
+          "https://www.linkedin.com/posts/crusoe_were-excited-to-introduce-the-new-crusoe-activity-7359254017320837120-gn3Y"
+        ],
+        "extracted_at": "2025-11-21T19:34:31.247057+00:00",
+        "confidence": 0.95,
+        "reasoning": "The search results consistently refer to 'Crusoe' in the context of branding and trademarks. Source 2 explicitly mentions 'CRUSOE' as a trademark of Crusoe Energy Systems Inc., indicating a strong association of the name with the brand. Additionally, Source 3 discusses the introduction of a new Crusoe brand, reinforcing the use of 'Crusoe' as the brand name. [Validated: The extracted value 'Crusoe' is correct and consistent with the sources provided, which indicate its use as a brand name. The confidence level is increased slightly due to the strong association of 'Crusoe' with the brand in multiple sources.]"
+      },
+      "website": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crusoe.ai/"
+        ],
+        "extracted_at": "2025-11-21T19:34:54.325429+00:00",
+        "confidence": 0.95,
+        "reasoning": "Source 3 describes Crusoe as a company focused on AI cloud computing and mentions a renewable-powered AI platform, which aligns with the industry focus described in Source 1. The URL from Source 3, https://www.crusoe.ai/, is likely the official website of the company Crusoe given this alignment. Source 2, https://www.crusoe.net/, refers to an Internet Solutions Provider, which does not match the AI cloud platform description. Other sources do not relate to the company in question. [Validated: The extracted value is consistent with the description of the company in Source 3, and Source 2 does not match the relevant industry focus, supporting the validity of the URL https://www.crusoe.ai/ as the official website for the company focused on AI cloud computing.]"
+      },
+      "hq_city": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.builtincolorado.com/company/crusoe/offices",
+          "https://www.builtinsf.com/company/crusoe/offices",
+          "https://www.crusoe.ai/resources/newsroom/crusoe-expands-denver-hq"
+        ],
+        "extracted_at": "2025-11-21T19:35:07.638169+00:00",
+        "confidence": 1.0,
+        "reasoning": "Multiple sources, specifically Source 1, Source 2, and Source 3, consistently state that Crusoe Energy Systems is headquartered in Denver, Colorado. The information is directly mentioned in clear and unambiguous terms. [Validated: The extracted value is consistent across multiple reliable sources, confirming that Crusoe Energy Systems is headquartered in Denver, Colorado.]"
+      },
+      "hq_state": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://cdck-file-uploads-global.s3.dualstack.us-west-2.amazonaws.com/uipath/original/3X/0/e/0e6a47bfe5e7dd1a1fa319cb755b39e979001692.xlsx"
+        ],
+        "extracted_at": "2025-11-21T19:35:21.000694+00:00",
+        "confidence": 0.95,
+        "reasoning": "In Source 1, Crusoe Energy Systems Inc. is explicitly associated with 'DENVER, CO, 80202'. Denver is a city in Colorado, which strongly indicates that the headquarters state is Colorado. [Validated: The extracted value 'CO' is validated as correct since Denver, the city mentioned in the source, is indeed in Colorado. The confidence level has been slightly increased due to the direct association with the city and state.]"
+      },
+      "hq_country": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "http://governorsoffice.colorado.gov/governor/news/5296-colorado-founded-crusoe-energy-announces-major-expansion-its-denver-headquarters",
+          "https://www.builtincolorado.com/company/crusoe"
+        ],
+        "extracted_at": "2025-11-21T19:35:34.633723+00:00",
+        "confidence": 1.0,
+        "reasoning": "Source 2 mentions that Crusoe was 'Colorado-founded' and discusses the expansion of its Denver headquarters. Source 3 also lists Crusoe Energy Systems' office location as Denver, CO, USA, which strongly suggests that the headquarters is in the USA. [Validated: The extracted value is consistent with the information provided in the sources, which confirm that Crusoe is headquartered in Denver, Colorado, USA.]"
+      }
+    }
+  },
+  "events": [
+    {
+      "event_id": "crusoe_2025_series_e",
+      "company_id": "crusoe",
+      "occurred_on": "2025-01-01",
+      "event_type": "funding",
+      "title": "Crusoe raises $1B+ in Series E",
+      "description": "Raise $1B+ Series E to accelerate large-scale AI factories and expand Crusoe Cloud.",
+      "round_name": "Series E",
+      "investors": null,
+      "amount_usd": 1000000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_dbf012c3#7.0",
+            "crusoe_about_1004340f#8.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2024_series_d",
+      "company_id": "crusoe",
+      "occurred_on": "2024-01-01",
+      "event_type": "funding",
+      "title": "Crusoe closes $600M Series D",
+      "description": "Close our $600M Series D round and announce the General Availability of Crusoe Cloud with support from partners including NVIDIA.",
+      "round_name": "Series D",
+      "investors": null,
+      "amount_usd": 600000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_0f52c8eb#5.0",
+            "crusoe_about_ed612d4e#9.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2022_series_c",
+      "company_id": "crusoe",
+      "occurred_on": "2022-01-01",
+      "event_type": "funding",
+      "title": "Crusoe closes $350M Series C",
+      "description": "Close our $350M Series C round to accelerate our expansion, scaling our infrastructure footprint for high performance computing.",
+      "round_name": "Series C",
+      "investors": null,
+      "amount_usd": 350000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_7be03475#6.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2021_series_b",
+      "company_id": "crusoe",
+      "occurred_on": "2021-01-01",
+      "event_type": "funding",
+      "title": "Crusoe closes $128M Series B",
+      "description": "Close our $128M Series B to expand our patented Digital Flare Mitigation\u00ae technology nationwide, proving the scalability of our solution.",
+      "round_name": "Series B",
+      "investors": null,
+      "amount_usd": 128000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_dbf012c3#7.0",
+            "crusoe_about_209cf60d#10.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2019_series_a",
+      "company_id": "crusoe",
+      "occurred_on": "2019-01-01",
+      "event_type": "funding",
+      "title": "Crusoe raises Series A",
+      "description": "Series A funding builds the financial foundation for us to scale our mission.",
+      "round_name": "Series A",
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_dbf012c3#7.0",
+            "crusoe_about_a9f9a9f3#11.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2025_acquisition_atero",
+      "company_id": "crusoe",
+      "occurred_on": "2025-01-01",
+      "event_type": "mna",
+      "title": "Crusoe acquires Atero",
+      "description": "Acquire GPU memory optimization startup Atero and establish Tel Aviv office.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_1004340f#8.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2023_europe_expansion",
+      "company_id": "crusoe",
+      "occurred_on": "2023-01-01",
+      "event_type": "office_open",
+      "title": "Crusoe expands to Europe",
+      "description": "Expand our data center footprint to Europe with a sustainable geothermal and hydro-powered Crusoe Cloud deployment in Iceland.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_209cf60d#10.0",
+            "crusoe_about_7be03475#6.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2024_partnership_redwood",
+      "company_id": "crusoe",
+      "occurred_on": "2024-01-01",
+      "event_type": "partnership",
+      "title": "Crusoe partners with Redwood Materials",
+      "description": "Partnering with Redwood Materials, we launch Crusoe Spark modular AI data centers powered by the world's largest second-life EV battery system.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_1004340f#8.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "crusoe_2025_partnership_ge_vernova",
+      "company_id": "crusoe",
+      "occurred_on": "2025-01-01",
+      "event_type": "partnership",
+      "title": "Crusoe partners with GE Vernova",
+      "description": "Partner with GE Vernova to power future AI factories with gas turbines.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_about_1004340f#8.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "crusoe",
+      "as_of": "2023-10-10",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Crusoe Cloud",
+        "Data Centers",
+        "Energy",
+        "Developers",
+        "Documentation",
+        "Github",
+        "Cookbook"
+      ],
+      "geo_presence": [
+        "North America",
+        "Europe"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-10",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_32ac8b0a#16.0",
+            "crusoe_product_d621ae86#1.0",
+            "crusoe_product_006e2b45#10.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "crusoe_product_006e2b45",
+      "company_id": "crusoe",
+      "name": "Crusoe Cloud",
+      "description": "Crusoe Cloud offers high-bandwidth connectivity from hyperscalers and data centers into Crusoe Cloud via its global private backbone for reliable, scalable, cost-effective data transfers across the globe.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_006e2b45#10.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "crusoe_product_c63533f1",
+      "company_id": "crusoe",
+      "name": "Crusoe Cloud",
+      "description": "Crusoe offers the latest accelerated compute technology from leading providers including AMD and NVIDIA to power demanding training, inference, graphics, and HPC workloads. Provides an intuitive, powerful set of developer surfaces including Crusoe Cloud Console, CLI, APIs, Terraform, and SDKs.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_c63533f1#4.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "crusoe_product_e3df5f51",
+      "company_id": "crusoe",
+      "name": "Crusoe Managed Inference",
+      "description": "Crusoe Managed Inference accelerates time-to-market by handling infrastructure, maintenance, and security for deploying and scaling advanced AI models. Offers low-latency, high-throughput predictions with robust monitoring and scaling.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_e3df5f51#8.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "crusoe_product_bc183be7",
+      "company_id": "crusoe",
+      "name": "Crusoe AutoClusters",
+      "description": "Crusoe\u2019s scalable orchestration and managed services eliminate complexity, allowing deployment and scaling of AI workloads across thousands of GPUs using Managed Kubernetes and Slurm services.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_bc183be7#5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "crusoe_product_16816965",
+      "company_id": "crusoe",
+      "name": "Crusoe Observability",
+      "description": "Crusoe\u2019s observability features provide transparency and context needed to troubleshoot and optimize AI compute workloads, ensuring performance and cost targets are met.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_16816965#6.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "dean-leitersdorf",
+      "company_id": "crusoe",
+      "name": "Dean Leitersdorf",
+      "role": "Co-Founder & CEO",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_f4593816#13.0",
+            "crusoe_product_ab11bfdc#12.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "prasanth-veerina",
+      "company_id": "crusoe",
+      "name": "Prasanth Veerina",
+      "role": "Co-Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_ce02c4d4#15.0",
+            "crusoe_product_7a5337aa#14.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "chase-lochmiller",
+      "company_id": "crusoe",
+      "name": "Chase Lochmiller",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_blog_0cd0376e#15.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "cully-cavness",
+      "company_id": "crusoe",
+      "name": "Cully Cavness",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_blog_0cd0376e#15.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "alex-smola",
+      "company_id": "crusoe",
+      "name": "Alex Smola",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_32ac8b0a#16.0",
+            "crusoe_product_ce02c4d4#15.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "oliver-cameron",
+      "company_id": "crusoe",
+      "name": "Oliver Cameron",
+      "role": "CEO",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-05",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_f4593816#13.0",
+            "crusoe_product_7a5337aa#14.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "crusoe",
+      "as_of": "2023-10-06",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_ab11bfdc#12.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_006e2b45#10.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_4743dab0#9.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_7a5337aa#14.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_16816965#6.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_c63533f1#4.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_f4593816#13.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_32ac8b0a#16.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_ce02c4d4#15.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_c260d874#11.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_d621ae86#1.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_e3df5f51#8.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_f6da5770#17.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-06",
+          "snippet": null,
+          "chunk_id": [
+            "crusoe_product_bc183be7#5.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T19:20:27.455794",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

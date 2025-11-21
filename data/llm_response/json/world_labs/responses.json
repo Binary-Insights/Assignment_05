@@ -4,133 +4,432 @@
     "company_name": "World Labs",
     "company_slug": "world-labs",
     "pipeline_type": "structured",
-    "timestamp": "2025-11-12T23:01:54.392353Z",
+    "timestamp": "2025-11-21T19:38:08.120036Z",
     "markdown_file": "markdown/world_labs/structured.md",
-    "content": "## Company Overview\n\nWORLD LABS TECHNOLOGIES, headquartered in San Francisco, CA, operates in the Artificial Intelligence sector. The company is focused on revolutionizing AI by developing Large World Models, which are designed to enhance spatial intelligence and interaction with 3D environments.\n\n## Business Model and GTM\n\nThe company states its mission is to revolutionize artificial intelligence through the development of Large World Models. These models are designed to perceive, generate, and interact with the 3D world. Their product lineup includes:\n- **Large World Models**: AI models for spatial intelligence.\n- **RTFM: A Real-Time Frame Model**: A generative world model for real-time video interaction.\n\nThe go-to-market strategy and specific business model details are not disclosed.\n\n## Funding & Investor Profile\n\nWorld Labs has raised more than $230 million in total funding. The funding round was led by Martin Casado and Sarah Wang of Andreessen Horowitz. Further details about other investors or funding rounds are not disclosed.\n\n## Growth Momentum\n\nWorld Labs has released two significant products:\n- An AI system that generates 3D worlds from a single image.\n- A research preview of RTFM, a generative world model for real-time video interaction.\n\nSpecific growth metrics or user adoption rates are not disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility and market presence data available. There is one mention, but details are not provided.\n\n## Risks and Challenges\n\nSpecific risks and challenges facing World Labs are not disclosed. However, typical challenges in the AI sector include technological advancements, competition, and regulatory considerations.\n\n## Outlook\n\nThe company is positioned in the rapidly growing AI sector with innovative products focused on spatial intelligence and real-time interaction. The involvement of prominent investors like Andreessen Horowitz suggests confidence in the company's potential. However, detailed future plans or projections are not disclosed.\n\n## Disclosure Gaps\n\n- Specific dates for product releases and funding events are not disclosed.\n- Detailed business model and go-to-market strategy are not provided.\n- Growth metrics, user adoption rates, and market sentiment specifics are not available.\n- Risks and challenges specific to World Labs are not disclosed.\n- Future outlook details and strategic plans are not provided."
+    "content": "## Company Overview\n\nWorld Labs, legally known as World Labs, is a private company headquartered in San Francisco, California, United States. Founded in 2016, the company operates in the fields of spatial intelligence, AI research, and product development. World Labs positions itself as a leading spatial intelligence company, focusing on building frontier world models that can perceive, generate, reason, and interact with the 3D world. The company’s website is [worldlabs.ai](https://www.worldlabs.ai/).\n\n## Business Model and GTM\n\nThe company states that it is a frontier AI research and product company. World Labs has released several products, including Marble, a multimodal world model that allows users to create high-fidelity 3D worlds from simple inputs like images, videos, or text prompts. The company’s go-to-market strategy appears to focus on making advanced AI models accessible to a broad audience, although specific details on pricing, distribution channels, or customer segments are not disclosed.\n\n## Funding & Investor Profile\n\nWorld Labs has raised a total of $230 million in funding. The most recent funding round was a Series D, which took place on September 13, 2024. Specific investors or investment terms have not been disclosed.\n\n## Growth Momentum\n\nWorld Labs has demonstrated growth momentum through multiple product releases, including Marble and a research preview of RTFM, a generative world model for real-time video interaction. The company has also announced breakthroughs in 3D world generation, emphasizing larger, more detailed environments and improved fidelity. However, specific metrics or growth rates are not disclosed.\n\n## Visibility & Market Sentiment\n\nThe company has limited visibility and market presence data available. There is one mention, but details are not provided. Overall market sentiment and media coverage specifics are not disclosed.\n\n## Risks and Challenges\n\nSpecific risks and challenges facing World Labs are not disclosed. However, typical challenges for companies in the AI and spatial intelligence sectors may include technological advancements, competition, regulatory changes, and market adoption barriers.\n\n## Outlook\n\nThe outlook for World Labs appears promising, given its focus on cutting-edge AI research and product development in spatial intelligence. The company’s ability to innovate and release new products like Marble suggests potential for continued growth and market impact. However, the lack of detailed financial performance data and market sentiment analysis makes it difficult to fully assess future prospects.\n\n## Disclosure Gaps\n\n- Specific details on the business model, including pricing, distribution channels, and customer segments.\n- Information on key investors and investment terms.\n- Detailed growth metrics and financial performance data.\n- Comprehensive visibility and market sentiment analysis.\n- Specific risks and challenges facing the company."
   },
   "rag": {
     "company_name": "World Labs",
     "company_slug": "world-labs",
     "pipeline_type": "rag",
-    "timestamp": "2025-11-12T23:04:49.090065Z",
+    "timestamp": "2025-11-21T19:40:32.311052Z",
     "markdown_file": "markdown/world_labs/rag.md",
-    "content": "## Company Overview\n\nWorld Labs is a private AI startup headquartered in San Francisco, CA. The company is focused on leveraging rapid scientific progress to bridge the gap between research and practical applications. World Labs is actively building a team of overachievers and visionaries to drive innovation and achieve ambitious goals.\n\n## Business Model and GTM\n\nNot disclosed.\n\n## Funding & Investor Profile\n\nWorld Labs has raised more than $230 million in total funding. The funding rounds have been led by prominent investors such as Martin Casado and Sarah Wang of Andreessen Horowitz, Scott Sandell of NEA, and Jordan Jacobs of Radical Ventures. Other notable investors include Marc Benioff, Jim Breyer, Ron Conway, Jeff Dean, Geoffrey Hinton, Reid Hoffman, Andrej Karpathy, Ashton Kutcher, Eric Schmidt, Ram Shriram, Anne Wojcicki, and the late Susan Wojcicki. Institutional investors include Adobe Ventures, AMD Ventures, Databricks Ventures, NVentures (the venture capital arm of NVIDIA), Salesforce Ventures, and Shinrai Investments LLC.\n\n## Growth Momentum\n\nThe company states that it is in a growth phase, actively hiring for various positions at its San Francisco headquarters. World Labs is focused on building a strong team to support its ambitious goals.\n\n## Visibility & Market Sentiment\n\nThe company invites stakeholders to follow its journey on platforms like LinkedIn and X, indicating an effort to maintain visibility and engage with the market. However, specific market sentiment data is not disclosed.\n\n## Risks and Challenges\n\nNot disclosed.\n\n## Outlook\n\nWorld Labs is poised to capitalize on the current moment where scientific progress is rapidly advancing. The company is focused on translating research into practical applications, suggesting a forward-looking strategy aimed at innovation and market impact.\n\n## Disclosure Gaps\n\n- Specific details about the business model and go-to-market strategy are not disclosed.\n- Information on current product offerings and technology specifics is not provided.\n- Market sentiment and specific risks and challenges facing the company are not detailed.",
+    "content": "## Company Overview\n\nWorld Labs is a private spatial intelligence company founded in 2023, headquartered in San Francisco, California, United States. The company specializes in building Large World Models (LWMs) to perceive, generate, and interact with the 3D world. It operates within the Media and Information Services (B2B) industry and has a team size of 11-50 employees. The leadership team includes co-founders Fei-Fei Li, PhD (CEO), Justin Johnson, PhD, Christoph Lassner, PhD, and Ben Mildenhall, PhD.\n\n## Business Model and GTM\n\nWorld Labs focuses on developing spatially intelligent LWMs that can understand and reason about the 3D world from images and other modalities. The company aims to create a tight feedback loop between its spatially intelligent foundation models and products, empowering users with advanced AI capabilities. The company states that it is building an ambitious company to tackle the challenges of propelling AI forward with spatial intelligence.\n\n## Funding & Investor Profile\n\nWorld Labs has raised a total of $230 million over two funding rounds. The latest funding round was a Series D round on September 13, 2024, where $230 million was raised. Notable investors include New Enterprise Associates, Andreessen Horowitz, and Radical Ventures, among others.\n\n## Growth Momentum\n\nThe company is in a growth phase, with a focus on expanding its team and capabilities. World Labs is actively hiring and has open positions listed on its website. The company is leveraging its strong research background to bridge the gap between research and practical applications.\n\n## Visibility & Market Sentiment\n\nWorld Labs is recognized for its innovative approach to spatial intelligence and AI. The company is building a reputation for developing cutting-edge AI technology that can transform how AI models interact with 3D environments. The company is supported by world-class investors, which enhances its credibility and market presence.\n\n## Risks and Challenges\n\nAs a company operating in the rapidly evolving AI sector, World Labs faces challenges related to technological advancements and market competition. The ambitious goals of developing spatially intelligent LWMs require significant research and development efforts, which can be resource-intensive.\n\n## Outlook\n\nThe outlook for World Labs is positive, given its strong leadership team, substantial funding, and innovative approach to AI. The company's focus on spatial intelligence positions it well to capitalize on emerging opportunities in the AI industry. Continued investment in research and development will be crucial for maintaining its competitive edge.\n\n## Disclosure Gaps\n\n- Current revenue figures are not disclosed.\n- Specific details about the business model and go-to-market strategy are not provided.\n- Information on customer base and key partners is not available.\n- Detailed competitive analysis and market positioning are not disclosed.",
     "context_results": [
       {
-        "id": "world_labs_about_eaafd71d",
-        "similarity_score": 0.412035,
-        "text": "We've already made promising strides, but we have a long way to go. We thank our investors for their early support on our journey. To date we have raised more than $230M in total funding led by Martin Casado and Sarah Wang of Andreessen Horowitz, Scott Sandell of NEA, and Jordan Jacobs of Radical Ventures. Other investors include individuals Marc Benioff, Jim Breyer, Ron Conway, Jeff Dean, Geoffrey Hinton, Reid Hoffman, Andrej Karpathy, Sound Ventures co-founder Ashton Kutcher, Eric Schmidt,",
+        "id": "world_labs_tavily_6b4211c9",
+        "similarity_score": 0.460918427,
+        "text": "World Labs\n\n$100K | 23 years ago ## Funding & Competitors Unicorn Competitors & Peer Funding | Latest Funding | Companies | Total Funding | Mosaic Score | Country | | 01/01/2021 | Company Name | $11M | 210 | United States | | 01/01/2021 | Company Name | $11M | 210 | United States | Key Partners & Customers | 01/01/2021 | Company Type | Business Partners | | 01/01/2021 | Company Type | Business Partners | | 01/01/2021 | Company Type | Business Partners | | Officer Name 1 | Work History | Title | Status | | Officer Name 1 | Work History | Title | Status | | Officer Name 1 | Work History | Title | Status |",
         "metadata": {
-          "chunk_index": 14.0,
           "company_slug": "world_labs",
-          "content_hash": "eaafd71d",
-          "indexed_at": "2025-11-11T20:48:38.883810",
-          "page_type": "about",
-          "source_file": "data/raw/world_labs/about/text.txt"
+          "content_hash": "6b4211c9",
+          "ingested_at": "2025-11-21T19:36:47.412804",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linqto.com/market-insights/world-labs/",
+          "title": "World Labs"
         }
       },
       {
-        "id": "world_labs_product_5ac541cd",
-        "similarity_score": 0.409942627,
-        "text": "See full team\nInvestors\nWorld Labs is supported by\nMarc Benioff, Jim Breyer, Ron Conway, Jeff Dean, Geoffrey Hinton, Reid Hoffman, Andrej Karpathy, Sound Ventures co-founder Ashton Kutcher, Eric Schmidt, Ram Shriram, Anne Wojcicki, and the late Susan Wojcicki; as well as Adobe Ventures, AMD Ventures, Databricks Ventures, NVentures, the venture capital arm of NVIDIA, Salesforce Ventures, and Shinrai Investments LLC\nContact\nGeneral Info\nCareers\nPress Inquiries\n© 2024 WORLD LABS TECHNOLOGIES",
+        "id": "world_labs_tavily_f8a41546",
+        "similarity_score": 0.439909,
+        "text": "WorldLabs 2025 Company Profile: Valuation, Funding & Investors\n\n# WorldLabs ## WorldLabs Overview ### WorldLabs General Information ## WorldLabs Valuation & Funding To view WorldLabs’s complete valuation and funding history, request access » ## WorldLabs Signals ## WorldLabs FAQs * ### When was WorldLabs founded? WorldLabs was founded in 2016. * ### Where is WorldLabs headquartered? WorldLabs is headquartered in London, United Kingdom. * ### What is the size of WorldLabs? WorldLabs has 2 total employees. * ### What industry is WorldLabs in? WorldLabs’s primary industry is Media and Information Services (B2B). * ### Is WorldLabs a private or public company? WorldLabs is a Private company. * ### What is WorldLabs’s current revenue? The current revenue for WorldLabs is . WorldLabs has raised $1.38M.",
         "metadata": {
-          "chunk_index": 10.0,
           "company_slug": "world_labs",
-          "content_hash": "5ac541cd",
-          "indexed_at": "2025-11-11T20:48:38.885707",
-          "page_type": "product",
-          "source_file": "data/raw/world_labs/product/text.txt"
+          "content_hash": "f8a41546",
+          "ingested_at": "2025-11-21T19:36:36.039476",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/435962-35",
+          "title": "WorldLabs 2025 Company Profile: Valuation, Funding & Investors"
         }
       },
       {
-        "id": "world_labs_product_ae09d9be",
-        "similarity_score": 0.389621764,
-        "text": "Contact\nGeneral Info\nCareers\nPress Inquiries\n© 2024 WORLD LABS TECHNOLOGIES\nSan Francisco, CA",
+        "id": "world_labs_tavily_7c238904",
+        "similarity_score": 0.425056487,
+        "text": "Andreessen Horowitz Portfolio Companies\n\nBrowse the complete list of 100 startups and technology companies that are Andreessen Horowitz Portfolio Companies. See active job listings, financials and",
         "metadata": {
-          "chunk_index": 11.0,
           "company_slug": "world_labs",
-          "content_hash": "ae09d9be",
-          "indexed_at": "2025-11-11T20:48:38.885763",
-          "page_type": "product",
-          "source_file": "data/raw/world_labs/product/text.txt"
+          "content_hash": "7c238904",
+          "ingested_at": "2025-11-21T19:36:36.676774",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/andreessen-horowitz",
+          "title": "Andreessen Horowitz Portfolio Companies"
         }
       },
       {
-        "id": "world_labs_about_5efa721a",
-        "similarity_score": 0.380302429,
-        "text": "We are growing - read about\nour team\nand\nour open roles\nto learn more.\nWhere We're Going",
+        "id": "world_labs_tavily_824cbcd1",
+        "similarity_score": 0.412807465,
+        "text": "World Labs | LinkedIn\n\nOverview:\nWorld Labs is a spatial intelligence company building Large World Models (LWMs) to perceive, generate, and interact with the 3D world. We aim to lift AI models from the 2D plane of pixels to full 3D worlds – both virtual and real – endowing them with spatial intelligence as rich as our own. We believe that humans are innovative, curious, and creative; science and technology are both manifestations and drivers of these impulses. Propelling AI forward with spatial intelligence will also propel forward both individuals and humanity as a whole. Toward this goal, World Labs will develop spatially intelligent LWMs that can understand and reason about the 3D world from images and other modalities. Over time, we expect to train increasingly powerful models with broader capabilities that can be applied in a variety of domains, working alongside people. These are ambitious goals, so we are building an ambitious company to tackle them. Our team, led by co-founders Fei-Fei Li, PhD; Justin Johnson, PhD; Christoph Lassner, PhD; and Ben Mildenhall, PhD, has a strong research background, but we are not motivated by exploration for its own sake. Instead, we believe that now is a unique moment where rapid scientific progress has thinned the barrier between research and applications. We aim to seize this opportunity, focusing on the entire throughline from research to engineering to product to people. We are bringing together the most formidable slate of pixel talent ever assembled, creating a tight feedback loop between our spatially intelligent foundation models and products that will empower our users. We invite you to learn more about joining our fast-growing team. You can find open positions at jobs.ashbyhq.com/worldlabs.\n\nWebsite: https://worldlabs.ai/\nCrunchbase Url: https://www.crunchbase.com/organization/world-labs?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase\nLinkedin Url: https://www.linkedin.com/company/world-labs\n\nIndustry:\nResearch Services\n\nCompany size:\n11-50 employees\n38 associated members (LinkedIn members who’ve listed World Labs as their current workplace on their profile)\n\nFounded:\n2023\n\nFunding:\nLast Round Date: 2024-10-13T00:00:00.000Z\nLast Round Type: Series unknown\nTotal Rounds: 2\nLast Round Raised: US$ 230.0M\n\nInvestors:\nNew Enterprise Associates, Andreessen Horowitz, + 21 Other investors",
         "metadata": {
-          "chunk_index": 8.0,
           "company_slug": "world_labs",
-          "content_hash": "5efa721a",
-          "indexed_at": "2025-11-11T20:48:38.883766",
-          "page_type": "about",
-          "source_file": "data/raw/world_labs/about/text.txt"
+          "content_hash": "824cbcd1",
+          "ingested_at": "2025-11-21T19:35:50.767852",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/company/world-labs",
+          "title": "World Labs | LinkedIn"
         }
       },
       {
-        "id": "world_labs_about_97c4f0ae",
-        "similarity_score": 0.37502864,
-        "text": "Hinton, Reid Hoffman, Andrej Karpathy, Sound Ventures co-founder Ashton Kutcher, Eric Schmidt, Ram Shriram, Anne Wojcicki, and the late Susan Wojcicki; as well as Adobe Ventures, AMD Ventures, Databricks Ventures, NVentures, the venture capital arm of NVIDIA, Salesforce Ventures, and Shinrai Investments LLC. We are grateful for their partnership.",
+        "id": "world_labs_tavily_87edf77e",
+        "similarity_score": 0.410690337,
+        "text": "World Labs\n\nOverview:\nWorld Labs is a spatial intelligence company building Large World Models (LWMs) to perceive, generate, and interact with the 3D world. We aim to lift AI models from the 2D plane of pixels to full 3D worlds – both virtual and real – endowing them with spatial intelligence as rich as our own. We believe that humans are innovative, curious, and creative; science and technology are both manifestations and drivers of these impulses. Propelling AI forward with spatial intelligence will also propel forward both individuals and humanity as a whole. Toward this goal, World Labs will develop spatially intelligent LWMs that can understand and reason about the 3D world from images and other modalities. Over time, we expect to train increasingly powerful models with broader capabilities that can be applied in a variety of domains, working alongside people. These are ambitious goals, so we are building an ambitious company to tackle them. Our team, led by co-founders Fei-Fei Li, PhD; Justin Johnson, PhD; Christoph Lassner, PhD; and Ben Mildenhall, PhD, has a strong research background, but we are not motivated by exploration for its own sake. Instead, we believe that now is a unique moment where rapid scientific progress has thinned the barrier between research and applications. We aim to seize this opportunity, focusing on the entire throughline from research to engineering to product to people. We are bringing together the most formidable slate of pixel talent ever assembled, creating a tight feedback loop between our spatially intelligent foundation models and products that will empower our users. We invite you to learn more about joining our fast-growing team. You can find open positions at jobs.ashbyhq.com/worldlabs.\n\nWebsite: https://worldlabs.ai/\nCrunchbase Url: https://www.crunchbase.com/organization/world-labs?utm_source=linkedin&utm_medium=referral&utm_campaign=linkedin_companies&utm_content=profile_cta_anon&trk=funding_crunchbase\nLinkedin Url: https://www.linkedin.com/company/world-labs\n\nIndustry:\nResearch Services\n\nCompany size:\n11-50 employees\n38 associated members (LinkedIn members who’ve listed World Labs as their current workplace on their profile)\n\nFounded:\n2023\n\nFunding:\nLast Round Date: 2024-10-13T00:00:00.000Z\nLast Round Type: Series unknown\nTotal Rounds: 2\nLast Round Raised: US$ 230.0M\n\nInvestors:\nNew Enterprise Associates, Andreessen Horowitz, + 21 Other investors",
         "metadata": {
-          "chunk_index": 15.0,
           "company_slug": "world_labs",
-          "content_hash": "97c4f0ae",
-          "indexed_at": "2025-11-11T20:48:38.883816",
-          "page_type": "about",
-          "source_file": "data/raw/world_labs/about/text.txt"
+          "content_hash": "87edf77e",
+          "ingested_at": "2025-11-21T19:35:53.851009",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.linkedin.com/company/world-labs",
+          "title": "World Labs"
         }
       },
       {
-        "id": "world_labs_careers_10ee287f",
-        "similarity_score": 0.37179184,
-        "text": "We're looking for the overachievers, the visionaries, and the relentless innovators who aren't satisfied with the status quo. You know that person who's always dreaming up the next big breakthrough? That's us. And we want you to be part of it.\nOpen Positions\n(6)\nFilters:\nReset filters\nDepartment\nAll Departments\nWorld Labs HQ\nLocation\nAll Locations\nSan Francisco Office (HQ)\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nWorld Labs HQ",
+        "id": "world_labs_tavily_efc69d0a",
+        "similarity_score": 0.402675629,
+        "text": "World Labs | Company Overview & News - Forbes\n\nIndustry: Spatial intelligence ; Founded: 2024 ; Headquarters: San Francisco, California ; Country/Territory: United States ; CEO: Fei Fei Li",
         "metadata": {
-          "chunk_index": 2.0,
           "company_slug": "world_labs",
-          "content_hash": "10ee287f",
-          "indexed_at": "2025-11-11T20:48:38.884858",
-          "page_type": "careers",
-          "source_file": "data/raw/world_labs/careers/text.txt"
+          "content_hash": "efc69d0a",
+          "ingested_at": "2025-11-21T19:36:48.249575",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.forbes.com/companies/world-labs/",
+          "title": "World Labs | Company Overview & News - Forbes"
         }
       },
       {
-        "id": "world_labs_about_56b5f13e",
-        "similarity_score": 0.369873047,
-        "text": "We will share more about our technology and products in the coming months, and we invite you to follow along on our journey. To keep up with the latest from World Labs, find us on\nLinkedIn\nand\nX\n.\nContact\nGeneral Info\nCareers\nPress Inquiries\n© 2024 WORLD LABS TECHNOLOGIES\nSan Francisco, CA",
+        "id": "world_labs_tavily_d49aa900",
+        "similarity_score": 0.397096694,
+        "text": "World Labs - Valuation, Funding & Investors\n\nWorld Labs is headquartered in San Francisco, CA. What is the size of World Labs? World Labs has 38 total employees. What industry is World Labs in?",
         "metadata": {
-          "chunk_index": 16.0,
           "company_slug": "world_labs",
-          "content_hash": "56b5f13e",
-          "indexed_at": "2025-11-11T20:48:38.883823",
-          "page_type": "about",
-          "source_file": "data/raw/world_labs/about/text.txt"
+          "content_hash": "d49aa900",
+          "ingested_at": "2025-11-21T19:36:18.167761",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/608754-43",
+          "title": "World Labs - Valuation, Funding & Investors"
         }
       },
       {
-        "id": "world_labs_about_521ab125",
-        "similarity_score": 0.356273681,
-        "text": "Who We're Building With\nThese are ambitious goals, so we are building an ambitious company to tackle them. Our team has a strong research background, but we are not motivated by exploration for its own sake. Instead, we believe that now is a unique moment where rapid scientific progress has thinned the barrier between research and applications. We aim to seize this opportunity, focusing on the entire throughline from research to engineering to product to people.",
+        "id": "world_labs_tavily_2d1e782d",
+        "similarity_score": 0.389368087,
+        "text": "World Labs - 2025 Company Profile, Team, Funding & Competitors\n\nWorld Labs - 2025 Company Profile, Team, Funding & Competitors - Tracxn World Labs - About the company World Labs has raised a total funding of$230M over 1 round.Its latest funding round was a Series D round on Sep 13, 2024 for $230M.6 investor s participated in its latest round,lead bya16z, Nea and Radical Ventures. | 2nd | Image 17: Logo for World Labs World Labs 2023, San Francisco (United States), Series D | Provider of AI models to generate and understand interactive 3D environments | $230M | a16z, Radical Ventures&4 others | 52/100 | Is World Labs a funded company? World Labs is a funded company, its first funding round was on Sep 13, 2024.",
         "metadata": {
-          "chunk_index": 13.0,
           "company_slug": "world_labs",
-          "content_hash": "521ab125",
-          "indexed_at": "2025-11-11T20:48:38.883804",
-          "page_type": "about",
-          "source_file": "data/raw/world_labs/about/text.txt"
+          "content_hash": "2d1e782d",
+          "ingested_at": "2025-11-21T19:35:53.035962",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/world-labs/__9k2QeFKxbXi5EffPqD-w46E9BgqtWSgCrLgRK5sEwKE",
+          "title": "World Labs - 2025 Company Profile, Team, Funding & Competitors"
+        }
+      },
+      {
+        "id": "world_labs_tavily_853166cd",
+        "similarity_score": 0.388933182,
+        "text": "World Labs | Company Overview & News\n\nIndustry: Spatial intelligence ; Founded: 2024 ; Headquarters: San Francisco, California ; Country/Territory: United States ; CEO: Fei Fei Li ...See more",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "853166cd",
+          "ingested_at": "2025-11-21T19:36:17.680909",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.forbes.com/companies/world-labs/",
+          "title": "World Labs | Company Overview & News"
+        }
+      },
+      {
+        "id": "world_labs_tavily_8dcb3469",
+        "similarity_score": 0.388492584,
+        "text": "World Labs - 2025 Company Profile & Team\n\nWorld Labs - 2025 Company Profile, Team, Funding & Competitors - Tracxn World Labs - About the company World Labs has raised a total funding of$230M over 1 round.Its latest funding round was a Series D round on Sep 13, 2024 for $230M.6 investor s participated in its latest round,lead bya16z, Nea and Radical Ventures. | 2nd | Image 17: Logo for World Labs World Labs 2023, San Francisco (United States), Series D | Provider of AI models to generate and understand interactive 3D environments | $230M | a16z, Radical Ventures&4 others | 52/100 | Is World Labs a funded company? World Labs is a funded company, its first funding round was on Sep 13, 2024.",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "8dcb3469",
+          "ingested_at": "2025-11-21T19:36:47.684698",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://tracxn.com/d/companies/world-labs/__9k2QeFKxbXi5EffPqD-w46E9BgqtWSgCrLgRK5sEwKE",
+          "title": "World Labs - 2025 Company Profile & Team"
+        }
+      },
+      {
+        "id": "world_labs_tavily_cfb3564a",
+        "similarity_score": 0.388149261,
+        "text": "World Labs | Company Overview & News\n\nIndustry: Spatial intelligence ; Founded: 2024 ; Headquarters: San Francisco, California ; Country/Territory: United States ; CEO: Fei Fei Li",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "cfb3564a",
+          "ingested_at": "2025-11-21T19:36:18.285033",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.forbes.com/companies/world-labs/",
+          "title": "World Labs | Company Overview & News"
+        }
+      },
+      {
+        "id": "world_labs_tavily_797cc3b8",
+        "similarity_score": 0.383377105,
+        "text": "World Labs - Valuation, Funding & Investors\n\nWhere is World Labs headquartered? World Labs is headquartered in San Francisco, CA. What is the size of World Labs? World Labs has 38 total",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "797cc3b8",
+          "ingested_at": "2025-11-21T19:36:47.922525",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://pitchbook.com/profiles/company/608754-43",
+          "title": "World Labs - Valuation, Funding & Investors"
+        }
+      },
+      {
+        "id": "world_labs_tavily_7c4300c4",
+        "similarity_score": 0.381170273,
+        "text": "World Labs | Salesforce Ventures\n\nFounded by the “godmother of AI”, Fei-Fei Li, and world-renowned AI researchers, World Labs is a spatial intelligence AI company building Large World Models (LWMs) to perceive, generate, and interact with the 3D world ### Leadership Fei-Fei Li, Co-Founder & CEO; Justin Johnson, Co-founder; Christoph Lassner, Co-founder; Ben Mildenhall, Co-founder ### Status Private",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "7c4300c4",
+          "ingested_at": "2025-11-21T19:35:51.783706",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://salesforceventures.com/companies/world-labs/",
+          "title": "World Labs | Salesforce Ventures"
+        }
+      },
+      {
+        "id": "world_labs_tavily_c20f8312",
+        "similarity_score": 0.374330521,
+        "text": "World Labs - Crunchbase Company Profile & Funding\n\nWhere is World Labs 's headquarters? World Labs is located in San Francisco, California, United States . Who invested in World Labs ? World Labs has 23",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "c20f8312",
+          "ingested_at": "2025-11-21T19:36:18.591908",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/world-labs",
+          "title": "World Labs - Crunchbase Company Profile & Funding"
+        }
+      },
+      {
+        "id": "world_labs_tavily_998a6ca5",
+        "similarity_score": 0.372873306,
+        "text": "Intel Capital Portfolio Companies\n\n| ActZero.ai  ActZero.ai is a software development company that builds an AI-driven security platform. The company develops an AI-driven security platform that enables to ingest scores of data to build tailored risk profiles — resulting in better, more precise protectio | Menlo Park | CA | 10 - 100 | 2019 | $44,000,000 | The Company offers building machine learning and big data analytics platforms which enables optimum performance for any ML training, inference, and analytics models. The Company develops cloud software to create a digital twin of the supply chain and processes billions of events per second to deliver diagnostic and predictive insights in real-time for location, c | San Jose | CA | 50 - 100 | 2014 | $75,000,000 |",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "998a6ca5",
+          "ingested_at": "2025-11-21T19:36:37.366542",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/intel-capital",
+          "title": "Intel Capital Portfolio Companies"
+        }
+      },
+      {
+        "id": "world_labs_tavily_3478f083",
+        "similarity_score": 0.365430832,
+        "text": "World Labs - Products, Competitors, Financials, Employees ...\n\n# World Labs ## About World Labs World Labs operates within the generative AI sector and offers a product that generates and allows interaction with 3D worlds using multimodal inputs like text, images, and videos. World models AI developers The world model AI developers market refers to the segment of the artificial intelligence industry focused on building models that simulate and predict how environments change over time. * When was World Labs founded? World Labs was founded in 2023. * How much did World Labs raise? World Labs raised a total of $230M. Competitors of World Labs include Bifrost, Physna, Utopai Studios, Vizzio, Blackshark.ai and 7 more. Blackshark.ai specializes in artificial intelligence AI-based object detection and the creation of a three-dimensional (3D) digital twin of the entire planet within the geospatial technology sector.",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "3478f083",
+          "ingested_at": "2025-11-21T19:36:18.774954",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.cbinsights.com/company/world-labs",
+          "title": "World Labs - Products, Competitors, Financials, Employees ..."
+        }
+      },
+      {
+        "id": "world_labs_tavily_189b0552",
+        "similarity_score": 0.364265412,
+        "text": "World Labs\n\nFounded by the “godmother of AI”, Fei-Fei Li, and world-renowned AI researchers, World Labs is a spatial intelligence AI company building Large World Models (LWMs) to perceive, generate, and interact with the 3D world ### Leadership Fei-Fei Li, Co-Founder & CEO; Justin Johnson, Co-founder; Christoph Lassner, Co-founder; Ben Mildenhall, Co-founder ### Status Private",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "189b0552",
+          "ingested_at": "2025-11-21T19:35:53.370665",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://salesforceventures.com/companies/world-labs/",
+          "title": "World Labs"
+        }
+      },
+      {
+        "id": "world_labs_tavily_6b4590f4",
+        "similarity_score": 0.364189148,
+        "text": "World Labs - Crunchbase Company Profile & Funding\n\nWhere is World Labs 's headquarters? World Labs is located in San Francisco, California, United States . Who invested in World Labs ? World Labs has 23 ...See more",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "6b4590f4",
+          "ingested_at": "2025-11-21T19:36:17.052958",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/world-labs",
+          "title": "World Labs - Crunchbase Company Profile & Funding"
+        }
+      },
+      {
+        "id": "world_labs_tavily_30bb63bd",
+        "similarity_score": 0.36415863,
+        "text": "WorldLabs - Crunchbase Company Profile & Funding\n\nLegal Name World Alliance Laboratories Ltd. ... WorldLabs is a digital global platform that fast-tracks the development of innovative ideas. WorldLabs streamlines",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "30bb63bd",
+          "ingested_at": "2025-11-21T19:35:52.044818",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.crunchbase.com/organization/worldlabs",
+          "title": "WorldLabs - Crunchbase Company Profile & Funding"
+        }
+      },
+      {
+        "id": "world_labs_tavily_3e494a63",
+        "similarity_score": 0.35193634,
+        "text": "World Labs Technologies Company Profile - PrivCo\n\nWorld Labs Technologies is a privately-held spatial intelligence company building Large World Models (LWMs) to perceive, generate, and interact with the 3D",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "3e494a63",
+          "ingested_at": "2025-11-21T19:35:52.282669",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://system.privco.com/company/world-labs-technologies",
+          "title": "World Labs Technologies Company Profile - PrivCo"
         }
       },
       {
         "id": "world_labs_careers_9f576a05",
-        "similarity_score": 0.347179413,
+        "similarity_score": 0.347442627,
         "text": "We're looking for the overachievers, the visionaries, and the relentless innovators who aren't satisfied with the status quo. You know that person who's always dreaming up the next big breakthrough? That's us. And we want you to be part of it.\nOpen Positions\n(7)\nFilters:\nReset filters\nDepartment\nAll Departments\nWorld Labs HQ\nLocation\nAll Locations\nSan Francisco Office (HQ)\nEmployment Type\nAll Employment Types\nFull time\nNo filters applied\nWorld Labs HQ\nInfrastructure / Backend Engineer",
         "metadata": {
           "chunk_index": 2.0,
           "company_slug": "world_labs",
           "content_hash": "9f576a05",
-          "indexed_at": "2025-11-12T04:23:43.406597",
+          "indexed_at": "2025-11-21T18:40:45.460963",
           "page_type": "careers",
           "source_file": "data/raw/world_labs/careers/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_tavily_3cc50d0c",
+        "similarity_score": 0.346046478,
+        "text": "World Labs Technologies Company Profile - PrivCo\n\nWorld Labs Technologies headquarters are located in San Francisco, California. Classification. Industry. Software & Internet Services. Keywords. placeholder",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "3cc50d0c",
+          "ingested_at": "2025-11-21T19:36:35.780134",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://system.privco.com/company/world-labs-technologies",
+          "title": "World Labs Technologies Company Profile - PrivCo"
+        }
+      },
+      {
+        "id": "world_labs_tavily_e0c790c7",
+        "similarity_score": 0.343666077,
+        "text": "Software Companies\n\nThe company is dedicated to developing cutting-edge AI technology to create natural and engaging conversations between humans and machines. | Opennote is an edtech company that offers an AI-powered platform for interactive learning experiences. | Vidoso  Vidoso is an AI-powered video solutions specialist, offering a platform that integrates automatic video creation and repurposing with an advanced content management system. The company's analytics platform is designed to assist enterprise brands in comprehending and enhancing their visibility in AI Search. The company aims to build an Intelligent AI system that encompasses the capabilities needed for real-world legal work | Washington, D.C. | GovSignals provides government contractors with AI powered data and workflow automation to help them compete with the largest companies.",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "e0c790c7",
+          "ingested_at": "2025-11-21T19:36:36.841196",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-collections/software-companies",
+          "title": "Software Companies"
+        }
+      },
+      {
+        "id": "world_labs_about_36cf6502",
+        "similarity_score": 0.339817047,
+        "text": "About | World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\nAbout Us\nWorld Labs is a leading spatial intelligence company, building frontier world models that can perceive, generate, reason, and interact with the 3D world.\nWorld Labs is a frontier AI research and product company.",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "world_labs",
+          "content_hash": "36cf6502",
+          "indexed_at": "2025-11-21T18:40:45.460097",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_tavily_d15b441f",
+        "similarity_score": 0.329776794,
+        "text": "What's In a World? Investing in World Labs\n\nInvesting in World Labs Under no circumstances should any posts or other information provided on this website — or on associated content distribution outlets — be construed as an offer soliciting the purchase or sale of any security or interest in any pooled investment vehicle sponsored, discussed, or mentioned by a16z personnel. Nor should it be construed as an offer to provide investment advisory services; an offer to invest in an a16z-managed pooled investment vehicle will be made separately and only by means of the confidential offering documents of the specific pooled investment vehicles — which should be read in their entirety, and only to those who, among other requirements, meet certain qualifications under federal securities laws.",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "d15b441f",
+          "ingested_at": "2025-11-21T19:36:06.932896",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://a16z.com/announcement/investing-in-world-labs/",
+          "title": "What's In a World? Investing in World Labs"
+        }
+      },
+      {
+        "id": "world_labs_tavily_cc284980",
+        "similarity_score": 0.329649,
+        "text": "World Laboratories - Overview, News & Similar companies - ZoomInfo\n\nWorld Laboratories Ltd is a company that operates in the Research & Development industry. It employs 5to9 people and has 500Kto1M of revenue.",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "cc284980",
+          "ingested_at": "2025-11-21T19:36:36.237688",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.zoominfo.com/c/world-laboratories-ltd/530045326",
+          "title": "World Laboratories - Overview, News & Similar companies - ZoomInfo"
+        }
+      },
+      {
+        "id": "world_labs_tavily_4d750422",
+        "similarity_score": 0.320249557,
+        "text": "42 Tech Companies and Startups Headquartered in San ...\n\nWorld Labs creates an AI platform for visual data processing that is similar to that of humans. The company specializes in developing advanced AI systems",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "4d750422",
+          "ingested_at": "2025-11-21T19:36:36.434226",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.employbl.com/company-locations/san-carlos",
+          "title": "42 Tech Companies and Startups Headquartered in San ..."
+        }
+      },
+      {
+        "id": "world_labs_tavily_e72ee66e",
+        "similarity_score": 0.314611465,
+        "text": "World Labs Technologies, Inc. San Francisco, CA\n\nWorld Labs Technologies, Inc., a Stock Corporation, is a business entity located in San Francisco, CA. Governed by the California Secretary of State, the corporation maintains an active filing status. The principal and mailing address of the corporation is situated at 470 Bryant Street, San Francisco, CA 94107, serving as the central hub for its business operations and correspondence. The corporation is led by a team of key individuals: Fei-fei Li from San Francisco CA, holding the position of Chief Executive Officer; Fei-fei Li from San Francisco CA, serving as the Secretary. The data on World Labs Technologies, Inc. was extracted from the California Secretary of State's Registry (https://bizfileonline.sos.ca.gov/search/business/) as of 7/15/2025. Before signing a contract, quickly verify a company’s legal status, incorporation date, officers, and registered address.",
+        "metadata": {
+          "company_slug": "world_labs",
+          "content_hash": "e72ee66e",
+          "ingested_at": "2025-11-21T19:36:18.423636",
+          "relevance_score": 0.0,
+          "source": "tavily",
+          "source_url": "https://www.bizprofile.net/ca/san-francisco/world-labs-technologies-inc",
+          "title": "World Labs Technologies, Inc. San Francisco, CA"
+        }
+      },
+      {
+        "id": "world_labs_about_4d0b70aa",
+        "similarity_score": 0.312227249,
+        "text": "Our first product, Marble, is powered by best-in-class generative 3D world models and enables anyone to create spatially cohesive, high-fidelity, and persistent 3D worlds from just a single image, video or text prompt.\nJoin us\nSupported by world-class investors\nUnleash your creativity\nwith Marble\nCreate with Marble\nAbout\nResearch & Insights\nMarble Labs\nCareers\nTerms of Service\nPrivacy Policy\n© 2025 WORLD LABS. All Rights Reserved.\nWORLD LABS™ is a trademark of its respective owner.",
+        "metadata": {
+          "chunk_index": 5.0,
+          "company_slug": "world_labs",
+          "content_hash": "4d0b70aa",
+          "indexed_at": "2025-11-21T18:40:45.460152",
+          "page_type": "about",
+          "source_file": "data/raw/world_labs/about/text.txt"
+        }
+      },
+      {
+        "id": "world_labs_blog_81a8b5f1",
+        "similarity_score": 0.307853729,
+        "text": "Research & Insights | World Labs\nAbout\nResearch & Insights\nMarble Labs\nCareers\nCreate with Marble\nResearch & Insights\nUpdates and news from the World Labs team.\nNovember 12, 2025\nWorld Labs team\nMarble: A Multimodal World Model\nMarble, our frontier multimodal world model, is available to everyone starting today\nRead More →\nNovember 10, 2025\nDr. Fei-Fei Li\nFrom Words to Worlds: Spatial Intelligence is AI’s Next Frontier",
+        "metadata": {
+          "chunk_index": 1.0,
+          "company_slug": "world_labs",
+          "content_hash": "81a8b5f1",
+          "indexed_at": "2025-11-21T18:40:45.460624",
+          "page_type": "blog",
+          "source_file": "data/raw/world_labs/blog/text.txt"
         }
       }
     ]

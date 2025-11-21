@@ -261,7 +261,7 @@ with DAG(
             op_kwargs={
                 "company_slug": company_slug,
             },
-            retries=2,  # Retry up to 2 times on failure
+            retries=0,  # Retry up to 2 times on failure
             retry_delay=timedelta(minutes=5),
             execution_timeout=timedelta(minutes=20),  # 20 minutes per company
             pool="sequential_pool",  # Use sequential pool with 1 slot

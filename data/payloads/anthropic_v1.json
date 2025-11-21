@@ -1,0 +1,567 @@
+{
+  "company_record": {
+    "company_id": "anthropic",
+    "legal_name": "Anthropic PBC",
+    "brand_name": null,
+    "website": null,
+    "hq_city": null,
+    "hq_state": null,
+    "hq_country": null,
+    "founded_year": null,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": null,
+    "last_disclosed_valuation_usd": 183000000000.0,
+    "last_round_name": "Series F",
+    "last_round_date": "2025-09-02",
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-03",
+        "snippet": "© 2025 Anthropic PBC",
+        "chunk_id": [
+          "anthropic_about_5e042fa7#22.0",
+          "anthropic_careers_5e042fa7#31.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-03",
+        "snippet": "Anthropic raises $13B Series F at $183B post-money valuation",
+        "chunk_id": [
+          "anthropic_blog_0115b984#4.0",
+          "anthropic_blog_5298f420#3.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "anthropic_2025_series_f",
+      "company_id": "anthropic",
+      "occurred_on": "2025-09-02",
+      "event_type": "funding",
+      "title": "Anthropic raises $13B Series F at $183B post-money valuation",
+      "description": "Anthropic raised $13 billion in a Series F round at a $183 billion valuation to expand enterprise offerings, safety research, and international growth as revenue grew from $1 billion to over $5 billion in eight months.",
+      "round_name": "Series F",
+      "investors": null,
+      "amount_usd": 13000000000.0,
+      "valuation_usd": 183000000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-09-02",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_0115b984#4.0",
+            "anthropic_blog_5298f420#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "anthropic_2025_claude_sonnet_4.5",
+      "company_id": "anthropic",
+      "occurred_on": "2025-09-29",
+      "event_type": "product_release",
+      "title": "Introducing Claude Sonnet 4.5",
+      "description": "Claude Sonnet 4.5 sets new benchmark records in coding, reasoning, and computer use while being Anthropic's most aligned model, accompanied by the release of the Claude Agent SDK for building capable agents.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-09-29",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_9d20897d#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "anthropic_2025_investment_infrastructure",
+      "company_id": "anthropic",
+      "occurred_on": "2025-11-12",
+      "event_type": "other",
+      "title": "Anthropic invests $50 billion in American AI infrastructure",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-12",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_a0e3515b#7.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "anthropic_2025_office_expansion",
+      "company_id": "anthropic",
+      "occurred_on": "2025-11-07",
+      "event_type": "office_open",
+      "title": "New offices in Paris and Munich expand Anthropic’s European presence",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-07",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_a0e3515b#7.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "anthropic_2025_partnership_iceland",
+      "company_id": "anthropic",
+      "occurred_on": "2025-11-04",
+      "event_type": "partnership",
+      "title": "Anthropic and Iceland announce one of the world’s first national AI education pilots",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-04",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_a0e3515b#7.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "anthropic_2025_partnership_microsoft_nvidia",
+      "company_id": "anthropic",
+      "occurred_on": "2025-11-18",
+      "event_type": "partnership",
+      "title": "Microsoft, NVIDIA, and Anthropic announce strategic partnerships",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_da1e3edc#6.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "anthropic_2025_partnership_rwanda",
+      "company_id": "anthropic",
+      "occurred_on": "2025-11-13",
+      "event_type": "partnership",
+      "title": "Anthropic partners with Rwandan Government and ALX to bring AI education to hundreds of thousands of learners across Africa",
+      "description": null,
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-13",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_da1e3edc#6.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "anthropic",
+      "as_of": "2023-10-11",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": null,
+      "pricing_tiers": [
+        "Max plan",
+        "Team plan",
+        "Enterprise plan"
+      ],
+      "active_products": [
+        "Claude",
+        "Claude Code",
+        "Claude Developer Platform"
+      ],
+      "geo_presence": [
+        "San Francisco",
+        "Paris",
+        "Munich"
+      ],
+      "confidence": 0.9,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_careers_46a91c85#5.0",
+            "anthropic_careers_b4ab032b#26.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_a0e3515b#7.0",
+            "anthropic_blog_0115b984#4.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "claude",
+      "company_id": "anthropic",
+      "name": "Claude",
+      "description": "Claude is a product developed by Anthropic, known for its capabilities in coding, reasoning, and computer use.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_1bb38049#1.0",
+            "anthropic_about_1b2ba961#6.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "claude_code",
+      "company_id": "anthropic",
+      "name": "Claude Code",
+      "description": "Claude Code is a product by Anthropic, focusing on coding capabilities.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_1bb38049#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "claude_developer_platform",
+      "company_id": "anthropic",
+      "name": "Claude Developer Platform",
+      "description": "A platform for developers to build and integrate with Claude's capabilities.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_1bb38049#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "opus",
+      "company_id": "anthropic",
+      "name": "Opus",
+      "description": "Opus is a model developed by Anthropic.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_8f07c6f6#20.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "sonnet",
+      "company_id": "anthropic",
+      "name": "Sonnet",
+      "description": "Sonnet is a model developed by Anthropic.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_8f07c6f6#20.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "haiku",
+      "company_id": "anthropic",
+      "name": "Haiku",
+      "description": "Haiku is a model developed by Anthropic.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-11-18",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_8f07c6f6#20.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "dario-amodei",
+      "company_id": "anthropic",
+      "name": "Dario Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-09-02",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_0c2b3297#18.0",
+            "anthropic_about_3d957ba2#19.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "daniela-amodei",
+      "company_id": "anthropic",
+      "name": "Daniela Amodei",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-09-02",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_0c2b3297#18.0",
+            "anthropic_about_3d957ba2#19.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "yasmin-razavi",
+      "company_id": "anthropic",
+      "name": "Yasmin Razavi",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-09-02",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_0c2b3297#18.0",
+            "anthropic_about_3d957ba2#19.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "jay-kreps",
+      "company_id": "anthropic",
+      "name": "Jay Kreps",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-09-02",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_0c2b3297#18.0",
+            "anthropic_about_3d957ba2#19.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "reed-hastings",
+      "company_id": "anthropic",
+      "name": "Reed Hastings",
+      "role": "Board Member",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2025-09-02",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_about_0c2b3297#18.0",
+            "anthropic_about_3d957ba2#19.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "anthropic",
+      "as_of": "2023-11-01",
+      "news_mentions_30d": 9,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "anthropic_blog_9d20897d#1.0",
+            "anthropic_blog_da1e3edc#6.0",
+            "anthropic_blog_a0e3515b#7.0",
+            "anthropic_blog_0115b984#4.0",
+            "anthropic_blog_5298f420#3.0",
+            "anthropic_blog_7fbf63ef#5.0",
+            "anthropic_blog_256f7fc8#9.0",
+            "anthropic_blog_1069628f#2.0",
+            "anthropic_blog_f3764b87#8.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T18:49:01.670217",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

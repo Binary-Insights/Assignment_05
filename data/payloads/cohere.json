@@ -1,0 +1,926 @@
+{
+  "company_record": {
+    "company_id": "cohere",
+    "legal_name": "Cohere",
+    "brand_name": "Cohere",
+    "website": "https://cohere.com/",
+    "hq_city": "Toronto",
+    "hq_state": "Massachusetts",
+    "hq_country": "Canada",
+    "founded_year": 2019,
+    "categories": null,
+    "related_companies": null,
+    "total_raised_usd": 600000000.0,
+    "last_disclosed_valuation_usd": 6800000000.0,
+    "last_round_name": "latest round",
+    "last_round_date": "2025-09-24",
+    "schema_version": "2.0.0",
+    "as_of": null,
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-21",
+        "snippet": null,
+        "chunk_id": [
+          "cohere_about_80922cb0#9.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-21",
+        "snippet": null,
+        "chunk_id": [
+          "cohere_about_80922cb0#9.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-21",
+        "snippet": null,
+        "chunk_id": [
+          "cohere_blog_023cd2d1#14.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-21",
+        "snippet": null,
+        "chunk_id": [
+          "cohere_blog_023cd2d1#14.0"
+        ]
+      },
+      {
+        "source_url": "blog",
+        "crawled_at": "2023-10-21",
+        "snippet": null,
+        "chunk_id": [
+          "cohere_blog_9fcdd17a#10.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "event_001",
+      "company_id": "cohere",
+      "occurred_on": "2025-09-24",
+      "event_type": "funding",
+      "title": "Cohere adds $100M in second close to latest round as it scales security-first enterprise AI",
+      "description": "Cohere secured an additional $100M in the second close of its latest funding round, focusing on scaling security-first enterprise AI solutions.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 100000000.0,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-09-24",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_blog_9fcdd17a#10.0",
+            "cohere_blog_49832321#11.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_002",
+      "company_id": "cohere",
+      "occurred_on": "2025-08-14",
+      "event_type": "funding",
+      "title": "Cohere raises $500M at $6.8B valuation to accelerate enterprise efficiency with agentic AI",
+      "description": "Cohere raised $500M at a $6.8B valuation to enhance enterprise efficiency with agentic AI.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": 500000000.0,
+      "valuation_usd": 6800000000.0,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-08-14",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_blog_023cd2d1#14.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_003",
+      "company_id": "cohere",
+      "occurred_on": "2025-09-15",
+      "event_type": "office_open",
+      "title": "Cohere opens Paris office as EMEA hub",
+      "description": "Cohere opened a new office in Paris to serve as the hub for its EMEA operations.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-09-15",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_blog_49832321#11.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_004",
+      "company_id": "cohere",
+      "occurred_on": "2025-10-07",
+      "event_type": "partnership",
+      "title": "Announcing the Cohere Partner Program: Boosting enterprise AI",
+      "description": "Cohere launched a partner program to enhance enterprise AI capabilities.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_blog_2dbb247f#9.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "event_005",
+      "company_id": "cohere",
+      "occurred_on": "2025-08-19",
+      "event_type": "partnership",
+      "title": "Cohere deepens partnership with Government of Canada",
+      "description": "Cohere strengthened its partnership with the Government of Canada to advance AI initiatives.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-08-19",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_blog_36f8750b#13.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "cohere",
+      "as_of": "2023-10-09",
+      "headcount_total": 447,
+      "headcount_growth_pct": null,
+      "job_openings_count": null,
+      "engineering_openings": null,
+      "sales_openings": null,
+      "hiring_focus": [
+        "AI solutions",
+        "enterprise AI"
+      ],
+      "pricing_tiers": [
+        "customization",
+        "deployment options"
+      ],
+      "active_products": [
+        "North",
+        "Compass",
+        "Command",
+        "Embed",
+        "Rerank"
+      ],
+      "geo_presence": [
+        "Toronto",
+        "New York",
+        "London",
+        "San Francisco",
+        "Montreal",
+        "Paris",
+        "Seoul"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-09",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_careers_aedb0f2f#8.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-09",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_product_b17877a3#14.0",
+            "cohere_product_46b17677#1.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-09",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_f41efa99#14.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "North",
+      "company_id": "cohere",
+      "name": "North",
+      "description": "An enterprise-ready AI platform that powers modern workplace productivity",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_67e5b799#1.0",
+            "cohere_about_39e180c6#15.0",
+            "cohere_about_7f45f578#8.0",
+            "cohere_about_80922cb0#9.0",
+            "cohere_about_009810ea#3.0",
+            "cohere_about_219beabb#6.0",
+            "cohere_about_b430dc27#17.0",
+            "cohere_about_f41efa99#14.0",
+            "cohere_about_7fe39dd3#11.0",
+            "cohere_about_8cad6f6c#5.0",
+            "cohere_about_7d48f434#12.0",
+            "cohere_about_25a1cdfa#13.0",
+            "cohere_about_eeda493e#2.0",
+            "cohere_about_d91c39a1#7.0",
+            "cohere_blog_dc30e355#16.0",
+            "cohere_blog_0300c421#15.0",
+            "cohere_blog_36f8750b#13.0",
+            "cohere_blog_f1411683#7.0",
+            "cohere_blog_f3dbe8fd#12.0",
+            "cohere_blog_2dbb247f#9.0",
+            "cohere_blog_93ab53e3#1.0",
+            "cohere_blog_358cf2ac#8.0",
+            "cohere_blog_009810ea#3.0",
+            "cohere_blog_219beabb#6.0",
+            "cohere_blog_49832321#11.0",
+            "cohere_blog_9fcdd17a#10.0",
+            "cohere_blog_023cd2d1#14.0",
+            "cohere_blog_b430dc27#18.0",
+            "cohere_blog_8cad6f6c#5.0",
+            "cohere_blog_eeda493e#2.0",
+            "cohere_careers_497a7c9d#1.0",
+            "cohere_careers_03a661ba#16.0",
+            "cohere_careers_009810ea#6.0",
+            "cohere_careers_1ea12b86#3.0",
+            "cohere_careers_cad687d0#13.0",
+            "cohere_careers_cbceb42e#14.0",
+            "cohere_careers_aedb0f2f#8.0",
+            "cohere_careers_eeda493e#5.0",
+            "cohere_careers_2e9f14c6#4.0",
+            "cohere_product_b17877a3#14.0",
+            "cohere_product_46b17677#1.0",
+            "cohere_product_009810ea#3.0",
+            "cohere_product_219beabb#6.0",
+            "cohere_product_b430dc27#16.0",
+            "cohere_product_2faf445e#9.0",
+            "cohere_product_3d8c1baa#13.0",
+            "cohere_product_ae314b81#8.0",
+            "cohere_product_cdc00973#12.0",
+            "cohere_product_8cad6f6c#5.0",
+            "cohere_product_6870028d#10.0",
+            "cohere_product_eeda493e#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "Compass",
+      "company_id": "cohere",
+      "name": "Compass",
+      "description": "An intelligent search and discovery system to surface business insights",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_67e5b799#1.0",
+            "cohere_about_39e180c6#15.0",
+            "cohere_about_7f45f578#8.0",
+            "cohere_about_80922cb0#9.0",
+            "cohere_about_009810ea#3.0",
+            "cohere_about_219beabb#6.0",
+            "cohere_about_b430dc27#17.0",
+            "cohere_about_f41efa99#14.0",
+            "cohere_about_7fe39dd3#11.0",
+            "cohere_about_8cad6f6c#5.0",
+            "cohere_about_7d48f434#12.0",
+            "cohere_about_25a1cdfa#13.0",
+            "cohere_about_eeda493e#2.0",
+            "cohere_about_d91c39a1#7.0",
+            "cohere_blog_dc30e355#16.0",
+            "cohere_blog_0300c421#15.0",
+            "cohere_blog_36f8750b#13.0",
+            "cohere_blog_f1411683#7.0",
+            "cohere_blog_f3dbe8fd#12.0",
+            "cohere_blog_2dbb247f#9.0",
+            "cohere_blog_93ab53e3#1.0",
+            "cohere_blog_358cf2ac#8.0",
+            "cohere_blog_009810ea#3.0",
+            "cohere_blog_219beabb#6.0",
+            "cohere_blog_49832321#11.0",
+            "cohere_blog_9fcdd17a#10.0",
+            "cohere_blog_023cd2d1#14.0",
+            "cohere_blog_b430dc27#18.0",
+            "cohere_blog_8cad6f6c#5.0",
+            "cohere_blog_eeda493e#2.0",
+            "cohere_careers_497a7c9d#1.0",
+            "cohere_careers_03a661ba#16.0",
+            "cohere_careers_009810ea#6.0",
+            "cohere_careers_1ea12b86#3.0",
+            "cohere_careers_cad687d0#13.0",
+            "cohere_careers_cbceb42e#14.0",
+            "cohere_careers_aedb0f2f#8.0",
+            "cohere_careers_eeda493e#5.0",
+            "cohere_careers_2e9f14c6#4.0",
+            "cohere_product_b17877a3#14.0",
+            "cohere_product_46b17677#1.0",
+            "cohere_product_009810ea#3.0",
+            "cohere_product_219beabb#6.0",
+            "cohere_product_b430dc27#16.0",
+            "cohere_product_2faf445e#9.0",
+            "cohere_product_3d8c1baa#13.0",
+            "cohere_product_ae314b81#8.0",
+            "cohere_product_cdc00973#12.0",
+            "cohere_product_8cad6f6c#5.0",
+            "cohere_product_6870028d#10.0",
+            "cohere_product_eeda493e#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "Command",
+      "company_id": "cohere",
+      "name": "Command",
+      "description": "A family of high-performance, scalable language models",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_67e5b799#1.0",
+            "cohere_about_39e180c6#15.0",
+            "cohere_about_7f45f578#8.0",
+            "cohere_about_80922cb0#9.0",
+            "cohere_about_009810ea#3.0",
+            "cohere_about_219beabb#6.0",
+            "cohere_about_b430dc27#17.0",
+            "cohere_about_f41efa99#14.0",
+            "cohere_about_7fe39dd3#11.0",
+            "cohere_about_8cad6f6c#5.0",
+            "cohere_about_7d48f434#12.0",
+            "cohere_about_25a1cdfa#13.0",
+            "cohere_about_eeda493e#2.0",
+            "cohere_about_d91c39a1#7.0",
+            "cohere_blog_dc30e355#16.0",
+            "cohere_blog_0300c421#15.0",
+            "cohere_blog_36f8750b#13.0",
+            "cohere_blog_f1411683#7.0",
+            "cohere_blog_f3dbe8fd#12.0",
+            "cohere_blog_2dbb247f#9.0",
+            "cohere_blog_93ab53e3#1.0",
+            "cohere_blog_358cf2ac#8.0",
+            "cohere_blog_009810ea#3.0",
+            "cohere_blog_219beabb#6.0",
+            "cohere_blog_49832321#11.0",
+            "cohere_blog_9fcdd17a#10.0",
+            "cohere_blog_023cd2d1#14.0",
+            "cohere_blog_b430dc27#18.0",
+            "cohere_blog_8cad6f6c#5.0",
+            "cohere_blog_eeda493e#2.0",
+            "cohere_careers_497a7c9d#1.0",
+            "cohere_careers_03a661ba#16.0",
+            "cohere_careers_009810ea#6.0",
+            "cohere_careers_1ea12b86#3.0",
+            "cohere_careers_cad687d0#13.0",
+            "cohere_careers_cbceb42e#14.0",
+            "cohere_careers_aedb0f2f#8.0",
+            "cohere_careers_eeda493e#5.0",
+            "cohere_careers_2e9f14c6#4.0",
+            "cohere_product_b17877a3#14.0",
+            "cohere_product_46b17677#1.0",
+            "cohere_product_009810ea#3.0",
+            "cohere_product_219beabb#6.0",
+            "cohere_product_b430dc27#16.0",
+            "cohere_product_2faf445e#9.0",
+            "cohere_product_3d8c1baa#13.0",
+            "cohere_product_ae314b81#8.0",
+            "cohere_product_cdc00973#12.0",
+            "cohere_product_8cad6f6c#5.0",
+            "cohere_product_6870028d#10.0",
+            "cohere_product_eeda493e#2.0"
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "Rerank",
+      "company_id": "cohere",
+      "name": "Rerank",
+      "description": "A powerful model that provides a semantic boost to search quality",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_219beabb#6.0",
+            "cohere_blog_219beabb#6.0",
+            "cohere_product_219beabb#6.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "aidan-gomez",
+      "company_id": "cohere",
+      "name": "Aidan Gomez",
+      "role": "Co-founder and CEO",
+      "is_founder": true,
+      "start_date": "2019-01-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_7d48f434#12.0",
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "nick-frosst",
+      "company_id": "cohere",
+      "name": "Nick Frosst",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": "2019-01-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_7d48f434#12.0",
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "ivan-zhang",
+      "company_id": "cohere",
+      "name": "Ivan Zhang",
+      "role": "Co-founder",
+      "is_founder": true,
+      "start_date": "2019-01-01",
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_7d48f434#12.0",
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "joelle-pineau",
+      "company_id": "cohere",
+      "name": "Joelle Pineau",
+      "role": "Chief AI Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "francois-chadwick",
+      "company_id": "cohere",
+      "name": "François Chadwick",
+      "role": "Chief Financial Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "phil-blunsom",
+      "company_id": "cohere",
+      "name": "Phil Blunsom",
+      "role": "Chief Technology Officer",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "laura-moss",
+      "company_id": "cohere",
+      "name": "Laura Moss",
+      "role": "SVP, Finance",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "nora-beatty",
+      "company_id": "cohere",
+      "name": "Nora Beatty",
+      "role": "SVP, People Operations",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "andrew-chang",
+      "company_id": "cohere",
+      "name": "Andrew Chang",
+      "role": "VP, APAC",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "eric-hu",
+      "company_id": "cohere",
+      "name": "Eric Hu",
+      "role": "VP, Design",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "nils-reimers",
+      "company_id": "cohere",
+      "name": "Nils Reimers",
+      "role": "VP, Embeddings & Search",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "autumn-moulder",
+      "company_id": "cohere",
+      "name": "Autumn Moulder",
+      "role": "VP, Engineering",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "melika-carroll",
+      "company_id": "cohere",
+      "name": "Melika Carroll",
+      "role": "VP, Government Affairs & Public Policy",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "kosta-starostin",
+      "company_id": "cohere",
+      "name": "Kosta Starostin",
+      "role": "VP, Legal",
+      "is_founder": false,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_f41efa99#14.0",
+            "cohere_about_25a1cdfa#13.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "cohere",
+      "as_of": "2023-10-11",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_blog_023cd2d1#14.0",
+            "cohere_blog_49832321#11.0",
+            "cohere_blog_36f8750b#13.0",
+            "cohere_blog_f3dbe8fd#12.0",
+            "cohere_blog_0300c421#15.0",
+            "cohere_blog_f1411683#7.0",
+            "cohere_blog_2dbb247f#9.0",
+            "cohere_blog_9fcdd17a#10.0",
+            "cohere_blog_dc30e355#16.0",
+            "cohere_blog_009810ea#3.0",
+            "cohere_blog_93ab53e3#1.0",
+            "cohere_blog_358cf2ac#8.0",
+            "cohere_blog_219beabb#6.0",
+            "cohere_blog_f240c0c9#4.0",
+            "cohere_blog_eeda493e#2.0",
+            "cohere_blog_8cad6f6c#5.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_careers_03a661ba#16.0",
+            "cohere_careers_497a7c9d#1.0",
+            "cohere_careers_009810ea#6.0",
+            "cohere_careers_1ea12b86#3.0",
+            "cohere_careers_cad687d0#13.0",
+            "cohere_careers_dc970fcf#12.0",
+            "cohere_careers_29f3aa6e#7.0",
+            "cohere_careers_eeda493e#5.0",
+            "cohere_careers_aedb0f2f#8.0",
+            "cohere_careers_5cba7d20#9.0",
+            "cohere_careers_18884d93#2.0",
+            "cohere_careers_2e9f14c6#4.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_about_67e5b799#1.0",
+            "cohere_about_39e180c6#15.0",
+            "cohere_about_f41efa99#14.0",
+            "cohere_about_009810ea#3.0",
+            "cohere_about_80922cb0#9.0",
+            "cohere_about_7f45f578#8.0",
+            "cohere_about_219beabb#6.0",
+            "cohere_about_7fe39dd3#11.0",
+            "cohere_about_7d48f434#12.0",
+            "cohere_about_f240c0c9#4.0",
+            "cohere_about_d91c39a1#7.0",
+            "cohere_about_eeda493e#2.0",
+            "cohere_about_8cad6f6c#5.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-11",
+          "snippet": null,
+          "chunk_id": [
+            "cohere_product_009810ea#3.0",
+            "cohere_product_b17877a3#14.0",
+            "cohere_product_219beabb#6.0",
+            "cohere_product_46b17677#1.0",
+            "cohere_product_c9a4afd5#7.0",
+            "cohere_product_f240c0c9#4.0",
+            "cohere_product_eeda493e#2.0",
+            "cohere_product_8cad6f6c#5.0",
+            "cohere_product_e1fc99ba#11.0",
+            "cohere_product_cdc00973#12.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T19:15:55.820415",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

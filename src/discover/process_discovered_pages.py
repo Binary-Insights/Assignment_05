@@ -33,6 +33,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
+# Get the project root directory (2 levels up from src/discover/)
+SCRIPT_DIR = Path(__file__).parent.absolute()
+PROJECT_ROOT = SCRIPT_DIR.parent.parent.absolute()
+DATA_DIR = PROJECT_ROOT / "data"
+
+# Ensure we're working from the project root
+os.chdir(PROJECT_ROOT)
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
@@ -57,7 +65,13 @@ def setup_logging():
     # Create logs directory if it doesn't exist
     log_dir = "data/logs"
     if not os.path.exists(log_dir):
-        os.makedirs(log_dir, exist_ok=True)
+        # Try to create log directory with proper permissions
+        try:
+            os.makedirs(log_dir, exist_ok=True, mode=0o777)
+        except (PermissionError, OSError) as e:
+            # If we can't create log dir, we'll fallback to console-only logging
+            print(f"Warning: Could not create log directory {log_dir}: {e}", file=sys.stderr)
+            log_dir = None
     
     # Create unique logger for process_discovered_pages
     logger = logging.getLogger('process_discovered_pages')
@@ -66,24 +80,34 @@ def setup_logging():
     # Clear any existing handlers
     logger.handlers.clear()
     
-    # File handler
-    file_handler = logging.FileHandler(f"{log_dir}/process_discovered_pages.log")
-    file_handler.setLevel(logging.INFO)
+    # File handler (only if log directory is available)
+    if log_dir:
+        try:
+            file_handler = logging.FileHandler(f"{log_dir}/process_discovered_pages.log")
+            file_handler.setLevel(logging.INFO)
+            # Formatter
+            formatter = logging.Formatter(
+                '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                datefmt='%Y-%m-%d %H:%M:%S'
+            )
+            file_handler.setFormatter(formatter)
+            logger.addHandler(file_handler)
+        except (PermissionError, OSError) as e:
+            # If file logging fails, continue with console only
+            print(f"Warning: Could not create log file, using console only: {e}", file=sys.stderr)
     
-    # Console handler
+    # Console handler (always add)
     console_handler = logging.StreamHandler()
     console_handler.setLevel(logging.INFO)
     
-    # Formatter
-    formatter = logging.Formatter(
+    # Formatter for console
+    console_formatter = logging.Formatter(
         '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
-    file_handler.setFormatter(formatter)
-    console_handler.setFormatter(formatter)
+    console_handler.setFormatter(console_formatter)
     
-    # Add handlers
-    logger.addHandler(file_handler)
+    # Add console handler (always present)
     logger.addHandler(console_handler)
     
     return logger

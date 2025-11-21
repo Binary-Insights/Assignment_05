@@ -1,0 +1,374 @@
+{
+  "company_record": {
+    "company_id": "world-labs",
+    "legal_name": "World Labs",
+    "brand_name": "WORLD LABS",
+    "website": "https://www.worldlabs.ai/",
+    "hq_city": "San Francisco",
+    "hq_state": "California",
+    "hq_country": "United States",
+    "founded_year": "2016",
+    "categories": [
+      "spatial intelligence",
+      "AI research",
+      "product development"
+    ],
+    "related_companies": null,
+    "total_raised_usd": "$230M",
+    "last_disclosed_valuation_usd": null,
+    "last_round_name": "Series D",
+    "last_round_date": "Sep 13, 2024",
+    "schema_version": "2.0.0",
+    "as_of": "2023-10-07",
+    "provenance": [
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-07",
+        "snippet": "World Labs is a leading spatial intelligence company, building frontier world models that can perceive, generate, reason, and interact with the 3D world.",
+        "chunk_id": [
+          "world_labs_about_36cf6502#1.0",
+          "world_labs_about_1389aaa4#2.0"
+        ]
+      },
+      {
+        "source_url": "about",
+        "crawled_at": "2023-10-07",
+        "snippet": "World Labs is a frontier AI research and product company.",
+        "chunk_id": [
+          "world_labs_about_36cf6502#1.0",
+          "world_labs_about_1389aaa4#2.0"
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "world_labs_2025_11_12_marble_release",
+      "company_id": "world_labs",
+      "occurred_on": "2025-11-12",
+      "event_type": "product_release",
+      "title": "Marble: A Multimodal World Model Release",
+      "description": "Marble, our frontier multimodal world model, is available to everyone starting today.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-11-12",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_81a8b5f1#1.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_2025_10_16_rtfm_preview",
+      "company_id": "world_labs",
+      "occurred_on": "2025-10-16",
+      "event_type": "product_release",
+      "title": "RTFM: A Real-Time Frame Model Preview",
+      "description": "A research preview of RTFM, a new generative world model that generates video in real-time as you interact with it.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-10-16",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_42cada63#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_2025_09_16_3d_generation",
+      "company_id": "world_labs",
+      "occurred_on": "2025-09-16",
+      "event_type": "product_release",
+      "title": "Breakthrough in 3D World Generation",
+      "description": "Announcing our latest breakthrough in 3D world generation with larger, more detailed environments and improved fidelity.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2025-09-16",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_42cada63#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "event_id": "world_labs_2024_12_02_generating_worlds",
+      "company_id": "world_labs",
+      "occurred_on": "2024-12-02",
+      "event_type": "product_release",
+      "title": "Generating Worlds",
+      "description": "Sharing our early progress toward persistent, navigable 3D worlds you can explore in your browser.",
+      "round_name": null,
+      "investors": null,
+      "amount_usd": null,
+      "valuation_usd": null,
+      "actors": null,
+      "tags": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2024-12-02",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_208be4a3#4.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "company_id": "world_labs",
+      "as_of": "2023-11-01",
+      "headcount_total": null,
+      "headcount_growth_pct": null,
+      "job_openings_count": 7,
+      "engineering_openings": 7,
+      "sales_openings": 0,
+      "hiring_focus": null,
+      "pricing_tiers": null,
+      "active_products": [
+        "Marble"
+      ],
+      "geo_presence": [
+        "San Francisco"
+      ],
+      "confidence": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_careers_9f576a05#2.0",
+            "world_labs_careers_6a53da8f#4.0",
+            "world_labs_careers_a017cd8d#3.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-11-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_4d0b70aa#5.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "marble",
+      "company_id": "world_labs",
+      "name": "Marble",
+      "description": "Marble is powered by best-in-class generative 3D world models and enables anyone to create spatially cohesive, high-fidelity, and persistent 3D worlds from just a single image, video or text prompt. It is a frontier multimodal world model available to everyone.",
+      "pricing_model": null,
+      "pricing_tiers_public": null,
+      "ga_date": null,
+      "integration_partners": null,
+      "github_repo": null,
+      "license_type": null,
+      "reference_customers": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_4d0b70aa#5.0"
+          ]
+        },
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_81a8b5f1#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "person_id": "fei-fei-li",
+      "company_id": "world_labs",
+      "name": "Fei-Fei Li",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_c2b63bef#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "justin-johnson",
+      "company_id": "world_labs",
+      "name": "Justin Johnson",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_c2b63bef#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "christoph-lassner",
+      "company_id": "world_labs",
+      "name": "Christoph Lassner",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_c2b63bef#3.0"
+          ]
+        }
+      ]
+    },
+    {
+      "person_id": "ben-mildenhall",
+      "company_id": "world_labs",
+      "name": "Ben Mildenhall",
+      "role": "Founder",
+      "is_founder": true,
+      "start_date": null,
+      "end_date": null,
+      "previous_affiliation": null,
+      "education": null,
+      "linkedin": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-01",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_c2b63bef#3.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "visibility": [
+    {
+      "company_id": "world_labs",
+      "as_of": "2023-10-07",
+      "news_mentions_30d": null,
+      "avg_sentiment": null,
+      "github_stars": null,
+      "glassdoor_rating": null,
+      "schema_version": "2.0.0",
+      "provenance": [
+        {
+          "source_url": "blog",
+          "crawled_at": "2023-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_blog_81a8b5f1#1.0",
+            "world_labs_blog_42cada63#3.0",
+            "world_labs_blog_208be4a3#4.0",
+            "world_labs_blog_32a7ab52#6.0",
+            "world_labs_blog_26f2cd3f#2.0",
+            "world_labs_blog_e1fb6992#5.0"
+          ]
+        },
+        {
+          "source_url": "careers",
+          "crawled_at": "2023-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_careers_634dd088#1.0",
+            "world_labs_careers_6a53da8f#4.0",
+            "world_labs_careers_9f576a05#2.0",
+            "world_labs_careers_a017cd8d#3.0"
+          ]
+        },
+        {
+          "source_url": "about",
+          "crawled_at": "2023-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_about_36cf6502#1.0",
+            "world_labs_about_1389aaa4#2.0",
+            "world_labs_about_c2b63bef#3.0",
+            "world_labs_about_4d0b70aa#5.0",
+            "world_labs_about_193d6413#4.0"
+          ]
+        },
+        {
+          "source_url": "product",
+          "crawled_at": "2023-10-07",
+          "snippet": null,
+          "chunk_id": [
+            "world_labs_product_6fa0527e#1.0"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Extracted with semantic search via Pinecone on 2025-11-21T19:22:23.761707",
+  "provenance_policy": "Use only the sources you scraped. If a field is missing, write 'Not disclosed.' Do not infer valuation."
+}

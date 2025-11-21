@@ -1,22 +1,22 @@
 ## Company Overview
 
-Coactive Systems Inc., founded in 2021, is a private AI startup specializing in video and image intelligence. The company offers a range of products focused on multimodal AI platforms that enhance video understanding and content discovery. Coactive AI is positioned to provide context-aware analysis and flexible content management solutions.
+Coactive Systems Inc., branded as Coactive AI, is a private AI startup headquartered in San Jose, California, United States. The company was founded in 2021 and focuses on developing AI platforms for video understanding and content discovery. Their website is [https://coactive.ai/](https://coactive.ai/).
 
 ## Business Model and GTM
 
-The company states that its business model revolves around providing a powerful and flexible multimodal AI platform. This platform is designed to help developers create applications that can handle video and image content efficiently. Coactive AI's products offer features such as context-aware analysis, content discovery, and dynamic tagging, which are aimed at transforming visual and audio content into structured metadata at scale.
+Coactive AI offers a suite of products centered around its Multimodal AI Platform, which provides capabilities such as video understanding, context-aware analysis, and content discovery. The company states that its platform is designed to manage and activate content catalogs across image, video, and audio, and is available on Azure. Coactive AI has also formed a partnership with NBCUniversal to enhance visual content discovery in the media and entertainment sector.
 
 ## Funding & Investor Profile
 
-Coactive Systems Inc. has raised a total of $44 million USD as of October 6, 2023. Details regarding specific investors or funding rounds have not been disclosed.
+Coactive AI has raised a total of $44 million in funding, with the most recent round being a Series B funding round completed on August 3, 2023. The last disclosed valuation of the company was $200 million.
 
 ## Growth Momentum
 
-The company has released a product related to advancements in video and image intelligence, although the exact date of this release is unknown. This indicates ongoing development and potential growth in their product offerings.
+Coactive AI has demonstrated growth through product releases and strategic partnerships. The company has released new product features, such as enhanced metadata tagging for multimodal content, and expanded its platform availability to Azure. The partnership with NBCUniversal is a significant step in increasing its market presence in the media and entertainment industry.
 
 ## Visibility & Market Sentiment
 
-There is limited information available regarding Coactive AI's visibility and market presence. The company has been mentioned once, but further details are not disclosed.
+Not disclosed.
 
 ## Risks and Challenges
 
@@ -24,12 +24,11 @@ Not disclosed.
 
 ## Outlook
 
-The company states that its platform is future-proof, allowing users to choose and chain different foundation models for deeper understanding. This flexibility may position Coactive AI well for adapting to future technological advancements and market demands.
+The company is positioned for growth with its recent funding and strategic partnerships. The expansion of its platform to Azure and collaboration with NBCUniversal suggest a focus on scaling its offerings and increasing market penetration in the media and entertainment sector.
 
 ## Disclosure Gaps
 
-- Specific details about the company's go-to-market strategy are not disclosed.
-- Information on the leadership team's roles and backgrounds is not provided.
-- There is a lack of detailed visibility and market sentiment data.
+- Specific dates for product releases and partnerships are not disclosed.
+- Detailed information on the business model and go-to-market strategy is not provided.
+- Visibility and market sentiment data are not available.
 - Risks and challenges facing the company are not disclosed.
-- Specific investor details and funding round information are missing.

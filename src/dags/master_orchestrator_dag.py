@@ -44,9 +44,14 @@ PIPELINE_DAGS = [
         "order": 4
     },
     {
+        "dag_id": "dashboard_generation_dag",
+        "description": "Generate structured.md and rag.md dashboards for all companies",
+        "order": 5
+    },
+    {
         "dag_id": "eval_runner_dag",
         "description": "Evaluate RAG and structured extraction results",
-        "order": 5
+        "order": 6
     }
 ]
 
@@ -63,7 +68,7 @@ default_args = {
 with DAG(
     dag_id="master_orchestrator_dag",
     description="Master orchestrator for AI50 company data processing pipeline",
-    schedule_interval="0 0 * * *",  # Daily run at midnight UTC
+    schedule_interval=None,  # Manual trigger only
     start_date=datetime(2025, 11, 1),
     catchup=False,
     tags=["ai50", "orchestration", "master"],

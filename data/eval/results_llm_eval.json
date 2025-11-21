@@ -1,62 +1,62 @@
 {
+  "abridge": {
+    "structured": {
+      "company_name": "Abridge",
+      "company_slug": "abridge",
+      "pipeline_type": "structured",
+      "timestamp": "2025-11-21T19:45:00.770701",
+      "factual_accuracy": 1,
+      "schema_compliance": 2,
+      "provenance_quality": 0,
+      "hallucination_detection": 2,
+      "readability": 1,
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. The funding details, such as the total raised amount and valuation, do not match the known facts. Additionally, the response includes specific product names and partnerships not mentioned in the ground truth, which could not be verified. However, there are no known hallucinations present in the response. The structure of the response is compliant with the expected format, and it is well-organized and easy to read. The most important facts, such as the company's focus and mission, are not prioritized at the beginning of the response, affecting the MRR score. There is a lack of citations or sources for the claims made, resulting in a low provenance quality score.",
+      "total_score": 6.5
+    },
+    "rag": {
+      "company_name": "Abridge",
+      "company_slug": "abridge",
+      "pipeline_type": "rag",
+      "timestamp": "2025-11-21T19:45:04.696618",
+      "factual_accuracy": 1,
+      "schema_compliance": 2,
+      "provenance_quality": 0,
+      "hallucination_detection": 1,
+      "readability": 1,
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. The funding details and valuation are inconsistent with the context results, which show different figures. The response claims a total funding of $773 million and a valuation of $5.3 billion, but the context suggests a total funding of $320 million as of September 2025. The response also lacks proper citations for its claims, leading to a provenance quality score of 0. There are no known hallucinations, but the presence of unverifiable claims results in a hallucination detection score of 1. The response is well-structured and readable, earning full marks for schema compliance and readability. The most important facts are not prioritized, resulting in an MRR score of 0.5. Overall, the response has notable factual errors and lacks proper sourcing, impacting its total score.",
+      "total_score": 5.5
+    }
+  },
   "world-labs": {
     "structured": {
       "company_name": "World Labs",
       "company_slug": "world-labs",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:18:38.205539",
+      "timestamp": "2025-11-21T19:44:53.046223",
+      "factual_accuracy": 1,
+      "schema_compliance": 2,
+      "provenance_quality": 0,
+      "hallucination_detection": 2,
+      "readability": 1,
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies. The founding details and key investors are missing, and the funding amount is slightly off as it doesn't specify the leading investors. The mention of Marble as a product is not in the ground truth. However, the response does correctly mention RTFM and the focus on 3D world models. Schema compliance is perfect as the response is well-structured. Provenance quality is poor as there are no citations or sources provided for the claims. There are no hallucinations detected as all claims are verifiable against the ground truth. The readability is clear and well-organized. The MRR score is 0.5 as the response does not prioritize the most important facts first, such as the founding details and key investors.",
+      "total_score": 6.5
+    },
+    "rag": {
+      "company_name": "World Labs",
+      "company_slug": "world-labs",
+      "pipeline_type": "rag",
+      "timestamp": "2025-11-21T19:44:56.871200",
       "factual_accuracy": 2,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 2,
       "readability": 1,
       "mrr_score": 1.0,
-      "notes": "The response accurately captures most of the key facts from the ground truth, such as the focus on Large World Models and RTFM. However, it omits some details about the founders and additional investors. The structure is well-organized and follows the expected format, earning full marks for schema compliance. Provenance quality is low as there are no citations or sources provided for the claims. There are no hallucinations detected, and the readability is clear and well-organized. The most important facts are presented first, achieving a perfect MRR score.",
+      "notes": "The response accurately describes World Labs as a spatial intelligence company building LWMs and mentions the co-founders correctly. However, there are discrepancies in the funding details: the response states $230M was raised in a Series D round in 2024, while the ground truth mentions $230M in total funding without specifying the round. The response lacks proper citations for its claims, affecting provenance quality. The response is well-structured and readable, with important facts appearing first. No hallucinations were detected.",
       "total_score": 8.0
-    },
-    "rag": {
-      "company_name": "World Labs",
-      "company_slug": "world-labs",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:18:45.756792",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response contains several factual inaccuracies and omissions. While the funding information is accurate, the response fails to mention the core focus of World Labs on spatial intelligence and 3D world models, which are crucial aspects of the company's identity. The founders are not mentioned, which is a significant omission. The response includes additional investors not listed in the ground truth, which could be accurate but are not verifiable from the provided context. The structure of the response is well-organized and follows the expected schema. Provenance quality is moderate as some claims lack direct citations. There are no known hallucinations, but unverifiable claims about additional investors are present. Readability is clear and well-organized. The most important facts about the company's core mission and founders are missing, affecting the MRR score.",
-      "total_score": 6.0
-    }
-  },
-  "abridge": {
-    "structured": {
-      "company_name": "Abridge",
-      "company_slug": "abridge",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:18:50.902916",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response provides a general overview of Abridge's offerings but lacks alignment with the ground truth. Key facts such as the focus on clinical conversations, integration into EHR workflows, and the Abridge Contextual Reasoning Engine are missing. The response mentions enterprise security and compliance tools, which are not part of the ground truth. No hallucinations from known examples were detected. The structure is compliant, but there are no citations or sources provided for the claims. The response is clear and well-organized, but important facts are missing or not prioritized, leading to a low MRR score.",
-      "total_score": 6.0
-    },
-    "rag": {
-      "company_name": "Abridge",
-      "company_slug": "abridge",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:18:54.377448",
-      "factual_accuracy": 0,
-      "schema_compliance": 1,
-      "provenance_quality": 0,
-      "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response does not contain any of the key facts from the ground truth about Abridge's AI platform, its capabilities, or its mission. Instead, it focuses on operational and employment details that are not part of the ground truth. There are no known hallucinations, but the response lacks verifiable facts and proper citations. The structure is mostly compliant, but the content is not relevant to the ground truth. The readability is clear, but the most important facts are missing, affecting the MRR score.",
-      "total_score": 3.0
     }
   },
   "anthropic": {
@@ -64,29 +64,29 @@
       "company_name": "Anthropic",
       "company_slug": "anthropic",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:18:58.217433",
-      "factual_accuracy": 2,
+      "timestamp": "2025-11-21T19:45:08.342932",
+      "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 0,
-      "hallucination_detection": 2,
+      "hallucination_detection": 1,
       "readability": 1,
       "mrr_score": 0.5,
-      "notes": "The response accurately captures the funding and valuation details, aligning with the ground truth. However, it incorrectly states that Anthropic is a private startup, whereas it is a public benefit corporation. The response lacks citations for its claims, resulting in a provenance quality score of 0. The structure is well-organized, earning full schema compliance and readability scores. Important facts about funding are mentioned early, but the public benefit corporation status is missing from the top, affecting the MRR score.",
-      "total_score": 7.5
+      "notes": "The response contains several factual inaccuracies and lacks proper citations. The claim about Anthropic being branded as Claude and the rapid revenue growth are not supported by the ground truth. The structure of the response is compliant with the expected format, but the provenance quality is poor as there are no citations for the claims made. There are no known hallucinations, but unverifiable claims exist. The response is clear and well-organized, and the most important fact about the funding round is mentioned, but other key facts are missing or not prioritized.",
+      "total_score": 5.5
     },
     "rag": {
       "company_name": "Anthropic",
       "company_slug": "anthropic",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:19:00.807035",
+      "timestamp": "2025-11-21T19:45:21.641574",
       "factual_accuracy": 2,
       "schema_compliance": 2,
       "provenance_quality": 1,
       "hallucination_detection": 2,
       "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately reflects the Series F funding and valuation, aligning with the ground truth. However, it incorrectly describes Anthropic as a private startup, whereas it is a Public Benefit Corporation. The response follows the expected structure well, but lacks proper citations for many claims, impacting provenance quality. No hallucinations were detected, and the response is clear and well-organized. Important facts about funding are mentioned early, but the company's public benefit status is not highlighted initially, affecting MRR.",
-      "total_score": 8.5
+      "mrr_score": 1.0,
+      "notes": "The response accurately captures most of the ground truth facts, such as Anthropic's focus on AI safety, its status as a public benefit corporation, and the details of its Series F funding round. However, there are minor discrepancies, such as the omission of specific ground truth facts like the Anthropic Economic Index report. The response follows the expected structure and format perfectly. Provenance quality is rated 1 because while some claims are supported by context results, not all claims have direct citations. There are no hallucinations detected, and the response is clear and well-organized. Important facts, such as the company's focus on AI safety and its recent funding round, are presented prominently, justifying a high MRR score.",
+      "total_score": 9.0
     }
   },
   "anysphere": {
@@ -94,29 +94,29 @@
       "company_name": "Anysphere",
       "company_slug": "anysphere",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:19:05.153155",
-      "factual_accuracy": 2,
+      "timestamp": "2025-11-21T19:45:24.221457",
+      "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 2,
       "readability": 1,
       "mrr_score": 0.5,
-      "notes": "The response accurately mentions the use of Cursor by major enterprises like Salesforce, NVIDIA, and PwC, aligning with the ground truth. However, it lacks details on specific features like 'Agent Delegate' and 'semantic search' improvements. The structure is compliant with expected format, but there are no citations or sources provided for the claims, affecting provenance quality. No hallucinations were detected, and the response is clear and well-organized. Important facts about enterprise usage are mentioned early, but some key features are missing, affecting MRR score.",
-      "total_score": 7.5
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. It mentions a Series D funding round and a $1 billion revenue milestone, which are not present in the ground truth. The response does not provide citations or sources for its claims, leading to a low provenance quality score. However, the response is well-structured and readable, with no known hallucinations. Important facts about the company's products and their benefits are not prioritized in the response, affecting the MRR score.",
+      "total_score": 6.5
     },
     "rag": {
       "company_name": "Anysphere",
       "company_slug": "anysphere",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:19:08.930493",
-      "factual_accuracy": 0,
-      "schema_compliance": 1,
-      "provenance_quality": 0,
+      "timestamp": "2025-11-21T19:45:42.936939",
+      "factual_accuracy": 1,
+      "schema_compliance": 2,
+      "provenance_quality": 1,
       "hallucination_detection": 1,
       "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response does not contain any of the ground truth facts about Anysphere, such as their coding agent, codebase understanding, or enterprise usage. Instead, it provides unrelated information about SOC 2 certification and language support, which are not part of the ground truth. There are no known hallucinations, but the response lacks verifiable facts from the ground truth. The structure is mostly compliant, but the content is irrelevant. Provenance is poor as there are no citations for the claims made. The readability is clear, but the important facts are missing, leading to a low MRR score.",
-      "total_score": 3.0
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. While it correctly mentions the use of Cursor by companies like Salesforce, NVIDIA, and PwC, it inaccurately claims Anysphere has raised $2.3 billion in Series D funding and has a valuation of $29.3 billion, which is not verified by the context results. Additionally, the claim of Anysphere's annualized revenue surpassing $1 billion is not supported by the provided context. The response follows the expected structure well and is readable. However, the provenance quality is low as many claims lack proper citations. There are minor unverifiable claims, but no major hallucinations. Important facts about the company's product and its use by enterprises are mentioned early in the response, but some critical financial details are inaccurate or unverifiable.",
+      "total_score": 6.5
     }
   },
   "baseten": {
@@ -124,29 +124,29 @@
       "company_name": "Baseten",
       "company_slug": "baseten",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:19:13.474615",
+      "timestamp": "2025-11-21T19:45:47.374584",
       "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 2,
       "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response contains several factual inaccuracies when compared to the ground truth. It does not mention key aspects such as the use of Chains for orchestration, the focus on engineering and machine learning teams, or the collaboration with NVIDIA Nemotron. Instead, it introduces new, unverified information about deployment options and training products, which are not part of the provided ground truth. \n\nSchema compliance is perfect as the response follows a clear structure with sections like Company Overview, Business Model, etc.\n\nProvenance quality is poor as there are no citations or sources provided for the claims made in the response.\n\nThere are no hallucinations detected as per the known examples, and all claims are verifiable against the ground truth.\n\nThe readability of the response is good, with clear and well-organized sections.\n\nThe mean reciprocal ranking score is 0.0 because the most important facts from the ground truth are missing or not prioritized in the response.",
-      "total_score": 6.0
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. It mentions products and services like 'Baseten Cloud', 'Dedicated Deployments', and 'Inference Stack', which are not part of the provided ground truth. The ground truth focuses on 'Chains' for orchestrating inference workflows and building products for engineering and ML teams, which are not mentioned in the response. However, there are no known hallucinations present in the response.\n\nThe schema compliance is perfect as the response follows a clear and expected structure. However, provenance quality is poor as there are no citations or sources provided for the claims made. The readability of the response is good, being clear and well-organized. The mean reciprocal ranking is average as the response does not prioritize the most important facts from the ground truth, such as the focus on 'Chains' and building products for engineering teams.",
+      "total_score": 6.5
     },
     "rag": {
       "company_name": "Baseten",
       "company_slug": "baseten",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:19:20.313463",
-      "factual_accuracy": 1,
+      "timestamp": "2025-11-21T19:46:04.772425",
+      "factual_accuracy": 2,
       "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 1,
+      "provenance_quality": 0,
+      "hallucination_detection": 2,
       "readability": 1,
       "mrr_score": 0.5,
-      "notes": "The response provides some accurate information about Baseten, such as building products for engineering and machine learning teams. However, it includes several details not found in the ground truth, such as multi-cloud capacity management and specific deployment options, which are not verifiable against the provided facts. The structure of the response is well-organized and follows the expected format, earning full marks for schema compliance. Provenance quality is moderate as some claims are supported by context results, but others lack clear citations. There are no known hallucinations, but unverifiable claims reduce the hallucination detection score. Readability is high, with clear and organized content. The most important facts about Baseten's mission and product offerings are mentioned but not prioritized, resulting in a moderate MRR score.",
-      "total_score": 6.5
+      "notes": "The response accurately describes Baseten's focus on AI infrastructure and tooling, aligning with the ground truth. However, it introduces additional details such as the CEO's name, location, and specific funding details, which are not present in the ground truth but are not known hallucinations. The response follows the expected structure well, but lacks proper citations for its claims, resulting in a low provenance quality score. The content is clear and well-organized, and the most important facts about the company's focus on AI infrastructure appear early in the response.",
+      "total_score": 7.5
     }
   },
   "captions": {
@@ -154,29 +154,29 @@
       "company_name": "Captions",
       "company_slug": "captions",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:19:24.690723",
-      "factual_accuracy": 2,
+      "timestamp": "2025-11-21T19:46:08.690746",
+      "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 2,
       "readability": 1,
       "mrr_score": 0.5,
-      "notes": "The response is mostly accurate but contains some discrepancies. The company is correctly identified as Captions, and the focus on AI-driven video editing aligns with the ground truth. However, the response mentions a total funding of $125 million, which is not fully supported by the ground truth. The Series C funding of $100 million is accurate, but previous funding details are not verified. The response follows the expected structure well, earning full schema compliance points. Provenance quality is low due to the lack of citations or sources for the claims made. There are no hallucinations detected, as all claims are verifiable against the ground truth. The response is clear and well-organized, earning full readability points. The most important fact about the Series C funding is mentioned, but not prioritized, resulting in a moderate MRR score. Overall, the total score is 7.5.",
-      "total_score": 7.5
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. Notably, the rebranding from Captions to Mirage is not mentioned in the ground truth, and the founding year of 2023 is not provided in the ground truth. The funding amount and investment in AI video research align with the ground truth, but the total raised amount and valuation are not mentioned in the ground truth. The response follows the expected structure well, earning full schema compliance points. However, there are no citations or sources provided for the claims, resulting in a provenance quality score of 0. There are no hallucinations detected, as all claims are verifiable against the ground truth or are not known hallucinations. The readability is clear and well-organized. The most important facts, such as the company's focus and funding, are mentioned early in the response, but some key facts from the ground truth are missing or not prioritized, resulting in an MRR score of 0.5.",
+      "total_score": 6.5
     },
     "rag": {
       "company_name": "Captions",
       "company_slug": "captions",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:19:28.203508",
-      "factual_accuracy": 2,
+      "timestamp": "2025-11-21T19:46:27.199994",
+      "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 1,
-      "hallucination_detection": 2,
+      "hallucination_detection": 1,
       "readability": 1,
-      "mrr_score": 1.0,
-      "notes": "The response accurately reflects most of the ground truth facts, such as the focus on AI video editing and the Series C funding announcement. However, there is a discrepancy regarding the rebranding to Mirage, which is not mentioned in the ground truth. The response follows the expected structure well, earning full schema compliance points. Provenance quality is slightly lacking as not all claims are directly supported by the context results. No hallucinations were detected, and the response is clear and well-organized. The most important facts are presented first, justifying a full MRR score.",
-      "total_score": 9.0
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies. The founding year is correct, but the headquarters is incorrectly stated as New York City instead of Boston. The Series C funding amount and investors are correct, but the total funding amount and number of rounds are inconsistent with the ground truth. The statement about the company's vision aligns with the ground truth. The response is well-structured and readable. Provenance quality is moderate as not all claims are directly supported by the context results. There are no known hallucinations, but some unverifiable claims exist. Important facts such as the company's vision and funding are mentioned early, but the location error affects the factual accuracy score.",
+      "total_score": 6.5
     }
   },
   "clay": {
@@ -184,29 +184,29 @@
       "company_name": "Clay",
       "company_slug": "clay",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:19:31.447368",
+      "timestamp": "2025-11-21T19:46:30.808263",
       "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 1,
       "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. It mentions products and funding details not present in the ground truth. The response is well-structured and follows the expected schema, earning full marks for schema compliance. However, there are no citations or sources provided for the claims, resulting in a score of 0 for provenance quality. There are minor unverifiable claims, but no major hallucinations, leading to a score of 1 for hallucination detection. The response is clear and well-organized, earning full marks for readability. Important facts from the ground truth are missing or poorly ranked, resulting in a score of 0 for MRR.",
-      "total_score": 5.0
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. The founding year is stated as 2025, which is unlikely given the Series B and Series C funding rounds mentioned. The Series C announcement is not mentioned, and the GTM engineering era is not highlighted as per the ground truth. The response does not provide citations or sources for the claims made, leading to a provenance quality score of 0. There are no known hallucinations, but some unverifiable claims exist, resulting in a hallucination detection score of 1. The response is well-structured and readable, earning full marks for schema compliance and readability. However, the most important facts, such as the Series C announcement and GTM engineering focus, are not prioritized, resulting in a MRR score of 0.5.",
+      "total_score": 5.5
     },
     "rag": {
       "company_name": "Clay",
       "company_slug": "clay",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:19:39.713190",
-      "factual_accuracy": 2,
+      "timestamp": "2025-11-21T19:47:07.642898",
+      "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 1,
-      "hallucination_detection": 2,
+      "hallucination_detection": 1,
       "readability": 1,
-      "mrr_score": 1.0,
-      "notes": "The response provides a comprehensive overview of Clay, aligning well with the ground truth facts. However, there are minor discrepancies in the factual accuracy, such as the lack of explicit mention of the GTM engineering function and the specific role of AI agents. The response is well-structured and follows the expected format, earning full schema compliance points. Provenance quality is slightly lacking as not all claims are directly supported by the context results, leading to a deduction. There are no hallucinations detected, and the response is clear and well-organized. Important facts are presented early in the response, ensuring a high MRR score.",
-      "total_score": 9.0
+      "mrr_score": 0.5,
+      "notes": "The response contains several factual inaccuracies compared to the ground truth. For instance, the response mentions Clay's Series C valuation at $3.1 billion in 2025, which is not confirmed in the ground truth. The response also includes details about products and investors that are not mentioned in the ground truth. However, it does correctly identify Clay's focus on GTM workflows and AI-driven tools. The schema compliance is perfect as the response is well-structured and follows the expected format. Provenance quality is moderate as some claims lack proper citations. There are minor unverifiable claims, but no major hallucinations, hence a score of 1 for hallucination detection. The readability is clear and well-organized, deserving a score of 1. The most important facts appear second, so the MRR score is 0.5. The total score is 6.5.",
+      "total_score": 6.5
     }
   },
   "coactive-ai": {
@@ -214,29 +214,29 @@
       "company_name": "Coactive AI",
       "company_slug": "coactive-ai",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:19:47.668549",
-      "factual_accuracy": 1,
+      "timestamp": "2025-11-21T19:47:12.727052",
+      "factual_accuracy": 2,
       "schema_compliance": 2,
       "provenance_quality": 0,
-      "hallucination_detection": 1,
+      "hallucination_detection": 2,
       "readability": 1,
       "mrr_score": 0.5,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. It mentions Coactive Systems Inc. as a private AI startup founded in 2021, which is not verified by the ground truth. The response lacks specific details about the Series B funding round and the Azure partnership, which are key facts in the ground truth. Schema compliance is good as the response is well-structured. Provenance quality is poor as there are no citations or sources provided for the claims. There are no known hallucinations, but some claims are unverifiable, leading to a lower hallucination detection score. The readability is clear and well-organized. The mean reciprocal ranking is low because the most important facts from the ground truth are missing or not prioritized.",
-      "total_score": 5.5
+      "notes": "The response provides a generally accurate overview of Coactive AI, matching several key facts from the ground truth, such as the focus on AI platforms and the Series B funding round. However, there are discrepancies, such as the founding year (2021 vs. not mentioned in ground truth) and the partnership with NBCUniversal, which is not mentioned in the ground truth. The response is well-structured and follows the expected format, earning full marks for schema compliance. However, there are no citations or sources provided for the claims, resulting in a score of 0 for provenance quality. No hallucinations were detected, and the response is clear and well-organized. The most important facts, such as the Series B funding and platform capabilities, are mentioned early in the response, but some key details like the company's diversity and expertise are missing or not prioritized, resulting in a moderate MRR score.",
+      "total_score": 7.5
     },
     "rag": {
       "company_name": "Coactive AI",
       "company_slug": "coactive-ai",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:19:57.525464",
-      "factual_accuracy": 2,
+      "timestamp": "2025-11-21T19:47:26.178348",
+      "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 1,
       "hallucination_detection": 2,
       "readability": 1,
       "mrr_score": 0.5,
-      "notes": "The response is mostly accurate but contains some discrepancies. The company name, team diversity, and platform features align with the ground truth. However, the founding year and team size are not explicitly mentioned in the ground truth. The response follows the expected structure well. Provenance quality is moderate as not all claims are directly linked to sources. No hallucinations were detected. The response is clear and well-organized. Important facts about the platform and Azure expansion are mentioned but not prioritized first.",
-      "total_score": 8.5
+      "notes": "The response contains several factual inaccuracies: the founding year, founders, and employee count do not match the ground truth. The response does not mention the Coactive Multimodal AI Platform's specific features like handling massive scale or Azure integration. However, it correctly identifies the Series B funding round and some investors. The structure is compliant with the expected format. Provenance is partially provided, but not all claims are sourced. No hallucinations were detected. The response is clear and well-organized. Important facts like the Series B funding are mentioned early, but some key details are missing or not prioritized.",
+      "total_score": 7.5
     }
   },
   "cohere": {
@@ -244,29 +244,29 @@
       "company_name": "Cohere",
       "company_slug": "cohere",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:19:59.949622",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. It mentions Cohere's headquarters in Toronto and founding year as 2019, which are not part of the provided ground truth. The funding details and product lineup also do not match the ground truth facts. However, there are no known hallucinations present. The structure is well-organized and follows the expected schema, but there is a lack of proper citations for the claims made. The readability is good, and the most important facts appear in the second position, leading to a medium MRR score.",
-      "total_score": 6.5
-    },
-    "rag": {
-      "company_name": "Cohere",
-      "company_slug": "cohere",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:20:28.295533",
+      "timestamp": "2025-11-21T19:47:29.964925",
       "factual_accuracy": 2,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 2,
       "readability": 1,
+      "mrr_score": 0.5,
+      "notes": "The response provides a comprehensive overview of Cohere, aligning well with the ground truth in terms of the company's focus on enterprise AI solutions and recent funding activities. However, there are some factual discrepancies: the founding year and headquarters location are not mentioned in the ground truth, and the product names (North, Compass, Command, Rerank) are not verified against the ground truth. The response is well-structured and readable, following the expected schema perfectly. However, it lacks citations for the claims made, resulting in a low provenance quality score. No hallucinations were detected, and the most important facts about funding and enterprise focus appear early in the response, though not at the very beginning. Overall, the response is mostly accurate but could benefit from better sourcing and verification of specific details.",
+      "total_score": 7.5
+    },
+    "rag": {
+      "company_name": "Cohere",
+      "company_slug": "cohere",
+      "pipeline_type": "rag",
+      "timestamp": "2025-11-21T19:47:54.176847",
+      "factual_accuracy": 2,
+      "schema_compliance": 2,
+      "provenance_quality": 1,
+      "hallucination_detection": 2,
+      "readability": 1,
       "mrr_score": 1.0,
-      "notes": "The response provides a comprehensive overview of Cohere, aligning well with the ground truth in terms of the company's mission and product offerings. However, there are some factual discrepancies, such as the number of employees and offices, which are not verifiable from the provided context. The response follows the expected structure and is clear and well-organized. Provenance quality is low as there are no direct citations or sources provided for the claims made. No hallucinations were detected, and the most important facts are presented first.",
-      "total_score": 8.0
+      "notes": "The response is mostly accurate but contains some discrepancies. The factual accuracy is rated 2 because while most facts align with the ground truth, there are minor discrepancies such as the absence of specific funding details and the number of funding rounds. Schema compliance is rated 2 as the response follows the expected structure well. Provenance quality is rated 1 because while there are some sources, not all claims are directly supported by the context results. Hallucination detection is rated 2 as there are no known hallucinations present. Readability is rated 1 as the response is clear and well-organized. MRR score is 1.0 as the most important facts appear first. Total score is 9.0.",
+      "total_score": 9.0
     }
   },
   "crusoe": {
@@ -274,329 +274,29 @@
       "company_name": "Crusoe",
       "company_slug": "crusoe",
       "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:20:33.003955",
+      "timestamp": "2025-11-21T19:47:59.293059",
       "factual_accuracy": 1,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 1,
       "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. The focus on converting wasted natural gas into energy for AI infrastructure is not mentioned in the ground truth. The response does not mention the specific benefits of Crusoe's infrastructure, such as the 20x faster deployment and 81% cost reduction. Additionally, the response lacks citations or sources for its claims, resulting in a low provenance quality score. However, the response is well-structured and readable, following the expected schema. There are no known hallucinations, but unverifiable claims are present. Important facts from the ground truth, such as the specific benefits and technologies used by Crusoe, are missing or not prioritized, affecting the MRR score.",
-      "total_score": 5.0
+      "mrr_score": 0.5,
+      "notes": "The response provides some accurate information about Crusoe, such as its focus on high-performance computing and energy sectors, but it lacks alignment with the ground truth facts provided. The response does not mention the specific benefits of Crusoe's AI-optimized infrastructure, such as the 20x faster deployment or 81% cost reduction. It also fails to highlight the specific products and innovations mentioned in the ground truth, like the PyTorch image classification guide or the NVIDIA GB200 NVL72. There are no hallucinations from the known examples, but the response includes unverifiable claims about funding and partnerships without proper citations. The structure of the response is well-organized, and the most important facts about the company's business model and growth are mentioned early, but the lack of alignment with the ground truth affects the factual accuracy score.",
+      "total_score": 5.5
     },
     "rag": {
       "company_name": "Crusoe",
       "company_slug": "crusoe",
       "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:20:59.591820",
-      "factual_accuracy": 1,
+      "timestamp": "2025-11-21T19:48:15.218787",
+      "factual_accuracy": 2,
       "schema_compliance": 2,
       "provenance_quality": 0,
       "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. For instance, the response mentions Crusoe's founding year as 2018 with an energy-first approach, which is not part of the ground truth facts. The response also includes details about funding rounds and partnerships that are not verified by the provided ground truth. The structure of the response is compliant with the expected format, earning full marks for schema compliance. However, the provenance quality is poor as there are no citations or sources provided for the claims made. There are minor unverifiable claims, but no major hallucinations, leading to a score of 1 for hallucination detection. The readability of the response is clear and well-organized. The most important facts, such as the company's focus on AI infrastructure and partnerships, appear early in the response, but not all key facts are prioritized, resulting in a MRR score of 0.5. Overall, the total score is 5.5.",
-      "total_score": 5.5
-    }
-  },
-  "databricks": {
-    "structured": {
-      "company_name": "Databricks",
-      "company_slug": "databricks",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:21:08.586569",
-      "factual_accuracy": 2,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response provides a generally accurate overview of Databricks, aligning with the ground truth in terms of the company's focus on data and AI, its headquarters, and its mission. However, it lacks specific details about the Databricks Data Intelligence Platform and its unique features as mentioned in the ground truth. The response also omits the mention of the partnership with Palantir and the specific capabilities related to AI agents. \n\nSchema compliance is perfect as the response is well-structured and follows the expected format. \n\nProvenance quality is rated 0 because there are no citations or sources provided for the claims made in the response. \n\nHallucination detection scores a 2 as there are no known hallucinations or false claims present. \n\nReadability is clear and well-organized, scoring a 1. \n\nThe MRR score is 0.5 as the most important facts, such as the company's mission and its focus on data and AI, are not prioritized at the beginning of the response. \n\nOverall, the total score is 7.5.",
-      "total_score": 7.5
-    },
-    "rag": {
-      "company_name": "Databricks",
-      "company_slug": "databricks",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:21:23.877321",
-      "factual_accuracy": 2,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
       "readability": 1,
       "mrr_score": 1.0,
-      "notes": "The response provides a comprehensive overview of Databricks, aligning well with the ground truth facts. However, it lacks specific citations for the claims made, which affects the provenance quality score. The structure is well-organized and follows the expected format, earning full marks for schema compliance. There are no hallucinations detected, and the readability is clear and concise. The most important facts about the company's mission and platform are presented first, justifying a full MRR score.",
-      "total_score": 8.0
-    }
-  },
-  "decagon": {
-    "structured": {
-      "company_name": "Decagon",
-      "company_slug": "decagon",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:21:27.711845",
-      "factual_accuracy": 2,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately captures several key facts from the ground truth, such as the $65 million Series B funding led by Bain Capital Ventures and the focus on AI-driven customer experiences. However, there are discrepancies, such as the mention of a $35 million Series A from Accel and a16z, which is not in the ground truth. The response follows the expected structure well, earning full schema compliance points. Provenance quality is low as there are no citations or sources provided for the claims. There are no hallucinations detected, and the response is clear and well-organized. The most important facts, like the funding and AI platform, are mentioned early in the response, but not all key facts are prioritized, resulting in a moderate MRR score.",
-      "total_score": 7.5
-    },
-    "rag": {
-      "company_name": "Decagon",
-      "company_slug": "decagon",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:21:45.613184",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. The total funding amount is incorrect; the ground truth states $100m, while the response claims $231m. The Series C funding and valuation details are not mentioned in the ground truth. The response claims partnerships with OpenAI and Anthropic, which are not verified by the ground truth. The response is well-structured and readable, following the expected schema. Provenance quality is moderate as some claims lack proper citations. Hallucinations are present due to unverifiable claims about funding and partnerships. Important facts about the company's founding vision and Series B funding are mentioned but not prioritized, affecting the MRR score.",
-      "total_score": 6.5
-    }
-  },
-  "deepl": {
-    "structured": {
-      "company_name": "DeepL",
-      "company_slug": "deepl",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:21:49.458040",
-      "factual_accuracy": 2,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately captures the mission of DeepL and its focus on AI solutions for communication and productivity, aligning with the ground truth. However, it lacks specific details such as the number of business customers and security certifications mentioned in the ground truth. The structure is well-organized and follows the expected format, earning full marks for schema compliance. Provenance quality is low as there are no citations or sources provided for the claims made. There are no hallucinations detected, and the response is clear and easy to read. Important facts about the company's mission and product offerings are mentioned early in the response, but some key details like security certifications are missing, affecting the MRR score.",
-      "total_score": 7.5
-    },
-    "rag": {
-      "company_name": "DeepL",
-      "company_slug": "deepl",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:21:55.037901",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. It mentions DeepL as having over 1,000 employees and receiving numerous accolades, which are not verified by the ground truth. However, it correctly states the number of business customers and the emphasis on security. The structure is compliant with the expected format, and the response is clear and well-organized. Provenance quality is moderate as some claims lack direct citations. No hallucinations were detected, and the most important facts are not prominently placed, affecting the MRR score.",
-      "total_score": 7.5
-    }
-  },
-  "elevenlabs": {
-    "structured": {
-      "company_name": "ElevenLabs",
-      "company_slug": "elevenlabs",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:21:59.027016",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response provides a general overview of ElevenLabs but lacks alignment with the ground truth facts. It mentions partnerships and product offerings that are not specified in the ground truth, leading to factual discrepancies. The response does not provide citations for claims, affecting provenance quality. While no known hallucinations are present, some claims are unverifiable. The structure is compliant, and the content is readable. Important facts about the company's valuation and ARR are missing, affecting the MRR score.",
-      "total_score": 5.5
-    },
-    "rag": {
-      "company_name": "ElevenLabs",
-      "company_slug": "elevenlabs",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:22:10.860548",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. It mentions international expansions and partnerships that are not present in the ground truth. The claim about Matthew McConaughey as an investor is not verifiable from the provided context. The response follows the expected structure well, hence a full score for schema compliance. Provenance quality is low as many claims lack proper citations. There are minor unverifiable claims, leading to a deduction in hallucination detection. The response is clear and well-organized, earning full marks for readability. Important facts about the company's core offerings and recent achievements are not prioritized, resulting in a lower MRR score.",
-      "total_score": 6.5
-    }
-  },
-  "figure-ai": {
-    "structured": {
-      "company_name": "Figure AI",
-      "company_slug": "figure-ai",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:22:14.654198",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately identifies Figure AI as a company focused on AI robotics and mentions its general-purpose humanoid, aligning with the ground truth. However, it fails to mention the significant funding details and the expertise of the robotics team, which are crucial facts. The response lacks citations or sources for its claims, affecting provenance quality. No hallucinations were detected, and the structure is clear and compliant with expected format. The most important funding fact is missing, affecting the MRR score.",
-      "total_score": 6.5
-    },
-    "rag": {
-      "company_name": "Figure AI",
-      "company_slug": "figure-ai",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:22:19.490605",
-      "factual_accuracy": 1,
-      "schema_compliance": 1,
-      "provenance_quality": 1,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately mentions the team with over 100 years of combined experience, aligning with the ground truth. However, it lacks other key facts such as the company's focus on household tasks, the use of Helix AI, and funding details. The response structure is mostly compliant but lacks depth in several sections. Provenance is partially provided with one context result, but not all claims are backed by sources. No hallucinations were detected. The readability is clear and organized. Important facts about the team are mentioned early, but other critical information is missing, affecting the MRR score.",
-      "total_score": 6.5
-    }
-  },
-  "fireworks-ai": {
-    "structured": {
-      "company_name": "Fireworks AI",
-      "company_slug": "fireworks-ai",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:22:22.132342",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response provides some accurate information but lacks key details from the ground truth. It mentions Fireworks RFT and AI Cloud but misses specifics like day-0 model access, speculative decoding, and the $250M funding. No hallucinations are detected. The structure is compliant, but there are no citations for claims. The response is readable, but important facts are missing or poorly ranked.",
-      "total_score": 6.0
-    },
-    "rag": {
-      "company_name": "Fireworks AI",
-      "company_slug": "fireworks-ai",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:22:26.163131",
-      "factual_accuracy": 2,
-      "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately captures the $250M funding fact and mentions Fireworks RFT, aligning with the ground truth. However, it misses specific details such as the 'day-0 model access' and 'Cursor\u2019s Fast Apply feature'. The response structure is well-organized, following the expected schema. Provenance quality is moderate as not all claims are directly linked to sources, though context results provide some backing. No hallucinations were detected, and the response is clear and readable. Important facts like funding are mentioned early, but some key features are omitted, affecting MRR.",
-      "total_score": 8.5
-    }
-  },
-  "glean": {
-    "structured": {
-      "company_name": "Glean",
-      "company_slug": "glean",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:22:30.959705",
-      "factual_accuracy": 2,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately captures several key aspects of Glean.ai, such as its focus on accounts payable solutions and its partnership with Pipe, which aligns with the ground truth. However, it lacks specific details like the SOC 2 Type II Recertification in 2024 and does not mention the automatic syncing of bills to GL. The response is well-structured and readable, but it lacks proper citations for the claims made, which affects provenance quality. The most important facts, such as the company's focus and partnership, are presented early in the response, but some key facts are missing or not prioritized, affecting the MRR score.",
-      "total_score": 7.5
-    },
-    "rag": {
-      "company_name": "Glean",
-      "company_slug": "glean",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:22:38.748810",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response provides a general overview of Glean AI but lacks alignment with the specific ground truth facts. It mentions spend management and vendor management, which are related to the ground truth, but does not explicitly cover the key facts such as the accounts payable platform, SOC 2 Type II Recertification, or the partnership with Pipe. The response is well-structured and readable, following the expected schema. Provenance quality is moderate as some claims are supported by context results, but not all. No hallucinations were detected. The most important facts related to ground truth are not prioritized in the response, affecting the MRR score.",
-      "total_score": 7.5
-    }
-  },
-  "harvey": {
-    "structured": {
-      "company_name": "Harvey",
-      "company_slug": "harvey",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:22:42.728674",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response provides a general overview of Harvey but lacks alignment with the specific ground truth facts. The mention of 'Assistant' aligns with the ground truth, but 'Vault' is not mentioned in the ground truth. The response does not cover specific ground truth facts such as 'Harvey for Word' or 'Harvey\u2019s Principles for AI Adoption and Rollout in Law Schools'. No hallucinations from known examples, but unverifiable claims exist. The structure is compliant with expected format, but lacks citations for claims. Readability is good, and important facts are somewhat prioritized.",
-      "total_score": 5.5
-    },
-    "rag": {
-      "company_name": "Harvey",
-      "company_slug": "harvey",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:22:49.121717",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 1,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response contains some factual inaccuracies when compared to the ground truth. The mention of features like 'Vault' and 'Knowledge' are not present in the ground truth. The response does not include specific ground truth facts such as 'Harvey for Word' or 'Harvey\u2019s Principles for AI Adoption and Rollout in Law Schools'. The response is well-structured and follows the expected schema, earning full marks for schema compliance. Provenance quality is lacking as the response does not provide direct citations for the claims made, resulting in a score of 1. There are no hallucinations detected as per the known examples, so it scores full marks in hallucination detection. The readability of the response is clear and well-organized. However, the most important facts from the ground truth are missing or not prioritized, resulting in a low MRR score.",
+      "notes": "The response contains mostly accurate information but has some discrepancies compared to the ground truth. For example, the response mentions Crusoe's founding year as 2018 and its focus on sustainability and renewable energy, which aligns with the ground truth. However, it does not mention specific ground truth facts such as the 20x faster deployment or the specific NVIDIA GB200 NVL72 technology. The response is well-structured and follows the expected format, earning full schema compliance points. However, it lacks proper citations for the claims made, resulting in a provenance quality score of 0. There are no known hallucinations, but some claims are unverifiable, leading to a hallucination detection score of 1. The response is clear and well-organized, earning full readability points. Important facts are presented early in the response, resulting in a full MRR score. The total score is 7.",
       "total_score": 7.0
-    }
-  },
-  "hebbia": {
-    "structured": {
-      "company_name": "Hebbia",
-      "company_slug": "hebbia",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:22:53.298222",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response provides some accurate information about Hebbia, such as pioneering AI architectures and focusing on research-intensive industries. However, it lacks key facts from the ground truth, such as the Series B funding led by a16z and the specific focus on finance. The response does not disclose funding details, which is a significant omission. There are no hallucinations detected, and the response is well-structured and readable. However, the lack of citations for claims affects the provenance quality score. The most important facts, such as funding and financial focus, are not prioritized, affecting the MRR score.",
-      "total_score": 6.5
-    },
-    "rag": {
-      "company_name": "Hebbia",
-      "company_slug": "hebbia",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:23:00.250030",
-      "factual_accuracy": 1,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 1,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response contains several factual inaccuracies compared to the ground truth. It does not mention Hebbia's pioneering AI architectures or the $130M Series B funding led by a16z. The focus on finance is accurate, but the claim about building \"the most important software product of the next 100 years\" is not supported by the ground truth. The response follows the expected structure well, but lacks proper citations for its claims, resulting in a low provenance quality score. There are no known hallucinations, but some unverifiable claims exist. The readability is clear and well-organized, and the most important facts about the company's focus on finance appear early in the response.",
-      "total_score": 5.5
-    }
-  },
-  "hugging-face": {
-    "structured": {
-      "company_name": "Hugging Face",
-      "company_slug": "hugging-face",
-      "pipeline_type": "structured",
-      "timestamp": "2025-11-12T23:23:03.116109",
-      "factual_accuracy": 2,
-      "schema_compliance": 2,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.5,
-      "notes": "The response accurately identifies Hugging Face as a company in the AI & ML sector and mentions its contributions to machine learning models and datasets, aligning with the ground truth. However, it lacks specific details about the company's mission to democratize machine learning and its paid Compute and Enterprise solutions. The response does not provide citations for its claims, resulting in a low provenance quality score. No hallucinations were detected, and the response is well-structured and readable. Important facts about the company's mission and business model are not prioritized, affecting the MRR score.",
-      "total_score": 7.5
-    },
-    "rag": {
-      "company_name": "Hugging Face",
-      "company_slug": "hugging-face",
-      "pipeline_type": "rag",
-      "timestamp": "2025-11-12T23:23:05.922469",
-      "factual_accuracy": 1,
-      "schema_compliance": 1,
-      "provenance_quality": 0,
-      "hallucination_detection": 2,
-      "readability": 1,
-      "mrr_score": 0.0,
-      "notes": "The response lacks detailed information on Hugging Face's business model, funding history, growth metrics, market sentiment, risks, challenges, and future outlook, which are key aspects of the company's profile. The response does not contain any hallucinations, but it also does not provide verifiable facts that match the ground truth. The structure is mostly compliant but lacks depth in content. Provenance quality is poor as no proper source citations are provided. The readability is clear, but the most important facts are missing, leading to a low MRR score.",
-      "total_score": 5.0
     }
   }
 }
