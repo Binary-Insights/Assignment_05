@@ -5,10 +5,11 @@ This DAG orchestrates the complete AI50 company data processing pipeline:
 1. process_pages_dag - Discover and process company pages
 2. ingest_dag - Ingest processed pages into vector store
 3. extraction_dag - Extract structured information from pages
-4. eval_runner_dag - Evaluate RAG and structured extraction results
+4. master_agent_dag - Enrich company data using master orchestrator (Tavily + Payload agents)
+5. eval_runner_dag - Evaluate RAG and structured extraction results
 
 Schedule: Manual trigger (no automatic schedule)
-Dependencies: Requires all four pipelines to be defined as separate DAGs
+Dependencies: Requires all five pipelines to be defined as separate DAGs
 """
 
 import logging
@@ -38,9 +39,14 @@ PIPELINE_DAGS = [
         "order": 3
     },
     {
+        "dag_id": "master_agent_dag",
+        "description": "Enrich company data using master orchestrator (Tavily + Payload agents)",
+        "order": 4
+    },
+    {
         "dag_id": "eval_runner_dag",
         "description": "Evaluate RAG and structured extraction results",
-        "order": 4
+        "order": 5
     }
 ]
 

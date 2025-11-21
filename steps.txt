@@ -605,3 +605,49 @@ docker exec assignment04-airflow-scheduler python /app/src/mcp_server/mcp_enrich
 Start-Sleep -Seconds 120; docker compose -f c:\Users\enigm\OneDrive\Documents\NortheasternAssignments\09_BigDataIntelAnlytics\Assignments\Assignment_05\docker\docker-compose.yml up -d --force-recreate airflow-scheduler airflow-webserver airflow-triggerer
 
 (base) PS C:\Users\enigm\OneDrive\Documents\NortheasternAssignments\09_BigDataIntelAnlytics\Assignments\Assignment_05\docker> docker exec assignment04-airflow-scheduler tail -100 /app/data/logs/structured_extraction.log 2>&1
+#######################################
+Payload agent: 
+either 
+python src/agents/payload_agent.py abridge
+or as langgraph
+python src/workflows/payload_workflow.py abridge
+
+
+
+
+#############################################
+
+✅ Master Orchestrator Agent - Complete Implementation
+I've successfully created a Master Orchestrator Agent that combines both the Tavily Agent and Payload Agent for comprehensive payload enrichment.
+
+📁 Files Created
+master_orchestrator.py - Main orchestrator (500+ lines)
+__init__.py - Module initialization
+README.md - Complete documentation
+QUICK_REFERENCE.md - Quick command reference
+MASTER_AGENT_SUMMARY.md - Implementation summary
+🎯 How It Works
+The master orchestrator runs a two-phase workflow:
+
+Phase 1: Tavily Agent (External Web Search)
+Target: company_record fields
+Source: Tavily API web search
+Fields: brand_name, hq_city, founded_year, total_raised_usd, etc.
+Phase 2: Payload Agent (Vector Search)
+Target: Entity arrays
+Source: Pinecone vector search over crawled company data
+Entities: events[], products[], leadership[], snapshots[], visibility[]
+
+
+# Full enrichment (both agents)
+python src/master_agent/master_orchestrator.py abridge
+
+# Tavily only (company_record)
+python src/master_agent/master_orchestrator.py abridge --tavily-only
+
+# Payload only (entities)
+python src/master_agent/master_orchestrator.py abridge --payload-only
+
+# Verbose logging
+python src/master_agent/master_orchestrator.py abridge --verbose
+

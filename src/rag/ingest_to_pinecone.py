@@ -730,7 +730,8 @@ def ingest_tavily_json_to_pinecone(
                     "source_url": url,
                     "title": title,
                     "relevance_score": score,
-                    "text_preview": full_text[:200],
+                    "text": full_text,  # ✅ STORE FULL TEXT for RAG retrieval
+                    "text_preview": full_text[:200],  # Keep preview for display/debugging
                     "ingested_at": datetime.now().isoformat(),
                     "content_hash": content_hash
                 }

@@ -14,7 +14,7 @@ Usage:
 
 Environment variables:
     PINECONE_API_KEY (required)
-    PINECONE_INDEX_NAME (default: "bigdata-assignment-04")
+    PINECONE_INDEX_NAME (default: "bigdata-assignment-05")
     PINECONE_NAMESPACE (default: "default")
     EMBEDDING_PROVIDER (choices: "openai", "hf"; default: auto-detect)
     EMBEDDING_MODEL (default: "text-embedding-3-large" for OpenAI, "all-MiniLM-L6-v2" for HF)
@@ -120,7 +120,7 @@ API_PORT = int(os.environ.get("API_PORT", "8000"))
 # Data directory - go up 2 levels from src/backend/ to reach data/
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 
-logger.info(f"PINECONE_INDEX_NAME: {os.environ.get('PINECONE_INDEX_NAME', 'bigdata-assignment-04')}")
+logger.info(f"PINECONE_INDEX_NAME: {os.environ.get('PINECONE_INDEX_NAME', 'bigdata-assignment-05')}")
 logger.info(f"EMBEDDING_PROVIDER: {EMBEDDING_PROVIDER or 'auto-detect'}")
 logger.info(f"DATA_DIR: {DATA_DIR}")
 logger.info(f"Seed file path: {DATA_DIR / 'forbes_ai50_seed.json'}")
@@ -382,7 +382,7 @@ class HITLSettingsRequest(BaseModel):
 # ─────────────────────────────────────────────────────────────────────────────
 def search_pinecone(
     query_embedding: List[float],
-    index_name: str = "bigdata-assignment-04",
+    index_name: str = "bigdata-assignment-05",
     top_k: int = 5,
     threshold: Optional[float] = None,
 ) -> List[Dict[str, Any]]:
@@ -530,7 +530,7 @@ async def lifespan(app: FastAPI):
                 api_key = os.environ.get("PINECONE_API_KEY")
                 if api_key:
                     pc = Pinecone(api_key=api_key)
-                    index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-04")
+                    index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-05")
                     index = pc.Index(index_name)
                     stats = index.describe_index_stats()
                     logger.info(f"Connected to Pinecone index '{index_name}': {stats.total_vector_count} vectors")
@@ -572,7 +572,7 @@ async def health_check():
             api_key = os.environ.get("PINECONE_API_KEY")
             if api_key:
                 pc = Pinecone(api_key=api_key)
-                index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-04")
+                index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-05")
                 index = pc.Index(index_name)
                 stats = index.describe_index_stats()
                 pinecone_connected = True
@@ -581,7 +581,7 @@ async def health_check():
     
     return HealthResponse(
         status="ok" if pinecone_connected else "degraded",
-        qdrant_url=os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-04"),
+        qdrant_url=os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-05"),
         qdrant_connected=pinecone_connected,
     )
 
@@ -627,7 +627,7 @@ async def rag_search(request: SearchRequest) -> SearchResponse:
         
         # Search Pinecone
         logger.debug("Searching Pinecone...")
-        index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-04")
+        index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-05")
         results = search_pinecone(
             query_embedding=query_embedding,
             index_name=index_name,
@@ -1103,7 +1103,7 @@ async def generate_rag_dashboard(
             raise RuntimeError("PINECONE_API_KEY not set")
         
         pc = Pinecone(api_key=api_key)
-        index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-04")
+        index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-05")
         
         # Initialize LLM client
         llm_client = None
@@ -1988,7 +1988,7 @@ async def resume_enrichment(task_id: str, background_tasks: BackgroundTasks):
 if __name__ == "__main__":
     import uvicorn
     
-    index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-04")
+    index_name = os.environ.get("PINECONE_INDEX_NAME", "bigdata-assignment-05")
     logger.info(f"Starting RAG Search API on {API_HOST}:{API_PORT}")
     logger.info(f"Pinecone Index: {index_name}")
     logger.info(f"API docs: http://{API_HOST}:{API_PORT}/docs")

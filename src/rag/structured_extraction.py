@@ -48,6 +48,11 @@ from rag_models import (
 # Load environment variables
 load_dotenv()
 
+print("✅ Running in LOCAL-ONLY mode (no Google Cloud Storage)")
+print("✅ Data loading from: data/raw/{company_slug}/")
+print("✅ Data saving to: data/structured/{company_id}.json")
+print("✅ Enhanced with anti-hallucination validation")
+
 # Global configuration
 FALLBACK_STRATEGY = 'pinecone_first'  # Can be: 'pinecone_only', 'raw_only', 'pinecone_first'
 USE_RAW_TEXT = True  # Set to True to skip Pinecone and use raw text directly
@@ -78,6 +83,96 @@ def setup_logging():
     logger.addHandler(console_handler)
     
     return logger
+
+
+# ============================================================================
+# VALIDATION HELPERS - Anti-Hallucination
+# ============================================================================
+
+def is_website_section(name: str) -> bool:
+    """
+    Check if 'product' name is actually a website section.
+    
+    Filters out common false positives like:
+    - Website pages: "Blog", "Press Kit", "Newsroom"
+    - Legal docs: "Terms and Privacy", "Updates to Policy"
+    - Initiatives: "Advisory Council", "Economic Program"
+    - Partnerships: "MOU with Government"
+    """
+    if not name:
+        return True
+    
+    website_sections = {
+        'blog', 'videos', 'press kit', 'company', 'newsroom', 'press',
+        'careers', 'about', 'contact', 'team', 'investors', 'customers',
+        'partners', 'pricing', 'news', 'resources', 'insights', 'events',
+        'webinars', 'documentation', 'docs', 'support', 'help center',
+        'terms', 'privacy', 'policy', 'legal', 'security', 'compliance',
+        'customer info', 'case studies', 'success stories'
+    }
+    
+    name_lower = name.lower().strip()
+    
+    if name_lower in website_sections:
+        return True
+    
+    # Pattern-based exclusions
+    non_product_patterns = [
+        r'^updates?\s+to\s+',  # "Updates to Terms"
+        r'^signs?\s+',  # "Signs MOU"
+        r'^mou\s+with\s+',  # "MOU with UK Government"
+        r'^expanding\s+',  # "Expanding Google Cloud TPUs"
+        r'^announces?\s+',  # "Announces Partnership"
+        r'advisory\s+council',  # "Economic Advisory Council"
+        r'futures?\s+program',  # "Economic Futures Program"
+        r'program$',  # Ends with "Program" (usually initiatives)
+    ]
+    
+    import re
+    for pattern in non_product_patterns:
+        if re.search(pattern, name_lower):
+            return True
+    
+    return False
+
+
+def extract_founded_year_aggressive(pages_text: Dict[str, str]) -> Optional[int]:
+    """
+    Aggressively search ALL text content for founding year.
+    
+    Searches through all pages looking for patterns:
+    - "founded in", "established in", "since", etc.
+    """
+    import re
+    all_text = ""
+    
+    # Combine ALL page texts
+    for page_type, text in pages_text.items():
+        all_text += text + "\n\n"
+    
+    # Search for founding mentions
+    founding_patterns = [
+        r'founded\s+in\s+(\d{4})',
+        r'established\s+in\s+(\d{4})',
+        r'started\s+in\s+(\d{4})',
+        r'since\s+(\d{4})',
+        r'began\s+in\s+(\d{4})',
+        r'launched\s+in\s+(\d{4})',
+        r'inception\s+in\s+(\d{4})',
+        r'created\s+in\s+(\d{4})'
+    ]
+    
+    for pattern in founding_patterns:
+        match = re.search(pattern, all_text.lower())
+        if match:
+            try:
+                year = int(match.group(1))
+                if 1900 <= year <= 2024:  # Sanity check
+                    return year
+            except (ValueError, IndexError):
+                continue
+    
+    return None
 
 
 def get_llm_client():
@@ -266,6 +361,56 @@ def index_company_pages_to_pinecone(
     except Exception as e:
         logger.warning(f"Error indexing to Pinecone: {e}")
         return None
+
+
+
+
+def build_semantic_search_queries(query_type: str) -> List[str]:
+    """Build semantic search queries for different extraction types.
+    
+    Maps field names to semantic questions for better vector matching.
+    """
+    semantic_queries = {
+        'company_info': [
+            "company legal name brand headquarters location",
+            "when was company founded established started",
+            "company website URL domain",
+            "what industries categories sectors does company operate in",
+            "company funding raised capital investment valuation"
+        ],
+        'funding': [
+            "funding rounds Series A B C seed investment capital raised",
+            "investors venture capital backed by led by",
+            "funding amounts rounds valuation investment history",
+        ],
+        'products': [
+            "products services offerings what does company build make",
+            "product description features capabilities",
+            "pricing model pricing tiers cost pricing plans",
+            "integrations partnerships APIs",
+            "GitHub repository open source code",
+        ],
+        'leadership': [
+            "founder co-founder CEO founder",
+            "executive team leadership management",
+            "LinkedIn profile background education university",
+            "previous employment history former company",
+        ],
+        'snapshot': [
+            "headcount employees team size number of people",
+            "job openings hiring positions vacancies career",
+            "office locations geographic presence countries regions",
+            "product offerings current products services",
+        ],
+        'events': [
+            "news announcements press releases",
+            "M&A acquisition merger",
+            "partnerships collaborations integrations",
+            "milestones achievements awards recognition",
+        ]
+    }
+    
+    return semantic_queries.get(query_type, [f"{query_type} information"])
 
 
 def search_pinecone_for_context(
@@ -772,16 +917,43 @@ def extract_products(
 
 {context_text}
 
-For each product, extract:
-- Product name and description
-- Pricing model (seat, usage, tiered, etc.)
-- Public pricing tiers and cost
-- Integration partners and APIs
-- GitHub repositories and open source projects
-- Reference customers and case studies
-- License type
+🚨 STRICT PRODUCT FILTERING - ZERO HALLUCINATION 🚨
 
-Return a list of Product objects. Use only explicitly stated information."""
+A PRODUCT is something customers can USE, BUY, or DEPLOY.
+
+✅ INCLUDE (Real Products):
+- Software products: apps, APIs, platforms, tools, models, SDKs
+- Hardware products: robots, devices, equipment
+- SaaS offerings, enterprise software
+- Developer tools, libraries, frameworks
+
+❌ EXCLUDE (NOT Products - Website Sections/Pages):
+- Website pages: "Blog", "Videos", "Press Kit", "Company", "Newsroom", "Press", "Careers"
+- Content sections: "Resources", "Insights", "Documentation", "Support", "News"
+- Legal documents: "Terms", "Privacy Policy", "Updates to Terms and Privacy"
+- Initiatives/Programs: "Advisory Council", "Economic Program", "Futures Program"
+- Partnerships/MOUs: "Partnership with X", "MOU with Government", "Signs Agreement"
+- Announcements: "Expanding X", "Announces Y", "Updates to Z"
+- Generic pages: "About", "Contact", "Team", "Investors", "Customers", "Partners"
+
+For each product extract:
+- product_id: Generate from name (e.g., "claude-api" from "Claude API")
+- company_id: "{company_id}"
+- name: Product name - REQUIRED
+- description: What it does (or null)
+- pricing_model: "seat"/"usage"/"tiered" (or null)
+- pricing_tiers_public: Tier names (or empty list)
+- ga_date: Launch date (YYYY-MM-DD format) (or null)
+- integration_partners: Partners (or empty list)
+- github_repo: GitHub URL (or null)
+- license_type: License (MIT, Apache, GPL, BSD, proprietary) (or null)
+- reference_customers: Customers (or empty list)
+
+VALIDATION: Ask yourself - Is this a REAL product customers use?
+If it's a webpage, section, or initiative → SKIP IT
+
+Return a list of Product objects. Use ONLY explicitly stated information.
+DO NOT infer or hallucinate product names."""
     
     try:
         class ProductList(BaseModel):
@@ -1157,6 +1329,12 @@ def main():
     # Parse command line arguments
     import argparse
     parser = argparse.ArgumentParser(description="Extract structured data from web scrapes")
+    parser.add_argument(
+        '--company-slug',
+        type=str,
+        default=None,
+        help='Extract a specific company by slug (e.g., abridge, world_labs). If not provided, all companies in data/raw/ will be processed.'
+    )
     parser.add_argument('--verbose', action='store_true', help='Enable verbose logging')
     parser.add_argument(
         '--fallback-strategy',
@@ -1174,8 +1352,13 @@ def main():
     logger.info(f"Fallback strategy: {args.fallback_strategy}")
     
     try:
-        # Discover all companies to process
-        companies = discover_companies_from_raw_data()
+        # If specific company provided, process only that one
+        if args.company_slug:
+            companies = [(args.company_slug, args.company_slug.replace('_', ' ').title())]
+            logger.info(f"Processing specific company: {args.company_slug}")
+        else:
+            # Discover all companies to process
+            companies = discover_companies_from_raw_data()
         
         if not companies:
             logger.warning("No companies found in data/raw directory")

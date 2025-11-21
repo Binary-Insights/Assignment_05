@@ -86,11 +86,24 @@ def format_context_for_llm(search_results: List[Dict[str, Any]]) -> str:
     if not search_results:
         return "No context available."
     
+    logger.info(f"[FORMAT_CONTEXT] Formatting {len(search_results)} chunks for LLM")
+    
     context_parts = []
     for i, result in enumerate(search_results, 1):
         text = result.get("text", "")
         metadata = result.get("metadata", {})
         score = result.get("similarity_score", 0)
+        
+        # DEBUG: Log chunk details
+        logger.debug(f"[FORMAT_CONTEXT] Chunk {i}:")
+        logger.debug(f"  - Text length: {len(text)} characters")
+        logger.debug(f"  - Score: {score:.4f}")
+        logger.debug(f"  - Metadata keys: {list(metadata.keys())}")
+        logger.debug(f"  - Text preview: {text[:200]}..." if len(text) > 200 else f"  - Full text: {text}")
+        
+        # Check if text is actually just a preview
+        if len(text) < 100:
+            logger.warning(f"[FORMAT_CONTEXT] Chunk {i} has very short text ({len(text)} chars) - may be preview only!")
         
         context_parts.append(f"### Source {i} (Score: {score:.3f})")
         context_parts.append(text)
@@ -103,7 +116,11 @@ def format_context_for_llm(search_results: List[Dict[str, Any]]) -> str:
         
         context_parts.append("")
     
-    return "\n".join(context_parts)
+    formatted_context = "\n".join(context_parts)
+    logger.info(f"[FORMAT_CONTEXT] Total context size: {len(formatted_context)} characters")
+    logger.info(f"[FORMAT_CONTEXT] Average chunk size: {len(formatted_context) // len(search_results)} characters")
+    
+    return formatted_context
 
 
 def generate_dashboard_markdown(
@@ -150,6 +167,11 @@ def generate_dashboard_markdown(
     # Format context
     context = format_context_for_llm(search_results)
     
+    # DEBUG: Log context quality
+    logger.info(f"[DASHBOARD_GEN] Context preparation complete")
+    logger.info(f"[DASHBOARD_GEN] Total context length: {len(context)} characters")
+    logger.info(f"[DASHBOARD_GEN] Context word count: {len(context.split())} words")
+    
     # Build user message
     user_message = f"""
 Generate an investor-facing diligence dashboard for {company_name}.
@@ -173,7 +195,14 @@ Use markdown formatting with ## for section headers.
 """
     
     try:
-        logger.info(f"Calling LLM to generate dashboard for {company_name} (temperature={temperature})")
+        logger.info(f"[LLM_CALL] Calling LLM to generate dashboard for {company_name}")
+        logger.info(f"[LLM_CALL] Model: {llm_model}, Temperature: {temperature}, Max tokens: 4096")
+        logger.info(f"[LLM_CALL] System prompt length: {len(system_prompt)} characters")
+        logger.info(f"[LLM_CALL] User message length: {len(user_message)} characters")
+        logger.info(f"[LLM_CALL] Total input size: ~{len(system_prompt) + len(user_message)} characters")
+        
+        # Log first 500 chars of context to verify quality
+        logger.debug(f"[LLM_CALL] Context preview (first 500 chars):\n{context[:500]}...")
         
         response = llm_client.chat.completions.create(
             model=llm_model,
@@ -186,7 +215,13 @@ Use markdown formatting with ## for section headers.
         )
         
         dashboard_markdown = response.choices[0].message.content
-        logger.info(f"Successfully generated dashboard for {company_name}")
+        
+        # DEBUG: Log LLM response details
+        logger.info(f"[LLM_RESPONSE] Successfully received response for {company_name}")
+        logger.info(f"[LLM_RESPONSE] Response length: {len(dashboard_markdown)} characters")
+        logger.info(f"[LLM_RESPONSE] Response word count: {len(dashboard_markdown.split())} words")
+        logger.info(f"[LLM_RESPONSE] Token usage: {response.usage.prompt_tokens} prompt + {response.usage.completion_tokens} completion = {response.usage.total_tokens} total")
+        logger.debug(f"[LLM_RESPONSE] First 300 chars:\n{dashboard_markdown[:300]}...")
         
         return dashboard_markdown
         
@@ -317,6 +352,7 @@ def generate_dashboard_with_retrieval(
         # Generate slug variations to handle different naming conventions
         slug_variations = generate_slug_variations(company_slug)
         
+        # Use $in operator for multiple values (Pinecone doesn't support $eq with arrays)
         metadata_filter = {
             "company_slug": {"$in": slug_variations}
         }
@@ -334,23 +370,84 @@ def generate_dashboard_with_retrieval(
         matches = search_result.get("matches", [])
         logger.info(f"DEBUG: Pinecone search returned {len(matches)} matches for '{company_slug}'")
         
+        # If no matches with $in filter, try each variation individually as fallback
+        if len(matches) == 0:
+            logger.warning(f"No matches with $in filter, trying individual slug variations...")
+            for slug_var in slug_variations:
+                try:
+                    fallback_filter = {"company_slug": {"$eq": slug_var}}
+                    logger.debug(f"Trying filter: {fallback_filter}")
+                    search_result = pinecone_index.query(
+                        vector=query_embedding,
+                        top_k=top_k,
+                        namespace="default",
+                        filter=fallback_filter,
+                        include_metadata=True
+                    )
+                    matches = search_result.get("matches", [])
+                    if len(matches) > 0:
+                        logger.info(f"Found {len(matches)} matches with slug variation: {slug_var}")
+                        break
+                except Exception as e:
+                    logger.debug(f"Failed with slug variation '{slug_var}': {e}")
+                    continue
+        
         # If no results, log warning
         if len(matches) == 0:
             logger.warning(f"No matches found for company_slug '{company_slug}'. Company may not be indexed or has no data.")
         
         # Convert results to expected format
         search_results = []
-        for match in matches:
+        total_text_chars = 0
+        using_preview = False
+        
+        for i, match in enumerate(matches, 1):
             metadata = match.get("metadata", {})
-            logger.debug(f"DEBUG: Match {match['id']} - score: {match['score']}, company_slug: {metadata.get('company_slug')}, has text: {'text' in metadata}")
+            
+            # Try to get full text first, fallback to text_preview
+            text_content = metadata.get("text", "")
+            
+            # If no full text, use text_preview as fallback
+            if not text_content and "text_preview" in metadata:
+                text_content = metadata.get("text_preview", "")
+                using_preview = True
+                if i == 1:  # Log warning only once
+                    logger.warning("[RETRIEVAL] ⚠️  'text' field is empty in Pinecone metadata - falling back to 'text_preview'")
+                    logger.warning("[RETRIEVAL] ⚠️  This means your ingestion pipeline is NOT storing full text!")
+                    logger.warning("[RETRIEVAL] ⚠️  FIX: Update ingest_to_pinecone.py line 733 to add 'text': full_text in chunk_metadata")
+            
+            # DEBUG: Log detailed match information (only for first 3 matches to reduce noise)
+            if i <= 3:
+                logger.debug(f"[MATCH_{i}] ID: {match['id']}")
+                logger.debug(f"[MATCH_{i}] Score: {match['score']:.4f}")
+                logger.debug(f"[MATCH_{i}] company_slug: {metadata.get('company_slug', 'N/A')}")
+                logger.debug(f"[MATCH_{i}] Has 'text': {'text' in metadata}")
+                logger.debug(f"[MATCH_{i}] Has 'text_preview': {'text_preview' in metadata}")
+                logger.debug(f"[MATCH_{i}] Text length: {len(text_content)} characters")
+                logger.debug(f"[MATCH_{i}] Metadata keys: {list(metadata.keys())}")
+                logger.debug(f"[MATCH_{i}] Text content: {text_content[:150]}..." if len(text_content) > 150 else f"[MATCH_{i}] Full text: {text_content}")
+            
+            total_text_chars += len(text_content)
+            
             search_results.append({
                 "id": match.get("id"),
-                "text": metadata.get("text", ""),
+                "text": text_content,
                 "similarity_score": match.get("score", 0),
-                "metadata": {k: v for k, v in metadata.items() if k != "text"}
+                "metadata": {k: v for k, v in metadata.items() if k not in ("text", "text_preview")}
             })
         
-        logger.info(f"Retrieved {len(search_results)} results from Pinecone for {company_name}")
+        logger.info(f"[RETRIEVAL] Retrieved {len(search_results)} results from Pinecone for {company_name}")
+        logger.info(f"[RETRIEVAL] Total text content: {total_text_chars} characters")
+        logger.info(f"[RETRIEVAL] Average text per chunk: {total_text_chars // len(search_results) if search_results else 0} characters")
+        
+        # Warn if using previews
+        if using_preview:
+            logger.warning(f"[RETRIEVAL] ⚠️  Using text_preview field (truncated to ~200 chars per chunk)")
+            logger.warning(f"[RETRIEVAL] ⚠️  Dashboard quality will be LIMITED due to truncated context")
+        
+        # Check if content seems insufficient
+        if total_text_chars < 1000:
+            logger.error(f"[RETRIEVAL] ❌ INSUFFICIENT CONTENT! Only {total_text_chars} chars total - chunks may contain previews instead of full text")
         
         # Generate dashboard
         dashboard = generate_dashboard_markdown(
