@@ -2,7 +2,7 @@
   "company_record": {
     "company_id": "world-labs",
     "legal_name": "World Labs",
-    "brand_name": "World Labs",
+    "brand_name": null,
     "website": "https://www.worldlabs.ai/",
     "hq_city": "San Francisco",
     "hq_state": "California",
@@ -13,11 +13,8 @@
       "AI research",
       "product company"
     ],
-    "related_companies": [
-      "['Blackshark.ai'",
-      "'Yaak Technologies']"
-    ],
-    "total_raised_usd": 230000000.0,
+    "related_companies": null,
+    "total_raised_usd": null,
     "last_disclosed_valuation_usd": null,
     "last_round_name": null,
     "last_round_date": null,

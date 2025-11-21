@@ -2,15 +2,15 @@
   "company_record": {
     "company_id": "abridge",
     "legal_name": "Abridge Al, Inc.",
-    "brand_name": "Abridge",
+    "brand_name": "Abridge Al",
     "website": "https://abridge.com/",
-    "hq_city": null,
-    "hq_state": null,
-    "hq_country": null,
-    "founded_year": null,
+    "hq_city": "Pittsburgh",
+    "hq_state": "Illinois",
+    "hq_country": "United States",
+    "founded_year": 2018,
     "categories": "Announcements, Customer Stories, Healthcare, Machine Learning, Policy, Product & Design, Featured",
     "related_companies": null,
-    "total_raised_usd": null,
+    "total_raised_usd": "757500000.00 USD",
     "last_disclosed_valuation_usd": null,
     "last_round_name": null,
     "last_round_date": null,
@@ -20,7 +20,7 @@
       {
         "source_url": "about",
         "crawled_at": "2023-10-05",
-        "snippet": "Copyright © 2025 Abridge Al, Inc.",
+        "snippet": "Copyright \u00a9 2025 Abridge Al, Inc.",
         "chunk_id": [
           "abridge_about_6858d285#10.0"
         ]
@@ -34,7 +34,19 @@
           "abridge_careers_b276960a#1.0"
         ]
       }
-    ]
+    ],
+    "_extraction_metadata": {
+      "total_raised_usd": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://news.crunchbase.com/health-wellness-biotech/ai-doctor-note-taking-startup-abridge/"
+        ],
+        "extracted_at": "2025-11-21T01:22:29.788376+00:00",
+        "confidence": 0.95,
+        "reasoning": "Source 3 specifically states that Abridge has now raised a total of $757.5 million from investors, according to Crunchbase. This source provides the most comprehensive total funding figure compared to the others, which only mention recent rounds. [Validated: The extracted value matches the figure specified in the source, and the source is reliable (Crunchbase). Therefore, the information is validated, and confidence is slightly increased due to source reliability.]"
+      }
+    }
   },
   "events": [
     {
@@ -94,7 +106,7 @@
       "occurred_on": "2025-04-10",
       "event_type": "customer_win",
       "title": "Sharp HealthCare Chooses Abridge for Clinical Documentation",
-      "description": "Sharp HealthCare Chooses Abridge for Clinical Documentation, Enabling Clinicians to Focus on Care—Not Coding",
+      "description": "Sharp HealthCare Chooses Abridge for Clinical Documentation, Enabling Clinicians to Focus on Care\u2014Not Coding",
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -236,7 +248,7 @@
       "product_id": "abridge_product_1dbeb749#10.0",
       "company_id": "abridge",
       "name": "Abridge Enterprise",
-      "description": "With Abridge Enterprise, healthcare systems get all the tools they need to easily manage security, compliance, and deployments—for all clinicians, in one place. Single-Sign On (SSO) and Custom Governance Controls.",
+      "description": "With Abridge Enterprise, healthcare systems get all the tools they need to easily manage security, compliance, and deployments\u2014for all clinicians, in one place. Single-Sign On (SSO) and Custom Governance Controls.",
       "pricing_model": null,
       "pricing_tiers_public": null,
       "ga_date": null,

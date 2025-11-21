@@ -178,11 +178,79 @@ def _update_field(payload, section, field_name, value):
         return False
 
 
+def _get_next_version(company_id: str, directory: Path) -> int:
+    """
+    Find the highest version number from existing versioned files and return next version.
+    
+    Args:
+        company_id: Company identifier
+        directory: Directory to search for versioned files
+        
+    Returns:
+        Next version number (1 if no versions exist)
+    """
+    import re
+    pattern = re.compile(rf"{re.escape(company_id)}_v(\d+)\.json")
+    versions = []
+    
+    for file in directory.glob(f"{company_id}_v*.json"):
+        match = pattern.match(file.name)
+        if match:
+            versions.append(int(match.group(1)))
+    
+    return max(versions) + 1 if versions else 1
+
+
 def _save_payload(payload, company_id):
-    """Save as {company_id}_v2.json."""
-    output = PAYLOADS_DIR / f"{company_id}_v2.json"
+    """
+    Save payload with automatic versioning.
+    
+    Behavior:
+    - If {company_id}.json exists, backs it up as {company_id}_v{N}.json (auto-increment)
+    - Saves new payload as {company_id}.json (current version)
+    
+    Args:
+        payload: Payload object to save
+        company_id: Company identifier
+        
+    Returns:
+        Path to saved file ({company_id}.json)
+    """
     PAYLOADS_DIR.mkdir(parents=True, exist_ok=True)
+    
+    current_file = PAYLOADS_DIR / f"{company_id}.json"
+    
+    # If current file exists, backup with next version number
+    if current_file.exists():
+        import shutil
+        next_version = _get_next_version(company_id, PAYLOADS_DIR)
+        backup_file = PAYLOADS_DIR / f"{company_id}_v{next_version}.json"
+        
+        logger.info(f"🔍 [DEBUG] Current file exists: {current_file}")
+        logger.info(f"🔍 [DEBUG] Next version calculated: {next_version}")
+        logger.info(f"🔍 [DEBUG] Backup file path: {backup_file}")
+        
+        try:
+            shutil.copy(current_file, backup_file)
+            logger.info(f"📦 [BACKUP] {current_file.name} → {backup_file.name}")
+            
+            # Verify backup was created
+            if backup_file.exists():
+                logger.info(f"✅ [BACKUP] Verified backup created: {backup_file.name}")
+            else:
+                logger.error(f"❌ [BACKUP] Backup file not found after copy: {backup_file.name}")
+        except Exception as backup_err:
+            logger.warning(f"⚠ Failed to backup existing file: {backup_err}")
+            import traceback
+            logger.warning(f"⚠ Traceback: {traceback.format_exc()}")
+            # Continue anyway - backup is non-critical
+    else:
+        logger.info(f"ℹ️  [INFO] No existing file to backup: {current_file}")
+    
+    # Save new payload as current file
     data = payload.model_dump() if hasattr(payload, 'model_dump') else payload.__dict__
-    with open(output, 'w', encoding='utf-8') as f:
+    with open(current_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, default=str, ensure_ascii=False)
-    return output
+    
+    logger.info(f"💾 [AUTO] Saved payload to: {current_file}")
+    return current_file

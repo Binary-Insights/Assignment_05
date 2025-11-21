@@ -24,6 +24,42 @@ else:
 #  Utility Functions for Saving LLM Responses
 # ─────────────────────────────────────────────────────────────────────────────
 
+def find_payload_file(company_slug: str) -> Path:
+    """
+    Find payload file handling different slug formats (hyphens, underscores, no spaces).
+    
+    Args:
+        company_slug: Company slug (e.g., 'world-labs', 'world_labs', 'worldlabs')
+    
+    Returns:
+        Path to the payload file if found, otherwise the default path
+    """
+    payloads_dir = Path("data/payloads")
+    
+    if not payloads_dir.exists():
+        return payloads_dir / f"{company_slug}.json"
+    
+    # Generate all possible variations of the company slug
+    slug_variations = [
+        company_slug,  # Original
+        company_slug.replace("-", "_"),  # Hyphens to underscores
+        company_slug.replace("_", "-"),  # Underscores to hyphens
+        company_slug.replace("-", ""),   # Remove hyphens
+        company_slug.replace("_", ""),   # Remove underscores
+        company_slug.replace("-", " "),  # Hyphens to spaces
+        company_slug.replace("_", " "),  # Underscores to spaces
+    ]
+    
+    # Try each variation
+    for slug_var in slug_variations:
+        payload_path = payloads_dir / f"{slug_var}.json"
+        if payload_path.exists():
+            return payload_path
+    
+    # If no file found, return the original path (for error messaging)
+    return payloads_dir / f"{company_slug}.json"
+
+
 def ensure_directories():
     """Ensure all required directories exist."""
     base_dir = Path("data/llm_response")
@@ -219,105 +255,105 @@ except Exception as e:
 names = [c["company_name"] for c in companies] if companies else ["ExampleAI"]
 choice = st.selectbox("Select company", names)
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  Agentic RAG Enrichment with HITL
-# ─────────────────────────────────────────────────────────────────────────────
-st.divider()
-st.subheader("🤖 Agentic RAG Enrichment (HITL-Enabled)")
-st.markdown("""
-**Intelligent payload enrichment** with human-in-the-loop approval for high-risk fields.
-This workflow will pause and wait for your approval when extracting sensitive data like valuations or funding amounts.
-""")
+# # ─────────────────────────────────────────────────────────────────────────────
+# #  Agentic RAG Enrichment with HITL
+# # ─────────────────────────────────────────────────────────────────────────────
+# st.divider()
+# st.subheader("🤖 Agentic RAG Enrichment (HITL-Enabled)")
+# st.markdown("""
+# **Intelligent payload enrichment** with human-in-the-loop approval for high-risk fields.
+# This workflow will pause and wait for your approval when extracting sensitive data like valuations or funding amounts.
+# """)
 
-# Initialize session state for enrichment
-if "enrichment_task_id" not in st.session_state:
-    st.session_state.enrichment_task_id = None
-if "enrichment_status" not in st.session_state:
-    st.session_state.enrichment_status = None
+# # Initialize session state for enrichment
+# if "enrichment_task_id" not in st.session_state:
+#     st.session_state.enrichment_task_id = None
+# if "enrichment_status" not in st.session_state:
+#     st.session_state.enrichment_status = None
 
-col_enrich1, col_enrich2 = st.columns([1, 2])
+# col_enrich1, col_enrich2 = st.columns([1, 2])
 
-with col_enrich1:
-    if st.button("🚀 Enrich with HITL", type="primary", use_container_width=True):
-        try:
-            with st.spinner(f"🔄 Starting enrichment for {choice}..."):
-                resp = requests.post(
-                    f"{API_BASE}/enrich/company/{choice.lower().replace(' ', '-')}",
-                    timeout=10
-                )
+# with col_enrich1:
+#     if st.button("🚀 Enrich with HITL", type="primary", use_container_width=True):
+#         try:
+#             with st.spinner(f"🔄 Starting enrichment for {choice}..."):
+#                 resp = requests.post(
+#                     f"{API_BASE}/enrich/company/{choice.lower().replace(' ', '-')}",
+#                     timeout=10
+#                 )
             
-            if resp.status_code == 200:
-                data = resp.json()
-                st.session_state.enrichment_task_id = data["task_id"]
-                st.session_state.enrichment_status = data["status"]
-                st.success(f"✅ Enrichment started! Task ID: {data['task_id'][:8]}...")
-                st.info("📊 Monitor progress below. Check **HITL Approvals** page if workflow pauses for approval.")
-                st.rerun()  # Refresh to show status
-            else:
-                st.error(f"❌ Error starting enrichment: {resp.status_code}")
-                st.json(resp.json())
+#             if resp.status_code == 200:
+#                 data = resp.json()
+#                 st.session_state.enrichment_task_id = data["task_id"]
+#                 st.session_state.enrichment_status = data["status"]
+#                 st.success(f"✅ Enrichment started! Task ID: {data['task_id'][:8]}...")
+#                 st.info("📊 Monitor progress below. Check **HITL Approvals** page if workflow pauses for approval.")
+#                 st.rerun()  # Refresh to show status
+#             else:
+#                 st.error(f"❌ Error starting enrichment: {resp.status_code}")
+#                 st.json(resp.json())
         
-        except Exception as e:
-            st.error(f"❌ Error: {e}")
+#         except Exception as e:
+#             st.error(f"❌ Error: {e}")
 
-with col_enrich2:
-    # Status monitoring
-    if st.session_state.enrichment_task_id:
-        task_id = st.session_state.enrichment_task_id
+# with col_enrich2:
+#     # Status monitoring
+#     if st.session_state.enrichment_task_id:
+#         task_id = st.session_state.enrichment_task_id
         
-        # Auto-refresh status
-        if st.button("🔄 Refresh Status", use_container_width=True):
-            st.rerun()
+#         # Auto-refresh status
+#         if st.button("🔄 Refresh Status", use_container_width=True):
+#             st.rerun()
         
-        try:
-            resp = requests.get(f"{API_BASE}/enrich/status/{task_id}", timeout=5)
-            if resp.status_code == 200:
-                status_data = resp.json()
-                status = status_data["status"]
+#         try:
+#             resp = requests.get(f"{API_BASE}/enrich/status/{task_id}", timeout=5)
+#             if resp.status_code == 200:
+#                 status_data = resp.json()
+#                 status = status_data["status"]
                 
-                # Status display with color coding
-                if status == "running":
-                    st.info(f"▶️ **Status:** Running - {status_data.get('message', 'Processing...')}")
-                elif status == "waiting_approval":
-                    st.warning(f"⏸️ **Status:** Waiting for Approval")
-                    st.markdown(f"""
-                    **Field:** `{status_data.get('field_name', 'Unknown')}`  
-                    **Approval ID:** `{status_data.get('approval_id', 'N/A')[:8]}...`
+#                 # Status display with color coding
+#                 if status == "running":
+#                     st.info(f"▶️ **Status:** Running - {status_data.get('message', 'Processing...')}")
+#                 elif status == "waiting_approval":
+#                     st.warning(f"⏸️ **Status:** Waiting for Approval")
+#                     st.markdown(f"""
+#                     **Field:** `{status_data.get('field_name', 'Unknown')}`  
+#                     **Approval ID:** `{status_data.get('approval_id', 'N/A')[:8]}...`
                     
-                    👉 **Go to HITL Approvals page** to review and approve this field.
-                    """)
+#                     👉 **Go to HITL Approvals page** to review and approve this field.
+#                     """)
                     
-                    # Add link/button to HITL page
-                    if st.button("📋 Go to HITL Approvals", use_container_width=True):
-                        st.switch_page("pages/2_HITL_Approvals.py")
+#                     # Add link/button to HITL page
+#                     if st.button("📋 Go to HITL Approvals", use_container_width=True):
+#                         st.switch_page("pages/2_HITL_Approvals.py")
                 
-                elif status == "completed":
-                    st.success(f"✅ **Status:** Completed!")
-                    if status_data.get("result"):
-                        st.json(status_data["result"])
-                    # Clear task after completion
-                    if st.button("Clear", use_container_width=True):
-                        st.session_state.enrichment_task_id = None
-                        st.session_state.enrichment_status = None
-                        st.rerun()
+#                 elif status == "completed":
+#                     st.success(f"✅ **Status:** Completed!")
+#                     if status_data.get("result"):
+#                         st.json(status_data["result"])
+#                     # Clear task after completion
+#                     if st.button("Clear", use_container_width=True):
+#                         st.session_state.enrichment_task_id = None
+#                         st.session_state.enrichment_status = None
+#                         st.rerun()
                 
-                elif status == "failed":
-                    st.error(f"❌ **Status:** Failed")
-                    st.error(status_data.get("error", "Unknown error"))
-                    # Clear task after failure
-                    if st.button("Clear", use_container_width=True):
-                        st.session_state.enrichment_task_id = None
-                        st.session_state.enrichment_status = None
-                        st.rerun()
+#                 elif status == "failed":
+#                     st.error(f"❌ **Status:** Failed")
+#                     st.error(status_data.get("error", "Unknown error"))
+#                     # Clear task after failure
+#                     if st.button("Clear", use_container_width=True):
+#                         st.session_state.enrichment_task_id = None
+#                         st.session_state.enrichment_status = None
+#                         st.rerun()
                 
-                else:
-                    st.info(f"ℹ️ **Status:** {status}")
-                    st.caption(status_data.get("message", ""))
+#                 else:
+#                     st.info(f"ℹ️ **Status:** {status}")
+#                     st.caption(status_data.get("message", ""))
         
-        except Exception as e:
-            st.error(f"Error fetching status: {e}")
+#         except Exception as e:
+#             st.error(f"Error fetching status: {e}")
 
-st.divider()
+# st.divider()
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  Traditional Dashboard Generation (Structured & RAG)
@@ -426,8 +462,8 @@ with col1:
                     import json
                     from pathlib import Path
                     
-                    # Construct path to payload file
-                    payload_path = Path("data/payloads") / f"{company_slug}.json"
+                    # Find payload file handling different slug formats
+                    payload_path = find_payload_file(company_slug)
                     
                     if payload_path.exists():
                         with open(payload_path, 'r') as f:
@@ -435,13 +471,22 @@ with col1:
                         
                         # Display as markdown code block with JSON formatting
                         st.write("**Structured Payload (JSON):**")
+                        st.caption(f"📁 Loaded from: `{payload_path.name}`")
                         st.json(payload_json)
                         
                         # Also provide a copy-friendly code block
                         st.write("**Raw JSON:**")
                         st.code(json.dumps(payload_json, indent=2), language="json")
                     else:
-                        st.warning(f"❌ Payload file not found at: `{payload_path}`")
+                        st.warning(f"❌ Payload file not found")
+                        st.caption(f"Searched for: `{company_slug}.json` and common variations")
+                        
+                        # Show available payload files for debugging
+                        payloads_dir = Path("data/payloads")
+                        if payloads_dir.exists():
+                            available_files = sorted([f.name for f in payloads_dir.glob("*.json") if not "_v" in f.stem])
+                            if available_files:
+                                st.info(f"**Available payload files:** {', '.join(available_files[:10])}")
                 
                 except Exception as e:
                     st.error(f"❌ Failed to load payload: {e}")

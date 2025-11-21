@@ -126,10 +126,17 @@ def create_pinecone_adapter(
             vector = embed_query(query)
             logger.debug(f"[RAG SEARCH] Generated embedding vector of length {len(vector)}")
             
-            # Normalize company_id to match company_slug format (hyphens to underscores)
-            company_slug = company_id.replace("-", "_").lower()
+            # Generate slug variations to handle different naming conventions
+            slug_variations = [
+                company_id.lower(),  # Original
+                company_id.replace("-", "_").lower(),  # Hyphens to underscores
+                company_id.replace("_", "-").lower(),  # Underscores to hyphens
+                company_id.replace("-", "").replace("_", "").lower(),  # No separators
+            ]
+            # Remove duplicates
+            slug_variations = list(dict.fromkeys(slug_variations))
             
-            logger.debug(f"[RAG SEARCH] Normalized company_slug='{company_slug}'")
+            logger.debug(f"[RAG SEARCH] Slug variations: {slug_variations}")
             
             # Query Pinecone (use namespace if specified, or filter by company_slug metadata)
             query_params = {
@@ -143,9 +150,10 @@ def create_pinecone_adapter(
             
             # Filter by company_slug if provided (metadata field from ingestion)
             # Only apply filter if company_id is not empty
-            if company_slug and company_slug.strip():
-                query_params["filter"] = {"company_slug": {"$eq": company_slug}}
-                logger.info(f"[RAG SEARCH] Applying Pinecone filter: {query_params['filter']}")
+            if company_id and company_id.strip():
+                # Use $in operator for multiple slug variations
+                query_params["filter"] = {"company_slug": {"$in": slug_variations}}
+                logger.info(f"[RAG SEARCH] Applying Pinecone filter with variations: {slug_variations}")
             else:
                 logger.info(f"[RAG SEARCH] No company filter applied - searching all vectors")
             

@@ -8,8 +8,16 @@
     "hq_state": null,
     "hq_country": null,
     "founded_year": null,
-    "categories": "Announcements, Customer Stories, Healthcare, Machine Learning, Policy, Product & Design, Featured",
-    "related_companies": null,
+    "categories": [
+      "Announcements",
+      "Customer Stories",
+      "Healthcare",
+      "Machine Learning",
+      "Policy",
+      "Product & Design",
+      "Featured"
+    ],
+    "related_companies": [],
     "total_raised_usd": null,
     "last_disclosed_valuation_usd": null,
     "last_round_name": null,

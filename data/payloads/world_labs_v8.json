@@ -2,7 +2,7 @@
   "company_record": {
     "company_id": "world-labs",
     "legal_name": "World Labs",
-    "brand_name": "World Labs",
+    "brand_name": null,
     "website": "https://www.worldlabs.ai/",
     "hq_city": "San Francisco",
     "hq_state": "California",
@@ -13,11 +13,8 @@
       "AI research",
       "product company"
     ],
-    "related_companies": [
-      "['Blackshark.ai'",
-      "'Yaak Technologies']"
-    ],
-    "total_raised_usd": 230000000.0,
+    "related_companies": null,
+    "total_raised_usd": null,
     "last_disclosed_valuation_usd": null,
     "last_round_name": null,
     "last_round_date": null,
@@ -36,7 +33,50 @@
         "snippet": "World Labs is a frontier AI research and product company.",
         "chunk_id": null
       }
-    ]
+    ],
+    "_extraction_metadata": {
+      "website": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.worldlabs.ai/"
+        ],
+        "extracted_at": "2025-11-18T19:50:07.243947+00:00",
+        "confidence": 0.95,
+        "reasoning": "The URL 'https://www.worldlabs.ai/' from Source 4 is directly associated with World Labs and matches the typical format of an official company website. It is mentioned in a context that describes the company's mission and products, which is consistent with the kind of information typically found on an official website. No other source provided a URL with similar context. [Validated: The extracted URL is consistent with the typical format of an official company website and is directly associated with World Labs. The context in which it is mentioned supports its validity. No contradictory sources were found.]"
+      },
+      "hq_city": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crunchbase.com/organization/world-labs"
+        ],
+        "extracted_at": "2025-11-18T19:50:20.475852+00:00",
+        "confidence": 0.95,
+        "reasoning": "Source 1 from Crunchbase explicitly states that World Labs is located in San Francisco, California, United States, which is a credible source for company information. [Validated: The extracted value is consistent with the information provided by a credible source, Crunchbase. The confidence level is slightly increased due to the reliability of the source.]"
+      },
+      "hq_state": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crunchbase.com/organization/world-labs",
+          "https://www.linqto.com/market-insights/world-labs/"
+        ],
+        "extracted_at": "2025-11-18T19:50:36.081816+00:00",
+        "confidence": 1.0,
+        "reasoning": "Two sources (Crunchbase and Linqto) explicitly state that the headquarters of World Labs is located in California. Both sources are credible and consistent with each other, which provides strong confidence in the accuracy of this information. [Validated: The extracted value is validated against two credible sources that consistently state that the headquarters of World Labs is in California.]"
+      },
+      "hq_country": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.crunchbase.com/organization/world-labs"
+        ],
+        "extracted_at": "2025-11-18T19:50:46.196190+00:00",
+        "confidence": 0.95,
+        "reasoning": "The information from Source 1 explicitly states that the headquarters of World Labs is located in San Francisco, California, United States. San Francisco is a city within the United States, which directly implies that the headquarters country is the United States. [Validated: The extracted value is consistent with the information provided by the source, which confirms the location of the headquarters as San Francisco, California, United States.]"
+      }
+    }
   },
   "events": [
     {
@@ -93,7 +133,7 @@
       "occurred_on": "2024-09-20",
       "event_type": "product_release",
       "title": "A New Frontier",
-      "description": "A look at the next frontier of AI—spatial, world‑model‑driven experiences—and what they enable for creators and developers.",
+      "description": "A look at the next frontier of AI\u2014spatial, world\u2011model\u2011driven experiences\u2014and what they enable for creators and developers.",
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -114,11 +154,11 @@
       "engineering_openings": 6,
       "sales_openings": null,
       "hiring_focus": [
-        "Research Scientist – 3D",
-        "Research Scientist – Generative Modeling",
+        "Research Scientist \u2013 3D",
+        "Research Scientist \u2013 Generative Modeling",
         "Senior Product Engineer",
         "Infrastructure / Backend Engineer",
-        "Research Engineer – 3D Reconstruction and Rendering"
+        "Research Engineer \u2013 3D Reconstruction and Rendering"
       ],
       "pricing_tiers": null,
       "active_products": [

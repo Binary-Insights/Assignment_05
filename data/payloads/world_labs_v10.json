@@ -13,11 +13,8 @@
       "AI research",
       "product company"
     ],
-    "related_companies": [
-      "['Blackshark.ai'",
-      "'Yaak Technologies']"
-    ],
-    "total_raised_usd": 230000000.0,
+    "related_companies": "['Blackshark.ai', 'Yaak Technologies']",
+    "total_raised_usd": "230000000",
     "last_disclosed_valuation_usd": null,
     "last_round_name": null,
     "last_round_date": null,
@@ -36,7 +33,43 @@
         "snippet": "World Labs is a frontier AI research and product company.",
         "chunk_id": null
       }
-    ]
+    ],
+    "_extraction_metadata": {
+      "brand_name": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://techcrunch.com/2025/11/12/fei-fei-lis-world-labs-speeds-up-the-world-model-race-with-marble-its-first-commercial-product/",
+          "https://salesforceventures.com/companies/world-labs/",
+          "https://www.worldlabs.ai/"
+        ],
+        "extracted_at": "2025-11-21T01:23:03.766367+00:00",
+        "confidence": 0.95,
+        "reasoning": "The term 'World Labs' consistently appears across multiple sources as the name of the company founded by Fei-Fei Li, and is described as a spatial intelligence AI company. This suggests it is the brand name under which the company operates. Other sources indicate ownership by 'WORLD LABS TECHNOLOGIES, INC.', but do not provide a distinct brand name different from 'World Labs'. [Validated: The extracted value 'World Labs' matches the name consistently used across multiple reputable sources, indicating it is the correct brand name. No evidence suggests an alternative brand name.]"
+      },
+      "related_companies": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.cbinsights.com/company/world-labs/alternatives-competitors"
+        ],
+        "extracted_at": "2025-11-21T01:23:40.118382+00:00",
+        "confidence": 0.9,
+        "reasoning": "The search results from Source 3 provide explicit comparisons between World Labs and other companies such as Blackshark.ai and Yaak Technologies, suggesting that these are considered alternatives or competitors. This implies a relatedness in their market or technology space. [Validated: The information from Source 3 supports the extracted value as it directly compares World Labs with Blackshark.ai and Yaak Technologies, indicating a competitive or alternative relationship. The confidence is adjusted to 0.9 due to the clear contextual evidence provided.]"
+      },
+      "total_raised_usd": {
+        "source": "agentic_rag",
+        "tool": "tavily_llm_extraction",
+        "source_urls": [
+          "https://www.texau.com/profiles/world-labs",
+          "https://tracxn.com/d/companies/world-labs/__9k2QeFKxbXi5EffPqD-w46E9BgqtWSgCrLgRK5sEwKE",
+          "https://techcrunch.com/2024/09/13/fei-fei-lis-world-labs-comes-out-of-stealth-with-230m-in-funding/"
+        ],
+        "extracted_at": "2025-11-21T01:23:59.247477+00:00",
+        "confidence": 0.98,
+        "reasoning": "Multiple sources (Source 1, Source 3, and Source 5) consistently report that World Labs has raised a total of $230 million. Source 4 mentions a different amount ($291M), but the consistency and recency of the $230 million figure across multiple sources, including a TechCrunch article specifically about the funding, increases confidence in this value. [Validated: The extracted value of $230 million is corroborated by multiple sources, including a recent TechCrunch article. The consistency across these sources supports increasing the confidence level. The differing amount from Source 4 is considered an outlier.]"
+      }
+    }
   },
   "events": [
     {
@@ -93,7 +126,7 @@
       "occurred_on": "2024-09-20",
       "event_type": "product_release",
       "title": "A New Frontier",
-      "description": "A look at the next frontier of AI—spatial, world‑model‑driven experiences—and what they enable for creators and developers.",
+      "description": "A look at the next frontier of AI\u2014spatial, world\u2011model\u2011driven experiences\u2014and what they enable for creators and developers.",
       "round_name": null,
       "investors": null,
       "amount_usd": null,
@@ -114,11 +147,11 @@
       "engineering_openings": 6,
       "sales_openings": null,
       "hiring_focus": [
-        "Research Scientist – 3D",
-        "Research Scientist – Generative Modeling",
+        "Research Scientist \u2013 3D",
+        "Research Scientist \u2013 Generative Modeling",
         "Senior Product Engineer",
         "Infrastructure / Backend Engineer",
-        "Research Engineer – 3D Reconstruction and Rendering"
+        "Research Engineer \u2013 3D Reconstruction and Rendering"
       ],
       "pricing_tiers": null,
       "active_products": [
