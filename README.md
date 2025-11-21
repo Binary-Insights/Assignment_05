@@ -1,269 +1,297 @@
-# 🚀 Project ORBIT: PE Dashboard Factory for Forbes AI 50
-**DAMG 7245 – Fall 2025 – Binary Insights**
+# 🚀 Project ORBIT (Part 2): Agentification and Secure Scaling of PE Intelligence
+**DAMG 7245 – Fall 2025 – Assignment 5 – Binary Insights**
 
-## Overview
-Automates the extraction, embedding, retrieval, and structured-note generation of investment diligence data from **all Forbes AI 50 company websites**.  
-Powered by **Apache Airflow**, **OpenAI GPT-4o**, **Selenium + ChromeDriver**, **LangChain**, **Pinecone**, **FastAPI**, **Streamlit**, and **AWS S3**, all containerized with **Docker + Docker Compose** for reproducible cloud deployment.
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
+[![Airflow](https://img.shields.io/badge/Airflow-2.10.4-orange.svg)](https://airflow.apache.org)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://docker.com)
+[![LangChain](https://img.shields.io/badge/LangChain-1.0+-green.svg)](https://langchain.com)
+[![MCP](https://img.shields.io/badge/MCP-Server-purple.svg)](https://modelcontextprotocol.io)
 
-## Setup Instructions
+## 📋 Overview
+
+**Project ORBIT Part 2** evolves the static PE intelligence platform from Assignment 4 into an **agentic, production-ready system** that orchestrates due-diligence workflows through supervisory LLM agents using the **Model Context Protocol (MCP)**.
+
+The system features:
+- 🤖 **Supervisory Agent Architecture** with specialized sub-agents (Planner, Evaluator, Risk Detector)
+- 🔧 **Model Context Protocol (MCP)** server exposing Tools, Prompts, and Resources
+- 🧠 **ReAct Pattern** implementation with structured Thought → Action → Observation logging
+- 🔀 **LangGraph Workflow** with conditional branching and Human-in-the-Loop (HITL) approval
+- 📊 **Dual Dashboard Generation** using RAG and Structured Extraction pipelines
+- 🐳 **Full Docker Deployment** with Airflow orchestration
+- ✅ **Comprehensive Testing** with pytest coverage
 
 ---
 
-## 1. Prerequisites
-- **OS**: macOS, Linux, or Windows (WSL2)
-- **Git**: Latest version
-- **Docker**: 20.10+ and Docker Compose 2.0+
-- **Python**: 3.11+ (for local dev)
-- **API Keys**: 
-  - OpenAI (required)
-  - Pinecone (required for production)
-  - AWS S3 (optional but recommended for cloud storage)
+## 🏗️ System Architecture
 
----
-
-## 2. Clone the Repository
-```bash
-git clone https://github.com/Binary-Insights/Assignment_04.git
-cd Assignment_04
+```mermaid
+flowchart TD
+    subgraph "Airflow Orchestration Layer"
+        DAG1[Initial Load DAG<br/>Data Discovery & Setup]
+        DAG2[Daily Update DAG<br/>Incremental Updates]
+        DAG3[Agentic Dashboard DAG<br/>Agent Workflow Execution]
+        DAG4[Master Orchestrator<br/>Pipeline Coordination]
+    end
+    
+    subgraph "MCP Server Layer"
+        MCP[MCP Server :9000<br/>Tools | Prompts | Resources]
+        TOOL1[generate_structured_dashboard]
+        TOOL2[generate_rag_dashboard]
+        RES1[/resource/ai50/companies]
+        PROMPT1[/prompt/pe-dashboard]
+    end
+    
+    subgraph "Agent Layer"
+        SUPER[Supervisor Agent<br/>ReAct Orchestration]
+        PLANNER[Planner Agent<br/>Task Planning]
+        EVAL[Evaluation Agent<br/>Quality Scoring]
+        RISK[Risk Detector<br/>Signal Analysis]
+    end
+    
+    subgraph "Workflow Layer"
+        GRAPH[LangGraph Workflow]
+        NODE1[Plan Generation]
+        NODE2[Data Collection]
+        NODE3[Dashboard Generation]
+        NODE4[Quality Evaluation]
+        NODE5{Risk Detection}
+        HITL[Human Approval<br/>HITL Pause]
+        AUTO[Auto-Approve]
+    end
+    
+    subgraph "Data Layer"
+        PINECONE[(Pinecone<br/>Vector DB)]
+        S3[(AWS S3<br/>Cloud Storage)]
+        PAYLOADS[(Local JSON<br/>Payloads)]
+        LOGS[(Structured Logs<br/>ReAct Traces)]
+    end
+    
+    subgraph "Interface Layer"
+        FASTAPI[FastAPI :8000<br/>REST API]
+        STREAMLIT[Streamlit :8501<br/>Dashboard UI]
+    end
+    
+    DAG3 -->|HTTP/CLI| MCP
+    DAG4 --> DAG1 & DAG2 & DAG3
+    MCP --> TOOL1 & TOOL2 & RES1 & PROMPT1
+    MCP --> SUPER
+    SUPER --> PLANNER & EVAL & RISK
+    SUPER --> GRAPH
+    GRAPH --> NODE1 --> NODE2 --> NODE3 --> NODE4 --> NODE5
+    NODE5 -->|Risk Found| HITL --> PAYLOADS
+    NODE5 -->|No Risk| AUTO --> PAYLOADS
+    TOOL1 & TOOL2 --> PINECONE & PAYLOADS
+    PAYLOADS --> S3
+    SUPER --> LOGS
+    FASTAPI --> PINECONE & PAYLOADS
+    STREAMLIT --> FASTAPI
+    
+    classDef airflowStyle fill:#f9f,stroke:#333,stroke-width:2px
+    classDef mcpStyle fill:#bbf,stroke:#333,stroke-width:2px
+    classDef agentStyle fill:#bfb,stroke:#333,stroke-width:2px
+    classDef workflowStyle fill:#ffb,stroke:#333,stroke-width:2px
+    classDef dataStyle fill:#fbb,stroke:#333,stroke-width:2px
+    
+    class DAG1,DAG2,DAG3,DAG4 airflowStyle
+    class MCP,TOOL1,TOOL2,RES1,PROMPT1 mcpStyle
+    class SUPER,PLANNER,EVAL,RISK agentStyle
+    class GRAPH,NODE1,NODE2,NODE3,NODE4,NODE5,HITL,AUTO workflowStyle
+    class PINECONE,S3,PAYLOADS,LOGS dataStyle
 ```
 
 ---
 
-## 3. Configure Environment Variables
+## 📦 Setup Instructions
+
+### 1️⃣ Prerequisites
+
+- Python 3.11+
+- Docker 20.10+
+- Docker Compose 2.0+
+- Git (latest)
+- OpenAI API key (required)
+- Pinecone API key (required)
+- Airflow 2.10+
+- AWS credentials (S3,EC2)
+
+---
+
+### 2️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Binary-Insights/Assignment_05.git
+cd Assignment_05
+```
+
+---
+
+### 3️⃣ Configure Environment Variables
+
 Create a `.env` file in the project root:
 
 ```bash
-# OpenAI
-OPENAI_API_KEY=sk-...
+# Copy example configuration
+cp .env.example .env
+```
 
-# Pinecone (for RAG pipeline)
-PINECONE_API_KEY=your-pinecone-key
-PINECONE_INDEX_NAME=bigdata-assignment-04
+Edit `.env` with your credentials:
+
+```bash
+# ===== REQUIRED: OpenAI Configuration =====
+OPENAI_API_KEY=sk-proj-...your-key-here...
+
+# ===== REQUIRED: Pinecone Configuration =====
+PINECONE_API_KEY=pcsk_...your-key-here...
+PINECONE_INDEX_NAME=bigdata-assignment-05
 PINECONE_NAMESPACE=default
+PINECONE_EMBEDDING_DIMENSION=3072
+PINECONE_EMBEDDING_MODEL=text-embedding-3-large
 
-# AWS S3 (for cloud storage)
-AWS_ACCESS_KEY_ID=your-aws-key-id
-AWS_SECRET_ACCESS_KEY=your-aws-secret
+# ===== OPTIONAL: AWS S3 Configuration =====
+AWS_ACCESS_KEY_ID=AKIA...your-key...
+AWS_SECRET_ACCESS_KEY=your-secret-key
 AWS_DEFAULT_REGION=us-east-1
-S3_BUCKET_NAME=damg-assignment-04-airflow
+S3_BUCKET_NAME=pe-dashboard-ai50
 
-# Airflow Configuration
-AIRFLOW_UID=$(id -u)
-AIRFLOW__CORE__LOAD_EXAMPLES=False
-AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
-AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG=10
+# ===== OPTIONAL: LangSmith Tracing =====
+LANGSMITH_API_KEY=lsv2_pt_...your-key...
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=orbit-assignment-05
+
+# ===== Airflow Configuration =====
+AIRFLOW_UID=50000
+_AIRFLOW_WWW_USER_USERNAME=airflow
+_AIRFLOW_WWW_USER_PASSWORD=airflow
+AIRFLOW__CORE__LOAD_EXAMPLES=false
+AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=true
+
+# ===== Application Configuration =====
+LOG_LEVEL=INFO
+PROJECT_NAME=Assignment_05
 ```
 
 ---
 
-## 4. Install Python Dependencies (Local Dev)
+### 4️⃣ Local Development Setup (Optional)
+
+For local development without Docker:
+
 ```bash
+# Create virtual environment
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# with uv in Linusx
+uv venv .venv
+
+# Activate virtual environment
+# Windows (PowerShell):
+.venv\Scripts\Activate.ps1
+# macOS/Linux:
+source .venv/bin/activate
+
+# Install dependencies
+uv sync 
+
 pip install -r requirements.txt
 ```
 
 ---
 
-## 5. Build & Start Docker
+### 5️⃣ Start Services with Docker
+
 ```bash
+# Build and start all services
 cd docker
 docker-compose build --no-cache
 docker-compose up -d
-```
 
-Wait 30–60 seconds for all services to initialize.
+# Wait 30-60 seconds for initialization
+```
 
 ---
 
-## 6. Verify Services
-```bash
-docker ps
-```
-
-Expected output:
-- `airflow-scheduler`
-- `airflow-webserver` (http://localhost:8080)
-- `fastapi` (http://localhost:8000)
-- `streamlit` (http://localhost:8501)
-
----
-
-## 7. Access Interfaces
+### 6️⃣ Access Web Interfaces
 
 | Service | URL | Credentials |
 |---------|-----|-------------|
-| **Airflow UI** | http://localhost:8080 | `airflow` / `airflow` |
-| **FastAPI Docs** | http://localhost:8000/docs | N/A (Swagger) |
-| **Streamlit Dashboard** | http://localhost:8501 | N/A (web) |
+| **Airflow UI** | http://98.95.70.0:8080 | `airflow` / `airflow` |
+| **MCP Server** | http://98.95.70.0:9000 | N/A (API) |
+| **FastAPI Docs** | http://98.95.70.0:8000/docs | N/A |
+| **Streamlit Dashboard** | http://98.95.70.0:8501 | N/A 
 
----
 
-## 8. Run Pipelines
-
-**Full Load (first-time):**
-```bash
-docker-compose exec airflow-webserver airflow dags trigger ai50_full_ingest_dag
-```
-
-**Daily Refresh:**
-```bash
-docker-compose exec airflow-webserver airflow dags trigger ai50_daily_refresh_dag
-```
-
----
-
-## 8a. Alternative DAGs
-
-| DAG | Command | Purpose |
-|-----|---------|---------|
-| **Discover** | `airflow dags trigger discover_ai50_dag` | Fetch companies & discover pages |
-| **Process Pages** | `airflow dags trigger process_pages_dag` | Scrape with Selenium |
-| **Store to S3** | `airflow dags trigger store_ai50_data_dag` | Upload raw data & metadata |
-
----
-
-## 9. Vector Indexing
-
-```bash
-python src/rag/ingest_to_pinecone.py --all --verbose
-```
-
-Chunks text (500 chars), generates embeddings, upserts to Pinecone.
-
----
-
-## 10. Structured Extraction
-
-```bash
-python src/rag/structured_extraction.py --all --verbose
-```
-
-Extracts company records, events, products, leadership using GPT-4o + Instructor.
-
----
-
-## 11. Generate Dashboards
-
-**FastAPI:**
-```bash
-curl -X POST http://localhost:8000/dashboard/rag \
-  -H "Content-Type: application/json" \
-  -d '{"company_id": "world-labs"}'
-```
-
-**Streamlit:** Open http://localhost:8501, select company, choose pipeline.
-
----
-
-## 12. Evaluate Pipelines
-
-```bash
-python src/backend/evaluate_rag_vs_structured.py
-```
-
-Scores both pipelines on factuality, schema adherence, provenance, hallucination, readability.
-
----
-
-## 13. Stop Services
-
-```bash
-docker-compose down -v
-```
-
----
-
-## 14. Troubleshooting
-
-| Issue | Fix |
-|-------|-----|
-| OpenAI error | Check `OPENAI_API_KEY` in `.env` |
-| Pinecone failed | Verify `PINECONE_API_KEY`, `PINECONE_INDEX_NAME` |
-| Selenium timeout | Increase timeout or retry problematic sites |
-| S3 upload fails | Check AWS credentials and bucket permissions |
-| DAG not visible | Restart scheduler: `docker-compose restart airflow-scheduler` |
-| Out of memory | Reduce `max_active_tasks_per_dag` in `.env` |
-| Docker build fails | Run `docker system prune` with `--no-cache` |
-
----
-
-## Architecture Diagram
-
-![Project ORBIT Architecture](docs/architecture_diagram.png)
-
----
-
-## Folder Structure
+## 📂 Project Structure
 
 ```
-Assignment_04/
-├── src/discover/               # Phase 0: Discovery
-├── src/rag/                    # Phase 2-5: RAG & Structured
-├── src/backend/                # Phase 4: API
-├── src/frontend/               # Phase 4: UI
-├── src/dags/                   # Alternative DAGs
-├── dags/                       # Main orchestration DAGs
-├── docker/                     # Containerization
-├── data/                       # Raw, structured, vectors, payloads
-├── chromedriver/               # Selenium
-└── templates/                  # Prompt templates
+Assignment_05/
+├── 📁 src/                         
+│   ├── 📁 mcp_server/                   
+│   │   └── mcp_enrichment_client.py          
+│   ├── 📁 dags/
+│   │   ├── discover_dag.py                     
+│   │   ├── process_pages_dag.py     
+│   │   ├── ingest_dag.py            
+│   │   ├── extraction_dag.py
+│   │   ├── storing_dag.py
+│   │   ├── dashboard_generation.py 
+│   │   ├── eval_runner_dag.py
+│   │   ├── master_orchestrator_dag.py        
+│   │   ├── agentic_rag_dag.py      
+│   │   ├── payload_agent_dag.py     
+│   │   └── enrichment_dag.py
+│   ├── 📁 rag/                      
+│   │   ├── ingest_to_pinecone.py    
+│   │   ├── rag_pipeline.py          
+│   │   └── structured_extraction_search.py
+│   │   └── rag_models.py                
+│   ├── 📁 payload_agent/           
+│   │   ├── payload_agent.py         
+│   │   ├── payload_workflow.py
+│   │   ├── tools/rag_adapter.py 
+│   │   ├── tools/validation.py
+│   │   └── tools/retrieval.py     
+│   ├── 📁 tavily_agent/            
+│   │   ├── main.py                  
+│   │   └── file_io_manager.py       
+│   ├── 📁 discover/                 
+│   │   ├── discover.py         
+│   │   └── process_discovered_pages.py       
+│   ├── 📁 backend/                  
+│   │   └── rag_search_api.py                   
+│   ├── 📁 frontend/ 
+│   │   ├── eval_dashboard.py                
+│   │   └── streamlit_app.py         
+│   ├── 📁 evals/                    
+│   │   └── results_evaluator.py             
+│   └── 📁 prompts/                 
+│       ├── pe_dashboard.md           
+├── 📁 docker/                      
+│   ├── Dockerfile                   
+│   ├── docker-compose.yml           
+│   ├── .env.example                                
+├── 📁 docs/                      
+│   ├── 00_START_HERE.md           
+│   ├── QUICKSTART.md                
+│   ├── EVALUATION_GUIDE.md         
+│   ├── REACT_QUICK_REFERENCE.md     
+│   └── WORKFLOW_GRAPH.md           
+├── 📁 tests/                       
+│   ├── test_payload_tools.py       
+│   └── test_payload_workflow.py     
+├── .env.example                  
+├── pyproject.toml                  
+├── requirements.txt               
+├── Assignment5.md                 
+├── README.md                       
+
+
 ```
-
----
-
-# Evaluation Report: Structured vs RAG Pipelines
-Generated: 2025-11-08T16:34:53.044297Z
-## Summary
-| Company | Method | Factual (0-3) | Schema (0-2) | Provenance (0-2) | Hallucination (0-2) | Readability (0-1) | MRR | Total (0-14) |
-|---------|--------|--------------|--------------|-------------------|----------------------|-------------------|-----|--------|
-| Abridge | Structured | 2 | 1 | 0 | 1 | 0 | 1.00 | 6.0 |
-| Abridge | Rag | 2 | 1 | 0 | 1 | 0 | 1.00 | 6.0 |
-| Anthropic | Structured | 2 | 1 | 0 | 1 | 0 | 1.00 | 6.0 |
-| Anthropic | Rag | 2 | 1 | 0 | 1 | 0 | 1.00 | 6.0 |
-| World Labs | Structured | 2 | 1 | 0 | 1 | 0 | 1.00 | 6.0 |
-| World Labs | Rag | 2 | 1 | 0 | 1 | 0 | 1.00 | 6.0 |
-
-## Summary Statistics
-**Structured Pipeline**: Average Score = 6.00/14
-**RAG Pipeline**: Average Score = 6.00/14
-
-## Mean Reciprocal Ranking (MRR) Analysis
-**Structured Pipeline** Average MRR: 1.000
-**RAG Pipeline** Average MRR: 1.000
-
-> MRR measures how well important facts are ranked (higher is better, 1.0 is perfect)
-
----
-
-## Key Features
-
-✅ End-to-End Automation | ✅ Dual Pipelines (RAG & Structured)  
-✅ LLM-Powered Discovery | ✅ JavaScript Rendering  
-✅ Semantic Search (Pinecone) | ✅ Type-Safe Extraction  
-✅ Airflow Orchestration | ✅ Streamlit Dashboard  
-✅ Evaluation Framework | ✅ Cloud-Ready (Docker + S3)
 
 ---
 
 ## Links
 
 📚 [Full Technical Codelabs](https://codelabs-preview.appspot.com/?file_id=1hCRRMtxdtcyp1OVLlNYxGbYM1qvOBnoxT4442yt5ZXY#0) — Detailed walkthrough  
-📋 [Assignment Requirements](./Assignment.md) — Lab breakdown  
+📋 [Assignment Requirements](./Assignment5.md) — Lab breakdown  
 🎥 [Demo Video]() — Project walkthrough
 
 ---
-
-## Tech Stack
-
-Selenium | ChromeDriver | BeautifulSoup | AWS S3 | Apache Airflow | Pinecone | LangChain | Pydantic | Instructor | GPT-4o | OpenAI Embeddings | FastAPI | Streamlit | Docker
-
----
-
-WE ATTEST THAT WE HAVEN'T USED ANY OTHER STUDENTS' WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
-
-
-
-
-
-
