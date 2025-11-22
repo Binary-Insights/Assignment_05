@@ -8,6 +8,8 @@
 !data/payloads
 !data/eval
 !data/llm_response
+!data/graph
+
 # qdrant storage folder
 qdrant_storage/
 

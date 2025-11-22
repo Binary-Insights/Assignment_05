@@ -1,0 +1,133 @@
+
+================================================================================
+MASTER ORCHESTRATOR WORKFLOW
+================================================================================
+
+                            ┌─────────────────────┐
+                            │  START              │
+                            │  Load Initial       │
+                            │  Payload            │
+                            └──────────┬──────────┘
+                                       │
+                                       ▼
+                       ┌───────────────────────────────┐
+                       │   Check Enabled Agents        │
+                       └───────────────────────────────┘
+                                       │
+              ┌────────────────────────┴─────────────────────────┐
+              │                                                   │
+              ▼                                                   ▼
+    ┌─────────────────────┐                           ┌─────────────────────┐
+    │  PHASE 1            │                           │  PHASE 2            │
+    │  Tavily Agent       │                           │  Payload Agent      │
+    │  (if enabled)       │                           │  (if enabled)       │
+    └─────────────────────┘                           └─────────────────────┘
+              │                                                   │
+              │  ┌───────────────────────────────┐              │
+              └─▶│  Web Search via Tavily API    │              │
+                 │  - company_record fields      │              │
+                 │  - Provenance tracking        │              │
+                 │  - Auto-save with versioning  │              │
+                 └───────────────┬───────────────┘              │
+                                 │                               │
+                                 │  ┌───────────────────────────┴──────────┐
+                                 └─▶│  Vector Search via Pinecone           │
+                                    │  - Entity extraction (events, etc.)   │
+                                    │  - LLM-powered field filling          │
+                                    │  - Auto-save with versioning          │
+                                    └───────────────┬───────────────────────┘
+                                                    │
+                                                    ▼
+                                    ┌───────────────────────────────┐
+                                    │  MERGE RESULTS                │
+                                    │  - Load final payload         │
+                                    │  - Count enriched fields      │
+                                    │  - Count extracted entities   │
+                                    │  - Generate statistics        │
+                                    └───────────────┬───────────────┘
+                                                    │
+                                                    ▼
+                                    ┌───────────────────────────────┐
+                                    │  PRINT SUMMARY                │
+                                    │  - Execution time             │
+                                    │  - Fields filled              │
+                                    │  - Entities added             │
+                                    │  - Error details (if any)     │
+                                    └───────────────┬───────────────┘
+                                                    │
+                                                    ▼
+                                            ┌───────────────┐
+                                            │  END          │
+                                            │  Success/Fail │
+                                            └───────────────┘
+
+================================================================================
+PHASE 1: TAVILY AGENT DETAILS
+================================================================================
+
+Tavily Agent enriches company_record fields using web search:
+
+    Input: company_id
+       ↓
+    ┌──────────────────────────────────────┐
+    │  LangGraph Workflow (Tavily)         │
+    ├──────────────────────────────────────┤
+    │  1. Analyze payload (find nulls)     │
+    │  2. Generate search queries          │
+    │  3. Execute Tavily searches          │
+    │  4. Extract values with LLM          │
+    │  5. Update payload fields            │
+    │  6. Save with auto-versioning        │
+    └──────────────────────────────────────┘
+       ↓
+    Output: Enriched company_record
+    Files: {company_id}.json, {company_id}_v*.json (backups)
+
+Fields enriched:
+    - brand_name, hq_city, hq_state, hq_country
+    - founded_year, categories
+    - total_raised_usd, last_disclosed_valuation_usd
+    - last_round_name, last_round_date
+
+================================================================================
+PHASE 2: PAYLOAD AGENT DETAILS
+================================================================================
+
+Payload Agent extracts entities using Pinecone vector search:
+
+    Input: company_id
+       ↓
+    ┌──────────────────────────────────────┐
+    │  LangGraph Workflow (Payload)        │
+    ├──────────────────────────────────────┤
+    │  1. Retrieve payload                 │
+    │  2. Validate structure               │
+    │  3. Search Pinecone vectors          │
+    │  4. Extract entities with LLM        │
+    │  5. Fill entity arrays               │
+    │  6. Save with auto-versioning        │
+    └──────────────────────────────────────┘
+       ↓
+    Output: Enriched entity arrays
+    Files: {company_id}.json (updated), {company_id}_v*.json (backups)
+
+Entities extracted:
+    - events[] - funding, partnerships, product releases
+    - products[] - product details, pricing
+    - leadership[] - executives, founders
+    - snapshots[] - headcount, job openings
+    - visibility[] - news mentions, ratings
+
+================================================================================
+VERSIONING SYSTEM
+================================================================================
+
+Auto-versioning ensures no data loss:
+
+    First save:  → company.json
+    Second save: → company_v1.json (backup) + company.json (new)
+    Third save:  → company_v2.json (backup) + company.json (new)
+
+Both agents use the same versioning system, so all updates are tracked.
+
+================================================================================

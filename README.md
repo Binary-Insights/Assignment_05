@@ -49,7 +49,14 @@ This project extends Assignment 4 with **autonomous agent capabilities**:
 ## 🏗️ System Architecture
 
 ![Project ORBIT Architecture](docs/architecture_diagram.png)
+
 ---
+
+## Graph Workflow
+
+![Tavily Agent](graph/graph_visualization.png)
+
+![Payload Agent](graph/payload_workflow_graph.png)
 
 ## 📦 Quick Start
 
