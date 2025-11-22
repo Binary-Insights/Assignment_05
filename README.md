@@ -54,9 +54,13 @@ This project extends Assignment 4 with **autonomous agent capabilities**:
 
 ## Graph Workflow
 
-![Tavily Agent](graph/graph_visualization.png)
+## Tavily Agent
 
-![Payload Agent](graph/payload_workflow_graph.png)
+![Tavily Agent](data/graph/graph_visualization.png)
+
+## Payload Agent
+
+![Payload Agent](data/graph/payload_workflow_graph.png)
 
 ## 📦 Quick Start
 
