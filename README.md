@@ -256,10 +256,10 @@ open htmlcov/index.html
 
 | Service | Local URL | EC2 URL | Credentials |
 |---------|-----------|---------|-------------|
-| **Airflow UI** | http://localhost:8080 | http://98.95.70.0:8080 | `airflow` / `airflow` |
-| **MCP Server** | http://localhost:9000 | http://98.95.70.0:9000 | N/A (API) |
-| **FastAPI Docs** | http://localhost:8000/docs | http://98.95.70.0:8000/docs | N/A |
-| **Streamlit Dashboard** | http://localhost:8501 | http://98.95.70.0:8501 | N/A 
+| **Airflow UI** | http://localhost:8080 | http://44.213.50.58:8080 | `airflow` / `airflow` |
+| **MCP Server** | http://localhost:9000 | http://44.213.50.58:9000 | N/A (API) |
+| **FastAPI Docs** | http://localhost:8000/docs | http://44.213.50.58:8000/docs | N/A |
+| **Streamlit Dashboard** | http://localhost:8501 | http://44.213.50.58:8501 | N/A 
 
 
 ## 📂 Project Structure
