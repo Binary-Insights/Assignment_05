@@ -70,10 +70,10 @@ Access the production deployment on AWS EC2:
 
 | Service | URL | Credentials |
 |---------|-----|-------------|
-| **Airflow UI** | http://98.95.70.0:8080 | `airflow` / `airflow` |
-| **MCP Server** | http://98.95.70.0:9000 | N/A (API) |
-| **FastAPI Docs** | http://98.95.70.0:8000/docs | N/A |
-| **Streamlit Dashboard** | http://98.95.70.0:8501 | N/A |
+| **Airflow UI** | http://44.213.50.58:8080 | `airflow` / `airflow` |
+| **MCP Server** | http://44.213.50.58:9000 | N/A (API) |
+| **FastAPI Docs** | http://44.213.50.58:8000/docs | N/A |
+| **Streamlit Dashboard** | http://44.213.50.58:8501 | N/A |
 
 ### 🛠️ Option B: Local Development Setup
 
