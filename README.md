@@ -446,7 +446,7 @@ enriched = await client.enrich_payload(
 
 📚 **[Full Technical Codelabs](https://codelabs-preview.appspot.com/?file_id=1ibeTrsOHlACsSpoRAOsVegIjVwM7bivPmKhUL0MBTd0)** — Complete step-by-step guide (500+ lines)  
 📋 **[Assignment Requirements](./Assignment5.md)** — Lab breakdown & requirements  
-🎥 **[Demo Video]()** — Project walkthrough (TBD)  
+🎥 **[Demo Video](https://drive.google.com/file/d/1nLetfUPS_sv22CgsM1LA_bW5TlZ1prEo/view?usp=sharing)** — Project walkthrough (TBD)  
 
 
 ---
